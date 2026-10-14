@@ -1,5 +1,7 @@
 # AP EV/SIMS overnight build report
 
+This is the historical overnight checkpoint. See RESUME_STATUS.md, TASK_STATE.json and PHASE2_PROGRESS.md for the latest resumed work and current test/data counts.
+
 Generated: 2026-10-14T07:35:39.551799+00:00
 **OVERNIGHT_COMPLETE: PARTIAL.** The local implementation checkpoint is saved; there is no validated betting model and no demonstrated profitability.
 

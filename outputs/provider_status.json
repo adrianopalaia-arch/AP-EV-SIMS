@@ -12,9 +12,9 @@
     "credential_present": true,
     "historical_access": true,
     "historical_feature_availability": "HISTORICAL_AVAILABILITY_UNVERIFIED",
-    "last_success": "2026-10-14T22:05:57.427725+00:00",
+    "last_success": "2026-10-14T22:11:41.334797+00:00",
     "quota_metadata": {
-      "x-calllimit-remaining": 984
+      "x-calllimit-remaining": 983
     },
     "relevant_endpoint_status": [
       {
@@ -82,6 +82,13 @@
       },
       {
         "checked_at": "2026-10-14T22:05:57.427725+00:00",
+        "draftkings_returned": null,
+        "endpoint": "games",
+        "fanduel_returned": null,
+        "status": 200
+      },
+      {
+        "checked_at": "2026-10-14T22:11:41.334797+00:00",
         "draftkings_returned": null,
         "endpoint": "games",
         "fanduel_returned": null,

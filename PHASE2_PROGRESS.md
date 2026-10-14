@@ -1,6 +1,6 @@
 # AP EV/SIMS Phase 2 progress
 
-Updated: 2026-10-14T22:10:43.449922+00:00
+Updated: 2026-10-14T22:12:19.315759+00:00
 
 This is the single reconciled execution checklist. Scope is frozen. COMPLETE describes tested implementation, not empirical model approval.
 
@@ -18,7 +18,7 @@ No real wagers, automatic promotions, purchases, or account changes.
 | CFB.total | BLOCKED | Keep CFBTotalModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted. Blocker: No timestamp-authentic joined historical odds/features dataset; zero empirical model observations |
 | FOUNDATION.GitHub_handoff | BLOCKED | Keep tested local commits; retry push at checkpoints or use the manual push command. Blocker: GitHub reads succeed; native push fails at credential-helper authentication. The remote is still at the connection-test commit. |
 | FOUNDATION.calibration | COMPLETE | Keep fit/selection/evaluation chronologically separate; attach only to exact fitted artifact. |
-| FOUNDATION.canonical_identity | BLOCKED | Collect timestamp-safe roster and schedule revision archives; preserve uniquely mapped source team IDs. Blocker: Current CFB identity: 60/62 matched; 2 unmatched. Other-sport player identity and historical mapping proof remain absent. |
+| FOUNDATION.canonical_identity | BLOCKED | Collect timestamp-safe roster and schedule revision archives; preserve uniquely mapped source team IDs. Blocker: Current CFB identity: 61/62 matched; 1 unmatched. Other-sport player identity and historical mapping proof remain absent. |
 | FOUNDATION.champion_challenger | BLOCKED | Register the first real experiment before fitting; preserve one-use final holdout and manual promotion. Blocker: No real champion, challenger or prospective holdout observations. |
 | FOUNDATION.feature_source_audits | BLOCKED | Enable only provenance-proven features; run pre-registered matched source/feature ablations on unseen samples. Blocker: Inventory is complete; historical coverage, full-universe missingness and incremental value remain unmeasured. |
 | FOUNDATION.historical_provider_access | BLOCKED | Do not retry until entitlement changes; accumulate owned current snapshots. Blocker: BLOCKED_BY_HISTORICAL_ODDS_ACCESS; authenticated current access succeeds but historical HTTP 401 |

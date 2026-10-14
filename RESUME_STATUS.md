@@ -1,6 +1,6 @@
 # Resume checkpoint
 
-Updated: 2026-10-14T22:10:42.391474+00:00
+Updated: 2026-10-14T22:12:18.238444+00:00
 
 Repository: `C:\Users\adria\Documents\Codex\2026-10-13\files-mentioned-by-the-user-ap\outputs\AP-EV-SIMS`. Branch: `ap-evisims-live`.
 Resumed from 69c1428df9545de1709581f3006d5ea7b9d39160 with a clean checkout; no local work was discarded.
@@ -18,10 +18,11 @@ Both credentials are accessible. CFBD games, Odds sports and current CFB odds re
 
 ## Real data and evidence
 
-- 594 unique CFBD games, 295 currently final; sampled 2025 week 6 and 2026 week 7, not complete seasons.
-- 32 accepted source snapshots; 9088 source rows including revisions.
+- 896 unique CFBD games, 295 currently final; sampled year/week queries: [(2025, 6), (2026, 7), (2026, 8)], not complete seasons.
+- 33 accepted source snapshots; 9390 source rows including revisions.
 - 12 sportsbook response snapshots; 16990 market-side quote observations, including repeated captures.
-- CFB identities: 60 matched, 2 unmatched. Hash failures: 0; schema/identity conflicts: 0.
+- CFB identities: 61 matched, 1 unmatched. Hash failures: 0; schema/identity conflicts: 0.
+- The new week-8 game capture resolves Marshall/South Alabama. Minnesota/Iowa remains excluded because CFBD does not confirm its start time. No placeholder time is treated as verified.
 - Historical sportsbook snapshots: 0. Qualifying historical/prospective model evaluation observations: 0. Synthetic observations in real metrics: 0.
 - No approved model, betting recommendation, profitability claim, automatic wager or model promotion.
 

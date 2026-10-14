@@ -16,18 +16,18 @@
   "feed_hashes": {
     "bankroll_state.json": "0b33c276fda76eda6a18c0470e55c73e220e160d4e9791e3298200c50ef2edf6",
     "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "latest_passes.json": "6b4e2c0e8236387a5923fe7ee9ea170eec8f3d3a2f75f8c6321b970fabc650f1",
+    "latest_passes.json": "53bc31d98ac648574046dfa7056a18e4c65621c3fbce90702b5f93c845addf4f",
     "latest_predictions.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
-  "generated_at": "2026-10-14T22:10:42.391474+00:00",
-  "git_commit": "f8a72cbdfaf1d24613768e9230fdd6d37aa6c2e1",
+  "generated_at": "2026-10-14T22:12:18.238444+00:00",
+  "git_commit": "93d0f79b5070a9e5ff9f74e22c20836a40d96a1a",
   "historical_odds_access": "NO",
   "next_task": "CFB.spread: eligible-game universe and verified feature-to-Phase1 integration",
   "providers_ok": true,
-  "publication_generation": "1a22503198151cf5bd85cf5a30e26a54e616ecd519ebbe6272b3596e10b23f9c",
+  "publication_generation": "8163e4a2e72e7542b2336b000bdef33ec95d7bb2ebc79a7b2db5ce21191fdb12",
   "publication_task": "FOUNDATION.GitHub_handoff",
   "reader_contract": "Verify canonical JSON SHA256 (sorted keys, compact separators, ensure_ascii=True) against this manifest; retry on a generation mismatch.",
-  "research_cycle_id": "progress-2026-10-14T22:10:43.449922+00:00",
+  "research_cycle_id": "progress-2026-10-14T22:12:19.315759+00:00",
   "sports_updated": [],
   "tests_failed": 0,
   "tests_passed": 171

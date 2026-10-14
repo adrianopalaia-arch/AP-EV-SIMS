@@ -1,6 +1,6 @@
 # AP EV/SIMS Morning Card
 
-Generated: 2026-10-14T22:10:42.391474+00:00
+Generated: 2026-10-14T22:12:18.238444+00:00
 
 ## Model health
 All markets UNVALIDATED. Zero qualifying empirical model observations.

@@ -1,8 +1,8 @@
 # Data health
 
-Source snapshots: 32; source rows: 9088; quote observations: 16990.
+Source snapshots: 33; source rows: 9390; quote observations: 16990.
 Hash failures: 0; identity/schema failures: 0.
-Logical disk bytes (hard links may be counted twice): 43210693.
+Logical disk bytes (hard links may be counted twice): 47610754.
 
 Historical publication availability is not inferred from event dates. Zero rows currently qualify for a historical CFB betting evaluation.
 A complete eligible-game universe has not yet been audited. Missing-period and selection-bias rates are unmeasured, not zero.
