@@ -822,6 +822,7 @@
       }
     }
   },
+  "checkpoint_activity": "STATUS_VERIFICATION_ONLY_NO_NEW_IMPLEMENTATION",
   "completion": "PARTIAL",
   "credential_check": {
     "cfbd_present": true,
@@ -884,6 +885,7 @@
       }
     ]
   },
+  "last_checkpoint_at": "2026-10-14T22:36:21.189785+00:00",
   "last_remote_verified_at": "2026-10-14T22:13:39.467379+00:00",
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
   "next_task": "CFB.spread: eligible-game universe and verified feature-to-Phase1 integration",
@@ -1084,7 +1086,8 @@
     "passed": 171,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-14T22:13:39.467379+00:00"
+    "verified_at": "2026-10-14T22:36:21.189785+00:00",
+    "verified_source_commit": "87bb6270fb3ab0ec6cf593418afb9bdcaae727d3"
   },
-  "updated_at": "2026-10-14T22:13:40.546324+00:00"
+  "updated_at": "2026-10-14T22:36:21.193786+00:00"
 }

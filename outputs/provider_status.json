@@ -2,7 +2,9 @@
   "availability": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
-    "historical_access": null
+    "historical_access": null,
+    "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
+    "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   },
   "cfbd": {
     "authentication_status": "OK",
@@ -94,22 +96,30 @@
         "fanduel_returned": null,
         "status": 200
       }
-    ]
+    ],
+    "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
+    "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   },
   "moneypuck": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
-    "historical_access": null
+    "historical_access": null,
+    "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
+    "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   },
   "nba": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
-    "historical_access": null
+    "historical_access": null,
+    "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
+    "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   },
   "nflverse": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
-    "historical_access": null
+    "historical_access": null,
+    "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
+    "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   },
   "odds_api": {
     "authentication_status": "OK",
@@ -215,16 +225,22 @@
         "fanduel_returned": true,
         "status": 200
       }
-    ]
+    ],
+    "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
+    "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   },
   "statcast": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
-    "historical_access": null
+    "historical_access": null,
+    "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
+    "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   },
   "weather": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
-    "historical_access": null
+    "historical_access": null,
+    "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
+    "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   }
 }

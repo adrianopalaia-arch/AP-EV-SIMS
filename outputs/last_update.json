@@ -1,6 +1,15 @@
 {
   "branch": "ap-evisims-live",
+  "checkpoint_generated_at": "2026-10-14T22:36:21.189785+00:00",
+  "checkpoint_only": true,
   "commit_semantics": "source HEAD before this publication commit",
+  "completed_steps": [
+    "FOUNDATION.p_low.diagnostic_bound",
+    "FOUNDATION.p_low.fail_closed_decision_gate",
+    "FOUNDATION.settlement_accounting.as_of_result_revisions",
+    "FOUNDATION.settlement_accounting.bounded_cfbd_refresh",
+    "FOUNDATION.settlement_accounting.frozen_replay_reconciliation"
+  ],
   "completed_tasks": [
     "FOUNDATION.calibration",
     "FOUNDATION.local_warehouse",
@@ -13,21 +22,30 @@
   "current_passes": 1466,
   "current_predictions": 0,
   "current_task": "RESULT_REFRESH_AND_DECISION_GUARDS_COMPLETE",
+  "earliest_blocked_dependency": "FOUNDATION.historical_provider_access",
+  "feed_generated_at": "2026-10-14T22:13:39.467379+00:00",
   "feed_hashes": {
     "bankroll_state.json": "0b33c276fda76eda6a18c0470e55c73e220e160d4e9791e3298200c50ef2edf6",
     "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "latest_passes.json": "a4a43c6928a6503d073681d2fbcac2cc4e341d9846f10392bb40eb7830a61c04",
     "latest_predictions.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
-  "generated_at": "2026-10-14T22:13:39.467379+00:00",
-  "git_commit": "d72573e00a99f187cac85a5782b7d120a6d24046",
+  "generated_at": "2026-10-14T22:36:21.193786+00:00",
+  "git_commit": "87bb6270fb3ab0ec6cf593418afb9bdcaae727d3",
+  "github_push": "BLOCKED_SESSION_GITHUB_WRITE_ACCESS",
   "historical_odds_access": "NO",
   "next_task": "CFB.spread: eligible-game universe and verified feature-to-Phase1 integration",
+  "provider_status_basis": "LAST_RECORDED_PROBE_NO_NEW_NETWORK_CHECK",
   "providers_ok": true,
   "publication_generation": "54ec0e7f410d41341f4b5abe242309350858120262630ef61af9a9928dbb4b64",
   "publication_task": "FOUNDATION.GitHub_handoff",
   "reader_contract": "Verify canonical JSON SHA256 (sorted keys, compact separators, ensure_ascii=True) against this manifest; retry on a generation mismatch.",
-  "research_cycle_id": "progress-2026-10-14T22:13:40.546324+00:00",
+  "real_sample_sizes": {
+    "market_side_quote_observations": 16990,
+    "qualifying_model_evaluation": 0,
+    "unique_cfbd_games": 896
+  },
+  "research_cycle_id": "progress-2026-10-14T22:36:21.193786+00:00",
   "sports_updated": [],
   "tests_failed": 0,
   "tests_passed": 171
