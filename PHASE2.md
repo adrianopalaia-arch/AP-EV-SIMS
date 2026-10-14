@@ -16,8 +16,20 @@ $env:PYTHONPATH = 'src'
 ```
 
 `sync_data --offline` imports already archived sources. `sync_data --cfbd-year
-2026 --cfbd-week 7` downloads that explicit query only if absent. It does not yet
-refresh changed game status; future result revisions need explicit capture.
+2026 --cfbd-week 7` downloads that explicit query only if absent. To capture a
+new game-status or score revision, add `--refresh-cfbd-games`. Refresh requires
+both year and week, defaults to a one-hour cooldown, and counts failed attempts
+toward that cooldown. `--min-refresh-seconds` cannot be less than 60. Successful
+responses become new immutable snapshots; schema failures never replace accepted
+results. No automatic result-polling scheduler is installed by this command.
+
+`reconcile_results --replay-ledger <existing.sqlite> --offline` reads only local
+verified CFBD game captures and appends result revisions to that ledger's frozen
+provider-history predictions. It preserves original predictions and prior
+results, refuses ambiguous scores or changed event start times, and reveals
+corrections only at their capture time. It does not settle cash or reconcile
+external account/exposure balances. Synthetic test ledgers are excluded.
+
 `collect_odds` preserves each observed two-sided line/price and records quota
 metadata. Cadence accelerates near starts, subject to the daily cap and reserve.
 The cap is based on locally recorded costs; the provider quota header remains the
@@ -80,6 +92,13 @@ conservative diagnostic recipe, **not proven individual probability coverage**;
 `coverage_validated` remains false. Scenario/role uncertainty is not empirically
 estimated. Real approval remains blocked until unseen and prospective evidence
 supports calibration, uncertainty, market advantage and execution.
+
+The Phase 2 decision bridge enforces `P_LOW_COVERAGE_UNVERIFIED` before any
+exposure reservation. An independently authenticated coverage approval mechanism
+is still unimplemented; setting a prediction's `coverage_validated` flag to true
+cannot approve it. Model probabilities remain in the research ledger. Feature
+fingerprint/context mismatches and missing or excessive model disagreement also
+produce explicit rejections. The original Phase 1 decision code is unchanged.
 
 The existing Phase 1 feature names, integer-line settlement restriction and
 supported-market list are deliberately unchanged. Phase 2's derived matchup

@@ -1,19 +1,19 @@
 {
   "cfb_matched_events": 60,
-  "cfb_unmatched_events": 0,
+  "cfb_unmatched_events": 2,
   "completed_cfbd_games": 295,
-  "current_quote_observations": 13896,
+  "current_quote_observations": 16990,
   "earliest_current_capture": "2026-10-14 06:19:23.928987+00:00",
   "earliest_usable_historical_date": null,
-  "generated_at": "2026-10-14T07:35:37.601494+00:00",
+  "generated_at": "2026-10-14T22:10:42.391474+00:00",
   "historical_2025_games": 292,
   "historical_sportsbook_snapshots": 0,
-  "latest_current_capture": "2026-10-14 07:31:17.755854+00:00",
+  "latest_current_capture": "2026-10-14 22:06:00.998437+00:00",
   "latest_usable_historical_date": null,
   "missingness": {
     "book_settlement_rule": 1.0,
     "calibrated_model": 1.0,
-    "current_cfb_identity_fraction": 0.0,
+    "current_cfb_identity_fraction": 0.03225806451612903,
     "historical_feature_universe": null,
     "quote_execution_proof": 1.0
   },
@@ -23,8 +23,17 @@
     2025,
     2026
   ],
-  "sportsbook_response_snapshots": 11,
+  "sportsbook_response_snapshots": 12,
   "synthetic_observations_in_real_metrics": 0,
   "unique_cfbd_games": 594,
-  "unmatched_reasons": []
+  "unmatched_reasons": [
+    {
+      "event_id": "6dab7d3b6ae25bd042a24a6e550a4f23",
+      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
+    },
+    {
+      "event_id": "a3ed14cd9d938b3c5bea48fb0c78805d",
+      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
+    }
+  ]
 }

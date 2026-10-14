@@ -69,7 +69,7 @@
     },
     "FOUNDATION": {
       "GitHub_handoff": {
-        "blocker": "GitHub write credentials inaccessible in this session. Local atomic PASS feed and safe publisher are implemented.",
+        "blocker": "GitHub reads succeed; native push fails at credential-helper authentication. The remote is still at the connection-test commit.",
         "dependencies": [],
         "files": [
           "src/ap_evsims/handoff.py",
@@ -103,7 +103,7 @@
         "updated_at": "2026-10-14T06:54:38.496450+00:00"
       },
       "canonical_identity": {
-        "blocker": "Current CFB identity: 60/60 matched; 0 unmatched. Other-sport canonical player identities and book settlement rules absent.",
+        "blocker": "Current CFB identity: 60/62 matched; 2 unmatched. Other-sport player identity and historical mapping proof remain absent.",
         "dependencies": [],
         "files": [
           "src/ap_evsims/identity.py",
@@ -118,7 +118,7 @@
           "tests/test_identity.py",
           "tests/test_governance_execution.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-14T22:10:42.391474+00:00"
       },
       "champion_challenger": {
         "blocker": "No real champion, challenger or prospective holdout observations.",
@@ -200,7 +200,7 @@
           "src/ap_evsims/research_store.py"
         ],
         "next_action": "Use local DuckDB/Parquet for remaining work. Preserve immutable versions.",
-        "real_sample_size": 8544,
+        "real_sample_size": 9088,
         "sample_unit": "captured source rows, including revisions",
         "status": "COMPLETE",
         "synthetic_sample_size": 0,
@@ -220,7 +220,7 @@
           "src/ap_evsims/providers/quota.py"
         ],
         "next_action": "Continue bounded prospective collection; cached history is immutable. No paid historical entitlement.",
-        "real_sample_size": 13896,
+        "real_sample_size": 16990,
         "sample_unit": "timestamped market-side quote observations",
         "status": "COMPLETE",
         "synthetic_sample_size": 0,
@@ -231,21 +231,29 @@
         "updated_at": "2026-10-14T07:10:20.832197+00:00"
       },
       "p_low": {
-        "blocker": "The derived bound exists but empirical coverage is unverified; coverage_validated remains false.",
+        "blocker": "Empirical coverage and independently authenticated approval are absent. The bridge now enforces P_LOW_COVERAGE_UNVERIFIED even if a caller asserts coverage_validated=true.",
         "dependencies": [],
         "files": [
           "src/ap_evsims/models/probability_calibration.py",
-          "src/ap_evsims/diagnostics.py"
+          "src/ap_evsims/diagnostics.py",
+          "src/ap_evsims/model_bridge.py"
         ],
+        "implementation_steps": {
+          "authenticated_coverage_approval": "NOT_STARTED",
+          "diagnostic_bound": "COMPLETE",
+          "empirical_coverage": "BLOCKED",
+          "fail_closed_decision_gate": "COMPLETE"
+        },
         "next_action": "Evaluate aggregate conservatism and clustered coverage diagnostics on untouched real predictions before approval.",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_phase2_calibration.py",
-          "tests/test_diagnostics_redteam.py"
+          "tests/test_diagnostics_redteam.py",
+          "tests/test_model_bridge_integrity.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-14T22:10:42.391474+00:00"
       },
       "provider_authentication": {
         "blocker": null,
@@ -281,21 +289,34 @@
         "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "settlement_accounting": {
-        "blocker": "Unknown real book rules and external account state. Local payoff and correction mechanics pass.",
+        "blocker": "Actual book rules and reconciled account/open-position inputs are absent. Automatic result polling and cash/exposure correction integration remain incomplete.",
         "dependencies": [],
         "files": [
           "src/ap_evsims/settlement.py",
-          "src/ap_evsims/accounting.py"
+          "src/ap_evsims/accounting.py",
+          "src/ap_evsims/operations.py",
+          "src/ap_evsims/results.py",
+          "src/ap_evsims/__main__.py"
         ],
-        "next_action": "Implement bounded explicit CFBD games refresh with immutable revisions and as-of retrieval; then rule/account reconciliation. This work is independent of historical odds access.",
+        "implementation_steps": {
+          "account_exposure_reconciliation": "NOT_STARTED",
+          "as_of_result_revisions": "COMPLETE",
+          "automatic_polling": "NOT_STARTED",
+          "book_rule_integration": "BLOCKED",
+          "bounded_cfbd_refresh": "COMPLETE",
+          "frozen_replay_reconciliation": "COMPLETE"
+        },
+        "next_action": "Complete verified book-rule and external account/exposure reconciliation; explicit CFBD refresh and local replay result revisions are implemented.",
         "real_sample_size": 0,
+        "result_archive_games": 594,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_replay_settlement.py",
-          "tests/test_accounting_promotions.py"
+          "tests/test_accounting_promotions.py",
+          "tests/test_result_refresh.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-14T22:10:42.391474+00:00"
       }
     },
     "MLB": {
@@ -809,26 +830,27 @@
     "env_tracked": false,
     "odds_present": true
   },
-  "current_task": "RESUME_VERIFIED_CHECKPOINT",
+  "current_task": "RESULT_REFRESH_AND_DECISION_GUARDS_COMPLETE",
+  "earliest_blocked_dependency": "FOUNDATION.historical_provider_access",
   "empirical_note": "Captured provider rows and current quotes are real. They are not qualified historical model evaluation samples. Synthetic sample counts refer to representative mechanics fixtures and are never added to real samples.",
   "empirical_performance_available": false,
-  "github_push": "PUSH_BLOCKED_CURRENT_SESSION",
+  "github_push": "BLOCKED_SESSION_GITHUB_WRITE_ACCESS",
   "ingestion_summary": {
     "cfb_matched_events": 60,
-    "cfb_unmatched_events": 0,
+    "cfb_unmatched_events": 2,
     "completed_cfbd_games": 295,
-    "current_quote_observations": 13896,
+    "current_quote_observations": 16990,
     "earliest_current_capture": "2026-10-14 06:19:23.928987+00:00",
     "earliest_usable_historical_date": null,
-    "generated_at": "2026-10-14T07:35:37.601494+00:00",
+    "generated_at": "2026-10-14T22:10:42.391474+00:00",
     "historical_2025_games": 292,
     "historical_sportsbook_snapshots": 0,
-    "latest_current_capture": "2026-10-14 07:31:17.755854+00:00",
+    "latest_current_capture": "2026-10-14 22:06:00.998437+00:00",
     "latest_usable_historical_date": null,
     "missingness": {
       "book_settlement_rule": 1.0,
       "calibrated_model": 1.0,
-      "current_cfb_identity_fraction": 0.0,
+      "current_cfb_identity_fraction": 0.03225806451612903,
       "historical_feature_universe": null,
       "quote_execution_proof": 1.0
     },
@@ -838,17 +860,27 @@
       2025,
       2026
     ],
-    "sportsbook_response_snapshots": 11,
+    "sportsbook_response_snapshots": 12,
     "synthetic_observations_in_real_metrics": 0,
     "unique_cfbd_games": 594,
-    "unmatched_reasons": []
+    "unmatched_reasons": [
+      {
+        "event_id": "6dab7d3b6ae25bd042a24a6e550a4f23",
+        "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
+      },
+      {
+        "event_id": "a3ed14cd9d938b3c5bea48fb0c78805d",
+        "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
+      }
+    ]
   },
+  "last_remote_verified_at": "2026-10-14T22:10:42.391474+00:00",
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
-  "next_task": "FOUNDATION.settlement_accounting: revision-safe CFBD result refresh",
+  "next_task": "CFB.spread: eligible-game universe and verified feature-to-Phase1 integration",
   "phase1_integrity": {
     "changed": [],
     "files_verified": 18,
-    "verified_at": "2026-10-14T21:56:21.619243+00:00"
+    "verified_at": "2026-10-14T22:10:42.391474+00:00"
   },
   "previous_run_end_reason": "Available local implementation and audit checkpoint saved; remaining model validation depends on qualifying data and unresolved controls.",
   "real_data_counts": {
@@ -857,9 +889,9 @@
       {
         "dataset": "games",
         "earliest": "2026-10-14 06:19:21.255064+00:00",
-        "latest": "2026-10-14 06:36:39.948766+00:00",
+        "latest": "2026-10-14 22:05:57.427725+00:00",
         "provider": "cfbd",
-        "snapshots": 3
+        "snapshots": 4
       },
       {
         "dataset": "lines",
@@ -906,16 +938,16 @@
       {
         "dataset": "sports",
         "earliest": "2026-10-14 06:19:23.538288+00:00",
-        "latest": "2026-10-14 06:36:40.169444+00:00",
+        "latest": "2026-10-14 22:05:59.492426+00:00",
         "provider": "odds",
-        "snapshots": 3
+        "snapshots": 4
       },
       {
         "dataset": "sports/americanfootball_ncaaf/odds",
         "earliest": "2026-10-14 06:19:23.928987+00:00",
-        "latest": "2026-10-14 07:31:17.755854+00:00",
+        "latest": "2026-10-14 22:06:00.998437+00:00",
         "provider": "odds",
-        "snapshots": 3
+        "snapshots": 4
       },
       {
         "dataset": "sports/americanfootball_nfl/odds",
@@ -946,19 +978,19 @@
         "snapshots": 2
       }
     ],
-    "disk_bytes": 37878010,
+    "disk_bytes": 43210693,
     "hash_failures": 0,
     "historical_availability": "CAPTURE_TIME_ONLY_UNLESS_PROVIDER_SNAPSHOT_PROVEN",
     "identity_conflicts": 0,
     "missing_periods": "UNMEASURED_NO_COMPLETE_ELIGIBLE_UNIVERSE",
-    "odds_movements": 39,
-    "odds_quotes": 13896,
+    "odds_movements": 1359,
+    "odds_quotes": 16990,
     "quote_ranges": [
       {
         "earliest": "2026-10-14 06:19:23.928987+00:00",
-        "events": 60,
-        "latest": "2026-10-14 07:31:17.755854+00:00",
-        "quotes": 9212,
+        "events": 62,
+        "latest": "2026-10-14 22:06:00.998437+00:00",
+        "quotes": 12306,
         "sport": "CFB"
       },
       {
@@ -990,8 +1022,36 @@
         "sport": "NHL"
       }
     ],
-    "snapshots": 29,
-    "source_records": 8544
+    "snapshots": 32,
+    "source_records": 9088
+  },
+  "resume_provider_check": {
+    "canonical_final_games": 295,
+    "canonical_games": 594,
+    "cfbd_endpoint_status": [
+      200
+    ],
+    "cfbd_refresh_status": "REFRESHED",
+    "credential_present": {
+      "cfbd": true,
+      "odds": true
+    },
+    "current_odds_status": [
+      "ARCHIVED"
+    ],
+    "generated_at": "2026-10-14T22:09:00.293506+00:00",
+    "historical_entitlement": "NOT_RETESTED_PREVIOUS_HTTP_401",
+    "odds_sports_status": 200,
+    "quota": {
+      "cached_historical_snapshots": 0,
+      "credits_consumed_recorded": 21,
+      "duplicate_requests_prevented": 0,
+      "provider_requests_used": 36,
+      "requests_recorded": 11,
+      "requests_remaining": 464
+    },
+    "real_model_evaluation_sample": 0,
+    "synthetic_observations_in_real_metrics": 0
   },
   "resumed_at": "2026-10-14T21:56:21.619243+00:00",
   "rules": [
@@ -1011,9 +1071,10 @@
   "tests": {
     "command": "python -m unittest discover -s tests -q",
     "failed": 0,
-    "passed": 155,
+    "passed": 171,
     "skipped": 0,
-    "verified_at": "2026-10-14T21:56:21.619243+00:00"
+    "status": "PASS",
+    "verified_at": "2026-10-14T22:10:42.391474+00:00"
   },
-  "updated_at": "2026-10-14T21:56:21.667566+00:00"
+  "updated_at": "2026-10-14T22:10:43.449922+00:00"
 }

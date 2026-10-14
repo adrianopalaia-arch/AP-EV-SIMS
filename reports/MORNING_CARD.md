@@ -1,6 +1,6 @@
 # AP EV/SIMS Morning Card
 
-Generated: 2026-10-14T07:35:40.297873+00:00
+Generated: 2026-10-14T22:10:42.391474+00:00
 
 ## Model health
 All markets UNVALIDATED. Zero qualifying empirical model observations.
@@ -12,7 +12,7 @@ No qualified candidates. PASS. No model is approved for wagering.
 None eligible. No maximum acceptable wager price can be claimed without a calibrated model.
 
 ## Passes
-1454 DraftKings/FanDuel market-side records rejected at input preflight.
+1466 DraftKings/FanDuel market-side records rejected at input preflight.
 Reasons include missing calibrated models/features, unverified availability and settlement rules, unproven execution, and stale prices.
 All records and exact archived prices are retained in outputs/latest_passes.json.
 

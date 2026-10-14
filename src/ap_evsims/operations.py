@@ -67,22 +67,48 @@ def collect_odds(store,warehouse, *, sports=('CFB',),now=None,daily_credit_cap=2
     atomic_json(store.root/'evaluations/odds-collection-latest.json',report)
     return report
 
-def sync_data(store,warehouse, *, cfbd_year=None,cfbd_week=None,transport=http_get):
+def sync_data(store,warehouse, *, cfbd_year=None,cfbd_week=None,transport=http_get,
+              refresh_cfbd_games=False,min_refresh_seconds=3600,now=None):
+    """Refresh is explicit and bounded; existing snapshots are never replaced."""
+    if refresh_cfbd_games and (cfbd_year is None or cfbd_week is None):
+        raise ValueError('REFRESH_REQUIRES_YEAR_AND_WEEK')
+    if isinstance(min_refresh_seconds,bool) or not isinstance(min_refresh_seconds,int) or min_refresh_seconds<60:
+        raise ValueError('INVALID_REFRESH_INTERVAL')
+    clock=utc(now or datetime.now(timezone.utc))
     local=import_local_archive(store,warehouse)
-    downloaded=[]
+    downloaded=[];query_status=None
     if cfbd_year is not None:
         parameters={'year':cfbd_year,'seasonType':'regular'}
         if cfbd_week is not None:parameters['week']=cfbd_week
         with warehouse.connect() as db:
-            rows=db.execute('SELECT parameters FROM snapshots WHERE provider=\'cfbd\' AND dataset=\'games\'').fetchall()
+            rows=db.execute('SELECT parameters,downloaded_at FROM snapshots WHERE provider=\'cfbd\' AND dataset=\'games\'').fetchall()
         metadata={'endpoint_status','error_payload_sanitized'}
-        present=any({k:v for k,v in json.loads(r[0]).items() if k not in metadata}==parameters for r in rows)
-        if not present:
-            validator=ProviderValidator(store,transport=transport)
+        captures=[r[1] for r in rows if {k:v for k,v in json.loads(r[0]).items() if k not in metadata}==parameters]
+        present=bool(captures)
+        query_status='CACHED_QUERY' if present else 'MISSING_QUERY'
+        validator=ProviderValidator(store,transport=transport)
+        if refresh_cfbd_games:
+            # Failed requests also count toward the cooldown, avoiding retry storms.
+            with validator.ledger.connect() as db:
+                attempts=db.execute('SELECT parameters,requested_at FROM requests WHERE provider=? AND endpoint=?',('cfbd','games')).fetchall()
+            captures += [r[1] for r in attempts if json.loads(r[0])==parameters]
+        latest=max((utc(t) for t in captures),default=None)
+        if latest and latest>clock:raise ValueError('LOOKAHEAD_RISK')
+        cooling=refresh_cfbd_games and latest is not None and (clock-latest).total_seconds()<min_refresh_seconds
+        if cooling:query_status='REFRESH_COOLDOWN'
+        elif not present or refresh_cfbd_games:
             record,_=validator.request('cfbd','games',parameters)
-            downloaded.append(dict(endpoint='games',status=record['status']))
-            if record['status']==200:warehouse.ingest_manifest(store,store.manifest(record['snapshot_id']))
-    return dict(local_import=local,downloaded=downloaded,health=warehouse.health())
+            downloaded.append(dict(endpoint='games',status=record['status'],snapshot_id=record['snapshot_id'],
+                checked_at=record.get('checked_at'),quota=record.get('quota',{})))
+            query_status='PROVIDER_UNAVAILABLE'
+            if record['status']==200:
+                try:
+                    warehouse.ingest_manifest(store,store.manifest(record['snapshot_id']))
+                    query_status='REFRESHED' if present else 'ARCHIVED'
+                except ValueError:
+                    # Keep the immutable raw response for audit, but not as accepted results.
+                    query_status='REJECTED_SNAPSHOT'
+    return dict(local_import=local,downloaded=downloaded,cfbd_games_status=query_status,health=warehouse.health())
 
 def data_health(store,warehouse,report_path=None):
     health=warehouse.health()
