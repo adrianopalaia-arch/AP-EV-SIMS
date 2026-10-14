@@ -46,7 +46,8 @@ class Warehouse:
                 lag(line) OVER w AS previous_line,lag(american_odds) OVER w AS previous_odds
                 FROM odds_quotes WINDOW w AS (PARTITION BY series_id ORDER BY available_at,observed_at,quote_id))
                 WHERE previous_odds IS NOT NULL AND (line IS DISTINCT FROM previous_line OR american_odds<>previous_odds)''')
-    def connect(self):return duckdb.connect(str(self.path))
+    def connect(self):
+        connection=duckdb.connect(str(self.path));connection.execute("SET TimeZone='UTC'");return connection
     def ingest_manifest(self,store,manifest):
         # Verify the immutable manifest and raw hash before doing anything else.
         manifest=store.manifest(manifest['snapshot_id'])

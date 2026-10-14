@@ -1,11 +1,11 @@
 # AP EV/SIMS Phase 2 progress
 
-Updated: 2026-10-14T06:55:36.539492+00:00
+Updated: 2026-10-14T07:10:21.724149+00:00
 
 This is the single reconciled execution checklist. Scope is frozen. COMPLETE describes tested implementation, not empirical model approval.
 
-Current task: FOUNDATION.odds_archive. Next dependency: FOUNDATION.historical_replay.
-Full suite: 103 passed; 0 failed.
+Current task: FOUNDATION.canonical_identity. Next dependency: FOUNDATION.red_team_tests.
+Full suite: 129 passed; 0 failed.
 
 Real model evaluation sample: 0. All sport/market models remain UNVALIDATED.
 Historical odds: BLOCKED_BY_HISTORICAL_ODDS_ACCESS. Current CFBD/Odds authentication is verified.
@@ -13,49 +13,49 @@ No real wagers, automatic promotions, purchases, or account changes.
 
 | Deliverable | Status | Next action / blocker |
 |---|---|---|
-| FOUNDATION.provider_authentication | COMPLETE | Reuse verified current access; monitor quota. Historical access remains a separate blocker. |
-| FOUNDATION.historical_provider_access | BLOCKED | Do not retry until entitlement changes; accumulate owned current snapshots. Blocker: BLOCKED_BY_HISTORICAL_ODDS_ACCESS; authenticated current access succeeds but historical HTTP 401 |
-| FOUNDATION.local_warehouse | COMPLETE | Use local DuckDB/Parquet for remaining work. Preserve immutable versions. |
-| FOUNDATION.historical_replay | IN_PROGRESS | Finish universal frozen prediction/reveal ledger; retain chronological CFB evaluation. Blocker: No qualifying historical sportsbook dataset |
-| FOUNDATION.odds_archive | IN_PROGRESS | Finish collect_odds command, persistent cadence/cache, and normalized quote exports. |
-| FOUNDATION.calibration | COMPLETE | Keep fit/selection/evaluation chronologically separate; attach only to exact fitted artifact. |
-| FOUNDATION.p_low | TESTING | Add coverage diagnostics; do not claim a verified production confidence bound. Blocker: Empirical interval coverage untested |
-| FOUNDATION.champion_challenger | NOT_STARTED | Implement immutable experiment/holdout ledger and comparison gate; no automatic promotion. |
-| FOUNDATION.red_team_tests | IN_PROGRESS | Map all 50 audit modes to evidence; add adversarial regressions and explicit unresolved gates. Blocker: Empirical execution, bias, drift and tails untested |
-| FOUNDATION.GitHub_handoff | IN_PROGRESS | Implement atomic publish_handoff CLI, safe secret-scanned checkpoints; verify current push access. |
-| FOUNDATION.canonical_identity | IN_PROGRESS | Bind stable provider IDs, exact market/period/rules; reject ambiguous aliases and reschedules. Blocker: Current CFB aliases and schedule revisions not yet reconciled |
-| FOUNDATION.settlement_accounting | IN_PROGRESS | Add append-only corrections, confirmed cash/bonus transactions, and explicit unknown-rule PASS. Blocker: Book-specific settlement rule registry absent |
-| FOUNDATION.feature_source_audits | IN_PROGRESS | Persist feature/source availability and ablation experiments; exclude unverifiable fields. Blocker: CFBD historical publication/revision availability unproven |
+| CFB.moneyline | BLOCKED | Keep CFBWinModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted. Blocker: No timestamp-authentic joined historical odds/features dataset; zero empirical model observations |
 | CFB.spread | BLOCKED | Keep CFBSpreadModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted. Blocker: No timestamp-authentic joined historical odds/features dataset; zero empirical model observations |
 | CFB.total | BLOCKED | Keep CFBTotalModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted. Blocker: No timestamp-authentic joined historical odds/features dataset; zero empirical model observations |
-| CFB.moneyline | BLOCKED | Keep CFBWinModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted. Blocker: No timestamp-authentic joined historical odds/features dataset; zero empirical model observations |
-| NHL.SOG | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NHL.goalie_saves | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NHL.ML | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NHL.totals | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NFL.spread | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NFL.total | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NFL.receptions | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NFL.rushing | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NFL.receiving | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NFL.passing | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| MLB.pitcher_K | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| MLB.pitcher_outs | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| FOUNDATION.GitHub_handoff | IN_PROGRESS | Publish atomic PASS feed; commit safe files and retry push. Blocker: GitHub write credentials inaccessible in this session; local work continues. |
+| FOUNDATION.calibration | COMPLETE | Keep fit/selection/evaluation chronologically separate; attach only to exact fitted artifact. |
+| FOUNDATION.canonical_identity | IN_PROGRESS | Bind stable provider IDs, exact market/period/rules; reject ambiguous aliases and reschedules. Blocker: Current CFB aliases and schedule revisions not yet reconciled |
+| FOUNDATION.champion_challenger | IN_PROGRESS | Keep challenger promotion manual; require independent holdout, proper-score evidence and prospective observations. Blocker: No empirical champion/challenger observations. |
+| FOUNDATION.feature_source_audits | IN_PROGRESS | Persist feature/source availability and ablation experiments; exclude unverifiable fields. Blocker: CFBD historical publication/revision availability unproven |
+| FOUNDATION.historical_provider_access | BLOCKED | Do not retry until entitlement changes; accumulate owned current snapshots. Blocker: BLOCKED_BY_HISTORICAL_ODDS_ACCESS; authenticated current access succeeds but historical HTTP 401 |
+| FOUNDATION.historical_replay | IN_PROGRESS | Bind the universal ledger to verified result sources and retain corrected settlements. Blocker: No qualifying historical joined dataset; complete empirical replay is blocked. |
+| FOUNDATION.local_warehouse | COMPLETE | Use local DuckDB/Parquet for remaining work. Preserve immutable versions. |
+| FOUNDATION.odds_archive | COMPLETE | Continue bounded prospective collection; cached history is immutable. No paid historical entitlement. |
+| FOUNDATION.p_low | TESTING | Add coverage diagnostics; do not claim a verified production confidence bound. Blocker: Empirical interval coverage untested |
+| FOUNDATION.provider_authentication | COMPLETE | Reuse verified current access; monitor quota. Historical access remains a separate blocker. |
+| FOUNDATION.red_team_tests | IN_PROGRESS | Map all 50 audit modes to evidence; add adversarial regressions and explicit unresolved gates. Blocker: Empirical execution, bias, drift and tails untested |
+| FOUNDATION.settlement_accounting | IN_PROGRESS | Complete separate cash/bonus account transactions and rule provenance. Blocker: Actual book settlement rules and account balances are not supplied. |
 | MLB.hits_allowed | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
 | MLB.hitter_hits | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| MLB.pitcher_K | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| MLB.pitcher_outs | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
 | MLB.total_bases | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NBA.spread | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NBA.total | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NBA.assists | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
 | NBA.points | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
 | NBA.rebounds | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
-| NBA.assists | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NBA.spread | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
 | NBA.threes | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NBA.total | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NFL.passing | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NFL.receiving | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NFL.receptions | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NFL.rushing | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NFL.spread | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NFL.total | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NHL.ML | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NHL.SOG | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NHL.goalie_saves | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| NHL.totals | NOT_STARTED | Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion. Blocker: No eligible local sport-specific training dataset; historical odds unavailable |
+| OTHER.diagnostics | NOT_STARTED | Publish health, selection-bias, latency, regime, miss and drift reports without invented metrics. |
 | OTHER.live_models | NOT_STARTED | Keep separate live state/model identities; no pregame model reuse. |
+| OTHER.local_first_data_storage | COMPLETE | Keep historical research offline and import source archives before feature computation. |
 | OTHER.parlays | NOT_STARTED | Gate on validated singles and real joint payout; no automatic construction. |
 | OTHER.promotions | NOT_STARTED | Separate payoff math from model probability and cash/bonus accounting. |
 | OTHER.tail_event_stress | NOT_STARTED | Retain extreme events; implement outcome-independent stress selectors and report missing real samples. |
-| OTHER.diagnostics | NOT_STARTED | Publish health, selection-bias, latency, regime, miss and drift reports without invented metrics. |
-| OTHER.local_first_data_storage | IN_PROGRESS | Finish sync_data, collect_odds, data_health and offline research_cycle; no network in historical work. |
 
 ## Dependency and evidence policy
 

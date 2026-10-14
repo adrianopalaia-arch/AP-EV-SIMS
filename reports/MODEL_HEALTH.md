@@ -1,3 +1,7 @@
-# AP EV/SIMS Model Health
+# Model health
 
-HANDOFF_CONNECTION_TEST. Research build in progress; 88 baseline tests passed. No model approved for wagering. No real performance metrics published.
+Generated: 2026-10-14T07:10:21.507412+00:00
+All models: UNVALIDATED.
+Blockers: historical odds entitlement; historical feature availability; book-specific settlement and execution proof; no calibrated empirical model.
+No champion has been approved; no automatic promotion is enabled. Read TASK_STATE.json for implementation progress.
+No readiness designation is permitted while critical red-team conditions remain untested.

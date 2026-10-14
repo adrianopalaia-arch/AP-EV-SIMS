@@ -69,18 +69,21 @@
     },
     "FOUNDATION": {
       "GitHub_handoff": {
-        "blocker": null,
+        "blocker": "GitHub write credentials inaccessible in this session; local work continues.",
         "dependencies": [],
         "files": [
-          "outputs/connection_test.json",
-          "outputs/last_update.json"
+          "src/ap_evsims/handoff.py",
+          "src/ap_evsims/publication.py",
+          "src/ap_evsims/__main__.py"
         ],
-        "next_action": "Implement atomic publish_handoff CLI, safe secret-scanned checkpoints; verify current push access.",
+        "next_action": "Publish atomic PASS feed; commit safe files and retry push.",
         "real_sample_size": 0,
         "status": "IN_PROGRESS",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_handoff_cycle.py"
+        ],
+        "updated_at": "2026-10-14T07:10:20.832197+00:00"
       },
       "calibration": {
         "blocker": null,
@@ -114,21 +117,21 @@
         "updated_at": "2026-10-14T06:54:38.496450+00:00"
       },
       "champion_challenger": {
-        "blocker": null,
+        "blocker": "No empirical champion/challenger observations.",
         "dependencies": [
           "FOUNDATION.historical_replay"
         ],
         "files": [
-          "src/ap_evsims/ensemble.py"
+          "src/ap_evsims/governance.py"
         ],
-        "next_action": "Implement immutable experiment/holdout ledger and comparison gate; no automatic promotion.",
+        "next_action": "Keep challenger promotion manual; require independent holdout, proper-score evidence and prospective observations.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "IN_PROGRESS",
         "synthetic_sample_size": 0,
         "tests": [
-          "tests/test_phase2_backtest.py"
+          "tests/test_governance_execution.py"
         ],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "updated_at": "2026-10-14T07:10:20.832197+00:00"
       },
       "feature_source_audits": {
         "blocker": "CFBD historical publication/revision availability unproven",
@@ -164,24 +167,24 @@
         "updated_at": "2026-10-14T06:54:38.496450+00:00"
       },
       "historical_replay": {
-        "blocker": "No qualifying historical sportsbook dataset",
+        "blocker": "No qualifying historical joined dataset; complete empirical replay is blocked.",
         "dependencies": [
           "FOUNDATION.local_warehouse"
         ],
         "files": [
-          "src/ap_evsims/historical.py",
+          "src/ap_evsims/replay.py",
           "src/ap_evsims/backtest.py",
-          "src/ap_evsims/offline.py"
+          "src/ap_evsims/cycle.py"
         ],
-        "next_action": "Finish universal frozen prediction/reveal ledger; retain chronological CFB evaluation.",
+        "next_action": "Bind the universal ledger to verified result sources and retain corrected settlements.",
         "real_sample_size": 0,
         "status": "IN_PROGRESS",
         "synthetic_sample_size": 90,
         "tests": [
-          "tests/test_phase2_history.py",
-          "tests/test_phase2_backtest.py"
+          "tests/test_replay_settlement.py",
+          "tests/test_handoff_cycle.py"
         ],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "updated_at": "2026-10-14T07:10:20.832197+00:00"
       },
       "local_warehouse": {
         "blocker": null,
@@ -205,17 +208,19 @@
           "FOUNDATION.local_warehouse"
         ],
         "files": [
+          "src/ap_evsims/operations.py",
           "src/ap_evsims/warehouse.py",
           "src/ap_evsims/providers/quota.py"
         ],
-        "next_action": "Finish collect_odds command, persistent cadence/cache, and normalized quote exports.",
+        "next_action": "Continue bounded prospective collection; cached history is immutable. No paid historical entitlement.",
         "real_sample_size": 10824,
-        "status": "IN_PROGRESS",
+        "status": "COMPLETE",
         "synthetic_sample_size": 0,
         "tests": [
+          "tests/test_operations.py",
           "tests/test_warehouse.py"
         ],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "updated_at": "2026-10-14T07:10:20.832197+00:00"
       },
       "p_low": {
         "blocker": "Empirical interval coverage untested",
@@ -269,21 +274,19 @@
         "updated_at": "2026-10-14T06:54:38.496450+00:00"
       },
       "settlement_accounting": {
-        "blocker": "Book-specific settlement rule registry absent",
+        "blocker": "Actual book settlement rules and account balances are not supplied.",
         "dependencies": [],
         "files": [
-          "src/ap_evsims/historical.py",
-          "src/ap_evsims/exposure.py",
-          "src/ap_evsims/ledger.py"
+          "src/ap_evsims/settlement.py"
         ],
-        "next_action": "Add append-only corrections, confirmed cash/bonus transactions, and explicit unknown-rule PASS.",
+        "next_action": "Complete separate cash/bonus account transactions and rule provenance.",
         "real_sample_size": 0,
         "status": "IN_PROGRESS",
         "synthetic_sample_size": 0,
         "tests": [
-          "tests/test_phase2_history.py"
+          "tests/test_replay_settlement.py"
         ],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "updated_at": "2026-10-14T07:10:20.832197+00:00"
       }
     },
     "MLB": {
@@ -622,16 +625,20 @@
         ],
         "files": [
           "src/ap_evsims/warehouse.py",
-          "src/ap_evsims/offline.py"
+          "src/ap_evsims/offline.py",
+          "src/ap_evsims/operations.py",
+          "src/ap_evsims/__main__.py"
         ],
-        "next_action": "Finish sync_data, collect_odds, data_health and offline research_cycle; no network in historical work.",
+        "next_action": "Keep historical research offline and import source archives before feature computation.",
         "real_sample_size": 8484,
-        "status": "IN_PROGRESS",
+        "status": "COMPLETE",
         "synthetic_sample_size": 0,
         "tests": [
-          "tests/test_warehouse.py"
+          "tests/test_warehouse.py",
+          "tests/test_operations.py",
+          "tests/test_handoff_cycle.py"
         ],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "updated_at": "2026-10-14T07:10:20.832197+00:00"
       },
       "parlays": {
         "blocker": null,
@@ -674,15 +681,15 @@
       }
     }
   },
-  "current_task": "FOUNDATION.odds_archive",
+  "current_task": "FOUNDATION.canonical_identity",
   "empirical_note": "Captured provider rows and current quotes are real. They are not qualified historical model evaluation samples. Synthetic sample counts refer to representative mechanics fixtures and are never added to real samples.",
   "empirical_performance_available": false,
-  "github_push": "PENDING_CHECKPOINT_ATTEMPT",
+  "github_push": "BLOCKED_SESSION_GITHUB_WRITE_ACCESS; retry each checkpoint",
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
-  "next_task": "FOUNDATION.historical_replay",
+  "next_task": "FOUNDATION.red_team_tests",
   "real_data_counts": {
     "closing_prices": 0,
-    "disk_bytes": 26574679,
+    "disk_bytes": 26575996,
     "hash_failures": 0,
     "historical_availability": "CAPTURE_TIME_ONLY_UNLESS_PROVIDER_SNAPSHOT_PROVEN",
     "identity_conflicts": 0,
@@ -691,37 +698,37 @@
     "odds_quotes": 10824,
     "quote_ranges": [
       {
-        "earliest": "2026-10-14 01:19:23.928987-05:00",
+        "earliest": "2026-10-14 06:19:23.928987+00:00",
         "events": 60,
-        "latest": "2026-10-14 01:19:49.147327-05:00",
+        "latest": "2026-10-14 06:19:49.147327+00:00",
         "quotes": 6140,
         "sport": "CFB"
       },
       {
-        "earliest": "2026-10-14 01:19:24.539060-05:00",
+        "earliest": "2026-10-14 06:19:24.539060+00:00",
         "events": 2,
-        "latest": "2026-10-14 01:19:49.641141-05:00",
+        "latest": "2026-10-14 06:19:49.641141+00:00",
         "quotes": 216,
         "sport": "MLB"
       },
       {
-        "earliest": "2026-10-14 01:19:24.753617-05:00",
+        "earliest": "2026-10-14 06:19:24.753617+00:00",
         "events": 46,
-        "latest": "2026-10-14 01:19:49.811876-05:00",
+        "latest": "2026-10-14 06:19:49.811876+00:00",
         "quotes": 1912,
         "sport": "NBA"
       },
       {
-        "earliest": "2026-10-14 01:19:24.212378-05:00",
+        "earliest": "2026-10-14 06:19:24.212378+00:00",
         "events": 28,
-        "latest": "2026-10-14 01:19:49.426410-05:00",
+        "latest": "2026-10-14 06:19:49.426410+00:00",
         "quotes": 2340,
         "sport": "NFL"
       },
       {
-        "earliest": "2026-10-14 01:19:24.386382-05:00",
+        "earliest": "2026-10-14 06:19:24.386382+00:00",
         "events": 2,
-        "latest": "2026-10-14 01:19:49.542621-05:00",
+        "latest": "2026-10-14 06:19:49.542621+00:00",
         "quotes": 216,
         "sport": "NHL"
       }
@@ -746,7 +753,7 @@
   "tests": {
     "command": "python -m unittest discover -s tests -q",
     "failed": 0,
-    "passed": 103
+    "passed": 129
   },
-  "updated_at": "2026-10-14T06:55:36.539492+00:00"
+  "updated_at": "2026-10-14T07:10:21.724149+00:00"
 }

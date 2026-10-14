@@ -13,7 +13,7 @@ from .base import PredictionResult
 from .numerics import Ridge, quantile, clip
 from ..integrity import utc, digest
 from ..historical import validate_dataset
-from ..odds import probability_to_american
+from ..odds import probability_to_american,american_to_implied,devig_two_way
 
 # Canonical matchup engineering is explicit: *_diff = home minus away;
 # defensive EPA/success are conceded values, so lower is stronger.
@@ -133,7 +133,9 @@ class CFBScoreModel:
         c=market_context
         base=dict(model_version=self.model_version,training_cutoff=self.training_cutoff,
             feature_snapshot_timestamp=features.timestamp,data_fingerprint=features.fingerprint,market_type=c.market_type,
-            calibration_version=getattr(self.calibrator,'version',None),model_artifact_id=getattr(self,'artifact_id',None))
+            calibration_version=getattr(self.calibrator,'version',None),model_artifact_id=getattr(self,'artifact_id',None),
+            sport=c.sport,event_id=c.event_id,feature_snapshot_id=features.fingerprint,prediction_timestamp=c.prediction_timestamp,
+            feature_provenance={k:asdict(v) for k,v in features.values.items()})
         try:
             if self.training_cutoff is None: raise ValueError('MODEL_NOT_TRAINED')
             c.validate(); features.validate(c.prediction_timestamp,self.feature_keys)
@@ -176,7 +178,9 @@ class CFBScoreModel:
         if self.training_blocks<8: reasons.append('INSUFFICIENT_INDEPENDENT_TRAINING_BLOCKS')
         fair=1/calibrated if calibrated is not None else None
         return PredictionResult(raw,calibrated,lower,fair,probability_to_american(calibrated) if calibrated is not None else None,
-            **base,explanation=explanation,reasons=tuple(reasons))
+            **base,explanation=explanation,reasons=tuple(reasons),market_implied_probability=american_to_implied(c.odds),
+            market_no_vig_probability=devig_two_way(c.odds,c.opposite_odds)[0],
+            uncertainty_components=explanation.get('uncertainty_components',{}),data_quality='FAIL' if reasons else 'MEDIUM')
 
 class CFBSpreadModel(CFBScoreModel): pass
 

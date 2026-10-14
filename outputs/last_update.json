@@ -2,18 +2,31 @@
   "branch": "ap-evisims-live",
   "commit_semantics": "source HEAD before this publication commit",
   "completed_tasks": [
-    "FOUNDATION.provider_authentication",
+    "FOUNDATION.calibration",
     "FOUNDATION.local_warehouse",
-    "FOUNDATION.calibration"
+    "FOUNDATION.odds_archive",
+    "FOUNDATION.provider_authentication",
+    "OTHER.local_first_data_storage"
   ],
-  "current_task": "FOUNDATION.odds_archive",
-  "generated_at": "2026-10-14T06:55:36.539492+00:00",
-  "git_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
+  "current_edges": 0,
+  "current_passes": 1452,
+  "current_predictions": 0,
+  "current_task": "FOUNDATION.GitHub_handoff",
+  "feed_hashes": {
+    "bankroll_state.json": "032b250ad7cf2b868bf2eea5469df146249c9dccad853da169db02e8c0ab69c3",
+    "latest_edges.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "latest_passes.json": "771ea64416c629f1a75a7366de8e4cb051c5a0431eb6a74eeefd8d5a7a488af7",
+    "latest_predictions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  "generated_at": "2026-10-14T07:10:21.507412+00:00",
+  "git_commit": "d2e9e3753fa768969e18b75e7a230eaecba59013",
   "historical_odds_access": "NO",
-  "next_task": "FOUNDATION.historical_replay",
+  "next_task": "FOUNDATION.red_team_tests",
   "providers_ok": true,
-  "research_cycle_id": "progress-2026-10-14T06:55:36.539492+00:00",
+  "publication_generation": "846053eec7b5c027476db0387208dedbd05705619e5e3d50fb6978383344f119",
+  "reader_contract": "Verify every feed hash against this manifest; retry on a generation mismatch.",
+  "research_cycle_id": "progress-2026-10-14T07:10:21.724149+00:00",
   "sports_updated": [],
   "tests_failed": 0,
-  "tests_passed": 103
+  "tests_passed": 129
 }

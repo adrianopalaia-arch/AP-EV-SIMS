@@ -92,8 +92,22 @@ class PredictionResult:
     model_artifact_id: str | None
     explanation: dict = field(default_factory=dict)
     reasons: tuple[str, ...] = ()
+    sport: str | None = None
+    event_id: str | None = None
+    feature_snapshot_id: str | None = None
+    prediction_timestamp: str | None = None
+    market_implied_probability: float | None = None
+    market_no_vig_probability: float | None = None
+    uncertainty_components: dict = field(default_factory=dict)
+    data_quality: str = 'FAIL'
+    model_disagreement: float | None = None
+    feature_provenance: dict = field(default_factory=dict)
 
-    def to_dict(self): return asdict(self)
+    def to_dict(self):
+        payload=asdict(self)
+        payload['p_low']=self.uncertainty_lower_bound
+        payload['market']=self.market_type
+        return payload
 
 class SportModel(Protocol):
     model_version: str
