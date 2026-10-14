@@ -118,7 +118,7 @@
           "tests/test_identity.py",
           "tests/test_governance_execution.py"
         ],
-        "updated_at": "2026-10-14T22:12:18.238444+00:00"
+        "updated_at": "2026-10-14T22:13:39.467379+00:00"
       },
       "champion_challenger": {
         "blocker": "No real champion, challenger or prospective holdout observations.",
@@ -253,7 +253,7 @@
           "tests/test_diagnostics_redteam.py",
           "tests/test_model_bridge_integrity.py"
         ],
-        "updated_at": "2026-10-14T22:12:18.238444+00:00"
+        "updated_at": "2026-10-14T22:13:39.467379+00:00"
       },
       "provider_authentication": {
         "blocker": null,
@@ -316,7 +316,7 @@
           "tests/test_accounting_promotions.py",
           "tests/test_result_refresh.py"
         ],
-        "updated_at": "2026-10-14T22:12:18.238444+00:00"
+        "updated_at": "2026-10-14T22:13:39.467379+00:00"
       }
     },
     "MLB": {
@@ -842,7 +842,7 @@
     "current_quote_observations": 16990,
     "earliest_current_capture": "2026-10-14 06:19:23.928987+00:00",
     "earliest_usable_historical_date": null,
-    "generated_at": "2026-10-14T22:12:18.238444+00:00",
+    "generated_at": "2026-10-14T22:13:39.467379+00:00",
     "historical_2025_games": 292,
     "historical_sportsbook_snapshots": 0,
     "latest_current_capture": "2026-10-14 22:06:00.998437+00:00",
@@ -884,13 +884,13 @@
       }
     ]
   },
-  "last_remote_verified_at": "2026-10-14T22:12:18.238444+00:00",
+  "last_remote_verified_at": "2026-10-14T22:13:39.467379+00:00",
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
   "next_task": "CFB.spread: eligible-game universe and verified feature-to-Phase1 integration",
   "phase1_integrity": {
     "changed": [],
     "files_verified": 18,
-    "verified_at": "2026-10-14T22:12:18.238444+00:00"
+    "verified_at": "2026-10-14T22:13:39.467379+00:00"
   },
   "previous_run_end_reason": "Available local implementation and audit checkpoint saved; remaining model validation depends on qualifying data and unresolved controls.",
   "real_data_counts": {
@@ -988,7 +988,7 @@
         "snapshots": 2
       }
     ],
-    "disk_bytes": 47610754,
+    "disk_bytes": 50161130,
     "hash_failures": 0,
     "historical_availability": "CAPTURE_TIME_ONLY_UNLESS_PROVIDER_SNAPSHOT_PROVEN",
     "identity_conflicts": 0,
@@ -1084,7 +1084,7 @@
     "passed": 171,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-14T22:12:18.238444+00:00"
+    "verified_at": "2026-10-14T22:13:39.467379+00:00"
   },
-  "updated_at": "2026-10-14T22:12:19.315759+00:00"
+  "updated_at": "2026-10-14T22:13:40.546324+00:00"
 }

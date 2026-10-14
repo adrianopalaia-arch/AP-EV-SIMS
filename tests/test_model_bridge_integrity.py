@@ -60,4 +60,3 @@ class ModelBridgeIntegrityTests(unittest.TestCase):
         for value in (.2,None):
             result=self.decide(replace(self.prediction,model_disagreement=value))
             self.assertIn('MODEL_DISAGREEMENT',result['reasons'])
-

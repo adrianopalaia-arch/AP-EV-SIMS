@@ -162,4 +162,3 @@ class ResultRefreshTests(unittest.TestCase):
         capture(self.store,self.warehouse,'2026-10-14T20:00:00Z',[game(24,startDate='2026-10-14T13:00:00Z')])
         with self.assertRaisesRegex(ValueError,'RESULT_EVENT_START_MISMATCH'):
             reconcile_cfbd_replay(self.store,self.warehouse,ledger,'2026-10-14T21:00:00Z')
-
