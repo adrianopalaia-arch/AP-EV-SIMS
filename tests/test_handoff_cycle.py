@@ -8,6 +8,7 @@ from ap_evsims.publication import atomic_json
 from ap_evsims.research_store import ResearchStore
 from ap_evsims.warehouse import Warehouse
 from ap_evsims.offline import offline_mode
+from ap_evsims.integrity import digest
 from ap_evsims.__main__ import main
 from test_warehouse import archive
 
@@ -30,7 +31,7 @@ class HandoffCycleTests(unittest.TestCase):
             self.assertAlmostEqual(sum(p['market_no_vig_probability'] for p in passes),1)
             last=json.loads((repo/'outputs/last_update.json').read_text())
             for name,fingerprint in last['feed_hashes'].items():
-                self.assertEqual(fingerprint,sha256((repo/'outputs'/name).read_bytes()).hexdigest())
+                self.assertEqual(fingerprint,digest(json.loads((repo/'outputs'/name).read_text())))
     def test_atomic_failure_preserves_previous_file(self):
         with tempfile.TemporaryDirectory() as t:
             target=Path(t)/'value.json';atomic_json(target,{'old':True})

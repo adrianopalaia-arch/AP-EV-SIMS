@@ -47,13 +47,21 @@ class ReplayLedger:
             db.execute('INSERT OR IGNORE INTO frozen_predictions VALUES (?,?,?,?,?,?,?,?)',
                 (identity,economic,context.event_id,context.event_timestamp,decision_at,dataset_kind,serialized,fingerprint))
         return identity
-    def reveal(self,prediction_id, *, result,available_at,clock,source_snapshot_id,source_hash):
+    def reveal(self,prediction_id, *, result,available_at,clock,source_snapshot_id,source_hash,provenance_store=None):
         if utc(available_at)>utc(clock):raise ValueError('RESULT_NOT_YET_AVAILABLE')
         if not source_snapshot_id or len(source_hash)!=64:raise ValueError('MISSING_RESULT_PROVENANCE')
         with database(self.path) as db:
-            prior=db.execute('SELECT event_start,decision_at FROM frozen_predictions WHERE id=?',(prediction_id,)).fetchone()
+            prior=db.execute('SELECT event_start,decision_at,dataset_kind,event_id FROM frozen_predictions WHERE id=?',(prediction_id,)).fetchone()
             if not prior:raise ValueError('UNKNOWN_FROZEN_PREDICTION')
             if utc(available_at)<=utc(prior[0]) or utc(available_at)<=utc(prior[1]):raise ValueError('LOOKAHEAD_RISK')
+            if prior[2]=='provider_history':
+                if provenance_store is None:raise ValueError('PROVIDER_PROVENANCE_REQUIRED')
+                manifest=provenance_store.manifest(source_snapshot_id)
+                if manifest['provider']!='cfbd' or manifest['endpoint']!='games':raise ValueError('UNSUPPORTED_RESULT_SOURCE')
+                if source_hash!=manifest['payload_hash'] or not manifest['available_at'] or utc(manifest['available_at'])>utc(available_at):raise ValueError('RESULT_PROVENANCE_MISMATCH')
+                from .providers.normalize import canonical_cfbd_results
+                actual=next((r for r in canonical_cfbd_results(provenance_store.payload(manifest),manifest) if r['event_id']==prior[3]),None)
+                if actual is None or any(result.get(k)!=actual[k] for k in ('home_score','away_score','status','overtime')):raise ValueError('RESULT_PROVENANCE_MISMATCH')
             body=dict(prediction_id=prediction_id,result=result,available_at=available_at,
                 source_snapshot_id=source_snapshot_id,source_hash=source_hash)
             revision=digest(body)

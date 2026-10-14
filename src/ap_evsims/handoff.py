@@ -27,6 +27,11 @@ def publish_handoff(repo,store,warehouse, *, now=None,source_commit=None):
             event_start=quote['event_start'].isoformat(),home_team=quote['home_team'],away_team=quote['away_team'],market=quote['market'],
             selection=quote['selection'],book=quote['book'],line=quote['line'],odds=quote['american_odds'],
             quote_timestamp=quote['observed_at'].isoformat(),quote_age_seconds=age,odds_snapshot_id=quote['snapshot_id'],
+            opposite_odds=opposite['american_odds'] if opposite else None,
+            fair_odds=None,expected_value=None,max_acceptable_price=None,model_version=None,calibration_version=None,
+            data_timestamps=dict(event_start=quote['event_start'].isoformat(),sportsbook_quote=quote['observed_at'].isoformat(),
+                lineup_injury=None,feature_snapshot=None,model_prediction=None,decision=at,
+                provider_available=quote['available_at'].isoformat(),ingested=quote['ingested_at'].isoformat()),
             model_probability=None,calibrated_probability=None,p_low=None,market_implied_probability=american_to_implied(quote['american_odds']),
             market_no_vig_probability=market_probability,decision='PASS',pass_reason=reasons,data_quality='FAIL',
             decision_stage='INPUT_PREFLIGHT',phase1_eligible=False))
@@ -35,8 +40,11 @@ def publish_handoff(repo,store,warehouse, *, now=None,source_commit=None):
     # No approved artifacts currently exist. Never translate an arbitrary ledger
     # status into an executable recommendation without a fresh Phase 1 evaluation.
     edges=[]
-    values={'latest_edges.json':edges,'latest_predictions.json':predictions,'latest_passes.json':passes,
-        'bankroll_state.json':dict.fromkeys(('cash_bankroll','bonus_balance','unit_size','open_cash_exposure','open_bonus_exposure','reserved_exposure','last_reconciled_at'))}
+    from .accounting import AccountLedger
+    balance=AccountLedger(store.root/'settlements/accounting.sqlite').state()
+    balance.update(unit_size=None,open_cash_exposure=None,open_bonus_exposure=None,reserved_exposure=None,
+        exposure_reconciliation='UNKNOWN; no external sportsbook positions imported')
+    values={'latest_edges.json':edges,'latest_predictions.json':predictions,'latest_passes.json':passes,'bankroll_state.json':balance}
     generation_id=digest(dict(at=at,quote_ids=[q['quote_id'] for q in quotes],predictions=[p['prediction_id'] for p in predictions]))
     # Prepare and validate the whole generation before replacing public files.
     for name,value in values.items():
@@ -65,7 +73,7 @@ def publish_handoff(repo,store,warehouse, *, now=None,source_commit=None):
     last=write_status_checkpoint(repo,source_commit=source_commit)
     last.update(generated_at=at,publication_generation=generation_id,current_task='FOUNDATION.GitHub_handoff',
         current_passes=len(passes),current_predictions=len(predictions),current_edges=0,
-        feed_hashes={name:sha256((repo/'outputs'/name).read_bytes()).hexdigest() for name in values},
-        reader_contract='Verify every feed hash against this manifest; retry on a generation mismatch.')
+        feed_hashes={name:digest(value) for name,value in values.items()},
+        reader_contract='Verify canonical JSON SHA256 (sorted keys, compact separators, ensure_ascii=True) against this manifest; retry on a generation mismatch.')
     atomic_json(repo/'outputs/last_update.json',last)  # manifest published last
     return dict(generation_id=generation_id,passes=len(passes),predictions=len(predictions),edges=0)

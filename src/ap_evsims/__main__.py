@@ -15,6 +15,9 @@ def main(argv=None):
     parser.add_argument('--dataset',type=Path)
     parser.add_argument('--folds',type=Path)
     parser.add_argument('--market',choices=('spread','total','win'),default='spread')
+    parser.add_argument('--git',help='Git executable for handoff checkpoints')
+    parser.add_argument('--author-name')
+    parser.add_argument('--author-email')
     args=parser.parse_args(argv)
     if args.offline and args.command=='collect_odds':parser.error('collect_odds requires network access')
     if args.offline and args.command=='sync_data' and args.cfbd_year is not None:parser.error('offline sync imports local archives only')
@@ -34,8 +37,18 @@ def main(argv=None):
         result=research_cycle(args.store.parent,store,warehouse,offline=args.offline,dataset_path=args.dataset,folds_path=args.folds,market=args.market)
     else:
         from .handoff import publish_handoff
+        from .checkpoint import run_full_tests,commit_and_push,source_head
+        from .publication import atomic_json
+        repo=args.store.parent
+        tests=run_full_tests(repo)
+        state=json.loads((repo/'TASK_STATE.json').read_text());state['tests'].update(tests)
+        atomic_json(repo/'TASK_STATE.json',state)
+        if tests['status']!='PASS':
+            print(json.dumps(dict(status='TESTS_FAILED_NO_PUBLICATION',tests=tests)));return
         if not args.offline:collect_odds(store,warehouse,sports=tuple(args.sports.split(',')),daily_credit_cap=args.daily_credit_cap,reserve_credits=args.reserve_credits)
-        result=publish_handoff(args.store.parent,store,warehouse)
+        result=publish_handoff(args.store.parent,store,warehouse,source_commit=source_head(repo,args.git))
+        result['tests']=tests
+        result['git']=commit_and_push(repo,git=args.git,push=not args.offline,author_name=args.author_name,author_email=args.author_email)
     print(json.dumps(result,indent=2,allow_nan=False))
 
 if __name__=='__main__':main()

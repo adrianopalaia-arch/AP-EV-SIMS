@@ -1,0 +1,47 @@
+{
+  "cfb_matched_events": 56,
+  "cfb_unmatched_events": 4,
+  "completed_cfbd_games": 295,
+  "current_quote_observations": 10824,
+  "earliest_current_capture": "2026-10-14 06:19:23.928987+00:00",
+  "earliest_usable_historical_date": null,
+  "generated_at": "2026-10-14T07:26:47.954870+00:00",
+  "historical_2025_games": 292,
+  "historical_sportsbook_snapshots": 0,
+  "latest_current_capture": "2026-10-14 06:19:49.811876+00:00",
+  "latest_usable_historical_date": null,
+  "missingness": {
+    "book_settlement_rule": 1.0,
+    "calibrated_model": 1.0,
+    "current_cfb_identity_fraction": 0.06666666666666667,
+    "historical_feature_universe": null,
+    "quote_execution_proof": 1.0
+  },
+  "note": "Source records include multiple captures. Snapshot, quote, event and evaluation counts are distinct units.",
+  "qualifying_real_evaluation_sample": 0,
+  "seasons_covered": [
+    2025,
+    2026
+  ],
+  "sportsbook_response_snapshots": 10,
+  "synthetic_observations_in_real_metrics": 0,
+  "unique_cfbd_games": 594,
+  "unmatched_reasons": [
+    {
+      "event_id": "edac5f5669470d4cc438ffe9b3d7046a",
+      "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
+    },
+    {
+      "event_id": "dd062699e8f42bd17509cfba1952e286",
+      "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
+    },
+    {
+      "event_id": "8ce4565fe6dda2fbac6a893844519dcf",
+      "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
+    },
+    {
+      "event_id": "121ada2c134388f8cc2f26ffc54f52d1",
+      "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
+    }
+  ]
+}

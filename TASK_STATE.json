@@ -69,21 +69,23 @@
     },
     "FOUNDATION": {
       "GitHub_handoff": {
-        "blocker": "GitHub write credentials inaccessible in this session; local work continues.",
+        "blocker": "GitHub write credentials inaccessible in this session. Local atomic PASS feed and safe publisher are implemented.",
         "dependencies": [],
         "files": [
           "src/ap_evsims/handoff.py",
+          "src/ap_evsims/checkpoint.py",
           "src/ap_evsims/publication.py",
           "src/ap_evsims/__main__.py"
         ],
-        "next_action": "Publish atomic PASS feed; commit safe files and retry push.",
+        "next_action": "Keep tested local commits; retry push at checkpoints or use the manual push command.",
         "real_sample_size": 0,
-        "status": "IN_PROGRESS",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
-          "tests/test_handoff_cycle.py"
+          "tests/test_handoff_cycle.py",
+          "tests/test_checkpoint.py"
         ],
-        "updated_at": "2026-10-14T07:10:20.832197+00:00"
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "calibration": {
         "blocker": null,
@@ -101,54 +103,56 @@
         "updated_at": "2026-10-14T06:54:38.496450+00:00"
       },
       "canonical_identity": {
-        "blocker": "Current CFB aliases and schedule revisions not yet reconciled",
+        "blocker": "Current CFB identity: 56/60 matched; four aliases fail closed. Other-sport canonical player identities and book settlement rules absent.",
         "dependencies": [],
         "files": [
-          "src/ap_evsims/canonical.py",
-          "src/ap_evsims/providers/normalize.py"
+          "src/ap_evsims/identity.py",
+          "src/ap_evsims/execution.py"
         ],
-        "next_action": "Bind stable provider IDs, exact market/period/rules; reject ambiguous aliases and reschedules.",
+        "next_action": "Resolve four CFB aliases from documented provider identifiers; collect timestamp-safe roster and schedule revision archives.",
         "real_sample_size": 0,
-        "status": "IN_PROGRESS",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
-          "tests/test_phase2_canonical.py"
+          "tests/test_identity.py",
+          "tests/test_governance_execution.py"
         ],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "champion_challenger": {
-        "blocker": "No empirical champion/challenger observations.",
+        "blocker": "No real champion, challenger or prospective holdout observations.",
         "dependencies": [
           "FOUNDATION.historical_replay"
         ],
         "files": [
           "src/ap_evsims/governance.py"
         ],
-        "next_action": "Keep challenger promotion manual; require independent holdout, proper-score evidence and prospective observations.",
+        "next_action": "Register the first real experiment before fitting; preserve one-use final holdout and manual promotion.",
         "real_sample_size": 0,
-        "status": "IN_PROGRESS",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_governance_execution.py"
         ],
-        "updated_at": "2026-10-14T07:10:20.832197+00:00"
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "feature_source_audits": {
-        "blocker": "CFBD historical publication/revision availability unproven",
+        "blocker": "Inventory is complete; historical coverage, full-universe missingness and incremental value remain unmeasured.",
         "dependencies": [],
         "files": [
-          "src/ap_evsims/cfb_features.py",
-          "src/ap_evsims/canonical.py",
-          "src/ap_evsims/ensemble.py"
+          "outputs/feature_source_audit.json",
+          "reports/FEATURE_SOURCE_AUDIT.md",
+          "src/ap_evsims/diagnostics.py"
         ],
-        "next_action": "Persist feature/source availability and ablation experiments; exclude unverifiable fields.",
+        "next_action": "Enable only provenance-proven features; run pre-registered matched source/feature ablations on unseen samples.",
         "real_sample_size": 0,
-        "status": "IN_PROGRESS",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
-          "tests/test_phase2_canonical.py"
+          "tests/test_phase2_canonical.py",
+          "tests/test_diagnostics_redteam.py"
         ],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "historical_provider_access": {
         "blocker": "BLOCKED_BY_HISTORICAL_ODDS_ACCESS; authenticated current access succeeds but historical HTTP 401",
@@ -167,7 +171,7 @@
         "updated_at": "2026-10-14T06:54:38.496450+00:00"
       },
       "historical_replay": {
-        "blocker": "No qualifying historical joined dataset; complete empirical replay is blocked.",
+        "blocker": "CFB replay now freezes decisions before verified result reveals; no qualifying historical dataset; other fitted sport models not implemented.",
         "dependencies": [
           "FOUNDATION.local_warehouse"
         ],
@@ -176,15 +180,16 @@
           "src/ap_evsims/backtest.py",
           "src/ap_evsims/cycle.py"
         ],
-        "next_action": "Bind the universal ledger to verified result sources and retain corrected settlements.",
+        "next_action": "Resume real CFB spread replay when historical odds and timestamp-authentic joined features exist; then extend the same ledger to calibrated sport models.",
         "real_sample_size": 0,
-        "status": "IN_PROGRESS",
+        "status": "BLOCKED",
         "synthetic_sample_size": 90,
         "tests": [
           "tests/test_replay_settlement.py",
+          "tests/test_phase2_backtest.py",
           "tests/test_handoff_cycle.py"
         ],
-        "updated_at": "2026-10-14T07:10:20.832197+00:00"
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "local_warehouse": {
         "blocker": null,
@@ -223,20 +228,21 @@
         "updated_at": "2026-10-14T07:10:20.832197+00:00"
       },
       "p_low": {
-        "blocker": "Empirical interval coverage untested",
+        "blocker": "The derived bound exists but empirical coverage is unverified; coverage_validated remains false.",
         "dependencies": [],
         "files": [
           "src/ap_evsims/models/probability_calibration.py",
-          "src/ap_evsims/models/cfb.py"
+          "src/ap_evsims/diagnostics.py"
         ],
-        "next_action": "Add coverage diagnostics; do not claim a verified production confidence bound.",
+        "next_action": "Evaluate aggregate conservatism and clustered coverage diagnostics on untouched real predictions before approval.",
         "real_sample_size": 0,
-        "status": "TESTING",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
-          "tests/test_phase2_calibration.py"
+          "tests/test_phase2_calibration.py",
+          "tests/test_diagnostics_redteam.py"
         ],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "provider_authentication": {
         "blocker": null,
@@ -255,368 +261,462 @@
         "updated_at": "2026-10-14T06:54:38.496450+00:00"
       },
       "red_team_tests": {
-        "blocker": "Empirical execution, bias, drift and tails untested",
+        "blocker": "All 50 categories audited; unresolved data/execution/model evidence keeps every market RESEARCH_ONLY.",
         "dependencies": [],
         "files": [
-          "src/ap_evsims/integrity.py",
-          "src/ap_evsims/decision.py",
-          "src/ap_evsims/warehouse.py"
+          "src/ap_evsims/redteam.py",
+          "reports/RED_TEAM_REPORT.md"
         ],
-        "next_action": "Map all 50 audit modes to evidence; add adversarial regressions and explicit unresolved gates.",
+        "next_action": "Clear each unresolved critical/high category with actual evidence and targeted tests; never equate unit-test count with readiness.",
         "real_sample_size": 0,
-        "status": "IN_PROGRESS",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
-          "tests/test_phase1.py",
-          "tests/test_warehouse.py",
-          "tests/test_provider_validation.py"
+          "tests/test_diagnostics_redteam.py",
+          "tests/test_checkpoint.py"
         ],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "settlement_accounting": {
-        "blocker": "Actual book settlement rules and account balances are not supplied.",
+        "blocker": "Unknown real book rules and external account state. Local payoff and correction mechanics pass.",
         "dependencies": [],
         "files": [
-          "src/ap_evsims/settlement.py"
+          "src/ap_evsims/settlement.py",
+          "src/ap_evsims/accounting.py"
         ],
-        "next_action": "Complete separate cash/bonus account transactions and rule provenance.",
+        "next_action": "Import explicit book rules and manually reconciled balances/open positions, then connect account and exposure reconciliation.",
         "real_sample_size": 0,
-        "status": "IN_PROGRESS",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
-          "tests/test_replay_settlement.py"
+          "tests/test_replay_settlement.py",
+          "tests/test_accounting_promotions.py"
         ],
-        "updated_at": "2026-10-14T07:10:20.832197+00:00"
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       }
     },
     "MLB": {
       "hits_allowed": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "hitter_hits": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "pitcher_K": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "pitcher_outs": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "total_bases": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       }
     },
     "NBA": {
       "assists": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "points": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "rebounds": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "spread": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "threes": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "total": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       }
     },
     "NFL": {
       "passing": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "receiving": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "receptions": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "rushing": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "spread": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "total": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       }
     },
     "NHL": {
       "ML": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "SOG": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "goalie_saves": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "totals": {
-        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
-        "files": [],
-        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       }
     },
     "OTHER": {
       "diagnostics": {
-        "blocker": null,
+        "blocker": "No calibrated real forecasts or settled strategy observations; all performance remains null.",
         "dependencies": [
           "FOUNDATION.historical_replay"
         ],
-        "files": [],
-        "next_action": "Publish health, selection-bias, latency, regime, miss and drift reports without invented metrics.",
+        "files": [
+          "src/ap_evsims/diagnostics.py",
+          "src/ap_evsims/handoff.py"
+        ],
+        "next_action": "Populate proper-score, inclusion-bias, latency, regime, source-ablation and p_low reports from frozen real predictions.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_diagnostics_redteam.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "live_models": {
-        "blocker": null,
+        "blocker": "No live model or synchronized live feed; CFBD live endpoint probe returned 401.",
         "dependencies": [
           "FOUNDATION.historical_replay"
         ],
-        "files": [],
-        "next_action": "Keep separate live state/model identities; no pregame model reuse.",
+        "files": [
+          "src/ap_evsims/decision.py",
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Require separately calibrated live probability, synchronized state/price and latency evidence; retain pregame/live separation.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_engine.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "local_first_data_storage": {
         "blocker": null,
@@ -641,55 +741,119 @@
         "updated_at": "2026-10-14T07:10:20.832197+00:00"
       },
       "parlays": {
-        "blocker": null,
+        "blocker": "No approved single-market models or empirical joint distribution; legacy parlay arithmetic is research only.",
         "dependencies": [
           "FOUNDATION.historical_replay"
         ],
-        "files": [],
-        "next_action": "Gate on validated singles and real joint payout; no automatic construction.",
+        "files": [
+          "src/ap_evsims/parlay.py",
+          "src/ap_evsims/exposure.py"
+        ],
+        "next_action": "Do not build candidate slips until validated singles, fitted joint distributions and actual offered payouts exist.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_engine.py",
+          "tests/test_phase1.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "promotions": {
         "blocker": null,
         "dependencies": [
           "FOUNDATION.historical_replay"
         ],
-        "files": [],
-        "next_action": "Separate payoff math from model probability and cash/bonus accounting.",
+        "files": [
+          "src/ap_evsims/promotions.py",
+          "src/ap_evsims/accounting.py"
+        ],
+        "next_action": "Keep promotion payoff separate; real terms/bonus conversion still required and no recommendation authority is granted.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "COMPLETE",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_accounting_promotions.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       },
       "tail_event_stress": {
-        "blocker": null,
+        "blocker": "Hypothetical stress mechanics pass; real tail cases lack qualifying historical snapshots.",
         "dependencies": [
           "FOUNDATION.historical_replay"
         ],
-        "files": [],
-        "next_action": "Retain extreme events; implement outcome-independent stress selectors and report missing real samples.",
+        "files": [
+          "src/ap_evsims/diagnostics.py",
+          "reports/TAIL_EVENT_STRESS_REPORT.md"
+        ],
+        "next_action": "Run registered extreme-game and clustered bankroll stress on real out-of-sample decisions.",
         "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "status": "BLOCKED",
         "synthetic_sample_size": 0,
-        "tests": [],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "tests": [
+          "tests/test_diagnostics_redteam.py",
+          "tests/test_phase2_cfb.py"
+        ],
+        "updated_at": "2026-10-14T07:26:47.954870+00:00"
       }
     }
   },
-  "current_task": "FOUNDATION.canonical_identity",
+  "current_task": "FOUNDATION.red_team_tests",
   "empirical_note": "Captured provider rows and current quotes are real. They are not qualified historical model evaluation samples. Synthetic sample counts refer to representative mechanics fixtures and are never added to real samples.",
   "empirical_performance_available": false,
-  "github_push": "BLOCKED_SESSION_GITHUB_WRITE_ACCESS; retry each checkpoint",
+  "github_push": "BLOCKED_SESSION_GITHUB_WRITE_ACCESS",
+  "ingestion_summary": {
+    "cfb_matched_events": 56,
+    "cfb_unmatched_events": 4,
+    "completed_cfbd_games": 295,
+    "current_quote_observations": 10824,
+    "earliest_current_capture": "2026-10-14 06:19:23.928987+00:00",
+    "earliest_usable_historical_date": null,
+    "generated_at": "2026-10-14T07:26:47.954870+00:00",
+    "historical_2025_games": 292,
+    "historical_sportsbook_snapshots": 0,
+    "latest_current_capture": "2026-10-14 06:19:49.811876+00:00",
+    "latest_usable_historical_date": null,
+    "missingness": {
+      "book_settlement_rule": 1.0,
+      "calibrated_model": 1.0,
+      "current_cfb_identity_fraction": 0.06666666666666667,
+      "historical_feature_universe": null,
+      "quote_execution_proof": 1.0
+    },
+    "note": "Source records include multiple captures. Snapshot, quote, event and evaluation counts are distinct units.",
+    "qualifying_real_evaluation_sample": 0,
+    "seasons_covered": [
+      2025,
+      2026
+    ],
+    "sportsbook_response_snapshots": 10,
+    "synthetic_observations_in_real_metrics": 0,
+    "unique_cfbd_games": 594,
+    "unmatched_reasons": [
+      {
+        "event_id": "edac5f5669470d4cc438ffe9b3d7046a",
+        "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
+      },
+      {
+        "event_id": "dd062699e8f42bd17509cfba1952e286",
+        "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
+      },
+      {
+        "event_id": "8ce4565fe6dda2fbac6a893844519dcf",
+        "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
+      },
+      {
+        "event_id": "121ada2c134388f8cc2f26ffc54f52d1",
+        "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
+      }
+    ]
+  },
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
-  "next_task": "FOUNDATION.red_team_tests",
+  "next_task": "FOUNDATION.historical_provider_access",
   "real_data_counts": {
     "closing_prices": 0,
-    "disk_bytes": 26575996,
+    "disk_bytes": 28340399,
     "hash_failures": 0,
     "historical_availability": "CAPTURE_TIME_ONLY_UNLESS_PROVIDER_SNAPSHOT_PROVEN",
     "identity_conflicts": 0,
@@ -753,7 +917,7 @@
   "tests": {
     "command": "python -m unittest discover -s tests -q",
     "failed": 0,
-    "passed": 129
+    "passed": 154
   },
-  "updated_at": "2026-10-14T07:10:21.724149+00:00"
+  "updated_at": "2026-10-14T07:26:49.590587+00:00"
 }

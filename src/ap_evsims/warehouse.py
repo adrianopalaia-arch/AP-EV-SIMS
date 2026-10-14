@@ -52,12 +52,14 @@ class Warehouse:
         # Verify the immutable manifest and raw hash before doing anything else.
         manifest=store.manifest(manifest['snapshot_id'])
         if manifest['parameters'].get('endpoint_status',200)!=200:return dict(status='PROVIDER_ERROR_EXCLUDED',rows=0)
+        payload=store.payload(manifest)
+        from .providers.schema import validate_provider_payload
+        validate_provider_payload(manifest['provider'],manifest['endpoint'],payload)
         with self.connect() as db:
             cached=bool(db.execute('SELECT 1 FROM snapshots WHERE snapshot_id=?',[manifest['snapshot_id']]).fetchone())
         if cached:
             self.export_snapshot(manifest)
             return dict(status='CACHED',rows=0)
-        payload=store.payload(manifest)
         raw=(store.root/manifest['raw_path']).resolve()
         folder={'nhl':'moneypuck','nfl':'nflverse','mlb':'statcast'}.get(manifest['provider'],manifest['provider'])
         target=self.root/'raw_archive'/folder/(manifest['payload_hash']+'.json')

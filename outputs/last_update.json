@@ -6,27 +6,28 @@
     "FOUNDATION.local_warehouse",
     "FOUNDATION.odds_archive",
     "FOUNDATION.provider_authentication",
-    "OTHER.local_first_data_storage"
+    "OTHER.local_first_data_storage",
+    "OTHER.promotions"
   ],
   "current_edges": 0,
   "current_passes": 1452,
   "current_predictions": 0,
   "current_task": "FOUNDATION.GitHub_handoff",
   "feed_hashes": {
-    "bankroll_state.json": "032b250ad7cf2b868bf2eea5469df146249c9dccad853da169db02e8c0ab69c3",
-    "latest_edges.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-    "latest_passes.json": "771ea64416c629f1a75a7366de8e4cb051c5a0431eb6a74eeefd8d5a7a488af7",
-    "latest_predictions.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    "bankroll_state.json": "0b33c276fda76eda6a18c0470e55c73e220e160d4e9791e3298200c50ef2edf6",
+    "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "latest_passes.json": "a6a2980574166b977d5792babae56d17ca330abc4d556f20b239c2dc883b79ea",
+    "latest_predictions.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
-  "generated_at": "2026-10-14T07:10:21.507412+00:00",
-  "git_commit": "d2e9e3753fa768969e18b75e7a230eaecba59013",
+  "generated_at": "2026-10-14T07:26:49.316057+00:00",
+  "git_commit": "724465895ed6aa84152fbe11254aa418b088d25f",
   "historical_odds_access": "NO",
-  "next_task": "FOUNDATION.red_team_tests",
+  "next_task": "FOUNDATION.historical_provider_access",
   "providers_ok": true,
-  "publication_generation": "846053eec7b5c027476db0387208dedbd05705619e5e3d50fb6978383344f119",
-  "reader_contract": "Verify every feed hash against this manifest; retry on a generation mismatch.",
-  "research_cycle_id": "progress-2026-10-14T07:10:21.724149+00:00",
+  "publication_generation": "81a6c89d71b8506e428bd21c1a96a3a413fb41e70f7045f23052976c39b20e2d",
+  "reader_contract": "Verify canonical JSON SHA256 (sorted keys, compact separators, ensure_ascii=True) against this manifest; retry on a generation mismatch.",
+  "research_cycle_id": "progress-2026-10-14T07:26:49.590587+00:00",
   "sports_updated": [],
   "tests_failed": 0,
-  "tests_passed": 129
+  "tests_passed": 154
 }

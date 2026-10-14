@@ -11,11 +11,14 @@ def materialize_rolling_features(store, *, plays_snapshot_id,results_snapshot_id
                                  minimum_plays=100,minimum_games=3):
     plays_manifest=store.manifest(plays_snapshot_id); results_manifest=store.manifest(results_snapshot_id)
     require_historical_availability(plays_manifest,as_of); require_historical_availability(results_manifest,as_of)
-    results=canonical_cfbd_results(store.payload(results_manifest),results_manifest)
+    from .warehouse import Warehouse
+    warehouse=Warehouse(store.root)
+    for manifest in (plays_manifest,results_manifest):warehouse.ingest_manifest(store,manifest)
+    results=canonical_cfbd_results(warehouse.local_records('cfbd',results_manifest['endpoint'],as_of,snapshot_id=results_snapshot_id),results_manifest)
     # Proof that a game was completed exists at response capture, not at an
     # assumed three-hour duration or a reconstructed postgame clock time.
     known={r['event_id']:r['result_available_at'] for r in results if r['status']=='final'}
-    plays,rejections=normalize_cfbd_plays(store.payload(plays_manifest),plays_manifest,game_observed_times=known)
+    plays,rejections=normalize_cfbd_plays(warehouse.local_records('cfbd',plays_manifest['endpoint'],as_of,snapshot_id=plays_snapshot_id),plays_manifest,game_observed_times=known)
     features=rolling_matchup_features(plays,event_id=event_id,home_team=home_team,away_team=away_team,as_of=as_of,
         minimum_plays=minimum_plays,minimum_games=minimum_games)
     body=dict(algorithm_version='rolling-cfb-v1',source_snapshots=[plays_snapshot_id,results_snapshot_id],as_of=features.timestamp,

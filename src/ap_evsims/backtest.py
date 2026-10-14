@@ -99,7 +99,9 @@ def run_walk_forward(rows,windows, *, market_type,output_dir,feature_keys=None,
     if any(output.iterdir()): raise ValueError('EVALUATION_DIRECTORY_NOT_EMPTY')
     registry=ValidationRegistry(output/'paper-validation.db'); exposure=ExposureLedger(output/'paper-exposure.db')
     ledger=Ledger(output/'paper-decisions.jsonl'); limits=ExposureLimits(bankroll)
-    records=[]; folds=[]; evaluated=set(); pending=[]; used_intervals=[]
+    from .replay import ReplayLedger
+    replay=ReplayLedger(output/'frozen-replay.sqlite')
+    records=[]; folds=[]; evaluated=set(); pending=[]; used_intervals=[]; reveals=[]
     for index,window in enumerate(windows):
         window.validate()
         # Fold evaluation periods must advance without overlapping.
@@ -137,6 +139,18 @@ def run_walk_forward(rows,windows, *, market_type,output_dir,feature_keys=None,
                 evidence=registry.evaluate(sport='CFB',market=market_type,model_version=pipeline_version(prediction),mode='pregame',
                     training_cutoff=model.training_cutoff,expires=(utc(r.context.event_timestamp)+timedelta(days=1)).isoformat(),observations=known)
             decision=decide_prediction(r,prediction,evidence,registry=registry,exposure=exposure,limits=limits,ledger=ledger,now=now)
+            if dataset_kind=='provider_history':
+                identities={r.context.snapshot_id}
+                for value in r.features.values.values():
+                    if value.snapshot_id.startswith('derived-'):
+                        derived=json.loads((provenance_store.root/'features'/(value.payload_hash+'.json')).read_text())
+                        identities.update(derived['source_snapshots'])
+                    else:identities.add(value.snapshot_id)
+                manifests=[provenance_store.manifest(sid) for sid in sorted(identities)]
+            else:manifests=[dict(snapshot_id=r.context.snapshot_id,available_at=r.context.snapshot_available_at or r.context.quote_timestamp)]
+            frozen_id=replay.freeze(features=r.features,context=r.context,prediction=prediction,decision=decision,
+                decision_at=now,source_manifests=manifests,dataset_kind=dataset_kind,provenance_store=provenance_store)
+            reveals.append((frozen_id,r))
             if decision['status']=='RESEARCH_CANDIDATE': pending.append((decision['candidate_id'],r.result_available_at))
             record=make_record(r,prediction,decision); records.append(record)
             if record['outcome'] is not None and prediction.calibrated_probability is not None and not prediction.reasons:
@@ -144,6 +158,11 @@ def run_walk_forward(rows,windows, *, market_type,output_dir,feature_keys=None,
                     feature_time=r.features.timestamp,prediction_time=r.context.prediction_timestamp,quote_time=r.context.quote_timestamp,
                     event_start=r.context.event_timestamp,outcome_time=r.result_available_at,p=prediction.calibrated_probability,market_p=record['no_vig_probability'],outcome=record['outcome']))
         folds.append(fold)
+    # Reveal outcomes only after freezing every forecast, in result-availability order.
+    for frozen_id,r in sorted(reveals,key=lambda pair:utc(pair[1].result_available_at)):
+        replay.reveal(frozen_id,result=dict(home_score=r.home_score,away_score=r.away_score,status='final',overtime=r.overtime),
+            available_at=r.result_available_at,clock=r.result_available_at,source_snapshot_id=r.result_snapshot_id,
+            source_hash=r.result_payload_hash,provenance_store=provenance_store)
     payload=dict(schema_version=1,dataset_kind=dataset_kind,dataset_fingerprint=digest([asdict(r) for r in rows]),
         input_event_count=len({r.context.event_id for r in rows}),market=market_type,folds=folds,summary=summarize(records),
         profitability_demonstrated=False,records_path='predictions.jsonl',limitations=[

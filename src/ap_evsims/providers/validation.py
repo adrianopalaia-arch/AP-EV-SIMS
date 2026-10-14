@@ -64,6 +64,7 @@ class ProviderValidator:
         # Only controlled endpoint paths; no authenticated URL is persisted.
         if not endpoint or '?' in endpoint or ':' in endpoint or '..' in endpoint:
             raise ValueError('INVALID_ENDPOINT')
+        requested_at=datetime.now(timezone.utc).isoformat()
         response = self.transport(base+endpoint+'?'+urlencode(query), headers)
         record['status'] = response.status
         record['checked_at'] = response.fetched_at
@@ -102,6 +103,7 @@ class ProviderValidator:
                 parameters={**parameters,'endpoint_status':record['status'],
                             'error_payload_sanitized':response.status != 200}, body=body,
                 fetched_at=response.fetched_at, observed_at=observed, available_at=observed,
+                requested_at=requested_at if utc(requested_at)<=utc(response.fetched_at) else None,
                 availability_basis=basis)
             record['snapshot_id'] = manifest['snapshot_id']
         if isinstance(payload, list): record['rows'] = len(payload)
