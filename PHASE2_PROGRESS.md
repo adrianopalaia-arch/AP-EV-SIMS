@@ -1,10 +1,10 @@
 # AP EV/SIMS Phase 2 progress
 
-Updated: 2026-10-14T07:35:40.568831+00:00
+Updated: 2026-10-14T21:56:21.667566+00:00
 
 This is the single reconciled execution checklist. Scope is frozen. COMPLETE describes tested implementation, not empirical model approval.
 
-Current task: LOCAL_CHECKPOINT_COMPLETE_PENDING_DATA. Next dependency: FOUNDATION.historical_provider_access.
+Current task: RESUME_VERIFIED_CHECKPOINT. Next dependency: FOUNDATION.settlement_accounting: revision-safe CFBD result refresh.
 Full suite: 155 passed; 0 failed.
 
 Real model evaluation sample: 0. All sport/market models remain UNVALIDATED.
@@ -28,7 +28,7 @@ No real wagers, automatic promotions, purchases, or account changes.
 | FOUNDATION.p_low | BLOCKED | Evaluate aggregate conservatism and clustered coverage diagnostics on untouched real predictions before approval. Blocker: The derived bound exists but empirical coverage is unverified; coverage_validated remains false. |
 | FOUNDATION.provider_authentication | COMPLETE | Reuse verified current access; monitor quota. Historical access remains a separate blocker. |
 | FOUNDATION.red_team_tests | BLOCKED | Clear each unresolved critical/high category with actual evidence and targeted tests; never equate unit-test count with readiness. Blocker: All 50 categories audited; unresolved data/execution/model evidence keeps every market RESEARCH_ONLY. |
-| FOUNDATION.settlement_accounting | BLOCKED | Import explicit book rules and manually reconciled balances/open positions, then connect account and exposure reconciliation. Blocker: Unknown real book rules and external account state. Local payoff and correction mechanics pass. |
+| FOUNDATION.settlement_accounting | BLOCKED | Implement bounded explicit CFBD games refresh with immutable revisions and as-of retrieval; then rule/account reconciliation. This work is independent of historical odds access. Blocker: Unknown real book rules and external account state. Local payoff and correction mechanics pass. |
 | MLB.hits_allowed | BLOCKED | Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation. Blocker: Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent. |
 | MLB.hitter_hits | BLOCKED | Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation. Blocker: Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent. |
 | MLB.pitcher_K | BLOCKED | Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation. Blocker: Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent. |

@@ -1,6 +1,6 @@
 {
   "branch": "ap-evisims-live",
-  "build_active": false,
+  "build_active": true,
   "categories": {
     "CFB": {
       "moneyline": {
@@ -287,7 +287,7 @@
           "src/ap_evsims/settlement.py",
           "src/ap_evsims/accounting.py"
         ],
-        "next_action": "Import explicit book rules and manually reconciled balances/open positions, then connect account and exposure reconciliation.",
+        "next_action": "Implement bounded explicit CFBD games refresh with immutable revisions and as-of retrieval; then rule/account reconciliation. This work is independent of historical odds access.",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
@@ -802,10 +802,17 @@
     }
   },
   "completion": "PARTIAL",
-  "current_task": "LOCAL_CHECKPOINT_COMPLETE_PENDING_DATA",
+  "credential_check": {
+    "cfbd_present": true,
+    "checked_at": "2026-10-14T21:56:21.619243+00:00",
+    "env_ignored": true,
+    "env_tracked": false,
+    "odds_present": true
+  },
+  "current_task": "RESUME_VERIFIED_CHECKPOINT",
   "empirical_note": "Captured provider rows and current quotes are real. They are not qualified historical model evaluation samples. Synthetic sample counts refer to representative mechanics fixtures and are never added to real samples.",
   "empirical_performance_available": false,
-  "github_push": "BLOCKED_SESSION_GITHUB_WRITE_ACCESS",
+  "github_push": "PUSH_BLOCKED_CURRENT_SESSION",
   "ingestion_summary": {
     "cfb_matched_events": 60,
     "cfb_unmatched_events": 0,
@@ -837,11 +844,13 @@
     "unmatched_reasons": []
   },
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
-  "next_task": "FOUNDATION.historical_provider_access",
+  "next_task": "FOUNDATION.settlement_accounting: revision-safe CFBD result refresh",
   "phase1_integrity": {
     "changed": [],
-    "files_verified": 18
+    "files_verified": 18,
+    "verified_at": "2026-10-14T21:56:21.619243+00:00"
   },
+  "previous_run_end_reason": "Available local implementation and audit checkpoint saved; remaining model validation depends on qualifying data and unresolved controls.",
   "real_data_counts": {
     "closing_prices": 0,
     "datasets": [
@@ -984,6 +993,7 @@
     "snapshots": 29,
     "source_records": 8544
   },
+  "resumed_at": "2026-10-14T21:56:21.619243+00:00",
   "rules": [
     "Phase 1 source and original tests remain frozen",
     "No automatic wager placement",
@@ -996,13 +1006,14 @@
     "Prefer simple models; complexity requires unseen incremental evidence",
     "No new scope; earliest incomplete dependency first"
   ],
-  "run_end_reason": "Available local implementation and audit checkpoint saved; remaining model validation depends on qualifying data and unresolved controls.",
   "schema_version": 1,
   "scope_frozen": true,
   "tests": {
     "command": "python -m unittest discover -s tests -q",
     "failed": 0,
-    "passed": 155
+    "passed": 155,
+    "skipped": 0,
+    "verified_at": "2026-10-14T21:56:21.619243+00:00"
   },
-  "updated_at": "2026-10-14T07:35:40.568831+00:00"
+  "updated_at": "2026-10-14T21:56:21.667566+00:00"
 }
