@@ -1,0 +1,41 @@
+test_ledger (test_engine.Tests.test_ledger) ... ok
+test_legacy_candidate_is_untrusted (test_engine.Tests.test_legacy_candidate_is_untrusted) ... ok
+test_live_separate (test_engine.Tests.test_live_separate) ... ok
+test_max_price (test_engine.Tests.test_max_price) ... ok
+test_missing_devig (test_engine.Tests.test_missing_devig) ... ok
+test_no_lookahead (test_engine.Tests.test_no_lookahead) ... ok
+test_odds (test_engine.Tests.test_odds) ... ok
+test_parlay_fails_closed (test_engine.Tests.test_parlay_fails_closed) ... ok
+test_portfolio_correlation (test_engine.Tests.test_portfolio_correlation) ... ok
+test_stale (test_engine.Tests.test_stale) ... ok
+test_unauthenticated_validation (test_engine.Tests.test_unauthenticated_validation) ... ok
+test_atomic_concurrent_reservations (test_phase1.Phase1.test_atomic_concurrent_reservations) ... ok
+test_bad_evaluation_inputs (test_phase1.Phase1.test_bad_evaluation_inputs) ... ok
+test_bonus_separate_and_settlement_release (test_phase1.Phase1.test_bonus_separate_and_settlement_release) ... ok
+test_caller_cannot_authenticate (test_phase1.Phase1.test_caller_cannot_authenticate) ... ok
+test_candidate_evidence_mismatch (test_phase1.Phase1.test_candidate_evidence_mismatch) ... ok
+test_cli_evaluate_and_decide (test_phase1.Phase1.test_cli_evaluate_and_decide) ... ok
+test_deterministic_fingerprint (test_phase1.Phase1.test_deterministic_fingerprint) ... ok
+test_duplicate_and_prior_card_exposure (test_phase1.Phase1.test_duplicate_and_prior_card_exposure) ... ok
+test_evidence_tampering_and_scope (test_phase1.Phase1.test_evidence_tampering_and_scope) ... ok
+test_expired_and_future_evidence (test_phase1.Phase1.test_expired_and_future_evidence) ... ok
+test_explicit_pass_conditions (test_phase1.Phase1.test_explicit_pass_conditions) ... ok
+test_feature_lookahead (test_phase1.Phase1.test_feature_lookahead) ... ok
+test_goalie_and_nhl_feature_contract (test_phase1.Phase1.test_goalie_and_nhl_feature_contract) ... ok
+test_import_overbudget_open_bet (test_phase1.Phase1.test_import_overbudget_open_bet) ... ok
+test_invalid_exposure_and_transitions (test_phase1.Phase1.test_invalid_exposure_and_transitions) ... ok
+test_missing_each_feature (test_phase1.Phase1.test_missing_each_feature) ... ok
+test_naive_time_rejected (test_phase1.Phase1.test_naive_time_rejected) ... ok
+test_no_reservation_is_pass (test_phase1.Phase1.test_no_reservation_is_pass) ... ok
+test_numeric_hygiene (test_phase1.Phase1.test_numeric_hygiene) ... ok
+test_snapshot_and_all_fixture_providers (test_phase1.Phase1.test_snapshot_and_all_fixture_providers) ... ok
+test_team_player_game_slip_groups (test_phase1.Phase1.test_team_player_game_slip_groups) ... ok
+test_timestamp_failure_conditions (test_phase1.Phase1.test_timestamp_failure_conditions) ... ok
+test_total_exposure (test_phase1.Phase1.test_total_exposure) ... ok
+test_unregistered_report_and_insufficient_sample (test_phase1.Phase1.test_unregistered_report_and_insufficient_sample) ... ok
+test_valid_and_audit_fields (test_phase1.Phase1.test_valid_and_audit_fields) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.782s
+
+OK

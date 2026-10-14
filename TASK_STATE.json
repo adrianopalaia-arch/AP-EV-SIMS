@@ -1,0 +1,752 @@
+{
+  "branch": "ap-evisims-live",
+  "build_active": true,
+  "categories": {
+    "CFB": {
+      "moneyline": {
+        "blocker": "No timestamp-authentic joined historical odds/features dataset; zero empirical model observations",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.historical_provider_access"
+        ],
+        "files": [
+          "src/ap_evsims/models/cfb.py",
+          "src/ap_evsims/models/artifacts.py",
+          "src/ap_evsims/backtest.py"
+        ],
+        "next_action": "Keep CFBWinModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 90,
+        "tests": [
+          "tests/test_phase2_cfb.py",
+          "tests/test_phase2_backtest.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "spread": {
+        "blocker": "No timestamp-authentic joined historical odds/features dataset; zero empirical model observations",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.historical_provider_access"
+        ],
+        "files": [
+          "src/ap_evsims/models/cfb.py",
+          "src/ap_evsims/models/artifacts.py",
+          "src/ap_evsims/backtest.py"
+        ],
+        "next_action": "Keep CFBSpreadModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 90,
+        "tests": [
+          "tests/test_phase2_cfb.py",
+          "tests/test_phase2_backtest.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "total": {
+        "blocker": "No timestamp-authentic joined historical odds/features dataset; zero empirical model observations",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.historical_provider_access"
+        ],
+        "files": [
+          "src/ap_evsims/models/cfb.py",
+          "src/ap_evsims/models/artifacts.py",
+          "src/ap_evsims/backtest.py"
+        ],
+        "next_action": "Keep CFBTotalModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 90,
+        "tests": [
+          "tests/test_phase2_cfb.py",
+          "tests/test_phase2_backtest.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      }
+    },
+    "FOUNDATION": {
+      "GitHub_handoff": {
+        "blocker": null,
+        "dependencies": [],
+        "files": [
+          "outputs/connection_test.json",
+          "outputs/last_update.json"
+        ],
+        "next_action": "Implement atomic publish_handoff CLI, safe secret-scanned checkpoints; verify current push access.",
+        "real_sample_size": 0,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "calibration": {
+        "blocker": null,
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/models/probability_calibration.py"
+        ],
+        "next_action": "Keep fit/selection/evaluation chronologically separate; attach only to exact fitted artifact.",
+        "real_sample_size": 0,
+        "status": "COMPLETE",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_phase2_calibration.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "canonical_identity": {
+        "blocker": "Current CFB aliases and schedule revisions not yet reconciled",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/canonical.py",
+          "src/ap_evsims/providers/normalize.py"
+        ],
+        "next_action": "Bind stable provider IDs, exact market/period/rules; reject ambiguous aliases and reschedules.",
+        "real_sample_size": 0,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_phase2_canonical.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "champion_challenger": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [
+          "src/ap_evsims/ensemble.py"
+        ],
+        "next_action": "Implement immutable experiment/holdout ledger and comparison gate; no automatic promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_phase2_backtest.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "feature_source_audits": {
+        "blocker": "CFBD historical publication/revision availability unproven",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/cfb_features.py",
+          "src/ap_evsims/canonical.py",
+          "src/ap_evsims/ensemble.py"
+        ],
+        "next_action": "Persist feature/source availability and ablation experiments; exclude unverifiable fields.",
+        "real_sample_size": 0,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_phase2_canonical.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "historical_provider_access": {
+        "blocker": "BLOCKED_BY_HISTORICAL_ODDS_ACCESS; authenticated current access succeeds but historical HTTP 401",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/providers/live.py",
+          "src/ap_evsims/providers/validation.py"
+        ],
+        "next_action": "Do not retry until entitlement changes; accumulate owned current snapshots.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_provider_validation.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "historical_replay": {
+        "blocker": "No qualifying historical sportsbook dataset",
+        "dependencies": [
+          "FOUNDATION.local_warehouse"
+        ],
+        "files": [
+          "src/ap_evsims/historical.py",
+          "src/ap_evsims/backtest.py",
+          "src/ap_evsims/offline.py"
+        ],
+        "next_action": "Finish universal frozen prediction/reveal ledger; retain chronological CFB evaluation.",
+        "real_sample_size": 0,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 90,
+        "tests": [
+          "tests/test_phase2_history.py",
+          "tests/test_phase2_backtest.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "local_warehouse": {
+        "blocker": null,
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/warehouse.py",
+          "src/ap_evsims/research_store.py"
+        ],
+        "next_action": "Use local DuckDB/Parquet for remaining work. Preserve immutable versions.",
+        "real_sample_size": 8484,
+        "status": "COMPLETE",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_warehouse.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "odds_archive": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.local_warehouse"
+        ],
+        "files": [
+          "src/ap_evsims/warehouse.py",
+          "src/ap_evsims/providers/quota.py"
+        ],
+        "next_action": "Finish collect_odds command, persistent cadence/cache, and normalized quote exports.",
+        "real_sample_size": 10824,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_warehouse.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "p_low": {
+        "blocker": "Empirical interval coverage untested",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/models/probability_calibration.py",
+          "src/ap_evsims/models/cfb.py"
+        ],
+        "next_action": "Add coverage diagnostics; do not claim a verified production confidence bound.",
+        "real_sample_size": 0,
+        "status": "TESTING",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_phase2_calibration.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "provider_authentication": {
+        "blocker": null,
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/providers/validation.py",
+          "src/ap_evsims/providers/security.py"
+        ],
+        "next_action": "Reuse verified current access; monitor quota. Historical access remains a separate blocker.",
+        "real_sample_size": 0,
+        "status": "COMPLETE",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_provider_validation.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "red_team_tests": {
+        "blocker": "Empirical execution, bias, drift and tails untested",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/integrity.py",
+          "src/ap_evsims/decision.py",
+          "src/ap_evsims/warehouse.py"
+        ],
+        "next_action": "Map all 50 audit modes to evidence; add adversarial regressions and explicit unresolved gates.",
+        "real_sample_size": 0,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_phase1.py",
+          "tests/test_warehouse.py",
+          "tests/test_provider_validation.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "settlement_accounting": {
+        "blocker": "Book-specific settlement rule registry absent",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/historical.py",
+          "src/ap_evsims/exposure.py",
+          "src/ap_evsims/ledger.py"
+        ],
+        "next_action": "Add append-only corrections, confirmed cash/bonus transactions, and explicit unknown-rule PASS.",
+        "real_sample_size": 0,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_phase2_history.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      }
+    },
+    "MLB": {
+      "hits_allowed": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "hitter_hits": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "pitcher_K": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "pitcher_outs": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "total_bases": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      }
+    },
+    "NBA": {
+      "assists": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "points": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "rebounds": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "spread": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "threes": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "total": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      }
+    },
+    "NFL": {
+      "passing": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "receiving": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "receptions": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "rushing": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "spread": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "total": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      }
+    },
+    "NHL": {
+      "ML": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "SOG": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "goalie_saves": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "totals": {
+        "blocker": "No eligible local sport-specific training dataset; historical odds unavailable",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [],
+        "next_action": "Implement separate simple sport/market research contract after core replay/settlement; validate on real data before promotion.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      }
+    },
+    "OTHER": {
+      "diagnostics": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [],
+        "next_action": "Publish health, selection-bias, latency, regime, miss and drift reports without invented metrics.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "live_models": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [],
+        "next_action": "Keep separate live state/model identities; no pregame model reuse.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "local_first_data_storage": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.local_warehouse"
+        ],
+        "files": [
+          "src/ap_evsims/warehouse.py",
+          "src/ap_evsims/offline.py"
+        ],
+        "next_action": "Finish sync_data, collect_odds, data_health and offline research_cycle; no network in historical work.",
+        "real_sample_size": 8484,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_warehouse.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "parlays": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [],
+        "next_action": "Gate on validated singles and real joint payout; no automatic construction.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "promotions": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [],
+        "next_action": "Separate payoff math from model probability and cash/bonus accounting.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "tail_event_stress": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [],
+        "next_action": "Retain extreme events; implement outcome-independent stress selectors and report missing real samples.",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      }
+    }
+  },
+  "current_task": "FOUNDATION.odds_archive",
+  "empirical_note": "Captured provider rows and current quotes are real. They are not qualified historical model evaluation samples. Synthetic sample counts refer to representative mechanics fixtures and are never added to real samples.",
+  "empirical_performance_available": false,
+  "github_push": "PENDING_CHECKPOINT_ATTEMPT",
+  "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
+  "next_task": "FOUNDATION.historical_replay",
+  "real_data_counts": {
+    "closing_prices": 0,
+    "disk_bytes": 26574679,
+    "hash_failures": 0,
+    "historical_availability": "CAPTURE_TIME_ONLY_UNLESS_PROVIDER_SNAPSHOT_PROVEN",
+    "identity_conflicts": 0,
+    "missing_periods": "UNMEASURED_NO_COMPLETE_ELIGIBLE_UNIVERSE",
+    "odds_movements": 2,
+    "odds_quotes": 10824,
+    "quote_ranges": [
+      {
+        "earliest": "2026-10-14 01:19:23.928987-05:00",
+        "events": 60,
+        "latest": "2026-10-14 01:19:49.147327-05:00",
+        "quotes": 6140,
+        "sport": "CFB"
+      },
+      {
+        "earliest": "2026-10-14 01:19:24.539060-05:00",
+        "events": 2,
+        "latest": "2026-10-14 01:19:49.641141-05:00",
+        "quotes": 216,
+        "sport": "MLB"
+      },
+      {
+        "earliest": "2026-10-14 01:19:24.753617-05:00",
+        "events": 46,
+        "latest": "2026-10-14 01:19:49.811876-05:00",
+        "quotes": 1912,
+        "sport": "NBA"
+      },
+      {
+        "earliest": "2026-10-14 01:19:24.212378-05:00",
+        "events": 28,
+        "latest": "2026-10-14 01:19:49.426410-05:00",
+        "quotes": 2340,
+        "sport": "NFL"
+      },
+      {
+        "earliest": "2026-10-14 01:19:24.386382-05:00",
+        "events": 2,
+        "latest": "2026-10-14 01:19:49.542621-05:00",
+        "quotes": 216,
+        "sport": "NHL"
+      }
+    ],
+    "snapshots": 28,
+    "source_records": 8484
+  },
+  "rules": [
+    "Phase 1 source and original tests remain frozen",
+    "No automatic wager placement",
+    "No automatic promotion",
+    "No purchases or new accounts",
+    "No synthetic observations in empirical metrics",
+    "Historical research is local only",
+    "Unknown historical availability excludes rows",
+    "Unknown settlement/execution rules force PASS",
+    "Prefer simple models; complexity requires unseen incremental evidence",
+    "No new scope; earliest incomplete dependency first"
+  ],
+  "schema_version": 1,
+  "scope_frozen": true,
+  "tests": {
+    "command": "python -m unittest discover -s tests -q",
+    "failed": 0,
+    "passed": 103
+  },
+  "updated_at": "2026-10-14T06:55:36.539492+00:00"
+}

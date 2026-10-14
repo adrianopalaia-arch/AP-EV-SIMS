@@ -1,0 +1,5 @@
+# Prompt for Codex inside the existing local project
+
+Use this after copying the AP EV/SIMS 3.0 package into the existing sports-betting project:
+
+> Audit this repository before editing. Identify the existing odds clients, sports data clients, prediction models, simulation code, database schema, API routes, UI, tests and deployment config. Integrate `src/ap_evsims` as the decision-support layer rather than replacing working sport models. Every model must output a versioned `p_model`, uncertainty-adjusted `p_low`, timestamped feature cutoff and a matching out-of-sample validation report. Wire current DraftKings execution prices plus opposite-side prices into the screen. Separate pregame/live models. Preserve the append-only candidate ledger. No automatic wager placement. Add adapters around existing providers and add integration tests proving stale data, lookahead features, validation mismatches, unknown lineups/roles, and correlated exposure fail closed. Never mark missing inputs as verified. Do not use Stokastic.
