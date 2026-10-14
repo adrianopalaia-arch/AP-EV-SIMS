@@ -32,8 +32,14 @@
   },
   "generated_at": "2026-10-14T22:36:21.193786+00:00",
   "git_commit": "87bb6270fb3ab0ec6cf593418afb9bdcaae727d3",
-  "github_push": "BLOCKED_SESSION_GITHUB_WRITE_ACCESS",
+  "github_push": "BLOCKED_NETWORK_UNAVAILABLE",
   "historical_odds_access": "NO",
+  "last_push_attempt": {
+    "at": "2026-10-14T22:36:21.737687+00:00",
+    "commit": "497ade9ff0245fa40b01e3fff10049ca9654829e",
+    "status": "NETWORK_UNAVAILABLE",
+    "success": false
+  },
   "next_task": "CFB.spread: eligible-game universe and verified feature-to-Phase1 integration",
   "provider_status_basis": "LAST_RECORDED_PROBE_NO_NEW_NETWORK_CHECK",
   "providers_ok": true,
