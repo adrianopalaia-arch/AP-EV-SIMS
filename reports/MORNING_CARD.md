@@ -1,21 +1,15 @@
 # AP EV/SIMS Morning Card
 
-Generated: 2026-10-14T22:13:39.467379+00:00
+Generated: 2026-10-14T23:32:32.333332+00:00
 
-## Model health
-All markets UNVALIDATED. Zero qualifying empirical model observations.
+**NO QUALIFYING BETS**
 
-## Top current candidates
-No qualified candidates. PASS. No model is approved for wagering.
-
-## Price-sensitive candidates
-None eligible. No maximum acceptable wager price can be claimed without a calibrated model.
-
-## Passes
-1466 DraftKings/FanDuel market-side records rejected at input preflight.
-Reasons include missing calibrated models/features, unverified availability and settlement rules, unproven execution, and stale prices.
-All records and exact archived prices are retained in outputs/latest_passes.json.
-
-## Model warnings
-Historical odds access returned 401. Current provider access succeeds. Captured historical CFBD values cannot be backdated.
-Bankroll and actual stakes are unknown; balances remain null. Publication does not place a wager.
+Games with archived market quotes: 164. Market sides: 6054.
+CFB captured schedule universe: 1666 games; query coverage is incomplete.
+All models UNVALIDATED. No fitted real model is approved; probability, p_low and EV remain unavailable.
+DraftKings first, FanDuel second, remaining books for comparison. Prices are archived observations, not execution guarantees.
+Suspended or superseded quote sides withheld: 64. Refresh failures: 0.
+Every displayed market has explicit PASS reasons and exact line/price/source timestamps in latest_passes.json.
+Model evaluation sample: 0. Brier, log loss, ROI and CLV unavailable. Fixtures do not contribute performance.
+CORE, LEAN and parlay builders unavailable until their model, correlation and exposure requirements pass.
+$22 is a configurable display reference, not a bankroll or authorized stake. No wagers are placed.

@@ -4,6 +4,10 @@
 __pycache__/
 *.pyc
 .venv/
+*.egg-info/
+data/*.lock
+build/
+dist/
 data/cache/
 data/snapshots/
 data/models/

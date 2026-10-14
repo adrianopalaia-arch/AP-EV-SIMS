@@ -82,8 +82,13 @@ class Warehouse:
                     manifest['snapshot_id'],manifest['provider'],manifest['endpoint'],json.dumps(manifest['parameters']),
                     manifest['fetched_at'],manifest['observed_at'],manifest['available_at'],manifest['payload_hash'],source_url,
                     manifest.get('revision_id',manifest['payload_hash']),str(target),manifest['qualification_reason']])
-                if rows:db.executemany('INSERT INTO source_records VALUES (?,?,?,?,?,?)',[
-                    (manifest['snapshot_id'],i,manifest['provider'],manifest['endpoint'],manifest['available_at'],json.dumps(row,allow_nan=False)) for i,row in enumerate(rows)])
+                if rows:
+                    import pyarrow as pa
+                    batch=[dict(snapshot_id=manifest['snapshot_id'],row_index=i,provider=manifest['provider'],dataset=manifest['endpoint'],
+                        available_at=manifest['available_at'],body=json.dumps(row,allow_nan=False)) for i,row in enumerate(rows)]
+                    db.register('_incoming_source',pa.Table.from_pylist(batch))
+                    try:db.execute('INSERT INTO source_records SELECT * FROM _incoming_source')
+                    finally:db.unregister('_incoming_source')
                 db.execute('COMMIT')
             except Exception:
                 db.execute('ROLLBACK');raise
@@ -153,7 +158,14 @@ class Warehouse:
             before=db.execute('SELECT count(*) FROM odds_quotes').fetchone()[0]
             db.execute('BEGIN TRANSACTION')
             try:
-                if quotes:db.executemany('INSERT OR IGNORE INTO odds_quotes VALUES ('+','.join('?'*23)+')',quotes)
+                if quotes:
+                    # One transactional batch avoids thousands of per-row native
+                    # calls during a current-slate refresh on Windows.
+                    import pyarrow as pa
+                    names=[c[0] for c in db.execute('SELECT * FROM odds_quotes LIMIT 0').description]
+                    db.register('_incoming_quotes',pa.Table.from_pylist([dict(zip(names,q)) for q in quotes]))
+                    try:db.execute('INSERT OR IGNORE INTO odds_quotes SELECT * FROM _incoming_quotes')
+                    finally:db.unregister('_incoming_quotes')
                 for f in failures:db.execute('INSERT OR IGNORE INTO identity_conflicts VALUES (?,?,?,?)',[digest([manifest['snapshot_id'],f]),f['reason'],manifest['snapshot_id'],json.dumps(f)])
                 db.execute('COMMIT')
             except Exception:

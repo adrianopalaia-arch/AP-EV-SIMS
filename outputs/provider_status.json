@@ -8,97 +8,12 @@
   },
   "cfbd": {
     "authentication_status": "OK",
-    "coverage": [
-      2025
-    ],
+    "checked_at": "2026-10-14T23:20:37.516240+00:00",
     "credential_present": true,
-    "historical_access": true,
-    "historical_feature_availability": "HISTORICAL_AVAILABILITY_UNVERIFIED",
-    "last_success": "2026-10-14T22:11:41.334797+00:00",
+    "endpoint_status": 200,
     "quota_metadata": {
-      "x-calllimit-remaining": 983
-    },
-    "relevant_endpoint_status": [
-      {
-        "checked_at": "2026-10-14T06:19:46.802128+00:00",
-        "draftkings_returned": null,
-        "endpoint": "games",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:47.023230+00:00",
-        "draftkings_returned": null,
-        "endpoint": "plays",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:47.282918+00:00",
-        "draftkings_returned": null,
-        "endpoint": "teams",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:47.440480+00:00",
-        "draftkings_returned": null,
-        "endpoint": "venues",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:47.938869+00:00",
-        "draftkings_returned": null,
-        "endpoint": "stats/game/advanced",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:48.153121+00:00",
-        "draftkings_returned": null,
-        "endpoint": "ratings/elo",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:48.330995+00:00",
-        "draftkings_returned": null,
-        "endpoint": "lines",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:48.576304+00:00",
-        "draftkings_returned": null,
-        "endpoint": "live/plays",
-        "fanduel_returned": null,
-        "status": 401
-      },
-      {
-        "checked_at": "2026-10-14T06:36:39.948766+00:00",
-        "draftkings_returned": null,
-        "endpoint": "games",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T22:05:57.427725+00:00",
-        "draftkings_returned": null,
-        "endpoint": "games",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T22:11:41.334797+00:00",
-        "draftkings_returned": null,
-        "endpoint": "games",
-        "fanduel_returned": null,
-        "status": 200
-      }
-    ],
-    "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
-    "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
+      "x-calllimit-remaining": 982
+    }
   },
   "moneypuck": {
     "authentication_status": "NOT_PROBED",
@@ -123,111 +38,30 @@
   },
   "odds_api": {
     "authentication_status": "OK",
-    "coverage": null,
+    "checked_at": "2026-10-14T23:20:38.258108+00:00",
+    "coverage_scope": "Only the requested historical timestamp was probed; earliest accessible provider date is not established.",
     "credential_present": true,
+    "draftkings_returned": true,
+    "earliest_usable_historical_date": null,
+    "endpoint_status": 200,
+    "fanduel_returned": true,
     "historical_access": false,
-    "historical_feature_availability": null,
-    "last_success": "2026-10-14T22:06:00.998437+00:00",
-    "latest_collection": {
-      "collected_at": "2026-10-14T22:06:00.539322+00:00",
-      "quota": {
-        "cached_historical_snapshots": 0,
-        "credits_consumed_recorded": 21,
-        "duplicate_requests_prevented": 0,
-        "provider_requests_used": 36,
-        "requests_recorded": 11,
-        "requests_remaining": 464
-      },
-      "results": [
-        {
-          "duplicates_prevented": 0,
-          "failures": [],
-          "quotes_inserted": 3094,
-          "snapshot_id": "21447760c50eaa9065360b29a4bbbd7f957b0fa04261a92847658ce55d16a3e7",
-          "sport": "CFB",
-          "status": "ARCHIVED"
-        }
-      ]
-    },
-    "quota_metadata": {
+    "historical_access_note": "Separate entitlement check; current odds access does not prove historical access",
+    "historical_checked_at": "2026-10-14T23:20:38.463870+00:00",
+    "historical_endpoint_status": 401,
+    "historical_quota": {
       "x-requests-last": 0,
-      "x-requests-remaining": 464,
-      "x-requests-used": 36
+      "x-requests-remaining": 461,
+      "x-requests-used": 39
     },
-    "relevant_endpoint_status": [
-      {
-        "checked_at": "2026-10-14T06:19:48.770957+00:00",
-        "draftkings_returned": null,
-        "endpoint": "sports",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:49.147327+00:00",
-        "draftkings_returned": true,
-        "endpoint": "sports/americanfootball_ncaaf/odds",
-        "fanduel_returned": true,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:49.426410+00:00",
-        "draftkings_returned": true,
-        "endpoint": "sports/americanfootball_nfl/odds",
-        "fanduel_returned": true,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:49.542621+00:00",
-        "draftkings_returned": true,
-        "endpoint": "sports/icehockey_nhl/odds",
-        "fanduel_returned": true,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:49.641141+00:00",
-        "draftkings_returned": true,
-        "endpoint": "sports/baseball_mlb/odds",
-        "fanduel_returned": true,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:49.811876+00:00",
-        "draftkings_returned": true,
-        "endpoint": "sports/basketball_nba/odds",
-        "fanduel_returned": true,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T06:19:49.905185+00:00",
-        "draftkings_returned": null,
-        "endpoint": "historical/sports/americanfootball_ncaaf/odds",
-        "fanduel_returned": null,
-        "status": 401
-      },
-      {
-        "checked_at": "2026-10-14T06:36:40.169444+00:00",
-        "draftkings_returned": null,
-        "endpoint": "sports",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T22:05:59.492426+00:00",
-        "draftkings_returned": null,
-        "endpoint": "sports",
-        "fanduel_returned": null,
-        "status": 200
-      },
-      {
-        "checked_at": "2026-10-14T22:06:00.998437+00:00",
-        "draftkings_returned": true,
-        "endpoint": "sports/americanfootball_ncaaf/odds",
-        "fanduel_returned": true,
-        "status": 200
-      }
-    ],
-    "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
-    "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
+    "latest_collection": null,
+    "quota_metadata": {
+      "x-requests-last": 3,
+      "x-requests-remaining": 461,
+      "x-requests-used": 39
+    },
+    "refresh_mode": "OFFLINE",
+    "sports_endpoint_status": 200
   },
   "statcast": {
     "authentication_status": "NOT_PROBED",

@@ -1,58 +1,81 @@
 {
   "branch": "ap-evisims-live",
-  "checkpoint_generated_at": "2026-10-14T22:36:21.189785+00:00",
-  "checkpoint_only": true,
-  "commit_semantics": "source HEAD before this publication commit",
-  "completed_steps": [
-    "FOUNDATION.p_low.diagnostic_bound",
-    "FOUNDATION.p_low.fail_closed_decision_gate",
-    "FOUNDATION.settlement_accounting.as_of_result_revisions",
-    "FOUNDATION.settlement_accounting.bounded_cfbd_refresh",
-    "FOUNDATION.settlement_accounting.frozen_replay_reconciliation"
+  "card_builders": [
+    {
+      "name": "CORE singles",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "name": "LEAN research",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "name": "2\u20133 leg parlay",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "name": "4\u20136 leg prop builder",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "name": "Moneyline hammer",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "name": "Tiny lotto",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    }
   ],
-  "completed_tasks": [
-    "FOUNDATION.calibration",
-    "FOUNDATION.local_warehouse",
-    "FOUNDATION.odds_archive",
-    "FOUNDATION.provider_authentication",
-    "OTHER.local_first_data_storage",
-    "OTHER.promotions"
+  "cfb_schedule_games": 1666,
+  "current_task": "LOCAL_DASHBOARD_AND_DAILY_CARD",
+  "data_quality_failures": [
+    {
+      "reason": "SCHEMA_DRIFT",
+      "snapshot_id": "f7b3d4dae7b043feca94bfdacb8af422b74a35af070b069404f688ab3a051e89"
+    }
   ],
-  "current_edges": 0,
-  "current_passes": 1466,
-  "current_predictions": 0,
-  "current_task": "RESULT_REFRESH_AND_DECISION_GUARDS_COMPLETE",
-  "earliest_blocked_dependency": "FOUNDATION.historical_provider_access",
-  "feed_generated_at": "2026-10-14T22:13:39.467379+00:00",
   "feed_hashes": {
-    "bankroll_state.json": "0b33c276fda76eda6a18c0470e55c73e220e160d4e9791e3298200c50ef2edf6",
+    "cfb_universe.json": "1283edcab3ea7a1daa9df4ae101f6c31d4ea8cd02539cc8a203cb068fb975f4d",
     "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "latest_passes.json": "a4a43c6928a6503d073681d2fbcac2cc4e341d9846f10392bb40eb7830a61c04",
-    "latest_predictions.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    "latest_passes.json": "d455638b51847dd57063cd77fc98b7aff52e658561244021fdf1429a152f12c4",
+    "latest_predictions.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "model_status.json": "d454f9aa18977e8acd30f6e6ad41b1551889379f3a57f595ffcfbf53818fe222",
+    "provider_status.json": "1e112ea96469b826bac953d1e29ebcfda729bc9c88b075973d5936037ddd91ff"
   },
-  "generated_at": "2026-10-14T22:36:21.193786+00:00",
-  "git_commit": "87bb6270fb3ab0ec6cf593418afb9bdcaae727d3",
-  "github_push": "BLOCKED_NETWORK_UNAVAILABLE",
-  "historical_odds_access": "NO",
-  "last_push_attempt": {
-    "at": "2026-10-14T22:36:21.737687+00:00",
-    "commit": "497ade9ff0245fa40b01e3fff10049ca9654829e",
-    "status": "NETWORK_UNAVAILABLE",
-    "success": false
-  },
-  "next_task": "CFB.spread: eligible-game universe and verified feature-to-Phase1 integration",
-  "provider_status_basis": "LAST_RECORDED_PROBE_NO_NEW_NETWORK_CHECK",
-  "providers_ok": true,
-  "publication_generation": "54ec0e7f410d41341f4b5abe242309350858120262630ef61af9a9928dbb4b64",
-  "publication_task": "FOUNDATION.GitHub_handoff",
-  "reader_contract": "Verify canonical JSON SHA256 (sorted keys, compact separators, ensure_ascii=True) against this manifest; retry on a generation mismatch.",
-  "real_sample_sizes": {
-    "market_side_quote_observations": 16990,
-    "qualifying_model_evaluation": 0,
-    "unique_cfbd_games": 896
-  },
-  "research_cycle_id": "progress-2026-10-14T22:36:21.193786+00:00",
-  "sports_updated": [],
+  "games_scanned": 164,
+  "generated_at": "2026-10-14T23:32:32.333332+00:00",
+  "git_commit": "a63e558a25b1fb30f20739f5fa4194daca627336",
+  "local_comparison_hash": "93d8c32eef54e14870790d9bfa578eb377ca8406831f9bbf54245ee124d9de17",
+  "market_sides_scanned": 6054,
+  "mode": "PREGAME",
+  "models_validated": 0,
+  "next_task": "CFB verified pregame features and timestamp-authentic evaluation",
+  "preferred_market_sides": 1682,
+  "providers_ok": false,
+  "publication_generation": "bcd54070aefbbcee9c412767006ae53bb19a2d16c74657e2a7ee31d9c3d4ab37",
+  "qualified_edges": 0,
+  "reader_contract": "Verify canonical JSON SHA256; retry if any file differs from this generation.",
+  "real_model_evaluation_sample": 0,
+  "reference_unit": 22,
+  "reference_unit_semantics": "DISPLAY_REFERENCE_ONLY_NOT_A_STAKE",
+  "refresh_failures": [],
+  "sports_updated": [
+    "CFB",
+    "MLB",
+    "NBA",
+    "NFL",
+    "NHL"
+  ],
+  "status": "NO QUALIFYING BETS",
+  "suspended_or_superseded_quotes": 64,
+  "synthetic_performance_sample": 0,
   "tests_failed": 0,
-  "tests_passed": 171
+  "tests_passed": 194,
+  "tests_semantics": "Last independently run full suite, not rerun by daily_card"
 }

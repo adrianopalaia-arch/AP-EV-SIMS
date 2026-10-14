@@ -46,7 +46,8 @@ def normalize_cfbd_plays(payload,manifest, *, game_observed_times):
             ppa=row.get('ppa')
             if ppa is not None and (not isinstance(ppa,(int,float)) or not math.isfinite(ppa)): ppa=None
             out.append(PlayFact(str(row['id']),game,row['offense'],row['defense'],row['down'],row['distance'],row['yardsGained'],row['playType'],
-                None,ppa,observed,manifest.get('available_at'),manifest['snapshot_id'],manifest['payload_hash']))
+                None,ppa,observed,max(utc(observed),utc(manifest['available_at'])).isoformat() if manifest.get('available_at') else None,
+                manifest['snapshot_id'],manifest['payload_hash']))
         except (KeyError,TypeError): excluded.append(dict(play_id=str(row.get('id')),reason='MISSING_PLAY_FIELDS'))
     return out,excluded
 

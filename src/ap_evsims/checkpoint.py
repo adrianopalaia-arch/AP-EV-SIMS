@@ -29,7 +29,8 @@ def safe_files(repo):
         root=repo/folder
         if root.is_symlink() or not root.is_dir():continue
         for directory,dirs,names in os.walk(root,followlinks=False):
-            dirs[:]=[d for d in dirs if d not in ('.git','.venv','__pycache__','data') and not (Path(directory)/d).is_symlink()]
+            dirs[:]=[d for d in dirs if d not in ('.git','.venv','__pycache__','data','build','dist')
+                and not d.endswith('.egg-info') and not (Path(directory)/d).is_symlink()]
             candidates.extend(Path(directory)/name for name in names)
     for path in candidates:
         relative=path.relative_to(repo)

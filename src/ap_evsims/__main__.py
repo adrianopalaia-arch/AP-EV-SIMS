@@ -4,11 +4,12 @@ from pathlib import Path
 
 def main(argv=None):
     parser=argparse.ArgumentParser(prog='python -m ap_evsims')
-    parser.add_argument('command',choices=('collect_odds','sync_data','data_health','research_cycle','publish_handoff','reconcile_results'))
+    parser.add_argument('command',choices=('collect_odds','sync_data','data_health','research_cycle','publish_handoff','reconcile_results','daily_card','dashboard','verify_providers'))
     parser.add_argument('--store',type=Path,default=Path('data'))
     parser.add_argument('--sports',default='CFB')
     parser.add_argument('--daily-credit-cap',type=int,default=24)
     parser.add_argument('--reserve-credits',type=int,default=50)
+    parser.add_argument('--force-refresh',action='store_true',help='Explicit daily-card refresh, bounded by a 60-second cooldown and the quota ceiling')
     parser.add_argument('--cfbd-year',type=int)
     parser.add_argument('--cfbd-week',type=int)
     parser.add_argument('--refresh-cfbd-games',action='store_true',help='Explicitly capture a new revision of one CFBD year/week query')
@@ -22,6 +23,21 @@ def main(argv=None):
     parser.add_argument('--author-name')
     parser.add_argument('--author-email')
     args=parser.parse_args(argv)
+    if args.command=='verify_providers':
+        if args.offline:parser.error('verify_providers requires network access')
+        from .providers.access import verify_access
+        print(json.dumps(verify_access(args.store.resolve().parent),indent=2,allow_nan=False));return
+    if args.command=='dashboard':
+        import subprocess,sys
+        script=Path(__file__).with_name('dashboard.py')
+        raise SystemExit(subprocess.call([sys.executable,'-m','streamlit','run',str(script),
+            '--server.address=127.0.0.1','--server.port=8501','--server.headless=true',
+            '--browser.gatherUsageStats=false','--client.showErrorDetails=false','--','--repo',str(args.store.resolve().parent)]))
+    if args.command=='daily_card':
+        from .product import daily_card
+        result=daily_card(args.store.resolve().parent,offline=args.offline,sports=tuple(args.sports.split(',')),
+            daily_credit_cap=args.daily_credit_cap,reserve_credits=args.reserve_credits,force_refresh=args.force_refresh)
+        print(json.dumps(result,indent=2,allow_nan=False));return
     if args.offline and args.command=='collect_odds':parser.error('collect_odds requires network access')
     if args.offline and args.command=='sync_data' and args.cfbd_year is not None:parser.error('offline sync imports local archives only')
     if args.refresh_cfbd_games and (args.command!='sync_data' or args.offline or args.cfbd_year is None or args.cfbd_week is None):

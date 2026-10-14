@@ -4,6 +4,64 @@ AP EV/SIMS 3.0 is a **research, calibration, and price-screening engine**. It is
 
 It does **not** promise profitable betting and it does not auto-place wagers.
 
+## Local application
+
+From this repository directory, using Python 3.11 or newer:
+
+```powershell
+python -m pip install -e .
+```
+
+Launch with:
+
+```powershell
+python -m ap_evsims dashboard
+```
+
+Open **http://127.0.0.1:8501**. In the existing Windows checkout, replace `python`
+with `.\.venv\Scripts\python.exe`. The server binds only to localhost and disables
+usage telemetry. Run the launch command in normal PowerShell if the Codex sandbox
+cannot reach loopback. No terminal activation or credentials in command arguments
+are required. Keep the server terminal running; Ctrl+C stops it.
+
+The dashboard shows exact archived prices, DK/FD priority, no-vig market baselines,
+all 26 requested market categories, CFB schedule coverage, provider status and
+explicit PASS reasons. All models remain **UNVALIDATED**. The $22 reference unit
+is configurable in the browser session; it never sets a bankroll or stake.
+Unavailable player markets stay visible as **Await data**. Live mode and all
+card builders are disabled until their independent eligibility requirements pass.
+
+Put keys only in the ignored `.env`, using the names from `.env.example`.
+The app reads them without displaying them. Missing credentials leave a usable
+offline dashboard. Click Refresh to request current markets; the application
+does not poll or place wagers in the background.
+
+```powershell
+python -m ap_evsims verify_providers
+python -m ap_evsims daily_card --sports CFB,NHL,NFL,MLB,NBA --daily-credit-cap 48 --force-refresh
+python -m ap_evsims daily_card --offline
+python -m ap_evsims research_cycle --offline
+```
+
+`verify_providers` separately tests current and historical access (at most 13
+estimated Odds API credits). Daily card defaults to a 24-credit daily ceiling and
+50-credit reserve; the example explicitly raises the ceiling to 48. Manual forced
+refreshes retain a 60-second cooldown. Provider response quota is recorded locally.
+Historical HTTP 401/403 never triggers fabricated prices or automatic purchasing.
+
+`daily_card` writes `outputs/latest_predictions.json`, `latest_edges.json`,
+`latest_passes.json`, `model_status.json`, `provider_status.json`,
+`cfb_universe.json`, `last_update.json`, and `reports/MORNING_CARD.md`. Zero qualified
+models produces **NO QUALIFYING BETS**, empty predictions/edges, and explicit
+market PASS records. Other-book comparisons remain in ignored local snapshots to
+keep GitHub feeds small. Raw data, account balances and databases stay local.
+The reader validates generation hashes before showing files together.
+
+Current product limits: no approved empirical model artifact; historical odds
+entitlement denied; insufficient verified rolling feature coverage. Research
+algorithms and synthetic tests do not establish betting performance. See
+`reports/PRODUCT_DELIVERY.md` for the tested build and exact remaining milestones.
+
 Phase 2 checkpoint: local research infrastructure and 24 market contracts are
 implemented. CFB spread/total/win research predictors exist, but **no real model
 is calibrated or approved**. Other sport predictors are not fitted or implemented

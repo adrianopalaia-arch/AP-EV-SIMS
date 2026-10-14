@@ -20,3 +20,9 @@ class CheckpointTests(unittest.TestCase):
         rows=audit_inventory();self.assertEqual({r['id'] for r in rows},set(range(1,51)))
         result=readiness_gate(rows,empirical_n=0,prospective_n=0,beats_market=False,coverage_validated=False)
         self.assertEqual(result['status'],'RESEARCH_ONLY');self.assertIn('CRITICAL_RED_TEAM_UNRESOLVED',result['reasons'])
+    def test_editable_install_metadata_is_never_staged(self):
+        with tempfile.TemporaryDirectory() as t:
+            root=Path(t)
+            for name in ('src/ap_evisims.egg-info/SOURCES.txt','src/build/leak.txt','src/a.py'):
+                p=root/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_text('example')
+            self.assertEqual(safe_files(root),['src/a.py'])

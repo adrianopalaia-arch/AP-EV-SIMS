@@ -40,9 +40,9 @@ def publish_handoff(repo,store,warehouse, *, now=None,source_commit=None):
     # No approved artifacts currently exist. Never translate an arbitrary ledger
     # status into an executable recommendation without a fresh Phase 1 evaluation.
     edges=[]
-    from .accounting import AccountLedger
-    balance=AccountLedger(store.root/'settlements/accounting.sqlite').state()
-    balance.update(unit_size=None,open_cash_exposure=None,open_bonus_exposure=None,reserved_exposure=None,
+    # Public feeds never disclose private account balances or infer a bankroll.
+    balance=dict(cash_balance=None,bonus_balance=None,unit_size=22,unit_semantics='REFERENCE_ONLY_NOT_A_STAKE',
+        open_cash_exposure=None,open_bonus_exposure=None,reserved_exposure=None,
         exposure_reconciliation='UNKNOWN; no external sportsbook positions imported')
     values={'latest_edges.json':edges,'latest_predictions.json':predictions,'latest_passes.json':passes,'bankroll_state.json':balance}
     generation_id=digest(dict(at=at,quote_ids=[q['quote_id'] for q in quotes],predictions=[p['prediction_id'] for p in predictions]))

@@ -36,7 +36,7 @@ def cadence_seconds(seconds_to_start):
     if seconds_to_start<=86400:return 3600
     return 21600
 
-def collect_odds(store,warehouse, *, sports=('CFB',),now=None,daily_credit_cap=24,reserve_credits=50,transport=http_get):
+def collect_odds(store,warehouse, *, sports=('CFB',),now=None,daily_credit_cap=24,reserve_credits=50,transport=http_get,force_refresh=False):
     now=utc(now or datetime.now(timezone.utc)).isoformat()
     if daily_credit_cap<0 or reserve_credits<0:raise ValueError('INVALID_QUOTA_POLICY')
     validator=ProviderValidator(store,transport=transport,max_odds_credits=daily_credit_cap)
@@ -51,6 +51,7 @@ def collect_odds(store,warehouse, *, sports=('CFB',),now=None,daily_credit_cap=2
         if row[0]:
             age=(utc(now)-utc(row[0])).total_seconds()
             interval=cadence_seconds((utc(row[1])-utc(now)).total_seconds()) if row[1] else 21600
+            if force_refresh:interval=60  # Explicit UI refresh, still quota/cooldown bounded.
             if age<interval:
                 result.append(dict(sport=sport,status='CACHED_CADENCE',next_refresh_seconds=max(0,interval-age)));continue
         remaining=ledger.summary()['requests_remaining']

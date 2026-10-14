@@ -21,7 +21,8 @@ def materialize_rolling_features(store, *, plays_snapshot_id,results_snapshot_id
     plays,rejections=normalize_cfbd_plays(warehouse.local_records('cfbd',plays_manifest['endpoint'],as_of,snapshot_id=plays_snapshot_id),plays_manifest,game_observed_times=known)
     features=rolling_matchup_features(plays,event_id=event_id,home_team=home_team,away_team=away_team,as_of=as_of,
         minimum_plays=minimum_plays,minimum_games=minimum_games)
-    body=dict(algorithm_version='rolling-cfb-v1',source_snapshots=[plays_snapshot_id,results_snapshot_id],as_of=features.timestamp,
+    body=dict(algorithm_version='rolling-cfb-v2',home_team=home_team,away_team=away_team,
+        source_snapshots=[plays_snapshot_id,results_snapshot_id],as_of=features.timestamp,
         event_id=event_id,sport='CFB',values={k:v.value for k,v in features.values.items()},
         minimum_plays=minimum_plays,minimum_games=minimum_games)
     fingerprint=digest(body); identity='derived-'+fingerprint
@@ -33,6 +34,7 @@ def materialize_rolling_features(store, *, plays_snapshot_id,results_snapshot_id
 
 def verify_feature_sources(store,features):
     features.validate(features.timestamp)
+    verified=set()
     for name,value in features.values.items():
         if value.snapshot_id.startswith('derived-'):
             fingerprint=value.snapshot_id.removeprefix('derived-')
@@ -43,6 +45,17 @@ def verify_feature_sources(store,features):
             if digest(body)!=fingerprint or value.payload_hash!=fingerprint or body['values'].get(name)!=value.value or body['event_id']!=features.event_id or body['as_of']!=features.timestamp:
                 raise ValueError('FEATURE_HASH_MISMATCH')
             for identity in body['source_snapshots']: require_historical_availability(store.manifest(identity),features.timestamp)
+            if fingerprint not in verified:
+                if body.get('algorithm_version')!='rolling-cfb-v2':raise ValueError('UNVERIFIED_DERIVATION_RECIPE')
+                expected,_=materialize_rolling_features(store,plays_snapshot_id=body['source_snapshots'][0],
+                    results_snapshot_id=body['source_snapshots'][1],event_id=body['event_id'],
+                    home_team=body['home_team'],away_team=body['away_team'],as_of=body['as_of'],
+                    minimum_plays=body['minimum_plays'],minimum_games=body['minimum_games'])
+                if {k:v.value for k,v in expected.values.items()}!=body['values']:raise ValueError('FEATURE_DERIVATION_MISMATCH')
+                if any(v.payload_hash!=fingerprint for v in expected.values.values()):raise ValueError('FEATURE_DERIVATION_MISMATCH')
+                verified.add(fingerprint)
+            if utc(value.available_at)<max(utc(store.manifest(s)['available_at']) for s in body['source_snapshots']):
+                raise ValueError('HISTORICAL_AVAILABILITY_UNVERIFIED')
         else:
             manifest=store.manifest(value.snapshot_id)
             if manifest['payload_hash']!=value.payload_hash: raise ValueError('FEATURE_HASH_MISMATCH')

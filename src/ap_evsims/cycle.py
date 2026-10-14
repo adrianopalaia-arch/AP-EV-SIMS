@@ -14,6 +14,10 @@ def research_cycle(repo,store,warehouse, *, offline=False,dataset_path=None,fold
         real_model_sample=0,synthetic_model_sample=0,steps=[],blockers=[])
     with offline_mode():
         report['local_import']=import_local_archive(store,warehouse)
+        from .results import reconcile_cfbd_replay
+        from .replay import ReplayLedger
+        report['settlement']=reconcile_cfbd_replay(store,warehouse,ReplayLedger(store.root/'predictions/replay.sqlite'),now)
+        report['steps'].append('VERIFIED_RESULT_REVISIONS_RECONCILED')
         warehouse.close_events(now)
         report['data_health']=data_health(store,warehouse,repo/'reports/DATA_HEALTH.md')
         report['steps']+=['LOCAL_HASH_AND_SCHEMA_VALIDATION','CLOSING_PRICES_REVEALED_AFTER_START','LOCAL_DATA_HEALTH']
@@ -33,7 +37,8 @@ def research_cycle(repo,store,warehouse, *, offline=False,dataset_path=None,fold
     if not offline:
         report['current_refresh']=collect_odds(store,warehouse,sports=('CFB',))
     else:report['current_refresh']={'status':'OFFLINE_NO_NETWORK'}
-    report['handoff']=publish_handoff(repo,store,warehouse,source_commit=source_commit)
+    from .product import daily_card
+    report['handoff']=daily_card(repo,offline=True)
     report['cycle_id']=digest(report)
     atomic_json(store.root/'evaluations'/('cycle-'+report['cycle_id']+'.json'),report)
     return report
