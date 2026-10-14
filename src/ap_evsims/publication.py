@@ -40,6 +40,18 @@ def write_status_checkpoint(repo, *, source_commit=None):
             coverage=report.get('cfbd_seasons_access_verified') if internal=='cfbd' else report.get('earliest_usable_historical_date'))
     for p in ('moneypuck','nflverse','statcast','nba','weather','availability'):
         providers[p]=dict(authentication_status='NOT_PROBED',historical_access=None,coverage=None)
+    collection_path=repo/'data/evaluations/odds-collection-latest.json'
+    if collection_path.exists():
+        collection=json.loads(collection_path.read_text())
+        providers['odds_api']['latest_collection']=collection
+        quota=collection.get('quota',{})
+        if quota.get('requests_remaining') is not None:
+            providers['odds_api']['quota_metadata'].update({'x-requests-remaining':quota['requests_remaining'],'x-requests-used':quota.get('provider_requests_used')})
+        for result in collection.get('results',[]):
+            if result.get('status')=='ARCHIVED':
+                from .research_store import ResearchStore
+                manifest=ResearchStore(repo/'data').manifest(result['snapshot_id'])
+                providers['odds_api']['last_success']=max(providers['odds_api']['last_success'] or '',manifest['fetched_at'])
     models=[]
     for sport in ('CFB','NHL','NFL','MLB','NBA'):
         for market,item in state['categories'][sport].items():

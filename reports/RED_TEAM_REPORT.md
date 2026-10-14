@@ -1,7 +1,7 @@
 # Red-team report
 
-Generated: 2026-10-14T07:26:48.660265+00:00
-Full suite: 154 passed; 0 failed. Critical unresolved audit categories: 13.
+Generated: 2026-10-14T07:35:38.361255+00:00
+Full suite: 155 passed; 0 failed. Critical unresolved audit categories: 13.
 FAIL below includes missing evidence and incomplete implementation, not just failing unit tests. Mechanics PASS does not approve a market.
 All markets remain RESEARCH_ONLY. No real model evaluation or prospective performance sample exists.
 

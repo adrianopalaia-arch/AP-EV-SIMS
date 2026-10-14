@@ -10,24 +10,25 @@
     "OTHER.promotions"
   ],
   "current_edges": 0,
-  "current_passes": 1452,
+  "current_passes": 1454,
   "current_predictions": 0,
-  "current_task": "FOUNDATION.GitHub_handoff",
+  "current_task": "LOCAL_CHECKPOINT_COMPLETE_PENDING_DATA",
   "feed_hashes": {
     "bankroll_state.json": "0b33c276fda76eda6a18c0470e55c73e220e160d4e9791e3298200c50ef2edf6",
     "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "latest_passes.json": "a6a2980574166b977d5792babae56d17ca330abc4d556f20b239c2dc883b79ea",
+    "latest_passes.json": "6338a4378ce2e4803a0bf922037b832c5ca67cbe7b6cbf36d067f3429a10665a",
     "latest_predictions.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
-  "generated_at": "2026-10-14T07:26:49.316057+00:00",
-  "git_commit": "724465895ed6aa84152fbe11254aa418b088d25f",
+  "generated_at": "2026-10-14T07:35:40.297873+00:00",
+  "git_commit": "2c90ae3f61f37eebaf2a9cc34232842900412d2b",
   "historical_odds_access": "NO",
   "next_task": "FOUNDATION.historical_provider_access",
   "providers_ok": true,
-  "publication_generation": "81a6c89d71b8506e428bd21c1a96a3a413fb41e70f7045f23052976c39b20e2d",
+  "publication_generation": "151289fa06d046323b6328b1262e8c5245c1242b365d8b895c4db6c2c5eba450",
+  "publication_task": "FOUNDATION.GitHub_handoff",
   "reader_contract": "Verify canonical JSON SHA256 (sorted keys, compact separators, ensure_ascii=True) against this manifest; retry on a generation mismatch.",
-  "research_cycle_id": "progress-2026-10-14T07:26:49.590587+00:00",
+  "research_cycle_id": "progress-2026-10-14T07:35:40.568831+00:00",
   "sports_updated": [],
   "tests_failed": 0,
-  "tests_passed": 154
+  "tests_passed": 155
 }

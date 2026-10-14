@@ -1,9 +1,13 @@
 """Exact, source-backed identity joins. Ambiguous aliases and start revisions fail closed."""
-import json,re
+import json,re,unicodedata
 from .integrity import digest,utc
 
 def normalized_name(value):
-    return re.sub(r'\s+',' ',value.strip()).casefold()
+    value=''.join(c for c in unicodedata.normalize('NFKD',value) if not unicodedata.combining(c))
+    value=value.replace("'",'').replace('\u2019','')
+    # Deterministic spelling normalization, never edit-distance/fuzzy matching.
+    # Collision sets below still require exactly one provider team ID.
+    return re.sub(r'\s+',' ',value.strip()).casefold().removeprefix('the ')
 
 def map_cfb_events(teams,games,events, *, alias_snapshot,game_snapshot,available_at):
     if not alias_snapshot or not game_snapshot:raise ValueError('MISSING_IDENTITY_PROVENANCE')
@@ -14,9 +18,10 @@ def map_cfb_events(teams,games,events, *, alias_snapshot,game_snapshot,available
         names=[school]+list(team.get('alternateNames') or [])
         if team.get('mascot'):names += [n+' '+team['mascot'] for n in list(names)]
         for name in names:aliases.setdefault(normalized_name(name),set()).add(identity)
-    mapped={};rejected=[]
+    mapped={};rejected=[];tainted=set()
     for event in events:
         try:
+            if event['id'] in tainted:raise ValueError('EVENT_IDENTITY_COLLISION')
             candidates=[]
             home=aliases.get(normalized_name(event['home_team']),set());away=aliases.get(normalized_name(event['away_team']),set())
             if len(home)!=1 or len(away)!=1:raise ValueError('TEAM_ALIAS_AMBIGUOUS_OR_MISSING')
@@ -31,11 +36,12 @@ def map_cfb_events(teams,games,events, *, alias_snapshot,game_snapshot,available
             mapping=dict(event_id=str(game['id']),home_team=event['home_team'],away_team=event['away_team'],
                 cfbd_home_team=game['homeTeam'],cfbd_away_team=game['awayTeam'],event_start=utc(game['startDate']).isoformat(),
                 home_id=game['homeId'],away_id=game['awayId'],alias_source=alias_snapshot,
-                game_snapshot=game_snapshot,available_at=available_at,season=game['season'])
+                game_snapshot=game_snapshot,available_at=available_at,season=game['season'],alias_rule='unicode-apostrophe-leading-article-v1')
             if event['id'] in mapped and mapped[event['id']]!=mapping:raise ValueError('EVENT_IDENTITY_COLLISION')
             mapped[event['id']]=mapping
         except (KeyError,TypeError,ValueError) as error:
             rejected.append(dict(event_id=event.get('id'),reason=str(error)))
+            tainted.add(event.get('id'))
             mapped.pop(event.get('id'),None)
     return mapped,rejected
 

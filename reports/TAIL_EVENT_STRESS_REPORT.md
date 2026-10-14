@@ -1,6 +1,6 @@
 # Tail-event stress report
 
-Generated: 2026-10-14T07:26:48.660265+00:00
+Generated: 2026-10-14T07:35:38.361255+00:00
 Real stress sample: 0. Historical case reconstruction: INSUFFICIENT_HISTORICAL_SNAPSHOT.
 CFB distribution tests preserve nonzero upset mass and explicit integer pushes. Hypothetical bankroll stress tests cover common-group losses, drawdown, ruin and quarter-Kelly sensitivity.
 No synthetic stress statistic is reported as model performance. Empirical tail calibration, game-script mixtures, clustered ROI intervals and extreme-game replays remain blocked by qualifying data.

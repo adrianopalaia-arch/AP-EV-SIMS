@@ -1,6 +1,6 @@
 {
   "branch": "ap-evisims-live",
-  "build_active": true,
+  "build_active": false,
   "categories": {
     "CFB": {
       "moneyline": {
@@ -85,7 +85,7 @@
           "tests/test_handoff_cycle.py",
           "tests/test_checkpoint.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "calibration": {
         "blocker": null,
@@ -103,21 +103,22 @@
         "updated_at": "2026-10-14T06:54:38.496450+00:00"
       },
       "canonical_identity": {
-        "blocker": "Current CFB identity: 56/60 matched; four aliases fail closed. Other-sport canonical player identities and book settlement rules absent.",
+        "blocker": "Current CFB identity: 60/60 matched; 0 unmatched. Other-sport canonical player identities and book settlement rules absent.",
         "dependencies": [],
         "files": [
           "src/ap_evsims/identity.py",
           "src/ap_evsims/execution.py"
         ],
-        "next_action": "Resolve four CFB aliases from documented provider identifiers; collect timestamp-safe roster and schedule revision archives.",
-        "real_sample_size": 0,
+        "next_action": "Collect timestamp-safe roster and schedule revision archives; preserve uniquely mapped source team IDs.",
+        "real_sample_size": 60,
+        "sample_unit": "current uniquely matched CFB events; not evaluation observations",
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_identity.py",
           "tests/test_governance_execution.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "champion_challenger": {
         "blocker": "No real champion, challenger or prospective holdout observations.",
@@ -134,7 +135,7 @@
         "tests": [
           "tests/test_governance_execution.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "feature_source_audits": {
         "blocker": "Inventory is complete; historical coverage, full-universe missingness and incremental value remain unmeasured.",
@@ -152,7 +153,7 @@
           "tests/test_phase2_canonical.py",
           "tests/test_diagnostics_redteam.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "historical_provider_access": {
         "blocker": "BLOCKED_BY_HISTORICAL_ODDS_ACCESS; authenticated current access succeeds but historical HTTP 401",
@@ -189,7 +190,7 @@
           "tests/test_phase2_backtest.py",
           "tests/test_handoff_cycle.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "local_warehouse": {
         "blocker": null,
@@ -199,7 +200,8 @@
           "src/ap_evsims/research_store.py"
         ],
         "next_action": "Use local DuckDB/Parquet for remaining work. Preserve immutable versions.",
-        "real_sample_size": 8484,
+        "real_sample_size": 8544,
+        "sample_unit": "captured source rows, including revisions",
         "status": "COMPLETE",
         "synthetic_sample_size": 0,
         "tests": [
@@ -218,7 +220,8 @@
           "src/ap_evsims/providers/quota.py"
         ],
         "next_action": "Continue bounded prospective collection; cached history is immutable. No paid historical entitlement.",
-        "real_sample_size": 10824,
+        "real_sample_size": 13896,
+        "sample_unit": "timestamped market-side quote observations",
         "status": "COMPLETE",
         "synthetic_sample_size": 0,
         "tests": [
@@ -242,7 +245,7 @@
           "tests/test_phase2_calibration.py",
           "tests/test_diagnostics_redteam.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "provider_authentication": {
         "blocker": null,
@@ -275,7 +278,7 @@
           "tests/test_diagnostics_redteam.py",
           "tests/test_checkpoint.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "settlement_accounting": {
         "blocker": "Unknown real book rules and external account state. Local payoff and correction mechanics pass.",
@@ -292,7 +295,7 @@
           "tests/test_replay_settlement.py",
           "tests/test_accounting_promotions.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       }
     },
     "MLB": {
@@ -312,7 +315,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "hitter_hits": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -330,7 +333,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "pitcher_K": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -348,7 +351,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "pitcher_outs": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -366,7 +369,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "total_bases": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -384,7 +387,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       }
     },
     "NBA": {
@@ -404,7 +407,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "points": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -422,7 +425,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "rebounds": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -440,7 +443,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "spread": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -458,7 +461,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "threes": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -476,7 +479,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "total": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -494,7 +497,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       }
     },
     "NFL": {
@@ -514,7 +517,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "receiving": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -532,7 +535,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "receptions": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -550,7 +553,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "rushing": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -568,7 +571,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "spread": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -586,7 +589,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "total": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -604,7 +607,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       }
     },
     "NHL": {
@@ -624,7 +627,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "SOG": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -642,7 +645,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "goalie_saves": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -660,7 +663,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "totals": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -678,7 +681,7 @@
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       }
     },
     "OTHER": {
@@ -698,7 +701,7 @@
         "tests": [
           "tests/test_diagnostics_redteam.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "live_models": {
         "blocker": "No live model or synchronized live feed; CFBD live endpoint probe returned 401.",
@@ -716,7 +719,7 @@
         "tests": [
           "tests/test_engine.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "local_first_data_storage": {
         "blocker": null,
@@ -757,7 +760,7 @@
           "tests/test_engine.py",
           "tests/test_phase1.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "promotions": {
         "blocker": null,
@@ -775,7 +778,7 @@
         "tests": [
           "tests/test_accounting_promotions.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "tail_event_stress": {
         "blocker": "Hypothetical stress mechanics pass; real tail cases lack qualifying historical snapshots.",
@@ -794,30 +797,31 @@
           "tests/test_diagnostics_redteam.py",
           "tests/test_phase2_cfb.py"
         ],
-        "updated_at": "2026-10-14T07:26:47.954870+00:00"
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
       }
     }
   },
-  "current_task": "FOUNDATION.red_team_tests",
+  "completion": "PARTIAL",
+  "current_task": "LOCAL_CHECKPOINT_COMPLETE_PENDING_DATA",
   "empirical_note": "Captured provider rows and current quotes are real. They are not qualified historical model evaluation samples. Synthetic sample counts refer to representative mechanics fixtures and are never added to real samples.",
   "empirical_performance_available": false,
   "github_push": "BLOCKED_SESSION_GITHUB_WRITE_ACCESS",
   "ingestion_summary": {
-    "cfb_matched_events": 56,
-    "cfb_unmatched_events": 4,
+    "cfb_matched_events": 60,
+    "cfb_unmatched_events": 0,
     "completed_cfbd_games": 295,
-    "current_quote_observations": 10824,
+    "current_quote_observations": 13896,
     "earliest_current_capture": "2026-10-14 06:19:23.928987+00:00",
     "earliest_usable_historical_date": null,
-    "generated_at": "2026-10-14T07:26:47.954870+00:00",
+    "generated_at": "2026-10-14T07:35:37.601494+00:00",
     "historical_2025_games": 292,
     "historical_sportsbook_snapshots": 0,
-    "latest_current_capture": "2026-10-14 06:19:49.811876+00:00",
+    "latest_current_capture": "2026-10-14 07:31:17.755854+00:00",
     "latest_usable_historical_date": null,
     "missingness": {
       "book_settlement_rule": 1.0,
       "calibrated_model": 1.0,
-      "current_cfb_identity_fraction": 0.06666666666666667,
+      "current_cfb_identity_fraction": 0.0,
       "historical_feature_universe": null,
       "quote_execution_proof": 1.0
     },
@@ -827,45 +831,125 @@
       2025,
       2026
     ],
-    "sportsbook_response_snapshots": 10,
+    "sportsbook_response_snapshots": 11,
     "synthetic_observations_in_real_metrics": 0,
     "unique_cfbd_games": 594,
-    "unmatched_reasons": [
-      {
-        "event_id": "edac5f5669470d4cc438ffe9b3d7046a",
-        "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
-      },
-      {
-        "event_id": "dd062699e8f42bd17509cfba1952e286",
-        "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
-      },
-      {
-        "event_id": "8ce4565fe6dda2fbac6a893844519dcf",
-        "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
-      },
-      {
-        "event_id": "121ada2c134388f8cc2f26ffc54f52d1",
-        "reason": "TEAM_ALIAS_AMBIGUOUS_OR_MISSING"
-      }
-    ]
+    "unmatched_reasons": []
   },
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
   "next_task": "FOUNDATION.historical_provider_access",
+  "phase1_integrity": {
+    "changed": [],
+    "files_verified": 18
+  },
   "real_data_counts": {
     "closing_prices": 0,
-    "disk_bytes": 28340399,
+    "datasets": [
+      {
+        "dataset": "games",
+        "earliest": "2026-10-14 06:19:21.255064+00:00",
+        "latest": "2026-10-14 06:36:39.948766+00:00",
+        "provider": "cfbd",
+        "snapshots": 3
+      },
+      {
+        "dataset": "lines",
+        "earliest": "2026-10-14 06:19:23.221758+00:00",
+        "latest": "2026-10-14 06:19:48.330995+00:00",
+        "provider": "cfbd",
+        "snapshots": 2
+      },
+      {
+        "dataset": "plays",
+        "earliest": "2026-10-14 06:19:21.673885+00:00",
+        "latest": "2026-10-14 06:19:47.023230+00:00",
+        "provider": "cfbd",
+        "snapshots": 2
+      },
+      {
+        "dataset": "ratings/elo",
+        "earliest": "2026-10-14 06:19:23.062796+00:00",
+        "latest": "2026-10-14 06:19:48.153121+00:00",
+        "provider": "cfbd",
+        "snapshots": 2
+      },
+      {
+        "dataset": "stats/game/advanced",
+        "earliest": "2026-10-14 06:19:22.641959+00:00",
+        "latest": "2026-10-14 06:19:47.938869+00:00",
+        "provider": "cfbd",
+        "snapshots": 2
+      },
+      {
+        "dataset": "teams",
+        "earliest": "2026-10-14 06:19:21.952859+00:00",
+        "latest": "2026-10-14 06:19:47.282918+00:00",
+        "provider": "cfbd",
+        "snapshots": 2
+      },
+      {
+        "dataset": "venues",
+        "earliest": "2026-10-14 06:19:22.118006+00:00",
+        "latest": "2026-10-14 06:19:47.440480+00:00",
+        "provider": "cfbd",
+        "snapshots": 2
+      },
+      {
+        "dataset": "sports",
+        "earliest": "2026-10-14 06:19:23.538288+00:00",
+        "latest": "2026-10-14 06:36:40.169444+00:00",
+        "provider": "odds",
+        "snapshots": 3
+      },
+      {
+        "dataset": "sports/americanfootball_ncaaf/odds",
+        "earliest": "2026-10-14 06:19:23.928987+00:00",
+        "latest": "2026-10-14 07:31:17.755854+00:00",
+        "provider": "odds",
+        "snapshots": 3
+      },
+      {
+        "dataset": "sports/americanfootball_nfl/odds",
+        "earliest": "2026-10-14 06:19:24.212378+00:00",
+        "latest": "2026-10-14 06:19:49.426410+00:00",
+        "provider": "odds",
+        "snapshots": 2
+      },
+      {
+        "dataset": "sports/baseball_mlb/odds",
+        "earliest": "2026-10-14 06:19:24.539060+00:00",
+        "latest": "2026-10-14 06:19:49.641141+00:00",
+        "provider": "odds",
+        "snapshots": 2
+      },
+      {
+        "dataset": "sports/basketball_nba/odds",
+        "earliest": "2026-10-14 06:19:24.753617+00:00",
+        "latest": "2026-10-14 06:19:49.811876+00:00",
+        "provider": "odds",
+        "snapshots": 2
+      },
+      {
+        "dataset": "sports/icehockey_nhl/odds",
+        "earliest": "2026-10-14 06:19:24.386382+00:00",
+        "latest": "2026-10-14 06:19:49.542621+00:00",
+        "provider": "odds",
+        "snapshots": 2
+      }
+    ],
+    "disk_bytes": 37878010,
     "hash_failures": 0,
     "historical_availability": "CAPTURE_TIME_ONLY_UNLESS_PROVIDER_SNAPSHOT_PROVEN",
     "identity_conflicts": 0,
     "missing_periods": "UNMEASURED_NO_COMPLETE_ELIGIBLE_UNIVERSE",
-    "odds_movements": 2,
-    "odds_quotes": 10824,
+    "odds_movements": 39,
+    "odds_quotes": 13896,
     "quote_ranges": [
       {
         "earliest": "2026-10-14 06:19:23.928987+00:00",
         "events": 60,
-        "latest": "2026-10-14 06:19:49.147327+00:00",
-        "quotes": 6140,
+        "latest": "2026-10-14 07:31:17.755854+00:00",
+        "quotes": 9212,
         "sport": "CFB"
       },
       {
@@ -897,8 +981,8 @@
         "sport": "NHL"
       }
     ],
-    "snapshots": 28,
-    "source_records": 8484
+    "snapshots": 29,
+    "source_records": 8544
   },
   "rules": [
     "Phase 1 source and original tests remain frozen",
@@ -912,12 +996,13 @@
     "Prefer simple models; complexity requires unseen incremental evidence",
     "No new scope; earliest incomplete dependency first"
   ],
+  "run_end_reason": "Available local implementation and audit checkpoint saved; remaining model validation depends on qualifying data and unresolved controls.",
   "schema_version": 1,
   "scope_frozen": true,
   "tests": {
     "command": "python -m unittest discover -s tests -q",
     "failed": 0,
-    "passed": 154
+    "passed": 155
   },
-  "updated_at": "2026-10-14T07:26:49.590587+00:00"
+  "updated_at": "2026-10-14T07:35:40.568831+00:00"
 }

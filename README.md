@@ -4,6 +4,14 @@ AP EV/SIMS 3.0 is a **research, calibration, and price-screening engine**. It is
 
 It does **not** promise profitable betting and it does not auto-place wagers.
 
+Phase 2 checkpoint: local research infrastructure and 24 market contracts are
+implemented. CFB spread/total/win research predictors exist, but **no real model
+is calibrated or approved**. Other sport predictors are not fitted or implemented
+beyond their contracts. Historical Odds API access returned HTTP 401 while current
+access succeeded. Read `TASK_STATE.json`, `PHASE2_PROGRESS.md`, and
+`OVERNIGHT_BUILD_REPORT.md` for the exact evidence and remaining dependencies.
+See `PHASE2.md` for local/offline commands and publication behavior.
+
 ## Design principles
 
 1. Separate sports forecasting from sportsbook price evaluation.

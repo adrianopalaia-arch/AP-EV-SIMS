@@ -151,8 +151,13 @@ class Warehouse:
                 failures.append(dict(event_id=e.get('id') if isinstance(e,dict) else None,reason=reason))
         with self.connect() as db:
             before=db.execute('SELECT count(*) FROM odds_quotes').fetchone()[0]
-            if quotes:db.executemany('INSERT OR IGNORE INTO odds_quotes VALUES ('+','.join('?'*23)+')',quotes)
-            for f in failures:db.execute('INSERT OR IGNORE INTO identity_conflicts VALUES (?,?,?,?)',[digest([manifest['snapshot_id'],f]),f['reason'],manifest['snapshot_id'],json.dumps(f)])
+            db.execute('BEGIN TRANSACTION')
+            try:
+                if quotes:db.executemany('INSERT OR IGNORE INTO odds_quotes VALUES ('+','.join('?'*23)+')',quotes)
+                for f in failures:db.execute('INSERT OR IGNORE INTO identity_conflicts VALUES (?,?,?,?)',[digest([manifest['snapshot_id'],f]),f['reason'],manifest['snapshot_id'],json.dumps(f)])
+                db.execute('COMMIT')
+            except Exception:
+                db.execute('ROLLBACK');raise
             after=db.execute('SELECT count(*) FROM odds_quotes').fetchone()[0]
         return dict(quotes_inserted=after-before,duplicates_prevented=len(quotes)-(after-before),failures=failures)
     def as_of_quotes(self,at):

@@ -1,11 +1,11 @@
 # AP EV/SIMS Phase 2 progress
 
-Updated: 2026-10-14T07:26:49.590587+00:00
+Updated: 2026-10-14T07:35:40.568831+00:00
 
 This is the single reconciled execution checklist. Scope is frozen. COMPLETE describes tested implementation, not empirical model approval.
 
-Current task: FOUNDATION.red_team_tests. Next dependency: FOUNDATION.historical_provider_access.
-Full suite: 154 passed; 0 failed.
+Current task: LOCAL_CHECKPOINT_COMPLETE_PENDING_DATA. Next dependency: FOUNDATION.historical_provider_access.
+Full suite: 155 passed; 0 failed.
 
 Real model evaluation sample: 0. All sport/market models remain UNVALIDATED.
 Historical odds: BLOCKED_BY_HISTORICAL_ODDS_ACCESS. Current CFBD/Odds authentication is verified.
@@ -18,7 +18,7 @@ No real wagers, automatic promotions, purchases, or account changes.
 | CFB.total | BLOCKED | Keep CFBTotalModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted. Blocker: No timestamp-authentic joined historical odds/features dataset; zero empirical model observations |
 | FOUNDATION.GitHub_handoff | BLOCKED | Keep tested local commits; retry push at checkpoints or use the manual push command. Blocker: GitHub write credentials inaccessible in this session. Local atomic PASS feed and safe publisher are implemented. |
 | FOUNDATION.calibration | COMPLETE | Keep fit/selection/evaluation chronologically separate; attach only to exact fitted artifact. |
-| FOUNDATION.canonical_identity | BLOCKED | Resolve four CFB aliases from documented provider identifiers; collect timestamp-safe roster and schedule revision archives. Blocker: Current CFB identity: 56/60 matched; four aliases fail closed. Other-sport canonical player identities and book settlement rules absent. |
+| FOUNDATION.canonical_identity | BLOCKED | Collect timestamp-safe roster and schedule revision archives; preserve uniquely mapped source team IDs. Blocker: Current CFB identity: 60/60 matched; 0 unmatched. Other-sport canonical player identities and book settlement rules absent. |
 | FOUNDATION.champion_challenger | BLOCKED | Register the first real experiment before fitting; preserve one-use final holdout and manual promotion. Blocker: No real champion, challenger or prospective holdout observations. |
 | FOUNDATION.feature_source_audits | BLOCKED | Enable only provenance-proven features; run pre-registered matched source/feature ablations on unseen samples. Blocker: Inventory is complete; historical coverage, full-universe missingness and incremental value remain unmeasured. |
 | FOUNDATION.historical_provider_access | BLOCKED | Do not retry until entitlement changes; accumulate owned current snapshots. Blocker: BLOCKED_BY_HISTORICAL_ODDS_ACCESS; authenticated current access succeeds but historical HTTP 401 |

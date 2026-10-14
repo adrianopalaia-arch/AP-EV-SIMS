@@ -21,5 +21,10 @@ class IdentityTests(unittest.TestCase):
     def test_double_event_collision_and_home_away_swap_rejected(self):
         args=self.inputs();game=deepcopy(args['games'][0]);game['id']=11;args['games'].append(game)
         self.assertFalse(map_cfb_events(**args)[0])
+    def test_spelling_normalization_requires_unique_provider_id(self):
+        args=self.inputs();args['teams'][0].update(school="The H\u00f3me",mascot="C'at\u2019s")
+        self.assertTrue(map_cfb_events(**args)[0])
+        args['teams'].append(dict(id=3,school='Home',mascot='Cats'))
+        self.assertFalse(map_cfb_events(**args)[0])
         args=self.inputs();args['events'][0].update(home_team='Away Dogs',away_team='Home Cats')
         self.assertFalse(map_cfb_events(**args)[0])

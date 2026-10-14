@@ -71,7 +71,7 @@ def publish_handoff(repo,store,warehouse, *, now=None,source_commit=None):
         'No champion has been approved; no automatic promotion is enabled. Read TASK_STATE.json for implementation progress.',
         'No readiness designation is permitted while critical red-team conditions remain untested.'])+'\n')
     last=write_status_checkpoint(repo,source_commit=source_commit)
-    last.update(generated_at=at,publication_generation=generation_id,current_task='FOUNDATION.GitHub_handoff',
+    last.update(generated_at=at,publication_generation=generation_id,publication_task='FOUNDATION.GitHub_handoff',
         current_passes=len(passes),current_predictions=len(predictions),current_edges=0,
         feed_hashes={name:digest(value) for name,value in values.items()},
         reader_contract='Verify canonical JSON SHA256 (sorted keys, compact separators, ensure_ascii=True) against this manifest; retry on a generation mismatch.')
