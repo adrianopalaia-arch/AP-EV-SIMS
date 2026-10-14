@@ -1,0 +1,9 @@
+{
+  "cash_bankroll": null,
+  "bonus_balance": null,
+  "unit_size": null,
+  "open_cash_exposure": null,
+  "open_bonus_exposure": null,
+  "reserved_exposure": null,
+  "last_reconciled_at": null
+}

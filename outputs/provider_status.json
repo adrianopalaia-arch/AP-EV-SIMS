@@ -1,0 +1,32 @@
+{
+  "cfbd": {
+    "status": "NOT_YET_VALIDATED",
+    "last_success": null,
+    "historical_access": null
+  },
+  "odds_api": {
+    "status": "NOT_YET_VALIDATED",
+    "last_success": null,
+    "historical_access": null
+  },
+  "moneypuck": {
+    "status": "NOT_YET_VALIDATED",
+    "last_success": null,
+    "historical_access": null
+  },
+  "nflverse": {
+    "status": "NOT_YET_VALIDATED",
+    "last_success": null,
+    "historical_access": null
+  },
+  "statcast": {
+    "status": "NOT_YET_VALIDATED",
+    "last_success": null,
+    "historical_access": null
+  },
+  "nba": {
+    "status": "NOT_YET_VALIDATED",
+    "last_success": null,
+    "historical_access": null
+  }
+}
