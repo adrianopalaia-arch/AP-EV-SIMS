@@ -101,7 +101,7 @@
       "x-requests-remaining": 422,
       "x-requests-used": 78
     },
-    "refresh_mode": "BOUNDED_CURRENT_ODDS",
+    "refresh_mode": "OFFLINE",
     "sports_endpoint_status": 200
   },
   "statcast": {

@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 import json
 from .integrity import utc, digest
-from .odds import american_to_implied, devig_two_way
+from .display_pricing import opposite_side, market_calculations
 from .publication import atomic_json, atomic_text
 from .research_store import ResearchStore
 from .warehouse import Warehouse
@@ -75,31 +75,34 @@ def current_quotes(store,warehouse,at):
 def preflight(quotes,at,previous=()):
     pairs={}
     for q in quotes:pairs.setdefault(q['pair_id'],[]).append(q)
-    key=lambda r:(r['event_id'],r['book'],r['market'],r['selection'])
+    key=lambda r:(r['event_id'],r['book'],r['market'],r.get('period','full_game'),r['selection'])
     old={key(r):r for r in previous}
     rows=[]
     for q in quotes:
-        others=[r for r in pairs[q['pair_id']] if r['selection']!=q['selection']]
-        opposite=others[0] if len(others)==1 else None
+        opposite=opposite_side(q,pairs[q['pair_id']])
+        calculations=market_calculations(q,opposite)
         age=(utc(at)-utc(q['observed_at'])).total_seconds()
         reasons=['MODEL_NOT_CALIBRATED','MISSING_FEATURES','UNVERIFIED_LINEUP','QUOTE_EXECUTION_UNVERIFIED','UNKNOWN_SETTLEMENT_RULE']
         if age>180:reasons.insert(0,'STALE_PRICE')
         if age<0 or not utc(q['observed_at'])<=utc(q['available_at'])<=utc(at)<utc(q['event_start']):reasons.insert(0,'LOOKAHEAD_RISK')
         if q['sport']=='NHL':reasons.append('UNCONFIRMED_GOALIE')
-        if not opposite:reasons.append('NO_MARKET_PAIR')
+        reasons.extend(calculations['calculation_reasons'])
         prior=old.get(key(q))
         if prior and (prior['line'],prior['odds'])!=(q['line'],q['american_odds']):reasons.insert(0,'PRICE_MOVED')
         rows.append(dict(candidate_id=q['quote_id'],sport=q['sport'],event_id=q['event_id'],home_team=q['home_team'],away_team=q['away_team'],
-            event_start=q['event_start'].isoformat(),book=q['book'],market=q['market'],selection=q['selection'],line=q['line'],odds=q['american_odds'],
-            opposite_odds=opposite['american_odds'] if opposite else None,quote_timestamp=q['observed_at'].isoformat(),quote_age_seconds=age,
-            market_implied_probability=american_to_implied(q['american_odds']),
-            market_no_vig_probability=devig_two_way(q['american_odds'],opposite['american_odds'])[0] if opposite else None,
+            event_start=utc(q['event_start']).isoformat(),book=q['book'],market=q['market'],period=q['period'],selection=q['selection'],line=q['line'],odds=q['american_odds'],
+            opposite_odds=opposite['american_odds'] if opposite else None,opposite_line=opposite['line'] if opposite else None,
+            opposite_quote_timestamp=utc(opposite['observed_at']).isoformat() if opposite else None,
+            opposite_quote_id=opposite['quote_id'] if opposite else None,pair_id=q['pair_id'],
+            quote_timestamp=utc(q['observed_at']).isoformat(),quote_age_seconds=age,**calculations,
             model_probability=None,calibrated_probability=None,p_low=None,fair_odds=None,expected_value=None,max_acceptable_price=None,
-            model_version=None,calibration_version=None,model_status='UNVALIDATED',decision='PASS',pass_reason=reasons,
+            ap_model_expected_value=None,ap_raw_ev=None,ap_calibrated_ev=None,ap_push_probability=None,
+            model_version=None,calibration_version=None,model_status='UNVALIDATED',decision='PASS',pass_reason=list(dict.fromkeys(reasons)),
+            probability_source='MARKET BASELINE ONLY',data_quality='STALE' if age>180 else 'PAIRED_PRICE_ONLY' if opposite and not calculations['calculation_reasons'] else 'INCOMPLETE_PRICE_EVIDENCE',
             decision_stage='INPUT_PREFLIGHT',phase1_eligible=False,mode='PREGAME',stake=None,exposure_status='UNRECONCILED',
             source_snapshot_id=q['snapshot_id'],source_hash=q['raw_payload_hash'],
-            data_timestamps=dict(event_start=q['event_start'].isoformat(),sportsbook_quote=q['observed_at'].isoformat(),
-                provider_available=q['available_at'].isoformat(),ingested=q['ingested_at'].isoformat(),
+            data_timestamps=dict(event_start=utc(q['event_start']).isoformat(),sportsbook_quote=utc(q['observed_at']).isoformat(),
+                provider_available=utc(q['available_at']).isoformat(),ingested=utc(q['ingested_at']).isoformat(),
                 lineup_injury=None,feature_snapshot=None,model_prediction=None,decision=utc(at).isoformat())))
     return sorted(rows,key=lambda r:(BOOK_PRIORITY.get(r['book'],2),r['sport'],r['event_start'],r['event_id'],r['market'],r['selection']))
 
@@ -132,6 +135,8 @@ def daily_card(repo, *, offline=False,sports=('CFB',),daily_credit_cap=24,reserv
         comparisons=[r for r in rows if r['book'] not in BOOK_PRIORITY]
         from .cfb_universe import build_cfb_universe
         universe=build_cfb_universe(store,warehouse,at,quotes)
+        from .research_display import add_research_display
+        research_display=add_research_display(store,rows,universe,at)
         catalog=model_catalog(rows)
         providers=read_json(store.root/'evaluations/application-provider-status.json',read_json(repo/'outputs/provider_status.json',{}))
         for name,env_name in (('cfbd','CFBD_API_KEY'),('odds_api','THE_ODDS_API_KEY')):
@@ -152,6 +157,7 @@ def daily_card(repo, *, offline=False,sports=('CFB',),daily_credit_cap=24,reserv
             games_scanned=len({r['event_id'] for r in rows}),market_sides_scanned=len(rows),preferred_market_sides=len(preferred),qualified_edges=0,models_validated=0,
             suspended_or_superseded_quotes=suspended,cfb_schedule_games=universe['games_scanned'],
             real_model_evaluation_sample=0,synthetic_performance_sample=0,refresh_failures=failures,
+            research_model_display=research_display,market_calculation_version=1,
             data_quality_failures=imported['failures'],reference_unit=22,reference_unit_semantics='DISPLAY_REFERENCE_ONLY_NOT_A_STAKE',
             current_task='LOCAL_DASHBOARD_AND_DAILY_CARD',next_task='CFB verified pregame features and timestamp-authentic evaluation',
             branch=state.get('branch'),git_commit=prior_last.get('git_commit'),tests_passed=state.get('tests',{}).get('passed'),
@@ -170,7 +176,9 @@ def daily_card(repo, *, offline=False,sports=('CFB',),daily_credit_cap=24,reserv
         atomic_text(repo/'reports/MORNING_CARD.md','\n'.join(['# AP EV/SIMS Morning Card','',f'Generated: {at}',
             '', '**NO QUALIFYING BETS**','',f"Games with archived market quotes: {summary['games_scanned']}. Market sides: {len(rows)}.",
             f"CFB captured schedule universe: {universe['games_scanned']} games; query coverage is incomplete.",
-            'All models UNVALIDATED. No fitted real model is approved; probability, p_low and EV remain unavailable.',
+            'Market break-even/no-vig probabilities and descriptive EV are price-derived baselines. All AP models remain UNVALIDATED.',
+            'Integer spread/total no-vig probabilities are conditional on no push. Unconditional market EV stays null when push mass is unknown.',
+            f"Research model probabilities displayed: {research_display['research_predictions']}. Missing AP probabilities, calibration and p_low remain null.",
             'DraftKings first, FanDuel second, remaining books for comparison. Prices are archived observations, not execution guarantees.',
             f'Suspended or superseded quote sides withheld: {suspended}. Refresh failures: {len(failures)}.',
             'Every displayed market has explicit PASS reasons and exact line/price/source timestamps in latest_passes.json.',

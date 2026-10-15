@@ -5,6 +5,7 @@ from pathlib import Path
 import streamlit as st
 from ap_evsims.product import daily_card,read_card,MARKETS,model_catalog
 from ap_evsims.integrity import utc
+from ap_evsims.display_pricing import dashboard_market
 
 
 def pregame_display_rows(rows, at):
@@ -60,8 +61,8 @@ def main(repo):
         automatic=st.checkbox('Auto-refresh prices toward game time',value=False,disabled=mode=='Live')
         st.caption('While this dashboard session is active: every 6h beyond 24h; hourly within 24h; every 15m within 6h; every 5m within 1h; every minute in the last 15m. Daily credit ceiling and 50-credit reserve still apply.')
         st.caption('Automatic updates currently cover sportsbook prices. Advanced stats, injuries and confirmed starters are not connected refresh feeds yet.')
-        refresh=st.button('Refresh current markets',type='primary',disabled=not selected or mode=='Live')
-        cached=st.button('Rebuild from local data',disabled=mode=='Live')
+        refresh=st.button('Refresh Quotes',type='primary',disabled=not selected or mode=='Live')
+        cached=st.button('Recalculate',disabled=mode=='Live',help='Recompute from the current immutable local quotes. No API calls.')
     if mode=='Live':
         st.warning('LIVE MODE UNAVAILABLE — live models and latency controls are not validated.')
         st.info('Pregame forecasts are never reused as live predictions.')
@@ -116,38 +117,34 @@ def _render_card(repo):
     markets_tab,research_tab,coverage_tab,providers_tab=st.tabs(['Daily ranked markets','Research preview','CFB coverage','Provider & model health'])
     with markets_tab:
         left,right=st.columns([3,1]);left.subheader('Daily ranked markets');right.caption('DK PRIORITY • FD SECOND')
-        st.caption('Book-priority display. A probability from sportsbook prices is a market baseline, not a model prediction.')
+        st.caption('Book-priority display. Market probabilities and baseline EV come from paired prices. AP probabilities come only from a trained research model with verified inputs.')
+        st.caption('No-vig and AP probabilities on push-capable lines are conditional on no push. Unknown push mass leaves unconditional market EV blank; conditional EV is shown separately. All EV figures are percent of stake, excluding voids. No displayed EV authorizes a bet.')
         sport=st.selectbox('Sport',['All']+list(MARKETS))
         books=st.multiselect('Sportsbooks',sorted({r['book'] for r in rows}),default=[b for b in ('draftkings','fanduel') if any(r['book']==b for r in rows)])
         available=[r for r in rows if (sport=='All' or r['sport']==sport) and r['book'] in books]
-        names={'h2h':'Moneyline','spreads':'Spread','totals':'Total'}
         if available:
-            def view(r):
-                age=max(0,(datetime.now(timezone.utc)-utc(r['quote_timestamp'])).total_seconds())
-                return {'Sport':r['sport'],'Game':r['away_team']+' @ '+r['home_team'],'Market':names.get(r['market'],r['market']),
-                    'Selection':r['selection'],'Book':r['book'],'Line':r['line'],'Price':f"{r['odds']:+d}",
-                    'Event start (UTC)':r['event_start'],'Quote time (UTC)':r['quote_timestamp'],
-                    'Probability':'—','p_low':'—','EV':'—','Status':'PASS · STALE_PRICE' if age>180 else 'PASS · UNVALIDATED',
-                    'Quote age (min)':round(age/60,1),'No-vig market':round(r['market_no_vig_probability'],4) if r['market_no_vig_probability'] is not None else None}
-            st.dataframe([view(r) for r in available],hide_index=True,width='stretch')
+            st.dataframe([dashboard_market(r,checked_at) for r in available],hide_index=True,width='stretch')
+            st.caption('Odds are American; quote age is in minutes. MARKET BASELINE ONLY means there is no AP model forecast. A fresh captured price still needs execution verification.')
             chosen=st.selectbox('Inspect a market',range(len(available)),format_func=lambda i:available[i]['sport']+' · '+available[i]['selection']+' · '+available[i]['market']+' · '+available[i]['book'])
             row=dict(available[chosen]);reasons=list(row['pass_reason'])
             if (datetime.now(timezone.utc)-utc(row['quote_timestamp'])).total_seconds()>180 and 'STALE_PRICE' not in reasons:reasons.insert(0,'STALE_PRICE')
             st.caption('PASS reasons: '+', '.join(reasons))
+            st.caption('Probability source: '+row.get('probability_source','MARKET BASELINE ONLY')+' · Push policy: '+row.get('push_policy','UNKNOWN'))
+            if row.get('p_low') is not None:st.warning('AP p_low is a research diagnostic; coverage is unvalidated and it cannot authorize wagering.')
             st.subheader('Pregame evidence for this market')
             stamps=row['data_timestamps']
             st.dataframe([
                 {'Information':'Sportsbook line and price','Source':'The Odds API · '+row['book'],'Updated (UTC)':row['quote_timestamp'],'Availability':'STALE' if 'STALE_PRICE' in reasons else 'Captured; execution unverified'},
                 {'Information':'Lineups, injuries and starter confirmation','Source':'Not connected','Updated (UTC)':stamps.get('lineup_injury'),'Availability':'UNVERIFIED'},
                 {'Information':'Advanced matchup statistics','Source':'Verified feature feed incomplete','Updated (UTC)':stamps.get('feature_snapshot'),'Availability':'UNAVAILABLE'},
-                {'Information':'Model probability / p_low / EV','Source':'No approved model','Updated (UTC)':stamps.get('model_prediction'),'Availability':'UNVALIDATED'},
+                {'Information':'Model probability / p_low / EV','Source':row.get('model_version') or 'No trained model with verified inputs','Updated (UTC)':stamps.get('model_prediction'),'Availability':'UNVALIDATED'},
             ],hide_index=True,width='stretch')
             st.caption('A newer price does not verify a lineup or update advanced statistics. Those require separate dated sources.')
             with st.expander('Price, timestamps and evidence'):st.json(row)
         else:st.caption('Await data — refresh current markets or select another sport/book. No predictions are fabricated.')
         st.subheader('Market coverage')
-        st.dataframe([{'Sport':r['sport'],'Market':r['market'],'Probability':'—','EV':'—',
-            'Status':'UNVALIDATED' if r.get('observed_market_sides',0) else 'Await data','Model':'UNVALIDATED'}
+        st.dataframe([{'Sport':r['sport'],'Market':r['market'],'AP model approval':'UNVALIDATED',
+            'Status':'Market observations available' if r.get('observed_market_sides',0) else 'Await data'}
             for r in catalog if sport=='All' or r['sport']==sport],hide_index=True,width='stretch')
         with st.expander('Card builders'):
             st.write('CORE singles, LEAN research, 2–3 leg parlays, 4–6 leg prop builders, moneyline hammer and tiny lotto: unavailable.')

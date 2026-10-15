@@ -999,7 +999,7 @@
     "env_tracked": false,
     "odds_present": true
   },
-  "current_task": "FOCUSED_AUDIT_AND_PREGAME_PRICE_REFRESH_DELIVERED",
+  "current_task": "MARKET_PROBABILITY_EV_DISPLAY_DELIVERED",
   "delivery_verification": {
     "ancestor_verified": true,
     "at": "2026-10-15T00:41:53.605137+00:00",
@@ -1115,7 +1115,7 @@
   },
   "last_remote_verified_at": "2026-10-14T22:13:39.467379+00:00",
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
-  "next_task": "Connect verified advanced-stat/availability feeds; finish receipt/time/result reconciliation. Real model validation remains blocked.",
+  "next_task": "Complete timestamp-safe real CFB training features and joined prior-game observations before fitting an AP research baseline.",
   "phase1_integrity": {
     "changed": [],
     "files_verified": 18,
@@ -1183,6 +1183,45 @@
     "updated_at": "2026-10-15T03:44:43.053319+00:00"
   },
   "previous_run_end_reason": "Available local implementation and audit checkpoint saved; remaining model validation depends on qualifying data and unresolved controls.",
+  "probability_ev_delivery": {
+    "api_calls_for_demo": 0,
+    "blocker": null,
+    "files": [
+      "src/ap_evsims/display_pricing.py",
+      "src/ap_evsims/research_display.py",
+      "src/ap_evsims/product.py",
+      "src/ap_evsims/warehouse.py",
+      "src/ap_evsims/dashboard.py",
+      "tests/test_display_pricing.py",
+      "reports/PROBABILITY_EV_DELIVERY.md",
+      "reports/MORNING_CARD.md",
+      "TASK_STATE.json",
+      "PHASE2_PROGRESS.md",
+      "outputs/last_update.json",
+      "outputs/cfb_universe.json",
+      "outputs/latest_passes.json",
+      "outputs/provider_status.json",
+      "outputs/probability_ev_demo.json"
+    ],
+    "integer_push_policy": "UNKNOWN_PUSH_MASS_MEANS_NULL_UNCONDITIONAL_EV",
+    "model_evaluation_sample": 0,
+    "model_probabilities_displayed": 0,
+    "next_action": "Reload dashboard; Recalculate uses archived prices without provider requests.",
+    "phase1_files_preserved": 18,
+    "raw_provider_snapshots_committed": false,
+    "real_market_quote_sides": 5852,
+    "real_sample_size": 0,
+    "research_baseline_training_status": "BLOCKED",
+    "research_training_blocker": "No real joined training tables, trained artifacts or complete verified current CFB feature sets.",
+    "scope": "MARKET_CALCULATIONS_AND_VERIFIED_RESEARCH_ARTIFACT_DISPLAY",
+    "status": "COMPLETE",
+    "synthetic_sample_size": 0,
+    "tests": [
+      "tests/test_display_pricing.py",
+      "full 208-test regression suite"
+    ],
+    "updated_at": "2026-10-15T05:04:30.209901+00:00"
+  },
   "product_delivery": {
     "approved_models": 0,
     "automatic_wager_placement": false,
@@ -1402,12 +1441,12 @@
   "tests": {
     "command": "python -m unittest discover -s tests -q",
     "failed": 0,
-    "passed": 197,
+    "passed": 208,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-15T03:44:43.053319+00:00",
-    "verified_source_commit": "deee41bace708c5cdf7afa5094c88bfbef47577a",
-    "verified_source_semantics": "Source HEAD plus staged dashboard/test changes; suite run before this checkpoint"
+    "verified_at": "2026-10-15T05:04:30.209901+00:00",
+    "verified_source_commit": "9b3a92a21cd19158f7b513dac2950e7ee5b012db",
+    "verified_source_semantics": "Source HEAD plus probability/EV display changes staged by this checkpoint"
   },
-  "updated_at": "2026-10-15T03:44:43.053319+00:00"
+  "updated_at": "2026-10-15T05:04:30.209901+00:00"
 }

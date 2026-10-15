@@ -115,3 +115,12 @@ Delivery checkpoint `c941707` committed safely; push blocked. Manual push comman
 - CFB/NHL real current-price payloads refreshed. NFL/MLB request budget exhausted; NBA cached by cadence. No API cap increased. Advanced-stat, availability and starter feeds remain unavailable; model evaluation sample zero.
 - Real-data Streamlit AppTest passed. Reload and enable the sidebar price-refresh switch. Details: reports/PREGAME_REFRESH.md. This is a focused display/price update, not an additional model build.
 - Next dependencies: verified advanced-stat/availability feeds, original audit evidence, canonical pending result; historical odds entitlement and feature availability still block empirical validation.
+
+## Probability/EV display checkpoint 2026-10-15T05:04:30.209901+00:00
+
+- Completed strict same-book/snapshot/period/line pairing, market break-even/no-vig probability, push-aware market EV, explicit conditional EV, and separate AP research columns.
+- Recalculate is local-only; Refresh Quotes retains quota/cooldown controls. Stale prices keep historical calculations and PASS. Missing sides retain only valid single-price math.
+- Real demonstration: 5852 paired sides, 4388 unconditional market EV values, 1464 unknown push masses. No API calls; zero AP forecasts or real evaluation observations.
+- Existing trained-artifact display requires provider-backed training reproduction and verified current features. Calibration provenance is separately checked. No probability/EV bypasses Phase 1; no fake p_low.
+- Full suite: 208 passed, 0 failed, 0 skipped; 18 frozen files and 6b20b15 preserved. Real-data Streamlit AppTest passed.
+- Unfinished: sufficient timestamp-safe real training data/features before the first AP baseline fit; calibrated OOS evaluation and uncertainty coverage. Detailed report: reports/PROBABILITY_EV_DELIVERY.md.

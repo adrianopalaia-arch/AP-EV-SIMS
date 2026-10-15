@@ -1,5 +1,4 @@
 {
-  "advanced_statistics_refresh": "UNAVAILABLE_VERIFIED_FEEDS_INCOMPLETE",
   "branch": "ap-evisims-live",
   "card_builders": [
     {
@@ -34,7 +33,7 @@
     }
   ],
   "cfb_schedule_games": 1666,
-  "commit_semantics": "Source HEAD before this audit and dashboard checkpoint",
+  "commit_semantics": "Source HEAD before the probability/EV display checkpoint",
   "current_task": "LOCAL_DASHBOARD_AND_DAILY_CARD",
   "data_quality_failures": [
     {
@@ -43,43 +42,44 @@
     }
   ],
   "feed_hashes": {
-    "cfb_universe.json": "f36a3f16fac599dde6dd3721d6a7cf66332c3d8219862422322c05efa3ca17e6",
+    "cfb_universe.json": "1fcf42c09ab758bf5ff9074858570dfe75622733873bf2d679ed2c70e3ce83bd",
     "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "latest_passes.json": "e3208aac0c888a988374a2b877b859f9c62032052741bd1ad51365225f1433b3",
+    "latest_passes.json": "27982cb96cab776c6e9b0cb74697cc5f453c1a3b24dae25d97549cbfbe4db18d",
     "latest_predictions.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
     "model_status.json": "dc9b9b6218d900984c19fcae9be0ca83dba0ac5946e435ec08e1fa7b01baa1d3",
-    "provider_status.json": "45de3b85fcfe994f1777ee4b12ac97960362659b14d71464d8a648a2341530d2"
+    "provider_status.json": "60d26f66b088125e29f3b789d93d2754d3d87d1c706c4efa27473a39b52b6f8d"
   },
-  "focused_checkpoint": "PREGAME_PRICE_REFRESH_AND_DATED_AUDIT",
-  "focused_checkpoint_at": "2026-10-15T03:44:43.053319+00:00",
+  "focused_checkpoint": "PROBABILITY_EV_DISPLAY",
+  "focused_checkpoint_at": "2026-10-15T05:04:30.209901+00:00",
   "games_scanned": 159,
-  "generated_at": "2026-10-15T03:43:10.024490+00:00",
-  "git_commit": "deee41bace708c5cdf7afa5094c88bfbef47577a",
-  "local_comparison_hash": "f129735840b0c0a12f455d1cfb654d7bcd86f332e8d94af2711fd5ad24ee3ede",
+  "generated_at": "2026-10-15T04:59:31.782618+00:00",
+  "git_commit": "9b3a92a21cd19158f7b513dac2950e7ee5b012db",
+  "local_comparison_hash": "17714f6c02c02845b5b3c06215f929917020f307a7b55de8f00f2eca963ddda5",
+  "market_calculation_version": 1,
   "market_sides_scanned": 5852,
   "mode": "PREGAME",
   "models_validated": 0,
   "next_task": "CFB verified pregame features and timestamp-authentic evaluation",
   "preferred_market_sides": 1622,
-  "provider_check_basis": "BOUNDED_CURRENT_REFRESH_PLUS_RECORDED_CFBD_AUTH",
-  "providers_ok": false,
-  "publication_generation": "f83614fbb1542b7c58d749ebff6d7f3a8f26b8d76c680e04503a47dab413ebd7",
+  "probability_demo": "outputs/probability_ev_demo.json",
+  "provider_check_basis": "LAST_RECORDED_CHECKS_ONLY",
+  "providers_ok": null,
+  "publication_generation": "41fb1af40f30948ddb2d7d5fdde43c61c6288cd34861050cf6c0c02e4ff55611",
   "qualified_edges": 0,
   "reader_contract": "Verify canonical JSON SHA256; retry if any file differs from this generation.",
   "real_model_evaluation_sample": 0,
   "reference_unit": 22,
   "reference_unit_semantics": "DISPLAY_REFERENCE_ONLY_NOT_A_STAKE",
-  "refresh_failures": [
-    {
-      "sport": "NFL",
-      "status": "QUOTA_BUDGET_LIMIT"
-    },
-    {
-      "sport": "MLB",
-      "status": "QUOTA_BUDGET_LIMIT"
-    }
-  ],
-  "research_audit_path": "reports/OCTOBER_14_FAILURE_AUDIT.md",
+  "refresh_failures": [],
+  "research_model_display": {
+    "issues": [
+      "NO_TRAINED_RESEARCH_MODEL"
+    ],
+    "real_evaluation_sample": 0,
+    "research_predictions": 0,
+    "status": "NO_TRAINED_RESEARCH_MODEL",
+    "validated_models": 0
+  },
   "sports_updated": [
     "CFB",
     "MLB",
@@ -91,6 +91,6 @@
   "suspended_or_superseded_quotes": 62,
   "synthetic_performance_sample": 0,
   "tests_failed": 0,
-  "tests_passed": 197,
+  "tests_passed": 208,
   "tests_semantics": "Last independently run full suite, not rerun by daily_card"
 }

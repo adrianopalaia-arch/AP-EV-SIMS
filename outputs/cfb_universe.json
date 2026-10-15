@@ -7,6 +7,7 @@
     "MODEL_NOT_CALIBRATED": 1666,
     "NO_MATCHED_MARKET": 1600,
     "OUTSIDE_FBS_VS_FBS_SCOPE": 855,
+    "STALE_PRICE": 66,
     "UNVERIFIED_LINEUP": 1666
   },
   "games": [
@@ -9150,6 +9151,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -9177,6 +9179,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -9204,6 +9207,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -9231,6 +9235,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -9258,6 +9263,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -9285,6 +9291,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -9311,6 +9318,7 @@
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
         "OUTSIDE_FBS_VS_FBS_SCOPE",
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -9338,6 +9346,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -9391,6 +9400,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -9418,6 +9428,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -9471,6 +9482,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -11469,6 +11481,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -11946,6 +11959,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -11973,6 +11987,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -12000,6 +12015,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -12027,6 +12043,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -12054,6 +12071,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -12081,6 +12099,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -15049,6 +15068,7 @@
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
         "OUTSIDE_FBS_VS_FBS_SCOPE",
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -15075,6 +15095,7 @@
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
         "OUTSIDE_FBS_VS_FBS_SCOPE",
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -15102,6 +15123,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -15129,6 +15151,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -15156,6 +15179,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -15183,6 +15207,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -15210,6 +15235,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -15237,6 +15263,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -15264,6 +15291,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -15395,6 +15423,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -18236,6 +18265,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -18263,6 +18293,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -18290,6 +18321,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -18317,6 +18349,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -18344,6 +18377,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -18371,6 +18405,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -18398,6 +18433,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -18452,6 +18488,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -18559,6 +18596,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -20451,6 +20489,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -20478,6 +20517,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -20971,6 +21011,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -22371,6 +22412,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -22398,6 +22440,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -22425,6 +22468,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -22452,6 +22496,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -22479,6 +22524,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -22506,6 +22552,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -22533,6 +22580,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -24304,6 +24352,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -24331,6 +24380,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -24358,6 +24408,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -24385,6 +24436,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -24412,6 +24464,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -24491,6 +24544,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -26214,6 +26268,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -26241,6 +26296,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -26268,6 +26324,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -26295,6 +26352,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -26322,6 +26380,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -27189,6 +27248,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -30510,6 +30570,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -30772,6 +30833,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -31189,6 +31251,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -31374,6 +31437,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -31607,6 +31671,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -32996,6 +33061,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -33023,6 +33089,7 @@
       ],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
+        "STALE_PRICE",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -42735,22 +42802,14 @@
   ],
   "games_scanned": 1666,
   "games_with_verified_rolling_features": 0,
-  "generated_at": "2026-10-15T03:43:10.024490+00:00",
+  "generated_at": "2026-10-15T04:59:31.782618+00:00",
   "identity_rejections": [
     {
-      "event_id": "odds:423bd1c75b601ccfabfca3759cc69a3f",
-      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
-    },
-    {
-      "event_id": "odds:04db3b581ae63446a409f2ad30868e20",
-      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
-    },
-    {
-      "event_id": "odds:47595bd2a188e4dab8a27dce97c5b45d",
-      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
-    },
-    {
       "event_id": "odds:df510525b83238b6e856c80c353bb32a",
+      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
+    },
+    {
+      "event_id": "odds:173057d32ff5946d42566a0d164de287",
       "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
     },
     {
@@ -42758,7 +42817,15 @@
       "reason": "EVENT_START_UNCONFIRMED"
     },
     {
-      "event_id": "odds:173057d32ff5946d42566a0d164de287",
+      "event_id": "odds:47595bd2a188e4dab8a27dce97c5b45d",
+      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
+    },
+    {
+      "event_id": "odds:04db3b581ae63446a409f2ad30868e20",
+      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
+    },
+    {
+      "event_id": "odds:423bd1c75b601ccfabfca3759cc69a3f",
       "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
     },
     {

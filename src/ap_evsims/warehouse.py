@@ -131,25 +131,31 @@ class Warehouse:
                     for m in b['markets']:
                         if m['key'] not in ('h2h','spreads','totals'):continue
                         outcomes=m['outcomes']
-                        if len(outcomes)!=2:raise ValueError('NO_MARKET_PAIR')
+                        if not 1<=len(outcomes)<=2:raise ValueError('NO_MARKET_PAIR')
                         names={o['name'] for o in outcomes}
                         expected={'Over','Under'} if m['key']=='totals' else {e['home_team'],e['away_team']}
-                        if names!=expected:raise ValueError('NO_MARKET_PAIR')
-                        if m['key']=='spreads' and sum(o['point'] for o in outcomes)!=0:raise ValueError('NO_MARKET_PAIR')
-                        if m['key']=='totals' and outcomes[0]['point']!=outcomes[1]['point']:raise ValueError('NO_MARKET_PAIR')
+                        if not names<=expected or len(names)!=len(outcomes):raise ValueError('NO_MARKET_PAIR')
                         observed=m.get('last_update',b.get('last_update'))
                         if observed is None:raise ValueError('SCHEMA_DRIFT')
                         if utc(observed)>utc(manifest['available_at']):raise ValueError('LOOKAHEAD_RISK')
                         pair=digest([manifest['snapshot_id'],e['id'],b['key'],m])
+                        period=m.get('period','full_game')
+                        if not isinstance(period,str) or not period:raise ValueError('SCHEMA_DRIFT')
                         pair_quotes=[]
                         for o in outcomes:
-                            price=o['price'];decimal=american_to_decimal(price)
+                            price=o['price']
+                            try:decimal=american_to_decimal(price)
+                            except ValueError:
+                                failures.append(dict(event_id=e['id'],reason='INVALID_ODDS'));continue
                             line=o.get('point')
                             if m['key']!='h2h' and (isinstance(line,bool) or not isinstance(line,(float,int)) or not -1000<=line<=1000):raise ValueError('SCHEMA_DRIFT')
-                            series=digest([sport,e['id'],start,b['key'],m['key'],'full_game',o['name']])
+                            series=digest([sport,e['id'],start,b['key'],m['key'],period,o['name']])
                             identity=digest([series,line,price,observed,manifest['available_at'],manifest['snapshot_id']])
                             pair_quotes.append((identity,series,manifest['snapshot_id'],'odds',b['key'],sport,'odds:'+e['id'],None,
-                                start,m['key'],'full_game',o['name'],line,price,decimal,observed,manifest['available_at'],manifest['fetched_at'],manifest['payload_hash'],pair,None,e['home_team'],e['away_team']))
+                                start,m['key'],period,o['name'],line,price,decimal,observed,manifest['available_at'],manifest['fetched_at'],manifest['payload_hash'],pair,None,e['home_team'],e['away_team']))
+                        # Preserve a valid single observation for break-even
+                        # display. Strict pairing, no-vig and EV stay unavailable.
+                        if len(pair_quotes)!=2:failures.append(dict(event_id=e['id'],reason='NO_MARKET_PAIR'))
                         quotes.extend(pair_quotes)
             except (KeyError,TypeError,ValueError) as error:
                 reason=str(error) if str(error) in ('NO_MARKET_PAIR','LOOKAHEAD_RISK') else 'SCHEMA_DRIFT'
