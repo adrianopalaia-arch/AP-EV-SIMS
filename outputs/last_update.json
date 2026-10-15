@@ -33,6 +33,7 @@
     }
   ],
   "cfb_schedule_games": 1666,
+  "commit_semantics": "Source HEAD before this delivery-only publication commit",
   "current_task": "LOCAL_DASHBOARD_AND_DAILY_CARD",
   "data_quality_failures": [
     {
@@ -40,26 +41,28 @@
       "snapshot_id": "f7b3d4dae7b043feca94bfdacb8af422b74a35af070b069404f688ab3a051e89"
     }
   ],
+  "delivery_verified_at": "2026-10-15T00:41:53.605137+00:00",
   "feed_hashes": {
-    "cfb_universe.json": "18911f4693e8d4bf51ce186fcd8a0a56dbc258d0b52802e2a472b24a73536b7f",
+    "cfb_universe.json": "8ac27416d8e4b9792e63ac62c94b5f5de8ebfe1db09d6eebbe36b55644fb21d4",
     "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "latest_passes.json": "30b3090fae0b1c73bfe3850dea7529bd248df8f3619283d24e559612f20da64c",
+    "latest_passes.json": "57370473fc4eb1604d46c6127f43b78413330fde6b0670688f5bd3593de0b871",
     "latest_predictions.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "model_status.json": "856a2c425b38df1741129d2e4608ff7b8c3ad74f7918d7d3c5654aabb812da06",
-    "provider_status.json": "477062c31048fe62e3a4fd131e442110125b8c2f6b9fe87f046808b67803bb92"
+    "model_status.json": "0e4603fa2d7daa882fbe5ac928dd29fc918260f8843fee3217b1bf21912867de",
+    "provider_status.json": "681731b121dd0c6524b01e17b0c2b910255422c8851395fec36f8a41a0f108bd"
   },
-  "games_scanned": 160,
-  "generated_at": "2026-10-15T00:37:35.249300+00:00",
-  "git_commit": "6b20b15d6fb0d6f7f50b705d3d1575809f9abeaa",
-  "local_comparison_hash": "746e5797a6215df82ee5d385978a1739c08c4090776dd19b0ebf0cfda7723dac",
-  "market_sides_scanned": 5840,
+  "games_scanned": 159,
+  "generated_at": "2026-10-15T00:40:59.766110+00:00",
+  "git_commit": "7197152feae091358239c1dbe1f0940844ba6dda",
+  "local_comparison_hash": "9ea12099ab2f1eef1d4cf019237049db184fcb05b6e5ab5ece8eee86bb173bd8",
+  "market_sides_scanned": 5780,
   "mode": "PREGAME",
   "models_validated": 0,
   "next_task": "CFB verified pregame features and timestamp-authentic evaluation",
-  "preferred_market_sides": 1634,
-  "provider_check_basis": "LAST_RECORDED_CHECKS_ONLY",
-  "providers_ok": null,
-  "publication_generation": "fbf9a40a8bd0955fd2317e1b34a080486523530e710f2e7b2e4076d6d1076d4a",
+  "preferred_market_sides": 1622,
+  "preserved_commit": "6b20b15",
+  "provider_check_basis": "BOUNDED_CURRENT_REFRESH_PLUS_RECORDED_CFBD_AUTH",
+  "providers_ok": true,
+  "publication_generation": "22e29b274defca67fbb651ca78587a462c02146681125ded0408ffad7f564f73",
   "qualified_edges": 0,
   "reader_contract": "Verify canonical JSON SHA256; retry if any file differs from this generation.",
   "real_model_evaluation_sample": 0,
@@ -74,7 +77,7 @@
     "NHL"
   ],
   "status": "NO QUALIFYING BETS",
-  "suspended_or_superseded_quotes": 62,
+  "suspended_or_superseded_quotes": 68,
   "synthetic_performance_sample": 0,
   "tests_failed": 0,
   "tests_passed": 195,

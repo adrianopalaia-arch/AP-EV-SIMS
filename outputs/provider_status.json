@@ -8,11 +8,11 @@
   },
   "cfbd": {
     "authentication_status": "OK",
-    "checked_at": "2026-10-14T23:20:37.516240+00:00",
+    "checked_at": "2026-10-15T00:40:25.986402+00:00",
     "credential_present": true,
     "endpoint_status": 200,
     "quota_metadata": {
-      "x-calllimit-remaining": 982
+      "x-calllimit-remaining": 979
     }
   },
   "moneypuck": {
@@ -38,7 +38,7 @@
   },
   "odds_api": {
     "authentication_status": "OK",
-    "checked_at": "2026-10-14T23:20:38.258108+00:00",
+    "checked_at": "2026-10-15T00:40:26.523966+00:00",
     "coverage_scope": "Only the requested historical timestamp was probed; earliest accessible provider date is not established.",
     "credential_present": true,
     "draftkings_returned": true,
@@ -47,37 +47,34 @@
     "fanduel_returned": true,
     "historical_access": false,
     "historical_access_note": "Separate entitlement check; current odds access does not prove historical access",
-    "historical_checked_at": "2026-10-14T23:20:38.463870+00:00",
+    "historical_checked_at": "2026-10-15T00:40:26.635732+00:00",
     "historical_endpoint_status": 401,
     "historical_quota": {
       "x-requests-last": 0,
-      "x-requests-remaining": 461,
-      "x-requests-used": 39
+      "x-requests-remaining": 443,
+      "x-requests-used": 57
     },
     "latest_collection": {
-      "collected_at": "2026-10-14T23:26:12.019710+00:00",
+      "collected_at": "2026-10-15T00:40:58.010957+00:00",
       "quota": {
         "cached_historical_snapshots": 0,
-        "credits_consumed_recorded": 39,
+        "credits_consumed_recorded": 54,
         "duplicate_requests_prevented": 0,
-        "provider_requests_used": 54,
-        "requests_recorded": 19,
-        "requests_remaining": 446
+        "provider_requests_used": 69,
+        "requests_recorded": 26,
+        "requests_remaining": 431
       },
       "results": [
         {
-          "duplicates_prevented": 0,
-          "failures": [],
-          "quotes_inserted": 3176,
-          "snapshot_id": "0cdb5bd6ad3fa2ac7671f528334f442ce0d3b2c60bb95d7948c8f11b68c725d8",
+          "next_refresh_seconds": 28.513009,
           "sport": "CFB",
-          "status": "ARCHIVED"
+          "status": "CACHED_CADENCE"
         },
         {
           "duplicates_prevented": 0,
           "failures": [],
-          "quotes_inserted": 636,
-          "snapshot_id": "fa4edc0ee3c366689eca13002181c46198000747b635b52eeab421346c950e6b",
+          "quotes_inserted": 606,
+          "snapshot_id": "16b2914ced198991514e3bdc0684186a8757d28ba8e689691e2d58dd01a85def",
           "sport": "NHL",
           "status": "ARCHIVED"
         },
@@ -85,15 +82,15 @@
           "duplicates_prevented": 0,
           "failures": [],
           "quotes_inserted": 1166,
-          "snapshot_id": "69ac063c6f3f2bf5882b87ea774b066c5e386d42af35e56153abca7a703e2a37",
+          "snapshot_id": "81cdeeda2ccf467b4cb675ac236b6ade049e2e537aefa27dea3fca77a913f650",
           "sport": "NFL",
           "status": "ARCHIVED"
         },
         {
           "duplicates_prevented": 0,
           "failures": [],
-          "quotes_inserted": 108,
-          "snapshot_id": "ca74080d906b23ff253565346d50575223a547eec2db68cf842e290b236ef6d7",
+          "quotes_inserted": 90,
+          "snapshot_id": "80055ee60c3ffafe5164d7c576d74cbaa4804cf158848cc94bedaef5b1589f67",
           "sport": "MLB",
           "status": "ARCHIVED"
         },
@@ -101,7 +98,7 @@
           "duplicates_prevented": 0,
           "failures": [],
           "quotes_inserted": 968,
-          "snapshot_id": "47e4f0f4aa7bdbdd4da98ec1383922eb127af2bff7999c6df975f7fd0df2e1a1",
+          "snapshot_id": "9aaa622031a2ecee64e68a91c44afffdf86e3ba460b9e06bb8a5884145a44531",
           "sport": "NBA",
           "status": "ARCHIVED"
         }
@@ -109,10 +106,10 @@
     },
     "quota_metadata": {
       "x-requests-last": 3,
-      "x-requests-remaining": 446,
-      "x-requests-used": 54
+      "x-requests-remaining": 431,
+      "x-requests-used": 69
     },
-    "refresh_mode": "OFFLINE",
+    "refresh_mode": "BOUNDED_CURRENT_ODDS",
     "sports_endpoint_status": 200
   },
   "statcast": {

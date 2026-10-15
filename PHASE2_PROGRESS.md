@@ -100,3 +100,7 @@ Detailed per-item files, tests, real and synthetic sample sizes are in TASK_STAT
 - CFB schedule-first coverage and source-recomputed rolling integration implemented for captured queries. Complete real feature sets remain zero; multi-query rolling assembly is unfinished.
 - Product milestones and their exact blockers are in TASK_STATE.json / PRODUCT. No private balances, datasets or credentials are published.
 - GitHub read works, but local Git push fails authentication/permission and connector write returns HTTP 403. Remote work is unchanged. Clean installed-package suite also passes all 195 tests.
+
+## Delivery verification 2026-10-14 19:41 America/Chicago
+
+195 tests pass; 6b20b15 preserved; 18 frozen files unchanged. Current CFBD/Odds access verified; historical odds HTTP 401. Current card: 159 events. No feature code changed. Exact launch and push commands: reports/DELIVERY_VERIFICATION.md.
