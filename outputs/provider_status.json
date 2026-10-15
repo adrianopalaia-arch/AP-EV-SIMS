@@ -54,11 +54,63 @@
       "x-requests-remaining": 461,
       "x-requests-used": 39
     },
-    "latest_collection": null,
+    "latest_collection": {
+      "collected_at": "2026-10-14T23:26:12.019710+00:00",
+      "quota": {
+        "cached_historical_snapshots": 0,
+        "credits_consumed_recorded": 39,
+        "duplicate_requests_prevented": 0,
+        "provider_requests_used": 54,
+        "requests_recorded": 19,
+        "requests_remaining": 446
+      },
+      "results": [
+        {
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 3176,
+          "snapshot_id": "0cdb5bd6ad3fa2ac7671f528334f442ce0d3b2c60bb95d7948c8f11b68c725d8",
+          "sport": "CFB",
+          "status": "ARCHIVED"
+        },
+        {
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 636,
+          "snapshot_id": "fa4edc0ee3c366689eca13002181c46198000747b635b52eeab421346c950e6b",
+          "sport": "NHL",
+          "status": "ARCHIVED"
+        },
+        {
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 1166,
+          "snapshot_id": "69ac063c6f3f2bf5882b87ea774b066c5e386d42af35e56153abca7a703e2a37",
+          "sport": "NFL",
+          "status": "ARCHIVED"
+        },
+        {
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 108,
+          "snapshot_id": "ca74080d906b23ff253565346d50575223a547eec2db68cf842e290b236ef6d7",
+          "sport": "MLB",
+          "status": "ARCHIVED"
+        },
+        {
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 968,
+          "snapshot_id": "47e4f0f4aa7bdbdd4da98ec1383922eb127af2bff7999c6df975f7fd0df2e1a1",
+          "sport": "NBA",
+          "status": "ARCHIVED"
+        }
+      ]
+    },
     "quota_metadata": {
       "x-requests-last": 3,
-      "x-requests-remaining": 461,
-      "x-requests-used": 39
+      "x-requests-remaining": 446,
+      "x-requests-used": 54
     },
     "refresh_mode": "OFFLINE",
     "sports_endpoint_status": 200

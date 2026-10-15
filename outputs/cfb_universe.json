@@ -1,13 +1,13 @@
 {
   "coverage": "CAPTURED_QUERIES_ONLY_NOT_A_COMPLETE_SEASON",
   "exclusions": {
-    "EVENT_STARTED_OR_COMPLETED": 744,
+    "EVENT_STARTED_OR_COMPLETED": 745,
     "EVENT_START_UNCONFIRMED": 216,
     "MISSING_FEATURES": 1666,
     "MODEL_NOT_CALIBRATED": 1666,
-    "NO_MATCHED_MARKET": 1599,
+    "NO_MATCHED_MARKET": 1600,
     "OUTSIDE_FBS_VS_FBS_SCOPE": 855,
-    "STALE_PRICE": 67,
+    "STALE_PRICE": 66,
     "UNVERIFIED_LINEUP": 1666
   },
   "games": [
@@ -32586,17 +32586,14 @@
       "away_team": "Western Kentucky",
       "event_id": "401871068",
       "event_start": "2026-10-15T00:00:00+00:00",
-      "feature_blockers": [
-        "PRIOR_PLAY_HISTORY_OUTSIDE_LOOKBACK_OR_UNSETTLED"
-      ],
+      "feature_blockers": [],
       "home_team": "Sam Houston",
-      "market_sides": 52,
-      "matched_odds_event_ids": [
-        "odds:2bbbf3488a5d57c9c13ae578bad17a9d"
-      ],
+      "market_sides": 0,
+      "matched_odds_event_ids": [],
       "missing_feature_contract": "Phase 1 CFB contract remains required; rolling PPA is not EPA",
       "pass_reason": [
-        "STALE_PRICE",
+        "EVENT_STARTED_OR_COMPLETED",
+        "NO_MATCHED_MARKET",
         "MISSING_FEATURES",
         "MODEL_NOT_CALIBRATED",
         "UNVERIFIED_LINEUP"
@@ -32605,7 +32602,7 @@
       "schedule_available_at": "2026-10-14T23:27:00.091993+00:00",
       "schedule_hash": "02d0f610bdaeee6290042329085d206f36be86de87e7bed56f4ebbed0760b8bf",
       "schedule_snapshot_id": "a63a7d8f47adb7dd4bc02e74627599e3e04447e4865200917d050328e8766743",
-      "scope_eligible": true,
+      "scope_eligible": false,
       "season": 2026,
       "verified_features": {},
       "week": 7
@@ -42805,26 +42802,10 @@
   ],
   "games_scanned": 1666,
   "games_with_verified_rolling_features": 0,
-  "generated_at": "2026-10-14T23:32:32.333332+00:00",
+  "generated_at": "2026-10-15T00:37:35.249300+00:00",
   "identity_rejections": [
     {
-      "event_id": "odds:7ebcab7b97620342a9205b32139222d1",
-      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
-    },
-    {
-      "event_id": "odds:6dab7d3b6ae25bd042a24a6e550a4f23",
-      "reason": "EVENT_START_UNCONFIRMED"
-    },
-    {
-      "event_id": "odds:173057d32ff5946d42566a0d164de287",
-      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
-    },
-    {
       "event_id": "odds:423bd1c75b601ccfabfca3759cc69a3f",
-      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
-    },
-    {
-      "event_id": "odds:174cf7d3d434eeaada92afb534fb2557",
       "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
     },
     {
@@ -42836,11 +42817,23 @@
       "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
     },
     {
+      "event_id": "odds:173057d32ff5946d42566a0d164de287",
+      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
+    },
+    {
+      "event_id": "odds:6dab7d3b6ae25bd042a24a6e550a4f23",
+      "reason": "EVENT_START_UNCONFIRMED"
+    },
+    {
       "event_id": "odds:47595bd2a188e4dab8a27dce97c5b45d",
+      "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
+    },
+    {
+      "event_id": "odds:174cf7d3d434eeaada92afb534fb2557",
       "reason": "EVENT_START_OR_IDENTITY_UNVERIFIED"
     }
   ],
-  "matched_games": 67,
+  "matched_games": 66,
   "qualified_games": 0,
   "qualifying_real_sample": 0,
   "query_count": 4,
@@ -42875,6 +42868,6 @@
     }
   ],
   "synthetic_performance_sample": 0,
-  "unmatched_odds_events": 8,
-  "upcoming_fbs_games": 429
+  "unmatched_odds_events": 7,
+  "upcoming_fbs_games": 428
 }

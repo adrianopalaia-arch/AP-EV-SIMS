@@ -1,6 +1,6 @@
 # AP EV/SIMS product delivery
 
-Generated: 2026-10-14T23:32:30.821362+00:00
+Generated: 2026-10-15T00:37:33.605528+00:00
 
 ## Start the existing Windows checkout
 
@@ -20,15 +20,16 @@ On a fresh checkout with Python 3.11+, `python -m pip install -e .` is the insta
 
 ## Verified delivery
 
-- Full suite: 194 passed, 0 failed, 0 skipped. Original 171 preserved. All 18 frozen Phase 1 file hashes unchanged.
+- Full suite: 195 passed, 0 failed, 0 skipped. Original 171 preserved. All 18 frozen Phase 1 file hashes unchanged.
+- Independently installed wheel in a fresh virtual environment: all 195 tests pass, 0 failures.
 - Clean virtual-environment wheel installation passed; installed-package cold start tested separately from source checkout.
 - Real-data Streamlit AppTest: zero exceptions, three tables, all 26 market categories visible; pregame/live separation tested.
 - Server startup passed. Loopback HTTP and in-app browser timed out in the Codex session. Browser visual acceptance is NOT complete; no security settings were changed.
 - CFBD/current CFB odds/sports endpoints: HTTP 200. DK and FD returned. Both credentials present; no secret values displayed.
 - Historical odds: HTTP 401, BLOCKED_BY_HISTORICAL_ODDS_ACCESS. Earliest usable historical date remains unknown.
 - Current featured-market observations available for CFB, NHL, NFL, MLB, NBA. Props remain Await data. These are prices, not validated forecasts.
-- Current card: 164 events, 6054 quote sides, 1682 DK/FD sides.
-- CFB captured schedule universe: 1666 games across captured 2025/2026 queries; 429 upcoming FBS-vs-FBS matchups; 67 mapped market events; 8 unmatched Odds events. A captured full-year FBS query is not an independently proven complete historical universe.
+- Current card: 160 events, 5840 quote sides, 1634 DK/FD sides.
+- CFB captured schedule universe: 1666 games across captured 2025/2026 queries; 428 upcoming FBS-vs-FBS matchups; 66 mapped market events; 7 unmatched Odds events. A captured full-year FBS query is not an independently proven complete historical universe.
 - Full-year all-division response: 3 of 3,679 games marked completed with missing scores. Entire snapshot excluded, raw bytes retained. Separate FBS response: 888 rows accepted.
 - Zero complete real rolling feature sets. Zero qualifying model training/evaluation observations; synthetic performance sample zero. Test fixtures never become performance metrics.
 - Model probabilities, p_low, fair odds, EV, maximum acceptable prices, Brier, log loss, ROI, CLV and drawdown remain unavailable. NO QUALIFYING BETS.
@@ -51,14 +52,44 @@ Generation hashes protect against mixed publications. Other-book comparisons rem
 7. Enable live, parlays, prop builders, moneyline hammer, lotto and promotions only after their component models and independent correlation/exposure/execution gates qualify. They remain unavailable.
 8. Finish remote Git delivery if session credentials cannot push. Do not block independent local development on GitHub.
 
+## Git delivery
+
+Branch: `ap-evisims-live`. Local checkpoint saved; remote read works. Local push failed authentication/permission; GitHub connector returned HTTP 403. Remote branch remains `3e7e5768f3e403ccfac137477e61d591c49db6f6`. No reset, force-push, history overwrite, raw-data commit or credential commit occurred. Known-secret Git history scan passed.
+
+Run this single command in normal authenticated PowerShell:
+```powershell
+& 'C:\Users\adria\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.exe' -C 'C:\Users\adria\Documents\Codex\2026-10-13\files-mentioned-by-the-user-ap\outputs\AP-EV-SIMS' push -u origin ap-evisims-live
+```
+
+Provider query parameter reference: [CFBD games documentation](https://api.collegefootballdata.com/api/games). App test reference: [Streamlit AppTest](https://docs.streamlit.io/develop/api-reference/app-testing/st.testing.v1.apptest).
+
 ## Files changed in this delivery
 
+- `.gitignore`
 - `PHASE2_PROGRESS.md`
+- `README.md`
 - `TASK_STATE.json`
 - `outputs/cfb_universe.json`
 - `outputs/last_update.json`
 - `outputs/latest_passes.json`
+- `outputs/model_status.json`
+- `outputs/provider_status.json`
+- `pyproject.toml`
 - `reports/MORNING_CARD.md`
 - `reports/PRODUCT_DELIVERY.md`
+- `src/ap_evsims/__main__.py`
+- `src/ap_evsims/canonical.py`
+- `src/ap_evsims/cfb_features.py`
+- `src/ap_evsims/cfb_universe.py`
 - `src/ap_evsims/checkpoint.py`
+- `src/ap_evsims/cycle.py`
+- `src/ap_evsims/dashboard.py`
+- `src/ap_evsims/handoff.py`
+- `src/ap_evsims/operations.py`
+- `src/ap_evsims/product.py`
+- `src/ap_evsims/providers/access.py`
+- `src/ap_evsims/warehouse.py`
+- `tests/test_application_access.py`
+- `tests/test_cfb_universe.py`
 - `tests/test_checkpoint.py`
+- `tests/test_product.py`

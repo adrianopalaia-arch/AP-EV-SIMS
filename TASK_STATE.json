@@ -81,7 +81,7 @@
     },
     "FOUNDATION": {
       "GitHub_handoff": {
-        "blocker": "Latest heartbeat push blocked: NETWORK_UNAVAILABLE. Local work and verified checkpoint remain committed.",
+        "blocker": "Remote read works; local Git push failed authentication/permission; GitHub connector write returned HTTP 403.",
         "dependencies": [],
         "files": [
           "src/ap_evsims/handoff.py",
@@ -89,7 +89,7 @@
           "src/ap_evsims/publication.py",
           "src/ap_evsims/__main__.py"
         ],
-        "next_action": "Keep tested local commits; retry push at checkpoints or use the manual push command.",
+        "next_action": "Run the documented single push command from normal authenticated PowerShell; preserve local commits and remote history.",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
@@ -97,7 +97,7 @@
           "tests/test_handoff_cycle.py",
           "tests/test_checkpoint.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
       },
       "calibration": {
         "blocker": null,
@@ -881,7 +881,7 @@
           "tests/test_cfb_universe.py",
           "tests/test_application_access.py"
         ],
-        "updated_at": "2026-10-14T23:32:30.821362+00:00"
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
       },
       "M2_first_real_model_output": {
         "blocker": "Zero qualifying timestamp-authentic training/evaluation rows and zero complete real feature sets.",
@@ -902,7 +902,7 @@
           "tests/test_cfb_universe.py",
           "tests/test_application_access.py"
         ],
-        "updated_at": "2026-10-14T23:32:30.821362+00:00"
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
       },
       "M3_daily_card": {
         "blocker": null,
@@ -923,7 +923,7 @@
           "tests/test_cfb_universe.py",
           "tests/test_application_access.py"
         ],
-        "updated_at": "2026-10-14T23:32:30.821362+00:00"
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
       },
       "M4_historical_validation": {
         "blocker": "Historical Odds API access returned HTTP 401; historical feature publication times are also unverified.",
@@ -944,7 +944,7 @@
           "tests/test_cfb_universe.py",
           "tests/test_application_access.py"
         ],
-        "updated_at": "2026-10-14T23:32:30.821362+00:00"
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
       },
       "M5_remaining_sports": {
         "blocker": "Featured prices are available; sport predictors, prop prices, role features and empirical calibration are incomplete.",
@@ -965,10 +965,10 @@
           "tests/test_cfb_universe.py",
           "tests/test_application_access.py"
         ],
-        "updated_at": "2026-10-14T23:32:30.821362+00:00"
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
       },
       "M6_research_cycle_and_delivery": {
-        "blocker": "Real prediction/settlement evaluation samples are zero; Git push outcome pending.",
+        "blocker": "Real prediction/settlement evaluation samples are zero; local Git authentication/permission fails and GitHub connector returns HTTP 403.",
         "files": [
           "src/ap_evsims/product.py",
           "src/ap_evsims/dashboard.py",
@@ -986,7 +986,7 @@
           "tests/test_cfb_universe.py",
           "tests/test_application_access.py"
         ],
-        "updated_at": "2026-10-14T23:32:30.821362+00:00"
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
       }
     }
   },
@@ -1003,6 +1003,16 @@
   "earliest_blocked_dependency": "FOUNDATION.historical_provider_access",
   "empirical_note": "Captured provider rows and current quotes are real. They are not qualified historical model evaluation samples. Synthetic sample counts refer to representative mechanics fixtures and are never added to real samples.",
   "empirical_performance_available": false,
+  "git_delivery": {
+    "branch": "ap-evisims-live",
+    "category": "AUTHENTICATION_OR_PERMISSION",
+    "connector_write_status": 403,
+    "env_ignored": true,
+    "env_tracked": false,
+    "known_secret_history_scan": "PASS",
+    "last_verified_remote": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
+    "push_success": false
+  },
   "github_push": "BLOCKED_NETWORK_UNAVAILABLE",
   "ingestion_summary": {
     "cfb_matched_events": 61,
@@ -1072,24 +1082,29 @@
   "product_delivery": {
     "approved_models": 0,
     "automatic_wager_placement": false,
+    "clean_installed_package_tests": {
+      "failed": 0,
+      "passed": 195,
+      "skipped": 0
+    },
     "clean_venv_install": "PASS",
     "frozen_phase1_files_unchanged": 18,
     "full_suite": {
       "failed": 0,
-      "passed": 194
+      "passed": 195
     },
     "launch_command": ".\\.venv\\Scripts\\python.exe -m ap_evsims dashboard",
     "loopback_http_and_browser": "TIMEOUT_IN_CODEX_SESSION",
     "original_171_preserved": true,
     "real_data": {
       "cfb_schedule_games": 1666,
-      "current_market_events": 164,
-      "current_market_sides": 6054,
-      "matched_cfb_events": 67,
-      "preferred_market_sides": 1682,
+      "current_market_events": 160,
+      "current_market_sides": 5840,
+      "matched_cfb_events": 66,
+      "preferred_market_sides": 1634,
       "real_model_evaluation_sample": 0,
-      "unmatched_odds_cfb_events": 8,
-      "upcoming_fbs_matchups": 429
+      "unmatched_odds_cfb_events": 7,
+      "upcoming_fbs_matchups": 428
     },
     "real_data_apptest": "PASS",
     "server_start": "PASS",
@@ -1283,11 +1298,11 @@
   "tests": {
     "command": "python -m unittest discover -s tests -q",
     "failed": 0,
-    "passed": 194,
+    "passed": 195,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-14T23:32:30.821362+00:00",
+    "verified_at": "2026-10-15T00:37:33.605528+00:00",
     "verified_source_commit": "87bb6270fb3ab0ec6cf593418afb9bdcaae727d3"
   },
-  "updated_at": "2026-10-14T23:32:30.869371+00:00"
+  "updated_at": "2026-10-15T00:37:33.660267+00:00"
 }

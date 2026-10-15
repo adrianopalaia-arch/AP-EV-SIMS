@@ -136,8 +136,14 @@ def daily_card(repo, *, offline=False,sports=('CFB',),daily_credit_cap=24,reserv
         providers=read_json(store.root/'evaluations/application-provider-status.json',read_json(repo/'outputs/provider_status.json',{}))
         for name,env_name in (('cfbd','CFBD_API_KEY'),('odds_api','THE_ODDS_API_KEY')):
             providers.setdefault(name,{})['credential_present']=credentials[env_name]
-        providers['odds_api'].update(latest_collection=collection,refresh_mode='OFFLINE' if offline else 'BOUNDED_CURRENT_ODDS',
+        last_collection=collection or read_json(store.root/'evaluations/odds-collection-latest.json',None)
+        providers['odds_api'].update(latest_collection=last_collection,refresh_mode='OFFLINE' if offline else 'BOUNDED_CURRENT_ODDS',
             historical_access_note='Separate entitlement check; current odds access does not prove historical access')
+        if last_collection:
+            quota=last_collection.get('quota',{})
+            if quota.get('requests_remaining') is not None:
+                providers['odds_api'].setdefault('quota_metadata',{}).update({
+                    'x-requests-remaining':quota['requests_remaining'],'x-requests-used':quota.get('provider_requests_used')})
         failures=[r for r in (collection or {}).get('results',[]) if r['status'] not in ('ARCHIVED','CACHED_CADENCE')]
         state=read_json(repo/'TASK_STATE.json',{}); prior_last=read_json(repo/'outputs/last_update.json',{})
         values={'latest_predictions.json':[], 'latest_edges.json':[], 'latest_passes.json':preferred,
@@ -150,8 +156,9 @@ def daily_card(repo, *, offline=False,sports=('CFB',),daily_credit_cap=24,reserv
             current_task='LOCAL_DASHBOARD_AND_DAILY_CARD',next_task='CFB verified pregame features and timestamp-authentic evaluation',
             branch=state.get('branch'),git_commit=prior_last.get('git_commit'),tests_passed=state.get('tests',{}).get('passed'),
             tests_failed=state.get('tests',{}).get('failed'),tests_semantics='Last independently run full suite, not rerun by daily_card',
-            sports_updated=sorted({r['sport'] for r in rows}),providers_ok=not failures and not offline and bool(collection) and
+            sports_updated=sorted({r['sport'] for r in rows}),providers_ok=None if offline else not failures and bool(collection) and
                 all(providers.get(p,{}).get('authentication_status')=='OK' for p in ('cfbd','odds_api')),
+            provider_check_basis='LAST_RECORDED_CHECKS_ONLY' if offline else 'BOUNDED_CURRENT_REFRESH_PLUS_RECORDED_CFBD_AUTH',
             card_builders=[dict(name=n,status='UNAVAILABLE',reason='NO_VALIDATED_ELIGIBLE_LEGS') for n in BUILDERS])
         generation=digest(dict(at=at,values=values));summary.update(publication_generation=generation,
             feed_hashes={name:digest(value) for name,value in values.items()},

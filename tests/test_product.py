@@ -65,6 +65,14 @@ class ProductTests(unittest.TestCase):
         self.run_card(offline=True)
         (self.repo/'outputs/latest_edges.json').write_text('[{"fake":true}]')
         with self.assertRaisesRegex(ValueError,'HASH_MISMATCH'):read_card(self.repo)
+    def test_offline_rebuild_retains_last_real_collection_and_quota(self):
+        report={'collected_at':'2026-10-14T10:00:00Z','results':[],'quota':{'requests_remaining':123,'provider_requests_used':10}}
+        (self.s.root/'evaluations/odds-collection-latest.json').write_text(json.dumps(report))
+        r=self.run_card(offline=True);_,f=read_card(self.repo)
+        p=f['provider_status.json']['odds_api']
+        self.assertEqual(p['latest_collection'],report)
+        self.assertEqual(p['quota_metadata']['x-requests-remaining'],123)
+        self.assertIsNone(r['providers_ok'])
     def test_public_card_contains_no_private_balance(self):
         from ap_evsims.accounting import AccountLedger
         # A private sentinel in an unrelated local file must not enter publication.
