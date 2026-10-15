@@ -1025,10 +1025,16 @@
     "category": "AUTHENTICATION_OR_PERMISSION",
     "connector_write_status": 403,
     "env_ignored": true,
+    "env_staged": false,
     "env_tracked": false,
     "known_secret_history_scan": "PASS",
+    "last_attempt_at": "2026-10-15T00:43:37.168437+00:00",
+    "last_attempt_commit": "c9417070005dae448e750a503c064164ab1e3a74",
     "last_verified_remote": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
-    "push_success": false
+    "manual_push_required": true,
+    "push_success": false,
+    "staged_secret_scan": "PASS",
+    "status": "PUSH_BLOCKED"
   },
   "github_push": "BLOCKED_NETWORK_UNAVAILABLE",
   "ingestion_summary": {

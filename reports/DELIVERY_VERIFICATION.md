@@ -67,3 +67,7 @@ If the session push remains blocked, run this exact single command in authentica
 ```
 
 This preserves existing remote history and sends the local committed checkpoints. Never add `--force`.
+
+## Push outcome
+
+The delivery checkpoint `c9417070005dae448e750a503c064164ab1e3a74` was committed locally after the staged-secret scan passed. The push was blocked. Session GitHub write access remains unavailable; the prior connector check returned HTTP 403. Use the authenticated PowerShell push command above. A final push is attempted after saving this outcome. The final local commit and push result are reported in chat. No secrets, raw datasets, or databases were staged.

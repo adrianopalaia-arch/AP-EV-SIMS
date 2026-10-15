@@ -53,6 +53,15 @@
   "games_scanned": 159,
   "generated_at": "2026-10-15T00:40:59.766110+00:00",
   "git_commit": "7197152feae091358239c1dbe1f0940844ba6dda",
+  "git_delivery": {
+    "env_staged": false,
+    "last_attempt_at": "2026-10-15T00:43:37.168437+00:00",
+    "last_attempt_commit": "c9417070005dae448e750a503c064164ab1e3a74",
+    "manual_push_required": true,
+    "push_success": false,
+    "staged_secret_scan": "PASS",
+    "status": "PUSH_BLOCKED"
+  },
   "local_comparison_hash": "9ea12099ab2f1eef1d4cf019237049db184fcb05b6e5ab5ece8eee86bb173bd8",
   "market_sides_scanned": 5780,
   "mode": "PREGAME",
