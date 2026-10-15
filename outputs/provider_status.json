@@ -55,59 +55,51 @@
       "x-requests-used": 57
     },
     "latest_collection": {
-      "collected_at": "2026-10-15T00:40:58.010957+00:00",
+      "collected_at": "2026-10-15T03:43:08.673043+00:00",
       "quota": {
         "cached_historical_snapshots": 0,
-        "credits_consumed_recorded": 54,
+        "credits_consumed_recorded": 63,
         "duplicate_requests_prevented": 0,
-        "provider_requests_used": 69,
-        "requests_recorded": 26,
-        "requests_remaining": 431
+        "provider_requests_used": 78,
+        "requests_recorded": 29,
+        "requests_remaining": 422
       },
       "results": [
         {
-          "next_refresh_seconds": 28.513009,
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 3070,
+          "snapshot_id": "612c5b17a42f0826b5cb7b0f10fab5f4b2d598a93260c9b00bc543e3c6c6460b",
           "sport": "CFB",
-          "status": "CACHED_CADENCE"
+          "status": "ARCHIVED"
         },
         {
           "duplicates_prevented": 0,
           "failures": [],
-          "quotes_inserted": 606,
-          "snapshot_id": "16b2914ced198991514e3bdc0684186a8757d28ba8e689691e2d58dd01a85def",
+          "quotes_inserted": 594,
+          "snapshot_id": "d27e2a4a21e1242ba6a4a7674b763fb09a00e6dcdbee43e580cee73606559949",
           "sport": "NHL",
           "status": "ARCHIVED"
         },
         {
-          "duplicates_prevented": 0,
-          "failures": [],
-          "quotes_inserted": 1166,
-          "snapshot_id": "81cdeeda2ccf467b4cb675ac236b6ade049e2e537aefa27dea3fca77a913f650",
           "sport": "NFL",
-          "status": "ARCHIVED"
+          "status": "QUOTA_BUDGET_LIMIT"
         },
         {
-          "duplicates_prevented": 0,
-          "failures": [],
-          "quotes_inserted": 90,
-          "snapshot_id": "80055ee60c3ffafe5164d7c576d74cbaa4804cf158848cc94bedaef5b1589f67",
           "sport": "MLB",
-          "status": "ARCHIVED"
+          "status": "QUOTA_BUDGET_LIMIT"
         },
         {
-          "duplicates_prevented": 0,
-          "failures": [],
-          "quotes_inserted": 968,
-          "snapshot_id": "9aaa622031a2ecee64e68a91c44afffdf86e3ba460b9e06bb8a5884145a44531",
+          "next_refresh_seconds": 10670.848755,
           "sport": "NBA",
-          "status": "ARCHIVED"
+          "status": "CACHED_CADENCE"
         }
       ]
     },
     "quota_metadata": {
       "x-requests-last": 3,
-      "x-requests-remaining": 431,
-      "x-requests-used": 69
+      "x-requests-remaining": 422,
+      "x-requests-used": 78
     },
     "refresh_mode": "BOUNDED_CURRENT_ODDS",
     "sports_endpoint_status": 200

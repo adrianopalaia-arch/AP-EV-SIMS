@@ -104,13 +104,57 @@ class ProductTests(unittest.TestCase):
         self.assertEqual(r['results'][0]['status'],'CACHED_CADENCE')
         r=collect_odds(self.s,self.w,now='2026-10-14T11:00:00Z',force_refresh=True,daily_credit_cap=0,transport=forbidden)
         self.assertEqual(r['results'][0]['status'],'QUOTA_BUDGET_LIMIT')
+    def test_dashboard_clock_withholds_started_and_future_information(self):
+        from ap_evsims.dashboard import pregame_display_rows
+        archive(self.s);self.run_card(offline=True)
+        _,feeds=read_card(self.repo);rows=feeds['latest_passes.json']
+        self.assertEqual(len(pregame_display_rows(rows,'2026-10-14T10:01:00Z')),2)
+        self.assertEqual(pregame_display_rows(rows,'2026-10-14T18:00:00Z'),[])
+        self.assertEqual(pregame_display_rows(rows,'2026-10-14T09:59:59Z'),[])
+        rows[0]['data_timestamps']['provider_available']='2026-10-14T09:00:00Z'
+        self.assertEqual(len(pregame_display_rows(rows,'2026-10-14T10:01:00Z')),1)
+    def test_auto_refresh_obeys_collector_and_failure_backoff(self):
+        from ap_evsims.dashboard import refresh_watch
+        from ap_evsims.operations import cadence_seconds
+        state={}
+        with patch('ap_evsims.dashboard.daily_card',return_value={'refresh_failures':[]}) as build:
+            self.assertEqual(refresh_watch(self.repo,['CFB'],24,state,'2026-10-14T10:00:00Z'),'CHECKED')
+            self.assertEqual(refresh_watch(self.repo,['CFB'],24,state,'2026-10-14T10:00:59Z'),'WAITING')
+            self.assertEqual(build.call_count,1)
+            self.assertFalse(build.call_args.kwargs['force_refresh'])
+            self.assertEqual(build.call_args.kwargs['daily_credit_cap'],24)
+            self.assertEqual(refresh_watch(self.repo,['CFB'],24,state,'2026-10-14T10:01:00Z'),'CHECKED')
+            self.assertEqual(refresh_watch(self.repo,['CFB'],0,state,'2026-10-14T10:02:00Z'),'PAUSED')
+            self.assertEqual(refresh_watch(self.repo,[],24,state,'2026-10-14T10:02:00Z'),'PAUSED')
+            self.assertEqual(build.call_count,2)
+        with patch('ap_evsims.dashboard.daily_card',side_effect=RuntimeError('apiKey=private-sentinel')) as build:
+            self.assertEqual(refresh_watch(self.repo,['CFB'],24,state,'2026-10-14T10:02:00Z'),'REFRESH_FAILED')
+            self.assertEqual(refresh_watch(self.repo,['CFB'],24,state,'2026-10-14T10:06:59Z'),'WAITING')
+            self.assertEqual(build.call_count,1)
+        with patch('ap_evsims.dashboard.daily_card',return_value={'refresh_failures':[{'status':'QUOTA_BUDGET_LIMIT'}]}) as build:
+            self.assertEqual(refresh_watch(self.repo,['CFB'],24,state,'2026-10-14T10:07:00Z'),'REFRESH_FAILED')
+            self.assertEqual(refresh_watch(self.repo,['CFB'],24,state,'2026-10-14T10:11:59Z'),'WAITING')
+            self.assertEqual(build.call_count,1)
+        self.assertEqual([cadence_seconds(s) for s in (86401,86400,21600,3600,900,0)],[21600,3600,900,300,60,21600])
     def test_ui_cold_start_and_live_separation(self):
         from streamlit.testing.v1 import AppTest
+        (self.repo/'reports').mkdir(exist_ok=True)
+        (self.repo/'reports/OCTOBER_14_FAILURE_AUDIT.md').write_text('Public audit evidence; model remains unvalidated.',encoding='utf-8')
+        (self.repo/'data/evaluations/private-audit.txt').write_text('private-wager-sentinel')
         code='from pathlib import Path\nfrom ap_evsims.dashboard import main\nmain(Path('+repr(str(self.repo))+'))'
         app=AppTest.from_string(code,default_timeout=30).run()
         self.assertEqual(len(app.exception),0)
         self.assertEqual(app.title[0].value,'AP EV/SIMS')
         self.assertEqual([m.value for m in app.metric],['0','0','0'])
-        app.radio[0].set_value('Live').run()
+        rendered='\n'.join(m.value for m in app.markdown)
+        self.assertIn('Public audit evidence',rendered)
+        self.assertNotIn('private-wager-sentinel',rendered)
+        self.assertFalse(app.checkbox[0].value)
+        with patch('ap_evsims.dashboard.refresh_watch',return_value='CHECKED') as watch:
+            app.checkbox[0].set_value(True).run()
+            self.assertEqual(watch.call_count,1)
+            app.radio[0].set_value('Live').run()
+            self.assertEqual(watch.call_count,1)
         self.assertIn('LIVE MODE UNAVAILABLE',app.warning[0].value)
         self.assertEqual(len(app.dataframe),0)
+        self.assertFalse(any('Public audit evidence' in m.value for m in app.markdown))

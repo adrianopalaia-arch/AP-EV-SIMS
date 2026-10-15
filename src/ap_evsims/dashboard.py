@@ -1,10 +1,40 @@
 """Local Streamlit view. No credentials, private balances or automatic wagers."""
 import argparse
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import streamlit as st
 from ap_evsims.product import daily_card,read_card,MARKETS,model_catalog
 from ap_evsims.integrity import utc
+
+
+def pregame_display_rows(rows, at):
+    """Recheck saved cards against the clock, including without provider access."""
+    clock=utc(at);visible=[]
+    for row in rows:
+        try:
+            available=row['data_timestamps']['provider_available']
+            if utc(row['quote_timestamp'])<=utc(available)<=clock<utc(row['event_start']):
+                visible.append(row)
+        except (KeyError,TypeError,ValueError):continue
+    return visible
+
+
+def refresh_watch(repo, sports, cap, state, at):
+    """Session-only refresh; existing collector enforces cadence, quota and lock.
+
+    Five-minute failure backoff prevents a tab from retrying an outage each tick.
+    Returned messages never include provider exceptions or authenticated URLs.
+    """
+    clock=utc(at)
+    if not sports or cap<=0:return 'PAUSED'
+    key='pregame_watch:'+str(repo)+':'+','.join(sorted(sports))+':'+str(cap)
+    if state.get(key) and clock<utc(state[key]):return 'WAITING'
+    state[key]=(clock+timedelta(seconds=300)).isoformat()
+    try:result=daily_card(repo,sports=tuple(sports),daily_credit_cap=int(cap),force_refresh=False)
+    except Exception:return 'REFRESH_FAILED'
+    if result.get('refresh_failures'):return 'REFRESH_FAILED'
+    state[key]=(clock+timedelta(seconds=60)).isoformat()
+    return 'CHECKED'
 
 
 def main(repo):
@@ -27,7 +57,9 @@ def main(repo):
         st.number_input('Reference unit ($)',min_value=1.0,max_value=10000.0,value=22.0,step=1.0)
         st.caption('Display reference only. This is not your bankroll or a suggested stake. Saved in this browser session only.')
         cap=st.number_input('Daily API credit ceiling',min_value=0,max_value=120,value=24,step=3)
-        st.caption('Refresh obeys collection cadence and keeps at least 50 credits in reserve. No background polling.')
+        automatic=st.checkbox('Auto-refresh prices toward game time',value=False,disabled=mode=='Live')
+        st.caption('While this dashboard session is active: every 6h beyond 24h; hourly within 24h; every 15m within 6h; every 5m within 1h; every minute in the last 15m. Daily credit ceiling and 50-credit reserve still apply.')
+        st.caption('Automatic updates currently cover sportsbook prices. Advanced stats, injuries and confirmed starters are not connected refresh feeds yet.')
         refresh=st.button('Refresh current markets',type='primary',disabled=not selected or mode=='Live')
         cached=st.button('Rebuild from local data',disabled=mode=='Live')
     if mode=='Live':
@@ -42,11 +74,31 @@ def main(repo):
             # Provider/library exceptions may contain authenticated URLs. Never
             # forward exception text or a traceback to the UI.
             st.error('Refresh could not complete. The previous card is retained. Check local data integrity or retry after another refresh finishes.')
+        # A local rebuild or explicit refresh must not also cause an automatic
+        # request in the same run. Manual refresh already has its own cooldown.
+        key='pregame_watch:'+str(repo)+':'+','.join(sorted(selected))+':'+str(int(cap))
+        st.session_state[key]=(datetime.now(timezone.utc)+timedelta(seconds=60)).isoformat()
+
+    @st.fragment(run_every=60)
+    def current_card():
+        if automatic:
+            result=refresh_watch(repo,selected,cap,st.session_state,datetime.now(timezone.utc))
+            if result=='REFRESH_FAILED':
+                st.warning('Automatic refresh could not obtain current data. Retaining saved evidence; retrying no sooner than five minutes. Check Provider & model health.')
+            elif result=='PAUSED':st.caption('Automatic collection paused: choose sports and a positive API credit ceiling.')
+            else:st.caption('Automatic price checks enabled. Collection follows time to the nearest upcoming game and available quota.')
+        _render_card(repo)
+    current_card()
+
+
+def _render_card(repo):
     try:summary,feeds=read_card(repo)
     except (ValueError,TypeError):
         st.warning('The card is being updated or failed its integrity check. Rebuild from local data before using it.')
         return
-    rows=feeds.get('latest_passes.json',[])+feeds.get('comparison_markets.json',[])
+    saved_rows=feeds.get('latest_passes.json',[])+feeds.get('comparison_markets.json',[])
+    checked_at=datetime.now(timezone.utc)
+    rows=pregame_display_rows(saved_rows,checked_at)
     catalog=feeds.get('model_status.json') or model_catalog(rows)
     # Existing pre-product handoff remains readable; no model readiness is inferred.
     a,b,c=st.columns(3)
@@ -58,7 +110,10 @@ def main(repo):
     if summary.get('data_quality_failures'):
         st.warning(f"{len(summary['data_quality_failures'])} source snapshot(s) failed validation and were excluded.")
     st.caption('Card generated: '+str(summary.get('generated_at','Not generated'))+' · All timestamps UTC')
-    markets_tab,coverage_tab,providers_tab=st.tabs(['Daily ranked markets','CFB coverage','Provider & model health'])
+    st.caption('Display freshness checked: '+checked_at.isoformat()+' · Refreshing the screen does not change source timestamps.')
+    if len(rows)!=len(saved_rows):
+        st.caption(str(len(saved_rows)-len(rows))+' saved quote sides withheld: game started or source timestamp ordering is invalid.')
+    markets_tab,research_tab,coverage_tab,providers_tab=st.tabs(['Daily ranked markets','Research preview','CFB coverage','Provider & model health'])
     with markets_tab:
         left,right=st.columns([3,1]);left.subheader('Daily ranked markets');right.caption('DK PRIORITY • FD SECOND')
         st.caption('Book-priority display. A probability from sportsbook prices is a market baseline, not a model prediction.')
@@ -71,6 +126,7 @@ def main(repo):
                 age=max(0,(datetime.now(timezone.utc)-utc(r['quote_timestamp'])).total_seconds())
                 return {'Sport':r['sport'],'Game':r['away_team']+' @ '+r['home_team'],'Market':names.get(r['market'],r['market']),
                     'Selection':r['selection'],'Book':r['book'],'Line':r['line'],'Price':f"{r['odds']:+d}",
+                    'Event start (UTC)':r['event_start'],'Quote time (UTC)':r['quote_timestamp'],
                     'Probability':'—','p_low':'—','EV':'—','Status':'PASS · STALE_PRICE' if age>180 else 'PASS · UNVALIDATED',
                     'Quote age (min)':round(age/60,1),'No-vig market':round(r['market_no_vig_probability'],4) if r['market_no_vig_probability'] is not None else None}
             st.dataframe([view(r) for r in available],hide_index=True,width='stretch')
@@ -78,6 +134,15 @@ def main(repo):
             row=dict(available[chosen]);reasons=list(row['pass_reason'])
             if (datetime.now(timezone.utc)-utc(row['quote_timestamp'])).total_seconds()>180 and 'STALE_PRICE' not in reasons:reasons.insert(0,'STALE_PRICE')
             st.caption('PASS reasons: '+', '.join(reasons))
+            st.subheader('Pregame evidence for this market')
+            stamps=row['data_timestamps']
+            st.dataframe([
+                {'Information':'Sportsbook line and price','Source':'The Odds API · '+row['book'],'Updated (UTC)':row['quote_timestamp'],'Availability':'STALE' if 'STALE_PRICE' in reasons else 'Captured; execution unverified'},
+                {'Information':'Lineups, injuries and starter confirmation','Source':'Not connected','Updated (UTC)':stamps.get('lineup_injury'),'Availability':'UNVERIFIED'},
+                {'Information':'Advanced matchup statistics','Source':'Verified feature feed incomplete','Updated (UTC)':stamps.get('feature_snapshot'),'Availability':'UNAVAILABLE'},
+                {'Information':'Model probability / p_low / EV','Source':'No approved model','Updated (UTC)':stamps.get('model_prediction'),'Availability':'UNVALIDATED'},
+            ],hide_index=True,width='stretch')
+            st.caption('A newer price does not verify a lineup or update advanced statistics. Those require separate dated sources.')
             with st.expander('Price, timestamps and evidence'):st.json(row)
         else:st.caption('Await data — refresh current markets or select another sport/book. No predictions are fabricated.')
         st.subheader('Market coverage')
@@ -89,6 +154,28 @@ def main(repo):
             st.caption('No eligible validated legs. Correlation, exposure and price requirements must pass before these can produce a card.')
         report=repo/'reports/MORNING_CARD.md'
         if report.is_file():st.download_button('Download morning card',report.read_text(encoding='utf-8'),file_name='MORNING_CARD.md')
+    with research_tab:
+        st.subheader('Research in progress')
+        st.caption('Verified evidence can be displayed before a model is approved. Missing statistics remain unavailable. This panel does not authorize picks.')
+        u=feeds.get('cfb_universe.json',{})
+        st.dataframe([
+            {'Stage':'Captured sportsbook prices','Evidence':str(summary.get('market_sides_scanned',0))+' quote sides; check each quote timestamp'},
+            {'Stage':'CFB complete rolling feature sets','Evidence':str(u.get('games_with_verified_rolling_features',0))},
+            {'Stage':'Real qualifying model evaluations','Evidence':str(summary.get('real_model_evaluation_sample',0))},
+            {'Stage':'Approved predictive models','Evidence':'0 — UNVALIDATED'},
+            {'Stage':'Next validation work','Evidence':'Verified pregame features → chronological evaluation → uncertainty approval → prospective tracking'},
+        ],hide_index=True,width='stretch')
+        st.info('EPA, QB efficiency, pressure, xG, GSAx and bullpen workload are not yet complete verified dashboard feeds. No placeholder probability or EV is used.')
+        audit=repo/'reports/OCTOBER_14_FAILURE_AUDIT.md'
+        if audit.is_file():
+            try:audit_text=audit.read_text(encoding='utf-8')
+            except (OSError,UnicodeError):st.warning('The saved research audit could not be read.')
+            else:
+                st.caption('Dated October 14 evidence, with source links and missing-data notes. Audit prices are historical observations, not current offers. Market refresh does not update this saved audit.')
+                with st.expander('October 14 audit: available stats, prices and process findings',expanded=True):
+                    st.markdown(audit_text)
+                st.download_button('Download research audit',audit_text,file_name='OCTOBER_14_FAILURE_AUDIT.md')
+        else:st.caption('No dated research audit has been saved in this checkout yet.')
     with coverage_tab:
         u=feeds.get('cfb_universe.json',{})
         st.subheader('Schedule-first CFB audit')

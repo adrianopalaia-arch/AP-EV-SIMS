@@ -106,3 +106,12 @@ Detailed per-item files, tests, real and synthetic sample sizes are in TASK_STAT
 195 tests pass; 6b20b15 preserved; 18 frozen files unchanged. Current CFBD/Odds access verified; historical odds HTTP 401. Current card: 159 events. No feature code changed. Exact launch and push commands: reports/DELIVERY_VERIFICATION.md.
 
 Delivery checkpoint `c941707` committed safely; push blocked. Manual push command saved in reports/DELIVERY_VERIFICATION.md. Final metadata checkpoint follows; no feature changes.
+
+## Focused audit and pregame refresh checkpoint 2026-10-15T03:44:43.053319+00:00
+
+- 197 passed, 0 failed, 0 skipped; original 195 preserved. All 18 frozen Phase 1 files and ancestor 6b20b15 preserved.
+- Dated October 14 public audit saved. Three event outcomes verified; one pending canonical final status. No confirmed model forecasts existed to score. Original recommendation timestamps/receipts remain blockers; private wager records are ignored and excluded from publication.
+- Optional pregame price refresh added to the active dashboard session, using existing cadence/quota/locking. Started games and impossible timestamps are withheld even with cached data. Failure retry backoff tested.
+- CFB/NHL real current-price payloads refreshed. NFL/MLB request budget exhausted; NBA cached by cadence. No API cap increased. Advanced-stat, availability and starter feeds remain unavailable; model evaluation sample zero.
+- Real-data Streamlit AppTest passed. Reload and enable the sidebar price-refresh switch. Details: reports/PREGAME_REFRESH.md. This is a focused display/price update, not an additional model build.
+- Next dependencies: verified advanced-stat/availability feeds, original audit evidence, canonical pending result; historical odds entitlement and feature availability still block empirical validation.
