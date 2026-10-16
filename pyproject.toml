@@ -7,7 +7,7 @@ name = "ap-evisims"
 version = "3.0.0a1"
 description = "AP EV/SIMS 3.0 conservative sports-betting research and screening engine"
 requires-python = ">=3.11"
-dependencies = ["duckdb>=1.4,<2", "pytz>=2025.2", "pyarrow>=26,<27", "streamlit>=1.66,<2"]
+dependencies = ["duckdb>=1.4,<2", "pytz>=2025.2", "pyarrow>=26,<27", "streamlit>=1.66,<2", "numpy>=2,<3"]
 
 [project.scripts]
 ap-evisims = "ap_evsims.cli:main"

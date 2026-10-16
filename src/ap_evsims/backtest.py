@@ -29,7 +29,7 @@ def calibration_observations(model,rows):
             model.artifact_id,model.training_cutoff,r.context.prediction_timestamp,r.features.timestamp,r.result_available_at))
     return out
 
-def make_record(row,prediction,decision):
+def make_record(row,prediction,decision,benchmark=None):
     c=row.context; settlement=settle(row)
     market_p=devig_two_way(c.odds,c.opposite_odds)[0]
     clv=closing_line_value(c,row.closing_context)
@@ -41,6 +41,8 @@ def make_record(row,prediction,decision):
         data_fingerprint=prediction.data_fingerprint,raw_probability=prediction.raw_probability,
         calibrated_probability=prediction.calibrated_probability,lower_bound=prediction.uncertainty_lower_bound,
         implied_probability=american_to_implied(c.odds),no_vig_probability=market_p,
+        execution_book_no_vig_probability=market_p,market_consensus=benchmark,
+        consensus_probability=(benchmark or {}).get('probability'),
         edge=None if prediction.uncertainty_lower_bound is None else prediction.uncertainty_lower_bound-market_p,
         conservative_ev=decision.get('ev_conservative'),fair_odds=prediction.fair_american_odds,max_acceptable_price=decision.get('max_acceptable_price'),
         data_age_seconds=(utc(c.prediction_timestamp)-utc(row.features.timestamp)).total_seconds(),
@@ -54,9 +56,9 @@ def summarize(records):
     raw=[r for r in records if r['outcome'] is not None and r['raw_probability'] is not None]
     calibrated=[r for r in records if r['outcome'] is not None and r['calibrated_probability'] is not None]
     selected=[r for r in records if r['status']=='RESEARCH_CANDIDATE' and r['stake_usd']>0]
-    def score(rows,key):
+    def score(rows,key,market_key='no_vig_probability'):
         if not rows: return dict(n=0,brier=None,logloss=None,market_brier=None,market_logloss=None,calibration_curve=[])
-        p=[r[key] for r in rows]; y=[r['outcome'] for r in rows]; market=[r['no_vig_probability'] for r in rows]
+        p=[r[key] for r in rows]; y=[r['outcome'] for r in rows]; market=[r[market_key] for r in rows]
         return dict(n=len(rows),brier=brier_score(p,y),logloss=log_loss(p,y),market_brier=brier_score(market,y),
             market_logloss=log_loss(market,y),calibration_curve=calibration_bins(p,y))
     profit=sum(r['unit_profit']*r['stake_usd'] for r in selected); amount=sum(r['stake_usd'] for r in selected)
@@ -79,6 +81,10 @@ def summarize(records):
             output[value]=score(group,'calibrated_probability')
     return dict(historical_sample_size=len({r['event_id'] for r in records}),prediction_count=len(records),
         raw=score(raw,'raw_probability'),calibrated=score(calibrated,'calibrated_probability'),
+        legacy_score_benchmark='execution_book_two_way_no_vig',
+        consensus_comparison={name:score([r for r in group if r.get('consensus_probability') is not None],key,'consensus_probability')
+            for name,group,key in [('raw',raw,'raw_probability'),('calibrated',calibrated,'calibrated_probability')]},
+        consensus_missing_predictions=sum(r.get('consensus_probability') is None for r in records),
         push_count=sum(r['settlement']=='PUSH' for r in records),bet_count=len(selected),staked=amount,profit=profit if selected else None,
         roi=profit/amount if amount else None,max_drawdown=drawdown if selected else None,
         point_clv_mean=statistics.mean(points) if points else None,point_clv_n=len(points),
@@ -88,8 +94,12 @@ def summarize(records):
 
 def run_walk_forward(rows,windows, *, market_type,output_dir,feature_keys=None,
                      minimum_train=80,minimum_calibration=300,minimum_selection=100,bootstrap_samples=32,
-                     bankroll=1000,minimum_validation=300,dataset_kind='provider_history',provenance_store=None):
+                     bankroll=1000,minimum_validation=300,dataset_kind='provider_history',provenance_store=None,
+                     benchmark_policy='execution_book',allow_research_candidates=True):
     if dataset_kind not in ('provider_history','synthetic_test'): raise ValueError('unknown dataset kind')
+    if benchmark_policy not in ('execution_book','contemporaneous_consensus'):raise ValueError('UNKNOWN_BENCHMARK_POLICY')
+    if benchmark_policy=='contemporaneous_consensus' and (dataset_kind!='provider_history' or provenance_store is None):
+        raise ValueError('CONSENSUS_PROVIDER_PROVENANCE_REQUIRED')
     rows=validate_dataset(rows); rows=[r for r in rows if r.context.sport=='CFB' and r.context.market_type==market_type]
     if rows and dataset_kind=='provider_history':
         if provenance_store is None: raise ValueError('PROVIDER_PROVENANCE_REQUIRED')
@@ -135,10 +145,15 @@ def run_walk_forward(rows,windows, *, market_type,output_dir,feature_keys=None,
             prediction=model.predict(r.features,r.context)
             known=[v for v in prior_validation if utc(v['outcome_time'])<utc(r.features.timestamp)]
             evidence=None
-            if len(known)>=minimum_validation:
+            if allow_research_candidates and len(known)>=minimum_validation:
                 evidence=registry.evaluate(sport='CFB',market=market_type,model_version=pipeline_version(prediction),mode='pregame',
                     training_cutoff=model.training_cutoff,expires=(utc(r.context.event_timestamp)+timedelta(days=1)).isoformat(),observations=known)
             decision=decide_prediction(r,prediction,evidence,registry=registry,exposure=exposure,limits=limits,ledger=ledger,now=now)
+            benchmark=None
+            if benchmark_policy=='contemporaneous_consensus':
+                from .cfb_benchmark import verified_consensus
+                benchmark=verified_consensus(provenance_store,r)
+                decision['market_consensus']=benchmark
             if dataset_kind=='provider_history':
                 identities={r.context.snapshot_id}
                 for value in r.features.values.values():
@@ -152,7 +167,7 @@ def run_walk_forward(rows,windows, *, market_type,output_dir,feature_keys=None,
                 decision_at=now,source_manifests=manifests,dataset_kind=dataset_kind,provenance_store=provenance_store)
             reveals.append((frozen_id,r))
             if decision['status']=='RESEARCH_CANDIDATE': pending.append((decision['candidate_id'],r.result_available_at))
-            record=make_record(r,prediction,decision); records.append(record)
+            record=make_record(r,prediction,decision,benchmark); records.append(record)
             if record['outcome'] is not None and prediction.calibrated_probability is not None and not prediction.reasons:
                 prior_validation.append(dict(id=r.observation_id,sport='CFB',market=market_type,model_version=pipeline_version(prediction),mode='pregame',
                     feature_time=r.features.timestamp,prediction_time=r.context.prediction_timestamp,quote_time=r.context.quote_timestamp,
@@ -165,6 +180,7 @@ def run_walk_forward(rows,windows, *, market_type,output_dir,feature_keys=None,
             source_hash=r.result_payload_hash,provenance_store=provenance_store)
     payload=dict(schema_version=1,dataset_kind=dataset_kind,dataset_fingerprint=digest([asdict(r) for r in rows]),
         input_event_count=len({r.context.event_id for r in rows}),market=market_type,folds=folds,summary=summarize(records),
+        benchmark_policy=benchmark_policy,research_candidate_authority_enabled=allow_research_candidates,
         profitability_demonstrated=False,records_path='predictions.jsonl',limitations=[
             'No empirical profitability conclusion; synthetic tests are not provider data.',
             'Calibration bounds are dependence-adjusted diagnostics, not validated individual coverage.',
@@ -173,6 +189,12 @@ def run_walk_forward(rows,windows, *, market_type,output_dir,feature_keys=None,
             'Point CLV and price CLV are separate; missing or different-line closing prices remain missing.'])
     from .evaluation_intervals import paired_score_intervals
     payload['paired_market_comparison_intervals']=paired_score_intervals(records)
+    paired=[dict(r,no_vig_probability=r['consensus_probability']) for r in records if r.get('consensus_probability') is not None]
+    payload['paired_consensus_intervals']={
+        'calibrated':paired_score_intervals(paired),
+        # Reuse the paired loss statistic without writing a fabricated calibrated
+        # forecast to a prediction record. Raw/calibrated outputs stay separate.
+        'raw':paired_score_intervals([dict(r,calibrated_probability=r['raw_probability']) for r in paired])}
     (output/'predictions.jsonl').write_text(''.join(json.dumps(r,sort_keys=True,allow_nan=False)+'\n' for r in records),encoding='utf-8')
     (output/'summary.json').write_text(json.dumps(payload,sort_keys=True,allow_nan=False,indent=2),encoding='utf-8')
     from .reporting import write_ranking

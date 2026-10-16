@@ -153,3 +153,8 @@ Fresh CFBD/current odds: HTTP 200; DK and FD present. Historical odds: HTTP 401,
 Next dependency: actual pregame feature/price joins and settled prospective evidence. GitHub Actions data collection is blocked on private durable execution/storage and is not running. Full delivery and alternative historical-source findings: reports/PREDICTIVE_EDGE_DELIVERY.md. Git push/PR outcome follows after the safety scan.
 
 Push result: local Git authentication unavailable. Connector code writes and PR #1 update both HTTP 403. Feature checkpoint de85f9751b732d351f00479b2f3d4c1c27f9c098 remains safely committed locally; existing PR does not contain it yet. Manual push command is in reports/PREDICTIVE_EDGE_DELIVERY.md.
+
+
+## Multi-sport real-model checkpoint 2026-10-16T05:23:02.576787+00:00
+
+283 tests pass; 18 frozen Phase 1 hashes unchanged. CFB trained on 1,442 prior scores, evaluated 1,086 games, MAE 14.5269 versus 16.2073; 59 future forecasts frozen. Real NFL/NBA/NHL/MLB opportunity models executed; per-market results and failures are in reports/MULTISPORT_PROP_EVIDENCE.md. NFL did not improve MAE. No models are validated. Current prop prices captured for four sports, NHL returned no props. Next: current identities/roles, prospective prop freeze and settlement/CLV. Git push attempted below; development continues independently.

@@ -1,0 +1,369 @@
+{
+  "sport": "NBA",
+  "generated_at": "2026-10-16T05:17:52.265903+00:00",
+  "model_version": "opportunity-partial-pool-v1",
+  "coverage": {
+    "source_selection": "all returned rows in explicit season/regular-game queries",
+    "source_failures": [],
+    "outcome_rows": 318528,
+    "unique_player_games": 79632,
+    "unique_athletes": 807,
+    "events": 3701,
+    "seasons": {
+      "2024": 106192,
+      "2025": 105504,
+      "2026": 106832
+    },
+    "rejections": {
+      "NON_REGULAR_SEASON": 7653,
+      "DNP_NOT_ZERO": 17773,
+      "MISSING_STAT_OR_OPPORTUNITY": 412,
+      "CONFLICTING_DUPLICATE": 0
+    },
+    "earliest_date": "2023-10-24",
+    "latest_date": "2026-04-12",
+    "historical_as_of_eligible": 0,
+    "role_confirmed_opportunities": 0
+  },
+  "normalized_table": {
+    "path": "normalized\\nba-player-outcomes-e58a8cb150b0ca34e2605e873703cddb5e9c9d53b2eb6b76c96181f8ceed6147.jsonl",
+    "parquet_path": "normalized\\nba-player-outcomes-e58a8cb150b0ca34e2605e873703cddb5e9c9d53b2eb6b76c96181f8ceed6147.parquet",
+    "fingerprint": "e58a8cb150b0ca34e2605e873703cddb5e9c9d53b2eb6b76c96181f8ceed6147",
+    "n": 318528
+  },
+  "markets": {
+    "points": {
+      "training_n": 79632,
+      "unique_athletes": 807,
+      "artifact_hash": "137d72117ff5968fdc37376711268c5d3d20908479efc61c251dba0a39e35cdd",
+      "evaluation": {
+        "n": 51938,
+        "mae": 4.7637491122705,
+        "rmse": 6.196105002903086,
+        "baseline_mae": 4.759028087212654,
+        "baseline_rmse": 6.260670218017508,
+        "opportunity_mae": 5.406887079035111,
+        "crps_n": 51938,
+        "crps": 3.367747756228579,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.01201945578163589,
+          0.022117047846397155
+        ],
+        "week_blocks": 50,
+        "beats_baseline_mae": false
+      },
+      "by_season": {
+        "2025": {
+          "n": 25776,
+          "mae": 4.770776005018646,
+          "rmse": 6.201099708666129,
+          "baseline_mae": 4.769685255387071,
+          "baseline_rmse": 6.271656843104266,
+          "opportunity_mae": 5.431387881855746,
+          "crps_n": 25776,
+          "crps": 3.368266986537863,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.021343795713890425,
+            0.022086702290286822
+          ],
+          "week_blocks": 25,
+          "beats_baseline_mae": false
+        },
+        "2026": {
+          "n": 26162,
+          "mae": 4.756825895869758,
+          "rmse": 6.191180049430326,
+          "baseline_mae": 4.748528157281311,
+          "baseline_rmse": 6.249826803930264,
+          "opportunity_mae": 5.382747766539708,
+          "crps_n": 26162,
+          "crps": 3.367236186759421,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.014665991778902297,
+            0.0340824533697618
+          ],
+          "week_blocks": 25,
+          "beats_baseline_mae": false
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nba-points-oos-2c04fa5d5ab65c3b59daa2260543abd7d47b888b3d06891abd1d17d30dd2700f.jsonl",
+        "parquet_path": "normalized\\nba-points-oos-2c04fa5d5ab65c3b59daa2260543abd7d47b888b3d06891abd1d17d30dd2700f.parquet",
+        "fingerprint": "2c04fa5d5ab65c3b59daa2260543abd7d47b888b3d06891abd1d17d30dd2700f",
+        "n": 51938
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 4036
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "rebounds": {
+      "training_n": 79632,
+      "unique_athletes": 807,
+      "artifact_hash": "c5a95e4592724fe9deaa8ef8d0bb778d655c634e2ecb2d0fead40eef2cd0dcc6",
+      "evaluation": {
+        "n": 51938,
+        "mae": 1.9530995824898012,
+        "rmse": 2.558543785344633,
+        "baseline_mae": 1.966158192582487,
+        "baseline_rmse": 2.5976393482786793,
+        "opportunity_mae": 5.406887079035111,
+        "crps_n": 51938,
+        "crps": 1.374680497670299,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.01802558628578086,
+          -0.00818806268282577
+        ],
+        "week_blocks": 50,
+        "beats_baseline_mae": true
+      },
+      "by_season": {
+        "2025": {
+          "n": 25776,
+          "mae": 1.968356904528552,
+          "rmse": 2.5828816322806643,
+          "baseline_mae": 1.9782631560797297,
+          "baseline_rmse": 2.615116413286094,
+          "opportunity_mae": 5.431387881855746,
+          "crps_n": 25776,
+          "crps": 1.3862067846834265,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.01700916273344332,
+            -0.0021931268538583925
+          ],
+          "week_blocks": 25,
+          "beats_baseline_mae": true
+        },
+        "2026": {
+          "n": 26162,
+          "mae": 1.938067370393217,
+          "rmse": 2.534336459659532,
+          "baseline_mae": 1.9542318284243598,
+          "baseline_rmse": 2.5803043766885225,
+          "opportunity_mae": 5.382747766539708,
+          "crps_n": 26162,
+          "crps": 1.3633242720740006,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.02333160300261175,
+            -0.00955113868536766
+          ],
+          "week_blocks": 25,
+          "beats_baseline_mae": true
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nba-rebounds-oos-262abd8474b1b1c1eb5c46cd4eeb72e5e9fe730e3977d1babaed84f0b1a3f99c.jsonl",
+        "parquet_path": "normalized\\nba-rebounds-oos-262abd8474b1b1c1eb5c46cd4eeb72e5e9fe730e3977d1babaed84f0b1a3f99c.parquet",
+        "fingerprint": "262abd8474b1b1c1eb5c46cd4eeb72e5e9fe730e3977d1babaed84f0b1a3f99c",
+        "n": 51938
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 4036
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "assists": {
+      "training_n": 79632,
+      "unique_athletes": 807,
+      "artifact_hash": "0f11e1d5daa3f81a28b2bab7f1ef72433ec091213961f564876e3deec9c23865",
+      "evaluation": {
+        "n": 51938,
+        "mae": 1.3797318585923095,
+        "rmse": 1.8636824825399236,
+        "baseline_mae": 1.3861022253639412,
+        "baseline_rmse": 1.8918089143896761,
+        "opportunity_mae": 5.406887079035111,
+        "crps_n": 51938,
+        "crps": 0.9637182292348568,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.01209718866270047,
+          -0.0010644605757448992
+        ],
+        "week_blocks": 50,
+        "beats_baseline_mae": true
+      },
+      "by_season": {
+        "2025": {
+          "n": 25776,
+          "mae": 1.3761282868109475,
+          "rmse": 1.8576361697952037,
+          "baseline_mae": 1.385342539017469,
+          "baseline_rmse": 1.8886623796346913,
+          "opportunity_mae": 5.431387881855746,
+          "crps_n": 25776,
+          "crps": 0.9617483398510241,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.01833125073394996,
+            -0.0018161365448217505
+          ],
+          "week_blocks": 25,
+          "beats_baseline_mae": true
+        },
+        "2026": {
+          "n": 26162,
+          "mae": 1.383282262469551,
+          "rmse": 1.8696204637051799,
+          "baseline_mae": 1.3868507031281283,
+          "baseline_rmse": 1.8949039146405566,
+          "opportunity_mae": 5.382747766539708,
+          "crps_n": 26162,
+          "crps": 0.9656590544300895,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.010483069183985751,
+            0.0023238450661400003
+          ],
+          "week_blocks": 25,
+          "beats_baseline_mae": true
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nba-assists-oos-bd67743846c61529d3c145f3a8b4326e50ea2af3cc1c3c13219211cf5dbe92f1.jsonl",
+        "parquet_path": "normalized\\nba-assists-oos-bd67743846c61529d3c145f3a8b4326e50ea2af3cc1c3c13219211cf5dbe92f1.parquet",
+        "fingerprint": "bd67743846c61529d3c145f3a8b4326e50ea2af3cc1c3c13219211cf5dbe92f1",
+        "n": 51938
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 4036
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "threes": {
+      "training_n": 79632,
+      "unique_athletes": 807,
+      "artifact_hash": "5f5dfa77d9408953d22f9acf2ad9f255aa3c20de11c536507fd7305e9ce39e31",
+      "evaluation": {
+        "n": 51938,
+        "mae": 0.9158801898479991,
+        "rmse": 1.2608755232604,
+        "baseline_mae": 0.9102062089292057,
+        "baseline_rmse": 1.2832211151427262,
+        "opportunity_mae": 5.406887079035111,
+        "crps_n": 51938,
+        "crps": 0.6253598342061689,
+        "paired_mae_difference_95_week_bootstrap": [
+          0.0033932604601741184,
+          0.008089324649827293
+        ],
+        "week_blocks": 50,
+        "beats_baseline_mae": false
+      },
+      "by_season": {
+        "2025": {
+          "n": 25776,
+          "mae": 0.9177602089255283,
+          "rmse": 1.2705087006622517,
+          "baseline_mae": 0.9125578241849193,
+          "baseline_rmse": 1.2922862265589077,
+          "opportunity_mae": 5.431387881855746,
+          "crps_n": 25776,
+          "crps": 0.6298410332479826,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.001940664996059408,
+            0.008567524249593525
+          ],
+          "week_blocks": 25,
+          "beats_baseline_mae": false
+        },
+        "2026": {
+          "n": 26162,
+          "mae": 0.9140279089924686,
+          "rmse": 1.251311950567386,
+          "baseline_mae": 0.9078892899309916,
+          "baseline_rmse": 1.274226683150879,
+          "opportunity_mae": 5.382747766539708,
+          "crps_n": 26162,
+          "crps": 0.6209447517773871,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.0026756785765278514,
+            0.009515067988733467
+          ],
+          "week_blocks": 25,
+          "beats_baseline_mae": false
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nba-threes-oos-4bab8de7f922b16e7d85842edae857891d3323875dd36d5eb049e3add4e53220.jsonl",
+        "parquet_path": "normalized\\nba-threes-oos-4bab8de7f922b16e7d85842edae857891d3323875dd36d5eb049e3add4e53220.parquet",
+        "fingerprint": "4bab8de7f922b16e7d85842edae857891d3323875dd36d5eb049e3add4e53220",
+        "n": 51938
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 4036
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    }
+  },
+  "synthetic_performance_sample": 0,
+  "mode": "RESEARCH_ONLY",
+  "reference_unit": 22,
+  "cash_committed": 0,
+  "empirical_scope": "chronological reconstructed observed appearances; no historical as-of or pregame participation proof",
+  "limitations": [
+    "No target opportunity or actual target role is used as an input.",
+    "DNP/absence not zero-filled; appearance-only evaluation is selection-biased relative to full scheduled player universe.",
+    "Source revisions captured now remain unverified historically.",
+    "Raw residual distributions are uncalibrated; no p_low or betting authority.",
+    "Multiple markets evaluated; no winner selected or thresholds tuned from these results."
+  ],
+  "blockers": [
+    "PROSPECTIVE_PLAYER_IDENTITY_AND_ROLE_JOIN",
+    "CALIBRATION_PENDING",
+    "CONTEMPORANEOUS_PROP_MARKET_COMPARISON_PENDING"
+  ]
+}

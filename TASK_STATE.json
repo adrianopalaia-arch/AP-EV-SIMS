@@ -1052,6 +1052,20 @@
       }
     }
   },
+  "cfb_score_research": {
+    "blocker": "Prospective calibration and authentic market comparison pending",
+    "files": [
+      "src/ap_evsims/cfb_scores.py",
+      "src/ap_evsims/cfb_score_research.py"
+    ],
+    "next_action": "Settle frozen forecasts and attach verified contemporaneous prices",
+    "real_sample_size": 1086,
+    "status": "IN_PROGRESS",
+    "synthetic_sample_size": 0,
+    "tests": [
+      "tests/test_cfb_scores.py"
+    ]
+  },
   "cfb_training_delivery": {
     "at": "2026-10-16T01:59:33.344672+00:00",
     "eligible_prior_plays": 57978,
@@ -1074,7 +1088,7 @@
     "odds_present": true,
     "secrets_printed": false
   },
-  "current_task": "PAPER_LEDGER_REPORTING_DELIVERY",
+  "current_task": "MULTISPORT_PROSPECTIVE_PROP_INTEGRATION",
   "delivery_verification": {
     "ancestor_verified": true,
     "at": "2026-10-15T00:41:53.605137+00:00",
@@ -1185,7 +1199,27 @@
   "last_push_attempt": "2026-10-16T04:43:43.769743+00:00",
   "last_remote_verified_at": "2026-10-14T22:13:39.467379+00:00",
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
-  "next_task": "Collect prospective CFB outcomes and near-start prices; obtain timestamp-authentic feature/price training joins before model fitting",
+  "multi_sport_research": {
+    "blocker": "Prospective identities/roles/calibration/settlement still required",
+    "files": [
+      "src/ap_evsims/prop_research.py",
+      "src/ap_evsims/prop_ingestion.py",
+      "src/ap_evsims/prop_prices.py"
+    ],
+    "next_action": "Prospective player identity, role and frozen prop forecast integration; then settlement/CLV tests",
+    "real_sample_size": {
+      "MLB": 3401,
+      "NBA": 79632,
+      "NFL": 13842,
+      "NHL": 153778
+    },
+    "status": "IN_PROGRESS",
+    "synthetic_sample_size": 0,
+    "tests": [
+      "tests/test_prop_research.py"
+    ]
+  },
+  "next_task": "Prospective player identity, role and frozen prop forecast integration; then settlement/CLV tests",
   "paper_tracking_delivery": {
     "cash_committed": 0,
     "cohort_candidates": 8,
@@ -1535,16 +1569,17 @@
     "No new scope; earliest incomplete dependency first"
   ],
   "schema_version": 1,
+  "scope_authority": "AP_EV_SIMS_MULTISPORT_PROP_FIRST_CODEX_SPEC.md supersedes CFB-only scope",
   "scope_frozen": true,
   "tests": {
-    "command": "python -m unittest discover -s tests -q",
+    "command": "PYTHONPATH=src python -m unittest discover -s tests (workspace TEMP)",
     "failed": 0,
-    "passed": 249,
+    "frozen_phase1_files": 18,
+    "frozen_phase1_mismatches": 0,
+    "passed": 283,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-16T04:38:13.911840+00:00",
-    "verified_source_commit": "de85f9751b732d351f00479b2f3d4c1c27f9c098",
-    "verified_source_semantics": "Tested feature commit; subsequent changes only delivery metadata and documentation"
+    "verified_at": "2026-10-16T05:23:02.576787+00:00"
   },
-  "updated_at": "2026-10-16T04:43:43.769743+00:00"
+  "updated_at": "2026-10-16T05:23:02.576787+00:00"
 }

@@ -33,7 +33,8 @@
     }
   ],
   "cfb_schedule_games": 1666,
-  "current_task": "PAPER_LEDGER_REPORTING_DELIVERY",
+  "checkpoint_at": "2026-10-16T05:23:02.576787+00:00",
+  "current_task": "MULTISPORT_PROSPECTIVE_PROP_INTEGRATION",
   "data_quality_failures": [
     {
       "reason": "SCHEMA_DRIFT",
@@ -73,7 +74,7 @@
   "market_sides_scanned": 5060,
   "mode": "PREGAME",
   "models_validated": 0,
-  "next_task": "Collect prospective CFB outcomes and near-start prices; obtain timestamp-authentic feature/price training joins before model fitting",
+  "next_task": "Prospective player identity, role and frozen prop forecast integration; then settlement/CLV tests",
   "paper_tracking": {
     "actual_cash_roi": null,
     "baseline_probability_score": {
@@ -372,6 +373,7 @@
     "unique_games": 3
   },
   "preferred_market_sides": 1466,
+  "prospective_cfb_frozen": 59,
   "provider_check_basis": "LAST_RECORDED_CHECKS_ONLY",
   "providers_ok": null,
   "publication_generation": "b59abb1f9a79e8a0d5f9a46923d5d984654ce4419daebb6c2fe0b2edfb2bc727",
@@ -381,6 +383,8 @@
   "reference_unit": 22,
   "reference_unit_semantics": "DISPLAY_REFERENCE_ONLY_NOT_A_STAKE",
   "refresh_failures": [],
+  "research_evidence": "outputs/multisport_market_readiness.json",
+  "research_forecast_status": "UNVALIDATED",
   "research_model_display": {
     "issues": [
       "NO_TRAINED_RESEARCH_MODEL"
@@ -400,6 +404,6 @@
   "suspended_or_superseded_quotes": 8,
   "synthetic_performance_sample": 0,
   "tests_failed": 0,
-  "tests_passed": 249,
+  "tests_passed": 283,
   "tests_semantics": "Last independently run full suite, not rerun by daily_card"
 }

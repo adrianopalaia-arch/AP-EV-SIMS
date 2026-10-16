@@ -1,0 +1,459 @@
+{
+  "generated_at": "2026-10-16T05:08:15.067026+00:00",
+  "model_version": "cfb-score-ridge-v1",
+  "model_status": "UNVALIDATED",
+  "recommendations_enabled": false,
+  "real_source_coverage": {
+    "raw_rows": 6826,
+    "unique_game_ids": 4245,
+    "completed_scores": 2600,
+    "seasons": {
+      "2023": 750,
+      "2024": 752,
+      "2025": 762,
+      "2026": 336
+    },
+    "exclusions": {
+      "OUTSIDE_FBS_VS_FBS_SCOPE": 1219,
+      "NOT_FINAL": 212,
+      "EVENT_START_UNCONFIRMED": 214
+    },
+    "revised_game_ids": 29,
+    "earliest_kickoff": "2023-08-26T18:30:00+00:00",
+    "latest_kickoff": "2026-10-16T00:00:00+00:00"
+  },
+  "score_training_table": {
+    "path": "normalized\\cfb-completed-score-observations-816b06898fc85bf8f7acc2f85075148f5ece757dc56d585fda820545d65de092.jsonl",
+    "parquet_path": "normalized\\cfb-completed-score-observations-816b06898fc85bf8f7acc2f85075148f5ece757dc56d585fda820545d65de092.parquet",
+    "fingerprint": "816b06898fc85bf8f7acc2f85075148f5ece757dc56d585fda820545d65de092",
+    "n": 2600
+  },
+  "current_training_n": 1442,
+  "artifact_hash": "f321ea2783dbefe2a0a7cc9b166e57314baddbc5b84540dba8cdb0d833e3113f",
+  "evaluation_table": {
+    "path": "normalized\\cfb-score-chronological-forecasts-a13d01e392db59597353e9ffbbf30eae249abab8612720841667ed5b0a132b1a.jsonl",
+    "parquet_path": "normalized\\cfb-score-chronological-forecasts-a13d01e392db59597353e9ffbbf30eae249abab8612720841667ed5b0a132b1a.parquet",
+    "fingerprint": "a13d01e392db59597353e9ffbbf30eae249abab8612720841667ed5b0a132b1a",
+    "n": 1835
+  },
+  "synthetic_performance_sample": 0,
+  "retrospective_provenance": "RECONSTRUCTED_HISTORY_UNVERIFIED_AS_OF",
+  "strict_historical_as_of_qualified_n": 0,
+  "warmup_forecast_n": 749,
+  "evaluation": {
+    "n": 1086,
+    "mae": 14.526886822556035,
+    "rmse": 18.47547822116664,
+    "baseline_mae": 16.20734585923272,
+    "baseline_rmse": 20.57832723087376,
+    "crps": 10.423281660243978,
+    "crps_n": 1086,
+    "baseline_crps": 11.607689422903443,
+    "baseline_crps_n": 1086,
+    "home_win_probability_n": 1086,
+    "brier": 0.20609104262778835,
+    "logloss": 0.5993558332405463,
+    "baseline_brier": 0.2391269750584303,
+    "baseline_logloss": 0.671293460126948,
+    "paired_mae_difference_95_week_bootstrap": [
+      -1.9616750733258392,
+      -1.4188128105778446
+    ],
+    "week_blocks": 25
+  },
+  "by_season": {
+    "2025": {
+      "n": 756,
+      "mae": 14.296448181469712,
+      "rmse": 18.14712429305473,
+      "baseline_mae": 16.061025409616207,
+      "baseline_rmse": 20.34122128637983,
+      "crps": 10.237620626035435,
+      "crps_n": 756,
+      "baseline_crps": 11.480778198270055,
+      "baseline_crps_n": 756,
+      "home_win_probability_n": 756,
+      "brier": 0.207053621676821,
+      "logloss": 0.6012143765676484,
+      "baseline_brier": 0.24166171247062126,
+      "baseline_logloss": 0.6764391018548069,
+      "paired_mae_difference_95_week_bootstrap": [
+        -2.1648070573666502,
+        -1.4014178834088282
+      ],
+      "week_blocks": 17
+    },
+    "2026": {
+      "n": 330,
+      "mae": 15.054800800317436,
+      "rmse": 19.20655823225284,
+      "baseline_mae": 16.542552707445115,
+      "baseline_rmse": 21.111479484902883,
+      "crps": 10.848614211339912,
+      "crps_n": 330,
+      "baseline_crps": 11.89843150115448,
+      "baseline_crps_n": 330,
+      "home_win_probability_n": 330,
+      "brier": 0.2038858615336408,
+      "logloss": 0.5950980794366393,
+      "baseline_brier": 0.23332012207777458,
+      "baseline_logloss": 0.659505262714035,
+      "paired_mae_difference_95_week_bootstrap": [
+        -1.7322116599748565,
+        -1.1553381577890536
+      ],
+      "week_blocks": 8
+    }
+  },
+  "folds": {
+    "folds": [
+      {
+        "origin": "2024-08-19T00:00:00+00:00",
+        "training_n": 750,
+        "training_fingerprint": "eedca8280f3010ced8365307f988acb6c335b8ebf6696dee3de7407cf9939471",
+        "target_games": 2,
+        "residual_n": 0
+      },
+      {
+        "origin": "2024-08-26T00:00:00+00:00",
+        "training_n": 750,
+        "training_fingerprint": "eedca8280f3010ced8365307f988acb6c335b8ebf6696dee3de7407cf9939471",
+        "target_games": 36,
+        "residual_n": 0
+      },
+      {
+        "origin": "2024-09-02T00:00:00+00:00",
+        "training_n": 752,
+        "training_fingerprint": "400dc7aee6f105009981a7ff5994f18bee82678072b7bbf322d47b714fbb3588",
+        "target_games": 50,
+        "residual_n": 2
+      },
+      {
+        "origin": "2024-09-09T00:00:00+00:00",
+        "training_n": 788,
+        "training_fingerprint": "cd66783867276024e100ffdd0dbe0c25f270f29bda78ea080d7d95e7014fe053",
+        "target_games": 52,
+        "residual_n": 37
+      },
+      {
+        "origin": "2024-09-16T00:00:00+00:00",
+        "training_n": 838,
+        "training_fingerprint": "2ce71b64b3be094d42b735744bf4aa6aacda0aa234a7328ba8525f9f0cb207bc",
+        "target_games": 54,
+        "residual_n": 86
+      },
+      {
+        "origin": "2024-09-23T00:00:00+00:00",
+        "training_n": 890,
+        "training_fingerprint": "bdd9de4f2f583ed9154973e8ee5d5736a577bd19d41a4f2b1322c550bd0de73e",
+        "target_games": 52,
+        "residual_n": 137
+      },
+      {
+        "origin": "2024-09-30T00:00:00+00:00",
+        "training_n": 944,
+        "training_fingerprint": "8c813921799c611b1e435019272ff9a8c0ff4c666fcae0983fa3d7d9aeb646db",
+        "target_games": 49,
+        "residual_n": 191
+      },
+      {
+        "origin": "2024-10-07T00:00:00+00:00",
+        "training_n": 996,
+        "training_fingerprint": "98b0db66a073cd485282ab652298f4289504b421504dfed9cca9f9e483b86cc4",
+        "target_games": 52,
+        "residual_n": 243
+      },
+      {
+        "origin": "2024-10-14T00:00:00+00:00",
+        "training_n": 1045,
+        "training_fingerprint": "46deb631aad0ab992a63a02c9f75a26cfb2dc05279f7539db21edcfb188dcbc0",
+        "target_games": 59,
+        "residual_n": 292
+      },
+      {
+        "origin": "2024-10-21T00:00:00+00:00",
+        "training_n": 1097,
+        "training_fingerprint": "978366a091b59cc9bbd779140ba62a55fe1d8780e1d1c0ea636c9844de91884f",
+        "target_games": 56,
+        "residual_n": 344
+      },
+      {
+        "origin": "2024-10-28T00:00:00+00:00",
+        "training_n": 1156,
+        "training_fingerprint": "cb41fd9df1961dc2461868eb9061059b8911772d8196686eec43874a06125400",
+        "target_games": 48,
+        "residual_n": 403
+      },
+      {
+        "origin": "2024-11-04T00:00:00+00:00",
+        "training_n": 1212,
+        "training_fingerprint": "9cf0be3405a05eec575a046dd2431db92c5917d7439920e935b4030f7451f117",
+        "target_games": 50,
+        "residual_n": 459
+      },
+      {
+        "origin": "2024-11-11T00:00:00+00:00",
+        "training_n": 1260,
+        "training_fingerprint": "1744315a64bc802cfa00433b978a2724e2d2a15db8acd4b623bd3a9cc13035fe",
+        "target_games": 53,
+        "residual_n": 507
+      },
+      {
+        "origin": "2024-11-18T00:00:00+00:00",
+        "training_n": 1310,
+        "training_fingerprint": "8664cd6883fef1e3ea8b513b401aa76fe02faf9930395e73978cb574fc141b8a",
+        "target_games": 62,
+        "residual_n": 557
+      },
+      {
+        "origin": "2024-11-25T00:00:00+00:00",
+        "training_n": 1363,
+        "training_fingerprint": "ac293fc8b3fb7402fdf6e9434dad640d0bf5c741bd113a310bfa74e25ea3ffcd",
+        "target_games": 67,
+        "residual_n": 610
+      },
+      {
+        "origin": "2024-12-02T00:00:00+00:00",
+        "training_n": 1425,
+        "training_fingerprint": "fe8db8d4b54e2b2e51b2c66e984e0eaa81d2c9e2faccf6a03506fd6cc2cee403",
+        "target_games": 9,
+        "residual_n": 672
+      },
+      {
+        "origin": "2024-12-09T00:00:00+00:00",
+        "training_n": 1492,
+        "training_fingerprint": "fb83470de7192617fcf9b6b5f7e5bed1765bcc52c44e4ad0ea3ba6422c080873",
+        "target_games": 1,
+        "residual_n": 739
+      },
+      {
+        "origin": "2025-08-18T00:00:00+00:00",
+        "training_n": 1502,
+        "training_fingerprint": "d3fad132c90c3c1db7555d58a1620bbee37086d0b2e99a60af78cbceb920fcc6",
+        "target_games": 4,
+        "residual_n": 749
+      },
+      {
+        "origin": "2025-08-25T00:00:00+00:00",
+        "training_n": 1502,
+        "training_fingerprint": "d3fad132c90c3c1db7555d58a1620bbee37086d0b2e99a60af78cbceb920fcc6",
+        "target_games": 43,
+        "residual_n": 749
+      },
+      {
+        "origin": "2025-09-01T00:00:00+00:00",
+        "training_n": 1492,
+        "training_fingerprint": "23d2a1417c9dc6263dc25ad94672f294586d458fa48e50f15a49cb74ec2d9b0e",
+        "target_games": 51,
+        "residual_n": 753
+      },
+      {
+        "origin": "2025-09-08T00:00:00+00:00",
+        "training_n": 1496,
+        "training_fingerprint": "0078a0be0f6059c01678c944f6cb3547966e9da1d53cc6f3ffa17cc865ee9690",
+        "target_games": 47,
+        "residual_n": 795
+      },
+      {
+        "origin": "2025-09-15T00:00:00+00:00",
+        "training_n": 1498,
+        "training_fingerprint": "654311d4b48930a2558039c7a3ff9de46df454d2b8183fa27239a303a279c83d",
+        "target_games": 50,
+        "residual_n": 844
+      },
+      {
+        "origin": "2025-09-22T00:00:00+00:00",
+        "training_n": 1491,
+        "training_fingerprint": "837c272477eb35abf9dcfa3d7f67d87a994c95ba47863772024bcb63de094543",
+        "target_games": 51,
+        "residual_n": 889
+      },
+      {
+        "origin": "2025-09-29T00:00:00+00:00",
+        "training_n": 1477,
+        "training_fingerprint": "ec2ac2d61e5a9e8c3509960a59c66db6a0f40c278c3daecb000f20bdcb3627c9",
+        "target_games": 50,
+        "residual_n": 938
+      },
+      {
+        "origin": "2025-10-06T00:00:00+00:00",
+        "training_n": 1471,
+        "training_fingerprint": "a88b8f598a7c11b63f1e3df3217d55beb4bc764b6ea309abc2fd54b456b8fdbb",
+        "target_games": 56,
+        "residual_n": 989
+      },
+      {
+        "origin": "2025-10-13T00:00:00+00:00",
+        "training_n": 1469,
+        "training_fingerprint": "f798267f98f8765d37ccae02e7cae7396ca29793ad1676df380645394825904f",
+        "target_games": 59,
+        "residual_n": 1039
+      },
+      {
+        "origin": "2025-10-20T00:00:00+00:00",
+        "training_n": 1470,
+        "training_fingerprint": "bea4e9d802ba38f5ac804be0ff7dfa1d62a5def1c9aa53febb417d6fd09141c3",
+        "target_games": 53,
+        "residual_n": 1095
+      },
+      {
+        "origin": "2025-10-27T00:00:00+00:00",
+        "training_n": 1476,
+        "training_fingerprint": "f302324b5650e5bfe1410d392c98ea17cc52b437a6d10227ae786e945f88c13f",
+        "target_games": 52,
+        "residual_n": 1154
+      },
+      {
+        "origin": "2025-11-03T00:00:00+00:00",
+        "training_n": 1474,
+        "training_fingerprint": "321554d32e0d96f22ed81920ceabcc3a3b1bf62c957a56863f00b514057aba49",
+        "target_games": 51,
+        "residual_n": 1207
+      },
+      {
+        "origin": "2025-11-10T00:00:00+00:00",
+        "training_n": 1464,
+        "training_fingerprint": "0bc18e0d027618fc42815932d036605c059e8f94c354ff9f791e92b2591d49a7",
+        "target_games": 58,
+        "residual_n": 1259
+      },
+      {
+        "origin": "2025-11-17T00:00:00+00:00",
+        "training_n": 1453,
+        "training_fingerprint": "2519b760a098e051613aad6de48bcfdfc8089e8ba0529e459f4fce26c13ea0c2",
+        "target_games": 60,
+        "residual_n": 1310
+      },
+      {
+        "origin": "2025-11-24T00:00:00+00:00",
+        "training_n": 1440,
+        "training_fingerprint": "3da2684a10c6b030cc692b66be57d9431fe2a89ada8e9d727c66e7323a313e8a",
+        "target_games": 67,
+        "residual_n": 1368
+      },
+      {
+        "origin": "2025-12-01T00:00:00+00:00",
+        "training_n": 1448,
+        "training_fingerprint": "2d4dfebfb4726015e6a826a895cb4b5196eacd09a37eeaaf3c18a6449336c611",
+        "target_games": 9,
+        "residual_n": 1428
+      },
+      {
+        "origin": "2025-12-08T00:00:00+00:00",
+        "training_n": 1505,
+        "training_fingerprint": "c3c5e32f9567a9b80d5afffd878e1fe6ad2d9b1ea9246c29500653baa65828db",
+        "target_games": 1,
+        "residual_n": 1495
+      },
+      {
+        "origin": "2026-08-24T00:00:00+00:00",
+        "training_n": 1514,
+        "training_fingerprint": "029e8d86953017e2e799fa8f7dfdb8fb7e162b06a9bd75887ed3b574b3245deb",
+        "target_games": 8,
+        "residual_n": 1505
+      },
+      {
+        "origin": "2026-08-31T00:00:00+00:00",
+        "training_n": 1508,
+        "training_fingerprint": "0e7da92230b9ec0f15e3a8fe23145cdd5dc83950c078731c6d828d4e1eef63e4",
+        "target_games": 42,
+        "residual_n": 1505
+      },
+      {
+        "origin": "2026-09-07T00:00:00+00:00",
+        "training_n": 1482,
+        "training_fingerprint": "f4c3bcf157d50e002ed0b97db70169729de3767fa9fdf34e218a27d4ae4c600b",
+        "target_games": 50,
+        "residual_n": 1511
+      },
+      {
+        "origin": "2026-09-14T00:00:00+00:00",
+        "training_n": 1474,
+        "training_fingerprint": "fe5183023bfcc52271946c5697ffff1edf5ba5e772097f46249d622c272d44e0",
+        "target_games": 57,
+        "residual_n": 1553
+      },
+      {
+        "origin": "2026-09-21T00:00:00+00:00",
+        "training_n": 1472,
+        "training_fingerprint": "5b29a6a92d26ff1cd45f46214e3bd316d4ab2116353604bca56fdb1e1fea1781",
+        "target_games": 58,
+        "residual_n": 1601
+      },
+      {
+        "origin": "2026-09-28T00:00:00+00:00",
+        "training_n": 1475,
+        "training_fingerprint": "f1f202446b2b9ae75b210857b5970f148639b68d9369957f73c49a9a625ee054",
+        "target_games": 56,
+        "residual_n": 1657
+      },
+      {
+        "origin": "2026-10-05T00:00:00+00:00",
+        "training_n": 1479,
+        "training_fingerprint": "41da5bc12f168241c9e984a6a0f3eb3b90ea59b0beec26a94bcc2b3bad1b8941",
+        "target_games": 58,
+        "residual_n": 1714
+      },
+      {
+        "origin": "2026-10-12T00:00:00+00:00",
+        "training_n": 1485,
+        "training_fingerprint": "6eab730c634514de121cdaf936ebcb5b3b662482cb2c649b0f4d1b691f6b4bb5",
+        "target_games": 7,
+        "residual_n": 1770
+      }
+    ],
+    "rejections": {
+      "UNKNOWN_OR_SPARSE_TEAM": 15
+    }
+  },
+  "policy": {
+    "version": "cfb-score-ridge-v1",
+    "ridge": 20.0,
+    "home_prior": 2.5,
+    "home_prior_weight": 20.0,
+    "lookback_days": 730,
+    "embargo_days": 7,
+    "previous_season_weight": 0.5,
+    "minimum_training_games": 80,
+    "minimum_team_games": 3,
+    "minimum_residuals": 80,
+    "warmup_season": 2024,
+    "evaluation_start_season": 2025,
+    "fold": "Monday 00:00 UTC; previous games only; seven-day completion embargo",
+    "distribution": "rounded predicted margin plus rounded prior out-of-fold residuals",
+    "unknown_team_policy": "PASS; no zero-filled team rating"
+  },
+  "new_frozen_predictions": 59,
+  "available_frozen_predictions": 59,
+  "prospective": {
+    "settled_forecasts": 0,
+    "mae": null,
+    "rmse": null,
+    "matched_consensus_n": 0,
+    "model_brier": null,
+    "consensus_brier": null,
+    "validated": false,
+    "real_cash_roi": null,
+    "records": []
+  },
+  "matched_future_events": 56,
+  "fresh_priced_future_predictions": 0,
+  "future_rejections": {},
+  "identity_rejections": {
+    "EVENT_START_OR_IDENTITY_UNVERIFIED": 15
+  },
+  "blockers": [
+    "HISTORICAL_ODDS_ACCESS",
+    "HISTORICAL_REVISION_TIMING_UNVERIFIED",
+    "PROSPECTIVE_CALIBRATION_PENDING",
+    "CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED"
+  ],
+  "limitations": [
+    "Regular-season FBS vs FBS only; captured coverage is not a complete all-competition schedule.",
+    "Past final-score reconstruction uses later captured provider revisions; it is not timestamp-authentic betting evidence.",
+    "Weekly seven-day embargo approximates prior completion, not original historical publication.",
+    "Fixed priors/settings; 2024 residual warm-up, 2025/2026 expanding evaluation; no tuning after results.",
+    "Raw probabilities are uncalibrated; log loss uses a numerical 1e-12 floor.",
+    "Week bootstrap describes correlated-sample uncertainty, not immunity to regime changes."
+  ]
+}

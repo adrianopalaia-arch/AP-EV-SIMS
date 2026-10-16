@@ -170,7 +170,8 @@ def research_run(root,*,at=None,windows=None):
     run_id=digest(dict(at=at,dataset=table['fingerprint'],windows=[asdict(w) for w in windows]))[:20]
     directory=store.root/'evaluations'/('cfb-walk-forward-'+run_id)
     result=run_walk_forward(rows,windows,market_type='spread',output_dir=directory,feature_keys=BASELINE_FEATURES,
-                            dataset_kind='provider_history',provenance_store=store)
+                            dataset_kind='provider_history',provenance_store=store,
+                            benchmark_policy='contemporaneous_consensus',allow_research_candidates=False)
     report=dict(generated_at=at,source='real immutable provider responses',eligible_training=table,prospective_features=feature_table,
         normalized_prior_plays=play_table,
         prospective_baseline_feature_sets=len(features),complete_phase1_feature_sets=0,play_history=universe['play_history'],
@@ -178,6 +179,8 @@ def research_run(root,*,at=None,windows=None):
         real_model_predictions=result['summary']['raw']['n'],synthetic_performance_sample=0,models_validated=0,
         evaluation_status='BLOCKED_INSUFFICIENT_VERIFIED_HISTORY' if not result['summary']['raw']['n'] else 'UNVALIDATED_RESEARCH',
         profitability_demonstrated=False,walk_forward_report=str((directory/'summary.json').relative_to(store.root)),
+        benchmark_policy=result['benchmark_policy'],paired_consensus_intervals=result['paired_consensus_intervals'],
+        recommendations_enabled=False,
         baseline_features=list(BASELINE_FEATURES),limitations=[
             'Downloaded historical plays are available only at their real capture time, never the game date.',
             'PPA is not EPA; plays per game is volume, not clock-based pace.',

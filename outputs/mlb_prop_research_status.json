@@ -1,0 +1,445 @@
+{
+  "sport": "MLB",
+  "generated_at": "2026-10-16T05:18:17.411943+00:00",
+  "model_version": "opportunity-partial-pool-v1",
+  "coverage": {
+    "source_selection": "Detroit 2024 fullSeason roster; first 12 sorted pitcher IDs and 12 nonpitcher IDs",
+    "source_failures": [],
+    "outcome_rows": 7752,
+    "unique_player_games": 3401,
+    "unique_athletes": 24,
+    "events": 1370,
+    "seasons": {
+      "2024": 3312,
+      "2025": 2457,
+      "2026": 1983
+    },
+    "rejections": {
+      "CONFLICTING_DUPLICATE": 0
+    },
+    "earliest_date": "2024-03-28",
+    "latest_date": "2026-09-27",
+    "historical_as_of_eligible": 0,
+    "role_confirmed_opportunities": 0
+  },
+  "normalized_table": {
+    "path": "normalized\\mlb-player-outcomes-d36157064691d2b20d13079052f28740a8edf37834e70a71d715f41795122bb4.jsonl",
+    "parquet_path": "normalized\\mlb-player-outcomes-d36157064691d2b20d13079052f28740a8edf37834e70a71d715f41795122bb4.parquet",
+    "fingerprint": "d36157064691d2b20d13079052f28740a8edf37834e70a71d715f41795122bb4",
+    "n": 7752
+  },
+  "markets": {
+    "pitcher_strikeouts": {
+      "training_n": 950,
+      "unique_athletes": 12,
+      "artifact_hash": "31d9d594877bf70f6777c4fad63e454ef59fab5d9d0d6875f5bf493453ee884b",
+      "evaluation": {
+        "n": 540,
+        "mae": 1.291301764391329,
+        "rmse": 1.7630808507549358,
+        "baseline_mae": 1.2938888888888889,
+        "baseline_rmse": 1.7413649393082002,
+        "opportunity_mae": 2.560454279258018,
+        "crps_n": 540,
+        "crps": 0.9227701437723459,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.046964651482712824,
+          0.04236624413445891
+        ],
+        "week_blocks": 54,
+        "beats_baseline_mae": true
+      },
+      "by_season": {
+        "2025": {
+          "n": 327,
+          "mae": 1.2827362689294175,
+          "rmse": 1.7495459235666735,
+          "baseline_mae": 1.282262996941896,
+          "baseline_rmse": 1.7287725224131614,
+          "opportunity_mae": 2.576139428834404,
+          "crps_n": 327,
+          "crps": 0.918451043419502,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.05377935982997303,
+            0.05417720182872434
+          ],
+          "week_blocks": 27,
+          "beats_baseline_mae": false
+        },
+        "2026": {
+          "n": 213,
+          "mae": 1.3044516095370804,
+          "rmse": 1.7836599626155591,
+          "baseline_mae": 1.3117370892018778,
+          "baseline_rmse": 1.7605216896472222,
+          "opportunity_mae": 2.5363742608942714,
+          "crps_n": 213,
+          "crps": 0.9294008752999506,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.07982393651161657,
+            0.0625269332245748
+          ],
+          "week_blocks": 27,
+          "beats_baseline_mae": true
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\mlb-pitcher_strikeouts-oos-f98b3acb54224d3d37f1dee0da7ffe4511bf8da02b5ba4c924f2c122316cf6f9.jsonl",
+        "parquet_path": "normalized\\mlb-pitcher_strikeouts-oos-f98b3acb54224d3d37f1dee0da7ffe4511bf8da02b5ba4c924f2c122316cf6f9.parquet",
+        "fingerprint": "f98b3acb54224d3d37f1dee0da7ffe4511bf8da02b5ba4c924f2c122316cf6f9",
+        "n": 540
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 204
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "pitcher_outs": {
+      "training_n": 950,
+      "unique_athletes": 12,
+      "artifact_hash": "3e390128db7266f5cc0ab178bade16c30c3780d2444d7b55997135e9fb00ca4b",
+      "evaluation": {
+        "n": 540,
+        "mae": 2.1339736168269896,
+        "rmse": 2.909325661265547,
+        "baseline_mae": 1.874074074074074,
+        "baseline_rmse": 2.754403881194757,
+        "opportunity_mae": 2.560454279258018,
+        "crps_n": 540,
+        "crps": 1.5436104387743559,
+        "paired_mae_difference_95_week_bootstrap": [
+          0.17639575784192246,
+          0.34338640616630617
+        ],
+        "week_blocks": 54,
+        "beats_baseline_mae": false
+      },
+      "by_season": {
+        "2025": {
+          "n": 327,
+          "mae": 2.107227057043896,
+          "rmse": 2.9579739174443946,
+          "baseline_mae": 1.8697247706422013,
+          "baseline_rmse": 2.768863576376986,
+          "opportunity_mae": 2.576139428834404,
+          "crps_n": 327,
+          "crps": 1.5567069186454496,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.12242087347580476,
+            0.3461888410029904
+          ],
+          "week_blocks": 27,
+          "beats_baseline_mae": false
+        },
+        "2026": {
+          "n": 213,
+          "mae": 2.175035236775683,
+          "rmse": 2.8330150854935403,
+          "baseline_mae": 1.8807511737089202,
+          "baseline_rmse": 2.732056268710266,
+          "opportunity_mae": 2.5363742608942714,
+          "crps_n": 213,
+          "crps": 1.5235045753102823,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.1653029660236077,
+            0.4175880885969678
+          ],
+          "week_blocks": 27,
+          "beats_baseline_mae": false
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\mlb-pitcher_outs-oos-ee4ba15ba795c14ff2f4773ef99a23234d98d9a0fee042908d3ca8e399176d92.jsonl",
+        "parquet_path": "normalized\\mlb-pitcher_outs-oos-ee4ba15ba795c14ff2f4773ef99a23234d98d9a0fee042908d3ca8e399176d92.parquet",
+        "fingerprint": "ee4ba15ba795c14ff2f4773ef99a23234d98d9a0fee042908d3ca8e399176d92",
+        "n": 540
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 204
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "hits_allowed": {
+      "training_n": 950,
+      "unique_athletes": 12,
+      "artifact_hash": "65d9cc5e976af68f43023b344eb6998521faf219a66099cee0574f779d169b2f",
+      "evaluation": {
+        "n": 540,
+        "mae": 1.1716652981552704,
+        "rmse": 1.5752736640577183,
+        "baseline_mae": 1.1855555555555557,
+        "baseline_rmse": 1.5919589609450782,
+        "opportunity_mae": 2.560454279258018,
+        "crps_n": 540,
+        "crps": 0.8277846706096126,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.04368507480472318,
+          0.013539694456359752
+        ],
+        "week_blocks": 54,
+        "beats_baseline_mae": true
+      },
+      "by_season": {
+        "2025": {
+          "n": 327,
+          "mae": 1.1546063569351046,
+          "rmse": 1.5510250524477402,
+          "baseline_mae": 1.173394495412844,
+          "baseline_rmse": 1.5612568449104767,
+          "opportunity_mae": 2.576139428834404,
+          "crps_n": 327,
+          "crps": 0.8136983947917309,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.053193810331253734,
+            0.01181151372517673
+          ],
+          "week_blocks": 27,
+          "beats_baseline_mae": true
+        },
+        "2026": {
+          "n": 213,
+          "mae": 1.1978543769298908,
+          "rmse": 1.6117906289841217,
+          "baseline_mae": 1.204225352112676,
+          "baseline_rmse": 1.6379736708747408,
+          "opportunity_mae": 2.5363742608942714,
+          "crps_n": 213,
+          "crps": 0.8494100799638257,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.058842702022603575,
+            0.044311980404133276
+          ],
+          "week_blocks": 27,
+          "beats_baseline_mae": true
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\mlb-hits_allowed-oos-0a90f2b6fcbff1c4e34b2dc74eb09e32ef921c25b50b0ded49dc50358ec3f267.jsonl",
+        "parquet_path": "normalized\\mlb-hits_allowed-oos-0a90f2b6fcbff1c4e34b2dc74eb09e32ef921c25b50b0ded49dc50358ec3f267.parquet",
+        "fingerprint": "0a90f2b6fcbff1c4e34b2dc74eb09e32ef921c25b50b0ded49dc50358ec3f267",
+        "n": 540
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 204
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "hitter_hits": {
+      "training_n": 2451,
+      "unique_athletes": 12,
+      "artifact_hash": "bcd0b4bc1f57ddb3c3827cefd86ccd27156552b45d9d7682b4e144cfad53824f",
+      "evaluation": {
+        "n": 1410,
+        "mae": 0.663497862853553,
+        "rmse": 0.8086235950081682,
+        "baseline_mae": 0.6712056737588652,
+        "baseline_rmse": 0.8292609715073104,
+        "opportunity_mae": 1.0263450987530838,
+        "crps_n": 1410,
+        "crps": 0.4028260664312772,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.015998344393923416,
+          0.0012649216125056428
+        ],
+        "week_blocks": 55,
+        "beats_baseline_mae": true
+      },
+      "by_season": {
+        "2025": {
+          "n": 738,
+          "mae": 0.67055671199516,
+          "rmse": 0.8180217453202652,
+          "baseline_mae": 0.683468834688347,
+          "baseline_rmse": 0.8462895261431637,
+          "opportunity_mae": 0.964696890339484,
+          "crps_n": 738,
+          "crps": 0.41115350361531294,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.02391136859416216,
+            -0.0003774228646552258
+          ],
+          "week_blocks": 28,
+          "beats_baseline_mae": true
+        },
+        "2026": {
+          "n": 672,
+          "mae": 0.655745733885538,
+          "rmse": 0.7981749271186497,
+          "baseline_mae": 0.6577380952380952,
+          "baseline_rmse": 0.8101476937659489,
+          "opportunity_mae": 1.0940480419215903,
+          "crps_n": 672,
+          "crps": 0.39368075595238106,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.013599460153293316,
+            0.009456359926490986
+          ],
+          "week_blocks": 27,
+          "beats_baseline_mae": true
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\mlb-hitter_hits-oos-2d1088468d6da4c00038bc1906b7dbe3d5e2e34293fbdc679b4b68f8c58e9e95.jsonl",
+        "parquet_path": "normalized\\mlb-hitter_hits-oos-2d1088468d6da4c00038bc1906b7dbe3d5e2e34293fbdc679b4b68f8c58e9e95.parquet",
+        "fingerprint": "2d1088468d6da4c00038bc1906b7dbe3d5e2e34293fbdc679b4b68f8c58e9e95",
+        "n": 1410
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 227
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "total_bases": {
+      "training_n": 2451,
+      "unique_athletes": 12,
+      "artifact_hash": "d6ace29298157780aa9db24d4b65fbee18b4284531f778dbde78a0985af39368",
+      "evaluation": {
+        "n": 1410,
+        "mae": 1.1187145672408696,
+        "rmse": 1.5107625886722973,
+        "baseline_mae": 1.137304964539007,
+        "baseline_rmse": 1.5440574714618964,
+        "opportunity_mae": 1.0263450987530838,
+        "crps_n": 1410,
+        "crps": 0.7210807118376074,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.036073853365407624,
+          -0.00012348260483130232
+        ],
+        "week_blocks": 55,
+        "beats_baseline_mae": true
+      },
+      "by_season": {
+        "2025": {
+          "n": 738,
+          "mae": 1.138743547910419,
+          "rmse": 1.5802495855081673,
+          "baseline_mae": 1.1668021680216802,
+          "baseline_rmse": 1.619976077979219,
+          "opportunity_mae": 0.964696890339484,
+          "crps_n": 738,
+          "crps": 0.7490838627249681,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.051292380132719334,
+            -0.002433851558883539
+          ],
+          "week_blocks": 28,
+          "beats_baseline_mae": true
+        },
+        "2026": {
+          "n": 672,
+          "mae": 1.0967184545412747,
+          "rmse": 1.4305675362472707,
+          "baseline_mae": 1.1049107142857142,
+          "baseline_rmse": 1.4561292868423463,
+          "opportunity_mae": 1.0940480419215903,
+          "crps_n": 672,
+          "crps": 0.6903272514880953,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.03244624414885764,
+            0.014944651966743683
+          ],
+          "week_blocks": 27,
+          "beats_baseline_mae": true
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\mlb-total_bases-oos-1737556548e94ca9a23b2354ac1a5869bd17a00f3d1b4ea998a427898465aeb4.jsonl",
+        "parquet_path": "normalized\\mlb-total_bases-oos-1737556548e94ca9a23b2354ac1a5869bd17a00f3d1b4ea998a427898465aeb4.parquet",
+        "fingerprint": "1737556548e94ca9a23b2354ac1a5869bd17a00f3d1b4ea998a427898465aeb4",
+        "n": 1410
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 227
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    }
+  },
+  "synthetic_performance_sample": 0,
+  "mode": "RESEARCH_ONLY",
+  "reference_unit": 22,
+  "cash_committed": 0,
+  "empirical_scope": "chronological reconstructed observed appearances; no historical as-of or pregame participation proof",
+  "limitations": [
+    "No target opportunity or actual target role is used as an input.",
+    "DNP/absence not zero-filled; appearance-only evaluation is selection-biased relative to full scheduled player universe.",
+    "Source revisions captured now remain unverified historically.",
+    "Raw residual distributions are uncalibrated; no p_low or betting authority.",
+    "Multiple markets evaluated; no winner selected or thresholds tuned from these results."
+  ],
+  "blockers": [
+    "PROSPECTIVE_PLAYER_IDENTITY_AND_ROLE_JOIN",
+    "CALIBRATION_PENDING",
+    "CONTEMPORANEOUS_PROP_MARKET_COMPARISON_PENDING"
+  ]
+}

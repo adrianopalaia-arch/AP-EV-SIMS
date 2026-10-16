@@ -1,0 +1,447 @@
+{
+  "sport": "NFL",
+  "generated_at": "2026-10-16T05:17:03.879963+00:00",
+  "model_version": "opportunity-partial-pool-v1",
+  "coverage": {
+    "source_selection": "all returned rows in explicit season/regular-game queries",
+    "source_failures": [],
+    "outcome_rows": 50838,
+    "unique_player_games": 13842,
+    "unique_athletes": 835,
+    "events": 623,
+    "seasons": {
+      "2024": 21748,
+      "2025": 22440,
+      "2026": 6650
+    },
+    "rejections": {
+      "NON_REGULAR_SEASON": 1735,
+      "RECENT_FINAL_STATUS_UNCONFIRMED": 69,
+      "CONFLICTING_DUPLICATE": 0
+    },
+    "earliest_date": "2024-09-05",
+    "latest_date": "2026-10-12",
+    "historical_as_of_eligible": 0,
+    "role_confirmed_opportunities": 0
+  },
+  "normalized_table": {
+    "path": "normalized\\nfl-player-outcomes-d1ba4bdd8a4bbee507d3cc611dbca1e39614588e9451417139f2a2735468f98d.jsonl",
+    "parquet_path": "normalized\\nfl-player-outcomes-d1ba4bdd8a4bbee507d3cc611dbca1e39614588e9451417139f2a2735468f98d.parquet",
+    "fingerprint": "d1ba4bdd8a4bbee507d3cc611dbca1e39614588e9451417139f2a2735468f98d",
+    "n": 50838
+  },
+  "markets": {
+    "receptions": {
+      "training_n": 12332,
+      "unique_athletes": 733,
+      "artifact_hash": "1753938bf05fd8799fa3376118f9dc18e901acac6f4eee9ac7085f47be9ace2d",
+      "evaluation": {
+        "n": 6152,
+        "mae": 1.2836083261113365,
+        "rmse": 1.716279704497684,
+        "baseline_mae": 1.2719188623650588,
+        "baseline_rmse": 1.7400273689903099,
+        "opportunity_mae": 1.6609472106547813,
+        "crps_n": 6152,
+        "crps": 0.8784537491872563,
+        "paired_mae_difference_95_week_bootstrap": [
+          0.004435374833187758,
+          0.018637732586032164
+        ],
+        "week_blocks": 24,
+        "beats_baseline_mae": false
+      },
+      "by_season": {
+        "2025": {
+          "n": 4804,
+          "mae": 1.267441362196876,
+          "rmse": 1.6783895760696161,
+          "baseline_mae": 1.2560347362647528,
+          "baseline_rmse": 1.7059059714220957,
+          "opportunity_mae": 1.6384841505220344,
+          "crps_n": 4804,
+          "crps": 0.8624502893422148,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.0030803431876436234,
+            0.020324178785122035
+          ],
+          "week_blocks": 18,
+          "beats_baseline_mae": false
+        },
+        "2026": {
+          "n": 1348,
+          "mae": 1.3412241233257793,
+          "rmse": 1.8449952920903947,
+          "baseline_mae": 1.3285266826809854,
+          "baseline_rmse": 1.8565362529921174,
+          "opportunity_mae": 1.7410010243622873,
+          "crps_n": 1348,
+          "crps": 0.9354868508902077,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.003599151232096232,
+            0.02332635912735271
+          ],
+          "week_blocks": 6,
+          "beats_baseline_mae": false
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nfl-receptions-oos-3edff8dc6d041268f1272e074758d5c2927d48646fd25c21883629cf1c44b696.jsonl",
+        "parquet_path": "normalized\\nfl-receptions-oos-3edff8dc6d041268f1272e074758d5c2927d48646fd25c21883629cf1c44b696.parquet",
+        "fingerprint": "3edff8dc6d041268f1272e074758d5c2927d48646fd25c21883629cf1c44b696",
+        "n": 6152
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 3185
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "receiving_yards": {
+      "training_n": 12332,
+      "unique_athletes": 733,
+      "artifact_hash": "7430baa50e6a72d160c012f68f9d9534514d4d2e99c352568b8cdbfa8d7097ef",
+      "evaluation": {
+        "n": 6152,
+        "mae": 16.749601608822278,
+        "rmse": 23.594218591312423,
+        "baseline_mae": 16.541436131236196,
+        "baseline_rmse": 23.890315694323174,
+        "opportunity_mae": 1.6609472106547813,
+        "crps_n": 6152,
+        "crps": 12.053294036248367,
+        "paired_mae_difference_95_week_bootstrap": [
+          0.07370431738559739,
+          0.3501402175774978
+        ],
+        "week_blocks": 24,
+        "beats_baseline_mae": false
+      },
+      "by_season": {
+        "2025": {
+          "n": 4804,
+          "mae": 16.557627768153527,
+          "rmse": 23.179349887395652,
+          "baseline_mae": 16.355010374952087,
+          "baseline_rmse": 23.540631848014083,
+          "opportunity_mae": 1.6384841505220344,
+          "crps_n": 4804,
+          "crps": 11.858323478559527,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.04967065142790696,
+            0.3655375584970406
+          ],
+          "week_blocks": 18,
+          "beats_baseline_mae": false
+        },
+        "2026": {
+          "n": 1348,
+          "mae": 17.433757640404398,
+          "rmse": 25.016839576851513,
+          "baseline_mae": 17.2058199095662,
+          "baseline_rmse": 25.096927249961247,
+          "opportunity_mae": 1.7410010243622873,
+          "crps_n": 1348,
+          "crps": 12.748129762611269,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.016849306230781375,
+            0.43923113472942543
+          ],
+          "week_blocks": 6,
+          "beats_baseline_mae": false
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nfl-receiving_yards-oos-d7154d0712fe8d3436606bd7332aabf0dbd5509ad7ed7468c9397ab5b3d9d771.jsonl",
+        "parquet_path": "normalized\\nfl-receiving_yards-oos-d7154d0712fe8d3436606bd7332aabf0dbd5509ad7ed7468c9397ab5b3d9d771.parquet",
+        "fingerprint": "d7154d0712fe8d3436606bd7332aabf0dbd5509ad7ed7468c9397ab5b3d9d771",
+        "n": 6152
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 3185
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "rushing_attempts": {
+      "training_n": 12332,
+      "unique_athletes": 733,
+      "artifact_hash": "cda27b843f7d590a99c1d1ea178af8b95ce49d9f2108cdd9d1f233519876e717",
+      "evaluation": {
+        "n": 6152,
+        "mae": 1.3719717364383883,
+        "rmse": 2.661982252138696,
+        "baseline_mae": 1.1432188138584432,
+        "baseline_rmse": 2.611126912763616,
+        "opportunity_mae": 1.3719717364383883,
+        "crps_n": 6152,
+        "crps": 0.9767837426853057,
+        "paired_mae_difference_95_week_bootstrap": [
+          0.21141536080594397,
+          0.24708941257255007
+        ],
+        "week_blocks": 24,
+        "beats_baseline_mae": false
+      },
+      "by_season": {
+        "2025": {
+          "n": 4804,
+          "mae": 1.3612641504941425,
+          "rmse": 2.6353442787527293,
+          "baseline_mae": 1.131350280189789,
+          "baseline_rmse": 2.585955095262968,
+          "opportunity_mae": 1.3612641504941425,
+          "crps_n": 4804,
+          "crps": 0.9664416061615321,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.20845823187235293,
+            0.24976599567959856
+          ],
+          "week_blocks": 18,
+          "beats_baseline_mae": false
+        },
+        "2026": {
+          "n": 1348,
+          "mae": 1.4101314121625415,
+          "rmse": 2.754820725788339,
+          "baseline_mae": 1.1855158730158728,
+          "baseline_rmse": 2.698925682022612,
+          "opportunity_mae": 1.4101314121625415,
+          "crps_n": 1348,
+          "crps": 1.0136410304154302,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.19721123304011826,
+            0.2545408128332876
+          ],
+          "week_blocks": 6,
+          "beats_baseline_mae": false
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nfl-rushing_attempts-oos-eeb3a8f6ac6b5540ed929169699d2e3bc2c40a1b91ab5a772f6d198f83efa516.jsonl",
+        "parquet_path": "normalized\\nfl-rushing_attempts-oos-eeb3a8f6ac6b5540ed929169699d2e3bc2c40a1b91ab5a772f6d198f83efa516.parquet",
+        "fingerprint": "eeb3a8f6ac6b5540ed929169699d2e3bc2c40a1b91ab5a772f6d198f83efa516",
+        "n": 6152
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 3185
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "rushing_yards": {
+      "training_n": 12332,
+      "unique_athletes": 733,
+      "artifact_hash": "aeb27a30cbf24f00e591090b3c239e3b7e8ecd21063d43381d166d09d4a2d6a9",
+      "evaluation": {
+        "n": 6152,
+        "mae": 7.48742871447756,
+        "rmse": 16.05602805361764,
+        "baseline_mae": 6.59888583142403,
+        "baseline_rmse": 16.01996697408477,
+        "opportunity_mae": 1.3719717364383883,
+        "crps_n": 6152,
+        "crps": 5.768115130364109,
+        "paired_mae_difference_95_week_bootstrap": [
+          0.7966635032979305,
+          0.9797674545622908
+        ],
+        "week_blocks": 24,
+        "beats_baseline_mae": false
+      },
+      "by_season": {
+        "2025": {
+          "n": 4804,
+          "mae": 7.542566666800537,
+          "rmse": 16.24994811998342,
+          "baseline_mae": 6.618501447206692,
+          "baseline_rmse": 16.171021093334982,
+          "opportunity_mae": 1.3612641504941425,
+          "crps_n": 4804,
+          "crps": 5.816538778309741,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.8170790134593681,
+            1.0289964932077345
+          ],
+          "week_blocks": 18,
+          "beats_baseline_mae": false
+        },
+        "2026": {
+          "n": 1348,
+          "mae": 7.2909281781574,
+          "rmse": 15.345019895213417,
+          "baseline_mae": 6.528979734821724,
+          "baseline_rmse": 15.469650386867755,
+          "opportunity_mae": 1.4101314121625415,
+          "crps_n": 1348,
+          "crps": 5.595543020029673,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.5872492478132565,
+            0.9172525870335507
+          ],
+          "week_blocks": 6,
+          "beats_baseline_mae": false
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nfl-rushing_yards-oos-561c48e6bd9ae7218a7395023b5d7e241efcdd7ce3560aae3ea531e4a71b8214.jsonl",
+        "parquet_path": "normalized\\nfl-rushing_yards-oos-561c48e6bd9ae7218a7395023b5d7e241efcdd7ce3560aae3ea531e4a71b8214.parquet",
+        "fingerprint": "561c48e6bd9ae7218a7395023b5d7e241efcdd7ce3560aae3ea531e4a71b8214",
+        "n": 6152
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 3185
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "passing_yards": {
+      "training_n": 1510,
+      "unique_athletes": 102,
+      "artifact_hash": "be1bd8568222f610670679d2b9343fff92afa65af939e1b686493293dead8746",
+      "evaluation": {
+        "n": 733,
+        "mae": 68.2563700786687,
+        "rmse": 86.51405290074479,
+        "baseline_mae": 68.01112518677321,
+        "baseline_rmse": 87.54762813156049,
+        "opportunity_mae": 8.247122391799724,
+        "crps_n": 733,
+        "crps": 48.77677598340132,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.7530364837217282,
+          1.2759178162475022
+        ],
+        "week_blocks": 24,
+        "beats_baseline_mae": false
+      },
+      "by_season": {
+        "2025": {
+          "n": 561,
+          "mae": 68.99951854651555,
+          "rmse": 87.30609586055041,
+          "baseline_mae": 68.58101109130521,
+          "baseline_rmse": 88.39912597484533,
+          "opportunity_mae": 8.32034108086506,
+          "crps_n": 561,
+          "crps": 49.259077154346876,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.7637823285199141,
+            1.630492229353457
+          ],
+          "week_blocks": 18,
+          "beats_baseline_mae": false
+        },
+        "2026": {
+          "n": 172,
+          "mae": 65.83249629691237,
+          "rmse": 83.87874086210928,
+          "baseline_mae": 66.15236941675894,
+          "baseline_rmse": 84.710894830843,
+          "opportunity_mae": 8.008310272231975,
+          "crps_n": 172,
+          "crps": 47.20368902467774,
+          "paired_mae_difference_95_week_bootstrap": [
+            -1.7091687540524474,
+            1.7629587624084946
+          ],
+          "week_blocks": 6,
+          "beats_baseline_mae": true
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nfl-passing_yards-oos-180bdf586e8484f6d6e9cf64e2dc4a6ee2035f436b6f8862002beac8e830f1a9.jsonl",
+        "parquet_path": "normalized\\nfl-passing_yards-oos-180bdf586e8484f6d6e9cf64e2dc4a6ee2035f436b6f8862002beac8e830f1a9.parquet",
+        "fingerprint": "180bdf586e8484f6d6e9cf64e2dc4a6ee2035f436b6f8862002beac8e830f1a9",
+        "n": 733
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 453
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    }
+  },
+  "synthetic_performance_sample": 0,
+  "mode": "RESEARCH_ONLY",
+  "reference_unit": 22,
+  "cash_committed": 0,
+  "empirical_scope": "chronological reconstructed observed appearances; no historical as-of or pregame participation proof",
+  "limitations": [
+    "No target opportunity or actual target role is used as an input.",
+    "DNP/absence not zero-filled; appearance-only evaluation is selection-biased relative to full scheduled player universe.",
+    "Source revisions captured now remain unverified historically.",
+    "Raw residual distributions are uncalibrated; no p_low or betting authority.",
+    "Multiple markets evaluated; no winner selected or thresholds tuned from these results."
+  ],
+  "blockers": [
+    "PROSPECTIVE_PLAYER_IDENTITY_AND_ROLE_JOIN",
+    "CALIBRATION_PENDING",
+    "CONTEMPORANEOUS_PROP_MARKET_COMPARISON_PENDING"
+  ]
+}

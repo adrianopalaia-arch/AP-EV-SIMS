@@ -1,0 +1,242 @@
+{
+  "sport": "NHL",
+  "generated_at": "2026-10-16T05:18:16.511573+00:00",
+  "model_version": "opportunity-partial-pool-v1",
+  "coverage": {
+    "source_selection": "all returned rows in explicit season/regular-game queries",
+    "source_failures": [],
+    "outcome_rows": 153778,
+    "unique_player_games": 153778,
+    "unique_athletes": 1353,
+    "events": 4035,
+    "seasons": {
+      "2024": 50018,
+      "2025": 49988,
+      "2026": 49998,
+      "2027": 3774
+    },
+    "rejections": {
+      "RECENT_FINAL_STATUS_UNCONFIRMED": 39,
+      "CONFLICTING_DUPLICATE": 0
+    },
+    "earliest_date": "2023-10-10",
+    "latest_date": "2026-10-14",
+    "historical_as_of_eligible": 0,
+    "role_confirmed_opportunities": 0
+  },
+  "normalized_table": {
+    "path": "normalized\\nhl-player-outcomes-d46398f93b0a4ada423e9e09db6b9d06e655e4de09a6d28069f8db58c903447c.jsonl",
+    "parquet_path": "normalized\\nhl-player-outcomes-d46398f93b0a4ada423e9e09db6b9d06e655e4de09a6d28069f8db58c903447c.parquet",
+    "fingerprint": "d46398f93b0a4ada423e9e09db6b9d06e655e4de09a6d28069f8db58c903447c",
+    "n": 153778
+  },
+  "markets": {
+    "shots_on_goal": {
+      "training_n": 145238,
+      "unique_athletes": 1221,
+      "artifact_hash": "b8eeb687974c85700e638211e1e4b7661573e4d30b84b21b9b1d335d2bcad310",
+      "evaluation": {
+        "n": 96525,
+        "mae": 1.0374640585000883,
+        "rmse": 1.3398035149512226,
+        "baseline_mae": 1.0591225934559267,
+        "baseline_rmse": 1.372204090710564,
+        "opportunity_mae": 1.9526839359475912,
+        "crps_n": 96525,
+        "crps": 0.7053642101631702,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.023790094117241797,
+          -0.01960283444290839
+        ],
+        "week_blocks": 57,
+        "beats_baseline_mae": true
+      },
+      "by_season": {
+        "2025": {
+          "n": 46523,
+          "mae": 1.042249374719237,
+          "rmse": 1.3450252665029852,
+          "baseline_mae": 1.0638503177639733,
+          "baseline_rmse": 1.3777725513399819,
+          "opportunity_mae": 1.9246058352577708,
+          "crps_n": 46523,
+          "crps": 0.7084441014766889,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.02448593058834679,
+            -0.018544728160984535
+          ],
+          "week_blocks": 28,
+          "beats_baseline_mae": true
+        },
+        "2026": {
+          "n": 46566,
+          "mae": 1.0334037428324105,
+          "rmse": 1.3361239771442153,
+          "baseline_mae": 1.0554690168383636,
+          "baseline_rmse": 1.3687394571809974,
+          "opportunity_mae": 1.9703492332245598,
+          "crps_n": 46566,
+          "crps": 0.7030847691448696,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.025343978178768583,
+            -0.01892610840001078
+          ],
+          "week_blocks": 26,
+          "beats_baseline_mae": true
+        },
+        "2027": {
+          "n": 3436,
+          "mae": 1.0276984569045164,
+          "rmse": 1.318594058762305,
+          "baseline_mae": 1.0446244941515603,
+          "baseline_rmse": 1.3432440451258756,
+          "opportunity_mae": 2.0934508874589906,
+          "crps_n": 3436,
+          "crps": 0.6945547418509896,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.027516958588948356,
+            -0.012514560598286246
+          ],
+          "week_blocks": 3,
+          "beats_baseline_mae": true
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nhl-shots_on_goal-oos-e1c0cf5a9d0a3919414a78e066099c0813e1a0f5cb76ee089ea8ddfe2bdcfde6.jsonl",
+        "parquet_path": "normalized\\nhl-shots_on_goal-oos-e1c0cf5a9d0a3919414a78e066099c0813e1a0f5cb76ee089ea8ddfe2bdcfde6.parquet",
+        "fingerprint": "e1c0cf5a9d0a3919414a78e066099c0813e1a0f5cb76ee089ea8ddfe2bdcfde6",
+        "n": 96525
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 5910
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    },
+    "goalie_saves": {
+      "training_n": 8540,
+      "unique_athletes": 132,
+      "artifact_hash": "24e668c69b9a1e2cb3d7e1a5644d6d36172f415f1a530841de54de4faa71d54e",
+      "evaluation": {
+        "n": 5597,
+        "mae": 5.988501878416693,
+        "rmse": 7.7202212992923895,
+        "baseline_mae": 6.086586138832877,
+        "baseline_rmse": 7.834115774967838,
+        "opportunity_mae": 6.082147242085768,
+        "crps_n": 5597,
+        "crps": 4.297634085760226,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.1152066828729984,
+          -0.07816931318472806
+        ],
+        "week_blocks": 57,
+        "beats_baseline_mae": true
+      },
+      "by_season": {
+        "2025": {
+          "n": 2683,
+          "mae": 5.982025941806799,
+          "rmse": 7.741492921209897,
+          "baseline_mae": 6.090933656354826,
+          "baseline_rmse": 7.865606994155489,
+          "opportunity_mae": 6.080059141629039,
+          "crps_n": 2683,
+          "crps": 4.304207631755496,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.13470820660219976,
+            -0.08162576517078411
+          ],
+          "week_blocks": 28,
+          "beats_baseline_mae": true
+        },
+        "2026": {
+          "n": 2709,
+          "mae": 6.0015146679196665,
+          "rmse": 7.707253437630286,
+          "baseline_mae": 6.08735959500079,
+          "baseline_rmse": 7.810292170574825,
+          "opportunity_mae": 6.094246632964154,
+          "crps_n": 2709,
+          "crps": 4.295485580657067,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.11098053298491115,
+            -0.06168828497674887
+          ],
+          "week_blocks": 26,
+          "beats_baseline_mae": true
+        },
+        "2027": {
+          "n": 205,
+          "mae": 5.901298420664461,
+          "rmse": 7.611900636948128,
+          "baseline_mae": 6.019465737514519,
+          "baseline_rmse": 7.734849093084006,
+          "opportunity_mae": 5.949586869577744,
+          "crps_n": 205,
+          "crps": 4.239992507317073,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.28232024878523637,
+            0.014855899719698643
+          ],
+          "week_blocks": 3,
+          "beats_baseline_mae": true
+        }
+      },
+      "evaluation_table": {
+        "path": "normalized\\nhl-goalie_saves-oos-7211494daa2d5bf0196c920de11fea24576da9b1bbf9c0d608bf2536fa15a3ef.jsonl",
+        "parquet_path": "normalized\\nhl-goalie_saves-oos-7211494daa2d5bf0196c920de11fea24576da9b1bbf9c0d608bf2536fa15a3ef.parquet",
+        "fingerprint": "7211494daa2d5bf0196c920de11fea24576da9b1bbf9c0d608bf2536fa15a3ef",
+        "n": 5597
+      },
+      "rejections": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 597
+      },
+      "model_status": "UNVALIDATED",
+      "recommendations_enabled": false,
+      "prospective_frozen_n": 0,
+      "prospective_settled_n": 0,
+      "market_comparison_n": 0,
+      "calibrated_probability": null,
+      "p_low": null,
+      "roi": null,
+      "clv": null,
+      "missing_features": [
+        "verified injuries",
+        "confirmed participation and role",
+        "timestamped matching prop prices",
+        "book-specific settlement terms"
+      ]
+    }
+  },
+  "synthetic_performance_sample": 0,
+  "mode": "RESEARCH_ONLY",
+  "reference_unit": 22,
+  "cash_committed": 0,
+  "empirical_scope": "chronological reconstructed observed appearances; no historical as-of or pregame participation proof",
+  "limitations": [
+    "No target opportunity or actual target role is used as an input.",
+    "DNP/absence not zero-filled; appearance-only evaluation is selection-biased relative to full scheduled player universe.",
+    "Source revisions captured now remain unverified historically.",
+    "Raw residual distributions are uncalibrated; no p_low or betting authority.",
+    "Multiple markets evaluated; no winner selected or thresholds tuned from these results."
+  ],
+  "blockers": [
+    "PROSPECTIVE_PLAYER_IDENTITY_AND_ROLE_JOIN",
+    "CALIBRATION_PENDING",
+    "CONTEMPORANEOUS_PROP_MARKET_COMPARISON_PENDING"
+  ]
+}
