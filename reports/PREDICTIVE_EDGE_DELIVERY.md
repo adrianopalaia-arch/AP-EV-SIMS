@@ -71,3 +71,20 @@ Dashboard:
 ```
 
 Keep that PowerShell process running and open http://127.0.0.1:8501/.
+
+
+## Verified checkpoint and GitHub delivery
+
+249 tests passed; 0 failed, 0 skipped. All 18 frozen Phase 1 source/test hashes match. Commit 6b20b15 remains an ancestor. Real archived-card Streamlit AppTest passed, including the new paper panel. No .env, secret, raw dataset or database was staged.
+
+Current diagnostic: 8/100 candidates across 3 games; 816 versioned quote/model observations (including repeated quotes after freshness changed); 0 settlements, 0 AP model forecasts. CFB archive: 30,948 quote observations across 78 provider events, captured 2026-10-14 through 2026-10-16 UTC. All sports: 41,934 archived quote observations. Provider quota: CFBD 969, Odds 419. The current card has 146 games and 5,060 market sides; individual prices can be stale.
+
+Git push: BLOCKED_AUTHENTICATION_OR_PERMISSION. Connector code write and PR update: HTTP 403. Existing [PR #1](https://github.com/adrianopalaia-arch/AP-EV-SIMS/pull/1) remains at remote head deee41b. The new tested local feature checkpoint is de85f9751b732d351f00479b2f3d4c1c27f9c098. A metadata commit follows. No reset, force push, remote overwrite or duplicate PR was performed. Prepared PR summary: reports/PULL_REQUEST_SUMMARY.md.
+
+Run this exact single command in an authenticated PowerShell window:
+
+```powershell
+& 'C:\Users\adria\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd\git.exe' -C 'C:\Users\adria\Documents\Codex\2026-10-13\files-mentioned-by-the-user-ap\outputs\AP-EV-SIMS' push -u origin ap-evisims-live
+```
+
+After the push, the existing PR receives the updated branch. The failed session push does not discard the local implementation or research archive.

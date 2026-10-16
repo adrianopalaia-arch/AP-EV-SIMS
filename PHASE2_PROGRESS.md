@@ -151,3 +151,5 @@ Real capture: 8 candidates across 3 games; 816 versioned quote/model observation
 Fresh CFBD/current odds: HTTP 200; DK and FD present. Historical odds: HTTP 401, no historical date established. Odds credits remaining: 419. One pre-existing malformed CFBD games snapshot remains excluded.
 
 Next dependency: actual pregame feature/price joins and settled prospective evidence. GitHub Actions data collection is blocked on private durable execution/storage and is not running. Full delivery and alternative historical-source findings: reports/PREDICTIVE_EDGE_DELIVERY.md. Git push/PR outcome follows after the safety scan.
+
+Push result: local Git authentication unavailable. Connector code writes and PR #1 update both HTTP 403. Feature checkpoint de85f9751b732d351f00479b2f3d4c1c27f9c098 remains safely committed locally; existing PR does not contain it yet. Manual push command is in reports/PREDICTIVE_EDGE_DELIVERY.md.

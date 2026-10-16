@@ -90,7 +90,7 @@
     },
     "FOUNDATION": {
       "GitHub_handoff": {
-        "blocker": "Remote read works; local Git push failed authentication/permission; GitHub connector write returned HTTP 403.",
+        "blocker": "Local push authentication unavailable; connector code write and existing PR update both HTTP 403",
         "dependencies": [],
         "files": [
           "src/ap_evsims/handoff.py",
@@ -98,7 +98,7 @@
           "src/ap_evsims/publication.py",
           "src/ap_evsims/__main__.py"
         ],
-        "next_action": "Run the documented single push command from normal authenticated PowerShell; preserve local commits and remote history.",
+        "next_action": "Run the exact manual push command in reports/PREDICTIVE_EDGE_DELIVERY.md; existing PR #1 will receive the branch update",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
@@ -1116,21 +1116,22 @@
     "updated_at": "2026-10-15T03:44:43.053319+00:00"
   },
   "git_delivery": {
-    "branch": "ap-evisims-live",
+    "category": "AUTHENTICATION_OR_PERMISSION",
+    "connector_write_status": 403,
+    "env_ignored": true,
     "env_staged": false,
-    "implementation_commit": "7d991e6523bfaf429bd3eb0f968fe0c29ea5417f",
+    "env_tracked": false,
+    "last_attempt_at": "2026-10-16T04:43:43.769743+00:00",
+    "last_attempt_commit": "de85f9751b732d351f00479b2f3d4c1c27f9c098",
+    "last_verified_remote": "deee41bace708c5cdf7afa5094c88bfbef47577a",
+    "manual_push_required": true,
+    "pr_update_status": 403,
+    "pr_url": "https://github.com/adrianopalaia-arch/AP-EV-SIMS/pull/1",
     "push_success": false,
-    "secret_scan": "PASS",
-    "status": "PENDING_CURRENT_PUSH"
-  },
-  "github_push": {
-    "branch": "ap-evisims-live",
-    "commit": "7d991e6523bfaf429bd3eb0f968fe0c29ea5417f",
-    "env_staged": false,
-    "push_success": false,
-    "secret_scan": "PASS",
+    "staged_secret_scan": "PASS",
     "status": "PUSH_BLOCKED"
   },
+  "github_push": "BLOCKED_AUTHENTICATION_OR_PERMISSION",
   "ingestion_summary": {
     "cfb_matched_events": 61,
     "cfb_unmatched_events": 1,
@@ -1180,8 +1181,8 @@
       }
     ]
   },
-  "last_checkpoint_at": "2026-10-16T04:38:13.911840+00:00",
-  "last_push_attempt": "2026-10-16T02:03:34.720992+00:00",
+  "last_checkpoint_at": "2026-10-16T04:43:43.769743+00:00",
+  "last_push_attempt": "2026-10-16T04:43:43.769743+00:00",
   "last_remote_verified_at": "2026-10-14T22:13:39.467379+00:00",
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
   "next_task": "Collect prospective CFB outcomes and near-start prices; obtain timestamp-authentic feature/price training joins before model fitting",
@@ -1542,8 +1543,8 @@
     "skipped": 0,
     "status": "PASS",
     "verified_at": "2026-10-16T04:38:13.911840+00:00",
-    "verified_source_commit": "197e851c79ce0e62341465d9e69886b1703b94e2",
-    "verified_source_semantics": "Source HEAD plus tested paper ledger and reporting changes in this checkpoint"
+    "verified_source_commit": "de85f9751b732d351f00479b2f3d4c1c27f9c098",
+    "verified_source_semantics": "Tested feature commit; subsequent changes only delivery metadata and documentation"
   },
-  "updated_at": "2026-10-16T04:38:13.911840+00:00"
+  "updated_at": "2026-10-16T04:43:43.769743+00:00"
 }
