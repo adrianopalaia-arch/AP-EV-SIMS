@@ -1,18 +1,18 @@
 {
   "sport": "MLB",
-  "generated_at": "2026-10-16T05:38:49.696304+00:00",
+  "generated_at": "2026-10-16T14:56:04.097321+00:00",
   "model_version": "opportunity-partial-pool-v1",
   "coverage": {
-    "source_selection": "Detroit 2024 fullSeason roster; first 12 sorted pitcher IDs and 12 nonpitcher IDs",
+    "source_selection": "Original Detroit 2024 cohort plus current captured hits/TB quoted-roster cohort; current-roster survivor selection, not league-wide random coverage",
     "source_failures": [],
-    "outcome_rows": 7752,
-    "unique_player_games": 3401,
-    "unique_athletes": 24,
-    "events": 1370,
+    "outcome_rows": 18482,
+    "unique_player_games": 8766,
+    "unique_athletes": 42,
+    "events": 3069,
     "seasons": {
-      "2024": 3312,
-      "2025": 2457,
-      "2026": 1983
+      "2024": 5970,
+      "2025": 5791,
+      "2026": 6721
     },
     "rejections": {
       "CONFLICTING_DUPLICATE": 0
@@ -23,10 +23,10 @@
     "role_confirmed_opportunities": 0
   },
   "normalized_table": {
-    "path": "normalized\\mlb-player-outcomes-d36157064691d2b20d13079052f28740a8edf37834e70a71d715f41795122bb4.jsonl",
-    "parquet_path": "normalized\\mlb-player-outcomes-d36157064691d2b20d13079052f28740a8edf37834e70a71d715f41795122bb4.parquet",
-    "fingerprint": "d36157064691d2b20d13079052f28740a8edf37834e70a71d715f41795122bb4",
-    "n": 7752
+    "path": "normalized\\mlb-player-outcomes-4e0168b2e9b21dcfb5f9885c643854606a0e9e621032cbf0c3a1de0884c08005.jsonl",
+    "parquet_path": "normalized\\mlb-player-outcomes-4e0168b2e9b21dcfb5f9885c643854606a0e9e621032cbf0c3a1de0884c08005.parquet",
+    "fingerprint": "4e0168b2e9b21dcfb5f9885c643854606a0e9e621032cbf0c3a1de0884c08005",
+    "n": 18482
   },
   "markets": {
     "pitcher_strikeouts": {
@@ -267,67 +267,67 @@
       ]
     },
     "hitter_hits": {
-      "training_n": 2451,
-      "unique_athletes": 12,
-      "artifact_hash": "bcd0b4bc1f57ddb3c3827cefd86ccd27156552b45d9d7682b4e144cfad53824f",
+      "training_n": 7816,
+      "unique_athletes": 30,
+      "artifact_hash": "3604d982893c4084c8d842d91dcf9c639507a94a53cc3b25938acf16968e8657",
       "evaluation": {
-        "n": 1410,
-        "mae": 0.663497862853553,
-        "rmse": 0.8086235950081682,
-        "baseline_mae": 0.6712056737588652,
-        "baseline_rmse": 0.8292609715073104,
-        "opportunity_mae": 1.0263450987530838,
-        "crps_n": 1410,
-        "crps": 0.4028260664312772,
+        "n": 5410,
+        "mae": 0.7095577042712934,
+        "rmse": 0.8802963949634814,
+        "baseline_mae": 0.7295605580494675,
+        "baseline_rmse": 0.9055653805760058,
+        "opportunity_mae": 0.8385261105188156,
+        "crps_n": 5410,
+        "crps": 0.45707832144177446,
         "paired_mae_difference_95_week_bootstrap": [
-          -0.015998344393923416,
-          0.0012649216125056428
+          -0.024199538948327725,
+          -0.015427971933441085
         ],
         "week_blocks": 55,
         "beats_baseline_mae": true
       },
       "by_season": {
         "2025": {
-          "n": 738,
-          "mae": 0.67055671199516,
-          "rmse": 0.8180217453202652,
-          "baseline_mae": 0.683468834688347,
-          "baseline_rmse": 0.8462895261431637,
-          "opportunity_mae": 0.964696890339484,
-          "crps_n": 738,
-          "crps": 0.41115350361531294,
+          "n": 2381,
+          "mae": 0.7026535510653432,
+          "rmse": 0.8735976224410513,
+          "baseline_mae": 0.7236618600961314,
+          "baseline_rmse": 0.9018189428860881,
+          "opportunity_mae": 0.8012095703991658,
+          "crps_n": 2381,
+          "crps": 0.45430408315833687,
           "paired_mae_difference_95_week_bootstrap": [
-            -0.02391136859416216,
-            -0.0003774228646552258
+            -0.02821881663515043,
+            -0.01370439002723227
           ],
           "week_blocks": 28,
           "beats_baseline_mae": true
         },
         "2026": {
-          "n": 672,
-          "mae": 0.655745733885538,
-          "rmse": 0.7981749271186497,
-          "baseline_mae": 0.6577380952380952,
-          "baseline_rmse": 0.8101476937659489,
-          "opportunity_mae": 1.0940480419215903,
-          "crps_n": 672,
-          "crps": 0.39368075595238106,
+          "n": 3029,
+          "mae": 0.7149848382374102,
+          "rmse": 0.8855265137443085,
+          "baseline_mae": 0.7341973358067778,
+          "baseline_rmse": 0.9084994901851735,
+          "opportunity_mae": 0.867859448922542,
+          "crps_n": 3029,
+          "crps": 0.4592590614064048,
           "paired_mae_difference_95_week_bootstrap": [
-            -0.013599460153293316,
-            0.009456359926490986
+            -0.023895372869705195,
+            -0.014284092588490538
           ],
           "week_blocks": 27,
           "beats_baseline_mae": true
         }
       },
       "evaluation_table": {
-        "path": "normalized\\mlb-hitter_hits-oos-2d1088468d6da4c00038bc1906b7dbe3d5e2e34293fbdc679b4b68f8c58e9e95.jsonl",
-        "parquet_path": "normalized\\mlb-hitter_hits-oos-2d1088468d6da4c00038bc1906b7dbe3d5e2e34293fbdc679b4b68f8c58e9e95.parquet",
-        "fingerprint": "2d1088468d6da4c00038bc1906b7dbe3d5e2e34293fbdc679b4b68f8c58e9e95",
-        "n": 1410
+        "path": "normalized\\mlb-hitter_hits-oos-371ccb310920f2491175ecc4dee9f51b6007399dee8474b36699d53e75b9a851.jsonl",
+        "parquet_path": "normalized\\mlb-hitter_hits-oos-371ccb310920f2491175ecc4dee9f51b6007399dee8474b36699d53e75b9a851.parquet",
+        "fingerprint": "371ccb310920f2491175ecc4dee9f51b6007399dee8474b36699d53e75b9a851",
+        "n": 5410
       },
       "rejections": {
-        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 227
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 308
       },
       "model_status": "UNVALIDATED",
       "recommendations_enabled": false,
@@ -346,67 +346,67 @@
       ]
     },
     "total_bases": {
-      "training_n": 2451,
-      "unique_athletes": 12,
-      "artifact_hash": "d6ace29298157780aa9db24d4b65fbee18b4284531f778dbde78a0985af39368",
+      "training_n": 7816,
+      "unique_athletes": 30,
+      "artifact_hash": "ed924a418675b323f658af5a5f45bc2bca3fdad2643fd8cd96df5b9ba0bef527",
       "evaluation": {
-        "n": 1410,
-        "mae": 1.1187145672408696,
-        "rmse": 1.5107625886722973,
-        "baseline_mae": 1.137304964539007,
-        "baseline_rmse": 1.5440574714618964,
-        "opportunity_mae": 1.0263450987530838,
-        "crps_n": 1410,
-        "crps": 0.7210807118376074,
+        "n": 5410,
+        "mae": 1.2646291861371834,
+        "rmse": 1.6787269710474333,
+        "baseline_mae": 1.2946520992870345,
+        "baseline_rmse": 1.72473079772738,
+        "opportunity_mae": 0.8385261105188156,
+        "crps_n": 5410,
+        "crps": 0.8401871120147872,
         "paired_mae_difference_95_week_bootstrap": [
-          -0.036073853365407624,
-          -0.00012348260483130232
+          -0.0388341211310158,
+          -0.021561785870412218
         ],
         "week_blocks": 55,
         "beats_baseline_mae": true
       },
       "by_season": {
         "2025": {
-          "n": 738,
-          "mae": 1.138743547910419,
-          "rmse": 1.5802495855081673,
-          "baseline_mae": 1.1668021680216802,
-          "baseline_rmse": 1.619976077979219,
-          "opportunity_mae": 0.964696890339484,
-          "crps_n": 738,
-          "crps": 0.7490838627249681,
+          "n": 2381,
+          "mae": 1.2768313858811922,
+          "rmse": 1.7140621350585241,
+          "baseline_mae": 1.3103411265108031,
+          "baseline_rmse": 1.7623179213771776,
+          "opportunity_mae": 0.8012095703991658,
+          "crps_n": 2381,
+          "crps": 0.855502444351113,
           "paired_mae_difference_95_week_bootstrap": [
-            -0.051292380132719334,
-            -0.002433851558883539
+            -0.04379418492551959,
+            -0.02184352848513574
           ],
           "week_blocks": 28,
           "beats_baseline_mae": true
         },
         "2026": {
-          "n": 672,
-          "mae": 1.0967184545412747,
-          "rmse": 1.4305675362472707,
-          "baseline_mae": 1.1049107142857142,
-          "baseline_rmse": 1.4561292868423463,
-          "opportunity_mae": 1.0940480419215903,
-          "crps_n": 672,
-          "crps": 0.6903272514880953,
+          "n": 3029,
+          "mae": 1.2550374272760132,
+          "rmse": 1.6504201492553536,
+          "baseline_mae": 1.2823194568902723,
+          "baseline_rmse": 1.6945996162875197,
+          "opportunity_mae": 0.867859448922542,
+          "crps_n": 3029,
+          "crps": 0.8281482192142621,
           "paired_mae_difference_95_week_bootstrap": [
-            -0.03244624414885764,
-            0.014944651966743683
+            -0.03901190727101826,
+            -0.014252069532596114
           ],
           "week_blocks": 27,
           "beats_baseline_mae": true
         }
       },
       "evaluation_table": {
-        "path": "normalized\\mlb-total_bases-oos-1737556548e94ca9a23b2354ac1a5869bd17a00f3d1b4ea998a427898465aeb4.jsonl",
-        "parquet_path": "normalized\\mlb-total_bases-oos-1737556548e94ca9a23b2354ac1a5869bd17a00f3d1b4ea998a427898465aeb4.parquet",
-        "fingerprint": "1737556548e94ca9a23b2354ac1a5869bd17a00f3d1b4ea998a427898465aeb4",
-        "n": 1410
+        "path": "normalized\\mlb-total_bases-oos-90c0ff564a5968558d218d6685e9f18b4b99ae9ecad82258649ec92ff4cb3c7e.jsonl",
+        "parquet_path": "normalized\\mlb-total_bases-oos-90c0ff564a5968558d218d6685e9f18b4b99ae9ecad82258649ec92ff4cb3c7e.parquet",
+        "fingerprint": "90c0ff564a5968558d218d6685e9f18b4b99ae9ecad82258649ec92ff4cb3c7e",
+        "n": 5410
       },
       "rejections": {
-        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 227
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 308
       },
       "model_status": "UNVALIDATED",
       "recommendations_enabled": false,

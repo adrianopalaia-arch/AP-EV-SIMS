@@ -14,7 +14,7 @@ from ..integrity import digest,utc
 from ..research_store import ResearchStore
 
 HOSTS={'api.nhle.com','api-web.nhle.com','statsapi.mlb.com','stats.nba.com','cdn.nba.com',
-       'github.com','api.github.com','raw.githubusercontent.com'}
+       'github.com','api.github.com','raw.githubusercontent.com','site.api.espn.com'}
 
 
 class PublicStatsArchive:

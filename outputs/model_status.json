@@ -127,7 +127,7 @@
   },
   {
     "artifact_hash": "b8eeb687974c85700e638211e1e4b7661573e4d30b84b21b9b1d335d2bcad310",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; NO_PROP_OFFERS_RETURNED; UNCONFIRMED_GOALIE",
+    "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -173,6 +173,7 @@
     "real_evaluation_sample": 96525,
     "real_training_sample": 145238,
     "recommendations_enabled": false,
+    "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
     "roi": null,
     "sport": "NHL",
     "status": "UNVALIDATED",
@@ -180,7 +181,7 @@
   },
   {
     "artifact_hash": "24e668c69b9a1e2cb3d7e1a5644d6d36172f415f1a530841de54de4faa71d54e",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; NO_PROP_OFFERS_RETURNED; UNCONFIRMED_GOALIE",
+    "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -226,6 +227,7 @@
     "real_evaluation_sample": 5597,
     "real_training_sample": 8540,
     "recommendations_enabled": false,
+    "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
     "roi": null,
     "sport": "NHL",
     "status": "UNVALIDATED",
@@ -305,7 +307,7 @@
   },
   {
     "artifact_hash": "1753938bf05fd8799fa3376118f9dc18e901acac6f4eee9ac7085f47be9ace2d",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+    "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -348,6 +350,7 @@
     "real_evaluation_sample": 6152,
     "real_training_sample": 12332,
     "recommendations_enabled": false,
+    "research_admission": "FAILED_SIMPLE_BASELINE",
     "roi": null,
     "sport": "NFL",
     "status": "UNVALIDATED",
@@ -355,7 +358,7 @@
   },
   {
     "artifact_hash": "cda27b843f7d590a99c1d1ea178af8b95ce49d9f2108cdd9d1f233519876e717",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+    "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -398,6 +401,7 @@
     "real_evaluation_sample": 6152,
     "real_training_sample": 12332,
     "recommendations_enabled": false,
+    "research_admission": "FAILED_SIMPLE_BASELINE",
     "roi": null,
     "sport": "NFL",
     "status": "UNVALIDATED",
@@ -405,7 +409,7 @@
   },
   {
     "artifact_hash": "7430baa50e6a72d160c012f68f9d9534514d4d2e99c352568b8cdbfa8d7097ef",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+    "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -448,6 +452,7 @@
     "real_evaluation_sample": 6152,
     "real_training_sample": 12332,
     "recommendations_enabled": false,
+    "research_admission": "FAILED_SIMPLE_BASELINE",
     "roi": null,
     "sport": "NFL",
     "status": "UNVALIDATED",
@@ -455,7 +460,7 @@
   },
   {
     "artifact_hash": "be1bd8568222f610670679d2b9343fff92afa65af939e1b686493293dead8746",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+    "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -498,6 +503,7 @@
     "real_evaluation_sample": 733,
     "real_training_sample": 1510,
     "recommendations_enabled": false,
+    "research_admission": "FAILED_SIMPLE_BASELINE",
     "roi": null,
     "sport": "NFL",
     "status": "UNVALIDATED",
@@ -505,7 +511,7 @@
   },
   {
     "artifact_hash": "aeb27a30cbf24f00e591090b3c239e3b7e8ecd21063d43381d166d09d4a2d6a9",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+    "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -548,6 +554,7 @@
     "real_evaluation_sample": 6152,
     "real_training_sample": 12332,
     "recommendations_enabled": false,
+    "research_admission": "FAILED_SIMPLE_BASELINE",
     "roi": null,
     "sport": "NFL",
     "status": "UNVALIDATED",
@@ -555,7 +562,7 @@
   },
   {
     "artifact_hash": "31d9d594877bf70f6777c4fad63e454ef59fab5d9d0d6875f5bf493453ee884b",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
+    "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -601,6 +608,7 @@
     "real_evaluation_sample": 540,
     "real_training_sample": 950,
     "recommendations_enabled": false,
+    "research_admission": "FAILED_SIMPLE_BASELINE",
     "roi": null,
     "sport": "MLB",
     "status": "UNVALIDATED",
@@ -608,7 +616,7 @@
   },
   {
     "artifact_hash": "3e390128db7266f5cc0ab178bade16c30c3780d2444d7b55997135e9fb00ca4b",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
+    "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -654,6 +662,7 @@
     "real_evaluation_sample": 540,
     "real_training_sample": 950,
     "recommendations_enabled": false,
+    "research_admission": "FAILED_SIMPLE_BASELINE",
     "roi": null,
     "sport": "MLB",
     "status": "UNVALIDATED",
@@ -661,7 +670,7 @@
   },
   {
     "artifact_hash": "65d9cc5e976af68f43023b344eb6998521faf219a66099cee0574f779d169b2f",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
+    "blocker": "BENCHMARK_ADVANTAGE_INCONCLUSIVE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -707,14 +716,15 @@
     "real_evaluation_sample": 540,
     "real_training_sample": 950,
     "recommendations_enabled": false,
+    "research_admission": "BENCHMARK_ADVANTAGE_INCONCLUSIVE",
     "roi": null,
     "sport": "MLB",
     "status": "UNVALIDATED",
     "synthetic_performance_sample": 0
   },
   {
-    "artifact_hash": "bcd0b4bc1f57ddb3c3827cefd86ccd27156552b45d9d7682b4e144cfad53824f",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
+    "artifact_hash": "3604d982893c4084c8d842d91dcf9c639507a94a53cc3b25938acf16968e8657",
+    "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -731,19 +741,19 @@
     "clv": null,
     "ev": null,
     "evaluation": {
-      "baseline_mae": 0.6712056737588652,
-      "baseline_rmse": 0.8292609715073104,
+      "baseline_mae": 0.7295605580494675,
+      "baseline_rmse": 0.9055653805760058,
       "beats_baseline_mae": true,
-      "crps": 0.4028260664312772,
-      "crps_n": 1410,
-      "mae": 0.663497862853553,
-      "n": 1410,
-      "opportunity_mae": 1.0263450987530838,
+      "crps": 0.45707832144177446,
+      "crps_n": 5410,
+      "mae": 0.7095577042712934,
+      "n": 5410,
+      "opportunity_mae": 0.8385261105188156,
       "paired_mae_difference_95_week_bootstrap": [
-        -0.015998344393923416,
-        0.0012649216125056428
+        -0.024199538948327725,
+        -0.015427971933441085
       ],
-      "rmse": 0.8086235950081682,
+      "rmse": 0.8802963949634814,
       "week_blocks": 55
     },
     "expected_value": null,
@@ -757,17 +767,18 @@
     "prospective_frozen": 1,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
-    "real_evaluation_sample": 1410,
-    "real_training_sample": 2451,
+    "real_evaluation_sample": 5410,
+    "real_training_sample": 7816,
     "recommendations_enabled": false,
+    "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
     "roi": null,
     "sport": "MLB",
     "status": "UNVALIDATED",
     "synthetic_performance_sample": 0
   },
   {
-    "artifact_hash": "d6ace29298157780aa9db24d4b65fbee18b4284531f778dbde78a0985af39368",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
+    "artifact_hash": "ed924a418675b323f658af5a5f45bc2bca3fdad2643fd8cd96df5b9ba0bef527",
+    "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -784,19 +795,19 @@
     "clv": null,
     "ev": null,
     "evaluation": {
-      "baseline_mae": 1.137304964539007,
-      "baseline_rmse": 1.5440574714618964,
+      "baseline_mae": 1.2946520992870345,
+      "baseline_rmse": 1.72473079772738,
       "beats_baseline_mae": true,
-      "crps": 0.7210807118376074,
-      "crps_n": 1410,
-      "mae": 1.1187145672408696,
-      "n": 1410,
-      "opportunity_mae": 1.0263450987530838,
+      "crps": 0.8401871120147872,
+      "crps_n": 5410,
+      "mae": 1.2646291861371834,
+      "n": 5410,
+      "opportunity_mae": 0.8385261105188156,
       "paired_mae_difference_95_week_bootstrap": [
-        -0.036073853365407624,
-        -0.00012348260483130232
+        -0.0388341211310158,
+        -0.021561785870412218
       ],
-      "rmse": 1.5107625886722973,
+      "rmse": 1.6787269710474333,
       "week_blocks": 55
     },
     "expected_value": null,
@@ -810,9 +821,10 @@
     "prospective_frozen": 1,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
-    "real_evaluation_sample": 1410,
-    "real_training_sample": 2451,
+    "real_evaluation_sample": 5410,
+    "real_training_sample": 7816,
     "recommendations_enabled": false,
+    "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
     "roi": null,
     "sport": "MLB",
     "status": "UNVALIDATED",
@@ -874,7 +886,7 @@
   },
   {
     "artifact_hash": "137d72117ff5968fdc37376711268c5d3d20908479efc61c251dba0a39e35cdd",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+    "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -917,6 +929,7 @@
     "real_evaluation_sample": 51938,
     "real_training_sample": 79632,
     "recommendations_enabled": false,
+    "research_admission": "FAILED_SIMPLE_BASELINE",
     "roi": null,
     "sport": "NBA",
     "status": "UNVALIDATED",
@@ -924,7 +937,7 @@
   },
   {
     "artifact_hash": "c5a95e4592724fe9deaa8ef8d0bb778d655c634e2ecb2d0fead40eef2cd0dcc6",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+    "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -967,6 +980,7 @@
     "real_evaluation_sample": 51938,
     "real_training_sample": 79632,
     "recommendations_enabled": false,
+    "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
     "roi": null,
     "sport": "NBA",
     "status": "UNVALIDATED",
@@ -974,7 +988,7 @@
   },
   {
     "artifact_hash": "0f11e1d5daa3f81a28b2bab7f1ef72433ec091213961f564876e3deec9c23865",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+    "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -1017,6 +1031,7 @@
     "real_evaluation_sample": 51938,
     "real_training_sample": 79632,
     "recommendations_enabled": false,
+    "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
     "roi": null,
     "sport": "NBA",
     "status": "UNVALIDATED",
@@ -1024,7 +1039,7 @@
   },
   {
     "artifact_hash": "5f5dfa77d9408953d22f9acf2ad9f255aa3c20de11c536507fd7305e9ce39e31",
-    "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+    "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
       "UNVERIFIED_PARTICIPATION_AND_ROLE",
@@ -1067,6 +1082,7 @@
     "real_evaluation_sample": 51938,
     "real_training_sample": 79632,
     "recommendations_enabled": false,
+    "research_admission": "FAILED_SIMPLE_BASELINE",
     "roi": null,
     "sport": "NBA",
     "status": "UNVALIDATED",

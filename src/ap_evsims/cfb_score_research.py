@@ -50,6 +50,7 @@ def settle_forecasts(store,rows,quotes,at):
     for path in sorted((store.root/'predictions'/'cfb-score').glob('*.json')):
         f=json.loads(path.read_text(encoding='utf-8'))
         if digest({k:v for k,v in f.items() if k!='forecast_hash'})!=f['forecast_hash']:raise ValueError('FORECAST_HASH_MISMATCH')
+        if f['model_version']!=VERSION:continue
         r=latest.get(f['event_id'])
         if r is None:continue
         if (r.home_id,r.away_id,utc(r.kickoff))!=(f['home_id'],f['away_id'],utc(f['event_start'])):

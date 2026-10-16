@@ -15,6 +15,32 @@
       "x-calllimit-remaining": 969
     }
   },
+  "current_availability": {
+    "MLB": {
+      "confirmed_roles": 0,
+      "identity_reasons": [
+        "BOOK_CANONICAL_START_MISMATCH"
+      ],
+      "reported_injuries": 0
+    },
+    "NBA": {
+      "confirmed_roles": 0,
+      "identity_reasons": [],
+      "reported_injuries": 1
+    },
+    "NFL": {
+      "confirmed_roles": 0,
+      "identity_reasons": [],
+      "reported_injuries": 27
+    },
+    "NHL": {
+      "confirmed_roles": 0,
+      "identity_reasons": [
+        "BOOK_CANONICAL_START_MISMATCH"
+      ],
+      "reported_injuries": 0
+    }
+  },
   "moneypuck": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
@@ -97,8 +123,8 @@
     },
     "quota_metadata": {
       "x-requests-last": 3,
-      "x-requests-remaining": 399,
-      "x-requests-used": 101
+      "x-requests-remaining": 398,
+      "x-requests-used": 102
     },
     "refresh_mode": "BOUNDED_CURRENT_ODDS",
     "research_execution_refresh": {
@@ -139,6 +165,39 @@
       ]
     },
     "sports_endpoint_status": 200
+  },
+  "priority_prop_refresh": {
+    "MLB": {
+      "checked_at": "2026-10-16T14:43:58.451186+00:00",
+      "sport": "MLB",
+      "status": "DAILY_QUOTA_BUDGET_LIMIT"
+    },
+    "NBA": {
+      "checked_at": "2026-10-16T14:43:58.451186+00:00",
+      "sport": "NBA",
+      "status": "DAILY_QUOTA_BUDGET_LIMIT"
+    },
+    "NFL": {
+      "checked_at": "2026-10-16T14:43:58.451186+00:00",
+      "sport": "NFL",
+      "status": "DAILY_QUOTA_BUDGET_LIMIT"
+    },
+    "NHL": {
+      "checked_at": "2026-10-16T14:43:58.854759+00:00",
+      "deferred_markets": [
+        "player_total_saves"
+      ],
+      "quota": {
+        "x-requests-last": 1,
+        "x-requests-remaining": 398,
+        "x-requests-used": 102
+      },
+      "requested_markets": [
+        "player_shots_on_goal"
+      ],
+      "sport": "NHL",
+      "status": 200
+    }
   },
   "prop_prices": [
     {

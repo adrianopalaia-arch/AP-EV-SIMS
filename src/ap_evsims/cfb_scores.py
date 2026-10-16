@@ -11,14 +11,14 @@ import numpy as np
 
 from .integrity import digest, utc
 
-VERSION = 'cfb-score-ridge-v1'
+VERSION = 'cfb-score-ridge-v1.1'
 RECONSTRUCTED = 'RECONSTRUCTED_HISTORY_UNVERIFIED_AS_OF'
 POLICY = dict(version=VERSION, ridge=20., home_prior=2.5, home_prior_weight=20.,
               lookback_days=730, embargo_days=7, previous_season_weight=.5,
               minimum_training_games=80, minimum_team_games=3, minimum_residuals=80,
               warmup_season=2024, evaluation_start_season=2025,
               fold='Monday 00:00 UTC; previous games only; seven-day completion embargo',
-              distribution='rounded predicted margin plus rounded prior out-of-fold residuals',
+              distribution='rounded predicted margin plus rounded prior out-of-fold residuals, conditional on nonzero final margin (CFB overtime)',
               unknown_team_policy='PASS; no zero-filled team rating')
 
 
@@ -149,7 +149,11 @@ def margin_distribution(mean,residuals):
     if len(residuals)<POLICY['minimum_residuals']:return None
     if not math.isfinite(mean) or any(not math.isfinite(x) for x in residuals):raise ValueError('INVALID_RESIDUAL')
     counts=Counter(int(round(mean+x)) for x in residuals)
-    return {k:n/len(residuals) for k,n in sorted(counts.items())}
+    # Modern completed CFB games cannot tie after overtime. This is a support
+    # restriction, not a confidence boost. Nonzero integer spread pushes remain.
+    counts.pop(0,None)
+    if not counts:return None
+    return {k:n/sum(counts.values()) for k,n in sorted(counts.items())}
 
 
 def market_mass(pmf,line=0.,selection='home'):

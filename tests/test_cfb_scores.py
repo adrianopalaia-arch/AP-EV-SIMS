@@ -52,6 +52,9 @@ class ScoreTests(unittest.TestCase):
         self.assertEqual(market_mass(pmf,-3.5)['p_push'],0)
         self.assertEqual(market_mass(pmf,3,'away')['p_push'],.5)
     def test_no_residual_invention(self):self.assertIsNone(margin_distribution(0,[1]*79))
+    def test_cfb_overtime_removes_impossible_final_ties(self):
+        pmf=margin_distribution(0,[0]*40+[3]*40)
+        self.assertNotIn(0,pmf);self.assertEqual(market_mass(pmf)['p_push'],0)
     def test_crps_exact(self):self.assertEqual(crps({3:.5,7:.5},3),1)
     def test_invalid_distribution(self):
         with self.assertRaises(ValueError):market_mass({3:.4,7:.4})

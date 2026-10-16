@@ -1,0 +1,683 @@
+{
+  "actionable_betting_recommendations": 0,
+  "benchmark_reports": {
+    "MLB": {
+      "hits_allowed": {
+        "admission": "BENCHMARK_ADVANTAGE_INCONCLUSIVE",
+        "artifact_hash": "65d9cc5e976af68f43023b344eb6998521faf219a66099cee0574f779d169b2f",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "0a90f2b6fcbff1c4e34b2dc74eb09e32ef921c25b50b0ded49dc50358ec3f267",
+        "evaluation": {
+          "baseline_mae": 1.1855555555555557,
+          "baseline_rmse": 1.5919589609450782,
+          "beats_baseline_mae": true,
+          "crps": 0.8277846706096126,
+          "crps_n": 540,
+          "mae": 1.1716652981552704,
+          "n": 540,
+          "opportunity_mae": 2.560454279258018,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.04368507480472318,
+            0.013539694456359752
+          ],
+          "rmse": 1.5752736640577183,
+          "week_blocks": 54
+        },
+        "market": "hits_allowed",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "MLB",
+        "training_n": 950
+      },
+      "hitter_hits": {
+        "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "artifact_hash": "3604d982893c4084c8d842d91dcf9c639507a94a53cc3b25938acf16968e8657",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "371ccb310920f2491175ecc4dee9f51b6007399dee8474b36699d53e75b9a851",
+        "evaluation": {
+          "baseline_mae": 0.7295605580494675,
+          "baseline_rmse": 0.9055653805760058,
+          "beats_baseline_mae": true,
+          "crps": 0.45707832144177446,
+          "crps_n": 5410,
+          "mae": 0.7095577042712934,
+          "n": 5410,
+          "opportunity_mae": 0.8385261105188156,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.024199538948327725,
+            -0.015427971933441085
+          ],
+          "rmse": 0.8802963949634814,
+          "week_blocks": 55
+        },
+        "market": "hitter_hits",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "MLB",
+        "training_n": 7816
+      },
+      "pitcher_outs": {
+        "admission": "FAILED_SIMPLE_BASELINE",
+        "artifact_hash": "3e390128db7266f5cc0ab178bade16c30c3780d2444d7b55997135e9fb00ca4b",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "ee4ba15ba795c14ff2f4773ef99a23234d98d9a0fee042908d3ca8e399176d92",
+        "evaluation": {
+          "baseline_mae": 1.874074074074074,
+          "baseline_rmse": 2.754403881194757,
+          "beats_baseline_mae": false,
+          "crps": 1.5436104387743559,
+          "crps_n": 540,
+          "mae": 2.1339736168269896,
+          "n": 540,
+          "opportunity_mae": 2.560454279258018,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.17639575784192246,
+            0.34338640616630617
+          ],
+          "rmse": 2.909325661265547,
+          "week_blocks": 54
+        },
+        "market": "pitcher_outs",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "MLB",
+        "training_n": 950
+      },
+      "pitcher_strikeouts": {
+        "admission": "FAILED_SIMPLE_BASELINE",
+        "artifact_hash": "31d9d594877bf70f6777c4fad63e454ef59fab5d9d0d6875f5bf493453ee884b",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "f98b3acb54224d3d37f1dee0da7ffe4511bf8da02b5ba4c924f2c122316cf6f9",
+        "evaluation": {
+          "baseline_mae": 1.2938888888888889,
+          "baseline_rmse": 1.7413649393082002,
+          "beats_baseline_mae": true,
+          "crps": 0.9227701437723459,
+          "crps_n": 540,
+          "mae": 1.291301764391329,
+          "n": 540,
+          "opportunity_mae": 2.560454279258018,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.046964651482712824,
+            0.04236624413445891
+          ],
+          "rmse": 1.7630808507549358,
+          "week_blocks": 54
+        },
+        "market": "pitcher_strikeouts",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "MLB",
+        "training_n": 950
+      },
+      "total_bases": {
+        "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "artifact_hash": "ed924a418675b323f658af5a5f45bc2bca3fdad2643fd8cd96df5b9ba0bef527",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "90c0ff564a5968558d218d6685e9f18b4b99ae9ecad82258649ec92ff4cb3c7e",
+        "evaluation": {
+          "baseline_mae": 1.2946520992870345,
+          "baseline_rmse": 1.72473079772738,
+          "beats_baseline_mae": true,
+          "crps": 0.8401871120147872,
+          "crps_n": 5410,
+          "mae": 1.2646291861371834,
+          "n": 5410,
+          "opportunity_mae": 0.8385261105188156,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.0388341211310158,
+            -0.021561785870412218
+          ],
+          "rmse": 1.6787269710474333,
+          "week_blocks": 55
+        },
+        "market": "total_bases",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "MLB",
+        "training_n": 7816
+      }
+    },
+    "NBA": {
+      "assists": {
+        "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "artifact_hash": "0f11e1d5daa3f81a28b2bab7f1ef72433ec091213961f564876e3deec9c23865",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "bd67743846c61529d3c145f3a8b4326e50ea2af3cc1c3c13219211cf5dbe92f1",
+        "evaluation": {
+          "baseline_mae": 1.3861022253639412,
+          "baseline_rmse": 1.8918089143896761,
+          "beats_baseline_mae": true,
+          "crps": 0.9637182292348568,
+          "crps_n": 51938,
+          "mae": 1.3797318585923095,
+          "n": 51938,
+          "opportunity_mae": 5.406887079035111,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.01209718866270047,
+            -0.0010644605757448992
+          ],
+          "rmse": 1.8636824825399236,
+          "week_blocks": 50
+        },
+        "market": "assists",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NBA",
+        "training_n": 79632
+      },
+      "points": {
+        "admission": "FAILED_SIMPLE_BASELINE",
+        "artifact_hash": "137d72117ff5968fdc37376711268c5d3d20908479efc61c251dba0a39e35cdd",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "2c04fa5d5ab65c3b59daa2260543abd7d47b888b3d06891abd1d17d30dd2700f",
+        "evaluation": {
+          "baseline_mae": 4.759028087212654,
+          "baseline_rmse": 6.260670218017508,
+          "beats_baseline_mae": false,
+          "crps": 3.367747756228579,
+          "crps_n": 51938,
+          "mae": 4.7637491122705,
+          "n": 51938,
+          "opportunity_mae": 5.406887079035111,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.01201945578163589,
+            0.022117047846397155
+          ],
+          "rmse": 6.196105002903086,
+          "week_blocks": 50
+        },
+        "market": "points",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NBA",
+        "training_n": 79632
+      },
+      "rebounds": {
+        "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "artifact_hash": "c5a95e4592724fe9deaa8ef8d0bb778d655c634e2ecb2d0fead40eef2cd0dcc6",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "262abd8474b1b1c1eb5c46cd4eeb72e5e9fe730e3977d1babaed84f0b1a3f99c",
+        "evaluation": {
+          "baseline_mae": 1.966158192582487,
+          "baseline_rmse": 2.5976393482786793,
+          "beats_baseline_mae": true,
+          "crps": 1.374680497670299,
+          "crps_n": 51938,
+          "mae": 1.9530995824898012,
+          "n": 51938,
+          "opportunity_mae": 5.406887079035111,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.01802558628578086,
+            -0.00818806268282577
+          ],
+          "rmse": 2.558543785344633,
+          "week_blocks": 50
+        },
+        "market": "rebounds",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NBA",
+        "training_n": 79632
+      },
+      "threes": {
+        "admission": "FAILED_SIMPLE_BASELINE",
+        "artifact_hash": "5f5dfa77d9408953d22f9acf2ad9f255aa3c20de11c536507fd7305e9ce39e31",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "4bab8de7f922b16e7d85842edae857891d3323875dd36d5eb049e3add4e53220",
+        "evaluation": {
+          "baseline_mae": 0.9102062089292057,
+          "baseline_rmse": 1.2832211151427262,
+          "beats_baseline_mae": false,
+          "crps": 0.6253598342061689,
+          "crps_n": 51938,
+          "mae": 0.9158801898479991,
+          "n": 51938,
+          "opportunity_mae": 5.406887079035111,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.0033932604601741184,
+            0.008089324649827293
+          ],
+          "rmse": 1.2608755232604,
+          "week_blocks": 50
+        },
+        "market": "threes",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NBA",
+        "training_n": 79632
+      }
+    },
+    "NFL": {
+      "passing_yards": {
+        "admission": "FAILED_SIMPLE_BASELINE",
+        "artifact_hash": "be1bd8568222f610670679d2b9343fff92afa65af939e1b686493293dead8746",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "180bdf586e8484f6d6e9cf64e2dc4a6ee2035f436b6f8862002beac8e830f1a9",
+        "evaluation": {
+          "baseline_mae": 68.01112518677321,
+          "baseline_rmse": 87.54762813156049,
+          "beats_baseline_mae": false,
+          "crps": 48.77677598340132,
+          "crps_n": 733,
+          "mae": 68.2563700786687,
+          "n": 733,
+          "opportunity_mae": 8.247122391799724,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.7530364837217282,
+            1.2759178162475022
+          ],
+          "rmse": 86.51405290074479,
+          "week_blocks": 24
+        },
+        "market": "passing_yards",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NFL",
+        "training_n": 1510
+      },
+      "receiving_yards": {
+        "admission": "FAILED_SIMPLE_BASELINE",
+        "artifact_hash": "7430baa50e6a72d160c012f68f9d9534514d4d2e99c352568b8cdbfa8d7097ef",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "d7154d0712fe8d3436606bd7332aabf0dbd5509ad7ed7468c9397ab5b3d9d771",
+        "evaluation": {
+          "baseline_mae": 16.541436131236196,
+          "baseline_rmse": 23.890315694323174,
+          "beats_baseline_mae": false,
+          "crps": 12.053294036248367,
+          "crps_n": 6152,
+          "mae": 16.749601608822278,
+          "n": 6152,
+          "opportunity_mae": 1.6609472106547813,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.07370431738559739,
+            0.3501402175774978
+          ],
+          "rmse": 23.594218591312423,
+          "week_blocks": 24
+        },
+        "market": "receiving_yards",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NFL",
+        "training_n": 12332
+      },
+      "receptions": {
+        "admission": "FAILED_SIMPLE_BASELINE",
+        "artifact_hash": "1753938bf05fd8799fa3376118f9dc18e901acac6f4eee9ac7085f47be9ace2d",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "3edff8dc6d041268f1272e074758d5c2927d48646fd25c21883629cf1c44b696",
+        "evaluation": {
+          "baseline_mae": 1.2719188623650588,
+          "baseline_rmse": 1.7400273689903099,
+          "beats_baseline_mae": false,
+          "crps": 0.8784537491872563,
+          "crps_n": 6152,
+          "mae": 1.2836083261113365,
+          "n": 6152,
+          "opportunity_mae": 1.6609472106547813,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.004435374833187758,
+            0.018637732586032164
+          ],
+          "rmse": 1.716279704497684,
+          "week_blocks": 24
+        },
+        "market": "receptions",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NFL",
+        "training_n": 12332
+      },
+      "rushing_attempts": {
+        "admission": "FAILED_SIMPLE_BASELINE",
+        "artifact_hash": "cda27b843f7d590a99c1d1ea178af8b95ce49d9f2108cdd9d1f233519876e717",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "eeb3a8f6ac6b5540ed929169699d2e3bc2c40a1b91ab5a772f6d198f83efa516",
+        "evaluation": {
+          "baseline_mae": 1.1432188138584432,
+          "baseline_rmse": 2.611126912763616,
+          "beats_baseline_mae": false,
+          "crps": 0.9767837426853057,
+          "crps_n": 6152,
+          "mae": 1.3719717364383883,
+          "n": 6152,
+          "opportunity_mae": 1.3719717364383883,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.21141536080594397,
+            0.24708941257255007
+          ],
+          "rmse": 2.661982252138696,
+          "week_blocks": 24
+        },
+        "market": "rushing_attempts",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NFL",
+        "training_n": 12332
+      },
+      "rushing_yards": {
+        "admission": "FAILED_SIMPLE_BASELINE",
+        "artifact_hash": "aeb27a30cbf24f00e591090b3c239e3b7e8ecd21063d43381d166d09d4a2d6a9",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "561c48e6bd9ae7218a7395023b5d7e241efcdd7ce3560aae3ea531e4a71b8214",
+        "evaluation": {
+          "baseline_mae": 6.59888583142403,
+          "baseline_rmse": 16.01996697408477,
+          "beats_baseline_mae": false,
+          "crps": 5.768115130364109,
+          "crps_n": 6152,
+          "mae": 7.48742871447756,
+          "n": 6152,
+          "opportunity_mae": 1.3719717364383883,
+          "paired_mae_difference_95_week_bootstrap": [
+            0.7966635032979305,
+            0.9797674545622908
+          ],
+          "rmse": 16.05602805361764,
+          "week_blocks": 24
+        },
+        "market": "rushing_yards",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NFL",
+        "training_n": 12332
+      }
+    },
+    "NHL": {
+      "goalie_saves": {
+        "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "artifact_hash": "24e668c69b9a1e2cb3d7e1a5644d6d36172f415f1a530841de54de4faa71d54e",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "7211494daa2d5bf0196c920de11fea24576da9b1bbf9c0d608bf2536fa15a3ef",
+        "evaluation": {
+          "baseline_mae": 6.086586138832877,
+          "baseline_rmse": 7.834115774967838,
+          "beats_baseline_mae": true,
+          "crps": 4.297634085760226,
+          "crps_n": 5597,
+          "mae": 5.988501878416693,
+          "n": 5597,
+          "opportunity_mae": 6.082147242085768,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.1152066828729984,
+            -0.07816931318472806
+          ],
+          "rmse": 7.7202212992923895,
+          "week_blocks": 57
+        },
+        "market": "goalie_saves",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NHL",
+        "training_n": 8540
+      },
+      "shots_on_goal": {
+        "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "artifact_hash": "b8eeb687974c85700e638211e1e4b7661573e4d30b84b21b9b1d335d2bcad310",
+        "betting_validated": false,
+        "calibrated_probability": null,
+        "dataset_fingerprint": "e1c0cf5a9d0a3919414a78e066099c0813e1a0f5cb76ee089ea8ddfe2bdcfde6",
+        "evaluation": {
+          "baseline_mae": 1.0591225934559267,
+          "baseline_rmse": 1.372204090710564,
+          "beats_baseline_mae": true,
+          "crps": 0.7053642101631702,
+          "crps_n": 96525,
+          "mae": 1.0374640585000883,
+          "n": 96525,
+          "opportunity_mae": 1.9526839359475912,
+          "paired_mae_difference_95_week_bootstrap": [
+            -0.023790094117241797,
+            -0.01960283444290839
+          ],
+          "rmse": 1.3398035149512226,
+          "week_blocks": 57
+        },
+        "market": "shots_on_goal",
+        "model_version": "opportunity-partial-pool-v1",
+        "p_low": null,
+        "selection_caveat": "Existing evaluation informed this research shortlist; new prospective outcomes are required. Multiple comparisons are not adjusted.",
+        "sport": "NHL",
+        "training_n": 145238
+      }
+    }
+  },
+  "cfb_model": "PRESERVED_UNCHANGED",
+  "comparison_count": 244,
+  "fresh_ranked_candidates": 0,
+  "generated_at": "2026-10-16T15:02:00.207814+00:00",
+  "model_calibration": "NOT_DEMONSTRATED",
+  "prospective_settled": 0,
+  "ranked_research_candidates": 8,
+  "ranking_basis": "Conditional raw model EV among models with historical benchmark advantage; not betting confidence",
+  "recommendations_enabled": false,
+  "rejections": [
+    {
+      "quote_id": "80dc4c568a594086fdc99de124f6a8632bdfab6d315408c834bc96bbd00e6813",
+      "reason": "PLAYER_IDENTITY_AMBIGUOUS_OR_MISSING",
+      "sport": "NFL"
+    },
+    {
+      "market": "receiving_yards",
+      "player_id": "00-0041503",
+      "quote_id": "5b35dde3ff2b1cc24b4ec108548bfdbc888f510c9faa412459b2beb265397dba",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "quote_id": "a10c7b7db184102ce0ad6d4055c9c6984019c385cecdaad76cfb133fe2fd2de2",
+      "reason": "PLAYER_IDENTITY_AMBIGUOUS_OR_MISSING",
+      "sport": "NFL"
+    },
+    {
+      "market": "receptions",
+      "player_id": "00-0041503",
+      "quote_id": "1b6f0528765f2806bb77cf939fcf0d53437e712ed28210978ec021d4e0159dfd",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_attempts",
+      "player_id": "00-0036971",
+      "quote_id": "dd2ddb95197406dd935d634f7672fc1e54ea8554e6917d82ba3723eb327bfa32",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_attempts",
+      "player_id": "00-0039163",
+      "quote_id": "b3e63d5bf24c48364dc3c7295e661efbfec45b3b9b6a3d27840232cb86dd9c45",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_yards",
+      "player_id": "00-0036971",
+      "quote_id": "0a013be147979f9d535f84bb8950ad26a0399a8310e72761e8bedd18b4898088",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_yards",
+      "player_id": "00-0039163",
+      "quote_id": "c70530cbdc144954f40e2357e40587566e91d10fe42f141cef6da1bcb693e66d",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "receiving_yards",
+      "player_id": "00-0041503",
+      "quote_id": "923047c5df19f0ab6d5b079acb4e70bfa3ebddc3479b031d17c167b193f6703a",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "quote_id": "6ef8c238e69df602f1a37fef330566094ce9f83bc603118b775ffe0103c0793d",
+      "reason": "PLAYER_IDENTITY_AMBIGUOUS_OR_MISSING",
+      "sport": "NFL"
+    },
+    {
+      "quote_id": "69faf86a3a3d131e95eb2a339b2db12a0462b5ab6bc9f53061950f3e51550de1",
+      "reason": "PLAYER_IDENTITY_AMBIGUOUS_OR_MISSING",
+      "sport": "NFL"
+    },
+    {
+      "market": "receptions",
+      "player_id": "00-0041503",
+      "quote_id": "d8e3cf180781b0ee4a414736a23b69c28aa456c1449ae64c5a1287477aa8beff",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_yards",
+      "player_id": "00-0039163",
+      "quote_id": "39612dab03eff2399e43926e7153bea27274ddbe08353e13b2068466401b0aef",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_yards",
+      "player_id": "00-0036971",
+      "quote_id": "27c090fbf63ad483af323c533e312764bffa80424ce94828dabd60d2f62e4387",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "quote_id": "6d274df67a97740f700f9a512186d3b9acda8d9cc3eab506eecc8afc3b23bca7",
+      "reason": "PLAYER_IDENTITY_AMBIGUOUS_OR_MISSING",
+      "sport": "NHL"
+    }
+  ],
+  "sports": {
+    "MLB": {
+      "benchmark_admissions": {
+        "hits_allowed": "BENCHMARK_ADVANTAGE_INCONCLUSIVE",
+        "hitter_hits": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "pitcher_outs": "FAILED_SIMPLE_BASELINE",
+        "pitcher_strikeouts": "FAILED_SIMPLE_BASELINE",
+        "total_bases": "RESEARCH_BENCHMARK_ADVANTAGE"
+      },
+      "comparisons": 44,
+      "confirmed_roles": 0,
+      "event_identity_reasons": [
+        "BOOK_CANONICAL_START_MISMATCH"
+      ],
+      "injury_reports": 0,
+      "normalization_rejections": {},
+      "paired_quotes": 27,
+      "price_refresh": {
+        "checked_at": "2026-10-16T14:43:58.451186+00:00",
+        "sport": "MLB",
+        "status": "DAILY_QUOTA_BUDGET_LIMIT"
+      },
+      "status": "RESEARCH_CAPTURED"
+    },
+    "NBA": {
+      "benchmark_admissions": {
+        "assists": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "points": "FAILED_SIMPLE_BASELINE",
+        "rebounds": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "threes": "FAILED_SIMPLE_BASELINE"
+      },
+      "comparisons": 32,
+      "confirmed_roles": 0,
+      "event_identity_reasons": [],
+      "injury_reports": 1,
+      "normalization_rejections": {},
+      "paired_quotes": 53,
+      "price_refresh": {
+        "checked_at": "2026-10-16T14:43:58.451186+00:00",
+        "sport": "NBA",
+        "status": "DAILY_QUOTA_BUDGET_LIMIT"
+      },
+      "status": "RESEARCH_CAPTURED"
+    },
+    "NFL": {
+      "benchmark_admissions": {
+        "passing_yards": "FAILED_SIMPLE_BASELINE",
+        "receiving_yards": "FAILED_SIMPLE_BASELINE",
+        "receptions": "FAILED_SIMPLE_BASELINE",
+        "rushing_attempts": "FAILED_SIMPLE_BASELINE",
+        "rushing_yards": "FAILED_SIMPLE_BASELINE"
+      },
+      "comparisons": 112,
+      "confirmed_roles": 0,
+      "event_identity_reasons": [],
+      "injury_reports": 27,
+      "normalization_rejections": {
+        "MISSING_PROP_COUNTERPART": 12
+      },
+      "paired_quotes": 116,
+      "price_refresh": {
+        "checked_at": "2026-10-16T14:43:58.451186+00:00",
+        "sport": "NFL",
+        "status": "DAILY_QUOTA_BUDGET_LIMIT"
+      },
+      "status": "RESEARCH_CAPTURED"
+    },
+    "NHL": {
+      "benchmark_admissions": {
+        "goalie_saves": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "shots_on_goal": "RESEARCH_BENCHMARK_ADVANTAGE"
+      },
+      "comparisons": 56,
+      "confirmed_roles": 0,
+      "event_identity_reasons": [
+        "BOOK_CANONICAL_START_MISMATCH"
+      ],
+      "injury_reports": 0,
+      "normalization_rejections": {},
+      "paired_quotes": 45,
+      "price_refresh": {
+        "checked_at": "2026-10-16T14:43:58.854759+00:00",
+        "deferred_markets": [
+          "player_total_saves"
+        ],
+        "quota": {
+          "x-requests-last": 1,
+          "x-requests-remaining": 398,
+          "x-requests-used": 102
+        },
+        "requested_markets": [
+          "player_shots_on_goal"
+        ],
+        "sport": "NHL",
+        "status": 200
+      },
+      "status": "RESEARCH_CAPTURED"
+    }
+  },
+  "validated_edges": 0
+}

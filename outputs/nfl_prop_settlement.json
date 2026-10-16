@@ -1,494 +1,2047 @@
 {
   "sport": "NFL",
-  "generated_at": "2026-10-16T05:38:50.222102+00:00",
+  "generated_at": "2026-10-16T15:02:02.270951+00:00",
   "settled_n": 0,
-  "pending_n": 120,
+  "pending_n": 240,
   "pending": [
     {
       "forecast_hash": "8e4fbc77329fb87a7ab8373b5e84c921febad1481f43f47e91bd6ead3afecef9",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036554",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "651d7be5aedd2d54c3b4e4cf42d984d2434e492b72d03f142f6f182833ee7dab",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040130",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "6dba0bc2493e5e5582303d794a78e6a153facf98126f6a7eec5676cf3ff6ff15",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039359",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "4016df29aff2ec3b30314f19a542c83c8fdf297866826039f198d0ddc7d91e30",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "passing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0033319",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "6a3e729b9ddfd8fa97ce947f9233da6e80515adf9919bd865260da64682c42c4",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039359",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "91e45d18bffea8bfcabf58701f66b3af850e248c44adb6a2fc1d98969bc1f819",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040130",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "9c06595014712f3322fe5de29ac883c3f18c10a89eb01807544e862c1fbb5515",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036841",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "b91fcec97439c1f7d4cd7fb202cf30e9d0f5fe5ad79e04c09ab008cfffec030f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039893",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0ad1693cf1eba8e5365c93d0a1b653fbef65ac3a35b42c24e71e47a5fd8e6395",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0035685",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6b8a5e4357de0590a348aad1972739802ef5dcc0af32ff1f09e25a92bdcc8167",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039849",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "8e967f3f4f511c51e5f7dddbd1a9ff312264eb1d969360939d988e7840121742",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040719",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e55f6d80f87ab64c85651bb52bce4287b0e1154debbdfa24d29271a559a7a000",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036590",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b2edfb8096883b4a648b1188dd55b354b4a6c7c1f37d5e42a9222472723c3cd8",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039458",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "900a3ded82c365e1bd206bf54fec6bb341fc57f733f12c679694030898898be2",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039359",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "b95d930ac6f998b6372402c44df53bd57fc909bf0ad42b1d81ac1271d7b31c52",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040138",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e8176d930009525bcc73aba29d989f3c548fe249a84ebd519d11502eba468950",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038622",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9560bb6492bd40889e38c5fbf1875db641246cd00823468d79bff82538978f3d",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038977",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4911e8dc399dfdfed821657e04cb1644ccbb6ab0756374664372fa04d6665150",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "passing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0033319",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "778e68870da1fbb1f57e26a619da896def7920360f3a06c7b8b0816d46192378",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038608",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "07b420af47b9e9823ab5d0d43ae195685be20142c05e9ae33a4a1cad66607e42",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038611",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8abacd35803d8d30cb6cc39dc86008788bc554a21aaa22601b6d439168928245",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036590",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2f8d9bb20bf1537e686ef99a8e90fd8f84a137207a62612fdba9ff3004387451",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036497",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "6dce7cab7f16b590c50adfb20a4cf589a17b07fa4f6daf3e3da7999a78414589",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039458",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e9ab60fec3e1d4592596472cc336c90c256a19a20f2cf06f9a6a7b4f3956bb48",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "passing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036971",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "73bb6434303271a73d766257a88bbba08441f86e550cd93332fc95046adf3ae4",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040130",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "eaf28f1b263fac04abb0c8c18ca147c2ffc3563cb557a4f4b852607b5fa99850",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039359",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "184dc51bf33918a54c58a9aa23e44c4c0f3cf9fc67db86a16dc2fa898393e582",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036554",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0b1d4544a4844c24e6d10f221c30cc35cb9c0018ed081d4a9f83fecb984a8afe",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0041100",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "3f596aee85a467af8d7302bcb1a754d5386bd566a984fd9d1fa5680b3134cf21",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039849",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "873df858f9bfd8aa0dc114437157bed31f073d37ffd8666f7dac90cc0240da97",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039603",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "1fd89e94b05eb07711fcf4068abbd6228d83ee5019c6bfc4bbb19aae85d741d5",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0041100",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "1fd1ba047628f8ccf4e58e89898a602970b566ddeab42a43ec28b51103ed1e3b",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036841",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "54ae29cffabfbb0fa28abff1f6da736b8f192362213af56d12a280300364810f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036590",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0a9cb8b8d57a94eaefca2ac2f3d8b29bf166b8e075a71782ec391f84d1972efe",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0032104",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6c2b6a1f140add26815309814bbaead8d60a233b830c8143841b1b94cbd06145",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "passing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036898",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "bf5ef149be69fab5bc0f6143fe80ddb5a70cd93bc6e10770466efec15fa82ece",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036554",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6e8d4a90182eb2e46d1dca8004e0bb522d0ee8015bd0417c89cae1a197513933",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038622",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a792ee724ca2844b442abf0f8fd521d9629678648099c3e5c843f872fc14a381",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038608",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "5b74a8af3cfd682b61cb746f200a1a368cc76f0a0a2a7064ad588a07395e1bc0",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039650",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "fbf50234179f5bebeedf94eec6da4ab9efde587b688c450d4b830ddd5abe632c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0033854",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "17b2608569af10d000b9a267bb46bf43ff4899a4e28e785adfa0dc45220dccb1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0033854",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "41ddb0f3e6bda0fb696b0a456073c70dd9781699c2b03bab333d8594636db717",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036590",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "270fe8ac41aee2a5c935c8e6bfe00cae2c0096795da0d1e42da2590f85048912",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0035685",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "b2dca3754ab98c0b11d03837609f3f27f5cd8d86a0a3f39750a9c6cedf1ffd4c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038622",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "172a26dad43d63d6f5df958c620022779b84fe363f7abe8a5ee667c4ec6921d1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036554",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d59a9a3f1dac38e570249228f1c40550ea53e3730ae9188b70742e59f163692b",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0035685",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "2b6138071771a70cc96d71bbc93f4170a3b5578ebaeaa9c76d3746f211f98531",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038611",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ce2a6c09d69ddcb5cbda3b3b143563eeb5dff420471bb4165966715d3acf9802",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039650",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "2446e8e8c6a322917ba5f34d60fce45379e100295922faf63c563aefcd8048c5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038977",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "48e74d2d312c4b5d4c1efab6d0b95a1975f576799d86e19f7d389b0b9e6ba268",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038935",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "c91dff31daf73d0424fe0cbf5a8ec65489c63b72db04c8713d61b72d6fa20400",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039603",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "945c4926f4ac7daddc8c86564bc89fbde7971ec1254ec701d0b3d134b129767c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039849",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c311fd6b43a68c08a13f6726af8e65c2142314ed5e4f6868bc8160aff151e1ec",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039893",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "0776616974cf15f9392c55deea8588846c4d681cffa2711b4bf72215e5c1a95f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036497",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "be706cb4c22301aa79d50c51b184a0bce87f91a5b5b230731a78e82f233adfae",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034960",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3d60ac4e168cee66b0f5c72f4bff02422055d953a40d44fbfafc224fd20ace78",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038618",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "83a750780c65dbff07a8b5fd8ca7d2bcf213f4b8c47db6c5a45a0d59a5865e22",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034383",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b7d0d77816abda6ba9fa9b5be919df4d10c5340f2b196a3d91aae3faff72594a",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034981",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d22b08e654942cc5f7a74a4f5bd81baa9de2a3625a30bff968b4e6098f897a46",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034383",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "285f616a4db2684b5fb58a5b306c4595c25644521d7458a6afff6be6b015ec37",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0041100",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "cd7ff0252800eedc0250fe300561f485da78a635cad178f5fd37a63a2504b27a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038977",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6b86cc588c4e8d95a26967beda8cef903b279067ceeab24e6dc44dc495099235",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039849",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "813cb83142acf8c2b5c7bad1119cc08655a13dee094baa5e519a372486ca7ee0",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034960",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "df5c011700b3e2024bf1bb719b7649a114b9f520ffd3428232c55195d62fbe89",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034981",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7553c44f2a8a76fa5148f20a61e9b9781975876c754f7f84f4ef9788e4da2999",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040238",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "1dc05bb1c8f633c362ecc7748aef00fe11ac515c39fb759248ca98d5547d0dce",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038611",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "d98675b6aff4c4d32a315ef768f0c6fa4d4ae291983208ea3ff4364c7774b5d1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039650",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "e9ed0c377e12e7c8b074a25123f085097cc57110a9b3d2f6472fa40be45b4886",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036841",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "70b41cf0985724f3bde4632bcff797ecbcf76b2eb2a774248526a7d79b7a31b8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040138",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "fcb8bdb9f88b5eae57500c0b8bfc44943944fb56cb144db6b6233c5d543dc969",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039650",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "70f4546279b5cfac4c54258cbe4d5d4fda40a5a3a47a816b0da9d6d15e3ae9db",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040238",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "05e754b94fdaf16d60a88bf6d1b0edee794521ba8498c2ebfb81e2655539d0f4",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036497",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "f798c23ff18d2343e1632e338afc5274fa3a7700928840900568605410f70725",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036497",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f2a9145977c8312521293b12d6f36cb55e720945f91b73b5f08ce307d0d8dc46",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039359",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "7a771e0095155573c05c695d20874997db820607e7873dd40369c275461f86ef",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0035685",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "2a6ef3c178fa1167745af0ab888204e46ae1f4599d6791d6cd4d36f9730f40f9",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038622",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "bd1f4c1d8d49c78bf4626d4160d0444c221c2eac9cef517a1b85c5276d49fd33",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034960",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ae7f912e7f8c636a7d9a18f39e6c590835937ef542899aa5fe4fdfd4899bc96d",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038606",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "a1587d8716c17a25105daedce2612b6e79fbb3c8345dbe4b77a1b8a923699e7a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0032104",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b50804c2421ade63c82bc9e57906bbbd0b9bffd4efe37199488dcafaf13823bd",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040719",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0a9c3aa6986ec2c2612c0fd10c22f7dd5aa553d7e2466893e9ec43003f625b88",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0033854",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7dfd87b6f07efd37157c265f5e24c82dbbf58dcb1eebeb89bdd7e09b4a4b1b0a",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036554",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "19a5b51afdad35ac450737a714b575032024fa7e75b96ccabef31284e9c4548d",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040719",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "1aaf80fd662e11e409690f23b65d6ec148c5c477537c0be8ceddd67c4a049ec6",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039458",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "31ca57b93ffe96c271d1feef852acf4746f8b4b96bad1177647fc5e9f298289c",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034383",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d5ea1997e0a2ac5725e97830cf04dab50d397b0fed12d566ccd2320cbf557c97",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038606",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "f5d7ce2f54329f0d518c46473782d92bc14e055d5d01c3f50556f9e622652111",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039893",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "946fc8e32b340ad76b092ace83f966274b74b16906aa89ddc187b1c692aab97e",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038618",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "6e7ffc7d7dc5d98c74f4e48f7104ef025ba4291b738ad9212360e38e57e94afb",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034383",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "33266ba9d436ab711f3f3597cd2126cd5c2b4c1afa900beebcdb2aa21ec0ae6a",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0032104",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "aa054870964971c5e1993367e0f9b84aa00b3f39869124c9bc914117f1a07216",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039893",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "1a6d5401f2b2e39b3bc878bce3ee8dc24089f81f121592e84ed05c7a9aea578f",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040238",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "d7cee2668e06a696c870de079ed0f89f8cd6100b0f28a08a76a78ef898aa2ae7",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038608",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2a97071ad71623b09c7968af478d4d630a94a8ae47f7b589a12ee2075d8e5a0c",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039650",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4562d8ecab2c78955f8d56a7d9666b7ec4f1f52e8b82161c1f5b8196f93c99c6",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040130",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "15d736e7581ebc0a1d7de4db77ec381b7377deb77991f3df77a8dc2efef0b57f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034960",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "4f6a7fc411c555a595c4d96e9d675440890e32a0b6baeb8e3b3f63641f64ec2f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038608",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "58f5ca4af5ceccaaf643a98203c55fff6f39ca0965ecb62819b3eae9b43f9c16",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034383",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "03faa0b8c3109b30ca51a2ae6ae8e935dc929054eda8aae58c96fd713cb484dc",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039458",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a74fd95a1e2113d73568e7c801a40537d7c7647da22e315355fff87f9601e1b2",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038618",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "43bea26889dd2de836668ac581ca50424bf8876ab3d6af3a4d8ff7d8c3940264",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0032104",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c28386f5a8e40900e7a81af1f25dad570d568deaf7b3d308896a50e55f651ba4",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039650",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "877ad263a0efa8a0cc5926596fb2d3cc5a2c70feb201dc2435d75fc8995be2d3",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039603",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "a90507ec9a93cacf7db961b4fbb3bd95de02546587ade274134f01b9ea334b84",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0035685",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2a3be452d0cec1643fa0d86c0485b03c74c280978d8c5898cca352713b7bb02f",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034383",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "64e04c44716f20b18dce383f2aeaff68c52e0c37cf9bb9e67235f529b8b958a1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039650",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "2db75ef59f8b9dd8cdeda0999ab4c6dafc2696628db480dfa8746ba8c44bcae5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039893",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "c320a91d0736e7e4fe4de3cc022faec1eca4f234fa42b99454e4376ac988cb7d",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036497",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "30141b2d6b4fc6875e5b0485db98dbd700611836c7963ddbd4edd3e5198f8eb0",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036497",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "70aae9fdc31a35c825c2e23cafb8264f9e267c2b9cc2c1514e457e3ac0968c5d",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0033854",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "38d1b5afeecc99c00c141840d8fdb0269ee224c5a4bafc277b6a34103d81c78f",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040719",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "087a0834b4842dcdfb17b2fbd2d8b4cf2c0e22b3c70d10a9f060f531dc531feb",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040583",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8aa3cc3306ff6c977c1e592839f50a9a7806c6ce74fb44dfb39bafa95eeb6410",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039893",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b1e26aa0890da4b2ca7699332ec55189b709e82db8015c4bac12883b5a082122",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040583",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "be650e20caa7d2a0278bcd1d7e74f46cb36a1ca0f26dacf7735923584858db63",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038935",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "4fda2d7eaccce685c88d12611969e430bf691ca04954686bbfdbf3811372cb19",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034383",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cde38688465fc0c742140d9f47c7e11d43856e7926be7f81e7f1ba1b0d1f258c",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040238",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "31f883621ded7b540b2a96c326ade36fb8f5563cd460c93360b49329baebde84",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040138",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ba43ee021c98d181f29e9e10db8581bbfa6832423775c0307ea02a509f3e6983",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0035685",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a4d0139d885cfa36c9f288a8a3ff5baa1dd33ef59d4c482ab13e1ff49cfc2b2f",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "passing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039163",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8bccb4ecaca9fd4f4c9aaeebda719ee796830a8b4e364a1e9e365191be5b5686",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034960",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "7868d230ecbb48dde26b2f5e5967049e766fea2b7ea3ce8acb8810fb6a57610f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040238",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9259ffc2c9bbdcd6206272eed85f178af8e143c49cf5fe589d9192d7e53a15c9",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034960",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "52fd09ff2ce5d7f488702e1df9a7e538586f6012f2bc8f14fa723bffb1b28be7",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040719",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b8751becdb1d002970548941f4965fb7246d4629ed768bf314c08c246281c497",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036497",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "a51e35e0990de1667313fad997c7c76b6e0243eff05ed892838b950a831d91fa",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038606",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ac2756a7dbda514efa04c93cae7a61a2c947d2ec0b21ffe0f5c4b62a0359f435",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0041100",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9d3d21ff970ed995e32b2eb6c03278734c5032e4ee8dfe75c36472e076072249",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040583",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "f89a775ee27d35c4d93f2c1048ed4090f095ddad5757579d25f5fea1e9377160",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0035685",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "db164a9db315fc2278da22a24ef5a6b5e8e73e2d15d9db70ae5cf1ce036e52a9",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039603",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "d0536d532016f82b14f456209e67fa65a8531e2c995b4ae58bfbc6ec898b4dda",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040238",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0f5ec11764e575b100d6d666da6472f4b062f4246af9490fb62ec75a3700906d",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038611",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "17fc7d67f8c1801c1b7d5579f976ce189132f66ef2c9fd495efc1de68c8928b8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038618",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "d1fcaefc8236be141d814bffe42c3d265f19e7bac6096ef78183f46ea8be0237",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0033854",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "ae18bd08f47a0364293879db7a390b84efbc7b61a68c6da32b23359e469dffc1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038622",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "97418e5eae1690b18aa7c989b83051cf0d4d83d643381a93d7d1f6a9f35d11f0",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036841",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "523c6cf2f7745dc2173312ab982779f330d731a81f70ad4df907c4439e53236a",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036590",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "50bcb245532448bda4e906a2945ad9e5de41bd00fc4af4731e8a0fc17cf4f50d",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040583",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "679b3b5379673d9ecc09e5fb1b51fb31c70d94b187b27a26244c412a634dd941",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036590",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "0ec07c8cb68ed67d91f064db3c75e5dd87b6adb05ae44d1e4807af4a8fb024c5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038611",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b533636d70c32728498d4c4267c5019f327c51bbb0c117168eb9dd185739e07b",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0035685",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "b19e9f1bba2efe4e2d94ce3e6e9b8a80e9f4d437082b0b58c659cf7a3801c48a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039650",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "245ad12b9ed88066b84cad8c17067063afb1df7ad633504d5a5921a4c24ac3e5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "passing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036898",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8362b54baca7b9d230ecd4da07e6c3db046a32d80bca6701c22f1ff7371937a8",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038606",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b1970bf70429365a9006f2b46256b8102a21f435f47de5ce147a382f918fe676",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040583",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ff64d89f01662cbb7dadc9286feb2911e240dc4040b1d06b358bcd13737a4c70",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0032104",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "1731ae81f15b21e4b5d41b2f10eeaae860272afff5026970c4bb3c978a1005a5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0032104",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "3378e417dd8a43486b825c21e0cf675d576fbe3bf74482c9db879d95459b4c2f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039359",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "fef589eb11b3b9741fe482761392cf951c3d9741c1f443c3137320315ad17019",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036554",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "c74e035dcdf3eace0b489a904179ee47759e07f60647c54e2c788317afe7cf97",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034960",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4e02b7ad262d2498442d0c177c19d91e052f388a78f512a00361d4f771b157ef",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038608",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a179e2330afee6d4051c3b4cff74452e299a09d2ec8d551cd09bb4d306cd3450",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038611",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "a443eeaaf00f891e785a14efaaad7b0218f0567ab9c0d9db3118b4f4320669aa",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036554",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "3d68a5568910975d331a77f7ec2a2fd360b19d01237981ccd23482411290a794",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038622",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5b4a20a5a55b4a39ef5f5c5a1bd4cc9634c0e6e8404d243d0fd73436b66195b8",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040719",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9e75d1145a107ac2f44c31278d5ee53a38a03e9b6762b549846b287959a773b6",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0032104",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "3873d7c5bf0b4082cd9c8811a1d35b348a0b14c143d65b04023337e39ea684ad",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038608",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "db972029f0788d6c455dc926bfdd21c1d5ddf851b738768f68c3f9b96f9646ce",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040138",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "d7a59c4a686d51e828159e20cc6d4deadbab6aa2165257f011f43871f9d17b8a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039603",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "c512318b76ea213459fd095e91144e601486905281153ea2d727179d9de38eb6",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036590",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6b41e3fc2d1517ecdca58b8b0a9c847d60eb3ba3a27c7051b4205a9ae384c1ac",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038608",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "26337709603e11dd56f1e99103bc166af76cbc4e9b033a12c93a9d508fba5cdf",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038618",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e8c71b8473e53471c02c58f4c60bb60081475d29ac6d9b3da421850e78563e5e",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038935",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "750e2278b0bb1fa8dadd6c2009510b07227d51e99c2db7e0934eb2066446e2d6",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040130",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "3daea8f9e6281a983b436d37c396eeaa81536811cc0f6d957e3ce6011f8e475e",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038935",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "28e42d97abbd5e2d11dcca10dce9391064beeb2d86cc1e8c96b36f1b46bc5ddc",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039849",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7be09133e790df2f42c10d61902a8a48179367552bbe6bc876d8fb6561cafeeb",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039849",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "353b2231359d5b11a68225ffb2644a52babf81eacfeff996368adeb1ae96302e",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0033854",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e0840093fdbf1eedc66a77eea3bea177e61234c385554d06d8b85e099b80d66a",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036841",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d5ef954760d2fd61b2977dd5ff8c3cec1da13998e68617bb57be680a6428c09e",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038622",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "0d50f3068c217c0b33efd01f494c4af8639aa84c1dd137f9d2d3f575b957f02f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039458",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "8847ae3c062419b81ef412cf78ce987b1529e0c6925f2de0becb1e2979e17b73",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038608",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "e211530a1445d15fd8ba38da14c7034d6f353210c5b1311bdfeb2f32acc34944",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036841",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "73308ef802110743ca5b2c42a9f47bc527dbad0e8500b89c7ea62a52ec8340a4",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036841",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "84765a43a5617ead09857c8b2732fc39f578ceb74d7eb165325db0a7a4c4e9db",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040138",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f2bfc24c80d48501d64334a018dcddae9c8382d59d10c416702a612d5b9664ec",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040130",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "672d33de97687940bfe0fef75b569a548c14a0aa96519d403e721fcabc513855",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039458",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "80d94e16606f0ed36328d9f08dd24f9abf5088c936c2abf71d09aaf713f1ed82",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038977",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "aa35a88b470bec5f296726971f8f584bd6c7e9e2a05d431143237533a39aab58",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039893",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "b0e65d62caf96310832267eea9b7ad8a428b76b463a7ff8ddef4dbdb8d94a834",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036841",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "7361c0add45ffd4708e3f50019e698f25d5414ee4de865dff15a5c03aad1778d",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040130",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "e6e5c06c3c71cd9f64b68fcadfb233331f9b27abd8208fcba59dca987132cdb6",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034383",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "cf6c7a2528e78a32ccb224168978f26190a5423291d1bac95106c88bf4a1882a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040238",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8d4f6e355bc2f179d788f020a2b68a2b26c11a314ce2331f536f6d2ed30d5d74",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039603",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5b8c200835465ba452a5e824b6799fd9db1a90a8e51c7334e8a79adc14bb2b88",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034981",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "52e5a680a5319443211efc283c2b52b43d5b80f6b89faceb543e80ab68f507e5",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0033854",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "240338918b272d6810712b912d15215ee6cd5d779e652d5f22dc2b453688d75c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040583",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2f48b619788a7f0c55bfba297c591ffd91ab226688c6b59c991e9773767be5a3",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036497",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ad43155ca1d6503c615046c7c8e8cd3bd16ca8f8713d9d12797407348126265f",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038611",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "41032e3e31725dc38db839b5eb6875f66417b773035042d54e592756ce12d841",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0032104",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "272d2d2d3466a20587b5ac7495c94fc5e370a6d206ac54b141375c5194c069d9",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038935",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ed382fc6af0b1a0bfa2e4b7baf66e0c9fc24659f7f2455dfb07a451ef31a8175",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039893",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "9fd980172b0dc2fab04f0a048a6419bf4645c08b117f05db424f771aad58568e",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038611",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "05d4ead207c011b89486ba696621458cf1b0855d8b1b21f2b395a3d051d6430b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038606",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "4220f0aff0809bd48a1abe90265fd2bb0c9729d5d9b532231585e28d900c7a34",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038618",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "9e857451030b9206b813e664e66f0f57eb3babfce9de467dc357b66ec5376eca",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040130",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "d67941a97e47d73527835f49afc06398ee5ee642669f8b4e176331c3f80bb8da",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039603",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "d1bab6dd1803427d9a93385035b18c5e2d63be950092df90e29900364f0df4f5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036590",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cb5dd5196f6cab45a8018193ebf77a2eb83f9657820c9d8cd5b0310d70968273",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0041100",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e5e3b531f66aedf30e475cd49dfb508ac10eb2ef51d5709d53ca638525dd8012",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038935",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "45e0b38346fbd675dd7f6e4b702d517d26c89217a13c7d0f6fccf8119be9ec84",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039603",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "62c31dc17a0061d8cbf25e8ae04067cf2d991966416f3426eebddd75c085c5a7",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038618",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a76ed48f97b179829af88f4edda6691a90da05eced613373a3d2ea4c8c130d31",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039458",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "589462a91344631421f7c7a73d94ec1ce323c51e777fba3c56b460ee5e7a1138",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038977",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "b51c0533a861c6101d3ac57a9fbfb2115e518662c434592a80d4cc84185ed407",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0041100",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "76a71f916b1fa388451dd7c566a51d558082c0114173016fa6ac3a65fdeef865",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040583",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "13ceb56a09b97c11ba9da27b38b849b7c603d258fd52fc9816970bfb4d30e9d9",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040138",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cc37ed588a738510e247d43b0708f5996930397be8547a99432fc34b6551ad00",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038935",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "aee9cb382f83755b91629ad8296ef2696b7452003f941a3476b3127655900b96",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039359",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "dcbfe7b2e14d7b77c0e65745f8f76df3fe97dfbd7abd8ce76e86e76bea074530",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038977",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "466b4b3ea5a1942c5e623b892c617dab6f6d89d86255c7bbbfc13e5434c0219d",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039849",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "5206ec162cb492d393eaeacd39a216c1b99f327caef4d79922b2076a8356e2bf",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034981",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9bc666dd77124a5f980bdd435da33461fc72cb3dab77ed05155f6e96cb93208d",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034981",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "809e130b0b1deb4473485bc470fefc9aa7cc1fb7c741181d05575366a6352136",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038606",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "93f005ee09ae5bb2a1277415ced435fd1d22a9d58988e5fd9a276767883cd388",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039458",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "15d79a9e5630244ac00a44be7d7cce713a6fc53cdca217a19260ee398423021e",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034960",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "0c9b7a26be841b4be794edf4b65e55af59098a5d4976503123d9430a41489e8b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "passing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039163",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "8ad206eba74e46ecc3cf8e85af5dad7a188b63a569ee9f817644f727754ca443",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040719",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ec17824ad01a72aead063b14f1ff9c4a83ee6bab425aa0654b404f741f1ec703",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038977",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2a5e708b2ba0aee329d1a1bfcdc3d3857b1c5730b438f1346f6247db5456a802",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036554",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "f2ece78ab1a4cda453c9c00c972a563508da6c33201943b3c88531cb5998791e",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040138",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "906b71c51263162966e307be2afa9d770145116bb69c9479d1fa12a8d0d2a491",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038606",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "76400f5e9380f92bc1bb964c157e6e1f1fa4b0eb114597ddf26eae15175b2b10",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "passing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0036971",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ee9e317f83ce793230f8c98b089573934535a17db1cfb1468e44459cb44c11ee",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038622",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "06b1eb33bf52cf0c3ce7173e403cab1263eee0ad272113e153cc202a7fdd8485",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040719",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "81604236f1b5d8135c24c1bf404f15f5f4b916fdda52a896660a007a544c91da",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034981",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "7f13cd46f4c91c2bc90cf2e08128379b46a7c74f009a262f4f61ed6111049688",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040238",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f55c8992c2853484d81eec75e1133ea48dc3f99e2ecbd593c90d2219d1248a20",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040138",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "60bb68dcb58c96c713c200f5e1ce8e42daf34779979f7041a8746b1d51c99506",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039849",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5f6928db44c54533e9673fc095c287a7c6e64b77db0e4ebd56742d88c72dade3",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038618",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "3f6c8d3b69698decc1f40c65f2cfb964258f4ca669b7c2481b638b983fe9ad49",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038935",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "2bd41b0c18f18bff902e3277b5aacddf7cedbed23a123a0703284475da19da4f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0033854",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "fd1a39bd3634926235e5847a0b33d2a4179aae60cd9f67d8a5c26b2f651d3dd1",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038977",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "752f009470a5d8b65949c6ea3aa20ad75d509a5ef5e311c2a098835955ad667b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0038606",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "85a2fda4fe138bceb1ad2dac945bd3aad2528a0c0bfd30dd7700174309838a5b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034981",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ecba58a16977ebb4723aa1f1e43c05cbc71d31e919f47e0950829e671ebf00ed",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0040583",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "db17238a221d0f811c2fc4f25a79517609c655cd670d9f0c2fc4764d4ef3bc06",
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0034981",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "0cc9ba08a4fed175be2645dd216be27d7dadcbcb17aaf018618c96e820d542ae",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0039359",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "9eb8aad4b5278475bac1a67f57cc518463e3f1dccb48825bd6e4869b29f0a545",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0041100",
       "reason": "EVENT_NOT_STARTED"
     },
     {
       "forecast_hash": "3b4f978aea8ced32478686db71e6fcc2ce972a6dd9f9644bf916ed4b7a39c10f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "event_id": "2026_06_HOU_JAX",
+      "player_id": "00-0041100",
       "reason": "EVENT_NOT_STARTED"
+    }
+  ],
+  "cohorts": [
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "passing_yards",
+      "settled_n": 0,
+      "pending_n": 4,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receiving_yards",
+      "settled_n": 0,
+      "pending_n": 29,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "receptions",
+      "settled_n": 0,
+      "pending_n": 29,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_attempts",
+      "settled_n": 0,
+      "pending_n": 29,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rushing_yards",
+      "settled_n": 0,
+      "pending_n": 29,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "player-recent-average-reference-v1",
+      "market": "passing_yards",
+      "settled_n": 0,
+      "pending_n": 4,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receiving_yards",
+      "settled_n": 0,
+      "pending_n": 29,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "player-recent-average-reference-v1",
+      "market": "receptions",
+      "settled_n": 0,
+      "pending_n": 29,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_attempts",
+      "settled_n": 0,
+      "pending_n": 29,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "player-recent-average-reference-v1",
+      "market": "rushing_yards",
+      "settled_n": 0,
+      "pending_n": 29,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
     }
   ],
   "mae": null,
   "rmse": null,
   "baseline_mae": null,
   "crps": null,
+  "aggregate_metric_scope": "No pooled accuracy across markets/model versions; inspect cohorts",
   "qualified_market_comparison_n": 0,
   "real_cash_roi": null,
   "hypothetical_roi": null,

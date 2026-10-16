@@ -425,7 +425,7 @@
         "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "hitter_hits": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
+        "blocker": "Fresh exact prices, confirmed participation/roles and prospective calibration are missing",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
@@ -434,19 +434,23 @@
           "src/ap_evsims/models/contracts.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
-        "real_evaluation_sample": 1410,
-        "real_sample_size": 2451,
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
+        "real_evaluation_sample": 5410,
+        "real_sample_size": 7816,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "pitcher_K": {
         "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
@@ -497,7 +501,7 @@
         "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "total_bases": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
+        "blocker": "Fresh exact prices, confirmed participation/roles and prospective calibration are missing",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
@@ -506,24 +510,28 @@
           "src/ap_evsims/models/contracts.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
-        "real_evaluation_sample": 1410,
-        "real_sample_size": 2451,
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
+        "real_evaluation_sample": 5410,
+        "real_sample_size": 7816,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       }
     },
     "NBA": {
       "assists": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+        "blocker": "Fresh exact prices, confirmed participation/roles and prospective calibration are missing",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
@@ -532,19 +540,23 @@
           "src/ap_evsims/models/contracts.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
         "real_evaluation_sample": 51938,
         "real_sample_size": 79632,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "points": {
         "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
@@ -571,7 +583,7 @@
         "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "rebounds": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+        "blocker": "Fresh exact prices, confirmed participation/roles and prospective calibration are missing",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
@@ -580,19 +592,23 @@
           "src/ap_evsims/models/contracts.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
         "real_evaluation_sample": 51938,
         "real_sample_size": 79632,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "spread": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -657,7 +673,7 @@
     },
     "NFL": {
       "passing": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+        "blocker": "FAILED_SIMPLE_BASELINE; use separately frozen reference cohort",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
@@ -666,22 +682,26 @@
           "src/ap_evsims/models/contracts.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
         "real_evaluation_sample": 733,
         "real_sample_size": 1510,
+        "research_admission": "FAILED_SIMPLE_BASELINE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "receiving": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+        "blocker": "FAILED_SIMPLE_BASELINE; use separately frozen reference cohort",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
@@ -690,22 +710,26 @@
           "src/ap_evsims/models/contracts.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
         "real_evaluation_sample": 6152,
         "real_sample_size": 12332,
+        "research_admission": "FAILED_SIMPLE_BASELINE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "receptions": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+        "blocker": "FAILED_SIMPLE_BASELINE; use separately frozen reference cohort",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
@@ -714,22 +738,26 @@
           "src/ap_evsims/models/contracts.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
         "real_evaluation_sample": 6152,
         "real_sample_size": 12332,
+        "research_admission": "FAILED_SIMPLE_BASELINE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "rushing": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+        "blocker": "FAILED_SIMPLE_BASELINE; use separately frozen reference cohort",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
@@ -738,39 +766,47 @@
           "src/ap_evsims/models/contracts.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
         "real_evaluation_sample": 6152,
         "real_sample_size": 12332,
+        "research_admission": "FAILED_SIMPLE_BASELINE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "rushing_attempts": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
+        "blocker": "FAILED_SIMPLE_BASELINE; use separately frozen reference cohort",
         "files": [
           "src/ap_evsims/product.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
         "real_evaluation_sample": 6152,
         "real_sample_size": 12332,
+        "research_admission": "FAILED_SIMPLE_BASELINE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_product.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "spread": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -829,7 +865,7 @@
         "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "SOG": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; NO_PROP_OFFERS_RETURNED; UNCONFIRMED_GOALIE",
+        "blocker": "Fresh exact prices, confirmed participation/roles and prospective calibration are missing",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
@@ -838,22 +874,26 @@
           "src/ap_evsims/models/contracts.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
         "real_evaluation_sample": 96525,
         "real_sample_size": 145238,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "goalie_saves": {
-        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; NO_PROP_OFFERS_RETURNED; UNCONFIRMED_GOALIE",
+        "blocker": "Fresh exact prices, confirmed participation/roles and prospective calibration are missing",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
@@ -862,19 +902,23 @@
           "src/ap_evsims/models/contracts.py",
           "outputs/execution_status.json",
           "outputs/simulation_execution.json",
-          "reports/EXECUTION_RESULTS.md"
+          "reports/EXECUTION_RESULTS.md",
+          "outputs/market_research_status.json",
+          "outputs/early_watchlist.json",
+          "tests/test_prop_market_research.py"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Collect prospective outcomes and verified news without altering frozen forecasts",
         "real_evaluation_sample": 5597,
         "real_sample_size": 8540,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "status": "IN_PROGRESS",
         "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "totals": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -1196,7 +1240,7 @@
     "odds_present": true,
     "secrets_printed": false
   },
-  "current_task": "EXECUTION_RESULTS_COMMITTED_PUSH_BLOCKED",
+  "current_task": "EARLY_PROSPECTIVE_WATCHLIST",
   "delivery_verification": {
     "ancestor_verified": true,
     "at": "2026-10-15T00:41:53.605137+00:00",
@@ -1214,7 +1258,7 @@
     "tests_failed": 0,
     "tests_passed": 195
   },
-  "earliest_blocked_dependency": "Verified participation/roles and prospective outcomes; odds entitlement blocks historical betting evaluation only",
+  "earliest_blocked_dependency": "Fresh exact-market prices, role confirmation and prospective calibration",
   "empirical_note": "Reconstructed chronological forecasting metrics exist; prospective calibrated betting evidence remains zero",
   "empirical_performance_available": true,
   "focused_october14_audit": {
@@ -1343,7 +1387,7 @@
       }
     ]
   },
-  "last_checkpoint_at": "2026-10-16T05:45:43.020204+00:00",
+  "last_checkpoint_at": "2026-10-16T15:04:43.655221+00:00",
   "last_push_attempt": "2026-10-16T05:48:09.412725+00:00",
   "last_remote_verified_at": "2026-10-16T05:48:09.412725+00:00",
   "last_verified_remote_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
@@ -1468,7 +1512,7 @@
       "tests/test_prop_research.py"
     ]
   },
-  "next_task": "Prospective settlement/calibration and verified roles; joint game-state simulation remains incomplete",
+  "next_task": "New price collection after quota reset; verify starting roles and resolve NHL/MLB start conflicts; settle forecasts by market/model cohort",
   "paper_tracking_delivery": {
     "cash_committed": 0,
     "cohort_candidates": 8,
@@ -1627,6 +1671,28 @@
     "real_data_apptest": "PASS",
     "server_start": "PASS",
     "url": "http://127.0.0.1:8501"
+  },
+  "prospective_market_delivery": {
+    "cfb_hashes_preserved": {
+      "src/ap_evsims/cfb_score_research.py": "da9543f821f412e1d0d7bdab8aa3f8454df62be9c3379585041ffaab53bb5780",
+      "src/ap_evsims/cfb_scores.py": "2c15a2a7021ba9be824d163bb8f6d70cb1a621590112fd55e75d080ff9e6fa5e"
+    },
+    "comparison_records": 244,
+    "files": [
+      "src/ap_evsims/prop_market_research.py",
+      "src/ap_evsims/prop_availability.py",
+      "outputs/early_watchlist.json",
+      "outputs/prospective_price_comparisons.json",
+      "reports/PROSPECTIVE_MARKET_RESEARCH.md"
+    ],
+    "fresh_watchlist": 0,
+    "new_primary_forecasts_since_7d5c880": 36,
+    "new_reference_forecasts_since_7d5c880": 120,
+    "nfl_reference_forecasts": 120,
+    "primary_forecasts": 389,
+    "research_watchlist": 8,
+    "status": "IN_PROGRESS",
+    "validated_edges": 0
   },
   "real_data_counts": {
     "CFB": {
@@ -2253,10 +2319,10 @@
     "failed": 0,
     "frozen_phase1_files": 18,
     "frozen_phase1_mismatches": 0,
-    "passed": 295,
+    "passed": 316,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-16T05:45:43.020204+00:00"
+    "verified_at": "2026-10-16T15:04:43.655221+00:00"
   },
-  "updated_at": "2026-10-16T05:42:35.450239+00:00"
+  "updated_at": "2026-10-16T15:04:43.655221+00:00"
 }
