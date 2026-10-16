@@ -46,3 +46,6 @@ $env:PYTHONPATH='src'
 & '.\.venv\Scripts\python.exe' -m ap_evsims.prop_market_research --root .
 & '.\.venv\Scripts\python.exe' -m ap_evsims.prop_settlement --root . --sport all
 ```
+
+
+Checkpoint delivery 2026-10-16T15:09:08.948370+00:00: 316 tests passed, 0 failed. Safe source, tests and results saved in commit `bb0f5d98dc44bd0c1b5c721985ad188de7d8595e`. Push failed: `GITHUB_AUTHENTICATION_UNAVAILABLE`. Remote branch verified at `6db215e00b5d42b8d7f94b556985a97f44104d75`; new results are local only. No force push or reset was used.
