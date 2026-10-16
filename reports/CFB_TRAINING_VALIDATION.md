@@ -8,7 +8,7 @@ Machine-readable evidence: `outputs/cfb_training_status.json`. Raw responses, no
 
 - All **228 tests pass**, including the original 208. All 18 frozen Phase 1 files retain their original SHA-256 hashes.
 - CFBD returned HTTP 200 for the 2026 FBS schedule and six weekly play queries. The final reported quota was 970 calls remaining. Both credentials remain local; no credentials were printed or committed.
-- Captured **142,879 real 2026 play rows**, covering regular-season weeks 1–6. Each response has an immutable payload, manifest, capture time and hash. There were no Odds API calls in this checkpoint.
+- Captured **142,879 real 2026 play rows**, covering regular-season weeks 1â€“6. Each response has an immutable payload, manifest, capture time and hash. There were no Odds API calls in this checkpoint.
 - Assembled **57,978 eligible plays from 448 prior games**, involving 235 teams. These include games involving FCS opponents; the target training scope remains FBS versus FBS.
 - Saved typed prior-play facts and prospective matchup features as JSONL and Parquet. Every derived feature recipe retains its source identities and is independently recomputed during provenance validation.
 - Produced **211 upcoming matchups with all four research baseline features**. Another 214 upcoming FBS matchups have an unconfirmed start time and remain blocked. Coverage is limited to captured queries, not a claim of complete provider coverage.
@@ -88,3 +88,12 @@ If the session's GitHub authentication remains blocked, the exact non-force push
 ```
 
 Git delivery outcome is recorded in `TASK_STATE.json`. No reset, force-push, automatic wager, purchase, or entitlement change is part of this checkpoint.
+
+
+## Files changed and delivery verification
+
+- Source: `src/ap_evsims/cfb_history.py`, `src/ap_evsims/cfb_training.py`, `src/ap_evsims/canonical.py`, `src/ap_evsims/cfb_universe.py`, `src/ap_evsims/dashboard.py`.
+- Tests: `tests/test_cfb_history.py`, `tests/test_cfb_training.py` (20 new regression tests).
+- Reports/status: `TASK_STATE.json`, `PHASE2_PROGRESS.md`, `reports/CFB_TRAINING_VALIDATION.md`, `reports/MORNING_CARD.md`, `outputs/cfb_training_status.json`, `outputs/cfb_universe.json`, `outputs/last_update.json`, `outputs/latest_passes.json`, `outputs/model_status.json`, `outputs/provider_status.json`.
+
+Real archived-data Streamlit AppTest completed with zero exceptions, and feed hashes verified. Baseline commit `6b20b15` remains an ancestor. Implementation commit `7d991e6523bfaf429bd3eb0f968fe0c29ea5417f` is saved locally. The first push was blocked; the delivery-status checkpoint receives a final non-force push attempt. The exact manual command is above.

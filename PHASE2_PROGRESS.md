@@ -136,3 +136,5 @@ Delivery checkpoint `c941707` committed safely; push blocked. Manual push comman
 - Existing walk-forward runner attempted a real-provider dataset and correctly blocked at zero training rows. No model fitted, forecasts produced, or empirical metrics invented.
 - Earliest dependency: actual pregame feature/price snapshots with settled outcomes. Historical odds last returned 401; restoring odds alone would not establish historical feature publication times.
 - Report and commands: reports/CFB_TRAINING_VALIDATION.md. Raw data, databases and .env remain local and ignored.
+
+Implementation checkpoint `7d991e6` saved and secret-scanned. Real archived-data Streamlit AppTest passed. Push attempt failed; no local work was lost. A delivery-metadata checkpoint and final non-force push follow.

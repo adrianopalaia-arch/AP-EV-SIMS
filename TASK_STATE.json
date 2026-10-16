@@ -1003,9 +1003,11 @@
     "at": "2026-10-16T01:59:33.344672+00:00",
     "eligible_prior_plays": 57978,
     "eligible_training_rows": 0,
+    "implementation_commit": "7d991e6523bfaf429bd3eb0f968fe0c29ea5417f",
     "prior_games": 448,
     "prospective_baseline_feature_sets": 211,
     "raw_2026_plays": 142879,
+    "real_dashboard_apptest": "PASS",
     "real_model_predictions": 0,
     "report": "reports/CFB_TRAINING_VALIDATION.md",
     "status": "BLOCKED_INSUFFICIENT_VERIFIED_HISTORY",
@@ -1063,21 +1065,19 @@
   },
   "git_delivery": {
     "branch": "ap-evisims-live",
-    "category": "AUTHENTICATION_OR_PERMISSION",
-    "connector_write_status": 403,
-    "env_ignored": true,
     "env_staged": false,
-    "env_tracked": false,
-    "known_secret_history_scan": "PASS",
-    "last_attempt_at": "2026-10-15T00:43:37.168437+00:00",
-    "last_attempt_commit": "c9417070005dae448e750a503c064164ab1e3a74",
-    "last_verified_remote": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
-    "manual_push_required": true,
+    "implementation_commit": "7d991e6523bfaf429bd3eb0f968fe0c29ea5417f",
+    "secret_scan": "PASS",
+    "status": "LOCAL_CHECKPOINT_COMMITTED_PUSH_BLOCKED"
+  },
+  "github_push": {
+    "branch": "ap-evisims-live",
+    "commit": "7d991e6523bfaf429bd3eb0f968fe0c29ea5417f",
+    "env_staged": false,
     "push_success": false,
-    "staged_secret_scan": "PASS",
+    "secret_scan": "PASS",
     "status": "PUSH_BLOCKED"
   },
-  "github_push": "BLOCKED_NETWORK_UNAVAILABLE",
   "ingestion_summary": {
     "cfb_matched_events": 61,
     "cfb_unmatched_events": 1,
@@ -1128,12 +1128,7 @@
     ]
   },
   "last_checkpoint_at": "2026-10-16T01:59:33.344672+00:00",
-  "last_push_attempt": {
-    "at": "2026-10-14T22:36:21.737687+00:00",
-    "commit": "497ade9ff0245fa40b01e3fff10049ca9654829e",
-    "status": "NETWORK_UNAVAILABLE",
-    "success": false
-  },
+  "last_push_attempt": "2026-10-16T02:03:34.720992+00:00",
   "last_remote_verified_at": "2026-10-14T22:13:39.467379+00:00",
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
   "next_task": "Capture pregame feature snapshots and fresh two-sided quotes prospectively; resolve historical feature availability and historical odds access before an empirical model fit.",

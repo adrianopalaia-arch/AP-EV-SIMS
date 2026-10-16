@@ -34,7 +34,7 @@
   ],
   "cfb_schedule_games": 1666,
   "cfb_training_status": "outputs/cfb_training_status.json",
-  "commit_semantics": "Source HEAD plus CFB integration changes saved in this checkpoint",
+  "commit_semantics": "Completed CFB implementation checkpoint; a later commit records delivery status",
   "current_task": "CFB_TRAINING_DATA_AND_VERIFIED_FEATURES_CHECKPOINT",
   "data_quality_failures": [
     {
@@ -54,7 +54,9 @@
   "focused_checkpoint_at": "2026-10-16T01:59:33.344672+00:00",
   "games_scanned": 144,
   "generated_at": "2026-10-16T01:59:40.952742+00:00",
-  "git_commit": "e8ba43ad29cab54452bdbd06ade376e4badde496",
+  "git_commit": "7d991e6523bfaf429bd3eb0f968fe0c29ea5417f",
+  "github_push_status": "PUSH_BLOCKED",
+  "github_push_success": false,
   "local_comparison_hash": "dc455ce673eab80f2cf5ce3a7c65a04bc1c7251a7cefe929886446f42d799008",
   "market_calculation_version": 1,
   "market_sides_scanned": 5042,
