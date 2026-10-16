@@ -8,11 +8,24 @@
   },
   "cfbd": {
     "authentication_status": "OK",
-    "checked_at": "2026-10-15T00:40:25.986402+00:00",
+    "checked_at": "2026-10-16T01:47:20.896763+00:00",
     "credential_present": true,
+    "current_cfb_play_coverage": {
+      "historical_feature_availability": "CAPTURE_TIME_ONLY",
+      "raw_play_rows": 142879,
+      "season": 2026,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
     "endpoint_status": 200,
     "quota_metadata": {
-      "x-calllimit-remaining": 979
+      "x-calllimit-remaining": 970
     }
   },
   "moneypuck": {

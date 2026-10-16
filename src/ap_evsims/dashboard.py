@@ -157,7 +157,8 @@ def _render_card(repo):
         u=feeds.get('cfb_universe.json',{})
         st.dataframe([
             {'Stage':'Captured sportsbook prices','Evidence':str(summary.get('market_sides_scanned',0))+' quote sides; check each quote timestamp'},
-            {'Stage':'CFB complete rolling feature sets','Evidence':str(u.get('games_with_verified_rolling_features',0))},
+            {'Stage':'CFB research baseline feature sets','Evidence':str(u.get('games_with_research_baseline_features',0))},
+            {'Stage':'CFB complete Phase 1 feature sets','Evidence':str(u.get('games_with_phase1_feature_contract',0))},
             {'Stage':'Real qualifying model evaluations','Evidence':str(summary.get('real_model_evaluation_sample',0))},
             {'Stage':'Approved predictive models','Evidence':'0 — UNVALIDATED'},
             {'Stage':'Next validation work','Evidence':'Verified pregame features → chronological evaluation → uncertainty approval → prospective tracking'},

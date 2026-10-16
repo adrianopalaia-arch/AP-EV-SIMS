@@ -5,10 +5,9 @@ are usable only after their capture; final results cannot authorize past feature
 """
 from collections import Counter
 from dataclasses import asdict
-from datetime import timedelta
 from .integrity import utc, digest
 from .identity import map_cfb_events
-from .canonical import materialize_rolling_features, verify_feature_sources
+from .cfb_history import RollingCFBHistory, BASELINE_FEATURES
 from .providers.schema import validate_provider_payload
 
 
@@ -31,14 +30,15 @@ def verified_sources(store, warehouse, endpoint, at):
 def build_cfb_universe(store, warehouse, at, quotes, *, feature_lookback_days=365):
     """Retain all latest game observations, including conflicts and excluded games.
 
-    V1 integration accepts a complete, verified single play query/result query
-    pair per matchup. Insufficient/multi-query history stays explicitly blocked;
-    selecting a small convenient subset never claims universe completeness.
+    Queries are assembled at the cutoff with verified source identities. The
+    four baseline features remain distinct from the full Phase 1 contract.
     """
     clock = utc(at)
     sources = verified_sources(store, warehouse, 'games', at)
     teams = verified_sources(store, warehouse, 'teams', at)
     plays = verified_sources(store, warehouse, 'plays', at)
+    history = RollingCFBHistory(store, plays_snapshot_ids=[m['snapshot_id'] for m, _ in plays],
+        results_snapshot_ids=[m['snapshot_id'] for m, _ in sources], as_of=at, lookback_days=feature_lookback_days)
     latest = {}; conflicts = set(); queries = {}
     for m, rows in sources:
         queries[digest({k:v for k,v in m['parameters'].items() if k not in ('endpoint_status','error_payload_sanitized')})] = m
@@ -77,26 +77,12 @@ def build_cfb_universe(store, warehouse, at, quotes, *, feature_lookback_days=36
         event_quotes = [q for q in quotes if q['event_id'] in mapped.get(event, [])]
         if not event_quotes: reasons.append('NO_MATCHED_MARKET')
         elif not any((clock-utc(q['observed_at'])).total_seconds() <= 180 for q in event_quotes): reasons.append('STALE_PRICE')
-        # Integrate only prior completed games whose complete source query is
-        # inside the explicit lookback. Old archived plays do not become current.
         if not any(r in reasons for r in ('EVENT_STARTED_OR_COMPLETED','LOOKAHEAD_RISK','OUTSIDE_FBS_VS_FBS_SCOPE','CONFLICTING_GAME_REVISION')):
-            for pm, payload in reversed(plays):
-                play_ids = {str(p.get('gameId')) for p in payload}
-                if not play_ids or not play_ids.issubset(latest): continue
-                if any(not latest[i][0].get('completed') or not clock-timedelta(days=feature_lookback_days) <= utc(latest[i][0]['startDate']) < start for i in play_ids):
-                    feature_errors.append('PRIOR_PLAY_HISTORY_OUTSIDE_LOOKBACK_OR_UNSETTLED');continue
-                # A single verified result query must cover every source play game.
-                candidates = [(m,r) for m,r in sources if play_ids.issubset({str(g['id']) for g in r})]
-                if not candidates: continue
-                rm, _ = candidates[-1]
-                try:
-                    features, excluded = materialize_rolling_features(store,plays_snapshot_id=pm['snapshot_id'],results_snapshot_id=rm['snapshot_id'],
-                        event_id=event,home_team=g['homeTeam'],away_team=g['awayTeam'],as_of=clock.isoformat())
-                    verify_feature_sources(store,features)
-                    feature_values = {k:asdict(v) for k,v in features.values.items()}
-                    break
-                except ValueError:
-                    feature_errors.append('INSUFFICIENT_VERIFIED_PRIOR_FEATURES')
+            try:
+                features = history.materialize(event_id=event,home_team=g['homeTeam'],away_team=g['awayTeam'])
+                feature_values = {k:asdict(v) for k,v in features.values.items()}
+            except ValueError as error:
+                feature_errors.append(str(error))
         if not feature_values: reasons.append('MISSING_FEATURES')
         reasons += ['MODEL_NOT_CALIBRATED','UNVERIFIED_LINEUP']
         rows.append(dict(event_id=event,season=g.get('season'),week=g.get('week'),home_team=g['homeTeam'],away_team=g['awayTeam'],
@@ -104,11 +90,15 @@ def build_cfb_universe(store, warehouse, at, quotes, *, feature_lookback_days=36
             schedule_available_at=source['available_at'],matched_odds_event_ids=mapped.get(event,[]),market_sides=len(event_quotes),
             scope_eligible='OUTSIDE_FBS_VS_FBS_SCOPE' not in reasons and start>clock,
             qualified=False,pass_reason=reasons,verified_features=feature_values,feature_blockers=sorted(set(feature_errors)),
+            research_baseline_features_complete=all(k in feature_values for k in BASELINE_FEATURES),
+            phase1_feature_contract_complete=False,
             missing_feature_contract='Phase 1 CFB contract remains required; rolling PPA is not EPA'))
     return dict(generated_at=clock.isoformat(),coverage='CAPTURED_QUERIES_ONLY_NOT_A_COMPLETE_SEASON',
         query_count=len(queries),query_parameters=[m['parameters'] for m in queries.values()],games_scanned=len(rows),
         upcoming_fbs_games=sum(r['scope_eligible'] for r in rows),matched_games=sum(bool(r['matched_odds_event_ids']) for r in rows),
         unmatched_odds_events=len(events)-len(mapping),identity_rejections=identity_rejections,
         games_with_verified_rolling_features=sum(bool(r['verified_features']) for r in rows),qualified_games=0,
+        games_with_research_baseline_features=sum(r['research_baseline_features_complete'] for r in rows),
+        games_with_phase1_feature_contract=0, play_history=history.counts,
         qualifying_real_sample=0,synthetic_performance_sample=0,
         exclusions=dict(Counter(reason for r in rows for reason in r['pass_reason'])),games=rows)

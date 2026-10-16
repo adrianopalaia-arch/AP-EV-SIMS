@@ -124,3 +124,15 @@ Delivery checkpoint `c941707` committed safely; push blocked. Manual push comman
 - Existing trained-artifact display requires provider-backed training reproduction and verified current features. Calibration provenance is separately checked. No probability/EV bypasses Phase 1; no fake p_low.
 - Full suite: 208 passed, 0 failed, 0 skipped; 18 frozen files and 6b20b15 preserved. Real-data Streamlit AppTest passed.
 - Unfinished: sufficient timestamp-safe real training data/features before the first AP baseline fit; calibrated OOS evaluation and uncertainty coverage. Detailed report: reports/PROBABILITY_EV_DELIVERY.md.
+
+
+## CFB verified training-data checkpoint 2026-10-16T01:59:33.344672+00:00
+
+- 228 tests passed; 0 failed; original 208 tests and all 18 frozen Phase 1 files preserved.
+- CFBD authentication succeeded. Six 2026 weekly play queries saved immutable payloads and hashes; 142879 raw play rows. Remaining CFBD quota: 970. No Odds API requests or purchases.
+- Multi-query revision-aware assembly and replayable feature recipes completed. 57,978 eligible prior plays across 448 games; typed JSONL/Parquet stored locally.
+- 211 upcoming matchups have the four-feature research baseline. Complete Phase 1 feature sets remain zero. PPA is not EPA.
+- 383 completed FBS games remain in the eligibility denominator. Two have qualifying archived DK prices; both lack sufficient prequote play history. The other 381 have no qualifying archived price.
+- Existing walk-forward runner attempted a real-provider dataset and correctly blocked at zero training rows. No model fitted, forecasts produced, or empirical metrics invented.
+- Earliest dependency: actual pregame feature/price snapshots with settled outcomes. Historical odds last returned 401; restoring odds alone would not establish historical feature publication times.
+- Report and commands: reports/CFB_TRAINING_VALIDATION.md. Raw data, databases and .env remain local and ignored.

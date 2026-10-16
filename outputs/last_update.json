@@ -33,8 +33,9 @@
     }
   ],
   "cfb_schedule_games": 1666,
-  "commit_semantics": "Source HEAD before the probability/EV display checkpoint",
-  "current_task": "LOCAL_DASHBOARD_AND_DAILY_CARD",
+  "cfb_training_status": "outputs/cfb_training_status.json",
+  "commit_semantics": "Source HEAD plus CFB integration changes saved in this checkpoint",
+  "current_task": "CFB_TRAINING_DATA_AND_VERIFIED_FEATURES_CHECKPOINT",
   "data_quality_failures": [
     {
       "reason": "SCHEMA_DRIFT",
@@ -42,29 +43,28 @@
     }
   ],
   "feed_hashes": {
-    "cfb_universe.json": "1fcf42c09ab758bf5ff9074858570dfe75622733873bf2d679ed2c70e3ce83bd",
+    "cfb_universe.json": "efc7e3bae0abb7e7d8fe29191d020a40047fa50ac293839b994b11a4a63dae8b",
     "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "latest_passes.json": "27982cb96cab776c6e9b0cb74697cc5f453c1a3b24dae25d97549cbfbe4db18d",
+    "latest_passes.json": "4190407d3eab2c6156f21128e5cd7f4a2242d0f2d6c70b634ea8c044eb93c375",
     "latest_predictions.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "model_status.json": "dc9b9b6218d900984c19fcae9be0ca83dba0ac5946e435ec08e1fa7b01baa1d3",
-    "provider_status.json": "60d26f66b088125e29f3b789d93d2754d3d87d1c706c4efa27473a39b52b6f8d"
+    "model_status.json": "894b519abc3a967a99f1754f0317f43b1495a0c3e3203f4bad4dbcfe91e95a9e",
+    "provider_status.json": "b6b6609f88265713d42f9153dee8e81bb21d41678252bec37f9e5b64ca0cd702"
   },
-  "focused_checkpoint": "PROBABILITY_EV_DISPLAY",
-  "focused_checkpoint_at": "2026-10-15T05:04:30.209901+00:00",
-  "games_scanned": 159,
-  "generated_at": "2026-10-15T04:59:31.782618+00:00",
-  "git_commit": "9b3a92a21cd19158f7b513dac2950e7ee5b012db",
-  "local_comparison_hash": "17714f6c02c02845b5b3c06215f929917020f307a7b55de8f00f2eca963ddda5",
+  "focused_checkpoint": "CFB_VERIFIED_FEATURE_INTEGRATION",
+  "focused_checkpoint_at": "2026-10-16T01:59:33.344672+00:00",
+  "games_scanned": 144,
+  "generated_at": "2026-10-16T01:59:40.952742+00:00",
+  "git_commit": "e8ba43ad29cab54452bdbd06ade376e4badde496",
+  "local_comparison_hash": "dc455ce673eab80f2cf5ce3a7c65a04bc1c7251a7cefe929886446f42d799008",
   "market_calculation_version": 1,
-  "market_sides_scanned": 5852,
+  "market_sides_scanned": 5042,
   "mode": "PREGAME",
   "models_validated": 0,
-  "next_task": "CFB verified pregame features and timestamp-authentic evaluation",
-  "preferred_market_sides": 1622,
-  "probability_demo": "outputs/probability_ev_demo.json",
+  "next_task": "Capture pregame feature snapshots and fresh two-sided quotes prospectively; resolve historical feature availability and historical odds access before an empirical model fit.",
+  "preferred_market_sides": 1442,
   "provider_check_basis": "LAST_RECORDED_CHECKS_ONLY",
   "providers_ok": null,
-  "publication_generation": "41fb1af40f30948ddb2d7d5fdde43c61c6288cd34861050cf6c0c02e4ff55611",
+  "publication_generation": "45a6c699679f8253622351d4b7de972ddee025f5e8fdd0d08f2b1a3402cf1ee6",
   "qualified_edges": 0,
   "reader_contract": "Verify canonical JSON SHA256; retry if any file differs from this generation.",
   "real_model_evaluation_sample": 0,
@@ -82,15 +82,14 @@
   },
   "sports_updated": [
     "CFB",
-    "MLB",
     "NBA",
     "NFL",
     "NHL"
   ],
   "status": "NO QUALIFYING BETS",
-  "suspended_or_superseded_quotes": 62,
+  "suspended_or_superseded_quotes": 8,
   "synthetic_performance_sample": 0,
   "tests_failed": 0,
-  "tests_passed": 208,
+  "tests_passed": 228,
   "tests_semantics": "Last independently run full suite, not rerun by daily_card"
 }

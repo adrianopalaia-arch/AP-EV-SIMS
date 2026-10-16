@@ -46,11 +46,15 @@ def verify_feature_sources(store,features):
                 raise ValueError('FEATURE_HASH_MISMATCH')
             for identity in body['source_snapshots']: require_historical_availability(store.manifest(identity),features.timestamp)
             if fingerprint not in verified:
-                if body.get('algorithm_version')!='rolling-cfb-v2':raise ValueError('UNVERIFIED_DERIVATION_RECIPE')
-                expected,_=materialize_rolling_features(store,plays_snapshot_id=body['source_snapshots'][0],
-                    results_snapshot_id=body['source_snapshots'][1],event_id=body['event_id'],
-                    home_team=body['home_team'],away_team=body['away_team'],as_of=body['as_of'],
-                    minimum_plays=body['minimum_plays'],minimum_games=body['minimum_games'])
+                if body.get('algorithm_version')=='rolling-cfb-v2':
+                    expected,_=materialize_rolling_features(store,plays_snapshot_id=body['source_snapshots'][0],
+                        results_snapshot_id=body['source_snapshots'][1],event_id=body['event_id'],
+                        home_team=body['home_team'],away_team=body['away_team'],as_of=body['as_of'],
+                        minimum_plays=body['minimum_plays'],minimum_games=body['minimum_games'])
+                elif body.get('algorithm_version')=='rolling-cfb-multi-v1':
+                    from .cfb_history import reproduce_features
+                    expected=reproduce_features(store,body)
+                else:raise ValueError('UNVERIFIED_DERIVATION_RECIPE')
                 if {k:v.value for k,v in expected.values.items()}!=body['values']:raise ValueError('FEATURE_DERIVATION_MISMATCH')
                 if any(v.payload_hash!=fingerprint for v in expected.values.values()):raise ValueError('FEATURE_DERIVATION_MISMATCH')
                 verified.add(fingerprint)
