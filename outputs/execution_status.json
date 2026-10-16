@@ -10,8 +10,21 @@
   "core_enabled": false,
   "generated_at": "2026-10-16T05:42:35.450239+00:00",
   "github_publication": {
-    "remote_verified_before_run": "6db215e00b5d42b8d7f94b556985a97f44104d75",
-    "status": "PENDING_COMMIT_AND_PUSH"
+    "branch": "ap-evisims-live",
+    "checked_at": "2026-10-16T05:46:25.098574+00:00",
+    "commit": "921e1f0586c860eb403d8936b294aa28b916d3fa",
+    "connector_error_category": "RESOURCE_NOT_ACCESSIBLE_BY_INTEGRATION",
+    "connector_write_status": 403,
+    "env_staged": false,
+    "error_category": "GITHUB_AUTHENTICATION_UNAVAILABLE",
+    "frozen_phase1_files_unchanged": 18,
+    "push_success": false,
+    "remote_sha": "6db215e00b5d42b8d7f94b556985a97f44104d75",
+    "remote_verified": false,
+    "results_commit": "921e1f0586c860eb403d8936b294aa28b916d3fa",
+    "secret_scan": "PASS",
+    "source_test_edits_preserved_unstaged": true,
+    "status": "LOCAL_COMMITTED_REMOTE_PUBLICATION_BLOCKED"
   },
   "monte_carlo_replicates": 706,
   "new_frozen_predictions": 0,

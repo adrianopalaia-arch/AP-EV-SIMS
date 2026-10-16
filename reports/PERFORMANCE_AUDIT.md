@@ -16,3 +16,5 @@ Local candidate/rejection evidence: data/evaluations/paper-tracking-observations
 Local settlement and closing revisions: data/evaluations/paper-tracking-settlements.json
 
 100 observations are diagnostic only. Chronological calibration, p_low coverage and Phase 1 risk gates remain required.
+
+Scope clarification: the zero-model count above refers only to this legacy eight-candidate price-relative cohort. The separate independent forecasting pipeline has 353 frozen research forecasts; see EXECUTION_RESULTS.md. These have zero settled prospective outcomes and do not enter this cohort retroactively.

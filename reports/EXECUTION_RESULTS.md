@@ -52,3 +52,7 @@ Tests: 295 passed, 0 failed. Software tests do not validate predictive accuracy.
 Files: execution_status.json; simulation_execution.json; latest_predictions.json; model_status.json; research_rejections.json; prop_pricing_comparisons.json; per-sport research/prospective/settlement JSONs. Git push verification is reported separately after the commit attempt.
 
 The current reports supersede earlier zero-model and unfinished-prop-freeze statements. Original reports are retained as historical checkpoints.
+
+## Git publication result
+
+Execution results committed locally as `921e1f0586c860eb403d8936b294aa28b916d3fa`. Git push failed: this session cannot obtain GitHub credentials. The connector write attempt independently returned HTTP 403, Resource not accessible by integration. Remote branch verified at `6db215e00b5d42b8d7f94b556985a97f44104d75`; it does not contain this execution. All shareable output files were secret-scanned. Source/test edits remain unstaged and intact. No reset or force push was used.

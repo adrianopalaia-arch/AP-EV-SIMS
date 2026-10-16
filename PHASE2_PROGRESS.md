@@ -162,3 +162,5 @@ Push result: local Git authentication unavailable. Connector code writes and PR 
 ## Executed all five sports — 2026-10-16T05:42:35.450239+00:00
 
 295 tests pass. Published 353 previously frozen real-data forecasts, 353 marginal simulation runs and 14,120,000 draws. No new frozen observations or settled prospective evidence. CFB refresh succeeded; other refreshes hit daily quota. CORE remains disabled. See reports/EXECUTION_RESULTS.md and outputs/execution_status.json. Joint game-state simulation and empirical betting calibration remain incomplete. Source/test work is preserved, not staged in this output-only checkpoint.
+
+Git checkpoint: results commit `921e1f0586c860eb403d8936b294aa28b916d3fa` is local. Shell push authentication unavailable; connector write HTTP 403. Verified remote remains `6db215e00b5d42b8d7f94b556985a97f44104d75`. Final non-force retry follows the delivery-receipt commit.

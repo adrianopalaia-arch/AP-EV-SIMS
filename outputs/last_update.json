@@ -33,7 +33,7 @@
     }
   ],
   "cfb_schedule_games": 4245,
-  "checkpoint_at": "2026-10-16T05:45:43.020204+00:00",
+  "checkpoint_at": "2026-10-16T05:48:09.412725+00:00",
   "current_task": "EXECUTED_ALL_SPORTS_PUBLICATION",
   "data_quality_failures": [
     {
@@ -70,8 +70,11 @@
   },
   "games_scanned": 146,
   "generated_at": "2026-10-16T05:45:43.020204+00:00",
-  "git_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
-  "git_commit_semantics": "source parent of this output checkpoint; publication SHA is recorded by Git",
+  "git_commit": "921e1f0586c860eb403d8936b294aa28b916d3fa",
+  "git_commit_semantics": "Completed execution-results commit; subsequent delivery-receipt commit contains this reference",
+  "github_delivery": "github_delivery.json",
+  "github_push_status": "BLOCKED",
+  "github_remote_verified_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
   "local_comparison_hash": "729d1e6e9f4658a60a09e245203cc3428d0ba3ef4e6bb29e451ea4e88f3b9943",
   "market_calculation_version": 1,
   "market_sides_scanned": 5060,
