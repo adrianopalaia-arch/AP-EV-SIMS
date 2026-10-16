@@ -138,3 +138,16 @@ Delivery checkpoint `c941707` committed safely; push blocked. Manual push comman
 - Report and commands: reports/CFB_TRAINING_VALIDATION.md. Raw data, databases and .env remain local and ignored.
 
 Implementation checkpoint `7d991e6` saved and secret-scanned. Real archived-data Streamlit AppTest passed. Push attempt failed; no local work was lost. A delivery-metadata checkpoint and final non-force push follow.
+
+
+## Predictive edge checkpoint 2026-10-15T23:38:13.921005-05:00
+
+249 tests passed; 0 failed; 18 frozen Phase 1 files unchanged. Existing commits preserved.
+
+Completed: paper candidate/rejection ledger, ex-DK consensus, separate price stages, strict near-start CLV, revision-aware paper settlement, paired diagnostic scores, model feed repairs, three report views, dashboard paper panel and current quota reporting.
+
+Real capture: 8 candidates across 3 games; 816 versioned quote/model observations, including repeated quotes after freshness changed. Zero settlements, forecasts, calibrated forecasts and validated models. $22 reference; $0 cash committed; all PASS.
+
+Fresh CFBD/current odds: HTTP 200; DK and FD present. Historical odds: HTTP 401, no historical date established. Odds credits remaining: 419. One pre-existing malformed CFBD games snapshot remains excluded.
+
+Next dependency: actual pregame feature/price joins and settled prospective evidence. GitHub Actions data collection is blocked on private durable execution/storage and is not running. Full delivery and alternative historical-source findings: reports/PREDICTIVE_EDGE_DELIVERY.md. Git push/PR outcome follows after the safety scan.

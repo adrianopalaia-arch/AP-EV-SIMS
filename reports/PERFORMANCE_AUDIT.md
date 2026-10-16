@@ -1,0 +1,18 @@
+# AP EV/SIMS paper tracking performance audit
+
+Generated UTC: 2026-10-16T04:35:33.264656+00:00
+
+Cohort: 8/100 candidates across 3 games. Settled: 0.
+Considered quote/model observations: 816. Rejections: 808.
+Real model forecasts: 0; calibrated forecasts: 0. CORE remains disabled.
+The $22 unit is a paper reference. Cash committed: $0. Actual cash ROI and model-selected ROI are unavailable.
+The fixed home/over cohort is a collection policy, not a recommended betting strategy. Its outcome arithmetic is hypothetical.
+Raw/calibrated model scores are compared with the ex-DraftKings consensus only on the same settled observations.
+A first-observed price is not a proven opener. A last quote older than five minutes before kickoff is not accepted as a close.
+No probabilities, settlement receipts, execution costs, cancelled outcomes or closing prices are invented.
+
+Machine-readable metrics: outputs/paper_tracking_status.json
+Local candidate/rejection evidence: data/evaluations/paper-tracking-observations.json
+Local settlement and closing revisions: data/evaluations/paper-tracking-settlements.json
+
+100 observations are diagnostic only. Chronological calibration, p_low coverage and Phase 1 risk gates remain required.

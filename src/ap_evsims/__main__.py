@@ -4,7 +4,9 @@ from pathlib import Path
 
 def main(argv=None):
     parser=argparse.ArgumentParser(prog='python -m ap_evsims')
-    parser.add_argument('command',choices=('collect_odds','sync_data','data_health','research_cycle','publish_handoff','reconcile_results','daily_card','dashboard','verify_providers'))
+    parser.add_argument('command',choices=('collect_odds','sync_data','data_health','research_cycle','publish_handoff','reconcile_results','daily_card','dashboard','verify_providers','paper_track'))
+    parser.add_argument('--start-paper',action='store_true',help='Initialize the fixed 100-candidate diagnostic phase without cash commitments')
+    parser.add_argument('--refresh-quotes',action='store_true',help='For paper_track: request bounded current quotes before recording; otherwise local archives only')
     parser.add_argument('--store',type=Path,default=Path('data'))
     parser.add_argument('--sports',default='CFB')
     parser.add_argument('--daily-credit-cap',type=int,default=24)
@@ -23,6 +25,15 @@ def main(argv=None):
     parser.add_argument('--author-name')
     parser.add_argument('--author-email')
     args=parser.parse_args(argv)
+    if args.command!='paper_track' and (args.start_paper or args.refresh_quotes):parser.error('paper flags require paper_track')
+    if args.command=='paper_track':
+        if args.offline and args.refresh_quotes:parser.error('offline paper tracking cannot refresh quotes')
+        from .paper_tracking import start_paper
+        from .product import daily_card
+        if args.start_paper:start_paper(args.store.resolve().parent)
+        result=daily_card(args.store.resolve().parent,offline=not args.refresh_quotes,sports=('CFB',),
+            daily_credit_cap=args.daily_credit_cap,reserve_credits=args.reserve_credits,force_refresh=args.force_refresh)
+        print(json.dumps(result['paper_tracking'],indent=2,allow_nan=False));return
     if args.command=='verify_providers':
         if args.offline:parser.error('verify_providers requires network access')
         from .providers.access import verify_access

@@ -8,24 +8,11 @@
   },
   "cfbd": {
     "authentication_status": "OK",
-    "checked_at": "2026-10-16T01:47:20.896763+00:00",
+    "checked_at": "2026-10-16T04:30:51.351338+00:00",
     "credential_present": true,
-    "current_cfb_play_coverage": {
-      "historical_feature_availability": "CAPTURE_TIME_ONLY",
-      "raw_play_rows": 142879,
-      "season": 2026,
-      "weeks": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ]
-    },
     "endpoint_status": 200,
     "quota_metadata": {
-      "x-calllimit-remaining": 970
+      "x-calllimit-remaining": 969
     }
   },
   "moneypuck": {
@@ -51,7 +38,7 @@
   },
   "odds_api": {
     "authentication_status": "OK",
-    "checked_at": "2026-10-15T00:40:26.523966+00:00",
+    "checked_at": "2026-10-16T04:30:51.932748+00:00",
     "coverage_scope": "Only the requested historical timestamp was probed; earliest accessible provider date is not established.",
     "credential_present": true,
     "draftkings_returned": true,
@@ -60,12 +47,12 @@
     "fanduel_returned": true,
     "historical_access": false,
     "historical_access_note": "Separate entitlement check; current odds access does not prove historical access",
-    "historical_checked_at": "2026-10-15T00:40:26.635732+00:00",
+    "historical_checked_at": "2026-10-16T04:30:52.100885+00:00",
     "historical_endpoint_status": 401,
     "historical_quota": {
       "x-requests-last": 0,
-      "x-requests-remaining": 443,
-      "x-requests-used": 57
+      "x-requests-remaining": 419,
+      "x-requests-used": 81
     },
     "latest_collection": {
       "collected_at": "2026-10-15T03:43:08.673043+00:00",
@@ -111,8 +98,8 @@
     },
     "quota_metadata": {
       "x-requests-last": 3,
-      "x-requests-remaining": 422,
-      "x-requests-used": 78
+      "x-requests-remaining": 419,
+      "x-requests-used": 81
     },
     "refresh_mode": "OFFLINE",
     "sports_endpoint_status": 200

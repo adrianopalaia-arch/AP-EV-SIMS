@@ -154,6 +154,13 @@ def _render_card(repo):
     with research_tab:
         st.subheader('Research in progress')
         st.caption('Verified evidence can be displayed before a model is approved. Missing statistics remain unavailable. This panel does not authorize picks.')
+        paper=feeds.get('paper_tracking_status.json',{})
+        if paper.get('phase_id'):
+            st.subheader('100-candidate paper diagnostic')
+            st.write(f"{paper['cohort_candidates']}/100 candidates across {paper['unique_games']} games; {paper['settled_candidates']} settled. {paper['observations_logged']} quote/model observations retained.")
+            st.caption('$22 paper reference; $0 cash committed. Fixed home/over sampling is not a betting strategy. 100 candidates do not establish profitability or model validation.')
+            st.caption(f"Real model forecasts: {paper['model_predictions']}. Calibrated forecasts: {paper['calibrated_predictions']}. CORE disabled.")
+            with st.expander('Paper benchmark, rejections and settlement diagnostics'):st.json(paper)
         u=feeds.get('cfb_universe.json',{})
         st.dataframe([
             {'Stage':'Captured sportsbook prices','Evidence':str(summary.get('market_sides_scanned',0))+' quote sides; check each quote timestamp'},

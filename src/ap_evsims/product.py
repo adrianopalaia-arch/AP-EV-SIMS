@@ -107,14 +107,34 @@ def preflight(quotes,at,previous=()):
     return sorted(rows,key=lambda r:(BOOK_PRIORITY.get(r['book'],2),r['sport'],r['event_start'],r['event_id'],r['market'],r['selection']))
 
 
-def model_catalog(rows):
+def research_prediction_rows(rows):
+    """Publish real research forecasts without converting them to recommendations."""
+    out=[]
+    for row in rows:
+        if row.get('model_probability') is None:continue
+        if not row.get('model_artifact_id') or not row.get('feature_fingerprint'):raise ValueError('UNVERIFIED_PREDICTION_PUBLICATION')
+        out.append(dict(row,raw_probability=row['model_probability'],calibrated_probability=row.get('calibrated_probability'),
+            uncertainty_lower_bound=row.get('p_low'),status='UNVALIDATED_RESEARCH',decision='PASS',phase1_eligible=False,stake=None))
+    return out
+
+
+def model_catalog(rows,research=None):
     raw={'Spread':'spreads','Total':'totals','Game total':'totals','Moneyline':'h2h'}
-    return [dict(sport=sport,market=market,status='UNVALIDATED',champion_model=None,model_version=None,
+    catalog=[dict(sport=sport,market=market,status='UNVALIDATED',champion_model=None,model_version=None,
         observed_market_sides=sum(r['sport']==sport and r['market']==raw.get(market) for r in rows),
         real_training_sample=0,real_evaluation_sample=0,synthetic_performance_sample=0,
         probability=None,ev=None,brier_score=None,log_loss=None,roi=None,clv=None,
         blocker='NO_APPROVED_EMPIRICAL_MODEL' if market in raw else 'PROP_PRICES_AND_VERIFIED_ROLE_FEATURES_MISSING')
         for sport,markets in MARKETS.items() for market in markets]
+    kinds={'Spread':'spread','Total':'total','Moneyline':'win'}
+    for item in catalog:
+        if item['sport']!='CFB':continue
+        trained=(research or {}).get('trained_research_models',{}).get(kinds.get(item['market']))
+        if trained:
+            item.update(model_version=trained['model_version'],real_training_sample=trained['training_n'],
+                research_model_artifact=trained['artifact_id'],training_cutoff=trained['training_cutoff'],
+                research_predictions=sum(r['sport']=='CFB' and r['market']==raw[item['market']] and r.get('model_probability') is not None for r in rows))
+    return catalog
 
 
 def daily_card(repo, *, offline=False,sports=('CFB',),daily_credit_cap=24,reserve_credits=50,now=None,transport=http_get,force_refresh=False):
@@ -137,27 +157,31 @@ def daily_card(repo, *, offline=False,sports=('CFB',),daily_credit_cap=24,reserv
         universe=build_cfb_universe(store,warehouse,at,quotes)
         from .research_display import add_research_display
         research_display=add_research_display(store,rows,universe,at)
-        catalog=model_catalog(rows)
+        catalog=model_catalog(rows,research_display)
+        from .paper_tracking import update_paper
+        paper=update_paper(repo,store,warehouse,quotes,rows,universe,at)
         providers=read_json(store.root/'evaluations/application-provider-status.json',read_json(repo/'outputs/provider_status.json',{}))
         for name,env_name in (('cfbd','CFBD_API_KEY'),('odds_api','THE_ODDS_API_KEY')):
             providers.setdefault(name,{})['credential_present']=credentials[env_name]
         last_collection=collection or read_json(store.root/'evaluations/odds-collection-latest.json',None)
         providers['odds_api'].update(latest_collection=last_collection,refresh_mode='OFFLINE' if offline else 'BOUNDED_CURRENT_ODDS',
             historical_access_note='Separate entitlement check; current odds access does not prove historical access')
-        if last_collection:
-            quota=last_collection.get('quota',{})
+        if last_collection or (store.root/'quota.sqlite').exists():
+            from .providers.quota import QuotaLedger
+            quota=QuotaLedger(store.root/'quota.sqlite').summary()
+            if quota.get('requests_remaining') is None:quota=(last_collection or {}).get('quota',{})
             if quota.get('requests_remaining') is not None:
                 providers['odds_api'].setdefault('quota_metadata',{}).update({
                     'x-requests-remaining':quota['requests_remaining'],'x-requests-used':quota.get('provider_requests_used')})
         failures=[r for r in (collection or {}).get('results',[]) if r['status'] not in ('ARCHIVED','CACHED_CADENCE')]
         state=read_json(repo/'TASK_STATE.json',{}); prior_last=read_json(repo/'outputs/last_update.json',{})
-        values={'latest_predictions.json':[], 'latest_edges.json':[], 'latest_passes.json':preferred,
-            'model_status.json':catalog,'provider_status.json':providers,'cfb_universe.json':universe}
+        values={'latest_predictions.json':research_prediction_rows(rows), 'latest_edges.json':[], 'latest_passes.json':preferred,
+            'model_status.json':catalog,'provider_status.json':providers,'cfb_universe.json':universe,'paper_tracking_status.json':paper}
         summary=dict(generated_at=at,status='NO QUALIFYING BETS',mode='PREGAME',
             games_scanned=len({r['event_id'] for r in rows}),market_sides_scanned=len(rows),preferred_market_sides=len(preferred),qualified_edges=0,models_validated=0,
             suspended_or_superseded_quotes=suspended,cfb_schedule_games=universe['games_scanned'],
             real_model_evaluation_sample=0,synthetic_performance_sample=0,refresh_failures=failures,
-            research_model_display=research_display,market_calculation_version=1,
+            research_model_display=research_display,market_calculation_version=1,paper_tracking=paper,
             data_quality_failures=imported['failures'],reference_unit=22,reference_unit_semantics='DISPLAY_REFERENCE_ONLY_NOT_A_STAKE',
             current_task='LOCAL_DASHBOARD_AND_DAILY_CARD',next_task='CFB verified pregame features and timestamp-authentic evaluation',
             branch=state.get('branch'),git_commit=prior_last.get('git_commit'),tests_passed=state.get('tests',{}).get('passed'),
@@ -173,7 +197,8 @@ def daily_card(repo, *, offline=False,sports=('CFB',),daily_credit_cap=24,reserv
         atomic_json(store.root/'snapshots'/(generation+'-comparison_markets.json'),comparisons)
         for name,value in values.items():atomic_json(store.root/'snapshots'/(generation+'-'+name),value)
         for name,value in values.items():atomic_json(repo/'outputs'/name,value)
-        atomic_text(repo/'reports/MORNING_CARD.md','\n'.join(['# AP EV/SIMS Morning Card','',f'Generated: {at}',
+        card_body='\n'.join(['',f'Generated: {at}',
+            f'Publication generation: {generation}. These report views share one captured generation; their filenames do not imply separate refreshes.',
             '', '**NO QUALIFYING BETS**','',f"Games with archived market quotes: {summary['games_scanned']}. Market sides: {len(rows)}.",
             f"CFB captured schedule universe: {universe['games_scanned']} games; query coverage is incomplete.",
             'Market break-even/no-vig probabilities and descriptive EV are price-derived baselines. All AP models remain UNVALIDATED.',
@@ -181,10 +206,14 @@ def daily_card(repo, *, offline=False,sports=('CFB',),daily_credit_cap=24,reserv
             f"Research model probabilities displayed: {research_display['research_predictions']}. Missing AP probabilities, calibration and p_low remain null.",
             'DraftKings first, FanDuel second, remaining books for comparison. Prices are archived observations, not execution guarantees.',
             f'Suspended or superseded quote sides withheld: {suspended}. Refresh failures: {len(failures)}.',
+            f"Refresh mode: {'LOCAL ARCHIVE ONLY' if offline else 'BOUNDED CURRENT REFRESH'}. Inspect individual quote timestamps; rebuilding does not refresh a price.",
             'Every displayed market has explicit PASS reasons and exact line/price/source timestamps in latest_passes.json.',
             'Model evaluation sample: 0. Brier, log loss, ROI and CLV unavailable. Fixtures do not contribute performance.',
             'CORE, LEAN and parlay builders unavailable until their model, correlation and exposure requirements pass.',
-            '$22 is a configurable display reference, not a bankroll or authorized stake. No wagers are placed.'])+'\n')
+            '$22 is a configurable display reference, not a bankroll or authorized stake. No wagers are placed.',
+            f"Paper diagnostic: {paper.get('cohort_candidates',0)}/100 candidates; {paper.get('settled_candidates',0)} settled. See PERFORMANCE_AUDIT.md."])+'\n'
+        for slot in ('MORNING','LUNCH','EVENING'):
+            atomic_text(repo/'reports'/f'{slot}_CARD.md',f'# AP EV/SIMS {slot.title()} Card\n'+card_body)
         atomic_json(repo/'outputs/last_update.json',summary)
         return summary
 

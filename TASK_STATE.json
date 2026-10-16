@@ -177,7 +177,7 @@
         "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "historical_provider_access": {
-        "blocker": "BLOCKED_BY_HISTORICAL_ODDS_ACCESS; authenticated current access succeeds but historical HTTP 401",
+        "blocker": "Fresh historical NCAAF odds probe returned HTTP 401; earliest usable historical date is unestablished",
         "dependencies": [],
         "files": [
           "src/ap_evsims/providers/live.py",
@@ -200,8 +200,15 @@
         "files": [
           "src/ap_evsims/replay.py",
           "src/ap_evsims/backtest.py",
-          "src/ap_evsims/cycle.py"
+          "src/ap_evsims/cycle.py",
+          "src/ap_evsims/paper_market.py",
+          "src/ap_evsims/paper_tracking.py",
+          "outputs/paper_tracking_status.json",
+          "reports/PERFORMANCE_AUDIT.md"
         ],
+        "implemented_substeps": {
+          "prospective_price_result_ledger": "COMPLETE; empirical results pending"
+        },
         "next_action": "Resume real CFB spread replay when historical odds and timestamp-authentic joined features exist; then extend the same ledger to calibrated sport models.",
         "real_sample_size": 0,
         "status": "BLOCKED",
@@ -209,7 +216,8 @@
         "tests": [
           "tests/test_replay_settlement.py",
           "tests/test_phase2_backtest.py",
-          "tests/test_handoff_cycle.py"
+          "tests/test_handoff_cycle.py",
+          "tests/test_paper_tracking.py"
         ],
         "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
@@ -276,6 +284,23 @@
         ],
         "updated_at": "2026-10-14T22:13:39.467379+00:00"
       },
+      "prospective_paper_tracking": {
+        "blocker": "No settled prospective observations or verified model forecasts yet",
+        "files": [
+          "src/ap_evsims/paper_market.py",
+          "src/ap_evsims/paper_tracking.py",
+          "outputs/paper_tracking_status.json",
+          "reports/PERFORMANCE_AUDIT.md"
+        ],
+        "next_action": "Collect fresh quotes and official outcomes; keep all recommendations PASS",
+        "real_sample_size": 8,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_paper_tracking.py"
+        ],
+        "updated_at": "2026-10-16T04:38:13.911840+00:00"
+      },
       "provider_authentication": {
         "blocker": null,
         "dependencies": [],
@@ -317,7 +342,11 @@
           "src/ap_evsims/accounting.py",
           "src/ap_evsims/operations.py",
           "src/ap_evsims/results.py",
-          "src/ap_evsims/__main__.py"
+          "src/ap_evsims/__main__.py",
+          "src/ap_evsims/paper_market.py",
+          "src/ap_evsims/paper_tracking.py",
+          "outputs/paper_tracking_status.json",
+          "reports/PERFORMANCE_AUDIT.md"
         ],
         "implementation_steps": {
           "account_exposure_reconciliation": "NOT_STARTED",
@@ -327,6 +356,9 @@
           "bounded_cfbd_refresh": "COMPLETE",
           "frozen_replay_reconciliation": "COMPLETE"
         },
+        "implemented_substeps": {
+          "prospective_price_result_ledger": "COMPLETE; empirical results pending"
+        },
         "next_action": "Complete verified book-rule and external account/exposure reconciliation; explicit CFBD refresh and local replay result revisions are implemented.",
         "real_sample_size": 0,
         "result_archive_games": 896,
@@ -335,7 +367,8 @@
         "tests": [
           "tests/test_replay_settlement.py",
           "tests/test_accounting_promotions.py",
-          "tests/test_result_refresh.py"
+          "tests/test_result_refresh.py",
+          "tests/test_paper_tracking.py"
         ],
         "updated_at": "2026-10-14T22:13:39.467379+00:00"
       }
@@ -762,14 +795,22 @@
         ],
         "files": [
           "src/ap_evsims/diagnostics.py",
-          "src/ap_evsims/handoff.py"
+          "src/ap_evsims/handoff.py",
+          "src/ap_evsims/paper_market.py",
+          "src/ap_evsims/paper_tracking.py",
+          "outputs/paper_tracking_status.json",
+          "reports/PERFORMANCE_AUDIT.md"
         ],
+        "implemented_substeps": {
+          "prospective_price_result_ledger": "COMPLETE; empirical results pending"
+        },
         "next_action": "Populate proper-score, inclusion-bias, latency, regime, source-ablation and p_low reports from frozen real predictions.",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
         "tests": [
-          "tests/test_diagnostics_redteam.py"
+          "tests/test_diagnostics_redteam.py",
+          "tests/test_paper_tracking.py"
         ],
         "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
@@ -996,6 +1037,18 @@
           "tests/test_application_access.py"
         ],
         "updated_at": "2026-10-15T00:37:33.605528+00:00"
+      },
+      "scheduled_data_refresh": {
+        "blocker": "No private durable execution/storage connection for GitHub Actions; local-only archive and credentials are not available to hosted runners",
+        "files": [
+          "reports/PREDICTIVE_EDGE_DELIVERY.md"
+        ],
+        "next_action": "Establish a private durable data runner/storage connection before deploying a quota-bounded schedule; do not upload raw data to public Actions artifacts",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-16T04:38:13.911840+00:00"
       }
     }
   },
@@ -1017,12 +1070,11 @@
   "completion": "PARTIAL",
   "credential_check": {
     "cfbd_present": true,
-    "checked_at": "2026-10-14T21:56:21.619243+00:00",
-    "env_ignored": true,
-    "env_tracked": false,
-    "odds_present": true
+    "checked_at": "2026-10-16T04:38:13.911840+00:00",
+    "odds_present": true,
+    "secrets_printed": false
   },
-  "current_task": "CFB_TRAINING_DATA_AND_VERIFIED_FEATURES_CHECKPOINT",
+  "current_task": "PAPER_LEDGER_REPORTING_DELIVERY",
   "delivery_verification": {
     "ancestor_verified": true,
     "at": "2026-10-15T00:41:53.605137+00:00",
@@ -1040,7 +1092,7 @@
     "tests_failed": 0,
     "tests_passed": 195
   },
-  "earliest_blocked_dependency": "Timestamp-authentic joined settled CFB training rows: 0; archived historical odds access last returned 401, and current play captures cannot be backdated.",
+  "earliest_blocked_dependency": "Timestamp-authentic historical feature/price joins: historical odds HTTP 401; zero eligible training rows",
   "empirical_note": "Captured provider rows and current quotes are real. They are not qualified historical model evaluation samples. Synthetic sample counts refer to representative mechanics fixtures and are never added to real samples.",
   "empirical_performance_available": false,
   "focused_october14_audit": {
@@ -1067,8 +1119,9 @@
     "branch": "ap-evisims-live",
     "env_staged": false,
     "implementation_commit": "7d991e6523bfaf429bd3eb0f968fe0c29ea5417f",
+    "push_success": false,
     "secret_scan": "PASS",
-    "status": "LOCAL_CHECKPOINT_COMMITTED_PUSH_BLOCKED"
+    "status": "PENDING_CURRENT_PUSH"
   },
   "github_push": {
     "branch": "ap-evisims-live",
@@ -1127,15 +1180,37 @@
       }
     ]
   },
-  "last_checkpoint_at": "2026-10-16T01:59:33.344672+00:00",
+  "last_checkpoint_at": "2026-10-16T04:38:13.911840+00:00",
   "last_push_attempt": "2026-10-16T02:03:34.720992+00:00",
   "last_remote_verified_at": "2026-10-14T22:13:39.467379+00:00",
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
-  "next_task": "Capture pregame feature snapshots and fresh two-sided quotes prospectively; resolve historical feature availability and historical odds access before an empirical model fit.",
+  "next_task": "Collect prospective CFB outcomes and near-start prices; obtain timestamp-authentic feature/price training joins before model fitting",
+  "paper_tracking_delivery": {
+    "cash_committed": 0,
+    "cohort_candidates": 8,
+    "core_enabled": false,
+    "implementation": "COMPLETE",
+    "observations_logged": 816,
+    "real_model_predictions": 0,
+    "reference_unit": 22,
+    "report": "reports/PREDICTIVE_EDGE_DELIVERY.md",
+    "settled": 0,
+    "status": "IN_PROGRESS",
+    "synthetic_performance_sample": 0,
+    "target": 100,
+    "unique_games": 3,
+    "updated_at": "2026-10-16T04:38:13.911840+00:00"
+  },
   "phase1_integrity": {
     "changed": [],
     "files_verified": 18,
     "verified_at": "2026-10-16T01:59:33.344672+00:00"
+  },
+  "predictive_edge_milestones": {
+    "demonstrated_value": "BLOCKED",
+    "prospective_verification": "IN_PROGRESS",
+    "reliable_data": "IN_PROGRESS",
+    "working_predictions": "BLOCKED"
   },
   "pregame_refresh_delivery": {
     "advanced_stat_refresh": "BLOCKED_FEEDS_NOT_CONNECTED",
@@ -1270,6 +1345,8 @@
     "url": "http://127.0.0.1:8501"
   },
   "real_data_counts": {
+    "all_quote_observations": 41934,
+    "cfb_quote_observations": 30948,
     "closing_prices": 0,
     "datasets": [
       {
@@ -1371,6 +1448,10 @@
     "missing_periods": "UNMEASURED_NO_COMPLETE_ELIGIBLE_UNIVERSE",
     "odds_movements": 1359,
     "odds_quotes": 16990,
+    "paper_candidates": 8,
+    "paper_model_forecasts": 0,
+    "paper_settled": 0,
+    "paper_unique_games": 3,
     "quote_ranges": [
       {
         "earliest": "2026-10-14 06:19:23.928987+00:00",
@@ -1457,12 +1538,12 @@
   "tests": {
     "command": "python -m unittest discover -s tests -q",
     "failed": 0,
-    "passed": 228,
+    "passed": 249,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-16T01:59:33.344672+00:00",
-    "verified_source_commit": "e8ba43ad29cab54452bdbd06ade376e4badde496",
-    "verified_source_semantics": "Source HEAD plus multi-query CFB integration changes in this checkpoint"
+    "verified_at": "2026-10-16T04:38:13.911840+00:00",
+    "verified_source_commit": "197e851c79ce0e62341465d9e69886b1703b94e2",
+    "verified_source_semantics": "Source HEAD plus tested paper ledger and reporting changes in this checkpoint"
   },
-  "updated_at": "2026-10-16T01:59:33.344672+00:00"
+  "updated_at": "2026-10-16T04:38:13.911840+00:00"
 }

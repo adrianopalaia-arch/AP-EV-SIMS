@@ -126,7 +126,9 @@ def attach_prediction(row, prediction, at):
 def add_research_display(store, rows, universe, at):
     models,issues=verified_models(store,at)
     report=dict(status='NO_TRAINED_RESEARCH_MODEL' if not models else 'RESEARCH_ONLY',issues=issues,
-        research_predictions=0,validated_models=0,real_evaluation_sample=0)
+        research_predictions=0,validated_models=0,real_evaluation_sample=0,
+        trained_research_models={k:dict(model_version=m.model_version,artifact_id=m.artifact_id,training_n=m.training_n,
+            training_cutoff=m.training_cutoff) for k,m in models.items()})
     if not models:return report
     matches={}
     for game in universe.get('games',[]):
