@@ -1,9 +1,9 @@
 # AP EV/SIMS paper tracking performance audit
 
-Generated UTC: 2026-10-16T04:35:33.264656+00:00
+Generated UTC: 2026-10-16T05:37:59.093064+00:00
 
 Cohort: 8/100 candidates across 3 games. Settled: 0.
-Considered quote/model observations: 816. Rejections: 808.
+Considered quote/model observations: 1224. Rejections: 1216.
 Real model forecasts: 0; calibrated forecasts: 0. CORE remains disabled.
 The $22 unit is a paper reference. Cash committed: $0. Actual cash ROI and model-selected ROI are unavailable.
 The fixed home/over cohort is a collection policy, not a recommended betting strategy. Its outcome arithmetic is hypothetical.

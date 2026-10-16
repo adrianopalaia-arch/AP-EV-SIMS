@@ -4,7 +4,7 @@
   "categories": {
     "CFB": {
       "moneyline": {
-        "blocker": "No timestamp-authentic joined historical odds/features dataset; zero empirical model observations",
+        "blocker": "HISTORICAL_ODDS_ACCESS; HISTORICAL_REVISION_TIMING_UNVERIFIED; PROSPECTIVE_CALIBRATION_PENDING; CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.historical_provider_access"
@@ -12,20 +12,26 @@
         "files": [
           "src/ap_evsims/models/cfb.py",
           "src/ap_evsims/models/artifacts.py",
-          "src/ap_evsims/backtest.py"
+          "src/ap_evsims/backtest.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Keep CFBWinModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 1086,
+        "real_sample_size": 1442,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 90,
         "tests": [
           "tests/test_phase2_cfb.py",
           "tests/test_phase2_backtest.py"
         ],
-        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "spread": {
-        "blocker": "383 captured completed FBS games: 381 lack a qualifying archived DK price; 2 priced games lack sufficient prequote play data. No eligible model training rows.",
+        "blocker": "HISTORICAL_ODDS_ACCESS; HISTORICAL_REVISION_TIMING_UNVERIFIED; PROSPECTIVE_CALIBRATION_PENDING; CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.historical_provider_access"
@@ -38,8 +44,12 @@
           "src/ap_evsims/canonical.py",
           "src/ap_evsims/cfb_history.py",
           "src/ap_evsims/cfb_training.py",
-          "reports/CFB_TRAINING_VALIDATION.md"
+          "reports/CFB_TRAINING_VALIDATION.md",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
         "implemented_substeps": {
           "complete_real_feature_sets": 0,
           "complete_season_independent_coverage_audit": "NOT_STARTED",
@@ -53,9 +63,11 @@
           "source_recipe_recomputation": "COMPLETE",
           "training_eligibility_audit": "COMPLETE"
         },
-        "next_action": "Capture pregame feature snapshots and fresh two-sided quotes prospectively; resolve historical feature availability and historical odds access before an empirical model fit.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 1086,
+        "real_sample_size": 1442,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 90,
         "tests": [
           "tests/test_phase2_cfb.py",
@@ -64,7 +76,7 @@
           "tests/test_cfb_history.py",
           "tests/test_cfb_training.py"
         ],
-        "updated_at": "2026-10-16T01:59:33.344672+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "total": {
         "blocker": "No timestamp-authentic joined historical odds/features dataset; zero empirical model observations",
@@ -389,150 +401,198 @@
         "updated_at": "2026-10-14T23:31:13.069248+00:00"
       },
       "hits_allowed": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 540,
+        "real_sample_size": 950,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "hitter_hits": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 1410,
+        "real_sample_size": 2451,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "pitcher_K": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 540,
+        "real_sample_size": 950,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "pitcher_outs": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 540,
+        "real_sample_size": 950,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "total_bases": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; LIMITED_24_PLAYER_TRAINING_COHORT; POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 1410,
+        "real_sample_size": 2451,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       }
     },
     "NBA": {
       "assists": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 51938,
+        "real_sample_size": 79632,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "points": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 51938,
+        "real_sample_size": 79632,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "rebounds": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 51938,
+        "real_sample_size": 79632,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "spread": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -553,22 +613,28 @@
         "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "threes": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 51938,
+        "real_sample_size": 79632,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "total": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -591,90 +657,120 @@
     },
     "NFL": {
       "passing": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 733,
+        "real_sample_size": 1510,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "receiving": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 6152,
+        "real_sample_size": 12332,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "receptions": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 6152,
+        "real_sample_size": 12332,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "rushing": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 6152,
+        "real_sample_size": 12332,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "rushing_attempts": {
-        "blocker": "No fitted predictor or qualifying evaluation",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP",
         "files": [
-          "src/ap_evsims/product.py"
+          "src/ap_evsims/product.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement only after required role/price evidence exists.",
-        "real_sample_size": 0,
-        "status": "NOT_STARTED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 6152,
+        "real_sample_size": 12332,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_product.py"
         ],
-        "updated_at": "2026-10-14T23:31:13.069248+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "spread": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -733,40 +829,52 @@
         "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "SOG": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; NO_PROP_OFFERS_RETURNED; UNCONFIRMED_GOALIE",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 96525,
+        "real_sample_size": 145238,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "goalie_saves": {
-        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "blocker": "PROSPECTIVE_CALIBRATION_PENDING; UNVERIFIED_PARTICIPATION_AND_ROLE; BOOK_SETTLEMENT_RULE_UNVERIFIED; HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED; PROP_PRICE_REFRESH_DAILY_CAP; BOOK_CANONICAL_START_MISMATCH; NO_PROP_OFFERS_RETURNED; UNCONFIRMED_GOALIE",
         "dependencies": [
           "FOUNDATION.historical_replay",
           "FOUNDATION.settlement_accounting"
         ],
         "files": [
-          "src/ap_evsims/models/contracts.py"
+          "src/ap_evsims/models/contracts.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
-        "real_sample_size": 0,
-        "status": "BLOCKED",
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "real_evaluation_sample": 5597,
+        "real_sample_size": 8540,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
         "synthetic_sample_size": 0,
         "tests": [
           "tests/test_sport_contracts.py"
         ],
-        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "totals": {
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
@@ -1088,7 +1196,7 @@
     "odds_present": true,
     "secrets_printed": false
   },
-  "current_task": "MULTISPORT_PROSPECTIVE_PROP_INTEGRATION",
+  "current_task": "EXECUTED_ALL_SPORTS_PUBLICATION",
   "delivery_verification": {
     "ancestor_verified": true,
     "at": "2026-10-15T00:41:53.605137+00:00",
@@ -1106,9 +1214,9 @@
     "tests_failed": 0,
     "tests_passed": 195
   },
-  "earliest_blocked_dependency": "Timestamp-authentic historical feature/price joins: historical odds HTTP 401; zero eligible training rows",
-  "empirical_note": "Captured provider rows and current quotes are real. They are not qualified historical model evaluation samples. Synthetic sample counts refer to representative mechanics fixtures and are never added to real samples.",
-  "empirical_performance_available": false,
+  "earliest_blocked_dependency": "Verified participation/roles and prospective outcomes; odds entitlement blocks historical betting evaluation only",
+  "empirical_note": "Reconstructed chronological forecasting metrics exist; prospective calibrated betting evidence remains zero",
+  "empirical_performance_available": true,
   "focused_october14_audit": {
     "blocker": "Original recommendation/placement times and receipts absent; Sam Houston canonical result not final at last audit capture.",
     "dated_research_cases": 4,
@@ -1195,10 +1303,98 @@
       }
     ]
   },
-  "last_checkpoint_at": "2026-10-16T04:43:43.769743+00:00",
+  "last_checkpoint_at": "2026-10-16T05:45:43.020204+00:00",
   "last_push_attempt": "2026-10-16T04:43:43.769743+00:00",
   "last_remote_verified_at": "2026-10-14T22:13:39.467379+00:00",
   "last_verified_remote_commit": "3e7e5768f3e403ccfac137477e61d591c49db6f6",
+  "multi_sport_execution": {
+    "convergence": {
+      "all_pass": true,
+      "familywise_alpha": 0.01,
+      "maximum_allowed_error": 0.0172176744974759,
+      "maximum_observed_error": 0.012407993099482373,
+      "test": "DKW empirical CDF versus exact saved PMF",
+      "union_bound_forecasts": 353
+    },
+    "core_enabled": false,
+    "generated_at": "2026-10-16T05:42:35.450239+00:00",
+    "github_publication": {
+      "remote_verified_before_run": "6db215e00b5d42b8d7f94b556985a97f44104d75",
+      "status": "PENDING_COMMIT_AND_PUSH"
+    },
+    "monte_carlo_replicates": 706,
+    "new_frozen_predictions": 0,
+    "predictions_are": "first frozen research forecasts, republished without changing their timestamp",
+    "predictions_published": 353,
+    "price_refresh": {
+      "collected_at": "2026-10-16T05:37:58.193900+00:00",
+      "quota": {
+        "cached_historical_snapshots": 0,
+        "credits_consumed_recorded": 86,
+        "duplicate_requests_prevented": 0,
+        "provider_requests_used": 101,
+        "requests_recorded": 46,
+        "requests_remaining": 399
+      },
+      "results": [
+        {
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 2980,
+          "snapshot_id": "54b449d7a1fb4eb49a473ae08d4aa6c579ca006e909fb5392276cb1bc249d5fd",
+          "sport": "CFB",
+          "status": "ARCHIVED"
+        },
+        {
+          "sport": "NFL",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "NBA",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "NHL",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "MLB",
+          "status": "QUOTA_BUDGET_LIMIT"
+        }
+      ]
+    },
+    "prospective_settled": 0,
+    "publication_scope": "OUTPUTS_AND_REPORTS_ONLY; existing local source/test edits preserved unstaged",
+    "qualified_market_comparisons": 0,
+    "quota": {
+      "cached_historical_snapshots": 0,
+      "credits_consumed_recorded": 86,
+      "duplicate_requests_prevented": 0,
+      "provider_requests_used": 101,
+      "requests_recorded": 46,
+      "requests_remaining": 399
+    },
+    "reference_unit": 22,
+    "reference_unit_semantics": "REFERENCE_ONLY_NOT_A_STAKE",
+    "remaining_simulation_work": [
+      "joint game-state and cross-player dependency models",
+      "held-out validation of joint outcomes and tail behavior"
+    ],
+    "simulation_draws": 14120000,
+    "simulations_completed": 353,
+    "source_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
+    "source_worktree_changed": true,
+    "source_worktree_fingerprint": "ca6b39447a4cd2fe0d730aa32fbfe19e6622880b1c2b47aee566b6e315e20910",
+    "tests": {
+      "failed": 0,
+      "frozen_phase1_files": 18,
+      "frozen_phase1_mismatches": 0,
+      "passed": 295,
+      "skipped": 0,
+      "verified_at": "2026-10-16T05:45:43.020204+00:00"
+    },
+    "validated_edges": 0
+  },
   "multi_sport_research": {
     "blocker": "Prospective identities/roles/calibration/settlement still required",
     "files": [
@@ -1219,7 +1415,7 @@
       "tests/test_prop_research.py"
     ]
   },
-  "next_task": "Prospective player identity, role and frozen prop forecast integration; then settlement/CLV tests",
+  "next_task": "Prospective settlement/calibration and verified roles; joint game-state simulation remains incomplete",
   "paper_tracking_delivery": {
     "cash_committed": 0,
     "cohort_candidates": 8,
@@ -1380,152 +1576,580 @@
     "url": "http://127.0.0.1:8501"
   },
   "real_data_counts": {
-    "all_quote_observations": 41934,
-    "cfb_quote_observations": 30948,
-    "closing_prices": 0,
-    "datasets": [
-      {
-        "dataset": "games",
-        "earliest": "2026-10-14 06:19:21.255064+00:00",
-        "latest": "2026-10-14 22:11:41.334797+00:00",
-        "provider": "cfbd",
-        "snapshots": 5
+    "CFB": {
+      "blockers": [
+        "HISTORICAL_ODDS_ACCESS",
+        "HISTORICAL_REVISION_TIMING_UNVERIFIED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED"
+      ],
+      "coverage": {
+        "completed_scores": 2600,
+        "earliest_kickoff": "2023-08-26T18:30:00+00:00",
+        "exclusions": {
+          "EVENT_START_UNCONFIRMED": 214,
+          "NOT_FINAL": 212,
+          "OUTSIDE_FBS_VS_FBS_SCOPE": 1219
+        },
+        "latest_kickoff": "2026-10-16T00:00:00+00:00",
+        "raw_rows": 6826,
+        "revised_game_ids": 29,
+        "seasons": {
+          "2023": 750,
+          "2024": 752,
+          "2025": 762,
+          "2026": 336
+        },
+        "unique_game_ids": 4245
       },
-      {
-        "dataset": "lines",
-        "earliest": "2026-10-14 06:19:23.221758+00:00",
-        "latest": "2026-10-14 06:19:48.330995+00:00",
-        "provider": "cfbd",
-        "snapshots": 2
+      "evaluation_scope": "CHRONOLOGICAL_RECONSTRUCTION_NOT_TIMESTAMP_AUTHENTIC_BETTING_BACKTEST",
+      "forecast_records": 59,
+      "models": {
+        "game_margin": {
+          "evaluation": {
+            "baseline_brier": 0.23912697505843025,
+            "baseline_crps": 11.611557915887822,
+            "baseline_crps_n": 1086,
+            "baseline_logloss": 0.671293460126948,
+            "baseline_mae": 16.20734585923272,
+            "baseline_rmse": 20.57832723087376,
+            "brier": 0.20609104262778835,
+            "crps": 10.406835097443572,
+            "crps_n": 1086,
+            "home_win_probability_n": 1086,
+            "logloss": 0.5993558332405463,
+            "mae": 14.526886822556035,
+            "n": 1086,
+            "paired_mae_difference_95_week_bootstrap": [
+              -1.9616750733258392,
+              -1.4188128105778446
+            ],
+            "rmse": 18.47547822116664,
+            "week_blocks": 25
+          },
+          "training_n": 1442
+        }
       },
-      {
-        "dataset": "plays",
-        "earliest": "2026-10-14 06:19:21.673885+00:00",
-        "latest": "2026-10-14 06:19:47.023230+00:00",
-        "provider": "cfbd",
-        "snapshots": 2
+      "newly_frozen_this_run": 0,
+      "prospective_settled": 0,
+      "simulation_draws": 2360000,
+      "simulations": 59,
+      "trained_markets": [
+        "game_margin"
+      ],
+      "unsupported_priorities": [],
+      "validated_edges": 0,
+      "validated_models": 0
+    },
+    "MLB": {
+      "blockers": [
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "UNVERIFIED_PARTICIPATION_AND_ROLE",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED",
+        "PROP_PRICE_REFRESH_DAILY_CAP",
+        "BOOK_CANONICAL_START_MISMATCH",
+        "LIMITED_24_PLAYER_TRAINING_COHORT",
+        "POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED"
+      ],
+      "coverage": {
+        "earliest_date": "2024-03-28",
+        "events": 1370,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-09-27",
+        "outcome_rows": 7752,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 3312,
+          "2025": 2457,
+          "2026": 1983
+        },
+        "source_failures": [],
+        "source_selection": "Detroit 2024 fullSeason roster; first 12 sorted pitcher IDs and 12 nonpitcher IDs",
+        "unique_athletes": 24,
+        "unique_player_games": 3401
       },
-      {
-        "dataset": "ratings/elo",
-        "earliest": "2026-10-14 06:19:23.062796+00:00",
-        "latest": "2026-10-14 06:19:48.153121+00:00",
-        "provider": "cfbd",
-        "snapshots": 2
+      "evaluation_scope": "CHRONOLOGICAL_RECONSTRUCTION_NOT_TIMESTAMP_AUTHENTIC_BETTING_BACKTEST",
+      "forecast_records": 2,
+      "models": {
+        "hits_allowed": {
+          "evaluation": {
+            "baseline_mae": 1.1855555555555557,
+            "baseline_rmse": 1.5919589609450782,
+            "beats_baseline_mae": true,
+            "crps": 0.8277846706096126,
+            "crps_n": 540,
+            "mae": 1.1716652981552704,
+            "n": 540,
+            "opportunity_mae": 2.560454279258018,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.04368507480472318,
+              0.013539694456359752
+            ],
+            "rmse": 1.5752736640577183,
+            "week_blocks": 54
+          },
+          "training_n": 950
+        },
+        "hitter_hits": {
+          "evaluation": {
+            "baseline_mae": 0.6712056737588652,
+            "baseline_rmse": 0.8292609715073104,
+            "beats_baseline_mae": true,
+            "crps": 0.4028260664312772,
+            "crps_n": 1410,
+            "mae": 0.663497862853553,
+            "n": 1410,
+            "opportunity_mae": 1.0263450987530838,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.015998344393923416,
+              0.0012649216125056428
+            ],
+            "rmse": 0.8086235950081682,
+            "week_blocks": 55
+          },
+          "training_n": 2451
+        },
+        "pitcher_outs": {
+          "evaluation": {
+            "baseline_mae": 1.874074074074074,
+            "baseline_rmse": 2.754403881194757,
+            "beats_baseline_mae": false,
+            "crps": 1.5436104387743559,
+            "crps_n": 540,
+            "mae": 2.1339736168269896,
+            "n": 540,
+            "opportunity_mae": 2.560454279258018,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.17639575784192246,
+              0.34338640616630617
+            ],
+            "rmse": 2.909325661265547,
+            "week_blocks": 54
+          },
+          "training_n": 950
+        },
+        "pitcher_strikeouts": {
+          "evaluation": {
+            "baseline_mae": 1.2938888888888889,
+            "baseline_rmse": 1.7413649393082002,
+            "beats_baseline_mae": true,
+            "crps": 0.9227701437723459,
+            "crps_n": 540,
+            "mae": 1.291301764391329,
+            "n": 540,
+            "opportunity_mae": 2.560454279258018,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.046964651482712824,
+              0.04236624413445891
+            ],
+            "rmse": 1.7630808507549358,
+            "week_blocks": 54
+          },
+          "training_n": 950
+        },
+        "total_bases": {
+          "evaluation": {
+            "baseline_mae": 1.137304964539007,
+            "baseline_rmse": 1.5440574714618964,
+            "beats_baseline_mae": true,
+            "crps": 0.7210807118376074,
+            "crps_n": 1410,
+            "mae": 1.1187145672408696,
+            "n": 1410,
+            "opportunity_mae": 1.0263450987530838,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.036073853365407624,
+              -0.00012348260483130232
+            ],
+            "rmse": 1.5107625886722973,
+            "week_blocks": 55
+          },
+          "training_n": 2451
+        }
       },
-      {
-        "dataset": "stats/game/advanced",
-        "earliest": "2026-10-14 06:19:22.641959+00:00",
-        "latest": "2026-10-14 06:19:47.938869+00:00",
-        "provider": "cfbd",
-        "snapshots": 2
+      "newly_frozen_this_run": 0,
+      "prospective_settled": 0,
+      "simulation_draws": 80000,
+      "simulations": 2,
+      "trained_markets": [
+        "pitcher_strikeouts",
+        "pitcher_outs",
+        "hits_allowed",
+        "hitter_hits",
+        "total_bases"
+      ],
+      "unsupported_priorities": [
+        "HR props: no trained home-run model"
+      ],
+      "validated_edges": 0,
+      "validated_models": 0
+    },
+    "NBA": {
+      "blockers": [
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "UNVERIFIED_PARTICIPATION_AND_ROLE",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED",
+        "PROP_PRICE_REFRESH_DAILY_CAP"
+      ],
+      "coverage": {
+        "earliest_date": "2023-10-24",
+        "events": 3701,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-04-12",
+        "outcome_rows": 318528,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "DNP_NOT_ZERO": 17773,
+          "MISSING_STAT_OR_OPPORTUNITY": 412,
+          "NON_REGULAR_SEASON": 7653
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 106192,
+          "2025": 105504,
+          "2026": 106832
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 807,
+        "unique_player_games": 79632
       },
-      {
-        "dataset": "teams",
-        "earliest": "2026-10-14 06:19:21.952859+00:00",
-        "latest": "2026-10-14 06:19:47.282918+00:00",
-        "provider": "cfbd",
-        "snapshots": 2
+      "evaluation_scope": "CHRONOLOGICAL_RECONSTRUCTION_NOT_TIMESTAMP_AUTHENTIC_BETTING_BACKTEST",
+      "forecast_records": 124,
+      "models": {
+        "assists": {
+          "evaluation": {
+            "baseline_mae": 1.3861022253639412,
+            "baseline_rmse": 1.8918089143896761,
+            "beats_baseline_mae": true,
+            "crps": 0.9637182292348568,
+            "crps_n": 51938,
+            "mae": 1.3797318585923095,
+            "n": 51938,
+            "opportunity_mae": 5.406887079035111,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.01209718866270047,
+              -0.0010644605757448992
+            ],
+            "rmse": 1.8636824825399236,
+            "week_blocks": 50
+          },
+          "training_n": 79632
+        },
+        "points": {
+          "evaluation": {
+            "baseline_mae": 4.759028087212654,
+            "baseline_rmse": 6.260670218017508,
+            "beats_baseline_mae": false,
+            "crps": 3.367747756228579,
+            "crps_n": 51938,
+            "mae": 4.7637491122705,
+            "n": 51938,
+            "opportunity_mae": 5.406887079035111,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.01201945578163589,
+              0.022117047846397155
+            ],
+            "rmse": 6.196105002903086,
+            "week_blocks": 50
+          },
+          "training_n": 79632
+        },
+        "rebounds": {
+          "evaluation": {
+            "baseline_mae": 1.966158192582487,
+            "baseline_rmse": 2.5976393482786793,
+            "beats_baseline_mae": true,
+            "crps": 1.374680497670299,
+            "crps_n": 51938,
+            "mae": 1.9530995824898012,
+            "n": 51938,
+            "opportunity_mae": 5.406887079035111,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.01802558628578086,
+              -0.00818806268282577
+            ],
+            "rmse": 2.558543785344633,
+            "week_blocks": 50
+          },
+          "training_n": 79632
+        },
+        "threes": {
+          "evaluation": {
+            "baseline_mae": 0.9102062089292057,
+            "baseline_rmse": 1.2832211151427262,
+            "beats_baseline_mae": false,
+            "crps": 0.6253598342061689,
+            "crps_n": 51938,
+            "mae": 0.9158801898479991,
+            "n": 51938,
+            "opportunity_mae": 5.406887079035111,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.0033932604601741184,
+              0.008089324649827293
+            ],
+            "rmse": 1.2608755232604,
+            "week_blocks": 50
+          },
+          "training_n": 79632
+        }
       },
-      {
-        "dataset": "venues",
-        "earliest": "2026-10-14 06:19:22.118006+00:00",
-        "latest": "2026-10-14 06:19:47.440480+00:00",
-        "provider": "cfbd",
-        "snapshots": 2
+      "newly_frozen_this_run": 0,
+      "prospective_settled": 0,
+      "simulation_draws": 4960000,
+      "simulations": 124,
+      "trained_markets": [
+        "points",
+        "rebounds",
+        "assists",
+        "threes"
+      ],
+      "unsupported_priorities": [
+        "PRA: no fitted joint points/rebounds/assists distribution"
+      ],
+      "validated_edges": 0,
+      "validated_models": 0
+    },
+    "NFL": {
+      "blockers": [
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "UNVERIFIED_PARTICIPATION_AND_ROLE",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED",
+        "PROP_PRICE_REFRESH_DAILY_CAP"
+      ],
+      "coverage": {
+        "earliest_date": "2024-09-05",
+        "events": 623,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-10-12",
+        "outcome_rows": 50838,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "NON_REGULAR_SEASON": 1735,
+          "RECENT_FINAL_STATUS_UNCONFIRMED": 69
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 21748,
+          "2025": 22440,
+          "2026": 6650
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 835,
+        "unique_player_games": 13842
       },
-      {
-        "dataset": "sports",
-        "earliest": "2026-10-14 06:19:23.538288+00:00",
-        "latest": "2026-10-14 22:05:59.492426+00:00",
-        "provider": "odds",
-        "snapshots": 4
+      "evaluation_scope": "CHRONOLOGICAL_RECONSTRUCTION_NOT_TIMESTAMP_AUTHENTIC_BETTING_BACKTEST",
+      "forecast_records": 120,
+      "models": {
+        "passing_yards": {
+          "evaluation": {
+            "baseline_mae": 68.01112518677321,
+            "baseline_rmse": 87.54762813156049,
+            "beats_baseline_mae": false,
+            "crps": 48.77677598340132,
+            "crps_n": 733,
+            "mae": 68.2563700786687,
+            "n": 733,
+            "opportunity_mae": 8.247122391799724,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.7530364837217282,
+              1.2759178162475022
+            ],
+            "rmse": 86.51405290074479,
+            "week_blocks": 24
+          },
+          "training_n": 1510
+        },
+        "receiving_yards": {
+          "evaluation": {
+            "baseline_mae": 16.541436131236196,
+            "baseline_rmse": 23.890315694323174,
+            "beats_baseline_mae": false,
+            "crps": 12.053294036248367,
+            "crps_n": 6152,
+            "mae": 16.749601608822278,
+            "n": 6152,
+            "opportunity_mae": 1.6609472106547813,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.07370431738559739,
+              0.3501402175774978
+            ],
+            "rmse": 23.594218591312423,
+            "week_blocks": 24
+          },
+          "training_n": 12332
+        },
+        "receptions": {
+          "evaluation": {
+            "baseline_mae": 1.2719188623650588,
+            "baseline_rmse": 1.7400273689903099,
+            "beats_baseline_mae": false,
+            "crps": 0.8784537491872563,
+            "crps_n": 6152,
+            "mae": 1.2836083261113365,
+            "n": 6152,
+            "opportunity_mae": 1.6609472106547813,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.004435374833187758,
+              0.018637732586032164
+            ],
+            "rmse": 1.716279704497684,
+            "week_blocks": 24
+          },
+          "training_n": 12332
+        },
+        "rushing_attempts": {
+          "evaluation": {
+            "baseline_mae": 1.1432188138584432,
+            "baseline_rmse": 2.611126912763616,
+            "beats_baseline_mae": false,
+            "crps": 0.9767837426853057,
+            "crps_n": 6152,
+            "mae": 1.3719717364383883,
+            "n": 6152,
+            "opportunity_mae": 1.3719717364383883,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.21141536080594397,
+              0.24708941257255007
+            ],
+            "rmse": 2.661982252138696,
+            "week_blocks": 24
+          },
+          "training_n": 12332
+        },
+        "rushing_yards": {
+          "evaluation": {
+            "baseline_mae": 6.59888583142403,
+            "baseline_rmse": 16.01996697408477,
+            "beats_baseline_mae": false,
+            "crps": 5.768115130364109,
+            "crps_n": 6152,
+            "mae": 7.48742871447756,
+            "n": 6152,
+            "opportunity_mae": 1.3719717364383883,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.7966635032979305,
+              0.9797674545622908
+            ],
+            "rmse": 16.05602805361764,
+            "week_blocks": 24
+          },
+          "training_n": 12332
+        }
       },
-      {
-        "dataset": "sports/americanfootball_ncaaf/odds",
-        "earliest": "2026-10-14 06:19:23.928987+00:00",
-        "latest": "2026-10-14 22:06:00.998437+00:00",
-        "provider": "odds",
-        "snapshots": 4
+      "newly_frozen_this_run": 0,
+      "prospective_settled": 0,
+      "simulation_draws": 4800000,
+      "simulations": 120,
+      "trained_markets": [
+        "receptions",
+        "receiving_yards",
+        "rushing_attempts",
+        "rushing_yards",
+        "passing_yards"
+      ],
+      "unsupported_priorities": [
+        "TD props: no trained touchdown model"
+      ],
+      "validated_edges": 0,
+      "validated_models": 0
+    },
+    "NHL": {
+      "blockers": [
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "UNVERIFIED_PARTICIPATION_AND_ROLE",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED",
+        "PROP_PRICE_REFRESH_DAILY_CAP",
+        "BOOK_CANONICAL_START_MISMATCH",
+        "NO_PROP_OFFERS_RETURNED",
+        "UNCONFIRMED_GOALIE"
+      ],
+      "coverage": {
+        "earliest_date": "2023-10-10",
+        "events": 4035,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-10-14",
+        "outcome_rows": 153778,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "RECENT_FINAL_STATUS_UNCONFIRMED": 39
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 50018,
+          "2025": 49988,
+          "2026": 49998,
+          "2027": 3774
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 1353,
+        "unique_player_games": 153778
       },
-      {
-        "dataset": "sports/americanfootball_nfl/odds",
-        "earliest": "2026-10-14 06:19:24.212378+00:00",
-        "latest": "2026-10-14 06:19:49.426410+00:00",
-        "provider": "odds",
-        "snapshots": 2
+      "evaluation_scope": "CHRONOLOGICAL_RECONSTRUCTION_NOT_TIMESTAMP_AUTHENTIC_BETTING_BACKTEST",
+      "forecast_records": 48,
+      "models": {
+        "goalie_saves": {
+          "evaluation": {
+            "baseline_mae": 6.086586138832877,
+            "baseline_rmse": 7.834115774967838,
+            "beats_baseline_mae": true,
+            "crps": 4.297634085760226,
+            "crps_n": 5597,
+            "mae": 5.988501878416693,
+            "n": 5597,
+            "opportunity_mae": 6.082147242085768,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.1152066828729984,
+              -0.07816931318472806
+            ],
+            "rmse": 7.7202212992923895,
+            "week_blocks": 57
+          },
+          "training_n": 8540
+        },
+        "shots_on_goal": {
+          "evaluation": {
+            "baseline_mae": 1.0591225934559267,
+            "baseline_rmse": 1.372204090710564,
+            "beats_baseline_mae": true,
+            "crps": 0.7053642101631702,
+            "crps_n": 96525,
+            "mae": 1.0374640585000883,
+            "n": 96525,
+            "opportunity_mae": 1.9526839359475912,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.023790094117241797,
+              -0.01960283444290839
+            ],
+            "rmse": 1.3398035149512226,
+            "week_blocks": 57
+          },
+          "training_n": 145238
+        }
       },
-      {
-        "dataset": "sports/baseball_mlb/odds",
-        "earliest": "2026-10-14 06:19:24.539060+00:00",
-        "latest": "2026-10-14 06:19:49.641141+00:00",
-        "provider": "odds",
-        "snapshots": 2
-      },
-      {
-        "dataset": "sports/basketball_nba/odds",
-        "earliest": "2026-10-14 06:19:24.753617+00:00",
-        "latest": "2026-10-14 06:19:49.811876+00:00",
-        "provider": "odds",
-        "snapshots": 2
-      },
-      {
-        "dataset": "sports/icehockey_nhl/odds",
-        "earliest": "2026-10-14 06:19:24.386382+00:00",
-        "latest": "2026-10-14 06:19:49.542621+00:00",
-        "provider": "odds",
-        "snapshots": 2
-      }
-    ],
-    "disk_bytes": 50161130,
-    "hash_failures": 0,
-    "historical_availability": "CAPTURE_TIME_ONLY_UNLESS_PROVIDER_SNAPSHOT_PROVEN",
-    "identity_conflicts": 0,
-    "missing_periods": "UNMEASURED_NO_COMPLETE_ELIGIBLE_UNIVERSE",
-    "odds_movements": 1359,
-    "odds_quotes": 16990,
-    "paper_candidates": 8,
-    "paper_model_forecasts": 0,
-    "paper_settled": 0,
-    "paper_unique_games": 3,
-    "quote_ranges": [
-      {
-        "earliest": "2026-10-14 06:19:23.928987+00:00",
-        "events": 62,
-        "latest": "2026-10-14 22:06:00.998437+00:00",
-        "quotes": 12306,
-        "sport": "CFB"
-      },
-      {
-        "earliest": "2026-10-14 06:19:24.539060+00:00",
-        "events": 2,
-        "latest": "2026-10-14 06:19:49.641141+00:00",
-        "quotes": 216,
-        "sport": "MLB"
-      },
-      {
-        "earliest": "2026-10-14 06:19:24.753617+00:00",
-        "events": 46,
-        "latest": "2026-10-14 06:19:49.811876+00:00",
-        "quotes": 1912,
-        "sport": "NBA"
-      },
-      {
-        "earliest": "2026-10-14 06:19:24.212378+00:00",
-        "events": 28,
-        "latest": "2026-10-14 06:19:49.426410+00:00",
-        "quotes": 2340,
-        "sport": "NFL"
-      },
-      {
-        "earliest": "2026-10-14 06:19:24.386382+00:00",
-        "events": 2,
-        "latest": "2026-10-14 06:19:49.542621+00:00",
-        "quotes": 216,
-        "sport": "NHL"
-      }
-    ],
-    "snapshots": 33,
-    "source_records": 9390
+      "newly_frozen_this_run": 0,
+      "prospective_settled": 0,
+      "simulation_draws": 1920000,
+      "simulations": 48,
+      "trained_markets": [
+        "shots_on_goal",
+        "goalie_saves"
+      ],
+      "unsupported_priorities": [
+        "player points: no trained points model"
+      ],
+      "validated_edges": 0,
+      "validated_models": 0
+    }
   },
   "resume_provider_check": {
     "canonical_final_games": 295,
@@ -1576,10 +2200,10 @@
     "failed": 0,
     "frozen_phase1_files": 18,
     "frozen_phase1_mismatches": 0,
-    "passed": 283,
+    "passed": 295,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-16T05:23:02.576787+00:00"
+    "verified_at": "2026-10-16T05:45:43.020204+00:00"
   },
-  "updated_at": "2026-10-16T05:23:02.576787+00:00"
+  "updated_at": "2026-10-16T05:42:35.450239+00:00"
 }

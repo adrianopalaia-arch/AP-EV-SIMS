@@ -25,14 +25,18 @@
   "nba": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
+    "current_research_source_status": "PUBLIC_ARCHIVE_USED",
     "historical_access": null,
+    "legacy_probe_status_retained": true,
     "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
     "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   },
   "nflverse": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
+    "current_research_source_status": "PUBLIC_ARCHIVE_USED",
     "historical_access": null,
+    "legacy_probe_status_retained": true,
     "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
     "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   },
@@ -55,30 +59,22 @@
       "x-requests-used": 81
     },
     "latest_collection": {
-      "collected_at": "2026-10-15T03:43:08.673043+00:00",
+      "collected_at": "2026-10-16T05:37:58.193900+00:00",
       "quota": {
         "cached_historical_snapshots": 0,
-        "credits_consumed_recorded": 63,
+        "credits_consumed_recorded": 86,
         "duplicate_requests_prevented": 0,
-        "provider_requests_used": 78,
-        "requests_recorded": 29,
-        "requests_remaining": 422
+        "provider_requests_used": 101,
+        "requests_recorded": 46,
+        "requests_remaining": 399
       },
       "results": [
         {
           "duplicates_prevented": 0,
           "failures": [],
-          "quotes_inserted": 3070,
-          "snapshot_id": "612c5b17a42f0826b5cb7b0f10fab5f4b2d598a93260c9b00bc543e3c6c6460b",
+          "quotes_inserted": 2980,
+          "snapshot_id": "54b449d7a1fb4eb49a473ae08d4aa6c579ca006e909fb5392276cb1bc249d5fd",
           "sport": "CFB",
-          "status": "ARCHIVED"
-        },
-        {
-          "duplicates_prevented": 0,
-          "failures": [],
-          "quotes_inserted": 594,
-          "snapshot_id": "d27e2a4a21e1242ba6a4a7674b763fb09a00e6dcdbee43e580cee73606559949",
-          "sport": "NHL",
           "status": "ARCHIVED"
         },
         {
@@ -86,23 +82,250 @@
           "status": "QUOTA_BUDGET_LIMIT"
         },
         {
-          "sport": "MLB",
+          "sport": "NBA",
           "status": "QUOTA_BUDGET_LIMIT"
         },
         {
-          "next_refresh_seconds": 10670.848755,
-          "sport": "NBA",
-          "status": "CACHED_CADENCE"
+          "sport": "NHL",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "MLB",
+          "status": "QUOTA_BUDGET_LIMIT"
         }
       ]
     },
     "quota_metadata": {
       "x-requests-last": 3,
-      "x-requests-remaining": 419,
-      "x-requests-used": 81
+      "x-requests-remaining": 399,
+      "x-requests-used": 101
     },
-    "refresh_mode": "OFFLINE",
+    "refresh_mode": "BOUNDED_CURRENT_ODDS",
+    "research_execution_refresh": {
+      "collected_at": "2026-10-16T05:37:58.193900+00:00",
+      "quota": {
+        "cached_historical_snapshots": 0,
+        "credits_consumed_recorded": 86,
+        "duplicate_requests_prevented": 0,
+        "provider_requests_used": 101,
+        "requests_recorded": 46,
+        "requests_remaining": 399
+      },
+      "results": [
+        {
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 2980,
+          "snapshot_id": "54b449d7a1fb4eb49a473ae08d4aa6c579ca006e909fb5392276cb1bc249d5fd",
+          "sport": "CFB",
+          "status": "ARCHIVED"
+        },
+        {
+          "sport": "NFL",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "NBA",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "NHL",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "MLB",
+          "status": "QUOTA_BUDGET_LIMIT"
+        }
+      ]
+    },
     "sports_endpoint_status": 200
+  },
+  "prop_prices": [
+    {
+      "by_book": {
+        "betmgm": 28,
+        "betrivers": 18,
+        "draftkings": 37,
+        "fanduel": 33
+      },
+      "earlier_capture_status": 200,
+      "latest_prop_capture": "2026-10-16T05:19:33.906427+00:00",
+      "new_refresh_status": "DAILY_QUOTA_BUDGET_LIMIT",
+      "paired_offers": 116,
+      "quote_timestamps": [
+        "2026-10-16T05:18:30Z",
+        "2026-10-16T05:18:50Z",
+        "2026-10-16T05:18:54Z",
+        "2026-10-16T05:18:59Z"
+      ],
+      "rejections": {
+        "MISSING_PROP_COUNTERPART": 12
+      },
+      "source_snapshot": "31f087bc56db72ef98e83760f01ecdb450df165ba4905ffff411023224c53ee7",
+      "sport": "NFL",
+      "stale_offers": 116
+    },
+    {
+      "by_book": {
+        "betrivers": 22,
+        "draftkings": 23,
+        "fanduel": 8
+      },
+      "earlier_capture_status": 200,
+      "latest_prop_capture": "2026-10-16T05:19:34.199786+00:00",
+      "new_refresh_status": "DAILY_QUOTA_BUDGET_LIMIT",
+      "paired_offers": 53,
+      "quote_timestamps": [
+        "2026-10-16T05:18:50Z",
+        "2026-10-16T05:19:09Z",
+        "2026-10-16T05:19:15Z"
+      ],
+      "rejections": {},
+      "source_snapshot": "5514f6cabf45acef2528706844f2daf08f00ee34bd7fcb6b7eca68a1e95a51b8",
+      "sport": "NBA",
+      "stale_offers": 53
+    },
+    {
+      "by_book": {},
+      "earlier_capture_status": 200,
+      "latest_prop_capture": "2026-10-16T05:19:34.474920+00:00",
+      "new_refresh_status": "DAILY_QUOTA_BUDGET_LIMIT",
+      "paired_offers": 0,
+      "quote_timestamps": [],
+      "rejections": {},
+      "source_snapshot": "b77c647afa1f993fffde14381e1d79ec647f698a96b1c2f47c3d231a88a7be1f",
+      "sport": "NHL",
+      "stale_offers": 0
+    },
+    {
+      "by_book": {
+        "betmgm": 1,
+        "draftkings": 25,
+        "fanduel": 1
+      },
+      "earlier_capture_status": 200,
+      "latest_prop_capture": "2026-10-16T05:19:34.783365+00:00",
+      "new_refresh_status": "DAILY_QUOTA_BUDGET_LIMIT",
+      "paired_offers": 27,
+      "quote_timestamps": [
+        "2026-10-16T05:18:33Z",
+        "2026-10-16T05:19:10Z",
+        "2026-10-16T05:19:15Z"
+      ],
+      "rejections": {},
+      "source_snapshot": "720e9caf12fd4b96f1873e72eff6fb3d0907a96b7c4db97a092290c57602b744",
+      "sport": "MLB",
+      "stale_offers": 27
+    }
+  ],
+  "public_player_history": {
+    "MLB": {
+      "coverage": {
+        "earliest_date": "2024-03-28",
+        "events": 1370,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-09-27",
+        "outcome_rows": 7752,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 3312,
+          "2025": 2457,
+          "2026": 1983
+        },
+        "source_failures": [],
+        "source_selection": "Detroit 2024 fullSeason roster; first 12 sorted pitcher IDs and 12 nonpitcher IDs",
+        "unique_athletes": 24,
+        "unique_player_games": 3401
+      },
+      "research_run_at": "2026-10-16T05:38:49.696304+00:00",
+      "source": "existing immutable real provider archives",
+      "time_semantics": "research execution time, not source capture time; exact source hashes/captures retained in artifacts"
+    },
+    "NBA": {
+      "coverage": {
+        "earliest_date": "2023-10-24",
+        "events": 3701,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-04-12",
+        "outcome_rows": 318528,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "DNP_NOT_ZERO": 17773,
+          "MISSING_STAT_OR_OPPORTUNITY": 412,
+          "NON_REGULAR_SEASON": 7653
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 106192,
+          "2025": 105504,
+          "2026": 106832
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 807,
+        "unique_player_games": 79632
+      },
+      "research_run_at": "2026-10-16T05:38:09.392979+00:00",
+      "source": "existing immutable real provider archives",
+      "time_semantics": "research execution time, not source capture time; exact source hashes/captures retained in artifacts"
+    },
+    "NFL": {
+      "coverage": {
+        "earliest_date": "2024-09-05",
+        "events": 623,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-10-12",
+        "outcome_rows": 50838,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "NON_REGULAR_SEASON": 1735,
+          "RECENT_FINAL_STATUS_UNCONFIRMED": 69
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 21748,
+          "2025": 22440,
+          "2026": 6650
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 835,
+        "unique_player_games": 13842
+      },
+      "research_run_at": "2026-10-16T05:37:07.170129+00:00",
+      "source": "existing immutable real provider archives",
+      "time_semantics": "research execution time, not source capture time; exact source hashes/captures retained in artifacts"
+    },
+    "NHL": {
+      "coverage": {
+        "earliest_date": "2023-10-10",
+        "events": 4035,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-10-14",
+        "outcome_rows": 153778,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "RECENT_FINAL_STATUS_UNCONFIRMED": 39
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 50018,
+          "2025": 49988,
+          "2026": 49998,
+          "2027": 3774
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 1353,
+        "unique_player_games": 153778
+      },
+      "research_run_at": "2026-10-16T05:38:48.498105+00:00",
+      "source": "existing immutable real provider archives",
+      "time_semantics": "research execution time, not source capture time; exact source hashes/captures retained in artifacts"
+    }
   },
   "statcast": {
     "authentication_status": "NOT_PROBED",

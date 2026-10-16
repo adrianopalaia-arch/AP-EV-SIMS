@@ -1,0 +1,1545 @@
+{
+  "sport": "MLB",
+  "generated_at": "2026-10-16T05:38:49.501765+00:00",
+  "status": "RESEARCH_ONLY",
+  "canonical_event": {
+    "event_id": "849817",
+    "event_start": "2026-10-17T00:00:00+00:00",
+    "odds_event_id": "b9d2e07cf437b5643307aba274c45a74",
+    "odds_event_start": "2026-10-16T22:00:00Z",
+    "home_team": "Cleveland Guardians",
+    "away_team": "Tampa Bay Rays",
+    "market_identity_verified": false
+  },
+  "new_frozen": 0,
+  "frozen_forecasts": 2,
+  "unique_athletes": 1,
+  "role_confirmed": 0,
+  "matched_prices": 0,
+  "qualified_market_comparisons": 0,
+  "market_identity_rejections": [
+    "BOOK_CANONICAL_START_MISMATCH"
+  ],
+  "rejections": [
+    {
+      "player_id": "694197",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "694197",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "694197",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "694197",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "694197",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682657",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682657",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682657",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682657",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682657",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "595978",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "595978",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "595978",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "595978",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "595978",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "677587",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "677587",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "677587",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "677587",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "677587",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "671922",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "671922",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "671922",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "671922",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "671922",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "800050",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "800050",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "800050",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "800050",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "800050",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682982",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682982",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682982",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682982",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682982",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "681807",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "681807",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "681807",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "681807",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "681807",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "681870",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "681870",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "681870",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "681870",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "681870",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656492",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656492",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656492",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656492",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656492",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "668909",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "668909",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "668909",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "668909",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "668909",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683769",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683769",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683769",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683769",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683769",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "666176",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "666176",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "666176",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "666176",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "666176",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676282",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676282",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676282",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676282",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676282",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "608070",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "608070",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "608070",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "608070",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "608070",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "670036",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "670036",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "670036",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "670036",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "670036",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "663993",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "663993",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "663993",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "663993",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "663993",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "800048",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "800048",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "800048",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "800048",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "800048",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "672275",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "672275",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "672275",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "672275",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "672275",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "690984",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "690984",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "690984",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "690984",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "690984",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "542888",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "542888",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "542888",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "542888",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "542888",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "677944",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "677944",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "677944",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "677944",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "677944",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "680757",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "680757",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "680757",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "680757",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "680757",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676440",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676440",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676440",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676440",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676440",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682120",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682120",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682120",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682120",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "682120",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683953",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683953",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683953",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683953",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683953",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "810938",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "810938",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "810938",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "810938",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "810938",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "811315",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "811315",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "811315",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "811315",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "811315",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "641329",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "641329",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "641329",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "641329",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "641329",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "592155",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "592155",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "592155",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "592155",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "592155",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656775",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656775",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656775",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656775",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656775",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "802415",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "802415",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "802415",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "802415",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "802415",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "642121",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "642121",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "642121",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "642121",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "642121",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656876",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656876",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656876",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656876",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "656876",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "642547",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "642547",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "642547",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "642547",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "642547",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "643377",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "643377",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "643377",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "643377",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "643377",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "693855",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "693855",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "693855",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "693855",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "693855",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "666018",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "666018",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "666018",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "666018",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "666018",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676356",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676356",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676356",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676356",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "676356",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "622761",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "622761",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "622761",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "622761",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "622761",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "691406",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "691406",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "691406",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "691406",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "691406",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "687330",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "687330",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "687330",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "687330",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "687330",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "689414",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "689414",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "689414",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "689414",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "689414",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "663743",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "663743",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "663743",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "663743",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "663743",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "607259",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "607259",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "607259",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "607259",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "607259",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "680700",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "680700",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "680700",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "680700",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "680700",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "668723",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "668723",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "668723",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "571927",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "571927",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "571927",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "571927",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "571927",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "670764",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "670764",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "670764",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "670764",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "670764",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "669330",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "669330",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "669330",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "669330",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "669330",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683748",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683748",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683748",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683748",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "683748",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "650490",
+      "market": "pitcher_strikeouts",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "650490",
+      "market": "pitcher_outs",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "650490",
+      "market": "hits_allowed",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "650490",
+      "market": "hitter_hits",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    },
+    {
+      "player_id": "650490",
+      "market": "total_bases",
+      "reason": "INSUFFICIENT_PRIOR_PLAYER_HISTORY"
+    }
+  ],
+  "recommendations_enabled": false,
+  "snapshot_count": 3,
+  "predictions": [
+    {
+      "artifact_hash": "bcd0b4bc1f57ddb3c3827cefd86ccd27156552b45d9d7682b4e144cfad53824f",
+      "calibrated_probability": null,
+      "cash_committed": 0,
+      "conditional_on": "player appears; future workload is projected, never confirmed",
+      "event_id": "849817",
+      "event_mapping": {
+        "away_team": "Tampa Bay Rays",
+        "event_id": "849817",
+        "event_start": "2026-10-17T00:00:00+00:00",
+        "home_team": "Cleveland Guardians",
+        "market_identity_verified": false,
+        "odds_event_id": "b9d2e07cf437b5643307aba274c45a74",
+        "odds_event_start": "2026-10-16T22:00:00Z"
+      },
+      "event_start": "2026-10-17T00:00:00+00:00",
+      "forecast_hash": "656870c5bafc0352aa1aa03cd807b91bdcdaa3d1048c11ae9799d6e2f397ecb1",
+      "generated_at": "2026-10-16T05:26:31.980478+00:00",
+      "identity_source_hashes": [
+        "3b8bbe9fba1157cf25a7fd1620fd64d5468cd139ef1365fca2865af34e39b784",
+        "0dc00b151caba1ea4586a3723f5327f412253a41e7551c4a48fd3bad0b2a8bc6",
+        "d469950cbf7f9abdce695ce81cb5a66e4092755851ef87706412e22eba9d5e8e"
+      ],
+      "identity_source_ids": [
+        "12b0644a6cc280db63a61430fefc0b9e23ec87d14e79bf1da20e719a1d3de338",
+        "b17c71fa50ac3c6340658e52d487e644dbeac8ce8271bdf82ed351aa25523397",
+        "46c63cb164d733c98ec73661ec3568cb467afd56a719dd76543360648c333e70"
+      ],
+      "latest_source_capture": "2026-10-16T05:26:31.941411+00:00",
+      "market": "hitter_hits",
+      "mode": "RESEARCH_ONLY",
+      "model_status": "UNVALIDATED",
+      "model_training_finished_at": "2026-10-16T05:18:17.411943+00:00",
+      "model_version": "opportunity-partial-pool-v1",
+      "observed_roster_status": "A",
+      "p_low": null,
+      "pass_reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "MODEL_NOT_CALIBRATED",
+        "NO_MATCHED_PROP_PRICE",
+        "UNVERIFIED_PARTICIPATION",
+        "UNVERIFIED_ROLE"
+      ],
+      "player_id": "668723",
+      "player_name": "Ryan Vilade",
+      "priced_markets": [],
+      "projection": {
+        "baseline": 0.4,
+        "calibrated_probability": null,
+        "distribution": {
+          "0": 0.549,
+          "1": 0.32,
+          "2": 0.102,
+          "3": 0.028,
+          "4": 0.001
+        },
+        "last_observed_date": "2026-09-27",
+        "last_team_id": "139",
+        "model_status": "UNVALIDATED",
+        "p_low": null,
+        "player_history_n": 20,
+        "production_rate": 0.14460778101634775,
+        "projected_opportunity": 3.53250373997008,
+        "projection": 0.5108275272690228,
+        "recommendations_enabled": false,
+        "residual_n": 1000,
+        "team_changed": false,
+        "training_n": 2451
+      },
+      "recommendations_enabled": false,
+      "reference_unit": 22,
+      "reported_injuries": null,
+      "role_confirmed": false,
+      "sport": "MLB",
+      "team_id": "139",
+      "training_source_hashes": [
+        "017a4a543ea4c89fded24b58de3a44acc790155d39c14649fb66976624e14585",
+        "034771a26e0046a68896f402ea6faa4a090f5f1408b5d512e5359e2970ebd371",
+        "0704265e2971e0d740f7374250aeea7ebf6eef8de3f9c455cc890f59b5245450",
+        "0a74b4c4009dfc67076e166cd918ca95542753353a35ab78ebcb3b9b15994f08",
+        "0caf41ee0b47e31c08a828deb8c97e6b28878fd9a5dffc606ab1f871b9f510e5",
+        "2fc16ff90532d153b4bbbf078dfc39e91bb7e7d0bb2085650773b464c550a676",
+        "2fef7a8fcf5c4a9b232d450ee2daef949a2e41d59c8964236deb87a4ca5e2c02",
+        "35685ade540a496934d44b39352d729eb47b7f91d86502f3e5d0a74f4f32f84a",
+        "37c1023196c955f2ac823bf3f9d6c02965e895b6b7fdc8bd0d48edf9a1192252",
+        "3efbd4e7e0f08fa1c64ac8c7682de3ee4a49fa92403373d209700377e6a8d21b",
+        "4320ec302425471394ae405a558aa60dcf988cba8602c37f790c07f6676fa040",
+        "4a6f58fe937685fb6dc6d59ac45cdafeb157df78db3d50387938e978869d59e0",
+        "4b3072c3667cb5471df7bf98d94fd899c2a175b43e2680fd1ccfd70aeadf5d23",
+        "4b6297a42cefd98754f024bfe77e6b656449a8dfdc2685b3dc50ce3bcaebc6d4",
+        "523d8ff59e38fcc125970583fe369c8a91b13ff3d9a6ebccb4a8c2a381bf48cc",
+        "5310c8808d9b1c66ce940643d807f5435359e81b9e6e4a846cc32a919d404769",
+        "6b787b0c0a180799a4c21d7276bdee8c60b6e07378434a8264a30d651ee8dd4b",
+        "6cbdc5393fafbdc6da9057eb61a63599d56ded03713b5842c6decebbb93d4cff",
+        "832a0dae60b356085778f4572e30ada3a2edc30a46b98f209257c2f45f2e6b6f",
+        "879372f1b5b8a2bce52857fd6709801cb53257e4271c22e4ddd7f555a4b57dbd",
+        "894252aa66a189ea3753d5db12c7552b1df79ac4eabb3a04d06c28be42b7abad",
+        "9275be04a2ddaa581e5615d3ed90450a9089f3b6f5e1b097fb7f9b79d4d69a2c",
+        "a155c81b15c24469817fb38c035d78a7e00345deb9faf0417185412ecf554f70",
+        "ad6a592abe2ac159485c4157dcf639fcaef3bca1b3e78c9d1a6cfd4bc0ace65c",
+        "cbdaf8e36846c1eaf5255c07203d0959cc494ca3971b56ce207d7b0f551f3bca",
+        "cdb26cc2e131dcd8b12cfeabb4b0120ab19e9effb196d40d7845c7bfe190550e",
+        "cdbcbc60d80174dc552c472dca21547fbe6e110573602cc07e6f625db3a3972a",
+        "e01519c0b84c9acdc74246fa11a4291e16db8010b070de8c5f15facaee8168c0",
+        "e1a7c5bc16ac8b5d019e3deca0c4ab7ee918bfe8e67579c321919a3cfe337452",
+        "e24e2ceadda5ce7d6f9b75c1be3868edd6ac6f48e4e12854b98989b23cd6c0cb",
+        "f50d4593ec1f568711e0e5b84a1c7564a1a9e1d9bed7250de2e6b8a9e596e9cb",
+        "fbd717002bafefa5adb23f3c09795c7b9a2a171eeb186727536bb5fa1b93f8f4"
+      ]
+    },
+    {
+      "artifact_hash": "d6ace29298157780aa9db24d4b65fbee18b4284531f778dbde78a0985af39368",
+      "calibrated_probability": null,
+      "cash_committed": 0,
+      "conditional_on": "player appears; future workload is projected, never confirmed",
+      "event_id": "849817",
+      "event_mapping": {
+        "away_team": "Tampa Bay Rays",
+        "event_id": "849817",
+        "event_start": "2026-10-17T00:00:00+00:00",
+        "home_team": "Cleveland Guardians",
+        "market_identity_verified": false,
+        "odds_event_id": "b9d2e07cf437b5643307aba274c45a74",
+        "odds_event_start": "2026-10-16T22:00:00Z"
+      },
+      "event_start": "2026-10-17T00:00:00+00:00",
+      "forecast_hash": "adb792f173ab6718d6006f48deb9cb2a04819bbf5a050da6a059d16b9bc13fa0",
+      "generated_at": "2026-10-16T05:26:31.980478+00:00",
+      "identity_source_hashes": [
+        "3b8bbe9fba1157cf25a7fd1620fd64d5468cd139ef1365fca2865af34e39b784",
+        "0dc00b151caba1ea4586a3723f5327f412253a41e7551c4a48fd3bad0b2a8bc6",
+        "d469950cbf7f9abdce695ce81cb5a66e4092755851ef87706412e22eba9d5e8e"
+      ],
+      "identity_source_ids": [
+        "12b0644a6cc280db63a61430fefc0b9e23ec87d14e79bf1da20e719a1d3de338",
+        "b17c71fa50ac3c6340658e52d487e644dbeac8ce8271bdf82ed351aa25523397",
+        "46c63cb164d733c98ec73661ec3568cb467afd56a719dd76543360648c333e70"
+      ],
+      "latest_source_capture": "2026-10-16T05:26:31.941411+00:00",
+      "market": "total_bases",
+      "mode": "RESEARCH_ONLY",
+      "model_status": "UNVALIDATED",
+      "model_training_finished_at": "2026-10-16T05:18:17.411943+00:00",
+      "model_version": "opportunity-partial-pool-v1",
+      "observed_roster_status": "A",
+      "p_low": null,
+      "pass_reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "MODEL_NOT_CALIBRATED",
+        "NO_MATCHED_PROP_PRICE",
+        "UNVERIFIED_PARTICIPATION",
+        "UNVERIFIED_ROLE"
+      ],
+      "player_id": "668723",
+      "player_name": "Ryan Vilade",
+      "priced_markets": [],
+      "projection": {
+        "baseline": 0.4,
+        "calibrated_probability": null,
+        "distribution": {
+          "0": 0.614,
+          "1": 0.18,
+          "2": 0.079,
+          "3": 0.055,
+          "4": 0.043,
+          "5": 0.021,
+          "6": 0.003,
+          "7": 0.003,
+          "8": 0.002
+        },
+        "last_observed_date": "2026-09-27",
+        "last_team_id": "139",
+        "model_status": "UNVALIDATED",
+        "p_low": null,
+        "player_history_n": 20,
+        "production_rate": 0.18739069826384488,
+        "projected_opportunity": 3.53250373997008,
+        "projection": 0.6619583424526368,
+        "recommendations_enabled": false,
+        "residual_n": 1000,
+        "team_changed": false,
+        "training_n": 2451
+      },
+      "recommendations_enabled": false,
+      "reference_unit": 22,
+      "reported_injuries": null,
+      "role_confirmed": false,
+      "sport": "MLB",
+      "team_id": "139",
+      "training_source_hashes": [
+        "017a4a543ea4c89fded24b58de3a44acc790155d39c14649fb66976624e14585",
+        "034771a26e0046a68896f402ea6faa4a090f5f1408b5d512e5359e2970ebd371",
+        "0704265e2971e0d740f7374250aeea7ebf6eef8de3f9c455cc890f59b5245450",
+        "0a74b4c4009dfc67076e166cd918ca95542753353a35ab78ebcb3b9b15994f08",
+        "0caf41ee0b47e31c08a828deb8c97e6b28878fd9a5dffc606ab1f871b9f510e5",
+        "2fc16ff90532d153b4bbbf078dfc39e91bb7e7d0bb2085650773b464c550a676",
+        "2fef7a8fcf5c4a9b232d450ee2daef949a2e41d59c8964236deb87a4ca5e2c02",
+        "35685ade540a496934d44b39352d729eb47b7f91d86502f3e5d0a74f4f32f84a",
+        "37c1023196c955f2ac823bf3f9d6c02965e895b6b7fdc8bd0d48edf9a1192252",
+        "3efbd4e7e0f08fa1c64ac8c7682de3ee4a49fa92403373d209700377e6a8d21b",
+        "4320ec302425471394ae405a558aa60dcf988cba8602c37f790c07f6676fa040",
+        "4a6f58fe937685fb6dc6d59ac45cdafeb157df78db3d50387938e978869d59e0",
+        "4b3072c3667cb5471df7bf98d94fd899c2a175b43e2680fd1ccfd70aeadf5d23",
+        "4b6297a42cefd98754f024bfe77e6b656449a8dfdc2685b3dc50ce3bcaebc6d4",
+        "523d8ff59e38fcc125970583fe369c8a91b13ff3d9a6ebccb4a8c2a381bf48cc",
+        "5310c8808d9b1c66ce940643d807f5435359e81b9e6e4a846cc32a919d404769",
+        "6b787b0c0a180799a4c21d7276bdee8c60b6e07378434a8264a30d651ee8dd4b",
+        "6cbdc5393fafbdc6da9057eb61a63599d56ded03713b5842c6decebbb93d4cff",
+        "832a0dae60b356085778f4572e30ada3a2edc30a46b98f209257c2f45f2e6b6f",
+        "879372f1b5b8a2bce52857fd6709801cb53257e4271c22e4ddd7f555a4b57dbd",
+        "894252aa66a189ea3753d5db12c7552b1df79ac4eabb3a04d06c28be42b7abad",
+        "9275be04a2ddaa581e5615d3ed90450a9089f3b6f5e1b097fb7f9b79d4d69a2c",
+        "a155c81b15c24469817fb38c035d78a7e00345deb9faf0417185412ecf554f70",
+        "ad6a592abe2ac159485c4157dcf639fcaef3bca1b3e78c9d1a6cfd4bc0ace65c",
+        "cbdaf8e36846c1eaf5255c07203d0959cc494ca3971b56ce207d7b0f551f3bca",
+        "cdb26cc2e131dcd8b12cfeabb4b0120ab19e9effb196d40d7845c7bfe190550e",
+        "cdbcbc60d80174dc552c472dca21547fbe6e110573602cc07e6f625db3a3972a",
+        "e01519c0b84c9acdc74246fa11a4291e16db8010b070de8c5f15facaee8168c0",
+        "e1a7c5bc16ac8b5d019e3deca0c4ab7ee918bfe8e67579c321919a3cfe337452",
+        "e24e2ceadda5ce7d6f9b75c1be3868edd6ac6f48e4e12854b98989b23cd6c0cb",
+        "f50d4593ec1f568711e0e5b84a1c7564a1a9e1d9bed7250de2e6b8a9e596e9cb",
+        "fbd717002bafefa5adb23f3c09795c7b9a2a171eeb186727536bb5fa1b93f8f4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sport": "MLB",
+  "generated_at": "2026-10-16T05:38:56.072657+00:00",
+  "settled_n": 0,
+  "pending_n": 2,
+  "pending": [
+    {
+      "forecast_hash": "656870c5bafc0352aa1aa03cd807b91bdcdaa3d1048c11ae9799d6e2f397ecb1",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "adb792f173ab6718d6006f48deb9cb2a04819bbf5a050da6a059d16b9bc13fa0",
+      "reason": "EVENT_NOT_STARTED"
+    }
+  ],
+  "mae": null,
+  "rmse": null,
+  "baseline_mae": null,
+  "crps": null,
+  "qualified_market_comparison_n": 0,
+  "real_cash_roi": null,
+  "hypothetical_roi": null,
+  "clv": null,
+  "recommendations_enabled": false,
+  "records": []
+}

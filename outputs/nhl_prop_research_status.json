@@ -1,6 +1,6 @@
 {
   "sport": "NHL",
-  "generated_at": "2026-10-16T05:18:16.511573+00:00",
+  "generated_at": "2026-10-16T05:38:48.498105+00:00",
   "model_version": "opportunity-partial-pool-v1",
   "coverage": {
     "source_selection": "all returned rows in explicit season/regular-game queries",

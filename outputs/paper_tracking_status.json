@@ -10,14 +10,15 @@
   "cash_committed": 0,
   "cohort_candidates": 8,
   "cohort_rejections": {
-    "COMPLEMENTARY_SIDE_NOT_COHORT": 408,
-    "EVENT_MAPPING_UNVERIFIED": 84,
-    "INSUFFICIENT_CONTEMPORANEOUS_BOOKS": 518,
-    "OUTSIDE_24H_COHORT_WINDOW": 780,
+    "COHORT_MARKET_ALREADY_FROZEN": 8,
+    "COMPLEMENTARY_SIDE_NOT_COHORT": 612,
+    "EVENT_MAPPING_UNVERIFIED": 126,
+    "INSUFFICIENT_CONTEMPORANEOUS_BOOKS": 626,
+    "OUTSIDE_24H_COHORT_WINDOW": 1170,
     "STALE_OR_IMPOSSIBLE_PRICE": 408
   },
   "core_enabled": false,
-  "generated_at": "2026-10-16T04:35:33.264656+00:00",
+  "generated_at": "2026-10-16T05:37:59.093064+00:00",
   "hypothetical_fixed_direction_cohort": {
     "cost_scenarios": [
       {
@@ -51,7 +52,7 @@
   "model_predictions": 0,
   "model_selected_roi": null,
   "models_validated": 0,
-  "observations_logged": 816,
+  "observations_logged": 1224,
   "paired_model_comparison": {
     "calibrated": {
       "brier": null,
@@ -71,15 +72,15 @@
     }
   },
   "pass_reasons": {
-    "MISSING_FEATURES": 816,
-    "MODEL_NOT_CALIBRATED": 816,
-    "PAPER_ONLY_CORE_DISABLED": 816,
-    "PRICE_MOVED": 178,
-    "PUSH_PROBABILITY_UNKNOWN": 64,
-    "QUOTE_EXECUTION_UNVERIFIED": 816,
+    "MISSING_FEATURES": 1224,
+    "MODEL_NOT_CALIBRATED": 1224,
+    "PAPER_ONLY_CORE_DISABLED": 1224,
+    "PRICE_MOVED": 182,
+    "PUSH_PROBABILITY_UNKNOWN": 98,
+    "QUOTE_EXECUTION_UNVERIFIED": 1224,
     "STALE_PRICE": 408,
-    "UNKNOWN_SETTLEMENT_RULE": 816,
-    "UNVERIFIED_LINEUP": 816
+    "UNKNOWN_SETTLEMENT_RULE": 1224,
+    "UNVERIFIED_LINEUP": 1224
   },
   "performance_by_model": {},
   "performance_groups": {
@@ -287,7 +288,7 @@
   },
   "profitability_demonstrated": false,
   "reference_unit": 22,
-  "rejected_observations": 808,
+  "rejected_observations": 1216,
   "results": {},
   "settled_candidates": 0,
   "status": "COLLECTING",

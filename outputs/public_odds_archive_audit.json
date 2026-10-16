@@ -1,0 +1,113 @@
+{
+  "generated_at": "2026-10-16T05:32:22.849750+00:00",
+  "url": "https://raw.githubusercontent.com/sportsdataverse/cfbfastR-data/main/betting/csv/cfb_line_odds.csv.gz",
+  "sha256": "7ae899d9035750dccf22470d7923087a2659052aeb37a44204c35fbf6bf38d4d",
+  "rows": 1183529,
+  "columns": [
+    "id",
+    "game_id",
+    "season",
+    "game_desc",
+    "date_time",
+    "market_type",
+    "abbr",
+    "lines",
+    "odds",
+    "opening_lines",
+    "opening_odds",
+    "book",
+    "season_type",
+    "week",
+    "home_team_id",
+    "away_team_id"
+  ],
+  "seasons": {
+    "2006.0": 11960,
+    "2007.0": 30292,
+    "2008.0": 20502,
+    "2009.0": 42204,
+    "2010.0": 44748,
+    "2011.0": 50326,
+    "2012.0": 63546,
+    "2013.0": 78523,
+    "2014.0": 71463,
+    "2015.0": 169071,
+    "2016.0": 90492,
+    "2017.0": 122779,
+    "2018.0": 136269,
+    "2019.0": 155731,
+    "2020.0": 10918,
+    "2021.0": 15639,
+    "2022.0": 18694,
+    "2023.0": 14943,
+    "2024.0": 17334,
+    "2025.0": 18095
+  },
+  "books": {
+    "5Dimes & sportbet": 111840,
+    "bet365": 68677,
+    "BOVADA & bodog": 55637,
+    "BetCRIS & BOOKMAKER": 66695,
+    "PINNACLE": 66805,
+    "MATCHBOOK": 60818,
+    "BETOnline & SPORTS BETTING": 59717,
+    "JUSTBET": 63448,
+    "intertops": 55212,
+    "Sports Interaction": 57577,
+    "youwager.eu": 53489,
+    "HERITAGE": 55354,
+    "SBR": 46568,
+    "JAZZ": 73023,
+    "BetPHOENIX": 35319,
+    "GT BETS": 36223,
+    "WAGERWEB": 39215,
+    "MY BOOKIE": 29008,
+    "BETMANIA": 18145,
+    "SKYBOOK": 18109,
+    "nitrogen sports": 12345,
+    "CLOUDBET": 4682,
+    "teamrankings": 8432,
+    "numberfire": 2716,
+    "consensus": 10840,
+    "William Hill (New Jersey)": 12736,
+    "Bovada": 26919,
+    "Caesars": 1754,
+    "SugarHouse": 376,
+    "Caesars (Pennsylvania)": 68,
+    "Caesars Sportsbook (Colorado)": 440,
+    "DraftKings": 13777,
+    "ESPN Bet": 17309,
+    "Draft Kings": 256
+  },
+  "markets": {
+    "money_line": 320130,
+    "spread": 456471,
+    "total": 406928
+  },
+  "missingness": {
+    "lines": 320130,
+    "game_id": 155078,
+    "odds": 80264
+  },
+  "qualified_execution_price_rows": 0,
+  "available_at": "actual local retrieval time only; not historical game time",
+  "qualification": "HISTORICAL_AVAILABILITY_UNVERIFIED",
+  "blockers": [
+    "NO_PROVEN_ORIGINAL_QUOTE_TIMESTAMP",
+    "NO_PROVEN_HISTORICAL_PUBLICATION_TIME",
+    "BULK_POST_SEASON_REVISION"
+  ],
+  "revision_evidence": [
+    {
+      "commit": "f5a05dc815951b8dbe18961a824f34cf154dfa61",
+      "committed_at": "2026-06-24T01:01:41Z",
+      "scope": "bulk update through 2025; ID repair"
+    },
+    {
+      "commit": "2248acf900a3b13fba7d36cb58eb3760a1c45fdd",
+      "committed_at": "2021-04-23T02:03:59Z",
+      "scope": "historical lines back to 2006"
+    }
+  ],
+  "decision": "Do not import as executable sportsbook history; use prospective snapshots"
+}

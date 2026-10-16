@@ -32,49 +32,53 @@
       "status": "UNAVAILABLE"
     }
   ],
-  "cfb_schedule_games": 1666,
-  "checkpoint_at": "2026-10-16T05:23:02.576787+00:00",
-  "current_task": "MULTISPORT_PROSPECTIVE_PROP_INTEGRATION",
+  "cfb_schedule_games": 4245,
+  "checkpoint_at": "2026-10-16T05:45:43.020204+00:00",
+  "current_task": "EXECUTED_ALL_SPORTS_PUBLICATION",
   "data_quality_failures": [
+    {
+      "reason": "SCHEMA_DRIFT",
+      "snapshot_id": "31f087bc56db72ef98e83760f01ecdb450df165ba4905ffff411023224c53ee7"
+    },
+    {
+      "reason": "SCHEMA_DRIFT",
+      "snapshot_id": "5514f6cabf45acef2528706844f2daf08f00ee34bd7fcb6b7eca68a1e95a51b8"
+    },
+    {
+      "reason": "SCHEMA_DRIFT",
+      "snapshot_id": "720e9caf12fd4b96f1873e72eff6fb3d0907a96b7c4db97a092290c57602b744"
+    },
+    {
+      "reason": "SCHEMA_DRIFT",
+      "snapshot_id": "b77c647afa1f993fffde14381e1d79ec647f698a96b1c2f47c3d231a88a7be1f"
+    },
     {
       "reason": "SCHEMA_DRIFT",
       "snapshot_id": "f7b3d4dae7b043feca94bfdacb8af422b74a35af070b069404f688ab3a051e89"
     }
   ],
+  "evaluation_count_semantics": "market-outcome rows, not unique games; historical revision timing unverified",
+  "execution_report": "execution_status.json",
   "feed_hashes": {
-    "cfb_universe.json": "77a57db918e06417bb19ddbe62a0522d4c14643b765d61c0c27a3e85897db74c",
+    "cfb_universe.json": "515b8eebd79f5dd857ceb9e402111973228a8b56b333d751e2216d48d025e4dc",
     "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "latest_passes.json": "fac09ad968859980da34dd0fb7225416a566aa3a7428a78347470fb051703a96",
-    "latest_predictions.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "model_status.json": "08fae86ef05b7e3d227f7197fd50f27142d62f71775f54aacd3cfa4a464910e1",
-    "paper_tracking_status.json": "43c5bae12b3b403b6da787468c02b879d69b2d300f247ac56cfec253abf3ed5e",
-    "provider_status.json": "ca289a83b7fb4be98b7c597667277ece30013520884baffb5917584adec78ef5"
+    "latest_passes.json": "0856de8193e976548718fb1a98ff9b4d9dd20ba82dbfdd0c22bcfb867de29d30",
+    "latest_predictions.json": "12e9f14693aa4127d0de05d89464b6540b45b12bd1a318052596817b501b2a9a",
+    "model_status.json": "e3eec2415a183d51773df4c45f3e6853041a1be371f97d63cb947284df32d278",
+    "paper_tracking_status.json": "6f1bd170c08d9f9079e75ad5c55b6f6f919da74d1aab5e867180841c5d0c145f",
+    "provider_status.json": "fd1cb63e27fe36e59815ce3c00e4412839a698bd2bd924bd5d7b0e389c9da020"
   },
   "games_scanned": 146,
-  "generated_at": "2026-10-16T04:35:33.264656+00:00",
-  "git_commit": "de85f9751b732d351f00479b2f3d4c1c27f9c098",
-  "git_delivery": {
-    "category": "AUTHENTICATION_OR_PERMISSION",
-    "connector_write_status": 403,
-    "env_ignored": true,
-    "env_staged": false,
-    "env_tracked": false,
-    "last_attempt_at": "2026-10-16T04:43:43.769743+00:00",
-    "last_attempt_commit": "de85f9751b732d351f00479b2f3d4c1c27f9c098",
-    "last_verified_remote": "deee41bace708c5cdf7afa5094c88bfbef47577a",
-    "manual_push_required": true,
-    "pr_update_status": 403,
-    "pr_url": "https://github.com/adrianopalaia-arch/AP-EV-SIMS/pull/1",
-    "push_success": false,
-    "staged_secret_scan": "PASS",
-    "status": "PUSH_BLOCKED"
-  },
-  "local_comparison_hash": "8e7b0c6b87589fcd4f12855d993df552219e80eba59a88bd5d57f8576ad8fdea",
+  "generated_at": "2026-10-16T05:45:43.020204+00:00",
+  "git_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
+  "git_commit_semantics": "source parent of this output checkpoint; publication SHA is recorded by Git",
+  "local_comparison_hash": "729d1e6e9f4658a60a09e245203cc3428d0ba3ef4e6bb29e451ea4e88f3b9943",
   "market_calculation_version": 1,
   "market_sides_scanned": 5060,
   "mode": "PREGAME",
   "models_validated": 0,
-  "next_task": "Prospective player identity, role and frozen prop forecast integration; then settlement/CLV tests",
+  "new_frozen_predictions": 0,
+  "next_task": "Collect prospective outcomes and verified roles; complete joint simulations",
   "paper_tracking": {
     "actual_cash_roi": null,
     "baseline_probability_score": {
@@ -87,14 +91,15 @@
     "cash_committed": 0,
     "cohort_candidates": 8,
     "cohort_rejections": {
-      "COMPLEMENTARY_SIDE_NOT_COHORT": 408,
-      "EVENT_MAPPING_UNVERIFIED": 84,
-      "INSUFFICIENT_CONTEMPORANEOUS_BOOKS": 518,
-      "OUTSIDE_24H_COHORT_WINDOW": 780,
+      "COHORT_MARKET_ALREADY_FROZEN": 8,
+      "COMPLEMENTARY_SIDE_NOT_COHORT": 612,
+      "EVENT_MAPPING_UNVERIFIED": 126,
+      "INSUFFICIENT_CONTEMPORANEOUS_BOOKS": 626,
+      "OUTSIDE_24H_COHORT_WINDOW": 1170,
       "STALE_OR_IMPOSSIBLE_PRICE": 408
     },
     "core_enabled": false,
-    "generated_at": "2026-10-16T04:35:33.264656+00:00",
+    "generated_at": "2026-10-16T05:37:59.093064+00:00",
     "hypothetical_fixed_direction_cohort": {
       "cost_scenarios": [
         {
@@ -128,7 +133,7 @@
     "model_predictions": 0,
     "model_selected_roi": null,
     "models_validated": 0,
-    "observations_logged": 816,
+    "observations_logged": 1224,
     "paired_model_comparison": {
       "calibrated": {
         "brier": null,
@@ -148,15 +153,15 @@
       }
     },
     "pass_reasons": {
-      "MISSING_FEATURES": 816,
-      "MODEL_NOT_CALIBRATED": 816,
-      "PAPER_ONLY_CORE_DISABLED": 816,
-      "PRICE_MOVED": 178,
-      "PUSH_PROBABILITY_UNKNOWN": 64,
-      "QUOTE_EXECUTION_UNVERIFIED": 816,
+      "MISSING_FEATURES": 1224,
+      "MODEL_NOT_CALIBRATED": 1224,
+      "PAPER_ONLY_CORE_DISABLED": 1224,
+      "PRICE_MOVED": 182,
+      "PUSH_PROBABILITY_UNKNOWN": 98,
+      "QUOTE_EXECUTION_UNVERIFIED": 1224,
       "STALE_PRICE": 408,
-      "UNKNOWN_SETTLEMENT_RULE": 816,
-      "UNVERIFIED_LINEUP": 816
+      "UNKNOWN_SETTLEMENT_RULE": 1224,
+      "UNVERIFIED_LINEUP": 1224
     },
     "performance_by_model": {},
     "performance_groups": {
@@ -364,7 +369,7 @@
     },
     "profitability_demonstrated": false,
     "reference_unit": 22,
-    "rejected_observations": 808,
+    "rejected_observations": 1216,
     "results": {},
     "settled_candidates": 0,
     "status": "COLLECTING",
@@ -373,18 +378,33 @@
     "unique_games": 3
   },
   "preferred_market_sides": 1466,
-  "prospective_cfb_frozen": 59,
-  "provider_check_basis": "LAST_RECORDED_CHECKS_ONLY",
-  "providers_ok": null,
-  "publication_generation": "b59abb1f9a79e8a0d5f9a46923d5d984654ce4419daebb6c2fe0b2edfb2bc727",
+  "provider_check_basis": "BOUNDED_CURRENT_REFRESH_PLUS_RECORDED_CFBD_AUTH",
+  "providers_ok": false,
+  "publication_generation": "fccbf49bf04f72ece81f9ebc3382ce083121de1404969358692a9573c2bc286c",
   "qualified_edges": 0,
   "reader_contract": "Verify canonical JSON SHA256; retry if any file differs from this generation.",
-  "real_model_evaluation_sample": 0,
+  "real_model_evaluation_sample": 340741,
+  "real_predictions_published": 353,
   "reference_unit": 22,
   "reference_unit_semantics": "DISPLAY_REFERENCE_ONLY_NOT_A_STAKE",
-  "refresh_failures": [],
-  "research_evidence": "outputs/multisport_market_readiness.json",
-  "research_forecast_status": "UNVALIDATED",
+  "refresh_failures": [
+    {
+      "sport": "NFL",
+      "status": "QUOTA_BUDGET_LIMIT"
+    },
+    {
+      "sport": "NBA",
+      "status": "QUOTA_BUDGET_LIMIT"
+    },
+    {
+      "sport": "NHL",
+      "status": "QUOTA_BUDGET_LIMIT"
+    },
+    {
+      "sport": "MLB",
+      "status": "QUOTA_BUDGET_LIMIT"
+    }
+  ],
   "research_model_display": {
     "issues": [
       "NO_TRAINED_RESEARCH_MODEL"
@@ -395,15 +415,20 @@
     "trained_research_models": {},
     "validated_models": 0
   },
+  "simulation_draws": 14120000,
+  "simulations_completed": 353,
+  "source_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
   "sports_updated": [
-    "CFB",
+    "NFL",
     "NBA",
-    "NFL"
+    "NHL",
+    "MLB",
+    "CFB"
   ],
   "status": "NO QUALIFYING BETS",
   "suspended_or_superseded_quotes": 8,
   "synthetic_performance_sample": 0,
   "tests_failed": 0,
-  "tests_passed": 283,
+  "tests_passed": 295,
   "tests_semantics": "Last independently run full suite, not rerun by daily_card"
 }

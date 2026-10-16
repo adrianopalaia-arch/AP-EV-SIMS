@@ -1,6 +1,6 @@
 {
   "sport": "NBA",
-  "generated_at": "2026-10-16T05:17:52.265903+00:00",
+  "generated_at": "2026-10-16T05:38:09.392979+00:00",
   "model_version": "opportunity-partial-pool-v1",
   "coverage": {
     "source_selection": "all returned rows in explicit season/regular-game queries",

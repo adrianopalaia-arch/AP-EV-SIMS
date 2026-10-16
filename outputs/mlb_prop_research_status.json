@@ -1,6 +1,6 @@
 {
   "sport": "MLB",
-  "generated_at": "2026-10-16T05:18:17.411943+00:00",
+  "generated_at": "2026-10-16T05:38:49.696304+00:00",
   "model_version": "opportunity-partial-pool-v1",
   "coverage": {
     "source_selection": "Detroit 2024 fullSeason roster; first 12 sorted pitcher IDs and 12 nonpitcher IDs",

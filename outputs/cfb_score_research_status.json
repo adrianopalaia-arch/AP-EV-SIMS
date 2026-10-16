@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T05:08:15.067026+00:00",
-  "model_version": "cfb-score-ridge-v1",
+  "generated_at": "2026-10-16T05:37:17.300500+00:00",
+  "model_version": "cfb-score-ridge-v1.1",
   "model_status": "UNVALIDATED",
   "recommendations_enabled": false,
   "real_source_coverage": {
@@ -29,11 +29,11 @@
     "n": 2600
   },
   "current_training_n": 1442,
-  "artifact_hash": "f321ea2783dbefe2a0a7cc9b166e57314baddbc5b84540dba8cdb0d833e3113f",
+  "artifact_hash": "465ca33a6dad0ecff5523dc1a24a3ddbce8f241e5f29ebbdfc52f8c15486a5b9",
   "evaluation_table": {
-    "path": "normalized\\cfb-score-chronological-forecasts-a13d01e392db59597353e9ffbbf30eae249abab8612720841667ed5b0a132b1a.jsonl",
-    "parquet_path": "normalized\\cfb-score-chronological-forecasts-a13d01e392db59597353e9ffbbf30eae249abab8612720841667ed5b0a132b1a.parquet",
-    "fingerprint": "a13d01e392db59597353e9ffbbf30eae249abab8612720841667ed5b0a132b1a",
+    "path": "normalized\\cfb-score-chronological-forecasts-563055a8ce8234d98b5ccfdc7ea87dbd9149adfe80f66cb937de180cd8ccc36d.jsonl",
+    "parquet_path": "normalized\\cfb-score-chronological-forecasts-563055a8ce8234d98b5ccfdc7ea87dbd9149adfe80f66cb937de180cd8ccc36d.parquet",
+    "fingerprint": "563055a8ce8234d98b5ccfdc7ea87dbd9149adfe80f66cb937de180cd8ccc36d",
     "n": 1835
   },
   "synthetic_performance_sample": 0,
@@ -46,14 +46,14 @@
     "rmse": 18.47547822116664,
     "baseline_mae": 16.20734585923272,
     "baseline_rmse": 20.57832723087376,
-    "crps": 10.423281660243978,
+    "crps": 10.406835097443572,
     "crps_n": 1086,
-    "baseline_crps": 11.607689422903443,
+    "baseline_crps": 11.611557915887822,
     "baseline_crps_n": 1086,
     "home_win_probability_n": 1086,
     "brier": 0.20609104262778835,
     "logloss": 0.5993558332405463,
-    "baseline_brier": 0.2391269750584303,
+    "baseline_brier": 0.23912697505843025,
     "baseline_logloss": 0.671293460126948,
     "paired_mae_difference_95_week_bootstrap": [
       -1.9616750733258392,
@@ -68,14 +68,14 @@
       "rmse": 18.14712429305473,
       "baseline_mae": 16.061025409616207,
       "baseline_rmse": 20.34122128637983,
-      "crps": 10.237620626035435,
+      "crps": 10.221992623552904,
       "crps_n": 756,
-      "baseline_crps": 11.480778198270055,
+      "baseline_crps": 11.48689416304184,
       "baseline_crps_n": 756,
       "home_win_probability_n": 756,
-      "brier": 0.207053621676821,
+      "brier": 0.20705362167682104,
       "logloss": 0.6012143765676484,
-      "baseline_brier": 0.24166171247062126,
+      "baseline_brier": 0.2416617124706213,
       "baseline_logloss": 0.6764391018548069,
       "paired_mae_difference_95_week_bootstrap": [
         -2.1648070573666502,
@@ -89,15 +89,15 @@
       "rmse": 19.20655823225284,
       "baseline_mae": 16.542552707445115,
       "baseline_rmse": 21.111479484902883,
-      "crps": 10.848614211339912,
+      "crps": 10.83029240126583,
       "crps_n": 330,
-      "baseline_crps": 11.89843150115448,
+      "baseline_crps": 11.897151240589531,
       "baseline_crps_n": 330,
       "home_win_probability_n": 330,
       "brier": 0.2038858615336408,
       "logloss": 0.5950980794366393,
-      "baseline_brier": 0.23332012207777458,
-      "baseline_logloss": 0.659505262714035,
+      "baseline_brier": 0.2333201220777745,
+      "baseline_logloss": 0.6595052627140349,
       "paired_mae_difference_95_week_bootstrap": [
         -1.7322116599748565,
         -1.1553381577890536
@@ -407,7 +407,7 @@
     }
   },
   "policy": {
-    "version": "cfb-score-ridge-v1",
+    "version": "cfb-score-ridge-v1.1",
     "ridge": 20.0,
     "home_prior": 2.5,
     "home_prior_weight": 20.0,
@@ -420,10 +420,10 @@
     "warmup_season": 2024,
     "evaluation_start_season": 2025,
     "fold": "Monday 00:00 UTC; previous games only; seven-day completion embargo",
-    "distribution": "rounded predicted margin plus rounded prior out-of-fold residuals",
+    "distribution": "rounded predicted margin plus rounded prior out-of-fold residuals, conditional on nonzero final margin (CFB overtime)",
     "unknown_team_policy": "PASS; no zero-filled team rating"
   },
-  "new_frozen_predictions": 59,
+  "new_frozen_predictions": 0,
   "available_frozen_predictions": 59,
   "prospective": {
     "settled_forecasts": 0,

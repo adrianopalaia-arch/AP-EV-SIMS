@@ -158,3 +158,7 @@ Push result: local Git authentication unavailable. Connector code writes and PR 
 ## Multi-sport real-model checkpoint 2026-10-16T05:23:02.576787+00:00
 
 283 tests pass; 18 frozen Phase 1 hashes unchanged. CFB trained on 1,442 prior scores, evaluated 1,086 games, MAE 14.5269 versus 16.2073; 59 future forecasts frozen. Real NFL/NBA/NHL/MLB opportunity models executed; per-market results and failures are in reports/MULTISPORT_PROP_EVIDENCE.md. NFL did not improve MAE. No models are validated. Current prop prices captured for four sports, NHL returned no props. Next: current identities/roles, prospective prop freeze and settlement/CLV. Git push attempted below; development continues independently.
+
+## Executed all five sports — 2026-10-16T05:42:35.450239+00:00
+
+295 tests pass. Published 353 previously frozen real-data forecasts, 353 marginal simulation runs and 14,120,000 draws. No new frozen observations or settled prospective evidence. CFB refresh succeeded; other refreshes hit daily quota. CORE remains disabled. See reports/EXECUTION_RESULTS.md and outputs/execution_status.json. Joint game-state simulation and empirical betting calibration remain incomplete. Source/test work is preserved, not staged in this output-only checkpoint.

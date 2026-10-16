@@ -1,0 +1,498 @@
+{
+  "sport": "NFL",
+  "generated_at": "2026-10-16T05:38:50.222102+00:00",
+  "settled_n": 0,
+  "pending_n": 120,
+  "pending": [
+    {
+      "forecast_hash": "8e4fbc77329fb87a7ab8373b5e84c921febad1481f43f47e91bd6ead3afecef9",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "651d7be5aedd2d54c3b4e4cf42d984d2434e492b72d03f142f6f182833ee7dab",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6dba0bc2493e5e5582303d794a78e6a153facf98126f6a7eec5676cf3ff6ff15",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4016df29aff2ec3b30314f19a542c83c8fdf297866826039f198d0ddc7d91e30",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6a3e729b9ddfd8fa97ce947f9233da6e80515adf9919bd865260da64682c42c4",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "91e45d18bffea8bfcabf58701f66b3af850e248c44adb6a2fc1d98969bc1f819",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9c06595014712f3322fe5de29ac883c3f18c10a89eb01807544e862c1fbb5515",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b91fcec97439c1f7d4cd7fb202cf30e9d0f5fe5ad79e04c09ab008cfffec030f",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8e967f3f4f511c51e5f7dddbd1a9ff312264eb1d969360939d988e7840121742",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b95d930ac6f998b6372402c44df53bd57fc909bf0ad42b1d81ac1271d7b31c52",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6dce7cab7f16b590c50adfb20a4cf589a17b07fa4f6daf3e3da7999a78414589",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "184dc51bf33918a54c58a9aa23e44c4c0f3cf9fc67db86a16dc2fa898393e582",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3f596aee85a467af8d7302bcb1a754d5386bd566a984fd9d1fa5680b3134cf21",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "873df858f9bfd8aa0dc114437157bed31f073d37ffd8666f7dac90cc0240da97",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "54ae29cffabfbb0fa28abff1f6da736b8f192362213af56d12a280300364810f",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5b74a8af3cfd682b61cb746f200a1a368cc76f0a0a2a7064ad588a07395e1bc0",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "fbf50234179f5bebeedf94eec6da4ab9efde587b688c450d4b830ddd5abe632c",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "17b2608569af10d000b9a267bb46bf43ff4899a4e28e785adfa0dc45220dccb1",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "270fe8ac41aee2a5c935c8e6bfe00cae2c0096795da0d1e42da2590f85048912",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b2dca3754ab98c0b11d03837609f3f27f5cd8d86a0a3f39750a9c6cedf1ffd4c",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "172a26dad43d63d6f5df958c620022779b84fe363f7abe8a5ee667c4ec6921d1",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2b6138071771a70cc96d71bbc93f4170a3b5578ebaeaa9c76d3746f211f98531",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2446e8e8c6a322917ba5f34d60fce45379e100295922faf63c563aefcd8048c5",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "48e74d2d312c4b5d4c1efab6d0b95a1975f576799d86e19f7d389b0b9e6ba268",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c91dff31daf73d0424fe0cbf5a8ec65489c63b72db04c8713d61b72d6fa20400",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "945c4926f4ac7daddc8c86564bc89fbde7971ec1254ec701d0b3d134b129767c",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0776616974cf15f9392c55deea8588846c4d681cffa2711b4bf72215e5c1a95f",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "be706cb4c22301aa79d50c51b184a0bce87f91a5b5b230731a78e82f233adfae",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "83a750780c65dbff07a8b5fd8ca7d2bcf213f4b8c47db6c5a45a0d59a5865e22",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "285f616a4db2684b5fb58a5b306c4595c25644521d7458a6afff6be6b015ec37",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cd7ff0252800eedc0250fe300561f485da78a635cad178f5fd37a63a2504b27a",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "813cb83142acf8c2b5c7bad1119cc08655a13dee094baa5e519a372486ca7ee0",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "df5c011700b3e2024bf1bb719b7649a114b9f520ffd3428232c55195d62fbe89",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "1dc05bb1c8f633c362ecc7748aef00fe11ac515c39fb759248ca98d5547d0dce",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d98675b6aff4c4d32a315ef768f0c6fa4d4ae291983208ea3ff4364c7774b5d1",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e9ed0c377e12e7c8b074a25123f085097cc57110a9b3d2f6472fa40be45b4886",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "70b41cf0985724f3bde4632bcff797ecbcf76b2eb2a774248526a7d79b7a31b8",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "05e754b94fdaf16d60a88bf6d1b0edee794521ba8498c2ebfb81e2655539d0f4",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f798c23ff18d2343e1632e338afc5274fa3a7700928840900568605410f70725",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7a771e0095155573c05c695d20874997db820607e7873dd40369c275461f86ef",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2a6ef3c178fa1167745af0ab888204e46ae1f4599d6791d6cd4d36f9730f40f9",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a1587d8716c17a25105daedce2612b6e79fbb3c8345dbe4b77a1b8a923699e7a",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "19a5b51afdad35ac450737a714b575032024fa7e75b96ccabef31284e9c4548d",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "1aaf80fd662e11e409690f23b65d6ec148c5c477537c0be8ceddd67c4a049ec6",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f5d7ce2f54329f0d518c46473782d92bc14e055d5d01c3f50556f9e622652111",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "946fc8e32b340ad76b092ace83f966274b74b16906aa89ddc187b1c692aab97e",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6e7ffc7d7dc5d98c74f4e48f7104ef025ba4291b738ad9212360e38e57e94afb",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d7cee2668e06a696c870de079ed0f89f8cd6100b0f28a08a76a78ef898aa2ae7",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "15d736e7581ebc0a1d7de4db77ec381b7377deb77991f3df77a8dc2efef0b57f",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4f6a7fc411c555a595c4d96e9d675440890e32a0b6baeb8e3b3f63641f64ec2f",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "43bea26889dd2de836668ac581ca50424bf8876ab3d6af3a4d8ff7d8c3940264",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a90507ec9a93cacf7db961b4fbb3bd95de02546587ade274134f01b9ea334b84",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "64e04c44716f20b18dce383f2aeaff68c52e0c37cf9bb9e67235f529b8b958a1",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2db75ef59f8b9dd8cdeda0999ab4c6dafc2696628db480dfa8746ba8c44bcae5",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c320a91d0736e7e4fe4de3cc022faec1eca4f234fa42b99454e4376ac988cb7d",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "087a0834b4842dcdfb17b2fbd2d8b4cf2c0e22b3c70d10a9f060f531dc531feb",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4fda2d7eaccce685c88d12611969e430bf691ca04954686bbfdbf3811372cb19",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7868d230ecbb48dde26b2f5e5967049e766fea2b7ea3ce8acb8810fb6a57610f",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "52fd09ff2ce5d7f488702e1df9a7e538586f6012f2bc8f14fa723bffb1b28be7",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a51e35e0990de1667313fad997c7c76b6e0243eff05ed892838b950a831d91fa",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f89a775ee27d35c4d93f2c1048ed4090f095ddad5757579d25f5fea1e9377160",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d0536d532016f82b14f456209e67fa65a8531e2c995b4ae58bfbc6ec898b4dda",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "17fc7d67f8c1801c1b7d5579f976ce189132f66ef2c9fd495efc1de68c8928b8",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d1fcaefc8236be141d814bffe42c3d265f19e7bac6096ef78183f46ea8be0237",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ae18bd08f47a0364293879db7a390b84efbc7b61a68c6da32b23359e469dffc1",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "50bcb245532448bda4e906a2945ad9e5de41bd00fc4af4731e8a0fc17cf4f50d",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "679b3b5379673d9ecc09e5fb1b51fb31c70d94b187b27a26244c412a634dd941",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0ec07c8cb68ed67d91f064db3c75e5dd87b6adb05ae44d1e4807af4a8fb024c5",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b19e9f1bba2efe4e2d94ce3e6e9b8a80e9f4d437082b0b58c659cf7a3801c48a",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "245ad12b9ed88066b84cad8c17067063afb1df7ad633504d5a5921a4c24ac3e5",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "1731ae81f15b21e4b5d41b2f10eeaae860272afff5026970c4bb3c978a1005a5",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3378e417dd8a43486b825c21e0cf675d576fbe3bf74482c9db879d95459b4c2f",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c74e035dcdf3eace0b489a904179ee47759e07f60647c54e2c788317afe7cf97",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a443eeaaf00f891e785a14efaaad7b0218f0567ab9c0d9db3118b4f4320669aa",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3d68a5568910975d331a77f7ec2a2fd360b19d01237981ccd23482411290a794",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3873d7c5bf0b4082cd9c8811a1d35b348a0b14c143d65b04023337e39ea684ad",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "db972029f0788d6c455dc926bfdd21c1d5ddf851b738768f68c3f9b96f9646ce",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d7a59c4a686d51e828159e20cc6d4deadbab6aa2165257f011f43871f9d17b8a",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c512318b76ea213459fd095e91144e601486905281153ea2d727179d9de38eb6",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "26337709603e11dd56f1e99103bc166af76cbc4e9b033a12c93a9d508fba5cdf",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3daea8f9e6281a983b436d37c396eeaa81536811cc0f6d957e3ce6011f8e475e",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "28e42d97abbd5e2d11dcca10dce9391064beeb2d86cc1e8c96b36f1b46bc5ddc",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0d50f3068c217c0b33efd01f494c4af8639aa84c1dd137f9d2d3f575b957f02f",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8847ae3c062419b81ef412cf78ce987b1529e0c6925f2de0becb1e2979e17b73",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e211530a1445d15fd8ba38da14c7034d6f353210c5b1311bdfeb2f32acc34944",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "aa35a88b470bec5f296726971f8f584bd6c7e9e2a05d431143237533a39aab58",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b0e65d62caf96310832267eea9b7ad8a428b76b463a7ff8ddef4dbdb8d94a834",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7361c0add45ffd4708e3f50019e698f25d5414ee4de865dff15a5c03aad1778d",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e6e5c06c3c71cd9f64b68fcadfb233331f9b27abd8208fcba59dca987132cdb6",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cf6c7a2528e78a32ccb224168978f26190a5423291d1bac95106c88bf4a1882a",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "240338918b272d6810712b912d15215ee6cd5d779e652d5f22dc2b453688d75c",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "41032e3e31725dc38db839b5eb6875f66417b773035042d54e592756ce12d841",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "272d2d2d3466a20587b5ac7495c94fc5e370a6d206ac54b141375c5194c069d9",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9fd980172b0dc2fab04f0a048a6419bf4645c08b117f05db424f771aad58568e",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "05d4ead207c011b89486ba696621458cf1b0855d8b1b21f2b395a3d051d6430b",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4220f0aff0809bd48a1abe90265fd2bb0c9729d5d9b532231585e28d900c7a34",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9e857451030b9206b813e664e66f0f57eb3babfce9de467dc357b66ec5376eca",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d67941a97e47d73527835f49afc06398ee5ee642669f8b4e176331c3f80bb8da",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d1bab6dd1803427d9a93385035b18c5e2d63be950092df90e29900364f0df4f5",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "589462a91344631421f7c7a73d94ec1ce323c51e777fba3c56b460ee5e7a1138",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b51c0533a861c6101d3ac57a9fbfb2115e518662c434592a80d4cc84185ed407",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "76a71f916b1fa388451dd7c566a51d558082c0114173016fa6ac3a65fdeef865",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "dcbfe7b2e14d7b77c0e65745f8f76df3fe97dfbd7abd8ce76e86e76bea074530",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5206ec162cb492d393eaeacd39a216c1b99f327caef4d79922b2076a8356e2bf",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "809e130b0b1deb4473485bc470fefc9aa7cc1fb7c741181d05575366a6352136",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "93f005ee09ae5bb2a1277415ced435fd1d22a9d58988e5fd9a276767883cd388",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0c9b7a26be841b4be794edf4b65e55af59098a5d4976503123d9430a41489e8b",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8ad206eba74e46ecc3cf8e85af5dad7a188b63a569ee9f817644f727754ca443",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f2ece78ab1a4cda453c9c00c972a563508da6c33201943b3c88531cb5998791e",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "76400f5e9380f92bc1bb964c157e6e1f1fa4b0eb114597ddf26eae15175b2b10",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "81604236f1b5d8135c24c1bf404f15f5f4b916fdda52a896660a007a544c91da",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7f13cd46f4c91c2bc90cf2e08128379b46a7c74f009a262f4f61ed6111049688",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "60bb68dcb58c96c713c200f5e1ce8e42daf34779979f7041a8746b1d51c99506",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3f6c8d3b69698decc1f40c65f2cfb964258f4ca669b7c2481b638b983fe9ad49",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2bd41b0c18f18bff902e3277b5aacddf7cedbed23a123a0703284475da19da4f",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "752f009470a5d8b65949c6ea3aa20ad75d509a5ef5e311c2a098835955ad667b",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "85a2fda4fe138bceb1ad2dac945bd3aad2528a0c0bfd30dd7700174309838a5b",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0cc9ba08a4fed175be2645dd216be27d7dadcbcb17aaf018618c96e820d542ae",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9eb8aad4b5278475bac1a67f57cc518463e3f1dccb48825bd6e4869b29f0a545",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3b4f978aea8ced32478686db71e6fcc2ce972a6dd9f9644bf916ed4b7a39c10f",
+      "reason": "EVENT_NOT_STARTED"
+    }
+  ],
+  "mae": null,
+  "rmse": null,
+  "baseline_mae": null,
+  "crps": null,
+  "qualified_market_comparison_n": 0,
+  "real_cash_roi": null,
+  "hypothetical_roi": null,
+  "clv": null,
+  "recommendations_enabled": false,
+  "records": []
+}
