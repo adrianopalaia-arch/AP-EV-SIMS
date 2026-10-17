@@ -13,9 +13,9 @@
       "exact_comparisons": 0,
       "forecast_records": 60,
       "fresh_identity_matched": 0,
-      "generated_at": "2026-10-17T02:29:05.105713+00:00",
-      "quote_age_seconds_max": 75103.105713,
-      "quote_age_seconds_min": 75077.105713,
+      "generated_at": "2026-10-17T02:31:59.296708+00:00",
+      "quote_age_seconds_max": 75277.296708,
+      "quote_age_seconds_min": 75251.296708,
       "recommendations_enabled": false,
       "status": "PRESERVED_SCORE_MODEL"
     },
@@ -47,7 +47,7 @@
       "evidence_resolved_start_offsets": 0,
       "exact_comparisons": 48,
       "fresh_identity_matched": 0,
-      "generated_at": "2026-10-17T02:29:02.818735+00:00",
+      "generated_at": "2026-10-17T02:31:56.673362+00:00",
       "identity_matched": 0,
       "markets": {
         "hitter_hits": 18,
@@ -61,11 +61,10 @@
         "PARTICIPATION_NOT_CONFIRMED": 48,
         "POSTPONED_SCHEDULE_REVISION": 48,
         "PROSPECTIVE_CALIBRATION_PENDING": 48,
-        "ROLE_NOT_CONFIRMED": 48,
-        "STALE_PRICE": 48
+        "ROLE_NOT_CONFIRMED": 48
       },
-      "quote_age_seconds_max": 250.818735,
-      "quote_age_seconds_min": 250.818735,
+      "quote_age_seconds_max": 34.673362,
+      "quote_age_seconds_min": 34.673362,
       "rejections": [
         {
           "forecast_hash": "b73a96ace158a9f18bc4b8ee086573b50a43b45f7ee9f8ef0c8470df8796aacf",
@@ -145,8 +144,8 @@
       "confirmed_roles": 0,
       "evidence_resolved_start_offsets": 0,
       "exact_comparisons": 32,
-      "fresh_identity_matched": 0,
-      "generated_at": "2026-10-17T02:28:59.415832+00:00",
+      "fresh_identity_matched": 32,
+      "generated_at": "2026-10-17T02:31:53.113221+00:00",
       "identity_matched": 32,
       "markets": {
         "assists": 14,
@@ -160,11 +159,10 @@
         "PARTICIPATION_NOT_CONFIRMED": 32,
         "PROSPECTIVE_CALIBRATION_PENDING": 32,
         "ROLE_NOT_CONFIRMED": 32,
-        "STALE_PRICE": 32,
         "TEAM_CHANGE_ROLE_UNVERIFIED": 4
       },
-      "quote_age_seconds_max": 276.415832,
-      "quote_age_seconds_min": 250.415832,
+      "quote_age_seconds_max": 58.113221,
+      "quote_age_seconds_min": 33.113221,
       "rejections": [
         {
           "forecast_hash": "e9dd5935b2ebaa0b767bfcbd1a4aa24425f3dd748b3b547dac92ab8b7f2d103f",
@@ -638,7 +636,7 @@
       "evidence_resolved_start_offsets": 0,
       "exact_comparisons": 112,
       "fresh_identity_matched": 0,
-      "generated_at": "2026-10-17T02:29:04.451126+00:00",
+      "generated_at": "2026-10-17T02:31:58.593257+00:00",
       "identity_matched": 112,
       "markets": {
         "passing_yards": 8,
@@ -657,8 +655,8 @@
         "STALE_PRICE": 112,
         "TEAM_CHANGE_ROLE_UNVERIFIED": 8
       },
-      "quote_age_seconds_max": 280.451126,
-      "quote_age_seconds_min": 250.451126,
+      "quote_age_seconds_max": 454.593257,
+      "quote_age_seconds_min": 424.593257,
       "rejections": [
         {
           "forecast_hash": "af4080faae79820baf5323899f6b1420e5d37f7ebfebc98f2982e4c980dea35f",
@@ -1059,8 +1057,8 @@
       "confirmed_roles": 0,
       "evidence_resolved_start_offsets": 16,
       "exact_comparisons": 16,
-      "fresh_identity_matched": 0,
-      "generated_at": "2026-10-17T02:28:57.001872+00:00",
+      "fresh_identity_matched": 16,
+      "generated_at": "2026-10-17T02:31:50.364093+00:00",
       "identity_matched": 16,
       "markets": {
         "shots_on_goal": 8
@@ -1070,11 +1068,10 @@
         "BOOK_SETTLEMENT_RULE_UNVERIFIED": 16,
         "PARTICIPATION_NOT_CONFIRMED": 16,
         "PROSPECTIVE_CALIBRATION_PENDING": 16,
-        "ROLE_NOT_CONFIRMED": 16,
-        "STALE_PRICE": 16
+        "ROLE_NOT_CONFIRMED": 16
       },
-      "quote_age_seconds_max": 274.001872,
-      "quote_age_seconds_min": 274.001872,
+      "quote_age_seconds_max": 53.364093,
+      "quote_age_seconds_min": 53.364093,
       "rejections": [
         {
           "forecast_hash": "65a08d7c6cbe1d72552520229110247446f328bb114bf7ab30688931ca0c4d94",
@@ -1272,25 +1269,25 @@
   "model_version": "causal-opportunity-ridge-v2",
   "new_version_frozen_predictions": 333,
   "prices": {
-    "distinct_timestamped_paired_offers": 833,
+    "distinct_timestamped_paired_offers": 893,
     "distinction": "Recorded pregame quote observations are real archive data, not proof of settlement terms, player identity or a qualified historical backtest",
     "historical_price_backtest_qualified_rows": 0,
     "historical_provider_snapshots": 0,
     "historical_snapshots": [],
     "prop_payload_snapshots": {
-      "MLB": 4,
-      "NBA": 4,
+      "MLB": 5,
+      "NBA": 5,
       "NFL": 4,
-      "NHL": 5
+      "NHL": 6
     },
     "prospective_paired_offer_snapshots": {
-      "MLB": 100,
-      "NBA": 137,
+      "MLB": 124,
+      "NBA": 165,
       "NFL": 491,
-      "NHL": 105
+      "NHL": 113
     }
   },
-  "pricing_updated_at": "2026-10-17T02:29:05.105713+00:00",
+  "pricing_updated_at": "2026-10-17T02:31:59.296708+00:00",
   "prospective_settled": 0,
   "qualified_market_comparisons": 0,
   "reference_unit": 22,
@@ -1687,8 +1684,7 @@
         "PARTICIPATION_NOT_CONFIRMED": 48,
         "POSTPONED_SCHEDULE_REVISION": 48,
         "PROSPECTIVE_CALIBRATION_PENDING": 48,
-        "ROLE_NOT_CONFIRMED": 48,
-        "STALE_PRICE": 48
+        "ROLE_NOT_CONFIRMED": 48
       },
       "price_comparison_records": 48,
       "simulation_draws": 1520000
@@ -1743,8 +1739,8 @@
         "unique_player_games": 79632
       },
       "convergence_failures": 0,
-      "current_fresh_comparisons": 0,
-      "fresh_at_comparison": 0,
+      "current_fresh_comparisons": 32,
+      "fresh_at_comparison": 32,
       "identity_matched_comparisons": 32,
       "marginal_simulations": 124,
       "markets": {
@@ -1977,7 +1973,6 @@
         "PARTICIPATION_NOT_CONFIRMED": 32,
         "PROSPECTIVE_CALIBRATION_PENDING": 32,
         "ROLE_NOT_CONFIRMED": 32,
-        "STALE_PRICE": 32,
         "TEAM_CHANGE_ROLE_UNVERIFIED": 4
       },
       "price_comparison_records": 32,
@@ -2373,8 +2368,8 @@
         "unique_player_games": 153778
       },
       "convergence_failures": 0,
-      "current_fresh_comparisons": 0,
-      "fresh_at_comparison": 0,
+      "current_fresh_comparisons": 16,
+      "fresh_at_comparison": 16,
       "identity_matched_comparisons": 16,
       "marginal_simulations": 47,
       "markets": {
@@ -2494,8 +2489,7 @@
         "BOOK_SETTLEMENT_RULE_UNVERIFIED": 16,
         "PARTICIPATION_NOT_CONFIRMED": 16,
         "PROSPECTIVE_CALIBRATION_PENDING": 16,
-        "ROLE_NOT_CONFIRMED": 16,
-        "STALE_PRICE": 16
+        "ROLE_NOT_CONFIRMED": 16
       },
       "price_comparison_records": 16,
       "simulation_draws": 1880000

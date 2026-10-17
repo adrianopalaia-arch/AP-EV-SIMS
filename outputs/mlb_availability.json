@@ -24,7 +24,7 @@
     "BOOK_CANONICAL_START_MISMATCH",
     "POSTPONED_SCHEDULE_REVISION"
   ],
-  "generated_at": "2026-10-17T02:29:02.813711+00:00",
+  "generated_at": "2026-10-17T02:31:56.666363+00:00",
   "identities": [
     {
       "aliases": [
@@ -391,12 +391,12 @@
       "team_id": "139"
     }
   ],
-  "latest_source_capture": "2026-10-17T02:25:18.948988+00:00",
+  "latest_source_capture": "2026-10-17T02:31:56.663358+00:00",
   "recommendations_enabled": false,
   "records": [
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -415,13 +415,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -440,13 +440,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -465,13 +465,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -490,13 +490,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -515,13 +515,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -540,13 +540,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -565,13 +565,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -590,13 +590,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -615,13 +615,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -640,13 +640,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -665,13 +665,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -690,13 +690,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -715,13 +715,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -740,13 +740,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -765,13 +765,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -790,13 +790,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -815,13 +815,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -840,13 +840,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -865,13 +865,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -890,13 +890,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -915,13 +915,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -940,13 +940,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -965,13 +965,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -990,13 +990,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1015,13 +1015,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1040,13 +1040,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1065,13 +1065,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1090,13 +1090,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1115,13 +1115,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1140,13 +1140,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1165,13 +1165,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1190,13 +1190,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1215,13 +1215,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1240,13 +1240,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1265,13 +1265,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1290,13 +1290,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1315,13 +1315,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1340,13 +1340,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1365,13 +1365,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1390,13 +1390,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1415,13 +1415,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1440,13 +1440,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1465,13 +1465,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1490,13 +1490,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1515,13 +1515,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1540,13 +1540,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1565,13 +1565,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1590,13 +1590,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1615,13 +1615,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1640,13 +1640,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1665,13 +1665,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:18.948988+00:00",
+      "available_at": "2026-10-17T02:31:56.663358+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1690,12 +1690,12 @@
       ],
       "role_confirmed": false,
       "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "source_manifest": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "sport": "MLB",
       "team_id": "139"
     }
   ],
-  "snapshot_hash": "ee8f0ea6f68da4829d4143e2d91032fc97c75c40c56fd91a185fa2dde1744305",
+  "snapshot_hash": "d7292258b760030cfb5f7154a4779b55dc9975ba579c42a9e279da5fa864d290",
   "sources": [
     {
       "captured_at": "2026-10-17T02:05:21.890999+00:00",
@@ -1716,9 +1716,9 @@
       "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active"
     },
     {
-      "captured_at": "2026-10-17T02:25:18.948988+00:00",
+      "captured_at": "2026-10-17T02:31:56.663358+00:00",
       "hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
-      "manifest_id": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
+      "manifest_id": "fc4c5952ec646c82f76405d2dee56b98f411f2939d5d3f1b88c0bb995ac90d4b",
       "url": "https://statsapi.mlb.com/api/v1/game/849817/boxscore"
     }
   ],

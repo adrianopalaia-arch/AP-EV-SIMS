@@ -11,7 +11,7 @@
     "odds_event_start": "2026-10-20T19:00:00Z"
   },
   "event_identity_reasons": [],
-  "generated_at": "2026-10-17T02:28:59.410476+00:00",
+  "generated_at": "2026-10-17T02:31:53.108626+00:00",
   "identities": [
     {
       "aliases": [
@@ -294,12 +294,12 @@
       "team_id": "2"
     }
   ],
-  "latest_source_capture": "2026-10-17T02:25:15.400547+00:00",
+  "latest_source_capture": "2026-10-17T02:31:53.105115+00:00",
   "recommendations_enabled": false,
   "records": [
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -316,14 +316,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -340,14 +340,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -364,14 +364,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -388,14 +388,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -412,14 +412,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -436,14 +436,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -460,14 +460,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -484,14 +484,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -508,14 +508,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -532,14 +532,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -556,14 +556,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -580,14 +580,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -604,14 +604,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -628,14 +628,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -652,14 +652,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -676,14 +676,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -700,14 +700,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -724,14 +724,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -748,14 +748,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "8"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -765,7 +765,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-17T02:25:15.400547+00:00",
+          "available_at": "2026-10-17T02:31:53.105115+00:00",
           "body_part": "Illness",
           "observed_at": "2026-10-16T23:09Z",
           "reason": null,
@@ -782,14 +782,14 @@
         "INJURY_OR_RESTRICTION_REPORTED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -806,14 +806,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -823,7 +823,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-17T02:25:15.400547+00:00",
+          "available_at": "2026-10-17T02:31:53.105115+00:00",
           "body_part": null,
           "observed_at": "2026-10-16T23:05Z",
           "reason": null,
@@ -840,14 +840,14 @@
         "INJURY_OR_RESTRICTION_REPORTED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -864,14 +864,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -888,14 +888,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -905,7 +905,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-17T02:25:15.400547+00:00",
+          "available_at": "2026-10-17T02:31:53.105115+00:00",
           "body_part": "Rest",
           "observed_at": "2026-10-16T23:07Z",
           "reason": null,
@@ -922,14 +922,14 @@
         "INJURY_OR_RESTRICTION_REPORTED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -946,14 +946,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -970,14 +970,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -994,14 +994,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1011,7 +1011,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-17T02:25:15.400547+00:00",
+          "available_at": "2026-10-17T02:31:53.105115+00:00",
           "body_part": "Rest",
           "observed_at": "2026-10-16T23:12Z",
           "reason": null,
@@ -1028,14 +1028,14 @@
         "INJURY_OR_RESTRICTION_REPORTED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1052,14 +1052,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1076,14 +1076,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1093,7 +1093,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-17T02:25:15.400547+00:00",
+          "available_at": "2026-10-17T02:31:53.105115+00:00",
           "body_part": null,
           "observed_at": "2026-10-16T23:06Z",
           "reason": null,
@@ -1110,14 +1110,14 @@
         "INJURY_OR_RESTRICTION_REPORTED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1127,7 +1127,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-17T02:25:15.400547+00:00",
+          "available_at": "2026-10-17T02:31:53.105115+00:00",
           "body_part": "Rest",
           "observed_at": "2026-10-16T23:08Z",
           "reason": null,
@@ -1144,14 +1144,14 @@
         "INJURY_OR_RESTRICTION_REPORTED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1161,7 +1161,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-17T02:25:15.400547+00:00",
+          "available_at": "2026-10-17T02:31:53.105115+00:00",
           "body_part": "Rest",
           "observed_at": "2026-10-16T23:09Z",
           "reason": null,
@@ -1178,14 +1178,14 @@
         "INJURY_OR_RESTRICTION_REPORTED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1202,14 +1202,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1219,7 +1219,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-17T02:25:15.400547+00:00",
+          "available_at": "2026-10-17T02:31:53.105115+00:00",
           "body_part": null,
           "observed_at": "2026-10-16T23:04Z",
           "reason": null,
@@ -1236,14 +1236,14 @@
         "INJURY_OR_RESTRICTION_REPORTED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1260,14 +1260,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1284,14 +1284,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1301,7 +1301,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-17T02:25:15.400547+00:00",
+          "available_at": "2026-10-17T02:31:53.105115+00:00",
           "body_part": null,
           "observed_at": "2026-10-16T23:05Z",
           "reason": null,
@@ -1318,14 +1318,14 @@
         "INJURY_OR_RESTRICTION_REPORTED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:15.400547+00:00",
+      "available_at": "2026-10-17T02:31:53.105115+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1342,13 +1342,13 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "sport": "NBA",
       "team_id": "2"
     }
   ],
-  "snapshot_hash": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+  "snapshot_hash": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
   "sources": [
     {
       "captured_at": "2026-10-17T02:05:17.574145+00:00",
@@ -1369,9 +1369,9 @@
       "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/2/roster"
     },
     {
-      "captured_at": "2026-10-17T02:25:15.400547+00:00",
-      "hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-      "manifest_id": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+      "captured_at": "2026-10-17T02:31:53.105115+00:00",
+      "hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+      "manifest_id": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
       "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909088"
     }
   ],

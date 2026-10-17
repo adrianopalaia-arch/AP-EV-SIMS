@@ -1,5 +1,5 @@
 {
-  "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+  "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
   "benchmarks": {
     "assists": {
       "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
@@ -179,7 +179,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -196,12 +196,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -248,25 +248,25 @@
       "book": "fanduel",
       "break_even_probability": 0.49504950495049505,
       "calibrated_probability": null,
-      "comparison_hash": "1e853c771e6939363342a1c6c8ddcdafcd98c6909cf8893898a83cb6c085a326",
+      "comparison_hash": "c39ab93c29e85faacf4439f22310fc8d144471929cc9e33d6427ad679f536245",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.13367001991862149,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 9.5,
           "odds": 100,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         },
         {
           "book": "draftkings",
           "line": 9.5,
           "odds": 105,
-          "quote_timestamp": "2026-10-17T02:24:25Z"
+          "quote_timestamp": "2026-10-17T02:30:55Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -284,18 +284,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 102,
       "p_low": null,
-      "parent_comparison_hash": "b53617a0316cd6cdad1208a8ed8076377d029127a7026c2aa65d0d6c38cdaa9c",
+      "parent_comparison_hash": "1e853c771e6939363342a1c6c8ddcdafcd98c6909cf8893898a83cb6c085a326",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4432166",
       "player_name": "Cade Cunningham",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 27.839873011632598,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -310,12 +309,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 276.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "ce6653ab8abc210091eab509ebf77294b23f470380990c5e1f4e431a3a8b2b87",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:23Z",
+      "quote_age_seconds": 57.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "07e7fa953e917474b958506658c9183dce4821f0e0164841ea9f593cfe603285",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:56Z",
       "raw_fair_decimal_odds": 2.331675050435461,
       "raw_model_outcome_mass": {
         "p_loss": 0.5711237722369413,
@@ -343,7 +342,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -360,12 +359,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -412,25 +411,25 @@
       "book": "fanduel",
       "break_even_probability": 0.576271186440678,
       "calibrated_probability": null,
-      "comparison_hash": "a9e057304c0faebb4d4f2adb7efb95de21f95ef448b662119a2ed99e28ccd15a",
+      "comparison_hash": "2f8d6e1604d890a9c963f33fde4d1cb61497eda0ca83a8b17d6ba768255f63b8",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.008932277588837079,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 9.5,
           "odds": -143,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         },
         {
           "book": "draftkings",
           "line": 9.5,
           "odds": -138,
-          "quote_timestamp": "2026-10-17T02:24:25Z"
+          "quote_timestamp": "2026-10-17T02:30:55Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -448,18 +447,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -136,
       "p_low": null,
-      "parent_comparison_hash": "1a69fcddd75c3395e7758853f1cc0ef06305a4a0661a85bf444dcbb445d4fbd0",
+      "parent_comparison_hash": "a9e057304c0faebb4d4f2adb7efb95de21f95ef448b662119a2ed99e28ccd15a",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4432166",
       "player_name": "Cade Cunningham",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 27.839873011632598,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -474,12 +472,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 276.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "ce6653ab8abc210091eab509ebf77294b23f470380990c5e1f4e431a3a8b2b87",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:23Z",
+      "quote_age_seconds": 57.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "07e7fa953e917474b958506658c9183dce4821f0e0164841ea9f593cfe603285",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:56Z",
       "raw_fair_decimal_odds": 1.7509339456896769,
       "raw_model_outcome_mass": {
         "p_loss": 0.42887622776305867,
@@ -507,7 +505,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -524,12 +522,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -576,25 +574,25 @@
       "book": "draftkings",
       "break_even_probability": 0.4878048780487805,
       "calibrated_probability": null,
-      "comparison_hash": "05f6963167bb09c211aed29920663540245fb044c726b783a018c5f415d9bc1e",
+      "comparison_hash": "cf09684521970c468cf92109304517d04055beac399d3068dabc6dcc00fcc5b4",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.12080373308572978,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "fanduel",
           "line": 9.5,
           "odds": 102,
-          "quote_timestamp": "2026-10-17T02:24:23Z"
+          "quote_timestamp": "2026-10-17T02:30:56Z"
         },
         {
           "book": "betrivers",
           "line": 9.5,
           "odds": 100,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -612,18 +610,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 105,
       "p_low": null,
-      "parent_comparison_hash": "c5d71a6fe93cfc4632f638d5ef333fbb4ddb841882b8286a81b14928f4f8b67c",
+      "parent_comparison_hash": "05f6963167bb09c211aed29920663540245fb044c726b783a018c5f415d9bc1e",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4432166",
       "player_name": "Cade Cunningham",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 27.839873011632598,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -638,12 +635,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "2984bd47cb3eb08fb99846d4d5bfbda9fb4b95798ccaaa1eaf1f4641934e44f8",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "a1a547d9571a97f4979178d616e23886fe329ff5ee03dcb3d0fab6af53297a10",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 2.331675050435461,
       "raw_model_outcome_mass": {
         "p_loss": 0.5711237722369413,
@@ -671,7 +668,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -688,12 +685,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -740,25 +737,25 @@
       "book": "draftkings",
       "break_even_probability": 0.5798319327731093,
       "calibrated_probability": null,
-      "comparison_hash": "a0355ab5027df58c5358d5f51de8963263a5cfc811fa2978ddcef0ee68971afd",
+      "comparison_hash": "dc3383239e684696f11877d566c0ef41ade7641eb9a4f8fa5f9081823854e779",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.01501842179426055,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "fanduel",
           "line": 9.5,
           "odds": -136,
-          "quote_timestamp": "2026-10-17T02:24:23Z"
+          "quote_timestamp": "2026-10-17T02:30:56Z"
         },
         {
           "book": "betrivers",
           "line": 9.5,
           "odds": -143,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -776,18 +773,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -138,
       "p_low": null,
-      "parent_comparison_hash": "5e8abc42f91521661ac4f747bd04f97687ddd3db77e221527bf5920fcaf8637f",
+      "parent_comparison_hash": "a0355ab5027df58c5358d5f51de8963263a5cfc811fa2978ddcef0ee68971afd",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4432166",
       "player_name": "Cade Cunningham",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 27.839873011632598,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -802,12 +798,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "2984bd47cb3eb08fb99846d4d5bfbda9fb4b95798ccaaa1eaf1f4641934e44f8",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "a1a547d9571a97f4979178d616e23886fe329ff5ee03dcb3d0fab6af53297a10",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.7509339456896769,
       "raw_model_outcome_mass": {
         "p_loss": 0.42887622776305867,
@@ -835,7 +831,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -852,12 +848,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -904,19 +900,19 @@
       "book": "draftkings",
       "break_even_probability": 0.6415770609318996,
       "calibrated_probability": null,
-      "comparison_hash": "09f61c3271903181d368bb86c4120b1925d0348a203574add2a4fe26eec2633d",
+      "comparison_hash": "a00365ffa0a7eef4ac50179ef5f619f8f094c4bd687acd0e3103fe0ad1fdb17d",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": 0.2284658227498813,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 1.5,
           "odds": -157,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -934,18 +930,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -179,
       "p_low": null,
-      "parent_comparison_hash": "09726e3a305e62acf87747bb9cee7a9ba85093c3126c6676c025ea259b6fd400",
+      "parent_comparison_hash": "09f61c3271903181d368bb86c4120b1925d0348a203574add2a4fe26eec2633d",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4433621",
       "player_name": "Jalen Duren",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 28.13370200416129,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -960,12 +955,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "73abe3dbde563c242f8f597f65359e6710620bbad3343e335d69f24ea0f29180",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "2eca4679ddc9e546afba04d5595781baee9cdceda1074dcecb523b7273be78f1",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.2687851700978432,
       "raw_model_outcome_mass": {
         "p_loss": 0.21184450798484322,
@@ -993,7 +988,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -1010,12 +1005,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -1062,19 +1057,19 @@
       "book": "draftkings",
       "break_even_probability": 0.425531914893617,
       "calibrated_probability": null,
-      "comparison_hash": "c1d7dc9a34cd25f0894b077666f0a6d4a8c529db0f67f6d5c13bb4fabc3f53b0",
+      "comparison_hash": "2a8e6934961147a9c13a255a6e1fe001841012158a808de8467e461b9e207915",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.5021654062356183,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 1.5,
           "odds": 110,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -1092,18 +1087,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 135,
       "p_low": null,
-      "parent_comparison_hash": "2d8d7937a96638ef75d03f333327263ecc59aac6ad11d6bb00220211988742f5",
+      "parent_comparison_hash": "c1d7dc9a34cd25f0894b077666f0a6d4a8c529db0f67f6d5c13bb4fabc3f53b0",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4433621",
       "player_name": "Jalen Duren",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 28.13370200416129,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -1118,12 +1112,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "73abe3dbde563c242f8f597f65359e6710620bbad3343e335d69f24ea0f29180",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "2eca4679ddc9e546afba04d5595781baee9cdceda1074dcecb523b7273be78f1",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 4.72044335495139,
       "raw_model_outcome_mass": {
         "p_loss": 0.7881554920151568,
@@ -1151,7 +1145,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -1168,12 +1162,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -1220,19 +1214,19 @@
       "book": "draftkings",
       "break_even_probability": 0.45248868778280543,
       "calibrated_probability": null,
-      "comparison_hash": "fbd95ca8dd71c75641500da79831e97780b33ac0a1f1d6eafcff49c7d4e12c0d",
+      "comparison_hash": "4c724ceb6eb66f074bb999fb9e31548e7703523b5acfe4745e1011247c1159c1",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": 0.1253318607434376,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 3.5,
           "odds": 112,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -1250,18 +1244,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 121,
       "p_low": null,
-      "parent_comparison_hash": "c80049ce9b69fd6009c09f93b6f5b6dbfeb5cec06818fc3d7737ea60be53eee2",
+      "parent_comparison_hash": "fbd95ca8dd71c75641500da79831e97780b33ac0a1f1d6eafcff49c7d4e12c0d",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4684742",
       "player_name": "Ausar Thompson",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 24.890959773145628,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -1276,12 +1269,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "af9465113ab685ead7e32e450feae2807933508b3413b6964bd07373651bab1c",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "4d10787a48a06011eac8aa5eb6b7a0ec97c1772e14c165ece451ee67447531e3",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.9638651291184352,
       "raw_model_outcome_mass": {
         "p_loss": 0.49080006301201917,
@@ -1309,7 +1302,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -1326,12 +1319,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -1378,19 +1371,19 @@
       "book": "draftkings",
       "break_even_probability": 0.6153846153846154,
       "calibrated_probability": null,
-      "comparison_hash": "0e8ebc79290686801972707bb5be927e8e4dd8723152456a2c8f9055555597f7",
+      "comparison_hash": "fa9884597ca6570d083f09ff39451b99ae545e10fb1652e1443bdacff1378dac",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.20244989760546905,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 3.5,
           "odds": -159,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -1408,18 +1401,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -160,
       "p_low": null,
-      "parent_comparison_hash": "9c6f202cd3895eb5d93170f403da81829372f2160e01a0685c48899961e985e4",
+      "parent_comparison_hash": "0e8ebc79290686801972707bb5be927e8e4dd8723152456a2c8f9055555597f7",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4684742",
       "player_name": "Ausar Thompson",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 24.890959773145628,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -1434,12 +1426,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "af9465113ab685ead7e32e450feae2807933508b3413b6964bd07373651bab1c",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "4d10787a48a06011eac8aa5eb6b7a0ec97c1772e14c165ece451ee67447531e3",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 2.037489550965097,
       "raw_model_outcome_mass": {
         "p_loss": 0.5091999369879809,
@@ -1467,7 +1459,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -1477,7 +1469,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": "Rest",
             "observed_at": "2026-10-16T23:07Z",
             "reason": null,
@@ -1494,12 +1486,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -1546,19 +1538,19 @@
       "book": "draftkings",
       "break_even_probability": 0.45871559633027525,
       "calibrated_probability": null,
-      "comparison_hash": "dec7e1f05cd6501c8305c769f9157d276a78819c8fe204a87c347996923a9844",
+      "comparison_hash": "1dfbd3bbebdc9b968a75f2fcdce0e11c027cf4d058074096c2f62c509ae13dfe",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.027341550752666532,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 3.5,
           "odds": 125,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -1576,7 +1568,7 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 118,
       "p_low": null,
-      "parent_comparison_hash": "01cd80d1527077d7adeb94036b0cb1b2e4ec44f892fc61d55e5b7058b477b80b",
+      "parent_comparison_hash": "dec7e1f05cd6501c8305c769f9157d276a78819c8fe204a87c347996923a9844",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
@@ -1584,12 +1576,11 @@
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
         "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE",
         "TEAM_CHANGE_ROLE_UNVERIFIED"
       ],
       "player_id": "4251",
       "player_name": "Paul George",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 28.37685459327624,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -1604,12 +1595,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "d569dc3fcf61bb0c128f74ac9c4e2e0b691a285b4eab7e8b8df796997bee5341",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "767822c7aac1cebdd2361dba5968a94a8c4d971e2b6c283fc6023865c5be8885",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 2.241280072863127,
       "raw_model_outcome_mass": {
         "p_loss": 0.5538263994278286,
@@ -1637,7 +1628,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -1647,7 +1638,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": "Rest",
             "observed_at": "2026-10-16T23:07Z",
             "reason": null,
@@ -1664,12 +1655,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -1716,19 +1707,19 @@
       "book": "draftkings",
       "break_even_probability": 0.6078431372549019,
       "calibrated_probability": null,
-      "comparison_hash": "f3cfa538f20c6d5c9405d8220dc273036baa8ae0c064ff5b48cb93179d848838",
+      "comparison_hash": "a6b1bf56cf2aa54cb53b18a8feeb39c4dcad51811ccdeed6c87508707f62ea9e",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.08886624610260474,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 3.5,
           "odds": -182,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -1746,7 +1737,7 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -155,
       "p_low": null,
-      "parent_comparison_hash": "1c7f00e4404abf6f5a5f7d72e31e72190a2a5b164828b08c5cd6cbdec81b0f1b",
+      "parent_comparison_hash": "f3cfa538f20c6d5c9405d8220dc273036baa8ae0c064ff5b48cb93179d848838",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
@@ -1754,12 +1745,11 @@
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
         "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE",
         "TEAM_CHANGE_ROLE_UNVERIFIED"
       ],
       "player_id": "4251",
       "player_name": "Paul George",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 28.37685459327624,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -1774,12 +1764,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "d569dc3fcf61bb0c128f74ac9c4e2e0b691a285b4eab7e8b8df796997bee5341",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "767822c7aac1cebdd2361dba5968a94a8c4d971e2b6c283fc6023865c5be8885",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.8056199578660825,
       "raw_model_outcome_mass": {
         "p_loss": 0.4461736005721715,
@@ -1807,7 +1797,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -1817,7 +1807,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:04Z",
             "reason": null,
@@ -1834,12 +1824,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -1886,19 +1876,19 @@
       "book": "fanduel",
       "break_even_probability": 0.5689655172413793,
       "calibrated_probability": null,
-      "comparison_hash": "ac364b154ee42d561f7687d6ac68e18874178b4efc3ab9c14c68885a0a9d1b7a",
+      "comparison_hash": "173e2a5915967fdc9491b4ae88e34634d17446e0fd980dc93261f4fe276c7b3a",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.001139950637997822,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 5.5,
           "odds": -148,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -1916,19 +1906,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -132,
       "p_low": null,
-      "parent_comparison_hash": "ef31467ddc7eceb12c0136f2a5af442a7042ef39c125307bfbe5289ebb365109",
+      "parent_comparison_hash": "ac364b154ee42d561f7687d6ac68e18874178b4efc3ab9c14c68885a0a9d1b7a",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4065648",
       "player_name": "Jayson Tatum",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 35.49848853008014,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -1943,12 +1932,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 276.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "f8d9f2740e7eaec6192ad39f02c4b41da7c7d43437e10d0c9562717393186d35",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:23Z",
+      "quote_age_seconds": 57.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "61fa6018982820c1f2de6ac424530bbef08fe033da073ce7f8e3806c64d3249c",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:56Z",
       "raw_fair_decimal_odds": 1.7595815937361463,
       "raw_model_outcome_mass": {
         "p_loss": 0.43168307536299877,
@@ -1976,7 +1965,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -1986,7 +1975,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:04Z",
             "reason": null,
@@ -2003,12 +1992,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -2055,19 +2044,19 @@
       "book": "fanduel",
       "break_even_probability": 0.5,
       "calibrated_probability": null,
-      "comparison_hash": "acfbd28d20f61177e2d548b0e9aed8f67b3111c4ee9795d416e9609fd3b9e047",
+      "comparison_hash": "17b36b8e78d138f00815fb83a57f7238bab58ee7aa65361c5529015ae23d9966",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.13663384927400224,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 5.5,
           "odds": 102,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -2085,19 +2074,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 100,
       "p_low": null,
-      "parent_comparison_hash": "4560b031e7bdbc7edb6bee65215f816ee1fc0747fdcb8707d402d41e2875186c",
+      "parent_comparison_hash": "acfbd28d20f61177e2d548b0e9aed8f67b3111c4ee9795d416e9609fd3b9e047",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4065648",
       "player_name": "Jayson Tatum",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 35.49848853008014,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -2112,12 +2100,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 276.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "f8d9f2740e7eaec6192ad39f02c4b41da7c7d43437e10d0c9562717393186d35",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:23Z",
+      "quote_age_seconds": 57.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "61fa6018982820c1f2de6ac424530bbef08fe033da073ce7f8e3806c64d3249c",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:56Z",
       "raw_fair_decimal_odds": 2.3165142602802016,
       "raw_model_outcome_mass": {
         "p_loss": 0.5683169246370011,
@@ -2145,7 +2133,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -2155,7 +2143,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:04Z",
             "reason": null,
@@ -2172,12 +2160,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -2224,13 +2212,13 @@
       "book": "draftkings",
       "break_even_probability": 0.4784688995215311,
       "calibrated_probability": null,
-      "comparison_hash": "6f65130f1d7c0749a945dc5b06c960db0cad98d9ddf7d12addc0fa78824bb814",
+      "comparison_hash": "4c56bdec1df9299cb0e91ba9da423de5d57a055a0becf57dde87536280f613f4",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.06674587249130792,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
       "event_id": "401909088",
@@ -2247,19 +2235,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 109,
       "p_low": null,
-      "parent_comparison_hash": "e85e47619125704a9a803b4dae421baa2939cfd0bdf29d34dad52618c82611ae",
+      "parent_comparison_hash": "6f65130f1d7c0749a945dc5b06c960db0cad98d9ddf7d12addc0fa78824bb814",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4065648",
       "player_name": "Jayson Tatum",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 35.49848853008014,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -2274,12 +2261,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "fb97e57d2687722c75835d5bb9909ca1e3d2f64838368f3a94625cb05d070461",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "0a4d4ef9ddb6dea46aa9c7fece64d01f0e1f10dfd6b810312de05219d151bf7b",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 2.2394757637763933,
       "raw_model_outcome_mass": {
         "p_loss": 0.5534669246369894,
@@ -2307,7 +2294,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -2317,7 +2304,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:04Z",
             "reason": null,
@@ -2334,12 +2321,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -2386,13 +2373,13 @@
       "book": "draftkings",
       "break_even_probability": 0.5901639344262295,
       "calibrated_probability": null,
-      "comparison_hash": "7a92bf9ff1c551e76bd829578b8d56bac969dd26333dea7a7d3d0b724451d41e",
+      "comparison_hash": "6bfc2d58a3652b5934fde2123fafa8678bff60050aee6a670f943c9b2663214f",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.062181044365101246,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
       "event_id": "401909088",
@@ -2409,19 +2396,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -144,
       "p_low": null,
-      "parent_comparison_hash": "508a085b176d8052ee7c018f55270119c10630ecfc8c9081225b07b066343230",
+      "parent_comparison_hash": "7a92bf9ff1c551e76bd829578b8d56bac969dd26333dea7a7d3d0b724451d41e",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4065648",
       "player_name": "Jayson Tatum",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 35.49848853008014,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -2436,12 +2422,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "fb97e57d2687722c75835d5bb9909ca1e3d2f64838368f3a94625cb05d070461",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "0a4d4ef9ddb6dea46aa9c7fece64d01f0e1f10dfd6b810312de05219d151bf7b",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.806792701579927,
       "raw_model_outcome_mass": {
         "p_loss": 0.44653307536301057,
@@ -2469,7 +2455,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -2479,7 +2465,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:05Z",
             "reason": null,
@@ -2496,12 +2482,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -2548,19 +2534,19 @@
       "book": "draftkings",
       "break_even_probability": 0.45248868778280543,
       "calibrated_probability": null,
-      "comparison_hash": "17d13bcdcb12734775a32feb72ecc675b4d91cae73ff86d280ce94b1d310ac54",
+      "comparison_hash": "0abccec0b0db2de206f8ebcbc0653be327154503e2be29bbfae1d21815f210c7",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.011414162010631945,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 4.5,
           "odds": 117,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -2578,19 +2564,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 121,
       "p_low": null,
-      "parent_comparison_hash": "b425158f88f1b06033618d53d9b57572b57fc42560a8599ff4dc261c7c32e33e",
+      "parent_comparison_hash": "17d13bcdcb12734775a32feb72ecc675b4d91cae73ff86d280ce94b1d310ac54",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "3078576",
       "player_name": "Derrick White",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 31.773878768868585,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -2605,12 +2590,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "91cc99908d9fd3ab161f2d296d1a1da80ab5e4b052208e1f5167707e38388326",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "e3a923a008c23a8bfc70c667737b716785c6bce2aacd20575399eef343e27cc4",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 2.235516548056971,
       "raw_model_outcome_mass": {
         "p_loss": 0.5526760914075257,
@@ -2638,7 +2623,7 @@
       "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -2648,7 +2633,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:05Z",
             "reason": null,
@@ -2665,12 +2650,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "5856d185062e1aba9bdcfc496999d50ced60f5537bc12872dcc02ec2fa1b98f7",
@@ -2717,19 +2702,19 @@
       "book": "draftkings",
       "break_even_probability": 0.6138996138996139,
       "calibrated_probability": null,
-      "comparison_hash": "18ab7df80da77258f16876bafc31e35a66b6e7e83e5461372c01dc3afcbecd5a",
+      "comparison_hash": "ce03221fd96824448a6104df05497abac45ae5d9effcb894723b00ca23fdcc93",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.09972888255000534,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 4.5,
           "odds": -167,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -2747,19 +2732,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -159,
       "p_low": null,
-      "parent_comparison_hash": "5bc0820e2d50c9a22c6db7db199236f3e176733210c76a18063c7d06bfecdf4b",
+      "parent_comparison_hash": "18ab7df80da77258f16876bafc31e35a66b6e7e83e5461372c01dc3afcbecd5a",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "3078576",
       "player_name": "Derrick White",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 31.773878768868585,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -2774,12 +2758,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "91cc99908d9fd3ab161f2d296d1a1da80ab5e4b052208e1f5167707e38388326",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "e3a923a008c23a8bfc70c667737b716785c6bce2aacd20575399eef343e27cc4",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.8093780707127276,
       "raw_model_outcome_mass": {
         "p_loss": 0.4473239085924743,
@@ -2807,7 +2791,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -2824,12 +2808,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -2876,25 +2860,25 @@
       "book": "fanduel",
       "break_even_probability": 0.49019607843137253,
       "calibrated_probability": null,
-      "comparison_hash": "54abf9d1e3fa87271a0761dad210d7c10dbad7c9dee4ba86e6856e82016943f4",
+      "comparison_hash": "2a6113f50f6d6e0a59264ff486af337dd5da30857afb9f4d1aa77ba7026761e1",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.2004404459579182,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 5.5,
           "odds": 100,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         },
         {
           "book": "draftkings",
           "line": 5.5,
           "odds": -101,
-          "quote_timestamp": "2026-10-17T02:24:25Z"
+          "quote_timestamp": "2026-10-17T02:30:55Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -2912,18 +2896,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 104,
       "p_low": null,
-      "parent_comparison_hash": "bb7cc57cdfa5e75cd43c1384295909d4efd135b3a3f7acafc0b43abb6bda4760",
+      "parent_comparison_hash": "54abf9d1e3fa87271a0761dad210d7c10dbad7c9dee4ba86e6856e82016943f4",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4432166",
       "player_name": "Cade Cunningham",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 26.823737698457474,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -2938,12 +2921,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 276.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "fe1477e65a56e41f73c1fe3e6d09b7c3b9588c255ea48e6ee6213784fd8518b1",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:23Z",
+      "quote_age_seconds": 57.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "373a4d2cff2a53ad43d957642e18f97401d3933f232e9e842100a290bc7f41a6",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:56Z",
       "raw_fair_decimal_odds": 2.5514046948560787,
       "raw_model_outcome_mass": {
         "p_loss": 0.6080590421362344,
@@ -2971,7 +2954,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -2988,12 +2971,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -3040,25 +3023,25 @@
       "book": "fanduel",
       "break_even_probability": 0.5798319327731093,
       "calibrated_probability": null,
-      "comparison_hash": "8337309fb349c5bac45bb99d8807454f3fa1bbb20d92e43a0b4daee57cc956a7",
+      "comparison_hash": "a218abb56483ee08a6179fa4d0dfdf42aca3e088fa89fc7b0433e90aa6489efa",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": 0.04868153643785339,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 5.5,
           "odds": -143,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         },
         {
           "book": "draftkings",
           "line": 5.5,
           "odds": -131,
-          "quote_timestamp": "2026-10-17T02:24:25Z"
+          "quote_timestamp": "2026-10-17T02:30:55Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -3076,18 +3059,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -138,
       "p_low": null,
-      "parent_comparison_hash": "43cd98d51cbd7a51604bc9b54396364de2340be32dfbd19192ae70f3ae7a5dac",
+      "parent_comparison_hash": "8337309fb349c5bac45bb99d8807454f3fa1bbb20d92e43a0b4daee57cc956a7",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4432166",
       "player_name": "Cade Cunningham",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 26.823737698457474,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -3102,12 +3084,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 276.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "fe1477e65a56e41f73c1fe3e6d09b7c3b9588c255ea48e6ee6213784fd8518b1",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:23Z",
+      "quote_age_seconds": 57.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "373a4d2cff2a53ad43d957642e18f97401d3933f232e9e842100a290bc7f41a6",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:56Z",
       "raw_fair_decimal_odds": 1.6445771392310817,
       "raw_model_outcome_mass": {
         "p_loss": 0.3919409578637657,
@@ -3135,7 +3117,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -3152,12 +3134,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -3204,25 +3186,25 @@
       "book": "draftkings",
       "break_even_probability": 0.5024875621890548,
       "calibrated_probability": null,
-      "comparison_hash": "ed6dec0d5e698e728fbb551afa719ebc29c843ef7d6e5d003467d0fcd769b708",
+      "comparison_hash": "8fc88ce9692b48e9139687d86ecfffdda3e7ff965fe76bcecc105c3a3a223516",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.2199986878156745,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "fanduel",
           "line": 5.5,
           "odds": 104,
-          "quote_timestamp": "2026-10-17T02:24:23Z"
+          "quote_timestamp": "2026-10-17T02:30:56Z"
         },
         {
           "book": "betrivers",
           "line": 5.5,
           "odds": 100,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -3240,18 +3222,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -101,
       "p_low": null,
-      "parent_comparison_hash": "0b86d138f1673da0c1df40f47f980cea6c902ec8bea1931e4f485014d6f559c4",
+      "parent_comparison_hash": "ed6dec0d5e698e728fbb551afa719ebc29c843ef7d6e5d003467d0fcd769b708",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4432166",
       "player_name": "Cade Cunningham",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 26.823737698457474,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -3266,12 +3247,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "3788736a232c26cc15988a3d730b8956af32db7c3ae2db94fb56a4142604eee0",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "8a68d985430f61feb76fe3e23a5ecd6be95eec3af5b266131453cbf6a860c775",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 2.5514046948560787,
       "raw_model_outcome_mass": {
         "p_loss": 0.6080590421362344,
@@ -3299,7 +3280,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -3316,12 +3297,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -3368,25 +3349,25 @@
       "book": "draftkings",
       "break_even_probability": 0.5670995670995671,
       "calibrated_probability": null,
-      "comparison_hash": "3d431868a929b3a79e9a6ec3c6655486b8aadadacfe5c5e3a417a2a0bd54f42f",
+      "comparison_hash": "ce167957a020355992841faa1935070ebf6b2fd794799628cfdda57aefb524ca",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": 0.0722262498738177,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "fanduel",
           "line": 5.5,
           "odds": -138,
-          "quote_timestamp": "2026-10-17T02:24:23Z"
+          "quote_timestamp": "2026-10-17T02:30:56Z"
         },
         {
           "book": "betrivers",
           "line": 5.5,
           "odds": -143,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -3404,18 +3385,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -131,
       "p_low": null,
-      "parent_comparison_hash": "d5276b0e53aa717265d5e5823d148004aa87eb67be6d7ae74d30a4a871f3f895",
+      "parent_comparison_hash": "3d431868a929b3a79e9a6ec3c6655486b8aadadacfe5c5e3a417a2a0bd54f42f",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4432166",
       "player_name": "Cade Cunningham",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 26.823737698457474,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -3430,12 +3410,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "3788736a232c26cc15988a3d730b8956af32db7c3ae2db94fb56a4142604eee0",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "8a68d985430f61feb76fe3e23a5ecd6be95eec3af5b266131453cbf6a860c775",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.6445771392310817,
       "raw_model_outcome_mass": {
         "p_loss": 0.3919409578637657,
@@ -3463,7 +3443,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -3480,12 +3460,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -3532,19 +3512,19 @@
       "book": "draftkings",
       "break_even_probability": 0.5535714285714286,
       "calibrated_probability": null,
-      "comparison_hash": "af299e38482aa7191150575c84d9da4755d09174fb92eeb1be2b0f0dac235583",
+      "comparison_hash": "e5a9bca56db54d0f26a4439d6d7a33cfb1f709cc5165f838b782eeda47d2ac9c",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.16798608118756975,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 9.5,
           "odds": -129,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -3562,18 +3542,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -124,
       "p_low": null,
-      "parent_comparison_hash": "47af84c52c2ec90362cd422d911e15a634fdfe72fae3da1d2fe6b821679e87d4",
+      "parent_comparison_hash": "af299e38482aa7191150575c84d9da4755d09174fb92eeb1be2b0f0dac235583",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4433621",
       "player_name": "Jalen Duren",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 28.18477833820357,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -3588,12 +3567,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "0c100c9edd2fc9e04c9d66ff986b838780118bc0a0418647a7e5548b117ddfcf",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "9c5cc72a320f176ffd390c4e0335ad5732ec68f9b044cb76805ca0973b843e60",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 2.1711795584882196,
       "raw_model_outcome_mass": {
         "p_loss": 0.5394208663716904,
@@ -3621,7 +3600,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -3638,12 +3617,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -3690,19 +3669,19 @@
       "book": "draftkings",
       "break_even_probability": 0.5145631067961165,
       "calibrated_probability": null,
-      "comparison_hash": "2804ff5ffeaf6d29440439569439aa05849e6c23a02df3b7cda28485ab7c1af7",
+      "comparison_hash": "cc648ee55b74ff5579006095711526e2003694ea7f8cdb53aac8b33d05084e2e",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": 0.048308476156303515,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 9.5,
           "odds": -112,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -3720,18 +3699,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -106,
       "p_low": null,
-      "parent_comparison_hash": "eb3dad403a4a92fbec840de42429026b22c61a80823bda9e42c0cb3aaefa8f26",
+      "parent_comparison_hash": "2804ff5ffeaf6d29440439569439aa05849e6c23a02df3b7cda28485ab7c1af7",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4433621",
       "player_name": "Jalen Duren",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 28.18477833820357,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -3746,12 +3724,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "0c100c9edd2fc9e04c9d66ff986b838780118bc0a0418647a7e5548b117ddfcf",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "9c5cc72a320f176ffd390c4e0335ad5732ec68f9b044cb76805ca0973b843e60",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.853840039089155,
       "raw_model_outcome_mass": {
         "p_loss": 0.4605791336283098,
@@ -3779,7 +3757,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -3796,12 +3774,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -3848,19 +3826,19 @@
       "book": "draftkings",
       "break_even_probability": 0.5515695067264574,
       "calibrated_probability": null,
-      "comparison_hash": "2315c48c14147c4724a35367a46ebeae93881902290322ba3e6de647a02d0b2b",
+      "comparison_hash": "cbaa76ad3bcecb583599c0cf93444195ad6ca266596395b0b49b4e216543edb8",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.3816013930592783,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 6.5,
           "odds": -115,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -3878,18 +3856,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -123,
       "p_low": null,
-      "parent_comparison_hash": "76559778a8cab7178c271c34b9424a207f9ab08db91ef34296a4eb4e3167ae03",
+      "parent_comparison_hash": "2315c48c14147c4724a35367a46ebeae93881902290322ba3e6de647a02d0b2b",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4684742",
       "player_name": "Ausar Thompson",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 24.808059008612943,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -3904,12 +3881,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "f5f0fb704aa65e9b308878b6a63dda5fa1a82f3bb97139a2443e64befcbaeaf8",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "088e458e857880beb2146a199b95e0ce797ebb32f2b29ea2dfefe57f77109082",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 2.931779130374224,
       "raw_model_outcome_mass": {
         "p_loss": 0.6589101854093777,
@@ -3937,7 +3914,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -3954,12 +3931,12 @@
           "ROLE_NOT_CONFIRMED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "8"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -4006,19 +3983,19 @@
       "book": "draftkings",
       "break_even_probability": 0.5169082125603864,
       "calibrated_probability": null,
-      "comparison_hash": "c8bb59eddf619a48bdeaeaa75026694649c0f04d6bef5f9fcb1ae12dc3fff579",
+      "comparison_hash": "54ca20f64ffe7da4ad11572db52fa878179a1ddf42cf9e8b1222ac9d91b3311a",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": 0.27471409700692706,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 6.5,
           "odds": -124,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -4036,18 +4013,17 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -107,
       "p_low": null,
-      "parent_comparison_hash": "11e05ccb69894ced94eb30ca5ba9e502f364e8f5942085b2480535fc321ec2d7",
+      "parent_comparison_hash": "c8bb59eddf619a48bdeaeaa75026694649c0f04d6bef5f9fcb1ae12dc3fff579",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4684742",
       "player_name": "Ausar Thompson",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 24.808059008612943,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -4062,12 +4038,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "f5f0fb704aa65e9b308878b6a63dda5fa1a82f3bb97139a2443e64befcbaeaf8",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "088e458e857880beb2146a199b95e0ce797ebb32f2b29ea2dfefe57f77109082",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.5176575232005327,
       "raw_model_outcome_mass": {
         "p_loss": 0.34108981459062226,
@@ -4095,7 +4071,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -4105,7 +4081,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": "Rest",
             "observed_at": "2026-10-16T23:07Z",
             "reason": null,
@@ -4122,12 +4098,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -4174,19 +4150,19 @@
       "book": "draftkings",
       "break_even_probability": 0.5867768595041323,
       "calibrated_probability": null,
-      "comparison_hash": "49e24fd0a31e04bef10b43303aaaeceb017a873737adb74dc9658f5ab94c752a",
+      "comparison_hash": "a394c8f382f47f5aadb6aa16d5baa384ad0fdd55b145d668be3125f3a039789c",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": 0.14497835703563688,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 3.5,
           "odds": -152,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -4204,7 +4180,7 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -142,
       "p_low": null,
-      "parent_comparison_hash": "cc227ea794ba6fd3c5da019e0dfd7850588447462dac6cafece7ee4eec005799",
+      "parent_comparison_hash": "49e24fd0a31e04bef10b43303aaaeceb017a873737adb74dc9658f5ab94c752a",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
@@ -4212,12 +4188,11 @@
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
         "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE",
         "TEAM_CHANGE_ROLE_UNVERIFIED"
       ],
       "player_id": "4251",
       "player_name": "Paul George",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 28.28912820982157,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -4232,12 +4207,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "95bce52b3039193944d32a4bd102a1112d4e02d41dbafbe71b16be79ff617ed1",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "ac6b877aa1f1040e76e869efa4f1095d448eb542e94b3c774d30a81af5311f99",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.488434555675739,
       "raw_model_outcome_mass": {
         "p_loss": 0.3281531954584279,
@@ -4265,7 +4240,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -4275,7 +4250,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": "Rest",
             "observed_at": "2026-10-16T23:07Z",
             "reason": null,
@@ -4292,12 +4267,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -4344,19 +4319,19 @@
       "book": "draftkings",
       "break_even_probability": 0.4807692307692308,
       "calibrated_probability": null,
-      "comparison_hash": "8468be756670077bfb7e0840624770c4ac2e5d5c8c1d132dbd46de542233e5ea",
+      "comparison_hash": "e27efdc9df7d81dcec12559c8d0ed4decbbc4a067d2e57e3e6f63e8ae4d897e3",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.31744135344646973,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 3.5,
           "odds": 105,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -4374,7 +4349,7 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 108,
       "p_low": null,
-      "parent_comparison_hash": "d71f8f00504e7c0fd9b3c2fc9b965bdb9ea2047044da971c2aa94784316cf6bc",
+      "parent_comparison_hash": "8468be756670077bfb7e0840624770c4ac2e5d5c8c1d132dbd46de542233e5ea",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
@@ -4382,12 +4357,11 @@
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
         "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE",
         "TEAM_CHANGE_ROLE_UNVERIFIED"
       ],
       "player_id": "4251",
       "player_name": "Paul George",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 28.28912820982157,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -4402,12 +4376,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "95bce52b3039193944d32a4bd102a1112d4e02d41dbafbe71b16be79ff617ed1",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "ac6b877aa1f1040e76e869efa4f1095d448eb542e94b3c774d30a81af5311f99",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 3.047357191213714,
       "raw_model_outcome_mass": {
         "p_loss": 0.671846804541572,
@@ -4435,7 +4409,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -4445,7 +4419,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:04Z",
             "reason": null,
@@ -4462,12 +4436,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -4514,25 +4488,25 @@
       "book": "fanduel",
       "break_even_probability": 0.5901639344262295,
       "calibrated_probability": null,
-      "comparison_hash": "bdd12f59ba349048efd48795c53dacb58f1dfedd0a07e406a19f8b26ec658d53",
+      "comparison_hash": "b8e93052e383663d37f0c137128ec56946655c269e6783117d5270e2aaaabf9a",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": 0.021624136299375984,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 8.5,
           "odds": -143,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         },
         {
           "book": "draftkings",
           "line": 8.5,
           "odds": -131,
-          "quote_timestamp": "2026-10-17T02:24:25Z"
+          "quote_timestamp": "2026-10-17T02:30:55Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -4550,19 +4524,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -144,
       "p_low": null,
-      "parent_comparison_hash": "bc3406b41ca640f9d0b4898955c0f6e5000985f7765c61a746f1de92f8b05bf2",
+      "parent_comparison_hash": "bdd12f59ba349048efd48795c53dacb58f1dfedd0a07e406a19f8b26ec658d53",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4065648",
       "player_name": "Jayson Tatum",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 35.675819413758504,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -4577,12 +4550,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 276.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "c9ae5acc49e73d090666bd832d5064cd4328fdb951af864decb7c6dc3c375585",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:23Z",
+      "quote_age_seconds": 57.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "06ceebc6649cf15fe8889b564095653a769918c4bc25dc8d419389d89a1becd0",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:56Z",
       "raw_fair_decimal_odds": 1.6585791038397175,
       "raw_model_outcome_mass": {
         "p_loss": 0.3970742802167617,
@@ -4610,7 +4583,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -4620,7 +4593,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:04Z",
             "reason": null,
@@ -4637,12 +4610,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -4689,25 +4662,25 @@
       "book": "fanduel",
       "break_even_probability": 0.4807692307692308,
       "calibrated_probability": null,
-      "comparison_hash": "4848ec263867f73287c284e8aa9f9132f32cfd938b90d09b207e1d125a4c125b",
+      "comparison_hash": "ae707d989d3e2c65c8ef8d9caf9d14db40185871ba6feafff388e4cb6a8f1bf2",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.17408549714913518,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 8.5,
           "odds": 100,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         },
         {
           "book": "draftkings",
           "line": 8.5,
           "odds": -101,
-          "quote_timestamp": "2026-10-17T02:24:25Z"
+          "quote_timestamp": "2026-10-17T02:30:55Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -4725,19 +4698,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 108,
       "p_low": null,
-      "parent_comparison_hash": "6d560d3ffce88c66900137ed973c21cf304f264a30c608f9c0d6f1decd94aa94",
+      "parent_comparison_hash": "4848ec263867f73287c284e8aa9f9132f32cfd938b90d09b207e1d125a4c125b",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4065648",
       "player_name": "Jayson Tatum",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 35.675819413758504,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -4752,12 +4724,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 276.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "c9ae5acc49e73d090666bd832d5064cd4328fdb951af864decb7c6dc3c375585",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:23Z",
+      "quote_age_seconds": 57.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "06ceebc6649cf15fe8889b564095653a769918c4bc25dc8d419389d89a1becd0",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:56Z",
       "raw_fair_decimal_odds": 2.518420481563556,
       "raw_model_outcome_mass": {
         "p_loss": 0.6029257197832381,
@@ -4785,7 +4757,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -4795,7 +4767,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:04Z",
             "reason": null,
@@ -4812,12 +4784,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -4864,25 +4836,25 @@
       "book": "draftkings",
       "break_even_probability": 0.5670995670995671,
       "calibrated_probability": null,
-      "comparison_hash": "7fd6c9362a468eead338ab920fec9200db726c2c00f3ddee83dcaca03e28081f",
+      "comparison_hash": "27e925aac77325aefce2d2a917aedb6261233587c2e00db104cc90eb87728c05",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": 0.06317436083914535,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "fanduel",
           "line": 8.5,
           "odds": -144,
-          "quote_timestamp": "2026-10-17T02:24:23Z"
+          "quote_timestamp": "2026-10-17T02:30:56Z"
         },
         {
           "book": "betrivers",
           "line": 8.5,
           "odds": -143,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -4900,19 +4872,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -131,
       "p_low": null,
-      "parent_comparison_hash": "ecedcdedfe59dd062ff1301b1d22a848005cab48e2c25d33bc3012562bb65fb9",
+      "parent_comparison_hash": "7fd6c9362a468eead338ab920fec9200db726c2c00f3ddee83dcaca03e28081f",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4065648",
       "player_name": "Jayson Tatum",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 35.675819413758504,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -4927,12 +4898,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "40c70b56891e239c02187151f2abccc534431f0d745c760e2243daec152df38c",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "346ad0c42502bbc420a90b25576d0cd003fe497ad0e9c61f444d1173478750b4",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.6585791038397175,
       "raw_model_outcome_mass": {
         "p_loss": 0.3970742802167617,
@@ -4960,7 +4931,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -4970,7 +4941,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:04Z",
             "reason": null,
@@ -4987,12 +4958,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -5039,25 +5010,25 @@
       "book": "draftkings",
       "break_even_probability": 0.5024875621890548,
       "calibrated_probability": null,
-      "comparison_hash": "405c7ac0ba4a24ff8706074becb638d821442c18139443453b1c0ec6d4a46391",
+      "comparison_hash": "bad916eb0d7c5d4c9ccbb5a88b38e05f99022508b026703518cc6e2ed5d1bc6e",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.2097828680834738,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "fanduel",
           "line": 8.5,
           "odds": 108,
-          "quote_timestamp": "2026-10-17T02:24:23Z"
+          "quote_timestamp": "2026-10-17T02:30:56Z"
         },
         {
           "book": "betrivers",
           "line": 8.5,
           "odds": 100,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -5075,19 +5046,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -101,
       "p_low": null,
-      "parent_comparison_hash": "342faf49984502bce3f2b0c7429decc76c14436341c2578c9097e3307453b6e5",
+      "parent_comparison_hash": "405c7ac0ba4a24ff8706074becb638d821442c18139443453b1c0ec6d4a46391",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "4065648",
       "player_name": "Jayson Tatum",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 35.675819413758504,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -5102,12 +5072,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "40c70b56891e239c02187151f2abccc534431f0d745c760e2243daec152df38c",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "346ad0c42502bbc420a90b25576d0cd003fe497ad0e9c61f444d1173478750b4",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 2.518420481563556,
       "raw_model_outcome_mass": {
         "p_loss": 0.6029257197832381,
@@ -5135,7 +5105,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -5145,7 +5115,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:05Z",
             "reason": null,
@@ -5162,12 +5132,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -5214,19 +5184,19 @@
       "book": "draftkings",
       "break_even_probability": 0.49261083743842365,
       "calibrated_probability": null,
-      "comparison_hash": "682bccc7b9f82acc25e5424a5dafdae3cd2f05a5806ca093e9b063e84fd6bdd3",
+      "comparison_hash": "46ebb3e4ac6271910e61d2c95720689f4259f5ab21b46b21305694a20653d881",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": 0.0959121387012204,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 3.5,
           "odds": 100,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -5244,19 +5214,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": 103,
       "p_low": null,
-      "parent_comparison_hash": "349eb384cb612f127eb6ad60a7e6a90b6e9ba4db34ecda457a0930c8805ce70b",
+      "parent_comparison_hash": "682bccc7b9f82acc25e5424a5dafdae3cd2f05a5806ca093e9b063e84fd6bdd3",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "3078576",
       "player_name": "Derrick White",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 31.06502037883608,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -5271,12 +5240,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "4e4d09000ca9bf1fc89f6eccb08d918acd2bc82d139afea768defd712cb19c64",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "74da64432053e9ab20b9456a88cf33aecc7469794a71a7cbc2c2e85b6412ef4b",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 1.8523382744950516,
       "raw_model_outcome_mass": {
         "p_loss": 0.460141803595458,
@@ -5304,7 +5273,7 @@
       "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
       "availability": {
         "availability_state": "UNKNOWN",
-        "available_at": "2026-10-17T02:25:15.400547+00:00",
+        "available_at": "2026-10-17T02:31:53.105115+00:00",
         "batting_order": null,
         "confirmed_ice_time": null,
         "confirmed_minutes": null,
@@ -5314,7 +5283,7 @@
         "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
         "injury_evidence": [
           {
-            "available_at": "2026-10-17T02:25:15.400547+00:00",
+            "available_at": "2026-10-17T02:31:53.105115+00:00",
             "body_part": null,
             "observed_at": "2026-10-16T23:05Z",
             "reason": null,
@@ -5331,12 +5300,12 @@
           "INJURY_OR_RESTRICTION_REPORTED"
         ],
         "role_confirmed": false,
-        "source_hash": "b9049656b9bdee90c28252019edf6b05df7bb4b433a150279657dd3dc80055d1",
-        "source_manifest": "ab21b6e5ec416a19df47c9a390ff98a7cf5e968f549dc5fb3aeebb766bd361ef",
+        "source_hash": "45b862c8340c9e631008a866b0b553a5f821d254c09733fdb4c1ed54680da27f",
+        "source_manifest": "617720f5827bea333cecab14f0e00a75d821421e992d15818f1df87230c1f67b",
         "sport": "NBA",
         "team_id": "2"
       },
-      "availability_snapshot": "7c1cd2e85b790d005d8c976508549791a74ebc42732291f6db7c8c726d690f58",
+      "availability_snapshot": "68aaaff8b02b3c634fe950e0433024eb2781e1ad23bae9caca6f03108ac51f3d",
       "benchmark": {
         "admission": "RESEARCH_BENCHMARK_ADVANTAGE",
         "artifact_hash": "f42ca565e9e4980ff929fa5f808bcdbd7b2ee5f2cff52fe359199b6db71c9b7e",
@@ -5383,19 +5352,19 @@
       "book": "draftkings",
       "break_even_probability": 0.576271186440678,
       "calibrated_probability": null,
-      "comparison_hash": "5153d71f3d612885c46119b70610230d23fe53596fd1a5c21be3c397942206a7",
+      "comparison_hash": "f038caa8fbc1322953fdbe0fd0aea3d04af436c42a1559da64b9227d45785009",
       "comparison_version": "prospective-market-research-v1",
       "conditional_model_ev": -0.20151863493729372,
       "conservative_ev": null,
       "conservative_price_threshold": null,
       "decision": "PASS",
-      "decision_timestamp": "2026-10-17T02:28:59.415832+00:00",
+      "decision_timestamp": "2026-10-17T02:31:53.113221+00:00",
       "descriptive_other_books": [
         {
           "book": "betrivers",
           "line": 3.5,
           "odds": -141,
-          "quote_timestamp": "2026-10-17T02:24:49Z"
+          "quote_timestamp": "2026-10-17T02:31:20Z"
         }
       ],
       "ev_assumptions": "conditional on appearance, projected workload, standard settled payout; ignores void/rule differences",
@@ -5413,19 +5382,18 @@
       "model_version": "causal-opportunity-ridge-v2",
       "odds": -136,
       "p_low": null,
-      "parent_comparison_hash": "e3038315a8af23df6a53302f31ef9f498853d2d2e5f67aeab9aed40136d68612",
+      "parent_comparison_hash": "5153d71f3d612885c46119b70610230d23fe53596fd1a5c21be3c397942206a7",
       "pass_reasons": [
         "BOOK_SETTLEMENT_RULE_UNVERIFIED",
         "INJURY_OR_RESTRICTION_REPORTED",
         "LONG_LAYOFF_ROLE_UNVERIFIED",
         "PARTICIPATION_NOT_CONFIRMED",
         "PROSPECTIVE_CALIBRATION_PENDING",
-        "ROLE_NOT_CONFIRMED",
-        "STALE_PRICE"
+        "ROLE_NOT_CONFIRMED"
       ],
       "player_id": "3078576",
       "player_name": "Derrick White",
-      "price_fresh": false,
+      "price_fresh": true,
       "price_identity_verified": true,
       "projected_opportunity": 31.06502037883608,
       "provider_event_start": "2026-10-20T19:00:00Z",
@@ -5440,12 +5408,12 @@
         "odds_event_start": "2026-10-20T19:00:00Z"
       },
       "qualified_ev": null,
-      "quote_age_seconds": 274.415832,
-      "quote_captured_at": "2026-10-17T02:25:11.134263+00:00",
-      "quote_id": "4e4d09000ca9bf1fc89f6eccb08d918acd2bc82d139afea768defd712cb19c64",
-      "quote_payload_hash": "217f0bd99398c10e4c5407b666c2f8703a2a5e9461e4e3756ec111195062b395",
-      "quote_snapshot": "399555d4fa19b6b7fa9209e4c6db4303b64ec28e9b77e83ef1237aef4b76109e",
-      "quote_timestamp": "2026-10-17T02:24:25Z",
+      "quote_age_seconds": 58.113221,
+      "quote_captured_at": "2026-10-17T02:31:49.470810+00:00",
+      "quote_id": "74da64432053e9ab20b9456a88cf33aecc7469794a71a7cbc2c2e85b6412ef4b",
+      "quote_payload_hash": "9fd0967dda483d393075b91bfd57ac4d926a1b900e3d27f3465bc7231a0f1053",
+      "quote_snapshot": "a12bb9722c99e6b11d7f36409f838c3f01d9708f0a6c4bded6a86103bfaef8ef",
+      "quote_timestamp": "2026-10-17T02:30:55Z",
       "raw_fair_decimal_odds": 2.173243100683737,
       "raw_model_outcome_mass": {
         "p_loss": 0.5398581964045421,
@@ -13352,7 +13320,7 @@
       "team_id": "2"
     }
   ],
-  "prices_refreshed_at": "2026-10-17T02:28:59.415832+00:00",
+  "prices_refreshed_at": "2026-10-17T02:31:53.113221+00:00",
   "prospective_settled": 0,
   "qualified_market_comparisons": 0,
   "recommendations_enabled": false,

@@ -12,7 +12,7 @@
     "MLB player coverage is a documented limited cohort. No verified complete historical injury/role histories or shared-game joint simulations."
   ],
   "core_enabled": false,
-  "generated_at": "2026-10-17T02:30:04.867982+00:00",
+  "generated_at": "2026-10-17T02:32:11.360605+00:00",
   "preservation": {
     "baseline_commit": "bd4a8e5862e038c7ae77c71e50873f08dc234547",
     "failures": [],
@@ -36,7 +36,7 @@
     "passed": 351,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-17T02:30:04.867982+00:00"
+    "verified_at": "2026-10-17T02:32:11.360605+00:00"
   },
   "validated_edges": 0
 }

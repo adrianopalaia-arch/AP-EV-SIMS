@@ -1,11 +1,11 @@
 {
   "clv": null,
   "cohorts": [],
-  "comparison_update_records": 1012,
+  "comparison_update_records": 1220,
   "excluded_first_observations": 50,
   "first_candidate_comparisons": 214,
   "first_fresh_identity_verified_comparisons": 164,
-  "generated_at": "2026-10-17T02:29:05.212930+00:00",
+  "generated_at": "2026-10-17T02:31:59.414437+00:00",
   "hypothetical_roi": null,
   "max_drawdown": null,
   "pending": [

@@ -183,3 +183,11 @@ P0 checkpoint 2026-10-17T02:29:15.159230+00:00: see reports/P0_MEASURED_RESULTS.
 
 
 P0 freshness checkpoint 2026-10-17T02:30:04.867982+00:00: 351 tests passed, zero failed; all 389 original forecasts and 18 Phase 1 files verified. NHL crosswalk resolved for research; MLB postponement remains blocked. Zero new draws/forecasts in refresh; zero settled priced evidence, zero validated edges. See reports/P0_FRESHNESS_DELIVERY.md.
+
+
+P0 checkpoint 2026-10-17T02:32:09.172684+00:00: see reports/P0_MEASURED_RESULTS.md and outputs/p0_market_refresh.json. Existing forecasts and simulation records retained. No CORE approval.
+
+
+P0 freshness checkpoint 2026-10-17T02:32:11.360605+00:00: 351 tests passed, zero failed; all 389 original forecasts and 18 Phase 1 files verified. NHL crosswalk resolved for research; MLB postponement remains blocked. Zero new draws/forecasts in refresh; zero settled priced evidence, zero validated edges. See reports/P0_FRESHNESS_DELIVERY.md.
+
+Git delivery 2026-10-17T02:32:37.057376+00:00: local source 5d357c6dfabba8392b3ec2954049bebdd014ecb5; remote bd4a8e5862e038c7ae77c71e50873f08dc234547; local push authentication unavailable and connector write HTTP 403. Delivery receipt committed locally.

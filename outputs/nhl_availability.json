@@ -12,7 +12,7 @@
   "event_identity_reasons": [
     "BOOK_CANONICAL_START_MISMATCH"
   ],
-  "generated_at": "2026-10-17T02:28:56.997366+00:00",
+  "generated_at": "2026-10-17T02:31:50.360078+00:00",
   "identities": [
     {
       "aliases": [
@@ -351,12 +351,12 @@
       "team_id": "NJD"
     }
   ],
-  "latest_source_capture": "2026-10-17T02:25:12.482270+00:00",
+  "latest_source_capture": "2026-10-17T02:31:50.358079+00:00",
   "recommendations_enabled": false,
   "records": [
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -374,13 +374,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -398,13 +398,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -422,13 +422,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -446,13 +446,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -470,13 +470,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -494,13 +494,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -518,13 +518,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -542,13 +542,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -566,13 +566,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -590,13 +590,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -614,13 +614,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -638,13 +638,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -662,13 +662,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -686,13 +686,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -710,13 +710,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -734,13 +734,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -758,13 +758,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -782,13 +782,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -806,13 +806,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -830,13 +830,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -854,13 +854,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -878,13 +878,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -903,13 +903,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -928,13 +928,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "WSH"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -952,13 +952,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -976,13 +976,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1000,13 +1000,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1024,13 +1024,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1048,13 +1048,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1072,13 +1072,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1096,13 +1096,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1120,13 +1120,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1144,13 +1144,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1168,13 +1168,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1192,13 +1192,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1216,13 +1216,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1240,13 +1240,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1264,13 +1264,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1288,13 +1288,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1312,13 +1312,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1336,13 +1336,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1360,13 +1360,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1384,13 +1384,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1408,13 +1408,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1432,13 +1432,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1457,13 +1457,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1482,13 +1482,13 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:25:12.482270+00:00",
+      "available_at": "2026-10-17T02:31:50.358079+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1507,12 +1507,12 @@
       ],
       "role_confirmed": false,
       "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "sport": "NHL",
       "team_id": "NJD"
     }
   ],
-  "snapshot_hash": "4c56d1276aa3e6f38520d058d3e680d32e88586b84f2774a90d1835d77c6859f",
+  "snapshot_hash": "1211eaea0037c99f7c2b8c4b3fd4ca1a3c974dd2fd3679872d87315c7f5bfcff",
   "sources": [
     {
       "captured_at": "2026-10-17T02:05:20.868472+00:00",
@@ -1533,9 +1533,9 @@
       "url": "https://api-web.nhle.com/v1/roster/NJD/current"
     },
     {
-      "captured_at": "2026-10-17T02:25:12.482270+00:00",
+      "captured_at": "2026-10-17T02:31:50.358079+00:00",
       "hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "manifest_id": "70b941357b843cc0dbb767afe36fd8e80df3b8ee61e3c9102f6f884792d76a76",
+      "manifest_id": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
       "url": "https://api-web.nhle.com/v1/gamecenter/2026020121/landing"
     }
   ],

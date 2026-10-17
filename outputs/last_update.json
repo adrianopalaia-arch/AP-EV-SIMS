@@ -35,8 +35,8 @@
     }
   ],
   "cfb_schedule_games": 4245,
-  "checkpoint_at": "2026-10-17T02:30:04.867982+00:00",
-  "current_price_age_checked_at": "2026-10-17T02:29:15.159230+00:00",
+  "checkpoint_at": "2026-10-17T02:32:11.360605+00:00",
+  "current_price_age_checked_at": "2026-10-17T02:32:09.172684+00:00",
   "current_task": "P0_FRESH_PRICE_IDENTITY_AND_SETTLEMENT",
   "data_quality_failures": [
     {
@@ -66,30 +66,30 @@
     "cfb_universe.json": "515b8eebd79f5dd857ceb9e402111973228a8b56b333d751e2216d48d025e4dc",
     "early_watchlist.json": "ee17637eaa86269966e7c0bf172a6f036e9b9e2cd4fb716efdbace09111b9625",
     "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "latest_passes.json": "c5cc452f1ff6d1341cc5c514d8ca7d0581a62e9aa606c9ce94b2d645aa0a3f7c",
+    "latest_passes.json": "26e068f2156a6b6034d0eb6bb6ea7a3a16c98894f2f42bdee8fbe5fce61c043e",
     "latest_predictions.json": "52e947821d4ff7688d1627a309873a5e7800741d2e0142c4fbc76d7e7b0748b6",
     "market_research_passes.json": "31643dcaae82d409609991e10924487e03b972ec93bc883cd8f28bf03e6edd72",
     "market_research_status.json": "510e5355f7f1898f7dccf667f7b946527eabc263e7308c3d7dbba53be9cb71dd",
     "model_status.json": "579c98c04c2e5bd951c285cecced0af5541320c4b2c94a9d1bb047f4edaa672f",
-    "p0_market_refresh.json": "bae066158431aa0622bdbda702ca4ad04ceef371de8dcad19c53f744754fe37c",
-    "p0_measured_results.json": "677899310f79fe520bb25c6a04c9e10a15b2b1eee5b7f88efe3ec370e7bf17d2",
-    "p0_passes.json": "17d9cce0ea36518f2217f2eb529ad93b3065aaba1f312a2390b49625431af063",
+    "p0_market_refresh.json": "7cd0dccf6a4ca4a691af3a5a7d6b43f248d12afab6850ef4c09a5ee6cc10d287",
+    "p0_measured_results.json": "d737d45f30266fe80adc44b8561009f05db11ed49e0939955669b1e0b95eb406",
+    "p0_passes.json": "f09c80f0440b5c7f402d0699b88c1a2bd19d3706aff1645e42940c9fe4157fb5",
     "p0_preservation_audit.json": "625c82e69ef66516eea5d440b3af63fc7afa9bfb0f67057bba86d6fc265770b6",
-    "p0_research_card.json": "215a42a779ee3efccb4f1a0ce7617ef49f5cd63e748f1227ee65ef1f10e53ceb",
+    "p0_research_card.json": "ae0433540eab6fbcbf1ecf95a0f16bc105612d29481481493a9ca43d614ca8d2",
     "paper_tracking_status.json": "6f1bd170c08d9f9079e75ad5c55b6f6f919da74d1aab5e867180841c5d0c145f",
-    "prospective_market_evidence.json": "db06ed0d62688eb3e802acac47d0c45c1a1dedbdc961f7894d7af4fc25c2f1f7",
+    "prospective_market_evidence.json": "1e94666504556c27cac5db884a4ad2180b022f8599e33fb571949e693442e981",
     "prospective_price_comparisons.json": "d4078e0fa898d62440aa8e81078c1d0215a943ac476d319178be06de9696d4b1",
-    "provider_status.json": "67c993f8d8a632c031bdbecc643daff799e5c40d6afb81cf007b49df51fac543"
+    "provider_status.json": "4d4570acb8b87e6b07666e5a16f03fa1b66c12c35d91e709bdcd587bc42624b4"
   },
-  "fresh_priced_research_comparisons": 0,
+  "fresh_priced_research_comparisons": 48,
   "fresh_ranked_candidates": 0,
   "games_scanned": 146,
-  "generated_at": "2026-10-17T02:29:15.159230+00:00",
-  "git_commit": "bb0f5d98dc44bd0c1b5c721985ad188de7d8595e",
-  "git_commit_semantics": "Completed prospective-market source and results checkpoint; subsequent delivery receipt commit contains this reference",
+  "generated_at": "2026-10-17T02:32:09.172684+00:00",
+  "git_commit": "5d357c6dfabba8392b3ec2954049bebdd014ecb5",
+  "git_commit_semantics": "Last completed source commit; latest market-refresh and push receipt follow in checkpoint",
   "github_delivery": "github_delivery.json",
-  "github_push_status": "PENDING_FINAL_PUSH",
-  "github_remote_verified_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
+  "github_push_status": "BLOCKED_AUTHENTICATION",
+  "github_remote_verified_commit": "bd4a8e5862e038c7ae77c71e50873f08dc234547",
   "local_comparison_hash": "729d1e6e9f4658a60a09e245203cc3428d0ba3ef4e6bb29e451ea4e88f3b9943",
   "market_calculation_version": 1,
   "market_research_report": "market_research_status.json",
@@ -404,7 +404,7 @@
   "preferred_market_sides": 1466,
   "provider_check_basis": "BOUNDED_CURRENT_REFRESH_PLUS_RECORDED_CFBD_AUTH",
   "providers_ok": false,
-  "publication_generation": "40c9ac5c0c667972566ac3cb8b6bbbadcbfdbf4bab7622fe593891a8b6f58ed2",
+  "publication_generation": "9e79a8c9f1b8674f3dbce8e753b31874f56ad7ea6822e3e294e1d19266014425",
   "qualified_edges": 0,
   "ranked_research_candidates": 8,
   "reader_contract": "Verify canonical JSON SHA256; retry if any file differs from this generation.",
@@ -414,15 +414,8 @@
   "reference_unit_semantics": "DISPLAY_REFERENCE_ONLY_NOT_A_STAKE",
   "refresh_failures": [
     {
+      "checked_at": "2026-10-17T02:31:48.859885+00:00",
       "sport": "NFL",
-      "status": "DAILY_QUOTA_BUDGET_LIMIT"
-    },
-    {
-      "sport": "NBA",
-      "status": "DAILY_QUOTA_BUDGET_LIMIT"
-    },
-    {
-      "sport": "MLB",
       "status": "DAILY_QUOTA_BUDGET_LIMIT"
     }
   ],
@@ -441,8 +434,8 @@
   "simulation_draws": 15720000,
   "simulation_scope": "Current P0 marginal runs: challenger prop forecasts plus preserved CFB forecasts; not joint game/parlay simulations",
   "simulations_completed": 393,
-  "source_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
-  "source_commit_semantics": "Original execution source base; current uncommitted source is included in this checkpoint",
+  "source_commit": "5d357c6dfabba8392b3ec2954049bebdd014ecb5",
+  "source_commit_semantics": "Source code for this execution; no source changed in the delivery receipt",
   "sports_updated": [
     "NFL",
     "NBA",
@@ -456,5 +449,5 @@
   "tests_failed": 0,
   "tests_passed": 351,
   "tests_semantics": "Full regression suite executed after final source changes",
-  "tests_verified_at": "2026-10-17T02:30:04.867982+00:00"
+  "tests_verified_at": "2026-10-17T02:32:11.360605+00:00"
 }

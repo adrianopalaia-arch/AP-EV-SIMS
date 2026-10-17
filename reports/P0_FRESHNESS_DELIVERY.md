@@ -1,17 +1,17 @@
 # P0 freshness and settlement delivery
 
-Checkpoint UTC: 2026-10-17T02:30:04.867982+00:00. Branch: ap-evisims-live.
+Checkpoint UTC: 2026-10-17T02:32:11.360605+00:00. Branch: ap-evisims-live.
 
 Full tests: 351 passed, 0 failed. Original 389 forecasts and timestamps preserved; 18 protected Phase 1 files unchanged.
 This priority refresh generated zero new forecasts and zero new Monte Carlo draws. Prior completed model/data improvements remain versioned alongside the original forecasts.
 
 | Sport | DK/FD side comparisons | Identity matched | Fresh at comparison | Min / max quote age at comparison (s) |
 |---|---:|---:|---:|---|
-| NFL | 112 | 112 | 0 | 250.5 / 280.5 |
-| NBA | 32 | 32 | 0 | 250.4 / 276.4 |
-| NHL | 16 | 16 | 0 | 274.0 / 274.0 |
-| MLB | 48 | 0 | 0 | 250.8 / 250.8 |
-| CFB | 0 | 0 | 0 | 75077.1 / 75103.1 |
+| NFL | 112 | 112 | 0 | 424.6 / 454.6 |
+| NBA | 32 | 32 | 32 | 33.1 / 58.1 |
+| NHL | 16 | 16 | 16 | 53.4 / 53.4 |
+| MLB | 48 | 0 | 0 | 34.7 / 34.7 |
+| CFB | 0 | 0 | 0 | 75251.3 / 75277.3 |
 
 These ages refer to each recorded comparison timestamp. Quotes expire after 180 seconds. Cached math does not authorize execution; current ages and PASS reasons are in p0_passes.json.
 
@@ -21,7 +21,7 @@ MLB remains rejected: the official ALCS makeup-game record documents a postponem
 
 ## Prospective evidence
 
-1012 append-only comparison update records; 164 first fresh identity-verified side/book/line observations. Updates do not inflate sample size; books and opposing sides are correlated.
+1220 append-only comparison update records; 164 first fresh identity-verified side/book/line observations. Updates do not inflate sample size; books and opposing sides are correlated.
 Settled observations: 0. Pending: 164. Reasons: {"EVENT_NOT_STARTED": 164}.
 No qualified calibration, market-relative Brier/log loss, CLV, hypothetical ROI or drawdown is available. The settlement implementation scores authentic outcomes when available; a fixture test is not an empirical result.
 
@@ -60,4 +60,14 @@ $env:PYTHONPATH='src'
 & '.\.venv\Scripts\python.exe' -m ap_evsims.p0_refresh --root .
 # Add --collect for an explicit quota/cooldown-controlled quote refresh (default daily cap 24).
 # This checkpoint used a bounded daily cap 36 and retained a 350-credit account reserve.
+```
+
+## Git delivery
+
+Local source commit: 5d357c6dfabba8392b3ec2954049bebdd014ecb5. Remote verified: bd4a8e5862e038c7ae77c71e50873f08dc234547. Local Git requires authentication; GitHub connector write returned HTTP 403. Final checkpoint preserves all completed work; no force push or reset.
+
+Manual PowerShell:
+
+```powershell
+& 'C:\Program Files\Git\cmd\git.EXE' -C 'C:\Users\adria\Documents\Codex\2026-10-13\files-mentioned-by-the-user-ap\outputs\AP-EV-SIMS' push -u origin ap-evisims-live
 ```

@@ -22,9 +22,9 @@
       "exact_comparisons": 0,
       "forecast_records": 60,
       "fresh_identity_matched": 0,
-      "generated_at": "2026-10-17T02:29:05.105713+00:00",
-      "quote_age_seconds_max": 75103.105713,
-      "quote_age_seconds_min": 75077.105713,
+      "generated_at": "2026-10-17T02:31:59.296708+00:00",
+      "quote_age_seconds_max": 75277.296708,
+      "quote_age_seconds_min": 75251.296708,
       "recommendations_enabled": false,
       "status": "PRESERVED_SCORE_MODEL"
     },
@@ -56,7 +56,7 @@
       "evidence_resolved_start_offsets": 0,
       "exact_comparisons": 48,
       "fresh_identity_matched": 0,
-      "generated_at": "2026-10-17T02:29:02.818735+00:00",
+      "generated_at": "2026-10-17T02:31:56.673362+00:00",
       "identity_matched": 0,
       "markets": {
         "hitter_hits": 18,
@@ -70,11 +70,10 @@
         "PARTICIPATION_NOT_CONFIRMED": 48,
         "POSTPONED_SCHEDULE_REVISION": 48,
         "PROSPECTIVE_CALIBRATION_PENDING": 48,
-        "ROLE_NOT_CONFIRMED": 48,
-        "STALE_PRICE": 48
+        "ROLE_NOT_CONFIRMED": 48
       },
-      "quote_age_seconds_max": 250.818735,
-      "quote_age_seconds_min": 250.818735,
+      "quote_age_seconds_max": 34.673362,
+      "quote_age_seconds_min": 34.673362,
       "rejections": [
         {
           "forecast_hash": "b73a96ace158a9f18bc4b8ee086573b50a43b45f7ee9f8ef0c8470df8796aacf",
@@ -154,8 +153,8 @@
       "confirmed_roles": 0,
       "evidence_resolved_start_offsets": 0,
       "exact_comparisons": 32,
-      "fresh_identity_matched": 0,
-      "generated_at": "2026-10-17T02:28:59.415832+00:00",
+      "fresh_identity_matched": 32,
+      "generated_at": "2026-10-17T02:31:53.113221+00:00",
       "identity_matched": 32,
       "markets": {
         "assists": 14,
@@ -169,11 +168,10 @@
         "PARTICIPATION_NOT_CONFIRMED": 32,
         "PROSPECTIVE_CALIBRATION_PENDING": 32,
         "ROLE_NOT_CONFIRMED": 32,
-        "STALE_PRICE": 32,
         "TEAM_CHANGE_ROLE_UNVERIFIED": 4
       },
-      "quote_age_seconds_max": 276.415832,
-      "quote_age_seconds_min": 250.415832,
+      "quote_age_seconds_max": 58.113221,
+      "quote_age_seconds_min": 33.113221,
       "rejections": [
         {
           "forecast_hash": "e9dd5935b2ebaa0b767bfcbd1a4aa24425f3dd748b3b547dac92ab8b7f2d103f",
@@ -647,7 +645,7 @@
       "evidence_resolved_start_offsets": 0,
       "exact_comparisons": 112,
       "fresh_identity_matched": 0,
-      "generated_at": "2026-10-17T02:29:04.451126+00:00",
+      "generated_at": "2026-10-17T02:31:58.593257+00:00",
       "identity_matched": 112,
       "markets": {
         "passing_yards": 8,
@@ -666,8 +664,8 @@
         "STALE_PRICE": 112,
         "TEAM_CHANGE_ROLE_UNVERIFIED": 8
       },
-      "quote_age_seconds_max": 280.451126,
-      "quote_age_seconds_min": 250.451126,
+      "quote_age_seconds_max": 454.593257,
+      "quote_age_seconds_min": 424.593257,
       "rejections": [
         {
           "forecast_hash": "af4080faae79820baf5323899f6b1420e5d37f7ebfebc98f2982e4c980dea35f",
@@ -1068,8 +1066,8 @@
       "confirmed_roles": 0,
       "evidence_resolved_start_offsets": 16,
       "exact_comparisons": 16,
-      "fresh_identity_matched": 0,
-      "generated_at": "2026-10-17T02:28:57.001872+00:00",
+      "fresh_identity_matched": 16,
+      "generated_at": "2026-10-17T02:31:50.364093+00:00",
       "identity_matched": 16,
       "markets": {
         "shots_on_goal": 8
@@ -1079,11 +1077,10 @@
         "BOOK_SETTLEMENT_RULE_UNVERIFIED": 16,
         "PARTICIPATION_NOT_CONFIRMED": 16,
         "PROSPECTIVE_CALIBRATION_PENDING": 16,
-        "ROLE_NOT_CONFIRMED": 16,
-        "STALE_PRICE": 16
+        "ROLE_NOT_CONFIRMED": 16
       },
-      "quote_age_seconds_max": 274.001872,
-      "quote_age_seconds_min": 274.001872,
+      "quote_age_seconds_max": 53.364093,
+      "quote_age_seconds_min": 53.364093,
       "rejections": [
         {
           "forecast_hash": "65a08d7c6cbe1d72552520229110247446f328bb114bf7ab30688931ca0c4d94",
@@ -1327,8 +1324,8 @@
     },
     "quota_metadata": {
       "x-requests-last": 3,
-      "x-requests-remaining": 367,
-      "x-requests-used": 133
+      "x-requests-remaining": 362,
+      "x-requests-used": 138
     },
     "refresh_mode": "BOUNDED_CURRENT_ODDS",
     "research_execution_refresh": {
@@ -1559,24 +1556,54 @@
   },
   "priority_prop_refresh": {
     "MLB": {
-      "checked_at": "2026-10-17T02:28:56.538678+00:00",
+      "checked_at": "2026-10-17T02:31:49.722960+00:00",
+      "deferred_markets": [],
+      "quota": {
+        "x-requests-last": 2,
+        "x-requests-remaining": 362,
+        "x-requests-used": 138
+      },
+      "requested_markets": [
+        "batter_hits",
+        "batter_total_bases"
+      ],
       "sport": "MLB",
-      "status": "REFRESH_COOLDOWN"
+      "status": 200
     },
     "NBA": {
-      "checked_at": "2026-10-17T02:28:56.538678+00:00",
+      "checked_at": "2026-10-17T02:31:49.470810+00:00",
+      "deferred_markets": [],
+      "quota": {
+        "x-requests-last": 2,
+        "x-requests-remaining": 364,
+        "x-requests-used": 136
+      },
+      "requested_markets": [
+        "player_rebounds",
+        "player_assists"
+      ],
       "sport": "NBA",
-      "status": "REFRESH_COOLDOWN"
+      "status": 200
     },
     "NFL": {
-      "checked_at": "2026-10-17T02:28:56.538678+00:00",
+      "checked_at": "2026-10-17T02:31:48.859885+00:00",
       "sport": "NFL",
-      "status": "REFRESH_COOLDOWN"
+      "status": "DAILY_QUOTA_BUDGET_LIMIT"
     },
     "NHL": {
-      "checked_at": "2026-10-17T02:28:56.538678+00:00",
+      "checked_at": "2026-10-17T02:31:49.145850+00:00",
+      "deferred_markets": [],
+      "quota": {
+        "x-requests-last": 1,
+        "x-requests-remaining": 366,
+        "x-requests-used": 134
+      },
+      "requested_markets": [
+        "player_shots_on_goal",
+        "player_total_saves"
+      ],
       "sport": "NHL",
-      "status": "REFRESH_COOLDOWN"
+      "status": 200
     }
   },
   "prop_prices": [
