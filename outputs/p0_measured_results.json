@@ -1,0 +1,2506 @@
+{
+  "additional_forecasts_this_refresh": 0,
+  "additional_simulation_draws_this_refresh": 0,
+  "baseline_commit": "bd4a8e5862e038c7ae77c71e50873f08dc234547",
+  "betting_probability_calibration": null,
+  "clv": null,
+  "convergence_failures": 0,
+  "core_enabled": false,
+  "current_market_status": {
+    "CFB": {
+      "blocker": "NO_NEW_FRESH_CFB_PRICE_COMPARISON_IN_PROP_PRIORITY_REFRESH",
+      "chronological_evaluation_n": 1086,
+      "exact_comparisons": 0,
+      "forecast_records": 60,
+      "fresh_identity_matched": 0,
+      "generated_at": "2026-10-17T02:29:05.105713+00:00",
+      "quote_age_seconds_max": 75103.105713,
+      "quote_age_seconds_min": 75077.105713,
+      "recommendations_enabled": false,
+      "status": "PRESERVED_SCORE_MODEL"
+    },
+    "MLB": {
+      "books": {
+        "draftkings": 24
+      },
+      "canonical_event": {
+        "away_team": "Tampa Bay Rays",
+        "competition_type": "L",
+        "event_id": "849817",
+        "event_start": "2026-10-18T21:00:00+00:00",
+        "home_team": "Cleveland Guardians",
+        "market_identity_verified": false,
+        "odds_event_id": "bf41baaebfa23a202d2f3a6811425ff9",
+        "odds_event_start": "2026-10-18T00:00:00Z",
+        "rescheduled_from": "2026-10-17T00:00:00Z",
+        "schedule_revision": "ALCS Game 5, Makeup of 10/16",
+        "schedule_status": {
+          "abstractGameCode": "P",
+          "abstractGameState": "Preview",
+          "codedGameState": "S",
+          "detailedState": "Scheduled",
+          "startTimeTBD": false,
+          "statusCode": "S"
+        }
+      },
+      "confirmed_roles": 0,
+      "evidence_resolved_start_offsets": 0,
+      "exact_comparisons": 48,
+      "fresh_identity_matched": 0,
+      "generated_at": "2026-10-17T02:29:02.818735+00:00",
+      "identity_matched": 0,
+      "markets": {
+        "hitter_hits": 18,
+        "total_bases": 6
+      },
+      "paired_offers": 24,
+      "pass_reasons": {
+        "BOOK_CANONICAL_START_MISMATCH": 48,
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 48,
+        "MODEL_COMPETITION_DOMAIN_MISMATCH": 48,
+        "PARTICIPATION_NOT_CONFIRMED": 48,
+        "POSTPONED_SCHEDULE_REVISION": 48,
+        "PROSPECTIVE_CALIBRATION_PENDING": 48,
+        "ROLE_NOT_CONFIRMED": 48,
+        "STALE_PRICE": 48
+      },
+      "quote_age_seconds_max": 250.818735,
+      "quote_age_seconds_min": 250.818735,
+      "rejections": [
+        {
+          "forecast_hash": "b73a96ace158a9f18bc4b8ee086573b50a43b45f7ee9f8ef0c8470df8796aacf",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "a607c084f86f8b668b8163881c8bdbd59e1ff962e2debfdaf8b074a06327c198",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c701e131cd9b23ff1dfbd1a64a80b485f86fdc4bf37482db43411cfc0e18e973",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "cf889e92dafacb5a8720a2df60bbaf75499b98ee980c6d59fb56d2df15b326f8",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "d792d751691fb851d639d34e93042d5b6bfef64182f129432bb77d5504df81ca",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "3165b56f033acb26ef555c5f113d0a71af726c92cb862acf03f57d9547394b93",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "8c73d83c2013999f1a30692424d39b20dd7598446ce1826c31749ea415eb84c3",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "536de12d6216cc1a95e6e3dfad6af27ff2b4a07f7cbb7a20882f70cbd15802fc",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "0961b7b7bb839275d646ec2eb4d0b3c1fb74d6f4fd128279603ba7fcfa7bd567",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "722bb2d0777fe6ad046c7346012cbc98341e0b3cde476b9717dd14af39d57aa9",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "3d92ee7ff620d2b61503e4e0f0225265e77d291f16048d52a06152a7394f80d4",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "21177b2424232128989c5a52576cea7733e8b47781b31466d0c49138e9cd3667",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "497420f6ad80da960a02423b5cb45c876fe9d4158e8edfadfaa72c976cb11806",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "8c59c617d56fb82af3f14e1bec71cbed720ce8c6859310dd36009a4929ff7e57",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        }
+      ],
+      "reported_injuries": 0
+    },
+    "NBA": {
+      "books": {
+        "betrivers": 12,
+        "draftkings": 12,
+        "fanduel": 4
+      },
+      "canonical_event": {
+        "availability_event_id": "401909088",
+        "away_team": "Boston Celtics",
+        "event_id": "401909088",
+        "event_start": "2026-10-20T19:00:00+00:00",
+        "home_team": "Detroit Pistons",
+        "market_identity_verified": true,
+        "odds_event_id": "26b036ff107f3c658258eaf4a6f26228",
+        "odds_event_start": "2026-10-20T19:00:00Z"
+      },
+      "confirmed_roles": 0,
+      "evidence_resolved_start_offsets": 0,
+      "exact_comparisons": 32,
+      "fresh_identity_matched": 0,
+      "generated_at": "2026-10-17T02:28:59.415832+00:00",
+      "identity_matched": 32,
+      "markets": {
+        "assists": 14,
+        "rebounds": 14
+      },
+      "paired_offers": 28,
+      "pass_reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 32,
+        "INJURY_OR_RESTRICTION_REPORTED": 16,
+        "LONG_LAYOFF_ROLE_UNVERIFIED": 32,
+        "PARTICIPATION_NOT_CONFIRMED": 32,
+        "PROSPECTIVE_CALIBRATION_PENDING": 32,
+        "ROLE_NOT_CONFIRMED": 32,
+        "STALE_PRICE": 32,
+        "TEAM_CHANGE_ROLE_UNVERIFIED": 4
+      },
+      "quote_age_seconds_max": 276.415832,
+      "quote_age_seconds_min": 250.415832,
+      "rejections": [
+        {
+          "forecast_hash": "e9dd5935b2ebaa0b767bfcbd1a4aa24425f3dd748b3b547dac92ab8b7f2d103f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "90cd7f484542915850c5cff1ebace1f1402e28ade009627a25af1bf14c3a5e6c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "84da1d23cd16d16c4c27429ccc220168a4e99b3adca11ca25616de8d2fe2189f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "285d6d9bc5bf758a679bc8538f1935dd0f72d3e9ad6fcc757122736f91ad70bf",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c39d574e620ad6da0ca47f3def35def7060ae65d4c22ef9c752f3c18c7abf729",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "2efda1b87f2db67898057429e7c00582eb9147c0701ba838f983731198bacc1f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "49d30469c95e669b2fe1493ed07c7ed2d467c333416e66a7ae7c6933777b93d2",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "f0f1cf5b75283dc5fa706f10496c1b201bb6dce104c8177c222fef2145707a1c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "b0a845a1e517b80f12d2554020e1e461778793a30859c98c2c8b5d9acdda5bc3",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "bd45c0bd011e898867b16f20297b37c288f6d349ef043ecd61e7c697e9e957d2",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "5f67e9be7ba2496ed9537cd3483e63126c73f9a93193ca435e0d1e34ba3324bd",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "4a726933a338ceb3df654857e33e5ac6f111d4cf94cdba8c7e41a16233a69d54",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "9d4af674d8f3ea604c9f16e679fe6102cbd9709fa9b3a1756305b14459215bde",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "868197c182ae8d7af36a332a8123bb100d1c12fb1d385c679e6d56b1c1eb4424",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "751b2bb65ec980d89306974c6326a50078fc62d24d7b0da85aaa21a8ca1258c2",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "288d57fbb21dc4420593f4fce78bf7f82d18ad45feca706b10b3bc0ea6ecae1c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "6fd92d8b9213abbe4aab04cd3a967b4208995e1c89ae2ee52a57764b2e72b7b4",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "8225a4f267aba16abd007c8b1b96873762deec0cd9936f826f5cc09fe8070db3",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "3e95897485a0feffa44bc324e0931153458a693461b15e29446def2b514f9ab0",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "20a8f29265a4c7c5c55f4ecab181cf32cae052e106d9615c5a78e47681a05b0a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "25abfed11ca942c2932366ef825d57fb63b456a29be1f0cf697c7f048313cf92",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "ccb5a5c158ee95ed65cc8710e870ff9649fb3333ef86bba05c37d0e0d245437c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "8bc985629fb76098cc8bd343a4438f7d236c6531f34c6f028b94433c953ef8d1",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "ae716592395718e3ddca23b32eeeb2258f03873f0603e28c4d9e46dc11e9e35d",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "d653bbf52b0043e9384a2a6ea9a1309d0a7c185fac6168bff060657b0c719f04",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "366b30c6a1f15f9813b9e9f6bb8b4f14a5f6c66faefb50215039440c6ef92070",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "4d8ab742b31bcf283a7e6efdd7411ceec5ae160bfe6c4fe7f96bfb0db5113b51",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "ea11593537f9a3b047077ffba537a9fd53182cccdbb595e7e48bb6493be6a897",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "38132eb2c7615d1779e9bc7d232dc867adf147ff4fe00f0179d0cd5a753df1a3",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "61b99b893e14f3711aa22f0883a4789d1b1b2e2a13ba1ba07a30840a30bd17e4",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "25e1cca246cc7d7305c680b7520f12f141336e412f39cd84311ee4f79620e6d2",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "7eda97b376f92c87d153abf93dd924086c80f7193d38d866e259a6d42b650e78",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "e5a2feb24d3ec36857085100b715a8daea8439aa51ce19ff30c426ddd6dc4e2e",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "b0eb30ba4b779585ac202ae03dd0eb6034eb73e989a83f4b35e5203f25068f37",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "f03642b9367e4773f2f98f581692696e79b8539e81d93b760bfc57fc547aa85b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "f7081db4e8a973b18edf57d445600c9152b120a816bbccb7b7aa8a4bd189de6a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "e5adc7e31a7d00574758facbdf4e62e8561961c03be6ceda87f5a9991ac835db",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c576c03061e979a2dfea91b6d1de8f1ca98aa0110b1f94786bf9f3cdd887d862",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "58b22c53cf436985642268dd3a22082b7e27599ac39251d508d72d80a70efae1",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "69ff8534ff39a890f0f4634da6e7b03d64e6c0a302b703b918bc6b74867fa954",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "242614691077bafbe79a85160e6ca8bde68654139f81ebfd56d35ee9467012ee",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "1cbec1a6291082276cd5cfb6838d200d37c8ddcbc3136e023bb98ded531e6e02",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "738cec20e958e03f2c718e14ded40dfa7c02028ba2769fb0e16e3f07d0e70107",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "4be8e66c379340e9d7341329df342c5c5c496ebe9777a5ffbd3d1d30f4801edf",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "93ac0c6b5ddaebb109517708ea2e11a5f57b89bca0c91be2d178836d55c76657",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "9ed9971964104a740c36cf7920ecaf22523bc7fa268fe2f8478172a0ba7df24b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "29105131a5275804e19107a1f3f6c0e2bb840f3f333149b60fb6d34a4f08f05f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "521cf139f40e200dac82dbb7372a68d3aa9ae0f96e074e1b3e4aab93c43e7aa3",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "53e583c1be061db44ca1fcbfbfa5407c6ec2b85288444cfcdbf2d26b794d4144",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "58dfbaf8db02f2fbeb2cc8bc05bc7ae2b127b84b38ffe72f38742c21f0d6b934",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "1bd0e2a33f8ba8bca32abed515150924aa3fbdfa16e70b9290282e34f47140a6",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "cf4642490cc9d01a26a6c4202393a94cf3692c1f74d77e3899c1a7cc3cd033d2",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "110a468c9b09e6ad8fb5577eeec817f597cf56452f6f6f703fea6f28cd3294e8",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "40d232caaf9af191ca272f4e7a0d7b16a8f78c001537c41fec64ec05ab14502a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "e36f775a7690214bbba0498f81421a9813b811abfd6b858276aeadaadbbe7555",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "edc241bacf502699f07fa8820813f5eda3950d2f4e3f9379f54ffafbc84d955e",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "1948ef04aa80e5012278ea4d2c06d0d3a38cb0ec5461985dcda7e0bfae9fcbc3",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "d691e8f9de4c6c7c83624db3843a7de1f4499534aa72040c7d84834600bef1ba",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "af49b916e495752df1d4fca3d4ce773754b7beb5552c0209bfa1e4b669d75a59",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "b1f6aa29eb085e892cdbc5dae07fb4ddc6df9e2f50a52cbdde1f2665e4d6f1aa",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "012d1e1a543c148a3b8b0dacf91c412642ffd584b81576425e4326120ebd71c8",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "74f25ff7acd006029852e7c4e8903a753620d070496f206e9119df20a6d3a396",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "331a0989763941b70dbfd6c18e8db4af67fb40950f09f4bb1141026883ce645d",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c912aa3df679898b56f7ec73922a8d1c76accee5b52f99aa168e0d99d94d0647",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "0480b4c4b11c52db0117fa7bdb4472523032e965fee3862bde761df0480de6b6",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "511c660adb457c6dbdf0a72e41279a4382d3d9ffbbfe27c2190b2ee4a923b6e8",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "8085ab3bbfa506a397416d63fcf782cbfbe90529123b4129e6670f7098a0b196",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "0dfd6ba63b454cf24487732e09d29c113001ace8f53942849e12721740dd1b4f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "f651fb6c9dca936520f2d2eae522a771d60ac2077fd8acac3e8f54399a3a1002",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "6f1d3503c5d06291350217ce76f04f6c2b556b172eb6375a2cb874594eff40a8",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "1308ece0de5c39791c5f4c9086043a403cee191309a2a2873fe61754ef71da81",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "b19476895678175e5318cc801e2a98799d40bc72dc428690f56724cb436d4df8",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "7610b4dcc76414079cb34462df9447026799b516362ad823bb3f70bed5c9d320",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "de190ed3bec5d9a77363a1388c055d62aa9c050a33f7474fb9d68f7129edf41f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "0099bbfb8defb55b5799ab84ee77509d7774065ef2e61cce2618739522172bf7",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "fdd419f4e22442aabc9e9e78734f74d091852f97138643ff393e853206ccaec7",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "cedd51a2800c854c8b54a1035750ac638ead4132375c7301f851653d056b1516",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "825ee142423f8ffa8489da8474b2790e7b44a19d6dcae425d65270dc71131666",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c9079d2d52daecae52fc2707988c48fd29ed99416749383f939f5241ce1d841a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c23bc73aea07e8ee2167c0cef35ce9276df927f54b79565db02b775ae914fa61",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "331cd354793f6f81ababbea7e9e5e7489e68c4af26067a4137a792b24a7263bb",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c2c6fdc68ebe31f2eeb658bc231d3036fe50c7ed53c1f395fc9b588a668b2c52",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "7cc9a09550353682a40333c26ada8be4332f09146d8543526c9c1e33c9d65bd3",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "5813e5f56206cc9f43daa5e4a29f50006576b1d1f099348659f161c179111960",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "90b60528a57cd73980212e72f8216054ec3cd9176b39f1e0da477ea910b55846",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "aefbd08249b171f694af37a4f55bfaffde69a33669a491cfb7aabbae4a95f38c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "723f02ab994c604f583212d1a7704aac6c7cee22d5723eed1404423af3c385de",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "778a75eb678af3d50001da0649a1d09d937fc17ea7976fe348cebaf2daea4a74",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "825b75f362869a137954f49d67857865d4d9fe87d223cd67ad87804fc4c0e368",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "7d04ca6be22e6a0ca10370911d0cd9a10b588ae94ce8002ff924400c17ac8259",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "37b781121751ec2347b56b3912c035d726628c13f9b17554cc936beb42f5280a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "f679c4e45fbb688b3a35898b3d6a940507c853ff24cca4e0687b9ab43bc097f9",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "e53dca12d4a7c0f276f2e552c32aa8d455f54e1545050b017c2c79eda4fc4afa",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "512b513019d9a6eda78e9158743c712fa2947f2007c5b2620bd4251f7524a52d",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "5221c2183a49379071632d16cab9d17a22c1928245f9ec27dc175c059177a9eb",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "cdc45e73d8dc2b7953523ed0750f6aacdd395d41a05b6b0bd451ef3e311daf9a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "050c547bdd260585e811f43952a39fb72dd41d24d46a46b3b27cd14b497268fa",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "ac197654a289e0383396e69d2d12457bba495b35aeb93b20fe75612fc97c4f22",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "606eaf2941de893b20eb578d2a25883da15112b58d9a035665d7dd210364555c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "4256101947f629c2fd46db8d9ba4e60ca341026f7a9dcafc592d8fc0ecf5b34f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "36878a0ffd9a18fd94de78ef1004df16bff6738f325b377b0be0dd7853bad268",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "2b45b64bff9b0c072b6b46e6837d8842de2a59365bd7b75bf0638da150b94833",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "365d5af86561775fb0d380cd55a9cc7a5cf799b8981e44f0ebe1ba837d987788",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "b7d9201a325ac0554340b4aaf79544b722b500b454e98355e559410f795f0a48",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "9f36bce54a663da7e39351370403325b958466587947e276c80712b9d0bd6a6a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "140fd523f86b2746c2095ab3c3316896c6c54719d4fff913cd36cf0676fef739",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "6e57a78b0b667b9b92b07a8ea2e8348ad454d81bb5265e6e1674f0ba50f5f794",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "a893353869ed9fbe935b4535297790ad8a49b8b1d144d203db2e203a550da3d3",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "646ba85be520977aa7cf3626b5a406fb11e543f22fc3e9d84f2c3cfffb0158fc",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "9b2c3596e2cc3ad4abd76095c8288fc9d10867665da54fe7b06ef943f16a0c1c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "53457fdc19d1bea7a5c53176ee5ee194e9fb600e4f2304a10f6c431e25bea74d",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "30dd50a549e1a297ae1b3681eb26de60ca07bffc3cfe6c0236f1dc9d71dba4af",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        }
+      ],
+      "reported_injuries": 9
+    },
+    "NFL": {
+      "books": {
+        "betmgm": 35,
+        "betrivers": 20,
+        "draftkings": 37,
+        "fanduel": 33
+      },
+      "canonical_event": {
+        "availability_event_id": "401872996",
+        "away_team": "Houston Texans",
+        "event_id": "2026_06_HOU_JAX",
+        "event_start": "2026-10-18T13:30:00+00:00",
+        "home_team": "Jacksonville Jaguars",
+        "market_identity_verified": true,
+        "odds_event_id": "57418b2cf5aca558b3c98eafac1e264a",
+        "odds_event_start": "2026-10-18T13:30:00Z"
+      },
+      "confirmed_roles": 0,
+      "evidence_resolved_start_offsets": 0,
+      "exact_comparisons": 112,
+      "fresh_identity_matched": 0,
+      "generated_at": "2026-10-17T02:29:04.451126+00:00",
+      "identity_matched": 112,
+      "markets": {
+        "passing_yards": 8,
+        "receiving_yards": 52,
+        "receptions": 39,
+        "rushing_attempts": 6,
+        "rushing_yards": 20
+      },
+      "paired_offers": 125,
+      "pass_reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 112,
+        "FAILED_DISTRIBUTION_BASELINE": 16,
+        "PARTICIPATION_NOT_CONFIRMED": 112,
+        "PROSPECTIVE_CALIBRATION_PENDING": 112,
+        "ROLE_NOT_CONFIRMED": 112,
+        "STALE_PRICE": 112,
+        "TEAM_CHANGE_ROLE_UNVERIFIED": 8
+      },
+      "quote_age_seconds_max": 280.451126,
+      "quote_age_seconds_min": 250.451126,
+      "rejections": [
+        {
+          "forecast_hash": "af4080faae79820baf5323899f6b1420e5d37f7ebfebc98f2982e4c980dea35f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "e2bf33448bc9529579fd0c39e2ced9ef64cf72df5f5a6a6b89ac66abe80fa873",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "6412e4e7018f9120ae80c420dc48713328327a8042848b31249042f89e0487fe",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "74134bf405b9d54794c8fa7747cd9272cf9c94df31255e9ab91d39c22b9f5281",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "60975152f184c479e49a9cb2225a186bd5cd757d34130eb40e8bf89ea8d01376",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "592f9d0a36db4268f385d31ad31f39ce36680d29e0e4ba5fe2491de731db9ec6",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "a9b649203f3bc4752cbce45569b5d7e29b63c0c2652bc7931344cc782f907d59",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "4d1b8b5527dd14a98ddc7b515629f8a95322067fb368be0c315735b5cf63a5ef",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "ed40f01a506d51b320090c045f6fe5aaadbc1e8d9d8986f88ea918e580c0f0ca",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "6e8a0d0571ac00d6638296fc73c9fb21778eed088b2fa12d66bb4306d65c57d2",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "29ac19814669cb415765a56ea27fae6744d89c09c2cbaf73b337fd4005622a13",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "143770fc7fc96c97ddf0ae6082c2396ad21d075942c727f2a20d7a9e36b59787",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "367d582759aca47fe1e15e691a8427873c6837b0f6b2aabd8ad8f21bf3696fb6",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "fedf7a6437c9142b7519581ca9b305bd54906e04576ee6e3c0a7f19893e0ab5e",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "5943de1fda91cee4ecd165151d09c6cac3d0c96809483bb084a393544d749e48",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "d025f10096c0011cf8aa4fa6c3c4a9e2980c23eed9884db9281234447eee538e",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "883391b1cbbe649ba2bcc501e4c7628960d8ff6538dbc50fbba6ced3e7fe917c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "f2a9fd14dc215d164ed4575703758dd8ad179a03eb01ff881bbe1a5ea403eb4e",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c04c18f75c62eb907930b81136935aec788caaeef7fadcb6f5a8762cc9ccfe07",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "dd1f4a639296e1fa58d631fa5635bed50824031e8de81acee6b78a491afa089b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "df2027e9d0028a555318a4dd94d0c91707812cebda5d5f20efbdcef77a11a9b1",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "b27e90bd66dc8d783952c459db90f613952f7a862e6f828440e0012b918d3ad7",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "162851011506ab29e1fa738726cd414b789f3a7cf98dcb0f7704a27ec6d002a5",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "02cc049f9e7c9ad671a37b2bb7e1873a215fe1eebbadf45686c712e387e2d037",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "7116610756ab2853947650c1e84bd847543983a7720e9bb803a7ad3abfedd27c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "f5e4f315cc65a55df21d1d45ceb6ecfd8a53e823f642e586cddb6e7d59912af9",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "1ebfd21f16c62379ef5b4a733a8bc3cb00d2e995703888aecd2e6a0c433ce507",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "82d1d0e53c3279c62b4b9ec29e0040d45c81363977704b7647d995ae50fc57c6",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "a6ab6133acf9068a2dbd6e5f2ad4b7df1e71d7fbf8ba4c76354834d2d9746f56",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "8f1070b1f3e519496a05d2d46561104c25ceacd52fd5d10df1bf4a7c39fb435c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "28ea82526516f94da005272de80cf1d30289c061ab6e4745238ac334ebd2ecef",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "3e9e0408d202fd0827ccf66150e6c77b77872880dee0300530ef8e0069b1e003",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "cb3880dc180a43094415faa75a97e0f4c97353be636ca4764144acca1980c9ce",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c53ec512e9677dfd5b48507d7cc43be83d6376128868c73145a227c35405e0ee",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "204abe5425f26c20777f242e2c79742ea2d590661fc93db2e370cf6e64df329f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "31e3ff80ec574b45d9a4fc11ced92bbfbd5c71c28ab1bf8899a67326f80e0a72",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "9e7e20e01b5f57a4345fbc7cfd956bfd8a285f12d8ff230b9d1a10c0d7b57e18",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "d4b0111e4a78a1763d3ba7438894692dbc4360c35e2596c0469405c3bc57c88b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "d0e867fec8090652fc634023f9addb971abb972d6580296ace2296c094b425e4",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "7b76b66291083c0d60cca12a980f418c41938455951c3edf29d7b55f53958a9f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "390c24c5f1e796215999e76f8c7c2d9fafb893ae2cdc45f38fd83afdbcfe419d",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "3144e063b57d8ff28c78f3edd7712843159b76a0ce9adfa5bd35d3ab780023f4",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "2090315bee7ee11ccd32e1eb42c7ffbbf69a57b3debf06dcb85f0c6ccad58604",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "7cc8c6a61a0ff463eba874f7bd386940b650a387f30afa740b6623e545d33b53",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "bbbc533358c6d4ddbfd049ed1d4bf20df15941ded28d1e07bde4605bb827eb08",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "60afc06d157dea9a163c9e586efe49a35fd3f82fdb1aa72c58afafc61cab8330",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "732be142de320e455a24b6df0101f9118ec50f3836fe31b1e763f0d50ce21338",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "2abb3b3719842933f8f9eed417958f8e09a65bf836a43401150024b1ee7b8c69",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "e7fec82f07a2572c937378d403d8f9422fd378a6b8da9ac5a3b26a89a18a9570",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "80c540f3dd612cbfa74be7b6a691dbc0e28e5f675a8bccfb423db7e735691416",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "a1350e2424b0c849401965db62ad303608c7069652c97aaffeb4cf5f5cb19c25",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "a0a129d7716b2a77d95eb5211adb2d474aff266f660fcee904643ce122c22eaf",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "73c11b4799aedf9e927db3f72f36f48bbd14be4f94e480acb85b98693b68b372",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "e69cd44b5df0512549c7acbaffb65e06af970eaae894516ddaca0a1b9098d5aa",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "00955626d561e2f023e39f9b6cd6a0bd4f683df5ab00ae406482051ea7eefa92",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "df410ae89557cba2f23563235dd71b19db00121fc0c946c71a33eecafa99969a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "9e6963d74ba03251aae004d36252c12730fa42eca66dfddf9c2ea14d928c8736",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "150f80ac977b69b30e91b5cf0613c989b44e9230d61e452f27ce58121c09dc27",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "1b5fbf0c2f14b9b9d29b85c4526a275b9a6ba6c51f8944b8142363de7692f6a4",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "db9939ad46659db5bebe32aef4b6fb9d00654d11ce58ff1b9ec79ec9cfadce09",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "cb13352506fec369cccab4ec5f3d18d57acd777c9f2cffd5ffcc6279d81e7c72",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "b6a8730fb2c1a4aece6acfab21f2a4a7583cd4bce24b9534e3b905cd33909179",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "02a22721a486ec169ab7def08cb0d02d3da4c2fc20883ae86d0677214738de42",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "e572d60aa0e4d9068ac0b2ef8e0dc8e7269cb928642cdf8beb8ddd0ca1cef5c2",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "79650ee35ea26473a1b6b210f2b2e6727250172dc10118dacbadd7809f5cf741",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c7f9e8431eb8f48b4f6d44d551285a9c398af702707b88f3f0f5e9876c348fe8",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "badb5718aa0d43718e62ac5f2146f2b36b20086cacaa734c34919fe14dcd3bf4",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "5e388ccad384897152c8bd7acd61119d05ea24298688612096b2f3c02f5b294e",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "2dbbda0193118f5a407fc694a5d9d620150f3c8943cf66ceb69267d3968b8f9b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "7ae4364c21a78e5afafe20a662fa15949b077ce6462f298424ca2812f7e8dc65",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "73887ae167b09395b3a2cc74aaf2fb3d885f552ae4cac8c5ca2043dfa6f2aa74",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "f8258ace7ec310d5b462255ae46cf76bc856691cd0d7244ee58811c04cba5b2a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "01bd08a2e0bdda8a6070d57832f51611387a02170c6a3dba4c27fef70bf24ae4",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "32fee4ccfc88b81dbed6d58a6e67e12f0caa52d630b49da2b4b939b955622786",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "e77381523895cd2298c01e345dd9513971d4e4248523c3a4420abac5ab30d66a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "7cb05651a602aeb6214a5143ba84d0755dd1c7909528446a785973590fd73c38",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "0a8a9801c883a8c1194151a3f390a426af160d6cdb825109cf401327a5c0d4de",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "147181376e6a5b14610d06382eb85c71fb3f9ceaf433315237603c920a91522b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "a958249f29a131a179af4068d793c56af31085c00c75f7c0fa6d57704dfd80f3",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "511fa05a7914f47cd1d6f967542255b01e656096013ab85d3ccf5e92e96f733b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "07010a1321b1cc2c62f7b2cf334847641d5397d88c046a180f563e55925bb0c0",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "5e8bfc427aff2c3858bcfdfa6471574b763d1452915e5d180a840bddc6382b76",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "d4f1243f1b82aa747dd28e2be7d705e16109bbdf2482ab3cea42be945c058ead",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "a28fe13c6d42455262364168e97216d8b092808a2cc0984470591c399e65cc7d",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "a64b5230d6e786605f1734eac2909a0929b099feb71fbadca55b2c1abaa31dfa",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "ae289ae23767e854791463295cfe38a5aa2cc1fb0d1603b43ee0320e86f36fa0",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "75eb770b75463c3ce649d572487a35638a21382a03ee211d999a3752777b23d0",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "549880bb7701204f39ab597256ee515fbf6c6f41b790373ddf85212569d8b21a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c8ae12b88ae546a6656bdf8e81d4e4f26055b0c6dc06b081989ae0256a5f1904",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "fa5710be4d1f98b694ff86e87cf9ad88cf430333a7cd85769894e7261fd112f4",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "07816ae6c6ce7ef1a870862b8c342f3e8681538e18a77c9717da5ffcd6e5b1d0",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "d2e5dadc4326d24a0eead5d51075fc27c213ee1c5b686ec4c7dfb1e9a3609121",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "022a607999e0f2c588bbe07f612a66f5f9bf9dc075573282e02a2138bf86e76c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "6bb98396f249a74e65a78791a737223d71c7b6eaa14b231df01804a70ff04894",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "9735d2acba4de44550f9f29d7874bbbb311fb3534228f8f2d33d3c9f2da87a9c",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        }
+      ],
+      "reported_injuries": 21
+    },
+    "NHL": {
+      "books": {
+        "fanduel": 8
+      },
+      "canonical_event": {
+        "away_team": "New Jersey Devils",
+        "event_id": "2026020121",
+        "event_start": "2026-10-17T17:00:00+00:00",
+        "home_team": "Washington Capitals",
+        "market_identity_verified": false,
+        "odds_event_id": "841c71c033cf05ad1313e3d5ecd2d9ab",
+        "odds_event_start": "2026-10-17T17:10:00Z"
+      },
+      "confirmed_roles": 0,
+      "evidence_resolved_start_offsets": 16,
+      "exact_comparisons": 16,
+      "fresh_identity_matched": 0,
+      "generated_at": "2026-10-17T02:28:57.001872+00:00",
+      "identity_matched": 16,
+      "markets": {
+        "shots_on_goal": 8
+      },
+      "paired_offers": 8,
+      "pass_reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 16,
+        "PARTICIPATION_NOT_CONFIRMED": 16,
+        "PROSPECTIVE_CALIBRATION_PENDING": 16,
+        "ROLE_NOT_CONFIRMED": 16,
+        "STALE_PRICE": 16
+      },
+      "quote_age_seconds_max": 274.001872,
+      "quote_age_seconds_min": 274.001872,
+      "rejections": [
+        {
+          "forecast_hash": "65a08d7c6cbe1d72552520229110247446f328bb114bf7ab30688931ca0c4d94",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "95b87cdba5df570c49400fe208b8b17f3b57ec89603f5cf8aba35db102dc17dc",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "31b8bb7f1b29eb0fa6ca488054f54839def25b22d3398013b9f9422b4de66e54",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "af66975bdc6af002e8062cff7c0de91efb2665880daa73986c4e428e1dab9c06",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "03adf51cf3970d1fe8f33671573f3778cd390d08559f1b56855bae5df32e0a13",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "d10168a469f070c1e6ba70d1a318c1dc4a4ea5ed872de7eaa147317c120d937b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "fe1b0f41c5128085495ed464bee716fb84c54814918b4659b5036bcf17c92a80",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "f14ae3bd4c337bcc4c4e9ccff437f5585965235ca659a588e3676f59b0cd94f7",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "0671568ad7dc9b6c58978dff3156d0edceb092ff63588453464d95f70f154179",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "5377b9b2b51b8b92d71d421ddc013694d8b5af056034ec53474d2ac6a87da3b7",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "cde698fc0c8e86a835b838df0699199cf62a07e74f6909fab4fbb8bbd2955ae5",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "2b19509962b5907231c3ce0f196d7fb2231ff806860f3011bd3926b0040758b7",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "4e8cb12d7befbef85369edf5da9c477ca728a8b5c42ab15c8264214aa54ecf09",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "2d88ede04b0648b27cddb71b646d8faa0d4aefcbc2846b90913aa1992b1bda5d",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "dd35f205967edb443be05ca45bae35a9fba4b339aae8f96474280b3e367bd24b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "d9f33c10cbcea26fdafde002e88fcca8ae78e33c7a175686a81bd8bb42a8a5aa",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "0c56c6e05f9f5842dd30520a3f894649210121f57ddd90066ed441e1f8a8902b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "5749484e454461342de87e7e445312fd0cb298fc1c31f57270ee0c6d5d00cc34",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "19d7b4852119853782b2b76e107aad824c7108924f5790188bfab2e71f78c42b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "4ab1eaa57f0bbbe1bba273d081039ad91b379447d8fab8269627f0b34c2f3d4e",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "5239a72f6f2d7a0c74dbe8e3ebab99fe5af7f11b0365bf123f701fbe5a3dad7e",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "132729916b70c5b044aeb55ad08d100dd497343aff2a53941e17b84a4f22cb5f",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "f63226b3c2cf95875d48250a8c833fbad9b72e2742b214d9d8084e9f5dc7c7ae",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "3996648afd52fdea543cb61e99a5939690e2ce6dba7ea9f811354b431b9be73d",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "b5940fd5fed94f6e8c1319ecd1de606e0d4fba7cb0ac9a44ba23447c988b50a9",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "ccc1489b1f6bad2ad0f2ba664f065f28d5197810a4feb868291877065485a60b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "3cadde37a45e9bc794aa6ae49a55a2427df14c53ad0c64355e66dbb80346538b",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "be55e480127a4a62b480f9ecd0e5e49ad9325613ec0e6500349284e6e0052c74",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "c60e0b9f9ccd6ee83059470db638d9668ed2ca39650729cebb6d73651d642e75",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "ea59b96e099324999c74d4e5747a0b6802bcbf18293723a6bfd3e00c6334009e",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "09634bd13602311dd3888f8045c0bd4a978b4b8c8bcff4bb874c0e98ed5b236a",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "2292005946302c7e87baf8270ad5a54a2c6468da3194cb4f3a8c451869e7d618",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "e739cef267a28ee1a41511005c171c2611cf257e06691a0e57f3bbfb4ae44415",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "4179a3893f289cd0867b959acbd7e9274b4f6f6d373a5d093e38448cd06494e7",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "4f29037dd3d6e31b8d79b489b0f0147ff29b3913cf1f4b39bd8068e50c7ba849",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "7e807057e20b2b9f9d52cde47dbe549bb5619ef2dcd6648aa8398a6290331170",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "6e57cb53886a17940872264d9fbd1d90dc89c5cf6c2fba137985f61b47e6b0c0",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "ce223a1df6995e0e27feb71ae22ad69c345db73d7d29870e5c3e7079b14cd117",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        },
+        {
+          "forecast_hash": "1f78c4e9c8f3d1358185c587543e546001f5bc7134b425d04718e429feb256a6",
+          "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+        }
+      ],
+      "reported_injuries": 0
+    }
+  },
+  "generated_at": "2026-10-17T02:10:39.996006+00:00",
+  "historical_access": {
+    "checked_at": "2026-10-17T02:02:24.247640+00:00",
+    "credential_present": true,
+    "endpoint": "historical/sports/americanfootball_ncaaf/odds",
+    "historical": true,
+    "parameters": {
+      "date": "2025-10-04T16:00:00Z",
+      "markets": "spreads",
+      "oddsFormat": "american",
+      "regions": "us"
+    },
+    "provider": "odds",
+    "quota": {
+      "x-requests-last": 0,
+      "x-requests-remaining": 387,
+      "x-requests-used": 113
+    },
+    "rows": 0,
+    "snapshot_id": "9bb401d0f72f22026dcfe7971dd25abaa4ac6ad5f0e535af015f058f486f31d4",
+    "status": 401
+  },
+  "hypothetical_roi": null,
+  "limitations": [
+    "Historical outcome revisions captured now are reconstruction, not timestamp-authentic historical features.",
+    "Existing evaluation seasons were already inspected; all comparisons remain exploratory and multiply tested.",
+    "DNP/role selection, traded-player histories, conditional-on-appearance modeling and sampled MLB cohorts limit generalization.",
+    "Probability scores use fixed prior-mean diagnostic lines, not historical sportsbook prices.",
+    "Intervals and Monte Carlo convergence are not uncertainty-qualified EV or proof of profitability.",
+    "No shared-game joint simulation, verified book settlement terms or prospective price-relative performance yet."
+  ],
+  "marginal_simulations": 393,
+  "max_drawdown": null,
+  "model_version": "causal-opportunity-ridge-v2",
+  "new_version_frozen_predictions": 333,
+  "prices": {
+    "distinct_timestamped_paired_offers": 833,
+    "distinction": "Recorded pregame quote observations are real archive data, not proof of settlement terms, player identity or a qualified historical backtest",
+    "historical_price_backtest_qualified_rows": 0,
+    "historical_provider_snapshots": 0,
+    "historical_snapshots": [],
+    "prop_payload_snapshots": {
+      "MLB": 4,
+      "NBA": 4,
+      "NFL": 4,
+      "NHL": 5
+    },
+    "prospective_paired_offer_snapshots": {
+      "MLB": 100,
+      "NBA": 137,
+      "NFL": 491,
+      "NHL": 105
+    }
+  },
+  "pricing_updated_at": "2026-10-17T02:29:05.105713+00:00",
+  "prospective_settled": 0,
+  "qualified_market_comparisons": 0,
+  "reference_unit": 22,
+  "simulation_draws": 15720000,
+  "sports": {
+    "CFB": {
+      "after_completed_games": 3334,
+      "before_completed_games": 2600,
+      "before_evaluation": {
+        "baseline_brier": 0.23912697505843025,
+        "baseline_crps": 11.611557915887822,
+        "baseline_crps_n": 1086,
+        "baseline_logloss": 0.671293460126948,
+        "baseline_mae": 16.20734585923272,
+        "baseline_rmse": 20.57832723087376,
+        "brier": 0.20609104262778835,
+        "crps": 10.406835097443572,
+        "crps_n": 1086,
+        "home_win_probability_n": 1086,
+        "logloss": 0.5993558332405463,
+        "mae": 14.526886822556035,
+        "n": 1086,
+        "paired_mae_difference_95_week_bootstrap": [
+          -1.9616750733258392,
+          -1.4188128105778446
+        ],
+        "rmse": 18.47547822116664,
+        "week_blocks": 25
+      },
+      "convergence_failures": 0,
+      "current_frozen_forecasts": 60,
+      "evaluation": {
+        "baseline_brier": 0.23911430964447675,
+        "baseline_crps": 11.606747977002302,
+        "baseline_crps_n": 1086,
+        "baseline_logloss": 0.6712702255270578,
+        "baseline_mae": 16.20734585923272,
+        "baseline_rmse": 20.57832723087376,
+        "brier": 0.20627962637582029,
+        "crps": 10.408183502073035,
+        "crps_n": 1086,
+        "home_win_probability_n": 1086,
+        "logloss": 0.5995546892618755,
+        "mae": 14.526886822556035,
+        "n": 1086,
+        "paired_mae_difference_95_week_bootstrap": [
+          -1.9616750733258392,
+          -1.4188128105778446
+        ],
+        "rmse": 18.47547822116664,
+        "week_blocks": 25
+      },
+      "marginal_simulations": 60,
+      "model_version": "cfb-score-ridge-v1.1",
+      "seasons": {
+        "2022": 734,
+        "2023": 750,
+        "2024": 752,
+        "2025": 762,
+        "2026": 336
+      },
+      "simulation_draws": 2400000,
+      "training_n": 1444
+    },
+    "MLB": {
+      "after_coverage": {
+        "earliest_date": "2023-03-30",
+        "events": 8951,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-09-27",
+        "outcome_rows": 57560,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2023": 12502,
+          "2024": 16057,
+          "2025": 14838,
+          "2026": 14163
+        },
+        "source_failures": [],
+        "source_selection": "Original Detroit 2024 cohort plus current captured hits/TB quoted-roster cohort; current-roster survivor selection, not league-wide random coverage; additive deterministic 2023 full-season roster cohort across 30 teams",
+        "unique_athletes": 131,
+        "unique_player_games": 27090
+      },
+      "before_coverage": {
+        "earliest_date": "2024-03-28",
+        "events": 3069,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-09-27",
+        "outcome_rows": 18482,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 5970,
+          "2025": 5791,
+          "2026": 6721
+        },
+        "source_failures": [],
+        "source_selection": "Original Detroit 2024 cohort plus current captured hits/TB quoted-roster cohort; current-roster survivor selection, not league-wide random coverage",
+        "unique_athletes": 42,
+        "unique_player_games": 8766
+      },
+      "convergence_failures": 0,
+      "current_fresh_comparisons": 0,
+      "fresh_at_comparison": 0,
+      "identity_matched_comparisons": 0,
+      "marginal_simulations": 38,
+      "markets": {
+        "hits_allowed": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6749300982436925,
+            "baseline_brier": 0.24120252312722443,
+            "baseline_coverage_80": 0.9168316831683169,
+            "baseline_coverage_95": 0.9742574257425742,
+            "baseline_crps": 0.7682224556025715,
+            "baseline_interval_width_80": 3.281188118811881,
+            "baseline_mae": 1.1382945675519935,
+            "baseline_nll": 1.5993525721121895,
+            "baseline_rmse": 1.5365930204137843,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6589512568632039,
+            "brier": 0.23358981476361543,
+            "coverage_80": 0.9062706270627062,
+            "coverage_95": 0.974917491749175,
+            "crps": 0.7454406992003305,
+            "crps_n": 1515,
+            "distribution_n": 1515,
+            "interval_width_80": 3.0693069306930694,
+            "mae": 1.0982416724130635,
+            "n": 1515,
+            "nll": 1.584569597106224,
+            "nll_floor_count": 0,
+            "opportunity_mae": 2.028651122882246,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.0623739566759678,
+              -0.016058076198051965
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 1.4805668750977372,
+            "week_blocks": 54
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 1.132188592072628,
+              "n": 540,
+              "rmse": 1.524760469077627
+            },
+            "after_only": 975,
+            "before": {
+              "mae": 1.1716652981552702,
+              "n": 540,
+              "rmse": 1.5752736640577185
+            },
+            "before_only": 0,
+            "common_sample_n": 540,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 3169,
+          "training_outcomes_after": 3380,
+          "training_outcomes_before": 950
+        },
+        "hitter_hits": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6565997527867559,
+            "baseline_brier": 0.23224926088198822,
+            "baseline_coverage_80": 0.9625707953705984,
+            "baseline_coverage_95": 0.9925305753919396,
+            "baseline_crps": 0.4591724782373009,
+            "baseline_interval_width_80": 2.1400311910038576,
+            "baseline_mae": 0.7177478961706985,
+            "baseline_nll": 1.1837906470667965,
+            "baseline_rmse": 0.894326387093275,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6459909549242066,
+            "brier": 0.22738228467012503,
+            "coverage_80": 0.9569071657227284,
+            "coverage_95": 0.9939259624066322,
+            "crps": 0.44979033232605836,
+            "crps_n": 12183,
+            "distribution_n": 12183,
+            "interval_width_80": 1.997373389148814,
+            "mae": 0.686053407335866,
+            "n": 12183,
+            "nll": 1.1678386291497131,
+            "nll_floor_count": 0,
+            "opportunity_mae": 0.8470711371640129,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.03547687560535997,
+              -0.027732658248390232
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 0.8577144258375365,
+            "week_blocks": 55
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 0.6964726946493683,
+              "n": 5410,
+              "rmse": 0.8697053669006998
+            },
+            "after_only": 6773,
+            "before": {
+              "mae": 0.7095577042712934,
+              "n": 5410,
+              "rmse": 0.8802963949634814
+            },
+            "before_only": 0,
+            "common_sample_n": 5410,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 23206,
+          "training_outcomes_after": 23710,
+          "training_outcomes_before": 7816
+        },
+        "pitcher_outs": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.647512545684532,
+            "baseline_brier": 0.22788589181056482,
+            "baseline_coverage_80": 0.8831683168316832,
+            "baseline_coverage_95": 0.9650165016501651,
+            "baseline_crps": 1.1882068100014194,
+            "baseline_interval_width_80": 5.137953795379538,
+            "baseline_mae": 1.5951775891874902,
+            "baseline_nll": 2.0176447949244847,
+            "baseline_rmse": 2.5829774331871893,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6395194360782929,
+            "brier": 0.22365677294561817,
+            "coverage_80": 0.8798679867986798,
+            "coverage_95": 0.9702970297029703,
+            "crps": 1.1556221589488451,
+            "crps_n": 1515,
+            "distribution_n": 1515,
+            "interval_width_80": 5.229042904290429,
+            "mae": 1.5613681790218636,
+            "n": 1515,
+            "nll": 1.9972678859564836,
+            "nll_floor_count": 0,
+            "opportunity_mae": 2.0127655386619576,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.0709938948020687,
+              0.002067544577362456
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 2.472442343470456,
+            "week_blocks": 54
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 1.9053188543126487,
+              "n": 540,
+              "rmse": 2.7079828322723567
+            },
+            "after_only": 975,
+            "before": {
+              "mae": 2.13397361682699,
+              "n": 540,
+              "rmse": 2.909325661265547
+            },
+            "before_only": 0,
+            "common_sample_n": 540,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "BENCHMARK_ADVANTAGE_INCONCLUSIVE",
+          "supervised_pregame_examples_after": 3169,
+          "training_outcomes_after": 3380,
+          "training_outcomes_before": 950
+        },
+        "pitcher_strikeouts": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6636262049938239,
+            "baseline_brier": 0.23556804522157831,
+            "baseline_coverage_80": 0.9135313531353135,
+            "baseline_coverage_95": 0.970957095709571,
+            "baseline_crps": 0.746421676001427,
+            "baseline_interval_width_80": 3.1927392739273928,
+            "baseline_mae": 1.10514510974907,
+            "baseline_nll": 1.5947843150016903,
+            "baseline_rmse": 1.5096684727942116,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6498107491085819,
+            "brier": 0.22888619593893433,
+            "coverage_80": 0.9089108910891089,
+            "coverage_95": 0.9716171617161716,
+            "crps": 0.7323260148539026,
+            "crps_n": 1515,
+            "distribution_n": 1515,
+            "interval_width_80": 3.0772277227722773,
+            "mae": 1.0741965843395689,
+            "n": 1515,
+            "nll": 1.5781592335418189,
+            "nll_floor_count": 0,
+            "opportunity_mae": 2.0432368607107385,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.049581265661490015,
+              -0.011326080711542156
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 1.4802773258824817,
+            "week_blocks": 54
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 1.2773577529798672,
+              "n": 540,
+              "rmse": 1.7382047621271575
+            },
+            "after_only": 975,
+            "before": {
+              "mae": 1.291301764391329,
+              "n": 540,
+              "rmse": 1.7630808507549358
+            },
+            "before_only": 0,
+            "common_sample_n": 540,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 3169,
+          "training_outcomes_after": 3380,
+          "training_outcomes_before": 950
+        },
+        "total_bases": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6486601730291913,
+            "baseline_brier": 0.22819102857198706,
+            "baseline_coverage_80": 0.910941475826972,
+            "baseline_coverage_95": 0.9815316424525978,
+            "baseline_crps": 0.8680382042867099,
+            "baseline_interval_width_80": 3.8364934745136665,
+            "baseline_mae": 1.3240965162228397,
+            "baseline_nll": 1.6354368565641413,
+            "baseline_rmse": 1.7663281742813268,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6339713370016979,
+            "brier": 0.22142218495478536,
+            "coverage_80": 0.9274398752359846,
+            "coverage_95": 0.9821062135762948,
+            "crps": 0.8331679630141038,
+            "crps_n": 12183,
+            "distribution_n": 12183,
+            "interval_width_80": 3.7766559960600836,
+            "mae": 1.2819128191229063,
+            "n": 12183,
+            "nll": 1.5749538104054612,
+            "nll_floor_count": 0,
+            "opportunity_mae": 0.8482479821667581,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.050571422180811045,
+              -0.033811002036524006
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 1.6964555571581665,
+            "week_blocks": 55
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 1.2552168229347567,
+              "n": 5410,
+              "rmse": 1.656761975129651
+            },
+            "after_only": 6773,
+            "before": {
+              "mae": 1.2646291861371834,
+              "n": 5410,
+              "rmse": 1.6787269710474335
+            },
+            "before_only": 0,
+            "common_sample_n": 5410,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 23206,
+          "training_outcomes_after": 23710,
+          "training_outcomes_before": 7816
+        }
+      },
+      "new_version_frozen_forecasts": 38,
+      "pass_reasons": {
+        "BOOK_CANONICAL_START_MISMATCH": 48,
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 48,
+        "MODEL_COMPETITION_DOMAIN_MISMATCH": 48,
+        "PARTICIPATION_NOT_CONFIRMED": 48,
+        "POSTPONED_SCHEDULE_REVISION": 48,
+        "PROSPECTIVE_CALIBRATION_PENDING": 48,
+        "ROLE_NOT_CONFIRMED": 48,
+        "STALE_PRICE": 48
+      },
+      "price_comparison_records": 48,
+      "simulation_draws": 1520000
+    },
+    "NBA": {
+      "after_coverage": {
+        "earliest_date": "2021-10-19",
+        "events": 6163,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-04-12",
+        "outcome_rows": 526472,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "DNP_NOT_ZERO": 28715,
+          "MISSING_STAT_OR_OPPORTUNITY": 412,
+          "NON_REGULAR_SEASON": 12662
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2022": 104256,
+          "2023": 103688,
+          "2024": 106192,
+          "2025": 105504,
+          "2026": 106832
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 1032,
+        "unique_player_games": 131618
+      },
+      "before_coverage": {
+        "earliest_date": "2023-10-24",
+        "events": 3701,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-04-12",
+        "outcome_rows": 318528,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "DNP_NOT_ZERO": 17773,
+          "MISSING_STAT_OR_OPPORTUNITY": 412,
+          "NON_REGULAR_SEASON": 7653
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 106192,
+          "2025": 105504,
+          "2026": 106832
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 807,
+        "unique_player_games": 79632
+      },
+      "convergence_failures": 0,
+      "current_fresh_comparisons": 0,
+      "fresh_at_comparison": 0,
+      "identity_matched_comparisons": 32,
+      "marginal_simulations": 124,
+      "markets": {
+        "assists": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6736803937226722,
+            "baseline_brier": 0.24039028292011966,
+            "baseline_coverage_80": 0.8910991946798901,
+            "baseline_coverage_95": 0.972572988141229,
+            "baseline_crps": 0.9539936982734549,
+            "baseline_interval_width_80": 4.1359434161717505,
+            "baseline_mae": 1.386365975080442,
+            "baseline_nll": 1.817587813330207,
+            "baseline_rmse": 1.8934790226645553,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6615237794482739,
+            "brier": 0.23459082181189986,
+            "coverage_80": 0.8966730092832843,
+            "coverage_95": 0.9733994503065598,
+            "crps": 0.9315748794232931,
+            "crps_n": 52029,
+            "distribution_n": 52029,
+            "interval_width_80": 4.049606949970209,
+            "mae": 1.360023316408022,
+            "n": 52029,
+            "nll": 1.7950575323367637,
+            "nll_floor_count": 0,
+            "opportunity_mae": 5.0948418248151155,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.030863783126956434,
+              -0.02175037891172202
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 1.845844526673672,
+            "week_blocks": 50
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 1.3598205921751298,
+              "n": 51938,
+              "rmse": 1.8442300019785312
+            },
+            "after_only": 91,
+            "before": {
+              "mae": 1.3797318585923095,
+              "n": 51938,
+              "rmse": 1.8636824825399236
+            },
+            "before_only": 0,
+            "common_sample_n": 51938,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 126582,
+          "training_outcomes_after": 131618,
+          "training_outcomes_before": 79632
+        },
+        "points": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6896124567280987,
+            "baseline_brier": 0.24822850703259233,
+            "baseline_coverage_80": 0.8313632781717888,
+            "baseline_coverage_95": 0.9572738280574296,
+            "baseline_crps": 3.3660880328780514,
+            "baseline_interval_width_80": 15.184896884429838,
+            "baseline_mae": 4.759333805597428,
+            "baseline_nll": 3.113948011102006,
+            "baseline_rmse": 6.260482707318648,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6770483418007583,
+            "brier": 0.24209372818814845,
+            "coverage_80": 0.8343039458763382,
+            "coverage_95": 0.9576390090142036,
+            "crps": 3.288755368936944,
+            "crps_n": 52029,
+            "distribution_n": 52029,
+            "interval_width_80": 14.661803993926464,
+            "mae": 4.666897589468458,
+            "n": 52029,
+            "nll": 3.0808981480099535,
+            "nll_floor_count": 0,
+            "opportunity_mae": 5.080228709855566,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.10660602564625109,
+              -0.07731186964550449
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 6.113899842549095,
+            "week_blocks": 50
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 4.668093408490374,
+              "n": 51938,
+              "rmse": 6.115350509142971
+            },
+            "after_only": 91,
+            "before": {
+              "mae": 4.763749112270499,
+              "n": 51938,
+              "rmse": 6.196105002903086
+            },
+            "before_only": 0,
+            "common_sample_n": 51938,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 126582,
+          "training_outcomes_after": 131618,
+          "training_outcomes_before": 79632
+        },
+        "rebounds": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6817666993990305,
+            "baseline_brier": 0.24434401786676138,
+            "baseline_coverage_80": 0.8706298410501836,
+            "baseline_coverage_95": 0.9689788387245575,
+            "baseline_crps": 1.3753892552808504,
+            "baseline_interval_width_80": 6.18731861077476,
+            "baseline_mae": 1.9662402484938954,
+            "baseline_nll": 2.2349350320190196,
+            "baseline_rmse": 2.598219643543004,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6696599672403551,
+            "brier": 0.23847745134919568,
+            "coverage_80": 0.8764727363585693,
+            "coverage_95": 0.9710738242134195,
+            "crps": 1.3434541320429088,
+            "crps_n": 52029,
+            "distribution_n": 52029,
+            "interval_width_80": 6.038651521266986,
+            "mae": 1.9271853437097977,
+            "n": 52029,
+            "nll": 2.209355223447153,
+            "nll_floor_count": 0,
+            "opportunity_mae": 5.094234493878007,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.04387522554503031,
+              -0.03450772543471751
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 2.5334756667775737,
+            "week_blocks": 50
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 1.9274253333117246,
+              "n": 51938,
+              "rmse": 2.5334874966195597
+            },
+            "after_only": 91,
+            "before": {
+              "mae": 1.9530995824898016,
+              "n": 51938,
+              "rmse": 2.558543785344633
+            },
+            "before_only": 0,
+            "common_sample_n": 51938,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 126582,
+          "training_outcomes_after": 131618,
+          "training_outcomes_before": 79632
+        },
+        "threes": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6258240126912354,
+            "baseline_brier": 0.21810005737936253,
+            "baseline_coverage_80": 0.9110688270003268,
+            "baseline_coverage_95": 0.9807991696938246,
+            "baseline_crps": 0.6228722116686853,
+            "baseline_interval_width_80": 2.645044110015568,
+            "baseline_mae": 0.9098579028118323,
+            "baseline_nll": 1.3932850204181657,
+            "baseline_rmse": 1.2829025618613166,
+            "beats_baseline_mae": false,
+            "binary_logloss": 0.6231558555853535,
+            "brier": 0.21631486159734623,
+            "coverage_80": 0.9181994656826001,
+            "coverage_95": 0.9809144899959638,
+            "crps": 0.6116050879435325,
+            "crps_n": 52029,
+            "distribution_n": 52029,
+            "interval_width_80": 2.684387553095389,
+            "mae": 0.9105169036534058,
+            "n": 52029,
+            "nll": 1.3800934215884793,
+            "nll_floor_count": 0,
+            "opportunity_mae": 5.100216778203577,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.001576333017196008,
+              0.0031024830381004504
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 1.2544907710586857,
+            "week_blocks": 50
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 0.9111097101677895,
+              "n": 51938,
+              "rmse": 1.2550973700908643
+            },
+            "after_only": 91,
+            "before": {
+              "mae": 0.9158801898479991,
+              "n": 51938,
+              "rmse": 1.2608755232604
+            },
+            "before_only": 0,
+            "common_sample_n": 51938,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "FAILED_SIMPLE_BASELINE",
+          "supervised_pregame_examples_after": 126582,
+          "training_outcomes_after": 131618,
+          "training_outcomes_before": 79632
+        }
+      },
+      "new_version_frozen_forecasts": 124,
+      "pass_reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 32,
+        "INJURY_OR_RESTRICTION_REPORTED": 16,
+        "LONG_LAYOFF_ROLE_UNVERIFIED": 32,
+        "PARTICIPATION_NOT_CONFIRMED": 32,
+        "PROSPECTIVE_CALIBRATION_PENDING": 32,
+        "ROLE_NOT_CONFIRMED": 32,
+        "STALE_PRICE": 32,
+        "TEAM_CHANGE_ROLE_UNVERIFIED": 4
+      },
+      "price_comparison_records": 32,
+      "simulation_draws": 4960000
+    },
+    "NFL": {
+      "after_coverage": {
+        "earliest_date": "2022-09-08",
+        "events": 1166,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-10-12",
+        "outcome_rows": 94210,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "NON_REGULAR_SEASON": 3422,
+          "RECENT_FINAL_STATUS_UNCONFIRMED": 69
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2022": 21773,
+          "2023": 21599,
+          "2024": 21748,
+          "2025": 22440,
+          "2026": 6650
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 1085,
+        "unique_player_games": 25657
+      },
+      "before_coverage": {
+        "earliest_date": "2024-09-05",
+        "events": 623,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-10-12",
+        "outcome_rows": 50838,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "NON_REGULAR_SEASON": 1735,
+          "RECENT_FINAL_STATUS_UNCONFIRMED": 69
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 21748,
+          "2025": 22440,
+          "2026": 6650
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 835,
+        "unique_player_games": 13842
+      },
+      "convergence_failures": 0,
+      "current_fresh_comparisons": 0,
+      "fresh_at_comparison": 0,
+      "identity_matched_comparisons": 112,
+      "marginal_simulations": 124,
+      "markets": {
+        "passing_yards": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6924000608075213,
+            "baseline_brier": 0.24962653773348475,
+            "baseline_coverage_80": 0.8059895833333334,
+            "baseline_coverage_95": 0.98046875,
+            "baseline_crps": 51.89264155111794,
+            "baseline_interval_width_80": 278.2734375,
+            "baseline_mae": 69.86206390542328,
+            "baseline_nll": 6.270256058496789,
+            "baseline_rmse": 89.25821615942859,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6848477036378027,
+            "brier": 0.24540993607513348,
+            "coverage_80": 0.80859375,
+            "coverage_95": 0.9765625,
+            "crps": 49.722718068737436,
+            "crps_n": 768,
+            "distribution_n": 768,
+            "interval_width_80": 270.421875,
+            "mae": 68.0630425768454,
+            "n": 768,
+            "nll": 6.194221302609701,
+            "nll_floor_count": 0,
+            "opportunity_mae": 8.215793832746206,
+            "paired_mae_difference_95_week_bootstrap": [
+              -3.575699795574943,
+              -0.12890036001355035
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 85.06400259557354,
+            "week_blocks": 24
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 67.24610889961492,
+              "n": 733,
+              "rmse": 84.33160306291518
+            },
+            "after_only": 35,
+            "before": {
+              "mae": 68.2563700786687,
+              "n": 733,
+              "rmse": 86.51405290074479
+            },
+            "before_only": 0,
+            "common_sample_n": 733,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 2237,
+          "training_outcomes_after": 2806,
+          "training_outcomes_before": 1510
+        },
+        "receiving_yards": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6531107680054391,
+            "baseline_brier": 0.23022849230719714,
+            "baseline_coverage_80": 0.8049785952116696,
+            "baseline_coverage_95": 0.9700332963374029,
+            "baseline_crps": 11.648782686550597,
+            "baseline_interval_width_80": 52.931346123355006,
+            "baseline_mae": 16.4268151914854,
+            "baseline_nll": 4.348262512542078,
+            "baseline_rmse": 23.715805006776947,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6471996807746191,
+            "brier": 0.22751131095793184,
+            "coverage_80": 0.8062470271127319,
+            "coverage_95": 0.9693990803868717,
+            "crps": 11.390698047767989,
+            "crps_n": 6307,
+            "distribution_n": 6307,
+            "interval_width_80": 50.58078325669891,
+            "mae": 16.098518166472154,
+            "n": 6307,
+            "nll": 4.340298564734594,
+            "nll_floor_count": 0,
+            "opportunity_mae": 1.5970832647180278,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.4779134737349314,
+              -0.18351928624322483
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 23.19484603035962,
+            "week_blocks": 24
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 16.245636583499525,
+              "n": 6152,
+              "rmse": 23.379788329917815
+            },
+            "after_only": 155,
+            "before": {
+              "mae": 16.74960160882228,
+              "n": 6152,
+              "rmse": 23.594218591312423
+            },
+            "before_only": 0,
+            "common_sample_n": 6152,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 18684,
+          "training_outcomes_after": 22851,
+          "training_outcomes_before": 12332
+        },
+        "receptions": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6537025757864873,
+            "baseline_brier": 0.23084039264504996,
+            "baseline_coverage_80": 0.8926589503726019,
+            "baseline_coverage_95": 0.9722530521642619,
+            "baseline_crps": 0.8589858736480289,
+            "baseline_interval_width_80": 3.697161883621373,
+            "baseline_mae": 1.2656223495687584,
+            "baseline_nll": 1.6993154099011787,
+            "baseline_rmse": 1.732375066716379,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6479031460134128,
+            "brier": 0.22804834684128006,
+            "coverage_80": 0.897891231964484,
+            "coverage_95": 0.9760583478674488,
+            "crps": 0.8424250743962388,
+            "crps_n": 6307,
+            "distribution_n": 6307,
+            "interval_width_80": 3.6411923259869985,
+            "mae": 1.2463037105629307,
+            "n": 6307,
+            "nll": 1.6813525599731702,
+            "nll_floor_count": 0,
+            "opportunity_mae": 1.596996198712301,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.029314650464120913,
+              -0.010431292222553512
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 1.6923504560217908,
+            "week_blocks": 24
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 1.2526786393215656,
+              "n": 6152,
+              "rmse": 1.6987900021143607
+            },
+            "after_only": 155,
+            "before": {
+              "mae": 1.2836083261113365,
+              "n": 6152,
+              "rmse": 1.716279704497684
+            },
+            "before_only": 0,
+            "common_sample_n": 6152,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 18684,
+          "training_outcomes_after": 22851,
+          "training_outcomes_before": 12332
+        },
+        "rushing_attempts": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.4427382011427701,
+            "baseline_brier": 0.1405170182862352,
+            "baseline_coverage_80": 0.8538132234025686,
+            "baseline_coverage_95": 0.9635325828444585,
+            "baseline_crps": 0.9091029799559877,
+            "baseline_interval_width_80": 2.145869668622166,
+            "baseline_mae": 1.141351509157122,
+            "baseline_nll": 1.245214521797729,
+            "baseline_rmse": 2.6128034384610688,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.4448705234004273,
+            "brier": 0.1378593934025456,
+            "coverage_80": 0.8569843031552243,
+            "coverage_95": 0.9621055969557635,
+            "crps": 0.858833409116143,
+            "crps_n": 6307,
+            "distribution_n": 6307,
+            "interval_width_80": 2.029332487712066,
+            "mae": 1.1090930165038024,
+            "n": 6307,
+            "nll": 1.2303665022042396,
+            "nll_floor_count": 0,
+            "opportunity_mae": 1.1090930165038024,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.05591809829007066,
+              -0.010091675834417002
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 2.495671872760309,
+            "week_blocks": 24
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 1.1127777152118932,
+              "n": 6152,
+              "rmse": 2.4995495169891138
+            },
+            "after_only": 155,
+            "before": {
+              "mae": 1.3719717364383883,
+              "n": 6152,
+              "rmse": 2.661982252138696
+            },
+            "before_only": 0,
+            "common_sample_n": 6152,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "FAILED_DISTRIBUTION_BASELINE",
+          "supervised_pregame_examples_after": 18684,
+          "training_outcomes_after": 22851,
+          "training_outcomes_before": 12332
+        },
+        "rushing_yards": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.47103954077758337,
+            "baseline_brier": 0.15274151458303872,
+            "baseline_coverage_80": 0.8151260504201681,
+            "baseline_coverage_95": 0.9530680196606944,
+            "baseline_crps": 5.582710163241993,
+            "baseline_interval_width_80": 15.825273505628667,
+            "baseline_mae": 6.555414367004664,
+            "baseline_nll": 2.5966518323359087,
+            "baseline_rmse": 15.910142691085758,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.5095845431234292,
+            "brier": 0.1642788752230835,
+            "coverage_80": 0.8133819565562074,
+            "coverage_95": 0.9546535595370224,
+            "crps": 5.353920445628395,
+            "crps_n": 6307,
+            "distribution_n": 6307,
+            "interval_width_80": 15.324718566671951,
+            "mae": 6.414823213840331,
+            "n": 6307,
+            "nll": 2.606271780042205,
+            "nll_floor_count": 0,
+            "opportunity_mae": 1.1107272759382847,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.2652578262720032,
+              -0.025481857701848857
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 15.47929315588877,
+            "week_blocks": 24
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 6.477780817338651,
+              "n": 6152,
+              "rmse": 15.612594756292555
+            },
+            "after_only": 155,
+            "before": {
+              "mae": 7.48742871447756,
+              "n": 6152,
+              "rmse": 16.05602805361764
+            },
+            "before_only": 0,
+            "common_sample_n": 6152,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "FAILED_DISTRIBUTION_BASELINE",
+          "supervised_pregame_examples_after": 18684,
+          "training_outcomes_after": 22851,
+          "training_outcomes_before": 12332
+        }
+      },
+      "new_version_frozen_forecasts": 124,
+      "pass_reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 112,
+        "FAILED_DISTRIBUTION_BASELINE": 16,
+        "PARTICIPATION_NOT_CONFIRMED": 112,
+        "PROSPECTIVE_CALIBRATION_PENDING": 112,
+        "ROLE_NOT_CONFIRMED": 112,
+        "STALE_PRICE": 112,
+        "TEAM_CHANGE_ROLE_UNVERIFIED": 8
+      },
+      "price_comparison_records": 112,
+      "simulation_draws": 4960000
+    },
+    "NHL": {
+      "after_coverage": {
+        "earliest_date": "2021-10-12",
+        "events": 6658,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-10-14",
+        "outcome_rows": 253759,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "RECENT_FINAL_STATUS_UNCONFIRMED": 39
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2022": 49988,
+          "2023": 49993,
+          "2024": 50018,
+          "2025": 49988,
+          "2026": 49998,
+          "2027": 3774
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 1679,
+        "unique_player_games": 253759
+      },
+      "before_coverage": {
+        "earliest_date": "2023-10-10",
+        "events": 4035,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-10-14",
+        "outcome_rows": 153778,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "RECENT_FINAL_STATUS_UNCONFIRMED": 39
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 50018,
+          "2025": 49988,
+          "2026": 49998,
+          "2027": 3774
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 1353,
+        "unique_player_games": 153778
+      },
+      "convergence_failures": 0,
+      "current_fresh_comparisons": 0,
+      "fresh_at_comparison": 0,
+      "identity_matched_comparisons": 16,
+      "marginal_simulations": 47,
+      "markets": {
+        "goalie_saves": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6935567148541135,
+            "baseline_brier": 0.2502028782709759,
+            "baseline_coverage_80": 0.8191035218783351,
+            "baseline_coverage_95": 0.9541088580576307,
+            "baseline_crps": 4.374573361189313,
+            "baseline_interval_width_80": 19.32515119174671,
+            "baseline_mae": 6.086118098964951,
+            "baseline_nll": 3.501282830097229,
+            "baseline_rmse": 7.837915228409342,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6684315952436575,
+            "brier": 0.2379105886139384,
+            "coverage_80": 0.8205265030238349,
+            "coverage_95": 0.9567769477054429,
+            "crps": 4.209283178242994,
+            "crps_n": 5622,
+            "distribution_n": 5622,
+            "interval_width_80": 18.41746709356101,
+            "mae": 5.907845755494051,
+            "n": 5622,
+            "nll": 3.456569199431902,
+            "nll_floor_count": 0,
+            "opportunity_mae": 5.977549556444516,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.23344349599523115,
+              -0.12508479501807973
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 7.640689017070421,
+            "week_blocks": 57
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 5.907666676531199,
+              "n": 5597,
+              "rmse": 7.637321850535481
+            },
+            "after_only": 25,
+            "before": {
+              "mae": 5.988501878416693,
+              "n": 5597,
+              "rmse": 7.7202212992923895
+            },
+            "before_only": 0,
+            "common_sample_n": 5597,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 13380,
+          "training_outcomes_after": 14141,
+          "training_outcomes_before": 8540
+        },
+        "shots_on_goal": {
+          "evaluation": {
+            "baseline_binary_logloss": 0.6680342931228016,
+            "baseline_brier": 0.23763741205639755,
+            "baseline_coverage_80": 0.9143559651225257,
+            "baseline_coverage_95": 0.9818174304723336,
+            "baseline_crps": 0.7143534401588465,
+            "baseline_interval_width_80": 3.1594797305673787,
+            "baseline_mae": 1.0587126165189826,
+            "baseline_nll": 1.5838756692694769,
+            "baseline_rmse": 1.3716227116175772,
+            "beats_baseline_mae": true,
+            "binary_logloss": 0.6536776073216384,
+            "brier": 0.23081283166692929,
+            "coverage_80": 0.9236228769783875,
+            "coverage_95": 0.9832947642464565,
+            "crps": 0.697107626684292,
+            "crps_n": 96796,
+            "distribution_n": 96796,
+            "interval_width_80": 3.127670564899376,
+            "mae": 1.0350644492237442,
+            "n": 96796,
+            "nll": 1.5616188455493856,
+            "nll_floor_count": 0,
+            "opportunity_mae": 1.8599026958406966,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.025639076078901372,
+              -0.02180005660435045
+            ],
+            "probability_score_scope": "Predeclared half-line floor(prior last-10 mean)+0.5, NOT a bookmaker line or market benchmark",
+            "rmse": 1.3354876305931662,
+            "week_blocks": 57
+          },
+          "paired_before_after": {
+            "after": {
+              "mae": 1.0355608264065996,
+              "n": 96525,
+              "rmse": 1.3361446283918879
+            },
+            "after_only": 271,
+            "before": {
+              "mae": 1.0374640585000883,
+              "n": 96525,
+              "rmse": 1.3398035149512226
+            },
+            "before_only": 0,
+            "common_sample_n": 96525,
+            "revised_outcome_exclusions": 0,
+            "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+          },
+          "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+          "supervised_pregame_examples_after": 232366,
+          "training_outcomes_after": 239618,
+          "training_outcomes_before": 145238
+        }
+      },
+      "new_version_frozen_forecasts": 47,
+      "pass_reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 16,
+        "PARTICIPATION_NOT_CONFIRMED": 16,
+        "PROSPECTIVE_CALIBRATION_PENDING": 16,
+        "ROLE_NOT_CONFIRMED": 16,
+        "STALE_PRICE": 16
+      },
+      "price_comparison_records": 16,
+      "simulation_draws": 1880000
+    }
+  },
+  "synthetic_performance_sample": 0,
+  "validated_edges": 0
+}

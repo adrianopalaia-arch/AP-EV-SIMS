@@ -1,0 +1,2167 @@
+{
+  "generated_at": "2026-10-17T02:10:39.996006+00:00",
+  "model_version": "cfb-score-ridge-v1.1",
+  "scope": "Existing CFB model/forecasts preserved; newly executed marginal Monte Carlo draws only",
+  "simulations": [
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 12.214285714285719,
+      "forecast_hash": "99f809b3a2025beb73b112672d9d516c0b0b8b0aad73f4f0e30b5b3b4ee30ea7",
+      "market": "game_margin",
+      "pmf_hash": "474619578c264db3f5ab3a54d0af972d4f8f647cb5a7ded17c4c68134b18a1e3",
+      "runs": [
+        {
+          "cdf_max_error": 0.009934101382488458,
+          "draws": 20000,
+          "mean": 11.85585,
+          "quantiles_10_50_90": [
+            -13.0,
+            11.0,
+            36.0
+          ],
+          "seed": 2583169459,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.003459447004608429,
+          "draws": 20000,
+          "mean": 12.2286,
+          "quantiles_10_50_90": [
+            -11.099999999999909,
+            12.0,
+            37.0
+          ],
+          "seed": 2583169460,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 8.903523974581168,
+      "forecast_hash": "bb356263be848e1a0c8dbc959d4c5ccfda7d557c680f1b662704e9f50d5bac29",
+      "market": "game_margin",
+      "pmf_hash": "18ca9f9f762502af4c99e3a2dcf80a1ec367d5adb53b230a3fa778e82ff1c7c1",
+      "runs": [
+        {
+          "cdf_max_error": 0.006257683419988447,
+          "draws": 20000,
+          "mean": 8.8442,
+          "quantiles_10_50_90": [
+            -15.0,
+            8.0,
+            33.0
+          ],
+          "seed": 3140837987,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.004319497400346567,
+          "draws": 20000,
+          "mean": 8.9721,
+          "quantiles_10_50_90": [
+            -15.0,
+            9.0,
+            33.0
+          ],
+          "seed": 3140837988,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 6.486191024165708,
+      "forecast_hash": "1726fb954980b667cd5264553ac0f288ab3e98f4943dadcf8a9217271e3479af",
+      "market": "game_margin",
+      "pmf_hash": "dc7d8f40c4e25a4bdc03413e00d113c3ee67157ce0a20ef367b893b23991e5a8",
+      "runs": [
+        {
+          "cdf_max_error": 0.0038565017261219525,
+          "draws": 20000,
+          "mean": 6.42425,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.0,
+            31.0
+          ],
+          "seed": 388430741,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.004623762945914933,
+          "draws": 20000,
+          "mean": 6.49035,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.0,
+            32.0
+          ],
+          "seed": 388430742,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 10.154905335628227,
+      "forecast_hash": "a69c24496c512448a1f431a19c5df4187c02bd1b4ddebc3cda23867c8756c7b3",
+      "market": "game_margin",
+      "pmf_hash": "f9fa4af07e73ba1b50d65feb7c383668b87f557b8e56d3f39abfc03266d41db5",
+      "runs": [
+        {
+          "cdf_max_error": 0.007455192197360877,
+          "draws": 20000,
+          "mean": 9.95185,
+          "quantiles_10_50_90": [
+            -14.0,
+            10.0,
+            35.0
+          ],
+          "seed": 2795250761,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.004922633390705672,
+          "draws": 20000,
+          "mean": 10.13815,
+          "quantiles_10_50_90": [
+            -14.0,
+            10.0,
+            35.0
+          ],
+          "seed": 2795250762,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 2.9313329486439703,
+      "forecast_hash": "cc28ad9a468fd7212afa57ed08c954f0a1eea1e5bad0e3545aa9327e1d4fbcb4",
+      "market": "game_margin",
+      "pmf_hash": "43255d6be95e080ef753c7231d128c3e918d14989de8da8330e0c1fa2f24058b",
+      "runs": [
+        {
+          "cdf_max_error": 0.006674091171379237,
+          "draws": 20000,
+          "mean": 3.012,
+          "quantiles_10_50_90": [
+            -21.0,
+            3.0,
+            28.0
+          ],
+          "seed": 3425217946,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.005494864396999449,
+          "draws": 20000,
+          "mean": 3.02175,
+          "quantiles_10_50_90": [
+            -21.0,
+            3.0,
+            28.0
+          ],
+          "seed": 3425217947,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 10.234079173838209,
+      "forecast_hash": "65c086c91ca69d9003faa19c18a94463d6a1c92a24e22efb82b20e775ed0f290",
+      "market": "game_margin",
+      "pmf_hash": "89b49def3da95d612c9a5244b74c7d6705f86042607757adae0ad4a4c7a3810e",
+      "runs": [
+        {
+          "cdf_max_error": 0.0038244406196216163,
+          "draws": 20000,
+          "mean": 10.3061,
+          "quantiles_10_50_90": [
+            -14.0,
+            10.0,
+            35.0
+          ],
+          "seed": 1707116233,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.003075559380378401,
+          "draws": 20000,
+          "mean": 10.1916,
+          "quantiles_10_50_90": [
+            -14.0,
+            10.0,
+            35.0
+          ],
+          "seed": 1707116234,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 10.62672018348624,
+      "forecast_hash": "4a961fcf8dfaa2ff5cf5b881fb889fee8fce3e7400a521dcbee5f7f186c4e84c",
+      "market": "game_margin",
+      "pmf_hash": "fbccdc404f2a9081fa7c063ff51fa752017d88b475cec527eaed9efee82a4962",
+      "runs": [
+        {
+          "cdf_max_error": 0.005023394495412857,
+          "draws": 20000,
+          "mean": 10.8191,
+          "quantiles_10_50_90": [
+            -13.0,
+            10.0,
+            35.0
+          ],
+          "seed": 1251352527,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.003999999999999948,
+          "draws": 20000,
+          "mean": 10.55985,
+          "quantiles_10_50_90": [
+            -14.0,
+            10.0,
+            35.0
+          ],
+          "seed": 1251352528,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": -0.13494809688581305,
+      "forecast_hash": "5474f5b697d7a51d33e9a6626750d6d9c8b76302c2f29b228f2d2b3d09249926",
+      "market": "game_margin",
+      "pmf_hash": "b8bffbb3e9dde1ec023c9489f3889583628418baa1e5baac285fa2706a0894bf",
+      "runs": [
+        {
+          "cdf_max_error": 0.006052883506343587,
+          "draws": 20000,
+          "mean": -0.1324,
+          "quantiles_10_50_90": [
+            -24.0,
+            -1.0,
+            24.0
+          ],
+          "seed": 1416951222,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0032021337946941952,
+          "draws": 20000,
+          "mean": -0.11265,
+          "quantiles_10_50_90": [
+            -24.0,
+            -1.0,
+            25.0
+          ],
+          "seed": 1416951223,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 14.32041049030787,
+      "forecast_hash": "eb660987913bb01b8028119363337665eac68f5579629a587836537df9033667",
+      "market": "game_margin",
+      "pmf_hash": "c9047d44e77519f48c12cb03edc2511794fc76df3b165ba60ce6a5f97723ab88",
+      "runs": [
+        {
+          "cdf_max_error": 0.005701995438996632,
+          "draws": 20000,
+          "mean": 14.1915,
+          "quantiles_10_50_90": [
+            -9.0,
+            14.0,
+            38.0
+          ],
+          "seed": 3949332871,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0036066134549601614,
+          "draws": 20000,
+          "mean": 14.2578,
+          "quantiles_10_50_90": [
+            -10.0,
+            14.0,
+            38.0
+          ],
+          "seed": 3949332872,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 4.066628374497415,
+      "forecast_hash": "2250e140dd53bf923fdb8ab3589343aa0726168ea11d7de5f22f5627f11c06b6",
+      "market": "game_margin",
+      "pmf_hash": "b4db734ea2d4d2b016ffc40937c2357d404255a0ac0c4bea0e4bc7e3abff4ca6",
+      "runs": [
+        {
+          "cdf_max_error": 0.003982653647329415,
+          "draws": 20000,
+          "mean": 4.05395,
+          "quantiles_10_50_90": [
+            -19.09999999999991,
+            4.0,
+            29.0
+          ],
+          "seed": 575725888,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.006185870189545972,
+          "draws": 20000,
+          "mean": 4.18775,
+          "quantiles_10_50_90": [
+            -19.0,
+            4.0,
+            29.0
+          ],
+          "seed": 575725889,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 7.3924050632911396,
+      "forecast_hash": "f03da1945f00a47b868ab406888583cdae40149631002c290d992a6d53bcb434",
+      "market": "game_margin",
+      "pmf_hash": "e882c3dd61d18b914cdbcf3521233b154c90bfca22b9303f30aef8c539098c68",
+      "runs": [
+        {
+          "cdf_max_error": 0.004736478711162451,
+          "draws": 20000,
+          "mean": 7.43865,
+          "quantiles_10_50_90": [
+            -16.0,
+            7.0,
+            32.0
+          ],
+          "seed": 4030570900,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.004676812428078048,
+          "draws": 20000,
+          "mean": 7.30925,
+          "quantiles_10_50_90": [
+            -17.0,
+            7.0,
+            32.0
+          ],
+          "seed": 4030570901,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 12.259792626728114,
+      "forecast_hash": "a5f5cf5d89bb778cc967c47ce74aea39c3ad15b869b10243ae6caee08abe0c12",
+      "market": "game_margin",
+      "pmf_hash": "9336e3cc5b4dc75228d600bbc866b107a8470300cc960b734668b6b056479102",
+      "runs": [
+        {
+          "cdf_max_error": 0.007749308755760409,
+          "draws": 20000,
+          "mean": 12.50635,
+          "quantiles_10_50_90": [
+            -12.0,
+            12.0,
+            37.0
+          ],
+          "seed": 2784350045,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.005392626728110528,
+          "draws": 20000,
+          "mean": 12.204,
+          "quantiles_10_50_90": [
+            -11.0,
+            12.0,
+            36.0
+          ],
+          "seed": 2784350046,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 6.663394919168591,
+      "forecast_hash": "4c1a92691c872ce103310f9f23787cae56d0b2b727c77741db7f6c7d76ba4bf2",
+      "market": "game_margin",
+      "pmf_hash": "a0a8bbb509310f61db7a5a7eac7a218c022ba75dd2ee4474c4efa40bd1cfa753",
+      "runs": [
+        {
+          "cdf_max_error": 0.0029773672055428135,
+          "draws": 20000,
+          "mean": 6.66215,
+          "quantiles_10_50_90": [
+            -17.0,
+            7.0,
+            31.0
+          ],
+          "seed": 1276809833,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.005961662817551838,
+          "draws": 20000,
+          "mean": 6.5717,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.5,
+            31.0
+          ],
+          "seed": 1276809834,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": -2.3058280438545875,
+      "forecast_hash": "0d8e96c63685dab899678ecd6ad0fbfd2f8e98f28c3eeffd11df855805ac2b38",
+      "market": "game_margin",
+      "pmf_hash": "f2429dd84dbab8f6c556fba5b096a7b57dcded9a165e41963d0dda01029102c8",
+      "runs": [
+        {
+          "cdf_max_error": 0.002941113675707041,
+          "draws": 20000,
+          "mean": -2.2575,
+          "quantiles_10_50_90": [
+            -26.0,
+            -3.5,
+            22.0
+          ],
+          "seed": 227448518,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0032546162723602334,
+          "draws": 20000,
+          "mean": -2.2693,
+          "quantiles_10_50_90": [
+            -26.0,
+            -3.0,
+            23.0
+          ],
+          "seed": 227448519,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 13.474381116868164,
+      "forecast_hash": "ba562983f512c8b4c3336a2dda0e37761ccf08e58b04fb749710ffab2c15e36b",
+      "market": "game_margin",
+      "pmf_hash": "4c8df3e558c1876e429c8f1282c6f8041edcce88ab2b8f2a5017b2b84cb4ea0b",
+      "runs": [
+        {
+          "cdf_max_error": 0.005495308002302815,
+          "draws": 20000,
+          "mean": 13.40225,
+          "quantiles_10_50_90": [
+            -11.0,
+            13.0,
+            38.0
+          ],
+          "seed": 3126208899,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.003699510650546939,
+          "draws": 20000,
+          "mean": 13.4733,
+          "quantiles_10_50_90": [
+            -11.0,
+            13.0,
+            38.0
+          ],
+          "seed": 3126208900,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 5.75947187141217,
+      "forecast_hash": "e357dbe5b3ab1d16099bb337c2a20e5ded3c30a64c3d9f70a56e28060d5bb4e6",
+      "market": "game_margin",
+      "pmf_hash": "cdb6d48108efa2b8adec4fb4fc5c8adad098a37588575f7f055c62237ecbf619",
+      "runs": [
+        {
+          "cdf_max_error": 0.004800688863375258,
+          "draws": 20000,
+          "mean": 5.9073,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.0,
+            31.0
+          ],
+          "seed": 3814185957,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.003928243398392484,
+          "draws": 20000,
+          "mean": 5.77115,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.0,
+            30.0
+          ],
+          "seed": 3814185958,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 0.7926267281105991,
+      "forecast_hash": "8286f8aa1f3405be4523aed578e7d2159747bfb009078698fd15bec57b576e75",
+      "market": "game_margin",
+      "pmf_hash": "f05739d2b66c8086c859b6492b5dc8e95d1bf7baf8794f0da4c145b9d2afc084",
+      "runs": [
+        {
+          "cdf_max_error": 0.0060884792626728634,
+          "draws": 20000,
+          "mean": 0.61555,
+          "quantiles_10_50_90": [
+            -23.0,
+            1.0,
+            25.0
+          ],
+          "seed": 2189883562,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0060799539170506844,
+          "draws": 20000,
+          "mean": 0.74985,
+          "quantiles_10_50_90": [
+            -23.0,
+            -1.0,
+            26.0
+          ],
+          "seed": 2189883563,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 9.935816618911172,
+      "forecast_hash": "81dd75ae1961856b6dedcd136e8449b1bb6bcdc5adc40306e0cc65b350f7b647",
+      "market": "game_margin",
+      "pmf_hash": "01a6c6e025f0d8a5fe82816756c40a08c640b6cbb41911ce736f74ad499481e7",
+      "runs": [
+        {
+          "cdf_max_error": 0.004343553008595957,
+          "draws": 20000,
+          "mean": 9.97875,
+          "quantiles_10_50_90": [
+            -14.0,
+            10.0,
+            35.0
+          ],
+          "seed": 2178774446,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.005776790830945566,
+          "draws": 20000,
+          "mean": 10.0534,
+          "quantiles_10_50_90": [
+            -14.0,
+            10.0,
+            35.0
+          ],
+          "seed": 2178774447,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 0.49712313003452263,
+      "forecast_hash": "9a91ef1b68d8ca72f4e7a5a6d3ada263e33de2b9f287c5d11b4ab35488f0f5f4",
+      "market": "game_margin",
+      "pmf_hash": "25c8dda8a7d6f9c598462e57c1b06bebaad3f33b813d6e3e3e5d63767d4c7ee1",
+      "runs": [
+        {
+          "cdf_max_error": 0.008911334867663878,
+          "draws": 20000,
+          "mean": 0.3249,
+          "quantiles_10_50_90": [
+            -23.0,
+            -1.0,
+            25.0
+          ],
+          "seed": 2593255195,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.005057882623705212,
+          "draws": 20000,
+          "mean": 0.47305,
+          "quantiles_10_50_90": [
+            -23.0,
+            -1.0,
+            25.0
+          ],
+          "seed": 2593255196,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 8.096440872560274,
+      "forecast_hash": "c6c539b08459250e8c136475d473151195cf31cf0dbf4ceb0e5e67bf316be20b",
+      "market": "game_margin",
+      "pmf_hash": "5ff5975e93d659cbbdc2b03badfca5c0d0d454072cfe326baeece208d00987a8",
+      "runs": [
+        {
+          "cdf_max_error": 0.004733065442020595,
+          "draws": 20000,
+          "mean": 8.13885,
+          "quantiles_10_50_90": [
+            -15.0,
+            8.0,
+            32.0
+          ],
+          "seed": 3334814128,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.007200975889781858,
+          "draws": 20000,
+          "mean": 7.8438,
+          "quantiles_10_50_90": [
+            -17.0,
+            8.0,
+            32.0
+          ],
+          "seed": 3334814129,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 2.084004602991944,
+      "forecast_hash": "095e6f6f1a7d4bfec47e7e5f33e7824f4178a9962906523a8ccfd48e2fcce4e8",
+      "market": "game_margin",
+      "pmf_hash": "7737cd4cb80484445debaf627908e0e6ac1841fc9240a42ac1b292f5f2a79e32",
+      "runs": [
+        {
+          "cdf_max_error": 0.009476927502876875,
+          "draws": 20000,
+          "mean": 2.36945,
+          "quantiles_10_50_90": [
+            -21.0,
+            2.0,
+            27.0
+          ],
+          "seed": 157183855,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.003550230149597211,
+          "draws": 20000,
+          "mean": 2.0196,
+          "quantiles_10_50_90": [
+            -22.0,
+            2.0,
+            26.0
+          ],
+          "seed": 157183856,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 5.488812392426851,
+      "forecast_hash": "e5c10d7fd75c12af02a5d09ae6c5c54063aa0f75ed0bdb7697775b1942d3e6d8",
+      "market": "game_margin",
+      "pmf_hash": "73105e929cf20ea00abedf521474d4c4b641db953d4839648d699942261c3374",
+      "runs": [
+        {
+          "cdf_max_error": 0.006513367756741273,
+          "draws": 20000,
+          "mean": 5.42565,
+          "quantiles_10_50_90": [
+            -19.0,
+            5.0,
+            30.0
+          ],
+          "seed": 3854634367,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.007256024096385483,
+          "draws": 20000,
+          "mean": 5.5813,
+          "quantiles_10_50_90": [
+            -19.0,
+            5.0,
+            30.0
+          ],
+          "seed": 3854634368,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 6.49884925201381,
+      "forecast_hash": "8ad0c686d199b218ae7bce65e9a113caa78847afc7b44672fc0be4017505240d",
+      "market": "game_margin",
+      "pmf_hash": "2831721730159712e7a86d3ae1d27b8b1fe35c35c788b32d5d279a66f944ecf1",
+      "runs": [
+        {
+          "cdf_max_error": 0.004187111622554751,
+          "draws": 20000,
+          "mean": 6.51795,
+          "quantiles_10_50_90": [
+            -17.0,
+            6.0,
+            31.0
+          ],
+          "seed": 2328938118,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.006618124280782345,
+          "draws": 20000,
+          "mean": 6.3247,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.0,
+            30.0
+          ],
+          "seed": 2328938119,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 5.9102416570771,
+      "forecast_hash": "47c9796a60711886e31fd7ec6242524dfd0afb259cddfd88d337c5c968f5043d",
+      "market": "game_margin",
+      "pmf_hash": "b8bed2a6a1f34115d75c57d1ec3a6df59b60ae3b833a620d56ecfd9f76a6d35c",
+      "runs": [
+        {
+          "cdf_max_error": 0.004014384349827593,
+          "draws": 20000,
+          "mean": 5.99125,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.0,
+            31.0
+          ],
+          "seed": 1204386154,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.004988204833141663,
+          "draws": 20000,
+          "mean": 6.03505,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.0,
+            31.0
+          ],
+          "seed": 1204386155,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 4.281124497991968,
+      "forecast_hash": "0ed59dfb92ea3eff5a286a15e1b1a4c51afed4e9d2dcf54e4c4ac14d05bd82df",
+      "market": "game_margin",
+      "pmf_hash": "6b647fb0216630b282b0ffbd40ba9b5f236a1965ea13bbe55f98da751d4eb4d4",
+      "runs": [
+        {
+          "cdf_max_error": 0.008934509466437146,
+          "draws": 20000,
+          "mean": 4.1574,
+          "quantiles_10_50_90": [
+            -19.0,
+            4.0,
+            29.0
+          ],
+          "seed": 248880635,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.006285484796328122,
+          "draws": 20000,
+          "mean": 4.0874,
+          "quantiles_10_50_90": [
+            -20.0,
+            4.0,
+            28.0
+          ],
+          "seed": 248880636,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 3.052540415704388,
+      "forecast_hash": "f2fcb6f142a2268090dd2a0b5088a0f42d56b2d1ed9d2d3ec02c1e838071664b",
+      "market": "game_margin",
+      "pmf_hash": "03b69820d263e0b6f70b3ec2a9df29f1fdbef7c1005cdd84ce029223c01d831a",
+      "runs": [
+        {
+          "cdf_max_error": 0.004702193995381049,
+          "draws": 20000,
+          "mean": 3.1112,
+          "quantiles_10_50_90": [
+            -21.0,
+            3.0,
+            28.0
+          ],
+          "seed": 4076648177,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.003988683602771326,
+          "draws": 20000,
+          "mean": 3.02885,
+          "quantiles_10_50_90": [
+            -20.0,
+            3.0,
+            28.0
+          ],
+          "seed": 4076648178,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 8.960716348931255,
+      "forecast_hash": "5305f24b1eb2198411986727ff06bed6b8ab1c0a64e759cb4a6140b0f9aba4bc",
+      "market": "game_margin",
+      "pmf_hash": "397c2a461b0809431d901c94a3b172a30320f76e2f4556a16e1e70eda7ed29e0",
+      "runs": [
+        {
+          "cdf_max_error": 0.007058145580589481,
+          "draws": 20000,
+          "mean": 8.908,
+          "quantiles_10_50_90": [
+            -15.0,
+            9.0,
+            33.0
+          ],
+          "seed": 1392898635,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.004637752744078738,
+          "draws": 20000,
+          "mean": 8.869,
+          "quantiles_10_50_90": [
+            -15.0,
+            9.0,
+            33.0
+          ],
+          "seed": 1392898636,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 7.261069580218518,
+      "forecast_hash": "e67378fe5435a80692d06a13c06603c599f9e50dc55358baf339f3eb3510cc58",
+      "market": "game_margin",
+      "pmf_hash": "c68cb9cab4d5991206a26036a4ccbb86a0516da2d0af073ac75985718e8c9bf4",
+      "runs": [
+        {
+          "cdf_max_error": 0.0039686601495113605,
+          "draws": 20000,
+          "mean": 7.3066,
+          "quantiles_10_50_90": [
+            -17.0,
+            7.0,
+            32.0
+          ],
+          "seed": 3866327294,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.006613427257044335,
+          "draws": 20000,
+          "mean": 7.21825,
+          "quantiles_10_50_90": [
+            -16.0,
+            7.0,
+            32.0
+          ],
+          "seed": 3866327295,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 5.332756632064591,
+      "forecast_hash": "677570f8bf551acc106ca5779947a1d7ac23acb679ab2f5b68d300ccbc995554",
+      "market": "game_margin",
+      "pmf_hash": "bfe20d8672f87ee2442292a6ce2b6bbf49e7d246a0dd5dac3d56e1e472f81e4c",
+      "runs": [
+        {
+          "cdf_max_error": 0.007916378316032369,
+          "draws": 20000,
+          "mean": 5.1905,
+          "quantiles_10_50_90": [
+            -19.0,
+            5.0,
+            30.0
+          ],
+          "seed": 1735749880,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.006174509803921424,
+          "draws": 20000,
+          "mean": 5.36775,
+          "quantiles_10_50_90": [
+            -19.0,
+            5.0,
+            30.0
+          ],
+          "seed": 1735749881,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 3.6782006920415222,
+      "forecast_hash": "1aa9a9361bb7db587fb7d1ddf2f5b254226fa7ff3422fa6cf6d451dee5b84fa9",
+      "market": "game_margin",
+      "pmf_hash": "90a4df0c65388c53f0495ce53cecdfa507c692072689e213632c78d27b1c2616",
+      "runs": [
+        {
+          "cdf_max_error": 0.00634878892733548,
+          "draws": 20000,
+          "mean": 3.84385,
+          "quantiles_10_50_90": [
+            -20.0,
+            3.0,
+            29.0
+          ],
+          "seed": 447326518,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.004330334486735879,
+          "draws": 20000,
+          "mean": 3.7919,
+          "quantiles_10_50_90": [
+            -20.0,
+            4.0,
+            28.0
+          ],
+          "seed": 447326519,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 12.833910034602077,
+      "forecast_hash": "ab6854221d2a059d4409f718964bfca5c120c2f00807ca01531d0ea038307b26",
+      "market": "game_margin",
+      "pmf_hash": "f72219dba7f0a7c6c32605fc98f10e4a793501bd294d5a4f49ed43900807f19c",
+      "runs": [
+        {
+          "cdf_max_error": 0.003834890426758969,
+          "draws": 20000,
+          "mean": 12.73535,
+          "quantiles_10_50_90": [
+            -12.0,
+            12.0,
+            37.0
+          ],
+          "seed": 2875741218,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.004477450980392317,
+          "draws": 20000,
+          "mean": 12.7825,
+          "quantiles_10_50_90": [
+            -11.0,
+            12.0,
+            37.0
+          ],
+          "seed": 2875741219,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 9.374784110535407,
+      "forecast_hash": "8e0105992a9891d11c59ea359985627957dbb1cb3c74cefd2e149f67b8ad2ee3",
+      "market": "game_margin",
+      "pmf_hash": "696e71edf50a020c9715b99fc830f1f0c20913128e9b6aab2c3a987b73a2603b",
+      "runs": [
+        {
+          "cdf_max_error": 0.011029821531375994,
+          "draws": 20000,
+          "mean": 9.65465,
+          "quantiles_10_50_90": [
+            -14.0,
+            9.0,
+            34.0
+          ],
+          "seed": 2382431641,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.009174553828439902,
+          "draws": 20000,
+          "mean": 9.5297,
+          "quantiles_10_50_90": [
+            -14.0,
+            9.0,
+            34.0
+          ],
+          "seed": 2382431642,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 12.891203703703704,
+      "forecast_hash": "e966bdb59bf1541f5ccb52d982cab768f2ae16079586c531b378230883077726",
+      "market": "game_margin",
+      "pmf_hash": "856e883cb297379d51173c08928e83e26c662947f8c17754192fadbbd3c77231",
+      "runs": [
+        {
+          "cdf_max_error": 0.0040018518518518675,
+          "draws": 20000,
+          "mean": 12.8674,
+          "quantiles_10_50_90": [
+            -12.0,
+            12.0,
+            37.0
+          ],
+          "seed": 3915824565,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.003231481481481488,
+          "draws": 20000,
+          "mean": 12.9125,
+          "quantiles_10_50_90": [
+            -11.0,
+            13.0,
+            37.0
+          ],
+          "seed": 3915824566,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 7.095402298850574,
+      "forecast_hash": "bb1c934f338b66b80e87195bef77a64d27177d48fab36c5a1a5e1a9e58d2f275",
+      "market": "game_margin",
+      "pmf_hash": "abb462b801a1437db3aee6df2e044968a73492dde6301e3ffd3189b8dea33510",
+      "runs": [
+        {
+          "cdf_max_error": 0.005990804597701127,
+          "draws": 20000,
+          "mean": 6.97445,
+          "quantiles_10_50_90": [
+            -17.0,
+            7.0,
+            31.0
+          ],
+          "seed": 3139212111,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.009466091954022954,
+          "draws": 20000,
+          "mean": 6.77155,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.0,
+            31.0
+          ],
+          "seed": 3139212112,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 4.598270893371757,
+      "forecast_hash": "08693f3815c91e2259e142136ab1610d89d05f71aeb9e82ad46cbc2e9ac3af40",
+      "market": "game_margin",
+      "pmf_hash": "33512e3f41b6f81adcd0e6f8cba025d9763a781a3b9731a3af12d30df43140c2",
+      "runs": [
+        {
+          "cdf_max_error": 0.006898703170028719,
+          "draws": 20000,
+          "mean": 4.7592,
+          "quantiles_10_50_90": [
+            -19.0,
+            5.0,
+            29.0
+          ],
+          "seed": 141115192,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.005174351585014558,
+          "draws": 20000,
+          "mean": 4.4247,
+          "quantiles_10_50_90": [
+            -20.0,
+            4.0,
+            29.0
+          ],
+          "seed": 141115193,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 17.299999999999997,
+      "forecast_hash": "6ba3c9599642dab674169dae8c41210be37f9d7188386c8da776077ef80e73a0",
+      "market": "game_margin",
+      "pmf_hash": "788a60560bfaf911ae5a4530d65fa860079c8da5b2147585a3f4a029d24c91f3",
+      "runs": [
+        {
+          "cdf_max_error": 0.007221428571428601,
+          "draws": 20000,
+          "mean": 17.25345,
+          "quantiles_10_50_90": [
+            -7.0,
+            17.0,
+            42.0
+          ],
+          "seed": 1805896025,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0066428571428571725,
+          "draws": 20000,
+          "mean": 17.4248,
+          "quantiles_10_50_90": [
+            -7.0,
+            17.0,
+            42.0
+          ],
+          "seed": 1805896026,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 9.267857142857146,
+      "forecast_hash": "08559e19cf38504e0c35ad7e83f1086ca1513e2b7432be724d58a62c19c51778",
+      "market": "game_margin",
+      "pmf_hash": "95d55c1e7517ba5724c673a950cb3587727c9595d4ce4582e944680bb84a7b98",
+      "runs": [
+        {
+          "cdf_max_error": 0.0032965437788018415,
+          "draws": 20000,
+          "mean": 9.2913,
+          "quantiles_10_50_90": [
+            -15.0,
+            9.0,
+            34.0
+          ],
+          "seed": 139828761,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.006041705069124492,
+          "draws": 20000,
+          "mean": 9.21085,
+          "quantiles_10_50_90": [
+            -15.0,
+            9.0,
+            33.0
+          ],
+          "seed": 139828762,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 2.415094339622642,
+      "forecast_hash": "8f10d1eb8a7dfc0e7cfe9d02526feab83730d488f9a734de36b3e2e457a10d32",
+      "market": "game_margin",
+      "pmf_hash": "84ca08d6dade21518a253845bd273298b5232df0dd28863c6d8476f7500049b0",
+      "runs": [
+        {
+          "cdf_max_error": 0.007964322469982799,
+          "draws": 20000,
+          "mean": 2.45285,
+          "quantiles_10_50_90": [
+            -22.0,
+            2.0,
+            27.0
+          ],
+          "seed": 2400244203,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.00819213836477986,
+          "draws": 20000,
+          "mean": 2.12455,
+          "quantiles_10_50_90": [
+            -22.0,
+            2.0,
+            27.0
+          ],
+          "seed": 2400244204,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 11.500859598853868,
+      "forecast_hash": "2ee6d3cf7dd3d396289add80d817d937321c3936702aacdb5079a077f9e61156",
+      "market": "game_margin",
+      "pmf_hash": "a2d0fe17dfe2c973be964800c7ef6ea494642973c3ff7683991c50fb3c1a8de9",
+      "runs": [
+        {
+          "cdf_max_error": 0.0038475644699142997,
+          "draws": 20000,
+          "mean": 11.4141,
+          "quantiles_10_50_90": [
+            -13.0,
+            11.0,
+            35.0
+          ],
+          "seed": 786879439,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.007042979942693373,
+          "draws": 20000,
+          "mean": 11.29415,
+          "quantiles_10_50_90": [
+            -13.0,
+            11.0,
+            36.0
+          ],
+          "seed": 786879440,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 0.6634062140391255,
+      "forecast_hash": "98d6fe90d3e77360ba22d37a2dfca00ad0074ee0987b5b09a19f0389c3b4f947",
+      "market": "game_margin",
+      "pmf_hash": "1e70f37c0309f1aadff79949aea97bc7b82d778735dd75dae8e462eb73ba3fee",
+      "runs": [
+        {
+          "cdf_max_error": 0.005135673187571799,
+          "draws": 20000,
+          "mean": 0.6582,
+          "quantiles_10_50_90": [
+            -23.0,
+            -1.0,
+            25.0
+          ],
+          "seed": 2564226704,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.00833141542002297,
+          "draws": 20000,
+          "mean": 0.4151,
+          "quantiles_10_50_90": [
+            -23.0,
+            -1.0,
+            25.0
+          ],
+          "seed": 2564226705,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 7.542840713053479,
+      "forecast_hash": "5077bd225756fa4d44d44b1af8b94b57eca588e4f51c1c8cc63902fd42d96323",
+      "market": "game_margin",
+      "pmf_hash": "5738ae5e11edab7e65cddb0f5dcb518e75c9a72068a46ca7793cafb99239d07f",
+      "runs": [
+        {
+          "cdf_max_error": 0.007789677975848286,
+          "draws": 20000,
+          "mean": 7.7887,
+          "quantiles_10_50_90": [
+            -16.0,
+            8.0,
+            32.0
+          ],
+          "seed": 1350024482,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.011242006900517687,
+          "draws": 20000,
+          "mean": 7.83575,
+          "quantiles_10_50_90": [
+            -17.0,
+            8.0,
+            32.0
+          ],
+          "seed": 1350024483,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 1.8196531791907518,
+      "forecast_hash": "437d248e21677ab3c1beefa7927afaa8f9b2c3b4177310175553b4a02cf1273c",
+      "market": "game_margin",
+      "pmf_hash": "288a35a8d0f6d10ffdb1fee37d70a96702244ea159395cb1fb724b8d8a26362a",
+      "runs": [
+        {
+          "cdf_max_error": 0.007619364161849718,
+          "draws": 20000,
+          "mean": 2.03715,
+          "quantiles_10_50_90": [
+            -22.0,
+            2.0,
+            27.0
+          ],
+          "seed": 1132274830,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.008049421965317882,
+          "draws": 20000,
+          "mean": 2.09045,
+          "quantiles_10_50_90": [
+            -22.0,
+            2.0,
+            27.0
+          ],
+          "seed": 1132274831,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 3.6966551326412915,
+      "forecast_hash": "11e8babc26d05a743aee118c40cf4349fbdfe250eaabe2fa99abd1e576bc78a2",
+      "market": "game_margin",
+      "pmf_hash": "97c6f53a45d46eb519665cad19c6ca92a4bf55c02fb4ada89a35d1dc0560b640",
+      "runs": [
+        {
+          "cdf_max_error": 0.006689677047289511,
+          "draws": 20000,
+          "mean": 3.87455,
+          "quantiles_10_50_90": [
+            -20.0,
+            4.0,
+            29.0
+          ],
+          "seed": 300464828,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0035955017301039227,
+          "draws": 20000,
+          "mean": 3.56825,
+          "quantiles_10_50_90": [
+            -21.0,
+            4.0,
+            28.0
+          ],
+          "seed": 300464829,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 4.280480824270178,
+      "forecast_hash": "f8fd51e6675c7c5121f739b49b2653e488aafb63267445b664c26edba13d97ee",
+      "market": "game_margin",
+      "pmf_hash": "367c9839b5e4d58dd2a11dd4f4c997274e2768668f33edcd9f65d97c1edc3c56",
+      "runs": [
+        {
+          "cdf_max_error": 0.0037949055523754938,
+          "draws": 20000,
+          "mean": 4.24085,
+          "quantiles_10_50_90": [
+            -19.0,
+            4.0,
+            29.0
+          ],
+          "seed": 4177351142,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.003178420148826633,
+          "draws": 20000,
+          "mean": 4.3028,
+          "quantiles_10_50_90": [
+            -20.0,
+            4.0,
+            29.0
+          ],
+          "seed": 4177351143,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 9.507763082231167,
+      "forecast_hash": "4f8b51765b73592e980ec53f1d00a22c8063c75b16bbaf4e7c768414b50a8b95",
+      "market": "game_margin",
+      "pmf_hash": "df3ff456b1be69d489ff502dc3b1797d88c8aeb29bc1706e834497eec2a96958",
+      "runs": [
+        {
+          "cdf_max_error": 0.005932777458309335,
+          "draws": 20000,
+          "mean": 9.47865,
+          "quantiles_10_50_90": [
+            -14.099999999999909,
+            9.0,
+            34.0
+          ],
+          "seed": 1334530422,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.003282547441058062,
+          "draws": 20000,
+          "mean": 9.55155,
+          "quantiles_10_50_90": [
+            -14.0,
+            9.0,
+            34.0
+          ],
+          "seed": 1334530423,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 9.49655172413793,
+      "forecast_hash": "5b3a4929e7b8b6d907a058ff6ad3c8fd79cd02e82c8dd6a47b217374ab4585ec",
+      "market": "game_margin",
+      "pmf_hash": "597b48f0d52810ddc96adb997e4ec70946a1b0ee7f87441f25bbfa8b5d0bd9af",
+      "runs": [
+        {
+          "cdf_max_error": 0.003339080459770105,
+          "draws": 20000,
+          "mean": 9.41445,
+          "quantiles_10_50_90": [
+            -15.0,
+            9.0,
+            34.0
+          ],
+          "seed": 1530546473,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0037850574712643414,
+          "draws": 20000,
+          "mean": 9.56575,
+          "quantiles_10_50_90": [
+            -15.0,
+            9.0,
+            34.0
+          ],
+          "seed": 1530546474,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 3.74468085106383,
+      "forecast_hash": "72c2fd38c2167d905ec0503fe6a4b60bcd59955c662a8370641c9e9756ae7584",
+      "market": "game_margin",
+      "pmf_hash": "9f7ae5dbd356092ebc6138fce32c9f8f0b577ca30fa81fa0afdda64f133d5b05",
+      "runs": [
+        {
+          "cdf_max_error": 0.006582921219091431,
+          "draws": 20000,
+          "mean": 3.6954,
+          "quantiles_10_50_90": [
+            -21.0,
+            4.0,
+            29.0
+          ],
+          "seed": 1925381432,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.007911069580218505,
+          "draws": 20000,
+          "mean": 3.51185,
+          "quantiles_10_50_90": [
+            -21.0,
+            3.0,
+            28.0
+          ],
+          "seed": 1925381433,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 0.058721934369603,
+      "forecast_hash": "5e31e1d96dc20bb85153dd5e0d3c7766083d66eebd7c62d4af79aef9ee6752fa",
+      "market": "game_margin",
+      "pmf_hash": "2229dfad432bb52cdfb002297982a0d2b74462780f035331f11ce114371f4615",
+      "runs": [
+        {
+          "cdf_max_error": 0.0029708117443869586,
+          "draws": 20000,
+          "mean": 0.0744,
+          "quantiles_10_50_90": [
+            -24.0,
+            -1.0,
+            25.0
+          ],
+          "seed": 1580327385,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0046367012089809645,
+          "draws": 20000,
+          "mean": -0.1105,
+          "quantiles_10_50_90": [
+            -24.0,
+            -1.0,
+            25.0
+          ],
+          "seed": 1580327386,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 0.5483314154200227,
+      "forecast_hash": "c8862efbbbed53eec0ed7bae9de188e8a0eea80ec738fcdd8df05f1a99f353cb",
+      "market": "game_margin",
+      "pmf_hash": "b958164b0208fa96364c5608e9dfc7f8ff7c11b2c1bdb3304107f0b7b926a9d6",
+      "runs": [
+        {
+          "cdf_max_error": 0.003898849252013864,
+          "draws": 20000,
+          "mean": 0.5971,
+          "quantiles_10_50_90": [
+            -23.0,
+            -1.0,
+            25.0
+          ],
+          "seed": 3364237051,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.005265535097813578,
+          "draws": 20000,
+          "mean": 0.4749,
+          "quantiles_10_50_90": [
+            -24.0,
+            -1.0,
+            25.0
+          ],
+          "seed": 3364237052,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 10.18624641833811,
+      "forecast_hash": "f82fcf49fe30326359e45e8b8b7018fbd058113f5fde2f7642e82ff59eef5515",
+      "market": "game_margin",
+      "pmf_hash": "0a9f08968f9f9c0ac29b3b1870bd73d7292a72ec6ecef502fad9e59f4cd9330a",
+      "runs": [
+        {
+          "cdf_max_error": 0.0037323782234958136,
+          "draws": 20000,
+          "mean": 10.24085,
+          "quantiles_10_50_90": [
+            -14.0,
+            10.0,
+            35.0
+          ],
+          "seed": 4163882825,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0070378223495703995,
+          "draws": 20000,
+          "mean": 10.4129,
+          "quantiles_10_50_90": [
+            -13.0,
+            10.0,
+            35.0
+          ],
+          "seed": 4163882826,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": -1.493905977945444,
+      "forecast_hash": "09803be96cca4c36f652c7c769fcb5439677d3c39aac57c4473d55429a0797cc",
+      "market": "game_margin",
+      "pmf_hash": "cada441695abebd0aa8144a95d20d79f117b3a633c81537635e7c82a432fa432",
+      "runs": [
+        {
+          "cdf_max_error": 0.006780789320951802,
+          "draws": 20000,
+          "mean": -1.59715,
+          "quantiles_10_50_90": [
+            -26.0,
+            -3.0,
+            24.0
+          ],
+          "seed": 159398889,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0034520313406848357,
+          "draws": 20000,
+          "mean": -1.50575,
+          "quantiles_10_50_90": [
+            -26.0,
+            -3.0,
+            23.0
+          ],
+          "seed": 159398890,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 4.991902834008098,
+      "forecast_hash": "c0bbb4d2e6fd56db78fd3c8e6ead3861bc00be9c7fbab584f3fa436573d0f994",
+      "market": "game_margin",
+      "pmf_hash": "64244661113028af69ffa1df42d7955b97b0ba473be8f5402bdad44335bcaad0",
+      "runs": [
+        {
+          "cdf_max_error": 0.004112463851937531,
+          "draws": 20000,
+          "mean": 4.924,
+          "quantiles_10_50_90": [
+            -19.0,
+            5.0,
+            29.0
+          ],
+          "seed": 3233526994,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.006411769809138268,
+          "draws": 20000,
+          "mean": 4.8619,
+          "quantiles_10_50_90": [
+            -19.0,
+            5.0,
+            29.0
+          ],
+          "seed": 3233526995,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 15.073017683970336,
+      "forecast_hash": "63c66d6e4bf2988bd7eaa28c9b9e19d02bdbfeeb8a07c08f1acc319bcc3c85f2",
+      "market": "game_margin",
+      "pmf_hash": "aae2b1fe7f0ab9ae17be7d2c23d4b173d97c735f9f491236f379ef8ea31fc2f2",
+      "runs": [
+        {
+          "cdf_max_error": 0.00436651454649184,
+          "draws": 20000,
+          "mean": 15.0784,
+          "quantiles_10_50_90": [
+            -9.0,
+            15.0,
+            39.0
+          ],
+          "seed": 1673948526,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0067792355961209805,
+          "draws": 20000,
+          "mean": 15.1571,
+          "quantiles_10_50_90": [
+            -9.0,
+            15.0,
+            40.0
+          ],
+          "seed": 1673948527,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 5.954049396898336,
+      "forecast_hash": "5e6d0e042a10c46844ce63b648028cb1a8367773bccafb2e227bd11c14840f6f",
+      "market": "game_margin",
+      "pmf_hash": "644d50c4ed32192e4afd7524f3586fcf696ac543a6c717fe25b477ac876464e1",
+      "runs": [
+        {
+          "cdf_max_error": 0.004220649052268807,
+          "draws": 20000,
+          "mean": 5.9863,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.0,
+            31.0
+          ],
+          "seed": 1584205316,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.004029121194715712,
+          "draws": 20000,
+          "mean": 5.82455,
+          "quantiles_10_50_90": [
+            -18.0,
+            6.0,
+            30.0
+          ],
+          "seed": 1584205317,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 10.171444954128438,
+      "forecast_hash": "3e5d347307d05c9f135ad3287427650561cf57cda6a9211dbe1c9490aa3c5363",
+      "market": "game_margin",
+      "pmf_hash": "56c0341206d5face147c087fbc9a03943275eb40fffd7201f231036c4bf6acc1",
+      "runs": [
+        {
+          "cdf_max_error": 0.0037651376146789206,
+          "draws": 20000,
+          "mean": 10.20385,
+          "quantiles_10_50_90": [
+            -13.0,
+            10.0,
+            34.0
+          ],
+          "seed": 1046295667,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.005930275229357768,
+          "draws": 20000,
+          "mean": 10.12135,
+          "quantiles_10_50_90": [
+            -14.0,
+            10.0,
+            35.0
+          ],
+          "seed": 1046295668,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 2.458668197474168,
+      "forecast_hash": "d1436252ad776f0f75ac778ba4d451c93fc8308640e523ec8e819912656b6ed4",
+      "market": "game_margin",
+      "pmf_hash": "1c1506f2589d0d35b20443fcbec45079d2e026eac8796047e00d89491b7b8653",
+      "runs": [
+        {
+          "cdf_max_error": 0.00499603903559126,
+          "draws": 20000,
+          "mean": 2.5133,
+          "quantiles_10_50_90": [
+            -21.0,
+            2.0,
+            27.0
+          ],
+          "seed": 3510854226,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.009145752009184827,
+          "draws": 20000,
+          "mean": 2.7336,
+          "quantiles_10_50_90": [
+            -21.0,
+            2.0,
+            27.0
+          ],
+          "seed": 3510854227,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 7.012096774193547,
+      "forecast_hash": "09916a8c4e1f878057effe35b50069c31db3bddaacfc49f00b69e48002bbabd7",
+      "market": "game_margin",
+      "pmf_hash": "970f0f2b896ba1307c6ff7d3546b7434dda3cea4cf8f17f375edbf15367b0bf6",
+      "runs": [
+        {
+          "cdf_max_error": 0.004089400921658992,
+          "draws": 20000,
+          "mean": 7.0354,
+          "quantiles_10_50_90": [
+            -17.0,
+            7.0,
+            31.0
+          ],
+          "seed": 160524940,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0063864055299538425,
+          "draws": 20000,
+          "mean": 6.7742,
+          "quantiles_10_50_90": [
+            -17.0,
+            7.0,
+            31.0
+          ],
+          "seed": 160524941,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 4.2608944954128445,
+      "forecast_hash": "d872072481ba31476ab9d4554881c57294ef9760dc3a8e100d0bef72329e33f3",
+      "market": "game_margin",
+      "pmf_hash": "aadb4c4838faee4764d0a8036a813a613d7e5122e3a8f81dda0975c30f8bf65e",
+      "runs": [
+        {
+          "cdf_max_error": 0.004191284403669726,
+          "draws": 20000,
+          "mean": 4.2127,
+          "quantiles_10_50_90": [
+            -19.0,
+            4.0,
+            29.0
+          ],
+          "seed": 3631351588,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.006407339449541194,
+          "draws": 20000,
+          "mean": 4.1159,
+          "quantiles_10_50_90": [
+            -20.0,
+            4.0,
+            28.0
+          ],
+          "seed": 3631351589,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": -0.34004602991944777,
+      "forecast_hash": "2561487f9f017644cddfb70314610738d297b1feec119f8050adc2e27d48475d",
+      "market": "game_margin",
+      "pmf_hash": "c35864d9f4179a41766d40438be7dfc10dd2ba9a3c400858321955ab3019fb59",
+      "runs": [
+        {
+          "cdf_max_error": 0.006637054085155358,
+          "draws": 20000,
+          "mean": -0.4063,
+          "quantiles_10_50_90": [
+            -24.0,
+            -2.0,
+            24.0
+          ],
+          "seed": 627132543,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.0044968354430380275,
+          "draws": 20000,
+          "mean": -0.3219,
+          "quantiles_10_50_90": [
+            -24.0,
+            -1.0,
+            25.0
+          ],
+          "seed": 627132544,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    },
+    {
+      "cdf_tolerance": 0.013784867119002347,
+      "convergence_passed": true,
+      "exact_distribution_mean": 6.0989074180563545,
+      "forecast_hash": "2069ce45dc1569f35a246ddff735c49c6a2abaf3ba767db64e37e35b1f806359",
+      "market": "game_margin",
+      "pmf_hash": "8f382d8f538ab26e236e4e32af7e3134c644287c8875e20b42768ca6dbd140e6",
+      "runs": [
+        {
+          "cdf_max_error": 0.005438642898217272,
+          "draws": 20000,
+          "mean": 6.2395,
+          "quantiles_10_50_90": [
+            -17.0,
+            6.0,
+            31.0
+          ],
+          "seed": 543804997,
+          "within_sampling_tolerance": true
+        },
+        {
+          "cdf_max_error": 0.006378895917193872,
+          "draws": 20000,
+          "mean": 5.9399,
+          "quantiles_10_50_90": [
+            -17.0,
+            6.0,
+            30.0
+          ],
+          "seed": 543804998,
+          "within_sampling_tolerance": true
+        }
+      ],
+      "scope": "Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability",
+      "sport": "CFB"
+    }
+  ]
+}

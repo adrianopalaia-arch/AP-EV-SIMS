@@ -159,15 +159,27 @@ Push result: local Git authentication unavailable. Connector code writes and PR 
 
 283 tests pass; 18 frozen Phase 1 hashes unchanged. CFB trained on 1,442 prior scores, evaluated 1,086 games, MAE 14.5269 versus 16.2073; 59 future forecasts frozen. Real NFL/NBA/NHL/MLB opportunity models executed; per-market results and failures are in reports/MULTISPORT_PROP_EVIDENCE.md. NFL did not improve MAE. No models are validated. Current prop prices captured for four sports, NHL returned no props. Next: current identities/roles, prospective prop freeze and settlement/CLV. Git push attempted below; development continues independently.
 
-## Executed all five sports — 2026-10-16T05:42:35.450239+00:00
+## Executed all five sports â€” 2026-10-16T05:42:35.450239+00:00
 
 295 tests pass. Published 353 previously frozen real-data forecasts, 353 marginal simulation runs and 14,120,000 draws. No new frozen observations or settled prospective evidence. CFB refresh succeeded; other refreshes hit daily quota. CORE remains disabled. See reports/EXECUTION_RESULTS.md and outputs/execution_status.json. Joint game-state simulation and empirical betting calibration remain incomplete. Source/test work is preserved, not staged in this output-only checkpoint.
 
 Git checkpoint: results commit `921e1f0586c860eb403d8936b294aa28b916d3fa` is local. Shell push authentication unavailable; connector write HTTP 403. Verified remote remains `6db215e00b5d42b8d7f94b556985a97f44104d75`. Final non-force retry follows the delivery-receipt commit.
 
-## Prospective market research — 2026-10-16T15:04:43.655221+00:00
+## Prospective market research â€” 2026-10-16T15:04:43.655221+00:00
 
 244 exact-side/line/book research records; 8 positive conditional-EV NBA watchlist entries, all with stale prices and PASS decisions. NHL shots access now yields 45 pairs (19 DK / 10 FD), using the final permitted credit: daily usage 24/24. NFL opportunity models fail the recent-average benchmark and are removed from ranking; 120 separate benchmark-reference forecasts frozen. MLB expanded by 18 currently quoted hitters through 54 real source requests, producing 36 additional forecasts (38 total); hits/TB each train on 7,816 appearances and evaluate on 5,410. Current-roster survivor selection is disclosed. All availability, quote and forecast clocks are preserved; NHL/MLB start conflicts block associated probability/EV. CFB source hashes and all 18 Phase 1 protected files unchanged. 316 regression tests pass. No prospective settlements or validated betting edges.
 
 
 Checkpoint delivery 2026-10-16T15:09:08.948370+00:00: 316 tests passed, 0 failed. Safe source, tests and results saved in commit `bb0f5d98dc44bd0c1b5c721985ad188de7d8595e`. Push failed: `GITHUB_AUTHENTICATION_UNAVAILABLE`. Remote branch verified at `6db215e00b5d42b8d7f94b556985a97f44104d75`; new results are local only. No force push or reset was used.
+
+
+P0 executed 2026-10-17T02:13:21.407745+00:00: expanded all five sport histories; 16 prop challengers evaluated, 333 new-version forecasts frozen, 15720000 marginal simulation draws. Detailed before/after: reports/P0_MEASURED_RESULTS.md. No CORE approval.
+
+
+P0 checkpoint 2026-10-17T02:26:33.770670+00:00: see reports/P0_MEASURED_RESULTS.md and outputs/p0_market_refresh.json. Existing forecasts and simulation records retained. No CORE approval.
+
+
+P0 checkpoint 2026-10-17T02:29:15.159230+00:00: see reports/P0_MEASURED_RESULTS.md and outputs/p0_market_refresh.json. Existing forecasts and simulation records retained. No CORE approval.
+
+
+P0 freshness checkpoint 2026-10-17T02:30:04.867982+00:00: 351 tests passed, zero failed; all 389 original forecasts and 18 Phase 1 files verified. NHL crosswalk resolved for research; MLB postponement remains blocked. Zero new draws/forecasts in refresh; zero settled priced evidence, zero validated edges. See reports/P0_FRESHNESS_DELIVERY.md.

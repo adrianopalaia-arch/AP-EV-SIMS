@@ -1,6 +1,6 @@
 """Quota-bounded current prop capture and exact within-book market pairing."""
 from collections import defaultdict,Counter
-from datetime import datetime,timezone
+from datetime import datetime,timezone,timedelta
 import json,math
 from pathlib import Path
 from .providers.validation import ProviderValidator,SPORTS
@@ -77,6 +77,11 @@ def collect(root,*,daily_credit_cap=24):
     return report
 
 
+def future_research_events(events,at,minimum_lead_seconds=1800):
+    if minimum_lead_seconds<0:raise ValueError('INVALID_PREGAME_LEAD')
+    return sorted([e for e in events if utc(e['commence_time'])>utc(at)+timedelta(seconds=minimum_lead_seconds)],key=lambda e:(utc(e['commence_time']),e['id']))
+
+
 def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_seconds=300, transport=None):
     """Refresh a bounded priority cohort without erasing last-known observations.
 
@@ -98,7 +103,9 @@ def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_
               'MLB':['batter_hits','batter_total_bases'], 'NFL':['player_receptions','player_rush_attempts','player_reception_yds','player_pass_yds','player_rush_yds']}
     for sport,keys in priority.items():
         old=previous.get(sport,{});record=dict(old) if old else {'sport':sport}
-        last=old.get('latest_attempt',{}).get('checked_at') or old.get('record',{}).get('checked_at')
+        previous_attempt=old.get('latest_attempt',{})
+        last=old.get('last_request_at') or (previous_attempt.get('checked_at') if previous_attempt.get('status') not in ('REFRESH_COOLDOWN','DAILY_QUOTA_BUDGET_LIMIT') else None) or old.get('record',{}).get('checked_at')
+        requested=False
         if last and (utc(at)-utc(last)).total_seconds()<cooldown_seconds:
             attempt=dict(sport=sport,status='REFRESH_COOLDOWN',checked_at=at)
         else:
@@ -106,8 +113,9 @@ def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_
             chosen=keys[:max(0,allowance)]
             if not chosen:attempt=dict(sport=sport,status='DAILY_QUOTA_BUDGET_LIMIT',checked_at=at)
             else:
+                requested=True
                 event_record,events=v.request('odds','sports/'+SPORTS[sport]+'/events',{'dateFormat':'iso'})
-                upcoming=sorted([e for e in events if utc(e['commence_time'])>utc(at)],key=lambda e:(utc(e['commence_time']),e['id'])) if isinstance(events,list) else []
+                upcoming=future_research_events(events,at) if isinstance(events,list) else []
                 if not upcoming:attempt=dict(sport=sport,status='NO_UPCOMING_PROVIDER_EVENT',endpoint_status=event_record['status'],checked_at=at)
                 else:
                     event=upcoming[0];r,_=v.request('odds','sports/'+SPORTS[sport]+'/events/'+event['id']+'/odds',
@@ -119,9 +127,10 @@ def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_
                         qs,rejected=normalize_props(s,s.manifest(r['snapshot_id']),sport,r['checked_at'])
                         record=dict(sport=sport,record=r,status=200,event=event,paired_offers=len(qs),books=dict(Counter(q['book'] for q in qs)),
                                     unique_players=len({q['player_name'] for q in qs}),rejections=rejected)
+        record['last_request_at']=attempt.get('checked_at',at) if requested else last
         record['latest_attempt']=attempt;records.append(record);attempts.append(attempt)
     report=dict(generated_at=datetime.now(timezone.utc).isoformat(),daily_credits_used=used,daily_cap=daily_credit_cap,
-                selection_policy='Earliest future event; fixed NHL shots, NBA rebounds/assists, MLB hits/TB, NFL priorities; never price-selected',sports=records)
+                selection_policy='Earliest event at least 30 minutes away for pregame research; fixed NHL shots, NBA rebounds/assists, MLB hits/TB, NFL priorities; never price-selected',sports=records)
     atomic_json(path,report);atomic_json(s.root/'evaluations/prop-priority-refresh.json',dict(generated_at=at,attempts=attempts,daily_credits_used=used))
     return report
 

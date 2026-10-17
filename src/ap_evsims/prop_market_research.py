@@ -100,7 +100,7 @@ def make_baseline_references(root,forecasts,evaluations):
     atomic_json(root/'outputs/nfl_baseline_reference.json',report);return report
 
 
-def comparison(f,q,a,e,at,peers=()):
+def comparison(f,q,a,e,at,peers=(),*,identity_store=None):
     if f['market']!=q['market'] or f['sport']!=q['sport']:raise ValueError('MARKET_IDENTITY_MISMATCH')
     mapping=f['event_mapping'];reasons=[]
     if q['odds_event_id']!=mapping['odds_event_id']:raise ValueError('EVENT_IDENTITY_MISMATCH')
@@ -111,6 +111,11 @@ def comparison(f,q,a,e,at,peers=()):
     if not utc(f['generated_at'])<=utc(at)<min(utc(f['event_start']),utc(q['event_start'])):raise ValueError('PREGAME_COMPARISON_REQUIRED')
     if max(utc(f['latest_source_capture']),utc(q['captured_at']),utc(a['available_at']))>utc(at):raise ValueError('LOOKAHEAD_RISK')
     identity=utc(f['event_start'])==utc(q['event_start']) and mapping['home_team']==q['home_team'] and mapping['away_team']==q['away_team']
+    resolution=None
+    if not identity and identity_store is not None and f['sport']=='NHL':
+        from .event_resolution import resolve_nhl
+        try:resolution=resolve_nhl(identity_store,mapping,q,a,at);identity=bool(resolution)
+        except (ValueError,KeyError):pass
     if not identity:reasons.append('BOOK_CANONICAL_START_MISMATCH')
     age=(utc(at)-utc(q['quote_timestamp'])).total_seconds()
     if age<0 or utc(q['quote_timestamp'])>utc(q['captured_at']):raise ValueError('LOOKAHEAD_RISK')
@@ -147,6 +152,7 @@ def comparison(f,q,a,e,at,peers=()):
             forecast_hash=f['forecast_hash'],forecast_generated_at=f['generated_at'],quote_id=q['quote_id'],quote_timestamp=q['quote_timestamp'],
             quote_captured_at=q['captured_at'],quote_age_seconds=age,quote_snapshot=q['snapshot_id'],quote_payload_hash=q['payload_hash'],
             availability=a,decision_timestamp=at,price_identity_verified=identity,price_fresh=age<=180,
+            event_identity_resolution=resolution,provider_event_start=q['event_start'],
             research_status='RESEARCH_ESTIMATE',decision='PASS',pass_reasons=sorted(set(reasons)),recommendations_enabled=False,
             reference_unit=22,stake=None)
         candidate['research_rank_eligible']=bool(identity and ev is not None and ev>0 and e['admission']=='RESEARCH_BENCHMARK_ADVANTAGE'

@@ -1,0 +1,211 @@
+{
+  "generated_at": "2026-10-17T02:10:39.996006+00:00",
+  "markets": {
+    "passing_yards": {
+      "evaluation_table": {
+        "fingerprint": "15ae4ad771bf5a92f640ce6cb83cff2f7e3bd0673eb7988e8872e25a860ef788",
+        "n": 768,
+        "parquet_path": "normalized\\nfl-passing_yards-v1-expanded-control-15ae4ad771bf5a92f640ce6cb83cff2f7e3bd0673eb7988e8872e25a860ef788.parquet",
+        "path": "normalized\\nfl-passing_yards-v1-expanded-control-15ae4ad771bf5a92f640ce6cb83cff2f7e3bd0673eb7988e8872e25a860ef788.jsonl"
+      },
+      "old_algorithm_on_expanded_history": {
+        "baseline_mae": 69.86206390542328,
+        "baseline_rmse": 89.25821615942859,
+        "beats_baseline_mae": false,
+        "crps": 50.0421127890624,
+        "crps_n": 768,
+        "mae": 70.4714663960777,
+        "n": 768,
+        "opportunity_mae": 8.588977800388774,
+        "paired_mae_difference_95_week_bootstrap": [
+          -0.3534267375852894,
+          1.5437616199987474
+        ],
+        "rmse": 88.96626241003533,
+        "week_blocks": 24
+      },
+      "paired_algorithm_effect": {
+        "after": {
+          "mae": 68.0630425768454,
+          "n": 768,
+          "rmse": 85.06400259557354
+        },
+        "after_only": 0,
+        "before": {
+          "mae": 70.4714663960777,
+          "n": 768,
+          "rmse": 88.96626241003533
+        },
+        "before_only": 0,
+        "common_sample_n": 768,
+        "revised_outcome_exclusions": 0,
+        "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+      }
+    },
+    "receiving_yards": {
+      "evaluation_table": {
+        "fingerprint": "ae3da2469385338abdcb3b716becb0aedfab1bbbff05bb774208d23e9d136125",
+        "n": 6307,
+        "parquet_path": "normalized\\nfl-receiving_yards-v1-expanded-control-ae3da2469385338abdcb3b716becb0aedfab1bbbff05bb774208d23e9d136125.parquet",
+        "path": "normalized\\nfl-receiving_yards-v1-expanded-control-ae3da2469385338abdcb3b716becb0aedfab1bbbff05bb774208d23e9d136125.jsonl"
+      },
+      "old_algorithm_on_expanded_history": {
+        "baseline_mae": 16.4268151914854,
+        "baseline_rmse": 23.715805006776947,
+        "beats_baseline_mae": false,
+        "crps": 11.935183899476764,
+        "crps_n": 6307,
+        "mae": 16.643241962048105,
+        "n": 6307,
+        "opportunity_mae": 1.6594466954302651,
+        "paired_mae_difference_95_week_bootstrap": [
+          0.08462646110483574,
+          0.34857006897390286
+        ],
+        "rmse": 23.412887846610513,
+        "week_blocks": 24
+      },
+      "paired_algorithm_effect": {
+        "after": {
+          "mae": 16.09851816647215,
+          "n": 6307,
+          "rmse": 23.19484603035962
+        },
+        "after_only": 0,
+        "before": {
+          "mae": 16.643241962048105,
+          "n": 6307,
+          "rmse": 23.412887846610513
+        },
+        "before_only": 0,
+        "common_sample_n": 6307,
+        "revised_outcome_exclusions": 0,
+        "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+      }
+    },
+    "receptions": {
+      "evaluation_table": {
+        "fingerprint": "666d66790ab7e69442bebcfc06469f900c5623b48c783a532ce1065e955224f5",
+        "n": 6307,
+        "parquet_path": "normalized\\nfl-receptions-v1-expanded-control-666d66790ab7e69442bebcfc06469f900c5623b48c783a532ce1065e955224f5.parquet",
+        "path": "normalized\\nfl-receptions-v1-expanded-control-666d66790ab7e69442bebcfc06469f900c5623b48c783a532ce1065e955224f5.jsonl"
+      },
+      "old_algorithm_on_expanded_history": {
+        "baseline_mae": 1.2656223495687584,
+        "baseline_rmse": 1.732375066716379,
+        "beats_baseline_mae": false,
+        "crps": 0.8723958937688282,
+        "crps_n": 6307,
+        "mae": 1.2790637314128737,
+        "n": 6307,
+        "opportunity_mae": 1.6594466954302651,
+        "paired_mae_difference_95_week_bootstrap": [
+          0.006711624204329045,
+          0.01989190853541955
+        ],
+        "rmse": 1.7093402198838925,
+        "week_blocks": 24
+      },
+      "paired_algorithm_effect": {
+        "after": {
+          "mae": 1.2463037105629307,
+          "n": 6307,
+          "rmse": 1.6923504560217908
+        },
+        "after_only": 0,
+        "before": {
+          "mae": 1.2790637314128737,
+          "n": 6307,
+          "rmse": 1.7093402198838925
+        },
+        "before_only": 0,
+        "common_sample_n": 6307,
+        "revised_outcome_exclusions": 0,
+        "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+      }
+    },
+    "rushing_attempts": {
+      "evaluation_table": {
+        "fingerprint": "8a71b7a3b044a9575a83186516e5fb1d583352fbb254232700404f8b44db89b3",
+        "n": 6307,
+        "parquet_path": "normalized\\nfl-rushing_attempts-v1-expanded-control-8a71b7a3b044a9575a83186516e5fb1d583352fbb254232700404f8b44db89b3.parquet",
+        "path": "normalized\\nfl-rushing_attempts-v1-expanded-control-8a71b7a3b044a9575a83186516e5fb1d583352fbb254232700404f8b44db89b3.jsonl"
+      },
+      "old_algorithm_on_expanded_history": {
+        "baseline_mae": 1.141351509157122,
+        "baseline_rmse": 2.6128034384610688,
+        "beats_baseline_mae": false,
+        "crps": 0.9717799844617092,
+        "crps_n": 6307,
+        "mae": 1.3682319089603157,
+        "n": 6307,
+        "opportunity_mae": 1.3682319089603157,
+        "paired_mae_difference_95_week_bootstrap": [
+          0.2096067804926373,
+          0.24583425143252652
+        ],
+        "rmse": 2.6574315099777484,
+        "week_blocks": 24
+      },
+      "paired_algorithm_effect": {
+        "after": {
+          "mae": 1.1090930165038024,
+          "n": 6307,
+          "rmse": 2.495671872760309
+        },
+        "after_only": 0,
+        "before": {
+          "mae": 1.368231908960316,
+          "n": 6307,
+          "rmse": 2.6574315099777484
+        },
+        "before_only": 0,
+        "common_sample_n": 6307,
+        "revised_outcome_exclusions": 0,
+        "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+      }
+    },
+    "rushing_yards": {
+      "evaluation_table": {
+        "fingerprint": "4168959cf1d5dcaeb726396b33a893c110575883ccf66ffd0a8b60e6284f3074",
+        "n": 6307,
+        "parquet_path": "normalized\\nfl-rushing_yards-v1-expanded-control-4168959cf1d5dcaeb726396b33a893c110575883ccf66ffd0a8b60e6284f3074.parquet",
+        "path": "normalized\\nfl-rushing_yards-v1-expanded-control-4168959cf1d5dcaeb726396b33a893c110575883ccf66ffd0a8b60e6284f3074.jsonl"
+      },
+      "old_algorithm_on_expanded_history": {
+        "baseline_mae": 6.555414367004664,
+        "baseline_rmse": 15.910142691085758,
+        "beats_baseline_mae": false,
+        "crps": 5.691458420643728,
+        "crps_n": 6307,
+        "mae": 7.4128924558065155,
+        "n": 6307,
+        "opportunity_mae": 1.3682319089603157,
+        "paired_mae_difference_95_week_bootstrap": [
+          0.7560000187540846,
+          0.9556377003095972
+        ],
+        "rmse": 15.873833165898256,
+        "week_blocks": 24
+      },
+      "paired_algorithm_effect": {
+        "after": {
+          "mae": 6.414823213840331,
+          "n": 6307,
+          "rmse": 15.47929315588877
+        },
+        "after_only": 0,
+        "before": {
+          "mae": 7.4128924558065155,
+          "n": 6307,
+          "rmse": 15.873833165898256
+        },
+        "before_only": 0,
+        "common_sample_n": 6307,
+        "revised_outcome_exclusions": 0,
+        "scope": "Identical event/player/outcome rows; combined effect of history expansion and new algorithm, not a randomized causal attribution"
+      }
+    }
+  },
+  "scope": "Fixed v1 versus v2 on identical expanded outcome history; no algorithm selected or tuned from this comparison"
+}

@@ -1,4 +1,6 @@
 {
+  "additional_forecasts_this_refresh": 0,
+  "additional_simulation_draws_this_refresh": 0,
   "branch": "ap-evisims-live",
   "card_builders": [
     {
@@ -33,8 +35,9 @@
     }
   ],
   "cfb_schedule_games": 4245,
-  "checkpoint_at": "2026-10-16T15:04:43.655221+00:00",
-  "current_task": "EARLY_PROSPECTIVE_WATCHLIST",
+  "checkpoint_at": "2026-10-17T02:30:04.867982+00:00",
+  "current_price_age_checked_at": "2026-10-17T02:29:15.159230+00:00",
+  "current_task": "P0_FRESH_PRICE_IDENTITY_AND_SETTLEMENT",
   "data_quality_failures": [
     {
       "reason": "SCHEMA_DRIFT",
@@ -63,22 +66,29 @@
     "cfb_universe.json": "515b8eebd79f5dd857ceb9e402111973228a8b56b333d751e2216d48d025e4dc",
     "early_watchlist.json": "ee17637eaa86269966e7c0bf172a6f036e9b9e2cd4fb716efdbace09111b9625",
     "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-    "latest_passes.json": "0856de8193e976548718fb1a98ff9b4d9dd20ba82dbfdd0c22bcfb867de29d30",
-    "latest_predictions.json": "4f9f4482450eb2fd0b928b8906545ad2e9c2c953f53f5a130a31cfb0a6ec3bdd",
+    "latest_passes.json": "c5cc452f1ff6d1341cc5c514d8ca7d0581a62e9aa606c9ce94b2d645aa0a3f7c",
+    "latest_predictions.json": "52e947821d4ff7688d1627a309873a5e7800741d2e0142c4fbc76d7e7b0748b6",
     "market_research_passes.json": "31643dcaae82d409609991e10924487e03b972ec93bc883cd8f28bf03e6edd72",
     "market_research_status.json": "510e5355f7f1898f7dccf667f7b946527eabc263e7308c3d7dbba53be9cb71dd",
-    "model_status.json": "16ea558be5b49aaa9e88bbcf19560566acabe2740c17664427d2e200e2d41f46",
+    "model_status.json": "579c98c04c2e5bd951c285cecced0af5541320c4b2c94a9d1bb047f4edaa672f",
+    "p0_market_refresh.json": "bae066158431aa0622bdbda702ca4ad04ceef371de8dcad19c53f744754fe37c",
+    "p0_measured_results.json": "677899310f79fe520bb25c6a04c9e10a15b2b1eee5b7f88efe3ec370e7bf17d2",
+    "p0_passes.json": "17d9cce0ea36518f2217f2eb529ad93b3065aaba1f312a2390b49625431af063",
+    "p0_preservation_audit.json": "625c82e69ef66516eea5d440b3af63fc7afa9bfb0f67057bba86d6fc265770b6",
+    "p0_research_card.json": "215a42a779ee3efccb4f1a0ce7617ef49f5cd63e748f1227ee65ef1f10e53ceb",
     "paper_tracking_status.json": "6f1bd170c08d9f9079e75ad5c55b6f6f919da74d1aab5e867180841c5d0c145f",
+    "prospective_market_evidence.json": "db06ed0d62688eb3e802acac47d0c45c1a1dedbdc961f7894d7af4fc25c2f1f7",
     "prospective_price_comparisons.json": "d4078e0fa898d62440aa8e81078c1d0215a943ac476d319178be06de9696d4b1",
-    "provider_status.json": "7b08b47fd2129c914c60fa984231e8ea9c1b6839329af2c4b0cd55b147ecf26c"
+    "provider_status.json": "67c993f8d8a632c031bdbecc643daff799e5c40d6afb81cf007b49df51fac543"
   },
+  "fresh_priced_research_comparisons": 0,
   "fresh_ranked_candidates": 0,
   "games_scanned": 146,
-  "generated_at": "2026-10-16T15:02:00.207814+00:00",
+  "generated_at": "2026-10-17T02:29:15.159230+00:00",
   "git_commit": "bb0f5d98dc44bd0c1b5c721985ad188de7d8595e",
   "git_commit_semantics": "Completed prospective-market source and results checkpoint; subsequent delivery receipt commit contains this reference",
   "github_delivery": "github_delivery.json",
-  "github_push_status": "BLOCKED_GITHUB_AUTHENTICATION_UNAVAILABLE",
+  "github_push_status": "PENDING_FINAL_PUSH",
   "github_remote_verified_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
   "local_comparison_hash": "729d1e6e9f4658a60a09e245203cc3428d0ba3ef4e6bb29e451ea4e88f3b9943",
   "market_calculation_version": 1,
@@ -86,11 +96,13 @@
   "market_sides_scanned": 5060,
   "mode": "PREGAME",
   "models_validated": 0,
+  "new_challenger_predictions": 333,
   "new_frozen_predictions": 0,
   "new_primary_forecasts": 36,
   "new_reference_forecasts": 120,
-  "next_task": "New price collection after quota reset; verify starting roles and resolve NHL/MLB start conflicts; settle forecasts by market/model cohort",
+  "next_task": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
   "nfl_reference_predictions": 120,
+  "p0_measured_report": "p0_measured_results.json",
   "paper_tracking": {
     "actual_cash_roi": null,
     "baseline_probability_score": {
@@ -392,12 +404,12 @@
   "preferred_market_sides": 1466,
   "provider_check_basis": "BOUNDED_CURRENT_REFRESH_PLUS_RECORDED_CFBD_AUTH",
   "providers_ok": false,
-  "publication_generation": "f76352ad7c17340b93bdf65fd6d78822d9fcd9cc2edba85479f178696ad08078",
+  "publication_generation": "40c9ac5c0c667972566ac3cb8b6bbbadcbfdbf4bab7622fe593891a8b6f58ed2",
   "qualified_edges": 0,
   "ranked_research_candidates": 8,
   "reader_contract": "Verify canonical JSON SHA256; retry if any file differs from this generation.",
   "real_model_evaluation_sample": 340741,
-  "real_predictions_published": 389,
+  "real_predictions_published": 637,
   "reference_unit": 22,
   "reference_unit_semantics": "DISPLAY_REFERENCE_ONLY_NOT_A_STAKE",
   "refresh_failures": [
@@ -426,9 +438,9 @@
     "validated_models": 0
   },
   "research_status": "EARLY_WATCHLIST_WITH_SEPARATE_PASS_DECISIONS",
-  "simulation_draws": 14120000,
-  "simulation_scope": "Previous simulation_execution.json applies to its recorded forecast hashes only; new forecasts are not claimed as newly Monte Carlo simulated.",
-  "simulations_completed": 353,
+  "simulation_draws": 15720000,
+  "simulation_scope": "Current P0 marginal runs: challenger prop forecasts plus preserved CFB forecasts; not joint game/parlay simulations",
+  "simulations_completed": 393,
   "source_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
   "source_commit_semantics": "Original execution source base; current uncommitted source is included in this checkpoint",
   "sports_updated": [
@@ -442,7 +454,7 @@
   "suspended_or_superseded_quotes": 8,
   "synthetic_performance_sample": 0,
   "tests_failed": 0,
-  "tests_passed": 316,
-  "tests_semantics": "Last independently run full suite, not rerun by daily_card",
-  "tests_verified_at": "2026-10-16T15:04:43.655221+00:00"
+  "tests_passed": 351,
+  "tests_semantics": "Full regression suite executed after final source changes",
+  "tests_verified_at": "2026-10-17T02:30:04.867982+00:00"
 }

@@ -1,0 +1,14 @@
+{
+  "baseline_commit": "bd4a8e5862e038c7ae77c71e50873f08dc234547",
+  "failures": [],
+  "original_forecasts_by_sport": {
+    "CFB": 59,
+    "MLB": 38,
+    "NBA": 124,
+    "NFL": 120,
+    "NHL": 48
+  },
+  "original_forecasts_verified": 389,
+  "protected_phase1_files": 18,
+  "verified_at": "2026-10-17T02:23:13.279523+00:00"
+}

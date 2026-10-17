@@ -11,7 +11,7 @@
     "odds_event_start": "2026-10-18T13:30:00Z"
   },
   "event_identity_reasons": [],
-  "generated_at": "2026-10-16T15:01:57.395369+00:00",
+  "generated_at": "2026-10-17T02:29:04.441653+00:00",
   "identities": [
     {
       "aliases": [
@@ -868,12 +868,12 @@
       "team_id": "HOU"
     }
   ],
-  "latest_source_capture": "2026-10-16T14:58:03.468763+00:00",
+  "latest_source_capture": "2026-10-17T02:25:20.830021+00:00",
   "recommendations_enabled": false,
   "records": [
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -890,14 +890,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -914,14 +914,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -929,33 +929,23 @@
       "event_id": "2026_06_HOU_JAX",
       "event_start": "2026-10-18T13:30:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [
-        {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
-          "body_part": "Back",
-          "observed_at": "2026-10-16T00:07Z",
-          "reason": null,
-          "status": "Questionable",
-          "usable": true
-        }
-      ],
+      "injury_evidence": [],
       "player_id": "00-0041503",
       "player_name": "Nate Boerkircher",
       "position": "TE",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED",
-        "INJURY_OR_RESTRICTION_REPORTED"
+        "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -972,14 +962,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -996,14 +986,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1020,14 +1010,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1044,14 +1034,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1068,14 +1058,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1092,14 +1082,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1116,14 +1106,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1140,14 +1130,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1164,14 +1154,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1188,14 +1178,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1212,14 +1202,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1236,14 +1226,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1260,14 +1250,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1284,14 +1274,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1308,14 +1298,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1325,11 +1315,11 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": "Hamstring",
-          "observed_at": "2026-10-15T00:12Z",
+          "observed_at": "2026-10-17T00:48Z",
           "reason": null,
-          "status": "Questionable",
+          "status": "Out",
           "usable": true
         }
       ],
@@ -1339,17 +1329,18 @@
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED",
-        "INJURY_OR_RESTRICTION_REPORTED"
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1366,14 +1357,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1390,14 +1381,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1414,14 +1405,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1438,14 +1429,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1462,14 +1453,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1486,14 +1477,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1510,14 +1501,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1534,14 +1525,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1549,33 +1540,23 @@
       "event_id": "2026_06_HOU_JAX",
       "event_start": "2026-10-18T13:30:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [
-        {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
-          "body_part": null,
-          "observed_at": "2026-10-14T23:11Z",
-          "reason": null,
-          "status": "Questionable",
-          "usable": true
-        }
-      ],
+      "injury_evidence": [],
       "player_id": "00-0039353",
       "player_name": "Jarrian Jones",
       "position": "CB",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED",
-        "INJURY_OR_RESTRICTION_REPORTED"
+        "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1592,14 +1573,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1616,14 +1597,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1631,33 +1612,23 @@
       "event_id": "2026_06_HOU_JAX",
       "event_start": "2026-10-18T13:30:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [
-        {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
-          "body_part": "Hamstring",
-          "observed_at": "2026-10-14T23:12Z",
-          "reason": null,
-          "status": "Questionable",
-          "usable": true
-        }
-      ],
+      "injury_evidence": [],
       "player_id": "00-0033928",
       "player_name": "Jourdan Lewis",
       "position": "CB",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED",
-        "INJURY_OR_RESTRICTION_REPORTED"
+        "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1674,14 +1645,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1698,14 +1669,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1722,14 +1693,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1737,33 +1708,23 @@
       "event_id": "2026_06_HOU_JAX",
       "event_start": "2026-10-18T13:30:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [
-        {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
-          "body_part": null,
-          "observed_at": "2026-10-13T17:10Z",
-          "reason": null,
-          "status": "Questionable",
-          "usable": true
-        }
-      ],
+      "injury_evidence": [],
       "player_id": "00-0033038",
       "player_name": "Eric Murray",
       "position": "S",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED",
-        "INJURY_OR_RESTRICTION_REPORTED"
+        "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1780,14 +1741,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1804,14 +1765,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1828,14 +1789,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1852,14 +1813,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1876,14 +1837,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1900,14 +1861,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1924,14 +1885,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1948,14 +1909,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1972,14 +1933,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -1996,14 +1957,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2013,7 +1974,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-08-30T23:11Z",
           "reason": null,
@@ -2031,14 +1992,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2048,8 +2009,8 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
-          "body_part": null,
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
+          "body_part": "Elbow",
           "observed_at": "2026-09-17T00:17Z",
           "reason": null,
           "status": "Injured Reserve",
@@ -2066,14 +2027,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2083,7 +2044,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-08-19T12:07Z",
           "reason": null,
@@ -2101,14 +2062,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2118,8 +2079,8 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
-          "body_part": null,
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
+          "body_part": "Knee",
           "observed_at": "2026-10-07T00:42Z",
           "reason": null,
           "status": "Injured Reserve",
@@ -2136,14 +2097,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2160,14 +2121,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2184,14 +2145,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2208,14 +2169,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2232,14 +2193,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2256,14 +2217,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2280,14 +2241,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2304,14 +2265,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "JAX"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2328,14 +2289,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2352,14 +2313,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2376,14 +2337,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2400,14 +2361,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2424,14 +2385,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2448,14 +2409,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2472,14 +2433,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2496,14 +2457,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2520,14 +2481,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2537,7 +2498,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": "Groin",
           "observed_at": "2026-10-15T21:34Z",
           "reason": null,
@@ -2555,14 +2516,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2579,14 +2540,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2603,14 +2564,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2627,14 +2588,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2651,14 +2612,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2675,14 +2636,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2699,14 +2660,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2714,33 +2675,23 @@
       "event_id": "2026_06_HOU_JAX",
       "event_start": "2026-10-18T13:30:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [
-        {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
-          "body_part": null,
-          "observed_at": "2026-10-14T23:16Z",
-          "reason": null,
-          "status": "Questionable",
-          "usable": true
-        }
-      ],
+      "injury_evidence": [],
       "player_id": "00-0035166",
       "player_name": "Azeez Al-Shaair",
       "position": "LB",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED",
-        "INJURY_OR_RESTRICTION_REPORTED"
+        "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2757,14 +2708,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2781,14 +2732,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2805,14 +2756,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2829,14 +2780,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2853,14 +2804,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2877,14 +2828,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2901,14 +2852,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2925,14 +2876,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2940,33 +2891,23 @@
       "event_id": "2026_06_HOU_JAX",
       "event_start": "2026-10-18T13:30:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [
-        {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
-          "body_part": "Illness",
-          "observed_at": "2026-10-15T21:24Z",
-          "reason": null,
-          "status": "Questionable",
-          "usable": true
-        }
-      ],
+      "injury_evidence": [],
       "player_id": "00-0037457",
       "player_name": "Jake Hansen",
       "position": "LB",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED",
-        "INJURY_OR_RESTRICTION_REPORTED"
+        "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -2983,14 +2924,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3007,14 +2948,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3031,14 +2972,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3055,14 +2996,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3079,14 +3020,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3103,14 +3044,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3120,7 +3061,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": "Shoulder - AC Joint",
           "observed_at": "2026-10-16T00:20Z",
           "reason": null,
@@ -3138,14 +3079,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3162,14 +3103,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3186,14 +3127,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3210,14 +3151,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3227,7 +3168,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-10-07T00:29Z",
           "reason": null,
@@ -3245,14 +3186,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3269,14 +3210,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3293,14 +3234,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3317,14 +3258,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3341,14 +3282,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3365,14 +3306,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3389,14 +3330,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3413,14 +3354,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3430,7 +3371,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-10-03T00:35Z",
           "reason": null,
@@ -3448,14 +3389,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3465,7 +3406,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-09-01T01:08Z",
           "reason": null,
@@ -3483,14 +3424,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3500,7 +3441,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": "Knee - ACL + MCL",
           "observed_at": "2026-10-15T21:43Z",
           "reason": null,
@@ -3518,14 +3459,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3535,7 +3476,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-10-01T01:18Z",
           "reason": null,
@@ -3553,14 +3494,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3570,7 +3511,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-08-31T23:16Z",
           "reason": null,
@@ -3588,14 +3529,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3605,7 +3546,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-09-08T20:42Z",
           "reason": null,
@@ -3623,14 +3564,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3640,7 +3581,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-08-26T00:42Z",
           "reason": null,
@@ -3658,14 +3599,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3675,7 +3616,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-09-26T17:52Z",
           "reason": null,
@@ -3693,14 +3634,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3710,8 +3651,8 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
-          "body_part": null,
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
+          "body_part": "Elbow",
           "observed_at": "2026-10-15T01:04Z",
           "reason": null,
           "status": "Injured Reserve",
@@ -3728,14 +3669,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3745,7 +3686,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-08-19T12:07Z",
           "reason": null,
@@ -3763,14 +3704,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3780,7 +3721,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-08-31T17:01Z",
           "reason": null,
@@ -3798,14 +3739,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3815,7 +3756,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": "Shoulder",
           "observed_at": "2026-10-15T23:59Z",
           "reason": null,
@@ -3833,14 +3774,14 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3857,14 +3798,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3881,14 +3822,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3905,14 +3846,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3929,14 +3870,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3953,14 +3894,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -3977,14 +3918,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -4001,14 +3942,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -4025,14 +3966,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -4049,14 +3990,14 @@
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     },
     {
       "availability_state": "REPORTED_UNAVAILABLE",
-      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "available_at": "2026-10-17T02:25:20.830021+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
@@ -4066,7 +4007,7 @@
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [
         {
-          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "available_at": "2026-10-17T02:25:20.830021+00:00",
           "body_part": null,
           "observed_at": "2026-10-01T23:24Z",
           "reason": null,
@@ -4084,48 +4025,48 @@
         "PLAYER_REPORTED_OUT"
       ],
       "role_confirmed": false,
-      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "source_hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "source_manifest": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "sport": "NFL",
       "team_id": "HOU"
     }
   ],
-  "snapshot_hash": "d73ca8d3a0a3e134fbd8b4012448d535acdbad676e514b38390506ea1bc787dc",
+  "snapshot_hash": "8feddc307d1321e4c05ebe696beb02c9da74ab727687975571e3eb122ea3d85e",
   "sources": [
     {
-      "captured_at": "2026-10-16T14:45:08.880572+00:00",
-      "hash": "86b3650aad8f0945ade2682dc313a9eba7b7f002dff00d82a29a3839097623e3",
-      "manifest_id": "1f01b3bec05a231859a0fe9df96c4e8697f90cb7cd4cc43a845592f6fb115f53",
+      "captured_at": "2026-10-17T02:05:14.082687+00:00",
+      "hash": "3b795fe95b87ad7836f4c8319df272ac06afa81f632b2d52179b68fcdd23b098",
+      "manifest_id": "ad6ba532f1cfcc6ee122b8d16ac445a8e22c07e9a0a5218b2b6bbec8853b131b",
       "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261018"
     },
     {
-      "captured_at": "2026-10-16T14:45:10.254198+00:00",
+      "captured_at": "2026-10-17T02:05:15.186431+00:00",
       "hash": "2ae8d4751c4e56bd9e38a4ea04b206c7ce4c05c19ed5e7502f2ffea0b9224610",
-      "manifest_id": "a4a1d9a7d7171093bb64f767fc47a23b583b54361ff0ab522083d86b6ca92632",
+      "manifest_id": "91ec1bc4b7c71565c203e8ee90284aa20e69b29ffb2b1759be8bfead70daccf1",
       "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.parquet"
     },
     {
-      "captured_at": "2026-10-16T14:45:10.567289+00:00",
-      "hash": "6dc58f6a853a305cb7963fd76dbc62f57073c5c145792c6a10ebe5b1a75d8256",
-      "manifest_id": "66697d58c8115e1047e4b1c3f8f735579906d616ab0b5bb12ab4102bea7bb743",
+      "captured_at": "2026-10-17T02:05:15.537695+00:00",
+      "hash": "232889ed2d8666dc598dfc552c372bce896dddcaa12082b951316d3e78e7ca5a",
+      "manifest_id": "1c2cc18f1d5551787a271c74d584c83adf088a7f034810adfdc2bd8ab6d4cbcf",
       "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
     },
     {
-      "captured_at": "2026-10-16T14:45:10.901705+00:00",
-      "hash": "6f9dbd89e9162d4936f2f23143704a60cb735e781031a1555472329c1839bea0",
-      "manifest_id": "1085c746765b1c46834e462b8e37b8f076ff6f5846d95c621174cf98edc32687",
+      "captured_at": "2026-10-17T02:05:16.016696+00:00",
+      "hash": "25bb065d15800216d64997960fc713586719bb0e830d45b1caaeb01cc4a97ac2",
+      "manifest_id": "8dc1b0dab59d2898515c6b15831fd962490a0cd6e48ff5f26a558c8f7d69efd8",
       "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster"
     },
     {
-      "captured_at": "2026-10-16T14:45:11.154990+00:00",
-      "hash": "709c43d13048856965593ff9282ea58df2e9693800b351a733acc414f2ac403f",
-      "manifest_id": "29259691d5ee1c98af6979ce61a73f3b63a4c4d509094ad78426481a500cd427",
+      "captured_at": "2026-10-17T02:05:16.329794+00:00",
+      "hash": "f6bd07865d224501645e78513bc5e25a310b37045ca4e4ec4c8574af7739cc6f",
+      "manifest_id": "8110d0869042c990649c04f1d04fcd936055de27e664068eca897e5c3842c639",
       "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster"
     },
     {
-      "captured_at": "2026-10-16T14:58:03.468763+00:00",
-      "hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
-      "manifest_id": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "captured_at": "2026-10-17T02:25:20.830021+00:00",
+      "hash": "db5a73baedc095af417b4ea8ccb45c339ca8d43241210e4cfd687eb3e4e76acc",
+      "manifest_id": "0043648fa20591d0331f10a6428f1b9055e419ed984343b59f858410e2e62ddb",
       "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996"
     }
   ],

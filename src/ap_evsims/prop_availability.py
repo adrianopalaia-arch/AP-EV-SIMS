@@ -47,7 +47,7 @@ def interpret(sport,event,players,payload,manifest):
         # must independently match. A full listed batting order is required.
         teams=payload.get('teams',{})
         if {t.get('team',{}).get('name') for t in teams.values()}!={event['home_team'],event['away_team']}:raise ValueError('AVAILABILITY_TEAM_MISMATCH')
-        injuries={};expected_regular=None
+        injuries={};expected_regular=event.get('competition_type')=='R' if event.get('competition_type') is not None else None
     out=[]
     for person in players:
         evidence=injury_evidence([injuries[person.get('provider_player_id',person['player_id'])]] if person.get('provider_player_id',person['player_id']) in injuries else person.get('injuries'),at)
@@ -59,8 +59,9 @@ def interpret(sport,event,players,payload,manifest):
             t=next((t for t in teams.values() if str(t['team']['id'])==person['team_id']),None)
             batting=[str(i) for i in (t or {}).get('battingOrder',[])]
             if len(batting)==9 and len(set(batting))==9 and person['player_id'] in batting:
-                state='OFFICIAL_BATTING_ORDER_LISTED';order=batting.index(person['player_id'])+1
-                reason=['LATE_SCRATCH_RECHECK_REQUIRED'];role=True
+                if state!='REPORTED_UNAVAILABLE':state='OFFICIAL_BATTING_ORDER_LISTED'
+                order=batting.index(person['player_id'])+1
+                reason=[r for r in reason if r not in ('PARTICIPATION_NOT_CONFIRMED','ROLE_NOT_CONFIRMED')]+['LATE_SCRATCH_RECHECK_REQUIRED'];role=True
             else:role=False
         else:role=False
         if sport=='NHL' and person['position']=='G':reason.append('STARTING_GOALIE_NOT_CONFIRMED')

@@ -1,0 +1,42 @@
+{
+  "blockers": [
+    "Historical sportsbook endpoint HTTP 401; zero qualifying historical price backtest observations.",
+    "Zero settled prospective priced comparisons; calibration, qualified market-relative scores, CLV and hypothetical ROI are not established.",
+    "No confirmed player roles in this cohort. NBA/NFL reported injuries are secondary-aggregator evidence; NHL/MLB injury coverage is incomplete.",
+    "MLB ALCS game 849817 is postponed/rescheduled: official Oct 18 21:00 UTC versus sportsbook Oct 18 00:00 UTC; regular-season model does not establish postseason validity.",
+    "NHL target game has FanDuel SOG only; DraftKings and goalie-saves quotes were not returned.",
+    "CFB score forecasts preserved; this prop-priority refresh does not refresh or qualify CFB prices.",
+    "Exact bookmaker void, participation and postponement settlement terms remain unverified; no assumed cash returns.",
+    "NFL rushing probability diagnostics and NBA threes fail their respective baselines; MLB pitcher-outs advantage is inconclusive.",
+    "Historical outcome data are currently captured revisions, not proven historical availability. Inspected evaluation seasons are exploratory, not untouched holdouts.",
+    "MLB player coverage is a documented limited cohort. No verified complete historical injury/role histories or shared-game joint simulations."
+  ],
+  "core_enabled": false,
+  "generated_at": "2026-10-17T02:30:04.867982+00:00",
+  "preservation": {
+    "baseline_commit": "bd4a8e5862e038c7ae77c71e50873f08dc234547",
+    "failures": [],
+    "original_forecasts_by_sport": {
+      "CFB": 59,
+      "MLB": 38,
+      "NBA": 124,
+      "NFL": 120,
+      "NHL": 48
+    },
+    "original_forecasts_verified": 389,
+    "protected_phase1_files": 18,
+    "verified_at": "2026-10-17T02:23:13.279523+00:00"
+  },
+  "status": "RESEARCH_ENGINEERING_COMPLETE_EMPIRICAL_VALIDATION_PENDING",
+  "tests": {
+    "command": "PYTHONPATH=src .venv/Scripts/python.exe -m unittest discover -s tests (workspace TEMP)",
+    "failed": 0,
+    "frozen_phase1_files": 18,
+    "frozen_phase1_mismatches": 0,
+    "passed": 351,
+    "skipped": 0,
+    "status": "PASS",
+    "verified_at": "2026-10-17T02:30:04.867982+00:00"
+  },
+  "validated_edges": 0
+}

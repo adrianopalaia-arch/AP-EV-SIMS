@@ -102,6 +102,10 @@ def current_inputs(root,sport):
     canonical=dict(event_id=eid,event_start=utc(start).isoformat(),odds_event_id=event['id'],odds_event_start=event['commence_time'],
                    home_team=event['home_team'],away_team=event['away_team'],market_identity_verified=not reasons)
     if sport in ('NFL','NBA'):canonical['availability_event_id']=e['id']
+    if sport=='MLB':
+        canonical.update(competition_type=g.get('gameType'),rescheduled_from=g.get('rescheduledFrom'),
+                         schedule_revision=g.get('description'),schedule_status=g.get('status'))
+        if g.get('rescheduledFrom') and reasons:reasons.append('POSTPONED_SCHEDULE_REVISION')
     return canonical,players,sources,reasons
 
 

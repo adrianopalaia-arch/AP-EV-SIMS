@@ -2,17 +2,29 @@
   "authority": "LEAGUE_API",
   "event": {
     "away_team": "Tampa Bay Rays",
+    "competition_type": "L",
     "event_id": "849817",
-    "event_start": "2026-10-17T00:00:00+00:00",
+    "event_start": "2026-10-18T21:00:00+00:00",
     "home_team": "Cleveland Guardians",
     "market_identity_verified": false,
-    "odds_event_id": "b9d2e07cf437b5643307aba274c45a74",
-    "odds_event_start": "2026-10-16T22:00:00Z"
+    "odds_event_id": "bf41baaebfa23a202d2f3a6811425ff9",
+    "odds_event_start": "2026-10-18T00:00:00Z",
+    "rescheduled_from": "2026-10-17T00:00:00Z",
+    "schedule_revision": "ALCS Game 5, Makeup of 10/16",
+    "schedule_status": {
+      "abstractGameCode": "P",
+      "abstractGameState": "Preview",
+      "codedGameState": "S",
+      "detailedState": "Scheduled",
+      "startTimeTBD": false,
+      "statusCode": "S"
+    }
   },
   "event_identity_reasons": [
-    "BOOK_CANONICAL_START_MISMATCH"
+    "BOOK_CANONICAL_START_MISMATCH",
+    "POSTPONED_SCHEDULE_REVISION"
   ],
-  "generated_at": "2026-10-16T15:02:00.166185+00:00",
+  "generated_at": "2026-10-17T02:29:02.813711+00:00",
   "identities": [
     {
       "aliases": [
@@ -379,18 +391,18 @@
       "team_id": "139"
     }
   ],
-  "latest_source_capture": "2026-10-16T14:58:06.664036+00:00",
+  "latest_source_capture": "2026-10-17T02:25:18.948988+00:00",
   "recommendations_enabled": false,
   "records": [
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "694197",
@@ -398,23 +410,24 @@
       "position": "2B",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "682657",
@@ -422,23 +435,24 @@
       "position": "LF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "595978",
@@ -446,23 +460,24 @@
       "position": "C",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "677587",
@@ -470,23 +485,24 @@
       "position": "SS",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "671922",
@@ -494,23 +510,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "800050",
@@ -518,23 +535,24 @@
       "position": "RF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "682982",
@@ -542,23 +560,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "681807",
@@ -566,23 +585,24 @@
       "position": "RF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "681870",
@@ -590,23 +610,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "656492",
@@ -614,23 +635,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "668909",
@@ -638,23 +660,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "683769",
@@ -662,23 +685,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "666176",
@@ -686,23 +710,24 @@
       "position": "RF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "676282",
@@ -710,23 +735,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "608070",
@@ -734,23 +760,24 @@
       "position": "3B",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "670036",
@@ -758,23 +785,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "663993",
@@ -782,23 +810,24 @@
       "position": "1B",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "800048",
@@ -806,23 +835,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "672275",
@@ -830,23 +860,24 @@
       "position": "C",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "690984",
@@ -854,23 +885,24 @@
       "position": "CF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "542888",
@@ -878,23 +910,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "677944",
@@ -902,23 +935,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "680757",
@@ -926,23 +960,24 @@
       "position": "LF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "676440",
@@ -950,23 +985,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "682120",
@@ -974,23 +1010,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "683953",
@@ -998,23 +1035,24 @@
       "position": "2B",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "114"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "810938",
@@ -1022,23 +1060,24 @@
       "position": "2B",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "811315",
@@ -1046,23 +1085,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "641329",
@@ -1070,23 +1110,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "592155",
@@ -1094,23 +1135,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "656775",
@@ -1118,23 +1160,24 @@
       "position": "CF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "802415",
@@ -1142,23 +1185,24 @@
       "position": "LF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "642121",
@@ -1166,23 +1210,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "656876",
@@ -1190,23 +1235,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "642547",
@@ -1214,23 +1260,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "643377",
@@ -1238,23 +1285,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "693855",
@@ -1262,23 +1310,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "666018",
@@ -1286,23 +1335,24 @@
       "position": "1B",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "676356",
@@ -1310,23 +1360,24 @@
       "position": "RF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "622761",
@@ -1334,23 +1385,24 @@
       "position": "SS",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "691406",
@@ -1358,23 +1410,24 @@
       "position": "3B",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "687330",
@@ -1382,23 +1435,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "689414",
@@ -1406,23 +1460,24 @@
       "position": "C",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "663743",
@@ -1430,23 +1485,24 @@
       "position": "C",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "607259",
@@ -1454,23 +1510,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "680700",
@@ -1478,23 +1535,24 @@
       "position": "2B",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "668723",
@@ -1502,23 +1560,24 @@
       "position": "RF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "571927",
@@ -1526,23 +1585,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "670764",
@@ -1550,23 +1610,24 @@
       "position": "SS",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "669330",
@@ -1574,23 +1635,24 @@
       "position": "P",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "683748",
@@ -1598,23 +1660,24 @@
       "position": "RF",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-16T14:58:06.664036+00:00",
+      "available_at": "2026-10-17T02:25:18.948988+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
       "event_id": "849817",
-      "event_start": "2026-10-17T00:00:00+00:00",
+      "event_start": "2026-10-18T21:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
       "player_id": "650490",
@@ -1622,39 +1685,40 @@
       "position": "DH",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
       ],
       "role_confirmed": false,
-      "source_hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "source_manifest": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "source_hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "source_manifest": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "sport": "MLB",
       "team_id": "139"
     }
   ],
-  "snapshot_hash": "26fd522c0e27f10df722a865d019456347b9039fb52b3bff6eb8c20d732dfee6",
+  "snapshot_hash": "ee8f0ea6f68da4829d4143e2d91032fc97c75c40c56fd91a185fa2dde1744305",
   "sources": [
     {
-      "captured_at": "2026-10-16T14:45:08.338395+00:00",
-      "hash": "543fee22e0ecffd435729880389683914fec41f9ba702b7705787a662db34476",
-      "manifest_id": "a1c2be7f44f7946eea9e5478f8984f140f73fc6696871f4f72b88e955315e403",
-      "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-16&endDate=2026-10-18&hydrate=probablePitcher"
+      "captured_at": "2026-10-17T02:05:21.890999+00:00",
+      "hash": "76110423491c3bfda32417047ae3d49d2b74e7cf33e925e1399367d6c4885257",
+      "manifest_id": "2f412364fac3f3aa3951d6ad24f8947fb5ba6a94e225e7a3edb1a2f61ca5c0dc",
+      "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-18&endDate=2026-10-20&hydrate=probablePitcher"
     },
     {
-      "captured_at": "2026-10-16T14:45:08.476440+00:00",
+      "captured_at": "2026-10-17T02:05:22.117252+00:00",
       "hash": "0dc00b151caba1ea4586a3723f5327f412253a41e7551c4a48fd3bad0b2a8bc6",
-      "manifest_id": "34d83a4a07ecb15a17a3a0a6f78de8cc85eb05b60020436e235e590dce2c19ba",
+      "manifest_id": "7d9ff7aa790139c02b4999ac64686fc3999a287e442296528e8126f1559899c5",
       "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active"
     },
     {
-      "captured_at": "2026-10-16T14:45:08.648029+00:00",
+      "captured_at": "2026-10-17T02:05:22.361152+00:00",
       "hash": "d469950cbf7f9abdce695ce81cb5a66e4092755851ef87706412e22eba9d5e8e",
-      "manifest_id": "72266622910c11cc1a628d9f7ae6400ee9d7f082f67d6613b935dd76df58dcac",
+      "manifest_id": "9a82fa479332f79741b8938bc8efe943ad05527416db4096bd9e9f551e720805",
       "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active"
     },
     {
-      "captured_at": "2026-10-16T14:58:06.664036+00:00",
-      "hash": "f76fd29d974734e79f6462b25060f00aaacea7af3dc393591be009012810abca",
-      "manifest_id": "d77a62480fc7ba62a810852a4527b3fdf96730d45c1ecffa9c5390c229777776",
+      "captured_at": "2026-10-17T02:25:18.948988+00:00",
+      "hash": "a3a6c60913f92d9fc8277145414ab90b9394e5c5f7696b1183ccf2c4ae7e7104",
+      "manifest_id": "beb72531e30c3fb7b6db66d997f32ebb587dfe014ef57d50e226023ef7c85201",
       "url": "https://statsapi.mlb.com/api/v1/game/849817/boxscore"
     }
   ],

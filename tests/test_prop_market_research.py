@@ -116,6 +116,15 @@ class AvailabilityTests(unittest.TestCase):
 
 
 class PriorityCollectionTests(unittest.TestCase):
+    def test_cooldown_checks_do_not_restart_the_request_clock(self):
+        with tempfile.TemporaryDirectory() as d:
+            s=ResearchStore(Path(d)/'data');at=datetime.now(timezone.utc).isoformat()
+            old={'sport':'NBA','record':{'status':200,'checked_at':'2020-01-01T00:00:00Z'},'latest_attempt':{'status':'REFRESH_COOLDOWN','checked_at':at}}
+            (s.root/'evaluations/prop-price-access.json').write_text(json.dumps({'sports':[old]}))
+            r=collect_priority(d,daily_credit_cap=0,transport=lambda *args: self.fail('Unexpected network request'))
+            nba=next(v for v in r['sports'] if v['sport']=='NBA')
+            self.assertEqual(nba['latest_attempt']['status'],'DAILY_QUOTA_BUDGET_LIMIT')
+            self.assertEqual(nba['last_request_at'],old['record']['checked_at'])
     def test_budget_block_preserves_last_quote_and_event(self):
         with tempfile.TemporaryDirectory() as d:
             s=ResearchStore(Path(d)/'data');old={'sport':'NBA','event':{'id':'old'},'record':{'status':200,'snapshot_id':'a'*64}}

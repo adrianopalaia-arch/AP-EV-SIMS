@@ -1,0 +1,843 @@
+{
+  "clv": null,
+  "cohorts": [],
+  "comparison_update_records": 1012,
+  "excluded_first_observations": 50,
+  "first_candidate_comparisons": 214,
+  "first_fresh_identity_verified_comparisons": 164,
+  "generated_at": "2026-10-17T02:29:05.212930+00:00",
+  "hypothetical_roi": null,
+  "max_drawdown": null,
+  "pending": [
+    {
+      "comparison_hash": "00a48c8414c516310d627a5e6dea9fb8178a53659018633831bfce54c3f15bfc",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "025d5cec189974871b658f1ffedff271da3cd40c8f92fe93ae029eaabffb346c",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "0278a62521a588f5550d840422aff604b4e87d5f46e56127d84e60e494af6da7",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "04b98ab39a738e10683da6d6e801bdee7a6c1cbdc4f3c2bc1d6b5e007c140703",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "04ce8d3c417c986e0fd7e32d79382c2740aedf948709afb27389de7c2f0cfbff",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "07a9975042afd0678ddfdb7292879fe1d016e7c69a966b7d44c2c21f437addc0",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "0852c31417a669eeaaf934fd5c52db1c97dee67b5e0f9610394f61bae2ed1818",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "0c084ed111b9dbf2e790d2fe82959631f9453d613c5e82e36ce4afce8ff1f369",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "141bed39207b9d9301ae1a59df399acae5d342ef8e7461d51d5c024350750725",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "14a273360590c458641ea0a7422f2e03d429db24538be29dae877c12223bbd78",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "15c8731d1e5e1fdf1120f0dfbc317bab2b39ca22330a7f65e9a7a9672986864e",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "16478cb483ce5f5ef6761418ade0d5c97ea8c2d89513f83aa842f5474c9c21f0",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1cdae38860f3e2b5b010e3d83f1b64009cbfb686f56f77ad8ba7312593755546",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1ce20c47b1bb593b7566514ae41f4f08f19f1b184a9a5f3b1b07f5589982ee58",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1e07b347011f41259ed2630cf57fd9e491942acfca8a6fa499e8094af8d842db",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1e6621bd19c112b8a8915934d47dddc503dcd47c0d590064b49e715326cd15d8",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1f3bbb0a05ed7e977fbe38f01d88190ed936a21b38fa06c5aedd7c915f18ae5a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1fb3a081cca0d58d511293c94bc6b1d207060fc3ad18264f4226ca08c9bda194",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "20f9bd5d708684283d0eeb62e6d7ce5cf3f4ca40bc3352e9657ca36ca40979bd",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "247d5ae288363859c055999b3cbe16686d88761c2f26b98e520991fe1c2d31ed",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "250c2cc092003ae7f97f42a2fbdad00c283f598a1fdd8f97b355a0d13b1ef8bd",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "283a248e7169112e430df6302cd74a818f1a1ffc0362108c87cdd082e02e8261",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2adc25d5724a55fa076fcc7cb18e7c271eaeff1aecea958765a81173b74dc176",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2b622235864a646ace955c1308739db937e2d0158b081c1648bece36ba43d0f1",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2bd8c9ac01be7aedb2b5fefc75cda1314501db0a4ac71c0e4ae1b934d84b875f",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2d7f2b35b0759ed27a92f2bae8161fc92524945706b181d8a83c79330e8df92b",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2d80179274f2a3d6fcb551b6d57efd0e3088048ad387755fa1964e8c08b327f6",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2e7dd91025e463c1cd51483a5b1d36637fe72b2b8233f5b764263d26d26263f3",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "3161b2f6267c02b728c81ffcb167203121d273296c36fb286faa6df7f3dbf24a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "33476be9a8e1eeb0d5a93ef18560c88b93224c531f139febe402bfbfec0338cc",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "33e53883ec7ce377986bab521485f843815b075b12c6407365e1d53e5520d472",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "34f0a568e12e6ef2f997a154d586cc00f6185bdd5a0b317c0d6f7c5fd461b77b",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "3bdba35e3f5074ac8bb668170ef466cbde7591ba024dfae6133deac5350df4d9",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "3f7231da919eac908ad47fe7db77cd87035ae7e218b8c719b7bd6ffa4b83538a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "4003dddd5a5b4b7e97abd60fe591757877969f5a8173fae9ac3e72cbf34715d9",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "472b9aac8c3581e78fb85e362621ea59047e760ea0f26b035c1dccc41b046257",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "4908f184b65f9c6a5df786279aa87562a6f6ec6deba13da0ad80b5d400c6a829",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "4b995d6d63e56a17e2122d2354bc8a6f841991e65caca2014fc7bbc120b80c43",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "4bb703c27195a297d3c02ce1e0f4609ae3dd8f8240944e821f6ec1599fb62f38",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "4e6856c8fd0516c3722416bc3da4944455111e1ad7b97833a15b3677af94e903",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "52aaf30b9db3d5ce20bf7f3a3b9f4e5acdee54587b26bddc842edb2bbb4415b8",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "5676314177bb932ef40bebc91d289bf8fed0c59c027df2c1f5d0fd8a08b8b18b",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "56830491141d8fbfb03348c175cac0770fb6e98fd82858463e15d94d961448d6",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "57483d11181f4fd0c0668bd27d8958d9c99d1e079e2fa41c34afcf1f1c5f7e49",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "57836de117a422a34316e17ab411e575cbd9fcfe282687edce7e42621377880c",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "5acb129469c5700cbd69a990aaff3811fb2784bf7c4962be6a2ee79c611dec5c",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "5c9bcf41c8c264b16969cbdcf8e5c48abc87b223402b73494c72f1fbd3662ef2",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "6013d51884aa5ab912390201b1bb42543c9c1c2df7bc54afb1b4335c541f8235",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "61e0495a9f30bfc3f82b18a3ed75b2a3af5f8928b9ee28eed30853462608158e",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "6273858175c5add870fc1614ce5486468f2b964b3fbd4997040e1d71d8182233",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "689f8742c63e900018a113079d72bc8e0bb9a14d7cd3c35333c31c3809184709",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "6a9e25a220921b7a1c2a3125a9982ffe2e66ec041d1c076be6250b1f0892732a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "6bcb116a1e256dc519025121ba675e44b4b9835acd3e4e670a4305a0ae806295",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "6c40bd2e848288dc355270680c3d48238faa5dcb3d7ad0ccdf8ccf41e3a6e6fa",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "6ee2b227f3194bdb9ef16e8e2dc55353a7dbe4b1470f2e1aa39e1af9719ffef8",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "6fe5770a37984ed1c0807a566b4de751c63b4296a76ef41deab0c91e8217e7ff",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "73aaf9952e7d3d38d2ceb0d06f498a84c386f52eb686ac7f5fa191a77423265d",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "76be7d16bb70134ea625226e8377ea58e4c7c03663cbd3a3f1c76a0a0f3dc941",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "781f3c859e152e77efc058875c39d982dbcc8cf136c73d97cfd4791c1002af61",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "79c33a4d33a6af9dc640592f65f6af280545ff0f71d64414ced0a19febd177b9",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "7e4c60e6d3548f2df5902d931874979f290c94fe6454acb16faabd13a4b94b91",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "7f7a34d79b3f023608947e0b4248ade4b84bd50949d3cd9422cb328fb4cf4fbe",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "857fe313284deba99dc29465a27a11097b398e80abd3325e88ab9a40ea8e3c63",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "871d53bed78c6a9e252eb6c562a764a910578b80d0f27d3a74d544f9ae2fb104",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "8a0c6d4fd4f759f55a8ce811f276f44425642d045852f3adbadd3e0995912b7a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "905d01a8798575c1003779c7485422d524eb33df938ef0415d7fd8664e8d31bb",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "925b5ffcd38745937acaa65476ad7698a7a4f6cef8a6bcb0c356d87b1ecb6082",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "9757688e4869a17e725b8e0b38311a7d3693c73bae589a4e931a9615467cb62d",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "98cfa44e4d1e8016c55be0f4400e2a8253d4baeb804322d1bdeb2f2e2e3b5271",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "9a9b6448f6cfed1c94fe76c2cb581e8cb33b849866b0040f3b8c36a91af8fe9b",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "9adb22fadd37d2eadab533bba607dd037a84b115df8616ed264355f96ab307e3",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "9c30ef72cc3e4a7d77f926b6e60828c401b5f5acbf6914a7be0a68b1b1c43dd8",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "a08102939749cff1f28d812ac55b940d6e5ff17b34f86444536bf73eacca128b",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "a596d617f15e2ecf397ab897dd5800043015bf4afaa740e00f120afbdfdea2a2",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "a5a1e40cb6937263472b583840daaa98071abde3705ea061b9deb408af35eb90",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "a95c7d36b6c7cb7b19d7bda7a7c57f9e146a4a734df8a4109599d157cfae138a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "abc9b3e4020f76fb6fe696f9fe422b1e388d858a8a176c318cb7995ff5cf20a9",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "af47ff2dc30a99c00a24319a6dfe97452b69c6224e4070e6e9022dcddc5cc17e",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "b604ac0d257c19ad83b54a49a3c890901a1d50926febaa41ae09b60b1f9f7c38",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "ba07dd6492ae2160bbf786cb952c21494f4c6d48acb767053872576aa9d8a2e3",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "ba7942e18c3e31dfc5d4d47a0b267c457d4abd4418a16c9feb76281b4ce90a7d",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "bdd8e7604f2437f33db385565cfd77754e8c2485bf5c1b30eb5cbd054c5c289a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "bfeb6e793a66d1f7eaca1fdd9b8605eba41d916c398848562c69e22d64d07400",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "bfedf7459b044800bc0849164102de7b37fbad81fed9f284f4e52b76830d21be",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c04b77305b29ae8dc2586c5318fc43e7cda0ddf9c809091cf921cc9e67a7b373",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c178a5153d35eec7e335090613883fe2153a8324f12b93cbdae9237ba021f578",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c331caf42c7eaa3c2b67e179b6c12d8e4b43aa684b443584646885ebd68c75dd",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c418740c7691cc3556f6f8faa1f3d42f02492321c857d6f980ca5c3d5a0bee2a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c45a0b7bee16f27bd3c6ec6e8587f739d423a5ef07436a8f4c728340c81fd12b",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c47b7772b99d46181c885b43541a4cea09486c98968b8f8b48c0db8a2c3abc86",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "cc936546de80d1051891f7f982dfb7fb0a4da27d41cdac628d93739799600157",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "cd266041076d81a9e9db6040f2f202db9002a802690cb0f631d874b931a8d1d4",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "d4a12c45189aba5256989d1ebd2a6b428ee4329d709c6c51f4889ca1dffb84fa",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "d8c68d4bc6ee052d2273787b901c74c34f28e95077846d68db30be7ed4c96ed3",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "dad3967d91f4a6ea3cd2feb75144b5bda6a8ce288fffef424d5224c15e512747",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "dbe4bcdcfd8f97db02ab528d79fa211190e1039c98e8990393763f9bbc332fe6",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "dceba38f036a45c9703976731722e670d1c78d864f3e2df231a28292c19d42fb",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "dee2de15ef111798fd9d067bf264c0bc743d98111d8f0462fc5dc0ffa4ccc09c",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "df25b375436447fce3ddabe678ef80740041f0ee59d3888809df09ac7b03e517",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "e4c13e8598f4baf81c27504bac1d0663b7d55f1889fd36e4bf993936bb27a622",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "e767f4113786782a0b5de2e4feb4fc92eecd46eeef14a439762de55296b8dd4b",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "e8bd2a1afccae6e8cb5386ebde7da8d67b5bf50a78a2db9bc4d477fcd8adc5be",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "e90640bc88ad97b05b02017be35aa445a868f614ab640ba36f71ddc28d48bfa0",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "ebe483206fc37ce8b8c57218f40cecdfa823df9e0de39af841fcb176ae6113ef",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "ef4f6eb12191419d4bba3c78bed10b5dad1701776add4144bfe19f7004e85fa8",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "efb6afb95f35e8af729b72f7115145b6de9ee1404a8b73eb913286d394d35252",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "efbe1837a0ce587bb265bdb81a5bfe82e20af818112216bfe46e2012e98d8bb6",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "f0f1900046152013038d4696cdc54349d2b8f7ddaee3a72e45443182e9a45e15",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "f77605000a55e5bcf3b3ddb30a960f23ac4bcb4a9c38dfb63ac0f382ace05c22",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "fbdb9d82c786f3255283ad37ee05571c8b9216e931685698aea816dd87cefe49",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "fd08a32074040a885663f5a1edf049b973bf37777fe8505c867aa4e9243f3d88",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "fe3bd43cd384d6047108acc2ae635af212f0ec768c3058708f9e1d2a70f2162d",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "30113c39afaf6519d436728d54037c098d96b4b5cf4b1b3cadec0734e685cc4b",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "9958b93ee42dc3f10b22cdeeabdcf100a72e1d008c2df06f4b9ab29ac77364b9",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "d41c160f498c575f3edc3d87ad547c4083a00e4d7ecacba0933bd2b3d405c90a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "ed73cd330ec89a3beb5485476b03e840a7b08f1552f939791a47bebd24213102",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "02dd833dcad4c36ebbdb9447be67a7f6857887829fe3ecb0bea77874c6c10273",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "1be3047620c3314022a74e42fc602fafd3fe9a1422128527803fe725cafc633c",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "1ca042996c5eac84df2c374d08d229dae7b0d48e997d3db66e57e790cac82678",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "22bf9ca970740d30fee99e400ee7143f648b0c309255885d78a69cae77fe2e46",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "257bd0d686a5e591ccef255090439e6cd0f87b593a3681200ce1751761ef2b03",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "2ac8e2c062abcb680aa3e6a7c6dd6aeeeace80fbc84cc2f43fa9525e5119afc0",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "326de62a7da617504eb1b52a81ec25e98f725349dc1fdb23cba0930548f04b00",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "38116e251e74922a03f8f60d8dadf77eca3c5c0a77637bdd8864d98e5252be4b",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "39ae459c9c67b20506ca08ba4401417603370d14127c2a902bd2122be45c97ed",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "52d4f58d09f82b63f937bd0ff31ec5e9c64d0d108637b45a86add4ef59f7070b",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "6ddc75a8cc30f6d699fe89f29d767f6657e144c0ef966493cf3b9ba2fda58d4a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "6ef527122bc52fb93e1ce78b156da557265cb898c4eadfa3e2aa356250f89f79",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "70740d94d5a3d98a3496f92a8f3b83fd6ac79cd3cff5dc66cedd52663730904e",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "8231a5d9eae6a958434e9b5735665ca0872b462dc878a2e01825d456877a5165",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "861ca2a098cc4584cca421ec4a1e853e0b164fa73a83018b81a6ad359413ffaa",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "8dc76634ef589ffc765c2a7e4384d7050f75b5208c8a7878cf76aff86b671bc2",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "9061fbf5c0ece0a9cdbc8015586205bed79dc41104a57c872248b68c6fefeba0",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "946d3d75347d35e2c493c9fd637bccc28db31dabc07011521b18ac88d645a3f0",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "a0c37d081e3232eb8802b44179e749f45ae34e0d62a5bea6b8e9005ab3eba21f",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "a70d7f94be0d6b303f6b1174e6be8bdbf80fa9fc051a508aa9686acfdf394ac3",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "acf6235999a6962191bbd185f80f1d0ae85d9d879b52ce7dcaef4a42ee809457",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "b44e0b11f752028fd436a79303d77abfbc0eac1f2ff74f214628fd96d3fce690",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "bc15ab528fadc066fb47c0dbeb3e60d90a21669a228229c016dd527005839678",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "c318bd6e48d988b68c4dda3869a2a5441a2e0ea1e44b680727fb67eaf60d83f2",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "c9ecb7fcc663256d5c86f02a05d86c209a1c722259ec6f7b267f5fc526c9b106",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "cc48cc0ca468e4c5ef5d5fe4f9f211bae7dc96e6186454a4ce5007d66e6174a2",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "cd7c7a8f36d20ef133b244e2bdfc634a17a7639f86ae534cd2839be2b54fa330",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "de08c56376554a78b7e025b734d379de746c44f149b21007f720e21b3fd2d136",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "f8db5894f332febe3ca3fdc1b7cbbb2063cd8ca5bd843847ca8c143fa566bb23",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "f993270f60c7b904554bd9f9e2895ed9333007c5be416990dc9516e9816e8e17",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "fd3a4690e16c0cddfeaceae30afd205187b6676e4a08cb3940717ed30800f3c5",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "fee4348b5b8195440efc5472acec81183a3b20c877ff8a9643e2352210240ada",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "08bab1fe98f8c81e1d4ad2bfc3cfa6fafa05801f0c8ffb5e989e91d7b966f148",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "1f69896617976e434ef697b2a9d11f8615160a645a21eca26f7c8a6bef3db4fd",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "2124a9b1a29df02ace5d3acea34c104dd5a5fb7d567d8d20330a6957b92ea623",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "293977702c4122a0431f871982d16be01b3428643b2fa55429218f75eea0cb80",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "3b2fa5b7c2009b757a9f277134f63e93fe2cd9888dab63251730a7c094b4f15f",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "4253be4d1935850e40d133b2b86f6dc1ff9a118c9686d0c0fa8293a5580941fe",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "66a82aa93c60af561be0a68046a2563dc5fee4be8b262d78edf5f599401929ed",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "78fb96a84a5b1dbf366f7f5f019d7afe46d466d00cea00209bf13490475c4d66",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "7d485a9d346d49de2c57b856c97517cfaa124f0e4719363d4a2faace214fea0a",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "83ded8aeba4efd3b2cc79dd6e454d0d36c72bf819c89683076817d883f3e16b7",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "a1712d103a139c0cfa6f4635997f3e7025555986a044986e926cac131896f409",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "bd8a042eab309f98d5c89d11486cbb6ab4827e329ca00c90fa7372297f442828",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "c005b1efccceffd2bb5c44c2663c406eb4d0036f7395fc731b9835146b00b8a3",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "d3523ebc6e379735dbea89b50056ca35bf8ca837b59810c942c79b1828a52b27",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "d94c2c9297c9c82e5a1a3f40e30021a570583ca1db3647425e7ae27616aadc1e",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "ec5c8b74e5f24f1117ea6e9c0118557d9daa7d32ef685f223cfaf7797577da56",
+      "reason": "EVENT_NOT_STARTED",
+      "sport": "NHL"
+    }
+  ],
+  "pending_comparisons": 164,
+  "pending_reasons": {
+    "EVENT_NOT_STARTED": 164
+  },
+  "recommendations_enabled": false,
+  "records": [],
+  "sample_semantics": "First event/player/model/book/side/exact-line observation only; books and opposite sides remain correlated, not independent bets",
+  "settled_comparisons": 0,
+  "unique_forecast_cohort": 49,
+  "validated_edges": 0
+}
