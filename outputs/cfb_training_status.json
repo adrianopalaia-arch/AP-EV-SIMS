@@ -1,0 +1,233 @@
+{
+  "baseline_features": [
+    "ppa_diff",
+    "success_rate_diff",
+    "success_rate_sum",
+    "plays_sum"
+  ],
+  "checkpoint_source_commit": "e8ba43ad29cab54452bdbd06ade376e4badde496",
+  "complete_phase1_feature_sets": 0,
+  "completed_fbs_earliest": "2025-10-03T01:00:00.000Z",
+  "completed_fbs_latest": "2026-10-15T00:00:00.000Z",
+  "completed_fbs_seasons": {
+    "2025": 50,
+    "2026": 333
+  },
+  "eligibility": {
+    "book": "draftkings",
+    "completed_fbs_game_denominator": 383,
+    "eligible_real_training_rows": 0,
+    "games_with_eligible_archived_price": 2,
+    "identity_rejections": {
+      "EVENT_START_OR_IDENTITY_UNVERIFIED": 1,
+      "HISTORICAL_IDENTITY_UNAVAILABLE": 4
+    },
+    "market": "spread",
+    "rejection_counts": {
+      "INSUFFICIENT_PRIOR_PLAY_DATA": 2,
+      "NO_ELIGIBLE_ARCHIVED_PRICE": 381
+    },
+    "selection_policy": "earliest qualifying captured full-game home spread within 24h of kickoff; latency <=180s; one row/game",
+    "synthetic_performance_sample": 0
+  },
+  "eligible_training": {
+    "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "n": 0,
+    "parquet_path": null,
+    "path": "normalized\\cfb-verified-spread-training-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.jsonl"
+  },
+  "evaluation_status": "BLOCKED_INSUFFICIENT_VERIFIED_HISTORY",
+  "folds": [
+    {
+      "calibration_n": 0,
+      "evaluation_n": 0,
+      "index": 0,
+      "reason": "INSUFFICIENT_TRAINING_SAMPLE",
+      "selection_n": 0,
+      "train_n": 0,
+      "window": {
+        "calibration_end": "2026-02-01T00:00:00Z",
+        "evaluation_end": "2026-10-16T01:57:15.409518+00:00",
+        "selection_end": "2026-08-01T00:00:00Z",
+        "training_end": "2025-08-01T00:00:00Z"
+      }
+    }
+  ],
+  "generated_at": "2026-10-16T01:57:15.409518+00:00",
+  "ingestion": {
+    "cfbd_quota_remaining": 970,
+    "new_raw_play_rows": 142879,
+    "season": 2026,
+    "snapshots": [
+      {
+        "available_at": "2026-10-16T01:47:05.105334+00:00",
+        "payload_hash": "66a02326096e41ecc530df33dd8b0ed635cb8fff8ad350bb0f521ad83a910164",
+        "rows": 23121,
+        "snapshot_id": "0dcdd65a62205886333e74172db37bb222be2e91ccb399cf480ba42beeecf90b",
+        "week": 2
+      },
+      {
+        "available_at": "2026-10-16T01:47:20.896763+00:00",
+        "payload_hash": "33a374af9dbb6ab28ae52a7966c3b8d2570cc523e521a3733c654378777dc90a",
+        "rows": 19049,
+        "snapshot_id": "19b0fc7316ba25bc99ba1fd444a73014e0fb1b28e986c353f444c5f0490d9053",
+        "week": 6
+      },
+      {
+        "available_at": "2026-10-16T01:47:12.493809+00:00",
+        "payload_hash": "24153d4e783c1e67cf2875decf69f06a4fe79066564fae38cdb962137ec6a8de",
+        "rows": 21826,
+        "snapshot_id": "2b521fe531af5ec1fb547ca1c03744ecf94866a83041dd31651bedcacd08a772",
+        "week": 4
+      },
+      {
+        "available_at": "2026-10-16T01:47:08.619998+00:00",
+        "payload_hash": "10476049dab34601b6fde1cf94dd985edb6395a1a49a812de022336adb9c45cc",
+        "rows": 22758,
+        "snapshot_id": "30c2766c4019f96e3c55de56491d1c1f48c2b594378d667e6edced3d34cf5b71",
+        "week": 3
+      },
+      {
+        "available_at": "2026-10-16T01:46:02.238545+00:00",
+        "payload_hash": "ccf882069523843d158682f9ee256263155d975e2d2c34aa8fbf008365adf30e",
+        "rows": 35761,
+        "snapshot_id": "8357347eba5930e896e554bd20c7a39c43f15823b4383e72b61f0c1ca058c815",
+        "week": 1
+      },
+      {
+        "available_at": "2026-10-16T01:47:17.174059+00:00",
+        "payload_hash": "a3ed225a028ea1650a0f1c4cc68ae1ec9ccf21ca1ec7b0d7b5bf08cea9cd12f6",
+        "rows": 20364,
+        "snapshot_id": "b82a4501cec59d69fa8b67c8dd45ba09ee8b1f78e7281b2b73d148082976b900",
+        "week": 5
+      }
+    ],
+    "weeks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "limitations": [
+    "Downloaded historical plays are available only at their real capture time, never the game date.",
+    "PPA is not EPA; plays per game is volume, not clock-based pace.",
+    "A small baseline feature set is not the complete Phase 1 feature/lineup contract.",
+    "No first real model can be fitted without enough eligible, settled pregame observations.",
+    "Historical odds entitlement last returned HTTP 401; it was not retested or upgraded by this offline run."
+  ],
+  "models_validated": 0,
+  "normalized_prior_plays": {
+    "fingerprint": "3223697026224ea009b53f29452948311f6479d3fc08b43afac00160b7f60f15",
+    "n": 57978,
+    "parquet_path": "normalized\\cfb-prior-play-facts-3223697026224ea009b53f29452948311f6479d3fc08b43afac00160b7f60f15.parquet",
+    "path": "normalized\\cfb-prior-play-facts-3223697026224ea009b53f29452948311f6479d3fc08b43afac00160b7f60f15.jsonl"
+  },
+  "phase1_integrity": {
+    "changed": [],
+    "files_verified": 18,
+    "verified_at": "2026-10-16T01:59:33.344672+00:00"
+  },
+  "play_history": {
+    "INVALID_PLAY_DISTANCE": 695,
+    "MISSING_GAME_IDENTITY": 63644,
+    "OUTSIDE_LOOKBACK": 161,
+    "UNSUPPORTED_OR_INCOMPLETE_PLAY": 20562,
+    "conflicting_games": 0,
+    "eligible_play_rows": 57978,
+    "ppa_missing": 278,
+    "prior_games": 448,
+    "source_play_rows": 143040,
+    "teams": 235
+  },
+  "profitability_demonstrated": false,
+  "prospective_baseline_feature_sets": 211,
+  "prospective_features": {
+    "fingerprint": "02078b46b4aa59f8ead73a0f165b1c316c74c5d5df610f47274f3ba592c567c9",
+    "n": 211,
+    "parquet_path": "normalized\\cfb-prospective-baseline-features-02078b46b4aa59f8ead73a0f165b1c316c74c5d5df610f47274f3ba592c567c9.parquet",
+    "path": "normalized\\cfb-prospective-baseline-features-02078b46b4aa59f8ead73a0f165b1c316c74c5d5df610f47274f3ba592c567c9.jsonl"
+  },
+  "real_model_predictions": 0,
+  "source": "real immutable provider responses",
+  "summary": {
+    "bet_count": 0,
+    "calibrated": {
+      "brier": null,
+      "calibration_curve": [],
+      "logloss": null,
+      "market_brier": null,
+      "market_logloss": null,
+      "n": 0
+    },
+    "historical_sample_size": 0,
+    "max_drawdown": null,
+    "performance_by_edge_bucket": [
+      {
+        "bet_count": 0,
+        "edge_high": 0,
+        "edge_low": -1,
+        "forecast_n": 0,
+        "roi": null
+      },
+      {
+        "bet_count": 0,
+        "edge_high": 0.02,
+        "edge_low": 0,
+        "forecast_n": 0,
+        "roi": null
+      },
+      {
+        "bet_count": 0,
+        "edge_high": 0.05,
+        "edge_low": 0.02,
+        "forecast_n": 0,
+        "roi": null
+      },
+      {
+        "bet_count": 0,
+        "edge_high": 0.1,
+        "edge_low": 0.05,
+        "forecast_n": 0,
+        "roi": null
+      },
+      {
+        "bet_count": 0,
+        "edge_high": 1.01,
+        "edge_low": 0.1,
+        "forecast_n": 0,
+        "roi": null
+      }
+    ],
+    "performance_by_market": {},
+    "performance_by_sport": {},
+    "point_clv_mean": null,
+    "point_clv_n": 0,
+    "prediction_count": 0,
+    "price_clv_mean": null,
+    "price_clv_n": 0,
+    "profit": null,
+    "push_count": 0,
+    "raw": {
+      "brier": null,
+      "calibration_curve": [],
+      "logloss": null,
+      "market_brier": null,
+      "market_logloss": null,
+      "n": 0
+    },
+    "reliability_diagram_data": [],
+    "roi": null,
+    "staked": 0
+  },
+  "synthetic_performance_sample": 0,
+  "tests": {
+    "failed": 0,
+    "passed": 228,
+    "skipped": 0,
+    "verified_at": "2026-10-16T01:59:33.344672+00:00"
+  },
+  "walk_forward_report": "evaluations\\cfb-walk-forward-36cea7d130e90d1547de\\summary.json"
+}

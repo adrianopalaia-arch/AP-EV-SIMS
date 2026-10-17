@@ -1,0 +1,1057 @@
+{
+  "sport": "NBA",
+  "generated_at": "2026-10-16T15:02:03.474257+00:00",
+  "settled_n": 0,
+  "pending_n": 124,
+  "pending": [
+    {
+      "forecast_hash": "3df3427537413825f5adc7019f8db7274430f5566bef43f26186178b4b84ee28",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "2990962",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b366ab5aa25e7459dd765cb7bec49ec0e75068a2b64eaa50ebfde99a5ce47fa9",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "3908845",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2aaa0f735a4a777b0b42a67ab25caf967bd07d6f0dbd944b4271cf10dcb1b694",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4397424",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9df3b72995b5ac9f63d41f487e47dc57a129517c51a2289a4dec03c4ed1adbc0",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4251",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d3b764f67cc825db305e533d1b72b49846616aa4b0c4dd8184463627f1928e02",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "5107199",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4b09d8d0e9bcbe5b2f5aa88941517565ee9560ee8322f49011793b427caa3c28",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "2990962",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9f588e508051b966717346681387658bf0948e6989f3974de161d23d69dab285",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4251",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e1c1dec2cf5d59e0df050d0b03914ac0d8d6917d1d8408c96bb9afe9b8eaf882",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4397882",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "385bff2e68aa186725982994f8e93c4c4b6b6492f100641df96197f87505257b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4702745",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "efd79c108da7522af454224ebf7ee944e3d73d50fc2bd3b9fa71b3220a7b87b2",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "3157465",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "360b2148e19e663fbc399275f38dcf8113177dab87c4d005f1d6135507c59c98",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "5175647",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3fea8448d02d8e5991398ecccb547e05e7bd11c25a89a614b7493bec43b2e07c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4433188",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "70aebc04fc2aff9dd37a40960e98684fdf3662704ec8ca64ff9d3033e1941bea",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4397424",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "73acb50ce14e3d79e4aa08e98a1a199f9df470ab3952c336722642d748cede9d",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4278562",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cbe9b9fa93f47486ce72606dde261de23c0cc30f16755ab14672808846af4710",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4066372",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d139df5ef64a610d0ae862524de725255091832a03bc175f48dcb65e18e7e9d8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "5107818",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5f602433d8cdadedd4fea40d4a8f2f89235031b14134f9c73da206a08b10dbf0",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4395702",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b77ce10047bca8fba79bab88bef332333be9771cc8242b8943246e7a7bf360e3",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4683689",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8d4e58ae9f1357132639792a4b6ea8a1ff514329d3a1170c7b06b0089312ad20",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4684742",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "fe65160d6da04a6d5e855b2e5b2aa1ce450f9eb62cd5d3a3b0395d29e24a5105",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4065648",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9a55fb0911a0e8a3f9ae86cd2d36fcb7465d4aebe24f0df6baaed333a711bb1d",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "5107818",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f1a082cba79e13400a5d4913ef515cfccdf031bc7e4534dafa3fbbfe2f4eee95",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4683771",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "dd588be5023405ab4ccae8cf35d1111cf35f9b92f76445da7607916835320168",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4702745",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "44ca465fe3fe307435eff549d7e0a85b502310202bb1f3d094cba7b04be28040",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4277951",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b8bbcc0ff8e1bc4af98d388bd1304b0cc393c62e9af3592b3f12c5eb2be0690c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "3195",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ac0142d2763d8792c5c05549b6ae0e42b1f205c463b16307918445035439a05f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "5107199",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4b2ddca5f80f6ac512d750a6401c545c64e4e58bd295d497ebceef8b2a82b678",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "5175647",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e54ed7559d9a6a0bcaf5e059896b876d968befd752d8598fd387e10b35d602db",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4065648",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f9ff9ac423a33875e2e469111682caacd40a1b53fa0a28debeff1aa9cee4d7ae",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4066372",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "542703b7d446c30c5e5af8b4782b3b7a8ede009aaf71a5adb98ade93ef29ed3b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4397251",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c391ac45297ae6712d1852f03c521706b45abe6318082a77ff347dd49df94b6b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4683771",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f3aabc81f1436e324dc4f223123d5fb5d6bb0bcddbe5a33d2548d5c0de487d66",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4683689",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5b17fa4b04ebfdfddc301221d0fe5f396c4c5e524f1bc1ed13fe7e98d62b4ef0",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4066354",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2fb07ea7f380a136c60e366bf59218db21ec8ef66d7d59224ae9ec5f6c826d7b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4065804",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ecd9ed46804b9e3b23fe0c49e46839001753034300551d8232ecba3c021cf925",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "3195",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3f0d97881eccffbd95e07c713ab73b67601dd2e94a61acde4b74d9fa4289a011",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4397251",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "37651ebc071ece4ce509a1bd6841170b1f073010a3af17f3c9e04f4fa2e3d5c8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4065804",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "542a59141af13b2c924274897d2dab327cbc276e9121d27e7429baa2e0eb0ae5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4397251",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "980ef9e4422edc9112f5253e1db74fd44681189126c69bfa6631221ebc679ca4",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "5175647",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "659c8f684db9a0ae55422d23952d04e412bddd98b812ed904cd6f386015b118a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4433621",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8c8579a89787933e2610d80de4ad1de60806bfe32dfe60ff9f761fc471d2d22a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "3908845",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "1efd5a470a031365d786da75797e8c33c5b33317bd20bf2fc5f5631040c9d9f1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4683771",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7fbe0ad75f45e83aa89e0c8efdc04ea9eaed859cf5072a577a3bb23fe0c86d2f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4702745",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3aeb58b8e0aaa7407ea5b8a5ecddbb9dbe8b8c7620eee4b0f9c588b07c84db59",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4066354",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "45e3f88eddbc91b7086b94426a00231bd2279609124dd3cfbc735ff3563464b4",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "5107199",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c75e5899076d95ac6a4c01daef1a0792aec795e7161d32f4c62f6da1bd82485d",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4065804",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cddbf57c493c0ab555b39a0efddc6f322b966911e5734979673675c633ca8c69",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4397449",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "45410a6fdce96e1f35916409b8282bf040cd191dedc166a7bee148c222950d4a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "3078576",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3bfa0df3f026cd9e5f8d3ac65358b9c80b7607ee8bbc0c787889525f28e2a522",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4395702",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b6eb42143515843679f0414df1e89958f6ea7652ffda3da764fa6afb18a3973c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4684742",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "051407f7135c367f5fce6cd5056ecabce378bdf1bec20c2fce0a030358a64064",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "2596112",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "1a4946e631f871e95f13670e0ee9405ef4420e6e3eae8e42fce8da7aad429405",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4251",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a05331892b3e7f56d44f33447de254a1ea10d4d0fea26a8138811af1a1f673d6",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4395702",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d3175996a321330ac869060b1365619cdb93ce6111537fd92b41270e8f62a127",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4065648",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b6251855679f428f237fa6cd78d130fe14c69ba6b829809a94f99f086b6e7c17",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4432166",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cce48e21f5d5ebeb417517572605715ad94512a077203ff9b9768d28859f496c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4351852",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2061d36df2dddf5bdb02af70e429350975f95210b140794a41ad98ae7277ddb8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4351852",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5369ac93c7abb0386ba284fdec87982879fa0787ef357430881da941910b4079",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "2596112",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9355304f8d081107e417a19afc4494e1de7ea6c55c29675031be9bd658200e53",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "3157465",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "89c20a27bf49d1a1129484b2c54f7b1ba000e4595f284a5cb1e2ce1680b3fdb5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4065648",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "bcc1c04b10e0c21d0c1eeb59b6d41efcf22d0b8644575c795ff0fc2a3c31d600",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4277951",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2480aa7fe545641e23eb3118e7bdc9b7abe88ef500bbc55386f31217c14a2fed",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4684742",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0a4de1ac8b5b123790ba9cae2c741eb1bb5f200156047335054b7904ca635757",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "5107818",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8c2dc54a4fc0b5d4ccc42b6c6429a9bf508f88a5f55794d219d8f2debdade887",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "3078576",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d89051e8d6ae3c03d2c606c023e7d41af565b738d606a510627dfb8a59ab1bdf",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4683689",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3fa1ee631afaf283853bfe8cd0360daff15f2697acab11df0f68b8ec348b328c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4432166",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "12d640d677c45ea27c9c4c56ee03db1ea6e356be311ab0bd3b0be1f5603e45ee",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4066354",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a303f2c4705c0260237987fdedc281e1e86d0d2fa76ece633b717ee5e75cadff",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "3157465",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "612051d0b1a5b4ee8bcc9c14f891e87dc231668889451b2746e5bad4484a7955",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4397882",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "25d92c07d161b9452108fb55c21f192456021d372ad6999ec5d833bb2430c2ae",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4397882",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4e2f665a59adde72438d541f742bbf80bb5415492a1220fdbc45d7ce176c2240",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4702745",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5f1df2f39137e13dd341968148266565d1b30ea61d00cb89af2e026fab5ae18a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4700852",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "22ef0b8f8ef91346d2f02fef25037d040d1b389d674cc3f21fa0a6c1d657a4cb",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4433621",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ba8807d6a59ed620b4ffaa6cfaf760dab1c356cca1a6c44e35794c846f9deee0",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "2596112",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8a3737deb398bd945ca17ba09a981f91c7eb56dc4be4aa887c9961114af34c35",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4433188",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8814b4d13e2c54bfa903c8f4d09bf42529c82ff00835209f2ec9b5cc26dc3ea3",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "5107818",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7321066543b2d0140f558fef5234b025521851155504dd0afc0f88282489b74f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "3908845",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "64203bac6c3b26f5b0a5f6b00b60b0e9e1b73885969ae3703299d7b8307de3dd",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4433621",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "282c5e1397bc21003f145731a0a4cb47d919fdac2d3e5baebf2cf31bd4444cd6",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "3195",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6c8795e6b476a673692d23c21ee5feee0a1fbe39a446693b0902bdacb6a46390",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4593841",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a167568c718df349f4bfe03887e81ba309add48a8208009b61ae8e47f15a83d6",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4432166",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e38664dad8252a577b7befd64bb4ffc7d345258d39f53f4c9fb6765b06221744",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "3078576",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0765cba8cd0198c38e641cf79fb9247290d7fb51aea061c881f52dbd2c894088",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4397449",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "025c02c67e451aa0867fbabd024134f262c9f00f94177661a86123a5e270c89b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4278562",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ccdd35509d8618cd7cd5806225095b0ded7aefa6161562ed6e0b143a7b2b5ebd",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4700852",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3744f1c8ce0551b964d65b1d180f32ac2ad7d36a1f070acb73861923e66d13ca",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4683771",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "14e30d619e0c82f089f2780d6b69e3ae2e0f27a4f7323a8c3ef535a5197f562d",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4278562",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b98c80b16c9294839eeabadf722b9862faeae3ebf0fb0c024eb163191272a9eb",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4397449",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5ab63d4595821e5e37f54b79bb7f4aac9d0f3470339d6fbee5f66a742c646b32",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4397449",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f91651fbcc69da91f007ac2a0cabe00aebb427c1fac212db0207c811745cfcb8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "2990962",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "1c9ef738f17b5f652666e238790f4bdffeac2aa594cff11733d59ac00ca899bc",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4593841",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d76834f6725e9bb57317c3c1175086233ec3023863c6a123ebbceb320b9583f2",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4432166",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9fb7675d8116857f8e74e29c92ca668d92a86c18c19530cd69edcfbfd050cb5c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "3195",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e70615fdd1255a1985ad2f7ee75663c23a49b85934ba07aeb9988232f46616e1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4251",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7825178bfa43db995e6b2f4cd612fee8ee888643d80e396b774fa4394cb14896",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4433188",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "21ee46b0cf65035034e32b900be33d2dd6a30eff5edd018cc064e630d26d2584",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4351852",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e1a6b25505aa9b06422b7232580a1221c42541d3e0012ddb4664e62e6cd537c8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "2990962",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e65833ed0c3863a5335d93be814e7124e6ea9828bea1b6355efc493bcd1cc2e4",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4433621",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d44814d151622263330a89ca75f6df5bc6f1500066b20d5a23850df481ad0288",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4397251",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "25134ff0c81ea90388ddde92905ec0dc53fc890bfe01d693758a7a7cbc68c1ae",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "2596112",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d38eda3ddd34960efc0f356c2b75f962a6a1b7f4401f6cd2e4e6028c70778a8e",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4593841",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3106f7f2d70eb02b0a899a2605b967eccbd8e94cdd64a9575b218dc5ce06bfe1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4066372",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e9a65261b7304ffd60cafad583d1a67c8bfcbc86eae9c7995d00e49dbfc43b0a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4351852",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "48325de3e960606c56c286a843cc9b0aa8ec713bd6245877cfcc1efb285bad51",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4065804",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7206676372dbcf3a6b6c9f1f0337daea80da7d7f4d5c13bc47e1186f0bc60a10",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4700852",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "83f4591d097f8960b6c2ad154ac270904e3e1c4eeb7eebab213b1a5b473e4fc8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4683689",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ca1bd8606ef3a02f4a7ce365d0b1a151287d6f6c19d55369180cf3a64def96a6",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4593841",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "118f12b73898b67f8f628ebf9541dd3140d233df0c0b1ac1b2d51cd8c20a81bc",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4684742",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0efa909e167033005a18a10b51ebe4eee6b7cbaa9b417d8f0a69aab59a8c6396",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "3078576",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4eb780c54745c3caea70c9a42a7431cb8b80f0a019f35e42199d4a6e19ac9f85",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4066372",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "34d631d5df0b9e89494cce000bdbc9acdeb51d0503f0eb904fd247a81637aadc",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4277951",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9f4b753674a296656661e9e665f70f7784b3e8067e6a6a8808664f46dcde6962",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4700852",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c9e58069180c56906d4c9dc68ef35571b261892478f421765d7bd8ecde8de6e5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "4397424",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "39b5a8e18980e2a2263ac8dc75ec4e069e0017d85c9aa8b25748af3baf7729ae",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4433188",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b1660a74079bccef0e7c659c8d6407459a8bc0be3cf8475494a03e53bffa734d",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4397424",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "056a8fe9c3cc6b97d3c8348f367a517262d333fd575cd150f26602fc53da93d4",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "5175647",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "bcc0e59e5e9eaf609deb7a4cbb15b99104f7e867eed10aaae1cc48ab259263b8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4066354",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ac74e65bb25f7b215567f241b970411e12e2593b7198900b632f054c7d9256cd",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "3908845",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "29221a6d7b471005038182e79f09a01158aea2df8d197eccd5a325b2c19805aa",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "5107199",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "39038cfe21240fab87b3430957f0ead2bb9ab15d10e934c834b8b7f59f3cd25f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4395702",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2af269cb8e8828b74b4a45cb385187a7342557177b9e45ae81c3f4f4b08a9ec9",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "event_id": "401909088",
+      "player_id": "4397882",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7a8f579c90cf00892a9338609fa433897217b19c90f9bdca3af58b9d349a6531",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "event_id": "401909088",
+      "player_id": "4278562",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cc3a5c1cad08d209ea7d4216135e3666ebded52b274908f079e9053de9c4ad24",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "event_id": "401909088",
+      "player_id": "3157465",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3038fac2b756c187c04f9f8b44ed72a38dbc4ffb696819af81c7fa3bc5fa9d59",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "event_id": "401909088",
+      "player_id": "4277951",
+      "reason": "EVENT_NOT_STARTED"
+    }
+  ],
+  "cohorts": [
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "assists",
+      "settled_n": 0,
+      "pending_n": 31,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "points",
+      "settled_n": 0,
+      "pending_n": 31,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "rebounds",
+      "settled_n": 0,
+      "pending_n": 31,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "threes",
+      "settled_n": 0,
+      "pending_n": 31,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    }
+  ],
+  "mae": null,
+  "rmse": null,
+  "baseline_mae": null,
+  "crps": null,
+  "aggregate_metric_scope": "No pooled accuracy across markets/model versions; inspect cohorts",
+  "qualified_market_comparison_n": 0,
+  "real_cash_roi": null,
+  "hypothetical_roi": null,
+  "clv": null,
+  "recommendations_enabled": false,
+  "records": []
+}

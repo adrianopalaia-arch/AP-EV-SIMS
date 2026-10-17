@@ -1,0 +1,4018 @@
+{
+  "decisions": [
+    {
+      "comparison_hash": "c77908b75034a2f3f094f767136309bef4ed778cff0f70ca717391417144c698",
+      "decision": "PASS",
+      "market": "passing_yards",
+      "player_id": "00-0039163",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "ed5d1cec602e5ab6cfb804fdb77fd5e392c513addbf75f5c3b709eadba532d7e",
+      "decision": "PASS",
+      "market": "passing_yards",
+      "player_id": "00-0039163",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c946f054c973c92715cdf3a27deccbcb2d427abd9a6da0264ba7a09775dd8c53",
+      "decision": "PASS",
+      "market": "passing_yards",
+      "player_id": "00-0036971",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "b358e45b571970d055b4916d332e91f03dfefeccd69af901a5e052cbbb509bb3",
+      "decision": "PASS",
+      "market": "passing_yards",
+      "player_id": "00-0036971",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "68fea6789a5b6702b4cc7a786753c91c78b1091ef54def8fb87f8d98ea590fa0",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0036554",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "493d9857326c9a9d2b950396174ef5438cecd8863f1bfa345c758d49692103f2",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0036554",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "d9d60ccd482b0c5b1ab6e026635a81e0b6d76b12980d862f2a0bb03d0d88eda6",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038606",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "997e1695023cbd46273be662b81ec61ace83d5cb9c088a8e646ff3ba3c06d35c",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038606",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "644bdc07d7edf9ca1e13de145263dbbb420e5eb013e98b4abedbd4214777367a",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038935",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "bac78ede12884d3492340c01d35bf29dce6c3e1facfe9f782398918eeb6fe696",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038935",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "7768014aeedf1c38c6e1c7fed8f790c09b95ea5aa0d7ee1a819802bebbd773cc",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0034960",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "0aa0217fcb6c03aea286c06da27e6db823fb0e9b53799c95442b85a98b66aa4a",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0034960",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "0ac8cba3f44aa73400baa1716ec720beb39648937542e76e320e27f36cabb9dc",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0034383",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "86c3e95d09d49ba75720da2b25a1730c54a092803129a52e33d0f25d90046b92",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0034383",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "3963e4461699ce5994343a9235f8ff0fd469f5bfe0f1affba6b25f599f3a9552",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038608",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "8bbc5596d2a6533249855a5ff709198de3fe4d1f1efee8471f990c0cbfb6c77e",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038608",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c87715e8e2d3d157a5ecac0489b08e5dcf343a52ef88e1dec8055dcb261a99fd",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0039849",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "fe7652cd42c19b06118c8a564e9b0f1cd4f88e0630c14ee18f6c1cad592edf28",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0039849",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "82eef14d7451424e0a31e30e8d690f9e6b3e0af617287d06c7556e865d9ddacf",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0041100",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "8e17aebc7e8e2f69d1e77c506f4fb2c1d17724827802480ade50b41110eac836",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0041100",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "fc8861e80cdee1bfac2fb40140bbe7daba35868a3cfffe9d6aeef4d76d4baade",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "fe07ff683f59e4d39ae67d79163fe12f95d6ca85fa2e246d889c6514f8967e3a",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "b236fb6ee6ef325d790298ab25b35f631f87ac6937ff5cf045067880faa886d7",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038618",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "0ce0513577fa465cc9fe67d0355e689a43e1ee95bea90d4ae02367d6afeb65bb",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038618",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "842c5b346b673ef2ec416b0198f3b639de166f26cb67db0e774195f3513678a3",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "20e41d1d816ffdb29cf37c2aea04f0a42c0a9d0046952a778a8fa70e16dec19c",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "6082ec7af059b39274f84e92afac230cfb47064da172e1cb91cafcf5ae86cf30",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0036554",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1e11c25578d1c71c59b5e6116bc33c6b3e902aad73ec8a568e72746ff403c5b3",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0036554",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "59df8a9faa29ceab415777f7ca1e6836adf38cd102f944a4df11dde60c875bf8",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038606",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "f14f13247a1b8877e8b0261d3e8db49c4ff9afe5338791e1cd22946357495b12",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038606",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1b659c1771fd66056f81cf5ccb2b56b4ec76481b7ca6325bbeab701befad0914",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038935",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "bddf1956de9348513b40cbcb9c80de430db378f29ca0de056529024b92480eb3",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038935",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "947806546172bc842c54fe17fe9e9e5e9ee5f5dfe232d93ba9890ead570390d2",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0034383",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "e97ca3bb36b9fd6b4c2ed278ee56e5bd10a57483953aae4eef1a2dc0ca152774",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0034383",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "88c0e2409c157abeb67e7761da044bedcc64cda0a541617656f1c78cd0263dee",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0034960",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "daa3931ca5eb101e5990702f38a1d8203df3180b240147ef2b8120dc4e948c4e",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0034960",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "a3e106ad43983915cba607e509a4065f21344631eb4674b0a5a68d4f1f010041",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "8ccc57ea024605e9f11a8f40eed4eb659b145d58f7f186ac793d676f1a2dd311",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "75d647190705678bafa44f94574f98166a37a76acae1dd60cd67fb7d970c0a8c",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038608",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1042e099aa453bcdbf72ce0b9c8da75985a29a92cffb0803e3edb0ac49bf11df",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038608",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "ad4ad6450fc1227827161fe3b371b59e2c5f59b51ee2b0c112770f5cef7cea4c",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0039849",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "5ae1b547154bc9ddf7eae66957ed80480cd89d5bbc37c33be920b65209f1514b",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0039849",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2312086bb931dd2fa9bae43c6f24b82678f796d52a1a4c6ec11773c39ae28635",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038618",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c5380c89947e0ef226d9d8b4644f1df9188ff0213e7c747850c84da312571f26",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038618",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "dcd543827af62594837770c26bcb85cc421170af5326f9ff07be09033695885c",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "d4a992e216e73d2daeb043b8c04da4ec0a6f6c3a0963afeecb51c08f2b47dee7",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "9c101b742a93efe82c31aa3ea1de0a8862846745a3632b5241d11a236c69e004",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0041100",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "0a31c315173fa011906b86b7bd2f3135d9b54dbf045e1e114bab4865638fe802",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0041100",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "bc6ed24a84553b90cc00bdc2d1c6b30d5e04d39d6405f025ed5cb63cc450a9a8",
+      "decision": "PASS",
+      "market": "rushing_attempts",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c6747b50992f535308ec3805373bf3574d636588e96f24c86a5ea9c01f201a64",
+      "decision": "PASS",
+      "market": "rushing_attempts",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1fefe96136b879d44c028970cb17b57f358fcb7a9cd54b4adef628fbd82cd6e9",
+      "decision": "PASS",
+      "market": "rushing_attempts",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "37e4e8c58a8ddfa48fe1ba9155465add0e179548d5860673b70d26f30562a0d8",
+      "decision": "PASS",
+      "market": "rushing_attempts",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "ce6282b18e1ec121c72374e895e1f42451b7e3259405e0e7ef8bedce37397512",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2bf09f23e2b9c6c77811f45dfa9455b2cc47e14b94a47f994e2d9163fb87addc",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "7ec38d8c2cda8e46d7a7fac677b040f2fd0a53e5edb7e66b88b0bb3136706de8",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c394fbf1f9c53914a81344f33895fb923feb8839b2d6906d3fcb71db82684d23",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "0f2f593dc5709230d11afec221709fb31b81b0d645c870f22cc7adea0479a382",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0038611",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "99a9ca6b479bdfdfee162fd3dec0a9693132ef0da34b6b3c79e23a33ae1f04a9",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0038611",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "c828f2bdf13101e3cb035473e92143d5c209f4897f8d9015ef6f7d57adad8970",
+      "decision": "PASS",
+      "market": "passing_yards",
+      "player_id": "00-0036971",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2c0d26a49dc99ef526d1b73bb8955dc5911cd302c443472ed9b9f09b52f889af",
+      "decision": "PASS",
+      "market": "passing_yards",
+      "player_id": "00-0036971",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "8a922a2a27c1c870e36a54c7640bd8a8ee35c61fcd9d17c2ae19d1d9b3fbcaa6",
+      "decision": "PASS",
+      "market": "passing_yards",
+      "player_id": "00-0039163",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "4ff21738bf1cd92a85509bc668a9aa17630b9a0424142ce8b5ecae06aa5c61cf",
+      "decision": "PASS",
+      "market": "passing_yards",
+      "player_id": "00-0039163",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "64a10919481fe88eab5a657dbe563bd1789c6f971329e459b93e68e27d9834de",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0041100",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "f5e023a3cda018047aaadba3792f91eb9eae62d831eb5cace24be8c955ec8cd4",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0041100",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "5bf08a187c770aa4a4f5d8b3564899e468fed8e659c35020f0fee74aa34091e8",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0034960",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "f62f45ae9da8ce191e709b1ee80ff8305849edb0b1de6005202249b115d02010",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0034960",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "f199548ba8abb3ebf4b7761df92281f59ecd2916fd747f0317c1e5c37167c8c6",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038608",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "59b1dea483a62e3fa4ec727d49e3e59432f85d515ccf55677034fa90054063c2",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038608",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "e5a665b325bdaf142cd0aceee0815795ca9eb78316ffb8b18d1a557ed15ba4ae",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0039849",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "15ade5c4531c4e67a8121065999b4e768c0c7a750cc129f7495272f336b4f1f5",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0039849",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "a66cb0b7cac31670b8abd1d5ac5ac54e23977861a6ddeb43471006ae768b56fb",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0034383",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "f991aef21d0b071d4d2aeaac9a3cb1085d2570b7483416deabe10621f149359d",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0034383",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1e84230b43f44d6c130a1497b7e0a26124540f1cf5c05767b7ba496ac76d30ae",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038606",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "375fd9a782cf185e2b04067b047cb0948937ce9d5fdf1c48be29ab909221404e",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038606",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "963e597de39f2e8403261d29e60d83062ba706d815345460726c1595d8171775",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038618",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "3ba3152ad218cbda9b2384f9bf46e1d244cba15a63494844511afc651f792864",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038618",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "a2451fcc1b991ac6559aad52f5ddfff387912e10ed945221049d6aa455f12d07",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "fc102041f62647cbb5f0a8130ac65bfef767e8c2d9a44f1c9fcf68923b68a386",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "4e6bfe45b0c85ecd5013962713ffdc715e89bb0d0760aa327b23f49dcf2350f6",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0036554",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "f7057ae70c0c98e1f23a8dda2e36e41c2d8713fa14e34eca7903d7cef59a1def",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0036554",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "85fc9d2da3423df76ada776a0c431bf8214f0d375057ef4cdc2f9aecf8431205",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "d938ec5097e0ff02704498c78c1172abd42a75dfd066883a72882a6fb5e2dc05",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "ef6d066ff5f011cf0620630ab3834841d7c5983aab4ec80f9f50a50c0e8c5166",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038935",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "ab66e9ae16af3447f6fa9c5c6f941c3576bb7cff125e50fc8e8a4cbba946789c",
+      "decision": "PASS",
+      "market": "receiving_yards",
+      "player_id": "00-0038935",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "95d22551c9119234e2c0e172e3f06edf90d2d57ce7f7fad6049681701da92c5a",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0036554",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "718b30ef7ffe82223ee962b8f70f0ef57e99a30318874a153bff8d9dcebcecb8",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0036554",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "900d3aa275ee19ed25e4ecb88825d10b700a93084f23aefe8a02a80d135f8ff6",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0034383",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "6d1970e8be181e446f2ac756951b590281ce24adc2dc93dff094704a19997cb7",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0034383",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "f0a50d3f812378c34ebb9d47c07ba9f0ad95a4b935480750e7e061e4df67fb04",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0039849",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2a678809db0839f61c10b9839620778220f0afe3ef1a30e015de5ddb62ad855a",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0039849",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "e9d93f33c3bcefdc23f5b3c50060c0b30f0c882376dca5a4f36a8576e123aca3",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038935",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "d63ae04b6e3b232af1dcbc710df0f2a6da37d3edc564539bd168d283636dbdb7",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038935",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "16b6fa6a2591b204155a271c2d3ecc600f02aae00747bc1a8e9a4ae63ba41109",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038608",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "e42cb4122d65e4262b85148e3cbe2c840faa333f3c8f2f830dc7cd3edcc16f91",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038608",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "630292763276e3363d7f80d2900da0ed0cafadfa54772d6986b43023befb6a5a",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038618",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1582d548b642e7702cca3898f9a0640e286ba4d84b0b40241b9919ade9f65158",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038618",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "e8db8eed62a4cd44fcbdd26302968eed67d006427bc64928cd8b4fee2cef6197",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038606",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "8ba1578c8a9c2fc1cde37dbe8b2ea89cb93d7f26d3bc583bf3b6b313cdce1beb",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0038606",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "53f6cb2637c40ca7742c8c784f4cf74dcef2b97c062cbb5dd89f673b19a4dfb8",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "67a2f998ed20d7d1849d7c5fcddcdf5ca021f5592af16910df343f565ac9c757",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "f68ed4b6a4b24cd86d126a139806bf8a26c270675dd6ccd1de1a8a43310a5d47",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "9802538f299517b519d7443cc9adcccf3a4498d0270774a7fcb0f99ba9183b7a",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "207cb4145c2155380c369de48a3c48299b9a159041f91d50e0f72430cc8f421a",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0041100",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "d217f0620ab8e0f7034de7125db76edc818c2a988dedab5de818ec34c7224fde",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0041100",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "9c0aa2402ec70ff319969e1ec6227b99740c2da803130bb876618e1911da7140",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0034960",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "95be4a142b412abdd1b22144bd2dcd26dc73ea59044eb00c9679a634cb1a288d",
+      "decision": "PASS",
+      "market": "receptions",
+      "player_id": "00-0034960",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "6803a9160b4ee33796bcc137023f5a9d505d31cbecb2131e19689fceb9af7cdd",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "e9ca88943f6a554eb8d872e2344ef9445503a3a50a6fcc3c99f4fe7ca7fc81a8",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0040719",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "af2aa2dc62bff211415075fd53673a51f7740e411cddceb61e9a1381a6b436d6",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0038611",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "3843eb9dc3de94c872b34280ea99f6fa28fc34c74a54816677c770e4103bb30c",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0038611",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "2be3875c508c10bf18ff4323883f1af195de0bb37d5ce79d3b14e9c2d71f4177",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "cfc242bb11b7115c6fb7a73fd7918a72e1524ff21b38f75c9d559a728caa8ff1",
+      "decision": "PASS",
+      "market": "rushing_yards",
+      "player_id": "00-0040583",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "FAILED_SIMPLE_BASELINE",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "b35e2d426a86172d61ee0cf59082a0f2356bb19a93cfb67c5ca594ce807ad1cd",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4065648",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "863d80311477782fca5620314c08413ec4281ba71f08aff2c0b83f50fb97a466",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4065648",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "867c9751275cb62937d1b0718125159478ddeb3e92a49e4ea85e5fd2bedc39b6",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4432166",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "ac9d96f940fb2992c660df97bea736ab8ff1a1d37773ec1afcf6e6ca80930a74",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4432166",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "dc01c773ea040bad76f234b15b7baa320f9c2a75499536aba7f1f4e3aaad6786",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4065648",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "0d8b7cff74489aa24e98ea7ed0545be9c9f7e0b2451bf71625c74c7812239b79",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4065648",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "d3efd5421e7d7b6d3e0f5a7d40dcac2fa23d879c07f3fce36bbecae686ce435e",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4432166",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "52392ade7b73574f419f73b061167f680580bfabeb9f2d6b81e5e321039f3911",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4432166",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "1985da03582910544490fb777804e7d9cf0a8632cecc530db96c0c993e460893",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4432166",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "b40fb5cc498b5b13494b0e96b10e80a37eafa8949a51a6f41387cc76b8e3b01a",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4432166",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "3f79753cffd3abc22f8de8133c855e0566538a71bf89a110c41c9e28efe39dfb",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4065648",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "6c01318b25caa3c304e415916753343deda8a85ee36ce50b3f052fcc8b92e40b",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4065648",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "f4b1a106e23827a9ff3dc0befdcb90b7bd455c5b9b4a8bea5641878257014f49",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "3078576",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "306add1e5f5607c1fda6d2ba0860533011ee504ed8805e1bc9a8fe847bad8e86",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "3078576",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "e9a34c4e9959e31b64a1bf803621c8bdecab39b212e8083719d981aa5127ea76",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4251",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "723912902e0aa7b6730124fdbd8474184be5321df8f917034fe90ccd2e4a2f5a",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4251",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "cd98ce90b0c49b2b631c495c3974d1f296b6d406147cc9f8da38d0a21f2ffd35",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4684742",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "8a2b091e353eefd441cdf1c85f61ab31b871f3a7eded0f1c9dcb18309eb8bd82",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4684742",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "4f666580afdb9663d715090c7eec8accf23dbf433759a1dafa87efcf548c28aa",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4433621",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "55d508f8f8f85a49366f952709b748393b0f1f2010623f5e1790ad5b6178cde8",
+      "decision": "PASS",
+      "market": "assists",
+      "player_id": "4433621",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "00b204f6a9186244194c99b0f20668b894a57a62d1f2b31de9f54cf2a92c53d3",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4433621",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "91d5647330ef662eeb253af2f400b063ccfed9ba8cfdf62a812462285345678e",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4433621",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "48ecef1aad2b111151714c11a8c204455cbcf1907bea96f9dfba6bb262cf1520",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4065648",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "8c59c890c54ba45f4c13e37c374b2e104dde2f5197a75fc832ebaf1ade4bc143",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4065648",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "98490cd8f3f9f505909d4273be8ea35052a4111508b4a3acc5357df3320007ba",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4684742",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "8b63302afde4e9bbab86d71ca51dd48d2ca13915dff9a887b92e7a695378d9ab",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4684742",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "34715bf82539af411389800ccb50c87f1c88e57e4c1ce0c0e405370a985156a1",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4432166",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "deedb1ff6e1febabf851c4b9b93f323fb916de6372b6a317634dfe97011f79c6",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4432166",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "d922008f00fa36cdf85cb94330393777fe63a937af95a0fc805d8dc82e361e63",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4251",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "2073cadc19b7e0062e0253d225d9baeed9047171096eba14f7bf8f6169138cdf",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "4251",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE",
+        "TEAM_CHANGE_ROLE_UNVERIFIED"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "aacbf7397278b8325ed1af3c3accef0a0e3e0ce281f35e2037fb588c7012ed80",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "3078576",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "12c49028059b9d6152efbd72cd27478d697c5516c26a7eee8f09b52c6b58ab00",
+      "decision": "PASS",
+      "market": "rebounds",
+      "player_id": "3078576",
+      "reasons": [
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "LONG_LAYOFF_ROLE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NBA"
+    },
+    {
+      "comparison_hash": "f1999a7c696a5a4550fdbe0e60c116bcff37701da410649601958cb8fb61b3e4",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8477492",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "09b1d8c50af2bfed79ddfd0298f384feb5dae8c95b155ff9ee02ebbe0b33e0bf",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8477492",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "f7285fcf365cda4e9e88550bb94fc23958bd3924d751259fbdbaecdddccb97f5",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8480069",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "12184aa1e0ca408319261f6aca99347a103ff6527b80015c60bc9b690bf2dcde",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8480069",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "99bd2ac40bba2a8fb162d6aa022b0bd96358b98996936af975540ba2d8272e90",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8480039",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "81acac93b81d7818c2ecd5e3b6e34eecaf6fc037c841ae8b50ca42c761fd4009",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8480039",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "2ffc52ab65321358418638e993ee51a5ed8ddc51f8bfd73eb3ff48102d11c619",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475172",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "fbecd110aae3ef3a90fcc74b95d9245380bec90a1373bca966f16d564bd9545c",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475172",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "424b8defce39c797f903f6c1e7032d96fb0d66103e0fb1c4cf69bca589e416ef",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8476483",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "6af89da9226db00c3f46a60440bc9f81950d3282aa5eaf8fbd76f2d682aa68be",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8476483",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "0725c860725947ef5d0778ca6df0d7ab98a565155ef35f641ec2939e617d83d3",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475810",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "8c2e65f562792c03a1f23bb6b26d3a0b8dea90690268a55941373c80d3cbecc6",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475810",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "e341ac4bc710e5a3c2b565dcbf66309367a27c23104fd271ed86b8a5812f95cb",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8474578",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "9243f593397015fe350e114646ff7c5d969740611141cec4a20f31503a1eefd9",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8474578",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "77f054066fbb8aa7b344e56cf6dd0fefeb4441ec0ea00277ca667e77e2252a5a",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8471675",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "04f7857953fc9d213a86c14fceb2bf5f9959d8bf90bca101c4e61ee028370cd8",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8471675",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "8ba040f3a83ec11af1efb332765ba1014c4119a9c252878236e124069fe5c390",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8476455",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "abde523c2a124cbff88ca16c22fd2bfd525e21ddd497d1e3bc92e6ede008efc4",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8476455",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "3d46a8124cf986aabc8dc0dda8123566d130f16c13df908b71e4ca021b1e7a21",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475754",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "061fa8358dea394253d2829f722d1aab9efd7ad227f3de9a1c5a1a10b64407f1",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475754",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "a72f92fe1c9bfef6c1f11a8dc6d9009e89c3a5df1035631fe0de7df15616b74b",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8471215",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "d99529f3d50bf752cf689cb7b696d2699240f5bbad6e021f511c9c78dd265a20",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8471215",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "2796eaac0d2d31231ef26abf5eef7166cf36b98fd6dd73be2f68565aa94b8fd4",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8477476",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "0e89aa978281d0e5639c9e9709b31e6e350211d7d623cf47e5994e77489ba87f",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8477476",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "2fcff8c2f60b353065c6e53c366258d40bc0169cd59f0da93616968bce16693b",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8484258",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "b177c58db9b4d4a013a62d368edcfa2d529ffa1de323e6e2f6f085c55e1b7814",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8484258",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "0a02c91a7cafd761aa541a4bbdbe67d85a29fc3ade2623631581de592cbe17fd",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8486171",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "0e64dbf009de9a1deefa6e47fa366aa565949d045e03f188ba868ee3358d8729",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8486171",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "cdc5b5ea61f0bc6ad97e9686700d438ad6a8393ab78abd9ccf314887c66a1405",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8470613",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "2ca72da7c7099809f0e584d20e951ae91bf8b47513cdaee6b15a7567af4cc469",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8470613",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "80e15a008da143272eda25645dc309ee0454e70c58fd948c976b86cc2f4cc750",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8478038",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "3aa6abe475230fbdcc155ccfd0214e28c6fca561eda76955657e5d429ecb48a8",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8478038",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "bd380e853490d8244b06c8b74906aabf838d435cf8f84f7de92092f31e667d2b",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8478438",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "24b19c65809da919154d3e7ddd0f3e3ef3d9ae9e20145601f807e6551733312c",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8478438",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "af421a9e502bdf95df45e07dd1c012f1f76c655820fa60f914ea4b8292b372bd",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475768",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "74f81dc547abcaf00a93e5fb851efc9bcf70f8fa467c9e2d071f9d22ddc380f4",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475768",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "42fe911f7dcc49529dabcfbeb9f110474a3e447fadce4e937c388d7875a7675c",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8471675",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "cc619a6ddb9a515295c075a2a3529c7e31d69a8bff8391e5b3c8ef01da75d700",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8471675",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "635a92aa122aa13f3f95159683ea92a7d1d0858676c0e82887d5a6e6281a727f",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8476483",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "6944659c4929b12d1370e04a66fbe719d2d929d277a8c620dd58514e118479ef",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8476483",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "0cdc07aac3353d79e407775b0f4fb58ec4f5351240719546ade361ac6f9843f3",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8480069",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "3dabba3aab6c4240702e8701d2ea2f42978c2a5ef1c63e2fb282b672eaa46125",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8480069",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "21eef1c0d7673c4e44ae970d9677948b817beb0dc5ee8c1474990f330f418b1f",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8480039",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "f04d12f254fcf858898776e7cb787f3239a3f219846349fc3ea2f70238d20ae6",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8480039",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "8e4b9bbc995d1cccc0523ce0d988e4e8c1a7b19f6ada985c45dbff5ebd24b4cb",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8477492",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "fc2736d375cbbfd4d24d782a8c37aa52f65d9de4bf78c5b97709b2d056407825",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8477492",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "daceb3b06955d15b59c0b71a2d3a654f702498de9d380c70e820a3c5327a2c97",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475172",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "588f58ba91bb831aadfd3fe7809a2820280febc2d1d8fb746f4a6d51e0e2ccfd",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475172",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "1402d8211d8af84060b2480cb99f0e56721b8c13219180332fabbdc5bc8127b7",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475810",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "3b71d8f1bb3849da54b349c6fb7850c2e392e546788138775c17154dda923f39",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8475810",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "055c3b8dd9b20d73d11129ecca3219233beaaf76565ec478da038f36c151f677",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8471215",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "f6c43c3b6fdc7337468b89b7ba90d1758ccdd08b2011061724f1cc7fbd0119c4",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8471215",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "28ee31df070364202dd5de96528cae5fdc5624d48f083a4b396a6edd25e846a1",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8476455",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "b71c0732f3fc1550df6394ee9e7e7fa16b1328e3f24c16103fd4b5b7395a761e",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8476455",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "a8a2cb80cf28bd637ba81a198f8a176657aad4110f3e108d37a30aa69a0730d4",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8474578",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "182a575b6d505cd2d8db975d07153ef5dc34164e79c1bb345861c19d6572e998",
+      "decision": "PASS",
+      "market": "shots_on_goal",
+      "player_id": "8474578",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "NHL"
+    },
+    {
+      "comparison_hash": "bd48f42e079d470ce531879a765b79c4be8f7f6632aea784d37a5ab4fe231eef",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "650490",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "612e2405a9b9597d43511a922ab05b20d2cbbf5a2a2468224841c3b0150d6484",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "650490",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "832ab122c2236c5a13e69d1fab166feee29a06463531a6298cbf84b40788a0f5",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "802415",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "597ee48016b6622ab38cfaaa5f070769576f2d3a226c246bcbb83dabfb35547d",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "802415",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "d42a52fc0c8053e595d4d78bbcd4a66d65acfec7cbaa77381c044a42dea105c6",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "680757",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "77da963348fb89d85b4b7bf40ce2f22e303723e264bd0d2146b3854046c63afa",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "680757",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "84d84ac506e74a96bae2d43742c536bc0d663ae072a74fc4b0b0acabfc3be7fc",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "608070",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "a901fc00e6099e415467a5a8750558c56d569699fc5c67311d17d1b00f259f58",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "608070",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "dc04f4f4802c3a79a9701340e1f5fb41492c5860b1ff1f0c77b0c7c69f7197b3",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "691406",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "847fa61e347e3a8df0e7ec0085213a97a91d93f498d2ee4d3758d7c942df01ff",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "691406",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "a44a5dd049b434299dec54a32987805ff72694a86569c3418af170f7d096e1af",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "800050",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "988408a6e9b168e802226ce0e3b88054fc439702edfdcfe9fbf8ffc3e8d13e17",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "800050",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "aa81242b838a9b711def168354dc864a2069ecd0c89cc3ef58ad0b22fdddc19b",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "666176",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "0b4f65da22d1de6b01f9401a3ff51c5f2867d0e726093814845199275987a40d",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "666176",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "36e1e9b45fe7ad0b497874f1c24c5fcf6b8a36bba797c8436670825580c7819e",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "666018",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "83f676e9e2ca7264422cbd4e1b4b38028547e649795c7acf4f03da67365847ff",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "666018",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "b5ce772af8f0c7c1786e09c029e15809ea62f18fd81c57bad691c471b6405cd9",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "683748",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "104dfe4fd343ebf44ad9604c6a4d6b46925020510f0d4b536ba4bdae4ea3b07a",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "683748",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "0d60d611101892487dc56e36d34217dcb5f4ae19e5de3eaa4e3739439471fc12",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "676356",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "ab255ec5cd4f2987e95db6a01f7644e9f4f955944352b7e3ac02369640df1696",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "676356",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "92f52b91df8a947d24dd9eaf75344b93423e80016229e3a54c246d70e7f2bbde",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "689414",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "c12206446120e43594af17d46caf7b0ee667c7efb0cc17388331c25c951ba7e4",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "689414",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "cae2e749fa655c8dbda7d6a43713058ff0c3cd0fe1a59931f16981f6cc8de9a7",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "663993",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "1d3c96d0608cf97425e23e59214343673a6c36becfae01b41912c0afa9275adc",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "663993",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "215671ffa5d1f79b43c5aaf28d5d92b75d182f1674b7d2025279e8e9b7476e40",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "683953",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "a215600ad0751e77d5efe4bb2d9f3fc72b80dd750fe8867b28e20bf1044bed02",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "683953",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "04940bd375b131739001261df504a7051db72139f1fe07bf8f9ac07692f5684b",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "677587",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "6c330e7590d5b1d8db57eb28d8333953f8b16244ac68e1fc0ab7fd91160ad26a",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "677587",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "7df49003a0c8bd27509fb438fe46697118f158d03e31f70ec8f9a9f7b0552a9e",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "670764",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "bbbb008fcdf592d07b7f45bcc62339291c324a89b7ddf60079245bbce47c349b",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "670764",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "99f43fd06aa13c19cdca05aaedf5874477f175bb986b3bffd506ee7f78cd5659",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "672275",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "fbc5f2479c626980281413d5846b7bba2cd8949d3b184d5df1fddf72ff3a04af",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "672275",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "d2d4c376363dd926f0171c4ebb2641607f84a9759f6b0a0c8a624ecfd4eb02fa",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "690984",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "0980567572f4dc5af1f29fc4e482c41848d7835f893d1f73557b70223b0b86d9",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "690984",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "2bbf9f1b5bd4d807980cb4584381ab964c935bf6fafb6fcc97a3b6189486efc6",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "680700",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "f0f8e6b4ea998a5131633690bd47722ae11db6239f6ad36bdf3255debc5fbae4",
+      "decision": "PASS",
+      "market": "hitter_hits",
+      "player_id": "680700",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "de0d17d7952a7b99c9763d3794f0112952f7a7ee3ff59738918e0dc7e73b711c",
+      "decision": "PASS",
+      "market": "total_bases",
+      "player_id": "650490",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "f5ff79bf757d26e5a27d40acde2543a8593bbdc3dd44fd7299fc7625068195d4",
+      "decision": "PASS",
+      "market": "total_bases",
+      "player_id": "650490",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "3d4254936c886791b04a85b0b51b7dd2a1438cec06eb9a0074ca2aa1d5b6f6fa",
+      "decision": "PASS",
+      "market": "total_bases",
+      "player_id": "691406",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "202ac0b771189c1142e1d02d2e947778e936db2647eced636404d743a2e121be",
+      "decision": "PASS",
+      "market": "total_bases",
+      "player_id": "691406",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "4f76c40a0812e4316e1bd9d7a02103c10593e1cfecfc181b510ff6a7457e7728",
+      "decision": "PASS",
+      "market": "total_bases",
+      "player_id": "608070",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "d2c5355a776a4cddc2d6bd7825a1094bbc2bd1622c52737694121f5efffd2171",
+      "decision": "PASS",
+      "market": "total_bases",
+      "player_id": "608070",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "c9303abcfaca7984feb990c1ccd733bc133b6abcc866856fd5c4ea5b5c080a7a",
+      "decision": "PASS",
+      "market": "total_bases",
+      "player_id": "680757",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Over",
+      "sport": "MLB"
+    },
+    {
+      "comparison_hash": "77d11e2c1a8ff9de973df93739f6f98c15286ae3ce475a5173ccd73f1ef5ce16",
+      "decision": "PASS",
+      "market": "total_bases",
+      "player_id": "680757",
+      "reasons": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "ROLE_NOT_CONFIRMED",
+        "STALE_PRICE"
+      ],
+      "selection": "Under",
+      "sport": "MLB"
+    }
+  ],
+  "generated_at": "2026-10-16T15:02:00.207814+00:00",
+  "unmatched": [
+    {
+      "quote_id": "80dc4c568a594086fdc99de124f6a8632bdfab6d315408c834bc96bbd00e6813",
+      "reason": "PLAYER_IDENTITY_AMBIGUOUS_OR_MISSING",
+      "sport": "NFL"
+    },
+    {
+      "market": "receiving_yards",
+      "player_id": "00-0041503",
+      "quote_id": "5b35dde3ff2b1cc24b4ec108548bfdbc888f510c9faa412459b2beb265397dba",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "quote_id": "a10c7b7db184102ce0ad6d4055c9c6984019c385cecdaad76cfb133fe2fd2de2",
+      "reason": "PLAYER_IDENTITY_AMBIGUOUS_OR_MISSING",
+      "sport": "NFL"
+    },
+    {
+      "market": "receptions",
+      "player_id": "00-0041503",
+      "quote_id": "1b6f0528765f2806bb77cf939fcf0d53437e712ed28210978ec021d4e0159dfd",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_attempts",
+      "player_id": "00-0036971",
+      "quote_id": "dd2ddb95197406dd935d634f7672fc1e54ea8554e6917d82ba3723eb327bfa32",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_attempts",
+      "player_id": "00-0039163",
+      "quote_id": "b3e63d5bf24c48364dc3c7295e661efbfec45b3b9b6a3d27840232cb86dd9c45",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_yards",
+      "player_id": "00-0036971",
+      "quote_id": "0a013be147979f9d535f84bb8950ad26a0399a8310e72761e8bedd18b4898088",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_yards",
+      "player_id": "00-0039163",
+      "quote_id": "c70530cbdc144954f40e2357e40587566e91d10fe42f141cef6da1bcb693e66d",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "receiving_yards",
+      "player_id": "00-0041503",
+      "quote_id": "923047c5df19f0ab6d5b079acb4e70bfa3ebddc3479b031d17c167b193f6703a",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "quote_id": "6ef8c238e69df602f1a37fef330566094ce9f83bc603118b775ffe0103c0793d",
+      "reason": "PLAYER_IDENTITY_AMBIGUOUS_OR_MISSING",
+      "sport": "NFL"
+    },
+    {
+      "quote_id": "69faf86a3a3d131e95eb2a339b2db12a0462b5ab6bc9f53061950f3e51550de1",
+      "reason": "PLAYER_IDENTITY_AMBIGUOUS_OR_MISSING",
+      "sport": "NFL"
+    },
+    {
+      "market": "receptions",
+      "player_id": "00-0041503",
+      "quote_id": "d8e3cf180781b0ee4a414736a23b69c28aa456c1449ae64c5a1287477aa8beff",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_yards",
+      "player_id": "00-0039163",
+      "quote_id": "39612dab03eff2399e43926e7153bea27274ddbe08353e13b2068466401b0aef",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "market": "rushing_yards",
+      "player_id": "00-0036971",
+      "quote_id": "27c090fbf63ad483af323c533e312764bffa80424ce94828dabd60d2f62e4387",
+      "reason": "NO_TRAINED_PLAYER_FORECAST",
+      "sport": "NFL"
+    },
+    {
+      "quote_id": "6d274df67a97740f700f9a512186d3b9acda8d9cc3eab506eecc8afc3b23bca7",
+      "reason": "PLAYER_IDENTITY_AMBIGUOUS_OR_MISSING",
+      "sport": "NHL"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "availability_basis": "recorded_response",
+  "available_at": "2026-10-14T05:46:57.534850+00:00",
+  "endpoint": "sports/americanfootball_ncaaf/odds",
+  "fetched_at": "2026-10-14T05:46:57.534850+00:00",
+  "observed_at": "2026-10-14T05:46:57.534850+00:00",
+  "parameters": {
+    "endpoint_status": 401,
+    "markets": "h2h",
+    "oddsFormat": "american",
+    "regions": "us"
+  },
+  "payload_hash": "2141792e2ef818edfee9c2d33ddc76a7c7cec150d853c5d1942e090acad0aa09",
+  "provider": "odds",
+  "qualification_reason": null,
+  "raw_path": "raw\\odds\\2141792e2ef818edfee9c2d33ddc76a7c7cec150d853c5d1942e090acad0aa09.json",
+  "snapshot_id": "7a4730950f1ec39849d6c365116d414d19bad10ffde842fa7391946265b526ff"
+}

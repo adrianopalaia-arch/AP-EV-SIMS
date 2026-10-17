@@ -1,0 +1,1299 @@
+{
+  "authority": "SECONDARY_AGGREGATOR",
+  "event": {
+    "availability_event_id": "401909088",
+    "away_team": "Boston Celtics",
+    "event_id": "401909088",
+    "event_start": "2026-10-20T19:00:00+00:00",
+    "home_team": "Detroit Pistons",
+    "market_identity_verified": true,
+    "odds_event_id": "26b036ff107f3c658258eaf4a6f26228",
+    "odds_event_start": "2026-10-20T19:00:00Z"
+  },
+  "event_identity_reasons": [],
+  "generated_at": "2026-10-16T15:01:59.181322+00:00",
+  "identities": [
+    {
+      "aliases": [
+        "John Collins"
+      ],
+      "player_id": "3908845",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Cade Cunningham"
+      ],
+      "player_id": "4432166",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Jalen Duren"
+      ],
+      "player_id": "4433621",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Javonte Green"
+      ],
+      "player_id": "2596112",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Elijah Harkless"
+      ],
+      "player_id": "4397449",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Ronald Holland II"
+      ],
+      "player_id": "4683771",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Kevin Huerter"
+      ],
+      "player_id": "4066372",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Daniss Jenkins"
+      ],
+      "player_id": "5107199",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Isaiah Joe"
+      ],
+      "player_id": "4395702",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Isaac Jones"
+      ],
+      "player_id": "5107818",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Chaz Lanier"
+      ],
+      "player_id": "4700852",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Ebuka Okorie"
+      ],
+      "player_id": "5258459",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Ugonna Onyenso"
+      ],
+      "player_id": "5037878",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Taurean Prince"
+      ],
+      "player_id": "2990962",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Paul Reed"
+      ],
+      "player_id": "4278562",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Duncan Robinson"
+      ],
+      "player_id": "3157465",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Tolu Smith"
+      ],
+      "player_id": "4397882",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Ausar Thompson"
+      ],
+      "player_id": "4684742",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Brice Williams"
+      ],
+      "player_id": "4592843",
+      "team_id": "8"
+    },
+    {
+      "aliases": [
+        "Devin Carter"
+      ],
+      "player_id": "4433188",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Chris Cenac Jr."
+      ],
+      "player_id": "5142621",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Mike Conley"
+      ],
+      "player_id": "3195",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Tucker DeVries"
+      ],
+      "player_id": "4837238",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Luka Garza"
+      ],
+      "player_id": "4277951",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Paul George"
+      ],
+      "player_id": "4251",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Hugo Gonzalez"
+      ],
+      "player_id": "5175647",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Hayden Gray"
+      ],
+      "player_id": "5176420",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Ron Harper Jr."
+      ],
+      "player_id": "4397251",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Sam Hauser"
+      ],
+      "player_id": "4065804",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Gabe McGlothan"
+      ],
+      "player_id": "4398356",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Dillon Mitchell"
+      ],
+      "player_id": "5106283",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Payton Pritchard"
+      ],
+      "player_id": "4066354",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Neemias Queta"
+      ],
+      "player_id": "4397424",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Mitchell Robinson"
+      ],
+      "player_id": "4351852",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Baylor Scheierman"
+      ],
+      "player_id": "4593841",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Jayson Tatum"
+      ],
+      "player_id": "4065648",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Milos Uzan"
+      ],
+      "player_id": "5106272",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Jordan Walsh"
+      ],
+      "player_id": "4683689",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Derrick White"
+      ],
+      "player_id": "3078576",
+      "team_id": "2"
+    },
+    {
+      "aliases": [
+        "Amari Williams"
+      ],
+      "player_id": "4702745",
+      "team_id": "2"
+    }
+  ],
+  "latest_source_capture": "2026-10-16T14:58:05.337131+00:00",
+  "recommendations_enabled": false,
+  "records": [
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "3908845",
+      "player_name": "John Collins",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4432166",
+      "player_name": "Cade Cunningham",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4433621",
+      "player_name": "Jalen Duren",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "2596112",
+      "player_name": "Javonte Green",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4397449",
+      "player_name": "Elijah Harkless",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4683771",
+      "player_name": "Ronald Holland II",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4066372",
+      "player_name": "Kevin Huerter",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "5107199",
+      "player_name": "Daniss Jenkins",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4395702",
+      "player_name": "Isaiah Joe",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "5107818",
+      "player_name": "Isaac Jones",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4700852",
+      "player_name": "Chaz Lanier",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "5258459",
+      "player_name": "Ebuka Okorie",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "5037878",
+      "player_name": "Ugonna Onyenso",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "2990962",
+      "player_name": "Taurean Prince",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4278562",
+      "player_name": "Paul Reed",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "3157465",
+      "player_name": "Duncan Robinson",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4397882",
+      "player_name": "Tolu Smith",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4684742",
+      "player_name": "Ausar Thompson",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4592843",
+      "player_name": "Brice Williams",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "8"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:05.337131+00:00",
+          "body_part": "Illness",
+          "observed_at": "2026-10-14T23:43Z",
+          "reason": null,
+          "status": "Day-To-Day",
+          "usable": true
+        }
+      ],
+      "player_id": "4433188",
+      "player_name": "Devin Carter",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "5142621",
+      "player_name": "Chris Cenac Jr.",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "3195",
+      "player_name": "Mike Conley",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4837238",
+      "player_name": "Tucker DeVries",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4277951",
+      "player_name": "Luka Garza",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4251",
+      "player_name": "Paul George",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "5175647",
+      "player_name": "Hugo Gonzalez",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "5176420",
+      "player_name": "Hayden Gray",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4397251",
+      "player_name": "Ron Harper Jr.",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4065804",
+      "player_name": "Sam Hauser",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4398356",
+      "player_name": "Gabe McGlothan",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "5106283",
+      "player_name": "Dillon Mitchell",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4066354",
+      "player_name": "Payton Pritchard",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4397424",
+      "player_name": "Neemias Queta",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4351852",
+      "player_name": "Mitchell Robinson",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4593841",
+      "player_name": "Baylor Scheierman",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4065648",
+      "player_name": "Jayson Tatum",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "5106272",
+      "player_name": "Milos Uzan",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4683689",
+      "player_name": "Jordan Walsh",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "3078576",
+      "player_name": "Derrick White",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:05.337131+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "401909088",
+      "event_start": "2026-10-20T19:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "4702745",
+      "player_name": "Amari Williams",
+      "position": "F",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "source_manifest": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "sport": "NBA",
+      "team_id": "2"
+    }
+  ],
+  "snapshot_hash": "0910860e75bccf68d23c62a11732e238677e12e0733d39f67ed993f22c918595",
+  "sources": [
+    {
+      "captured_at": "2026-10-16T14:45:07.807586+00:00",
+      "hash": "b75ac7f548a31058edd66da0cc6ab70f9d6782d20ecedb7bbad20d458a360e70",
+      "manifest_id": "a856f317f24fc67c98febc44dda2b8d43588a51ada3059d42065ab003e29dd18",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261020"
+    },
+    {
+      "captured_at": "2026-10-16T14:45:07.999300+00:00",
+      "hash": "9d189b3e091f585692d03ba4a2275c7efb3fa69a19ecc8702f3ddc96a76afab3",
+      "manifest_id": "e28423e7685c187f8e03562b5f1211ffb61602305b5133fdd558aa5ac25f03f3",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/8/roster"
+    },
+    {
+      "captured_at": "2026-10-16T14:45:08.214877+00:00",
+      "hash": "50d57307315e82588827e2b1f0a43419a787fbeb6af574c2fcee126cafd3907d",
+      "manifest_id": "7f74e00fb27af830b32811df2f5f2aa559c268280e5e1c545ff2ebccd4b23e7a",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/2/roster"
+    },
+    {
+      "captured_at": "2026-10-16T14:58:05.337131+00:00",
+      "hash": "d4409025ed51e8fe4a16488dc9ba01be96cf5c4114a4bdd9b90b644de320ba19",
+      "manifest_id": "6e01c907dd3451ec75200738b9163cc6fd7b3f6e28c45f85e3216463de5ce6b8",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909088"
+    }
+  ],
+  "sport": "NBA"
+}

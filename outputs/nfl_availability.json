@@ -1,0 +1,4133 @@
+{
+  "authority": "SECONDARY_AGGREGATOR",
+  "event": {
+    "availability_event_id": "401872996",
+    "away_team": "Houston Texans",
+    "event_id": "2026_06_HOU_JAX",
+    "event_start": "2026-10-18T13:30:00+00:00",
+    "home_team": "Jacksonville Jaguars",
+    "market_identity_verified": true,
+    "odds_event_id": "57418b2cf5aca558b3c98eafac1e264a",
+    "odds_event_start": "2026-10-18T13:30:00Z"
+  },
+  "event_identity_reasons": [],
+  "generated_at": "2026-10-16T15:01:57.395369+00:00",
+  "identities": [
+    {
+      "aliases": [
+        "Ameer Abdullah"
+      ],
+      "player_id": "00-0032104",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "LeQuint Allen Jr."
+      ],
+      "player_id": "00-0040238",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Nate Boerkircher"
+      ],
+      "player_id": "00-0041503",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Josh Cameron"
+      ],
+      "player_id": "00-0041100",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Quinn Ewers"
+      ],
+      "player_id": "00-0040234",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Travis Hunter"
+      ],
+      "player_id": "00-0040718",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Tanner Koziol"
+      ],
+      "player_id": "00-0041084",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Trevor Lawrence"
+      ],
+      "player_id": "00-0036971",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Jakobi Meyers"
+      ],
+      "player_id": "00-0034960",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Quintin Morris"
+      ],
+      "player_id": "00-0036590",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Nick Mullens"
+      ],
+      "player_id": "00-0033319",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Chris Rodriguez Jr."
+      ],
+      "player_id": "00-0038611",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Brenton Strange"
+      ],
+      "player_id": "00-0038935",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Brian Thomas Jr."
+      ],
+      "player_id": "00-0039893",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Bhayshul Tuten"
+      ],
+      "player_id": "00-0040719",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Parker Washington"
+      ],
+      "player_id": "00-0038606",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "CJ Williams"
+      ],
+      "player_id": "00-0041106",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Arik Armstead"
+      ],
+      "player_id": "00-0032164",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Montaric Brown"
+      ],
+      "player_id": "00-0037313",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Branson Combs"
+      ],
+      "player_id": "00-0040326",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Matt Dickerson"
+      ],
+      "player_id": "00-0034657",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Dennis Gardeck"
+      ],
+      "player_id": "00-0034473",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "DaVon Hamilton"
+      ],
+      "player_id": "00-0036262",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Josh Hines-Allen"
+      ],
+      "player_id": "00-0035642",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Jalen Huskey"
+      ],
+      "player_id": "00-0041055",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Alijah Huzzie"
+      ],
+      "player_id": "00-0040411",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Antonio Johnson"
+      ],
+      "player_id": "00-0038596",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Jarrian Jones"
+      ],
+      "player_id": "00-0039353",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Jaylon Jones"
+      ],
+      "player_id": "00-0037106",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Rayuan Lane III"
+      ],
+      "player_id": "00-0040213",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Jourdan Lewis"
+      ],
+      "player_id": "00-0033928",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Jalen McLeod"
+      ],
+      "player_id": "00-0040209",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Kaevon Merriweather"
+      ],
+      "player_id": "00-0038823",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Ventrell Miller"
+      ],
+      "player_id": "00-0038570",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Eric Murray"
+      ],
+      "player_id": "00-0033038",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Foyesade Oluokun"
+      ],
+      "player_id": "00-0034413",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Ruke Orhorhoro"
+      ],
+      "player_id": "00-0039733",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Albert Regis"
+      ],
+      "player_id": "00-0041045",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Danny Striggow"
+      ],
+      "player_id": "00-0040342",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Jahlani Tavai"
+      ],
+      "player_id": "00-0035240",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Bryan Thomas Jr."
+      ],
+      "player_id": "00-0041218",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Travon Walker"
+      ],
+      "player_id": "00-0037235",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Wesley Williams"
+      ],
+      "player_id": "00-0041059",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Logan Cooke"
+      ],
+      "player_id": "00-0034437",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Cam Little"
+      ],
+      "player_id": "00-0039409",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Zach Durfee"
+      ],
+      "player_id": "00-0041122",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "B.J. Green II"
+      ],
+      "player_id": "00-0040329",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Parker Hughes"
+      ],
+      "player_id": "00-0041127",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Caleb Ransaw"
+      ],
+      "player_id": "00-0040145",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Brenden Bates"
+      ],
+      "player_id": "00-0039458",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Tim Jones"
+      ],
+      "player_id": "00-0036497",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "BJ Ojulari"
+      ],
+      "player_id": "00-0039155",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Trebor Pena"
+      ],
+      "player_id": "00-0041216",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Cam'Ron Silmon-Craig"
+      ],
+      "player_id": "00-0040339",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "J'Mari Taylor"
+      ],
+      "player_id": "00-0041217",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Austin Trammell"
+      ],
+      "player_id": "00-0036841",
+      "team_id": "JAX"
+    },
+    {
+      "aliases": [
+        "Lewis Bond"
+      ],
+      "player_id": "00-0041467",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Kayshon Boutte"
+      ],
+      "player_id": "00-0038608",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Nico Collins"
+      ],
+      "player_id": "00-0036554",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Marvin Harrison Jr."
+      ],
+      "player_id": "00-0039849",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Xavier Hutchinson"
+      ],
+      "player_id": "00-0038618",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Brevin Jordan"
+      ],
+      "player_id": "00-0036556",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Marlin Klein"
+      ],
+      "player_id": "00-0041472",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Woody Marks"
+      ],
+      "player_id": "00-0040583",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Davis Mills"
+      ],
+      "player_id": "00-0036898",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "David Montgomery"
+      ],
+      "player_id": "00-0035685",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Foster Moreau"
+      ],
+      "player_id": "00-0034981",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jaylin Noel"
+      ],
+      "player_id": "00-0040138",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Dare Ogunbowale"
+      ],
+      "player_id": "00-0033854",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Dalton Schultz"
+      ],
+      "player_id": "00-0034383",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Cade Stover"
+      ],
+      "player_id": "00-0039359",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "C.J. Stroud"
+      ],
+      "player_id": "00-0039163",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Azeez Al-Shaair"
+      ],
+      "player_id": "00-0035166",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Will Anderson Jr."
+      ],
+      "player_id": "00-0039108",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Reed Blankenship"
+      ],
+      "player_id": "00-0037130",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Calen Bullock"
+      ],
+      "player_id": "00-0039838",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jadeveon Clowney"
+      ],
+      "player_id": "00-0031364",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jaden Crumedy"
+      ],
+      "player_id": "00-0039402",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Aiden Fisher"
+      ],
+      "player_id": "00-0041449",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Bryce Hall"
+      ],
+      "player_id": "00-0036241",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Logan Hall"
+      ],
+      "player_id": "00-0038127",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jake Hansen"
+      ],
+      "player_id": "00-0037457",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Sabastian Harsh"
+      ],
+      "player_id": "00-0041305",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jamal Hill"
+      ],
+      "player_id": "00-0039395",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Danielle Hunter"
+      ],
+      "player_id": "00-0031565",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Kamari Lassiter"
+      ],
+      "player_id": "00-0039343",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Kayden McDonald"
+      ],
+      "player_id": "00-0041440",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "George Odum"
+      ],
+      "player_id": "00-0034091",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jalen Pitre"
+      ],
+      "player_id": "00-0037246",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Kamari Ramsey"
+      ],
+      "player_id": "00-0041466",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Sheldon Rankins"
+      ],
+      "player_id": "00-0032759",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Dominique Robinson"
+      ],
+      "player_id": "00-0037082",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jaylin Smith"
+      ],
+      "player_id": "00-0040149",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Tremon Smith"
+      ],
+      "player_id": "00-0034278",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "M.J. Stewart"
+      ],
+      "player_id": "00-0034355",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Derek Stingley Jr."
+      ],
+      "player_id": "00-0037237",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Tommy Togiai"
+      ],
+      "player_id": "00-0036883",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Wade Woodaz"
+      ],
+      "player_id": "00-0041465",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Ka'imi Fairbairn"
+      ],
+      "player_id": "00-0032726",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Kai Kroeger"
+      ],
+      "player_id": "00-0040654",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "British Brooks"
+      ],
+      "player_id": "00-0039603",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Solomon Byrd"
+      ],
+      "player_id": "00-0039427",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Tank Dell"
+      ],
+      "player_id": "00-0038977",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Mario Edwards Jr."
+      ],
+      "player_id": "00-0032265",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Ali Gaye"
+      ],
+      "player_id": "00-0038724",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jayden Higgins"
+      ],
+      "player_id": "00-0040130",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Dylan Horton"
+      ],
+      "player_id": "00-0039009",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jake Hummel"
+      ],
+      "player_id": "00-0037633",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Ja'Marcus Ingram"
+      ],
+      "player_id": "00-0037661",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Graham Mertz"
+      ],
+      "player_id": "00-0040211",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "E.J. Speed"
+      ],
+      "player_id": "00-0034987",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Henry To'oTo'o"
+      ],
+      "player_id": "00-0038599",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Chris Braswell"
+      ],
+      "player_id": "00-0039902",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jaden Davis"
+      ],
+      "player_id": "00-0039416",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Mark Gronowski"
+      ],
+      "player_id": "00-0041156",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Caleb Johnson"
+      ],
+      "player_id": "00-0036704",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Jawhar Jordan"
+      ],
+      "player_id": "00-0039405",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Zaire Mitchell-Paden"
+      ],
+      "player_id": "00-0037340",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Chad Muma"
+      ],
+      "player_id": "00-0037811",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Bryce Oliver"
+      ],
+      "player_id": "00-0039650",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Deuce Vaughn"
+      ],
+      "player_id": "00-0038622",
+      "team_id": "HOU"
+    },
+    {
+      "aliases": [
+        "Noah Whittington"
+      ],
+      "player_id": "00-0041312",
+      "team_id": "HOU"
+    }
+  ],
+  "latest_source_capture": "2026-10-16T14:58:03.468763+00:00",
+  "recommendations_enabled": false,
+  "records": [
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0032104",
+      "player_name": "Ameer Abdullah",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040238",
+      "player_name": "LeQuint Allen Jr.",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": "Back",
+          "observed_at": "2026-10-16T00:07Z",
+          "reason": null,
+          "status": "Questionable",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0041503",
+      "player_name": "Nate Boerkircher",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041100",
+      "player_name": "Josh Cameron",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040234",
+      "player_name": "Quinn Ewers",
+      "position": "QB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040718",
+      "player_name": "Travis Hunter",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041084",
+      "player_name": "Tanner Koziol",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036971",
+      "player_name": "Trevor Lawrence",
+      "position": "QB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0034960",
+      "player_name": "Jakobi Meyers",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036590",
+      "player_name": "Quintin Morris",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0033319",
+      "player_name": "Nick Mullens",
+      "position": "QB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0038611",
+      "player_name": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0038935",
+      "player_name": "Brenton Strange",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039893",
+      "player_name": "Brian Thomas Jr.",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040719",
+      "player_name": "Bhayshul Tuten",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0038606",
+      "player_name": "Parker Washington",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041106",
+      "player_name": "CJ Williams",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0032164",
+      "player_name": "Arik Armstead",
+      "position": "DT",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": "Hamstring",
+          "observed_at": "2026-10-15T00:12Z",
+          "reason": null,
+          "status": "Questionable",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0037313",
+      "player_name": "Montaric Brown",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040326",
+      "player_name": "Branson Combs",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0034657",
+      "player_name": "Matt Dickerson",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0034473",
+      "player_name": "Dennis Gardeck",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036262",
+      "player_name": "DaVon Hamilton",
+      "position": "DT",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0035642",
+      "player_name": "Josh Hines-Allen",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041055",
+      "player_name": "Jalen Huskey",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040411",
+      "player_name": "Alijah Huzzie",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0038596",
+      "player_name": "Antonio Johnson",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-10-14T23:11Z",
+          "reason": null,
+          "status": "Questionable",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0039353",
+      "player_name": "Jarrian Jones",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0037106",
+      "player_name": "Jaylon Jones",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040213",
+      "player_name": "Rayuan Lane III",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": "Hamstring",
+          "observed_at": "2026-10-14T23:12Z",
+          "reason": null,
+          "status": "Questionable",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0033928",
+      "player_name": "Jourdan Lewis",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040209",
+      "player_name": "Jalen McLeod",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0038823",
+      "player_name": "Kaevon Merriweather",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0038570",
+      "player_name": "Ventrell Miller",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-10-13T17:10Z",
+          "reason": null,
+          "status": "Questionable",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0033038",
+      "player_name": "Eric Murray",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0034413",
+      "player_name": "Foyesade Oluokun",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039733",
+      "player_name": "Ruke Orhorhoro",
+      "position": "DT",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041045",
+      "player_name": "Albert Regis",
+      "position": "DT",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040342",
+      "player_name": "Danny Striggow",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0035240",
+      "player_name": "Jahlani Tavai",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041218",
+      "player_name": "Bryan Thomas Jr.",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0037235",
+      "player_name": "Travon Walker",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041059",
+      "player_name": "Wesley Williams",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0034437",
+      "player_name": "Logan Cooke",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039409",
+      "player_name": "Cam Little",
+      "position": "PK",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-08-30T23:11Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0041122",
+      "player_name": "Zach Durfee",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-09-17T00:17Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0040329",
+      "player_name": "B.J. Green II",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-08-19T12:07Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0041127",
+      "player_name": "Parker Hughes",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-10-07T00:42Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0040145",
+      "player_name": "Caleb Ransaw",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039458",
+      "player_name": "Brenden Bates",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036497",
+      "player_name": "Tim Jones",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039155",
+      "player_name": "BJ Ojulari",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041216",
+      "player_name": "Trebor Pena",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040339",
+      "player_name": "Cam'Ron Silmon-Craig",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041217",
+      "player_name": "J'Mari Taylor",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036841",
+      "player_name": "Austin Trammell",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "JAX"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041467",
+      "player_name": "Lewis Bond",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0038608",
+      "player_name": "Kayshon Boutte",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036554",
+      "player_name": "Nico Collins",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039849",
+      "player_name": "Marvin Harrison Jr.",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0038618",
+      "player_name": "Xavier Hutchinson",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036556",
+      "player_name": "Brevin Jordan",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041472",
+      "player_name": "Marlin Klein",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040583",
+      "player_name": "Woody Marks",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036898",
+      "player_name": "Davis Mills",
+      "position": "QB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": "Groin",
+          "observed_at": "2026-10-15T21:34Z",
+          "reason": null,
+          "status": "Out",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0035685",
+      "player_name": "David Montgomery",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0034981",
+      "player_name": "Foster Moreau",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040138",
+      "player_name": "Jaylin Noel",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0033854",
+      "player_name": "Dare Ogunbowale",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0034383",
+      "player_name": "Dalton Schultz",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039359",
+      "player_name": "Cade Stover",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039163",
+      "player_name": "C.J. Stroud",
+      "position": "QB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-10-14T23:16Z",
+          "reason": null,
+          "status": "Questionable",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0035166",
+      "player_name": "Azeez Al-Shaair",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039108",
+      "player_name": "Will Anderson Jr.",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0037130",
+      "player_name": "Reed Blankenship",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039838",
+      "player_name": "Calen Bullock",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0031364",
+      "player_name": "Jadeveon Clowney",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039402",
+      "player_name": "Jaden Crumedy",
+      "position": "DT",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041449",
+      "player_name": "Aiden Fisher",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036241",
+      "player_name": "Bryce Hall",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0038127",
+      "player_name": "Logan Hall",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": "Illness",
+          "observed_at": "2026-10-15T21:24Z",
+          "reason": null,
+          "status": "Questionable",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0037457",
+      "player_name": "Jake Hansen",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041305",
+      "player_name": "Sabastian Harsh",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039395",
+      "player_name": "Jamal Hill",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0031565",
+      "player_name": "Danielle Hunter",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039343",
+      "player_name": "Kamari Lassiter",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041440",
+      "player_name": "Kayden McDonald",
+      "position": "DT",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0034091",
+      "player_name": "George Odum",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": "Shoulder - AC Joint",
+          "observed_at": "2026-10-16T00:20Z",
+          "reason": null,
+          "status": "Out",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0037246",
+      "player_name": "Jalen Pitre",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041466",
+      "player_name": "Kamari Ramsey",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0032759",
+      "player_name": "Sheldon Rankins",
+      "position": "DT",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0037082",
+      "player_name": "Dominique Robinson",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-10-07T00:29Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0040149",
+      "player_name": "Jaylin Smith",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0034278",
+      "player_name": "Tremon Smith",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0034355",
+      "player_name": "M.J. Stewart",
+      "position": "S",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0037237",
+      "player_name": "Derek Stingley Jr.",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036883",
+      "player_name": "Tommy Togiai",
+      "position": "DT",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041465",
+      "player_name": "Wade Woodaz",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0032726",
+      "player_name": "Ka'imi Fairbairn",
+      "position": "PK",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0040654",
+      "player_name": "Kai Kroeger",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-10-03T00:35Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0039603",
+      "player_name": "British Brooks",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-09-01T01:08Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0039427",
+      "player_name": "Solomon Byrd",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": "Knee - ACL + MCL",
+          "observed_at": "2026-10-15T21:43Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0038977",
+      "player_name": "Tank Dell",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-10-01T01:18Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0032265",
+      "player_name": "Mario Edwards Jr.",
+      "position": "DT",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-08-31T23:16Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0038724",
+      "player_name": "Ali Gaye",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-09-08T20:42Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0040130",
+      "player_name": "Jayden Higgins",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-08-26T00:42Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0039009",
+      "player_name": "Dylan Horton",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-09-26T17:52Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0037633",
+      "player_name": "Jake Hummel",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-10-15T01:04Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0037661",
+      "player_name": "Ja'Marcus Ingram",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-08-19T12:07Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0040211",
+      "player_name": "Graham Mertz",
+      "position": "QB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-08-31T17:01Z",
+          "reason": null,
+          "status": "Out",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0034987",
+      "player_name": "E.J. Speed",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": "Shoulder",
+          "observed_at": "2026-10-15T23:59Z",
+          "reason": null,
+          "status": "Injured Reserve",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0038599",
+      "player_name": "Henry To'oTo'o",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039902",
+      "player_name": "Chris Braswell",
+      "position": "DE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039416",
+      "player_name": "Jaden Davis",
+      "position": "CB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0041156",
+      "player_name": "Mark Gronowski",
+      "position": "QB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0036704",
+      "player_name": "Caleb Johnson",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039405",
+      "player_name": "Jawhar Jordan",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0037340",
+      "player_name": "Zaire Mitchell-Paden",
+      "position": "TE",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0037811",
+      "player_name": "Chad Muma",
+      "position": "LB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0039650",
+      "player_name": "Bryce Oliver",
+      "position": "WR",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "00-0038622",
+      "player_name": "Deuce Vaughn",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    },
+    {
+      "availability_state": "REPORTED_UNAVAILABLE",
+      "available_at": "2026-10-16T14:58:03.468763+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [
+        {
+          "available_at": "2026-10-16T14:58:03.468763+00:00",
+          "body_part": null,
+          "observed_at": "2026-10-01T23:24Z",
+          "reason": null,
+          "status": "Out",
+          "usable": true
+        }
+      ],
+      "player_id": "00-0041312",
+      "player_name": "Noah Whittington",
+      "position": "RB",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PLAYER_REPORTED_OUT"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "source_manifest": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "sport": "NFL",
+      "team_id": "HOU"
+    }
+  ],
+  "snapshot_hash": "d73ca8d3a0a3e134fbd8b4012448d535acdbad676e514b38390506ea1bc787dc",
+  "sources": [
+    {
+      "captured_at": "2026-10-16T14:45:08.880572+00:00",
+      "hash": "86b3650aad8f0945ade2682dc313a9eba7b7f002dff00d82a29a3839097623e3",
+      "manifest_id": "1f01b3bec05a231859a0fe9df96c4e8697f90cb7cd4cc43a845592f6fb115f53",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20261018"
+    },
+    {
+      "captured_at": "2026-10-16T14:45:10.254198+00:00",
+      "hash": "2ae8d4751c4e56bd9e38a4ea04b206c7ce4c05c19ed5e7502f2ffea0b9224610",
+      "manifest_id": "a4a1d9a7d7171093bb64f767fc47a23b583b54361ff0ab522083d86b6ca92632",
+      "url": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.parquet"
+    },
+    {
+      "captured_at": "2026-10-16T14:45:10.567289+00:00",
+      "hash": "6dc58f6a853a305cb7963fd76dbc62f57073c5c145792c6a10ebe5b1a75d8256",
+      "manifest_id": "66697d58c8115e1047e4b1c3f8f735579906d616ab0b5bb12ab4102bea7bb743",
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    {
+      "captured_at": "2026-10-16T14:45:10.901705+00:00",
+      "hash": "6f9dbd89e9162d4936f2f23143704a60cb735e781031a1555472329c1839bea0",
+      "manifest_id": "1085c746765b1c46834e462b8e37b8f076ff6f5846d95c621174cf98edc32687",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster"
+    },
+    {
+      "captured_at": "2026-10-16T14:45:11.154990+00:00",
+      "hash": "709c43d13048856965593ff9282ea58df2e9693800b351a733acc414f2ac403f",
+      "manifest_id": "29259691d5ee1c98af6979ce61a73f3b63a4c4d509094ad78426481a500cd427",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster"
+    },
+    {
+      "captured_at": "2026-10-16T14:58:03.468763+00:00",
+      "hash": "e69e9be9dfbf435e81c4da184956204fd2322be768bf1f56ffa7fc87e74cd8a4",
+      "manifest_id": "dbfe6fe56dc46fdf211903f8023e8079c0eab2eaa0a759777cc7a675d6519c1c",
+      "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event=401872996"
+    }
+  ],
+  "sport": "NFL"
+}
