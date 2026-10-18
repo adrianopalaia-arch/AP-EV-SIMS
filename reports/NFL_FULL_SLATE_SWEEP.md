@@ -73,3 +73,21 @@ Reproduce: `python -m ap_evsims.nfl_sweep --date 2026-10-18 --collect --daily-ca
 The first publication had 1,600 fresh comparisons; the final archived recalculation correctly rejects expired prices. It spends no new odds credits and does not relabel archived prices as fresh.
 
 NFL game settlement integration, prospective calibration, verified participation/workload, authentic closing captures, and sportsbook settlement-rule verification remain unfinished. The default NFL challenger and refresh paths now process the entire canonical slate; an unscoped single-event NFL input is rejected. The default command was executed on all 12 games with 1,494 forecasts, 1,312 prop comparisons, zero new forecasts, zero simulation draws and no new sportsbook requests.
+
+## Git delivery
+
+Implementation commit: `144405405150ee3254e260610369cea6b0532e36`. Verified remote: `c1f06b6611ad85badc02b3ab0672bae852045a56`. All five required files are committed locally; none is present at the current remote commit.
+
+Push blocked: Windows credential-store enumeration returns 0x5 Access is denied, and the configured GitHub CLI helper cannot create an MSYS named object (0xC0000022) inside this session. No credentials were exposed, replaced or reset. No additional sportsbook requests were made to address Git.
+
+Run from normal PowerShell:
+
+```powershell
+& 'C:\Program Files\Git\cmd\git.exe' -C 'C:\Users\adria\Documents\Codex\2026-10-13\files-mentioned-by-the-user-ap\outputs\AP-EV-SIMS' push -u origin ap-evisims-live
+```
+
+If normal PowerShell also requires sign-in, use the installed Git Credential Manager browser flow:
+
+```powershell
+& 'C:\Program Files\Git\cmd\git.exe' credential-manager github login --browser
+```

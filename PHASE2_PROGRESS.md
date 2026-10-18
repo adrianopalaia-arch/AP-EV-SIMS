@@ -206,3 +206,5 @@ Completed the 12-game schedule-first sweep. Coverage increased from one NFL game
 404 tests passed; both supplied 12-game acceptance modes passed. Original 389 forecasts and 18 Phase 1 files verified unchanged. Current game model trains on 803 prior outcomes; chronological evaluation has 1,951 games. Ridge MAE 10.4191 beats home-field 11.0790 but does not beat Elo MAE 10.4112. No betting validation.
 
 See reports/NFL_FULL_SLATE_SWEEP.md and outputs/nfl_sweep_delivery.json for all games, role evidence, rejections, quota, and remaining blockers. Default NFL delivery now uses all canonical events; explicit complete NFL sweep: `python -m ap_evsims.p0_refresh --nfl-date 2026-10-18 --collect --daily-cap 96`.
+
+Git delivery: local implementation 144405405150ee3254e260610369cea6b0532e36; remote remains c1f06b6611ad85badc02b3ab0672bae852045a56. Session Windows credential access is denied. All required outputs are saved and committed locally. Manual push is in reports/NFL_FULL_SLATE_SWEEP.md.

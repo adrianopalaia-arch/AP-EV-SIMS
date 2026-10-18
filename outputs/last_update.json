@@ -35,11 +35,11 @@
     }
   ],
   "cfb_schedule_games": 4245,
-  "checkpoint_at": "2026-10-18T04:12:53.096151+00:00",
-  "current_commit": "b607d97fc124c43ce7b145bcb473bb2bed390864",
-  "current_commit_scope": "Parent HEAD before NFL delivery commit",
+  "checkpoint_at": "2026-10-18T04:13:27.845469+00:00",
+  "current_commit": "144405405150ee3254e260610369cea6b0532e36",
+  "current_commit_scope": "Implementation checkpoint before the following Git-delivery metadata commit",
   "current_price_age_checked_at": "2026-10-17T02:32:09.172684+00:00",
-  "current_task": "NFL_FULL_SLATE_SWEEP_DELIVERED",
+  "current_task": "NFL_FULL_SLATE_COMPLETE_LOCAL_GITHUB_BLOCKED",
   "data_quality_failures": [
     {
       "reason": "SCHEMA_DRIFT",
@@ -87,11 +87,40 @@
   "fresh_ranked_candidates": 0,
   "games_scanned": 146,
   "generated_at": "2026-10-18T04:12:53.096151+00:00",
-  "git_commit": "5d357c6dfabba8392b3ec2954049bebdd014ecb5",
-  "git_commit_semantics": "Last completed source commit; latest market-refresh and push receipt follow in checkpoint",
-  "github_delivery": "github_delivery.json",
-  "github_push_status": "BLOCKED_GIT_CREDENTIALS_UNAVAILABLE_CONNECTOR_403",
-  "github_remote_verified_commit": "bd4a8e5862e038c7ae77c71e50873f08dc234547",
+  "git_commit": "144405405150ee3254e260610369cea6b0532e36",
+  "git_commit_semantics": "Implementation checkpoint, not self-referential metadata commit",
+  "github_delivery": {
+    "configured_helper_error": "GitHub CLI helper MSYS named-object creation denied: 0xC0000022",
+    "credential_manager_error": "Windows credential enumeration denied: 0x5 Access is denied",
+    "credential_manager_version": "2.7.3",
+    "diagnosis": "This Codex session cannot access the existing Windows credential store or launch the configured shell helper. Existing user authentication has not been invalidated.",
+    "implementation_commit": "144405405150ee3254e260610369cea6b0532e36",
+    "manual_push_command": "& 'C:\\Program Files\\Git\\cmd\\git.exe' -C 'C:\\Users\\adria\\Documents\\Codex\\2026-10-13\\files-mentioned-by-the-user-ap\\outputs\\AP-EV-SIMS' push -u origin ap-evisims-live",
+    "no_additional_sportsbook_collection": true,
+    "no_force_push": true,
+    "no_history_reset": true,
+    "push_success": false,
+    "remote_matches_local": false,
+    "remote_sha": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+    "required_files_committed": {
+      "outputs/nfl_game_probabilities.json": true,
+      "outputs/nfl_market_comparisons.json": true,
+      "outputs/nfl_prop_research.json": true,
+      "outputs/nfl_sweep_status.json": true,
+      "reports/NFL_FULL_SLATE_SWEEP.md": true
+    },
+    "required_files_on_remote": {
+      "outputs/nfl_game_probabilities.json": false,
+      "outputs/nfl_market_comparisons.json": false,
+      "outputs/nfl_prop_research.json": false,
+      "outputs/nfl_sweep_status.json": false,
+      "reports/NFL_FULL_SLATE_SWEEP.md": false
+    },
+    "status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
+    "verified_at": "2026-10-18T04:13:27.845469+00:00"
+  },
+  "github_push_status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
+  "github_remote_verified_commit": "c1f06b6611ad85badc02b3ab0672bae852045a56",
   "local_comparison_hash": "729d1e6e9f4658a60a09e245203cc3428d0ba3ef4e6bb29e451ea4e88f3b9943",
   "market_calculation_version": 1,
   "market_research_report": "market_research_status.json",
@@ -215,6 +244,36 @@
       "tests/test_nfl_sweep_acceptance.py"
     ],
     "generated_at": "2026-10-18T04:12:53.096151+00:00",
+    "github": {
+      "configured_helper_error": "GitHub CLI helper MSYS named-object creation denied: 0xC0000022",
+      "credential_manager_error": "Windows credential enumeration denied: 0x5 Access is denied",
+      "credential_manager_version": "2.7.3",
+      "diagnosis": "This Codex session cannot access the existing Windows credential store or launch the configured shell helper. Existing user authentication has not been invalidated.",
+      "implementation_commit": "144405405150ee3254e260610369cea6b0532e36",
+      "manual_push_command": "& 'C:\\Program Files\\Git\\cmd\\git.exe' -C 'C:\\Users\\adria\\Documents\\Codex\\2026-10-13\\files-mentioned-by-the-user-ap\\outputs\\AP-EV-SIMS' push -u origin ap-evisims-live",
+      "no_additional_sportsbook_collection": true,
+      "no_force_push": true,
+      "no_history_reset": true,
+      "push_success": false,
+      "remote_matches_local": false,
+      "remote_sha": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+      "required_files_committed": {
+        "outputs/nfl_game_probabilities.json": true,
+        "outputs/nfl_market_comparisons.json": true,
+        "outputs/nfl_prop_research.json": true,
+        "outputs/nfl_sweep_status.json": true,
+        "reports/NFL_FULL_SLATE_SWEEP.md": true
+      },
+      "required_files_on_remote": {
+        "outputs/nfl_game_probabilities.json": false,
+        "outputs/nfl_market_comparisons.json": false,
+        "outputs/nfl_prop_research.json": false,
+        "outputs/nfl_sweep_status.json": false,
+        "reports/NFL_FULL_SLATE_SWEEP.md": false
+      },
+      "status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
+      "verified_at": "2026-10-18T04:13:27.845469+00:00"
+    },
     "historical_evaluation": {
       "elo": {
         "accuracy": 0.6152263374485597,
@@ -249,7 +308,7 @@
     "model_training_n": 803,
     "original_forecasts_preserved": 389,
     "phase1_protected_files_preserved": 18,
-    "push_status": "PENDING_FINAL_ATTEMPT",
+    "push_status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
     "quote_collection_time": "2026-10-18T04:01:00Z",
     "quote_collection_time_basis": "Minute containing immutable provider captures; exact times in each quote",
     "quotes_fresh_at_initial_publication": 1600,
@@ -594,8 +653,8 @@
   ],
   "reliable_checkpoint_at": "2026-10-18T03:43:44.661612+00:00",
   "reliable_outputs_manifest": "reliability_manifest.json",
-  "remote_verified_at": "2026-10-18T03:25:20.527967+00:00",
-  "remote_verified_sha": "2b448643c128b14e49c0ae7acaf6cacb990e598b",
+  "remote_verified_at": "2026-10-18T04:13:27.845469+00:00",
+  "remote_verified_sha": "c1f06b6611ad85badc02b3ab0672bae852045a56",
   "research_model_display": {
     "issues": [
       "NO_TRAINED_RESEARCH_MODEL"
