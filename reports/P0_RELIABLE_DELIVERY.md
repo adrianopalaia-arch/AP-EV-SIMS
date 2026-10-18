@@ -146,5 +146,5 @@ Tested code/results commit: 23be499b9adeb83b80f63badd958b4aa494bd23d. All staged
 Manual PowerShell push:
 
 ```powershell
-& 'C:\\Program Files\\Git\\cmd\\git.EXE' -C 'C:\\Users\\adria\\Documents\\Codex\\2026-10-13\\files-mentioned-by-the-user-ap\\outputs\\AP-EV-SIMS' push -u origin ap-evisims-live
+& 'C:\Program Files\Git\cmd\git.EXE' -C 'C:\Users\adria\Documents\Codex\2026-10-13\files-mentioned-by-the-user-ap\outputs\AP-EV-SIMS' push -u origin ap-evisims-live
 ```
