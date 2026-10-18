@@ -1,4 +1,3 @@
-378 passed; 0 failed; 0 skipped.
-Verified UTC: 2026-10-18T03:24:07.788450+00:00
-Full unittest discovery, workspace TEMP; 389 original forecasts and 18 Phase 1 files preserved.
-Software tests are not model validation.
+401 tests passed; 0 failures; 0 skipped.
+Verified 2026-10-18T04:06:30.944641+00:00
+Both supplied NFL sweep acceptance modes: PASS (12 scheduled, 12 covered, 12 game probabilities, 12 prop scans).

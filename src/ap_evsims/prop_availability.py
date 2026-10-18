@@ -73,8 +73,8 @@ def interpret(sport,event,players,payload,manifest):
     return out
 
 
-def capture(root,sport):
-    root=Path(root);a=PublicStatsArchive(root/'data');event,players,sources,reasons=current_inputs(root,sport)
+def capture(root,sport,canonical_event=None):
+    root=Path(root);a=PublicStatsArchive(root/'data');event,players,sources,reasons=current_inputs(root,sport,canonical_event)
     if event is None:raise ValueError('CURRENT_EVENT_IDENTITY_UNVERIFIED')
     if sport in ('NBA','NFL'):
         url='https://site.api.espn.com/apis/site/v2/sports/'+('football/nfl' if sport=='NFL' else 'basketball/nba')+'/summary?event='+event['availability_event_id']
@@ -92,5 +92,5 @@ def capture(root,sport):
     body['snapshot_hash']=digest(body)
     folder=root/'data/evaluations/availability';folder.mkdir(exist_ok=True)
     ResearchStore._immutable(folder/(body['snapshot_hash']+'.json'),json.dumps(body,sort_keys=True,indent=2).encode())
-    atomic_json(root/'outputs'/(sport.lower()+'_availability.json'),body)
+    if canonical_event is None:atomic_json(root/'outputs'/(sport.lower()+'_availability.json'),body)
     return body

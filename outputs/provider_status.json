@@ -1266,6 +1266,21 @@
     "status_basis": "LAST_RECORDED_PROBE_NOT_REPROBED",
     "status_reviewed_at": "2026-10-14T22:36:21.189785+00:00"
   },
+  "nfl_slate_collection": {
+    "games": 12,
+    "generated_at": "2026-10-18T04:05:30.538307+00:00",
+    "main_market_games": 12,
+    "no_new_credits_for_recalculation": true,
+    "prop_scanned_games": 12,
+    "quota": {
+      "credits_used": 82,
+      "credits_used_this_sweep": 63,
+      "daily_cap": 96,
+      "remaining": 280,
+      "reserved_balance": 50
+    },
+    "report": "nfl_sweep_status.json"
+  },
   "nflverse": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
@@ -1802,29 +1817,66 @@
     }
   },
   "reliable_collection": {
+    "book_rules": {
+      "generated_at": "2026-10-18T03:41:56.670877+00:00",
+      "scope": "Source documents only; no pre-entry applicability or completed terms parser is claimed.",
+      "settlement_authority": false,
+      "sources": [
+        {
+          "applicability": "NOT_VERIFIED_FOR_ENTRY",
+          "available_at": "2026-10-18T02:26:20.474196+00:00",
+          "book": "fanduel",
+          "captured_at": "2026-10-18T02:26:20.474196+00:00",
+          "historical_backdating_allowed": false,
+          "jurisdiction_scope": "IL",
+          "manifest_id": "92415c860d9855443be9ac80d2dc957f0971a1d7f2cbcced4ef674a6e7c5d0b1",
+          "path": "raw\\results\\book-rules-0c157d7555d518533b4c6598d82f3dd356f7f6cdf314cd69a6f7dda004972780.html",
+          "payload_hash": "0c157d7555d518533b4c6598d82f3dd356f7f6cdf314cd69a6f7dda004972780",
+          "reason": "JURISDICTION_AND_MARKET_TERMS_REVIEW_REQUIRED",
+          "settlement_authority": false,
+          "status": 200,
+          "url": "https://d38ayms4az88sz.cloudfront.net/SB/IL/2026-07-30T12-42-48.html"
+        },
+        {
+          "applicability": "NOT_VERIFIED_FOR_ENTRY",
+          "available_at": "2026-10-18T02:26:20.817771+00:00",
+          "book": "draftkings",
+          "captured_at": "2026-10-18T02:26:20.817771+00:00",
+          "historical_backdating_allowed": false,
+          "jurisdiction_scope": null,
+          "manifest_id": "7e3e02ca42cdb69f33db52e90204788de05b348080eb203fcf6f4f7c6d06aeac",
+          "path": "raw\\results\\book-rules-93127422017da4027107986835fb34f122a16d6fbd4653cbada4bdb27b59b727.html",
+          "payload_hash": "93127422017da4027107986835fb34f122a16d6fbd4653cbada4bdb27b59b727",
+          "reason": "JURISDICTION_AND_MARKET_TERMS_REVIEW_REQUIRED",
+          "settlement_authority": false,
+          "status": 200,
+          "url": "https://sportsbook.draftkings.com/help/sport-rules/hockey"
+        }
+      ]
+    },
     "cfb_collection": {
-      "collected_at": "2026-10-18T03:18:35.301733+00:00",
+      "collected_at": "2026-10-18T03:41:56.683103+00:00",
       "quota": {
         "cached_historical_snapshots": 0,
-        "credits_consumed_recorded": 137,
+        "credits_consumed_recorded": 142,
         "duplicate_requests_prevented": 0,
-        "provider_requests_used": 152,
-        "requests_recorded": 90,
-        "requests_remaining": 348
+        "provider_requests_used": 157,
+        "requests_recorded": 98,
+        "requests_remaining": 343
       },
       "results": [
         {
-          "next_refresh_seconds": 18466.268024,
+          "next_refresh_seconds": 17064.886654,
           "sport": "CFB",
           "status": "CACHED_CADENCE"
         }
       ]
     },
     "prop_collection": {
-      "cadence_aware": false,
+      "cadence_aware": true,
       "daily_cap": 24,
       "daily_credits_used": 19,
-      "generated_at": "2026-10-18T03:20:53.464684+00:00",
+      "generated_at": "2026-10-18T03:41:56.679842+00:00",
       "priority_markets": {
         "MLB": [
           "batter_hits",
@@ -1859,19 +1911,9 @@
           },
           "last_request_at": "2026-10-18T03:20:52.490754+00:00",
           "latest_attempt": {
-            "checked_at": "2026-10-18T03:20:52.490754+00:00",
-            "deferred_markets": [],
-            "quota": {
-              "x-requests-last": 1,
-              "x-requests-remaining": 347,
-              "x-requests-used": 153
-            },
-            "requested_markets": [
-              "player_shots_on_goal",
-              "player_total_saves"
-            ],
+            "checked_at": "2026-10-18T03:41:56.679842+00:00",
             "sport": "NHL",
-            "status": 200
+            "status": "REFRESH_COOLDOWN"
           },
           "paired_offers": 11,
           "record": {
@@ -1915,19 +1957,9 @@
           },
           "last_request_at": "2026-10-18T03:20:52.848093+00:00",
           "latest_attempt": {
-            "checked_at": "2026-10-18T03:20:52.848093+00:00",
-            "deferred_markets": [],
-            "quota": {
-              "x-requests-last": 2,
-              "x-requests-remaining": 345,
-              "x-requests-used": 155
-            },
-            "requested_markets": [
-              "player_rebounds",
-              "player_assists"
-            ],
+            "checked_at": "2026-10-18T03:41:56.679842+00:00",
             "sport": "NBA",
-            "status": 200
+            "status": "REFRESH_COOLDOWN"
           },
           "paired_offers": 47,
           "record": {
@@ -1967,19 +1999,9 @@
           },
           "last_request_at": "2026-10-18T03:20:53.162734+00:00",
           "latest_attempt": {
-            "checked_at": "2026-10-18T03:20:53.162734+00:00",
-            "deferred_markets": [],
-            "quota": {
-              "x-requests-last": 0,
-              "x-requests-remaining": 345,
-              "x-requests-used": 155
-            },
-            "requested_markets": [
-              "batter_hits",
-              "batter_total_bases"
-            ],
+            "checked_at": "2026-10-18T03:41:56.679842+00:00",
             "sport": "MLB",
-            "status": 200
+            "status": "REFRESH_COOLDOWN"
           },
           "paired_offers": 0,
           "record": {
@@ -2024,19 +2046,9 @@
           },
           "last_request_at": "2026-10-18T03:20:53.455671+00:00",
           "latest_attempt": {
-            "checked_at": "2026-10-18T03:20:53.455671+00:00",
-            "deferred_markets": [],
-            "quota": {
-              "x-requests-last": 2,
-              "x-requests-remaining": 343,
-              "x-requests-used": 157
-            },
-            "requested_markets": [
-              "player_receptions",
-              "player_reception_yds"
-            ],
+            "checked_at": "2026-10-18T03:41:56.679842+00:00",
             "sport": "NFL",
-            "status": 200
+            "status": "REFRESH_COOLDOWN"
           },
           "paired_offers": 99,
           "record": {
@@ -2069,7 +2081,7 @@
       ]
     }
   },
-  "reliable_collection_checked_at": "2026-10-18T03:23:38.015034+00:00",
+  "reliable_collection_checked_at": "2026-10-18T03:43:44.661612+00:00",
   "statcast": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,

@@ -1,0 +1,156 @@
+{
+  "acceptance": {
+    "False": {
+      "covered_games": 12,
+      "game_probabilities": 12,
+      "model_status_counts": {
+        "FORECASTED": 12
+      },
+      "ok": true,
+      "problems": [],
+      "prop_scanned_games": 12,
+      "scheduled_games": 12,
+      "target_date": "2026-10-18"
+    },
+    "True": {
+      "covered_games": 12,
+      "game_probabilities": 12,
+      "model_status_counts": {
+        "FORECASTED": 12
+      },
+      "ok": true,
+      "problems": [],
+      "prop_scanned_games": 12,
+      "scheduled_games": 12,
+      "target_date": "2026-10-18"
+    }
+  },
+  "account_remaining": 280,
+  "actual_credits_spent": 63,
+  "additional_monte_carlo_draws": 0,
+  "after": {
+    "all_frozen_prop_records": 2202,
+    "fresh_comparisons": 0,
+    "game_forecasts": 12,
+    "main_market_games": 12,
+    "new_prop_records": 1370,
+    "new_prop_records_this_execution": 0,
+    "price_comparisons": 1600,
+    "prop_forecasts": 1494,
+    "prop_scanned_games": 12
+  },
+  "availability_counts": {
+    "REPORTED_UNAVAILABLE": 221,
+    "UNKNOWN": 1219
+  },
+  "before": {
+    "frozen_prop_records": 832,
+    "nfl_scheduled_games_with_forecasts": 1
+  },
+  "blockers": [
+    "No prospective NFL game-model calibration or price-relative validation",
+    "Game ridge does not beat Elo on every metric",
+    "Roster membership and reported injuries do not confirm participation or workload",
+    "Historical outcome revisions are reconstructed; historical book prices remain unverified",
+    "NFL TD and total outcome models unavailable; totals shown as price evidence only",
+    "Book settlement rules unverified; conditional EV cannot authorize cash",
+    "New NFL game forecasts have not settled; their settlement/CLV integration is not implemented in this sweep",
+    "Default multi-sport refresh retains its compatibility interface; use the explicit NFL slate command to refresh all games"
+  ],
+  "core_enabled": false,
+  "current_roster_players": 1440,
+  "current_snapshot_at": "2026-10-18T04:05:30.538307+00:00",
+  "current_snapshot_fresh_comparisons": 0,
+  "files_changed": [
+    "TASK_STATE.json",
+    "outputs/book_rule_source_status.json",
+    "outputs/last_update.json",
+    "outputs/latest_passes.json",
+    "outputs/live_research_candidates.json",
+    "outputs/model_status.json",
+    "outputs/nfl_game_model_status.json",
+    "outputs/nfl_game_probabilities.json",
+    "outputs/nfl_market_comparisons.json",
+    "outputs/nfl_prop_research.json",
+    "outputs/nfl_sweep_delivery.json",
+    "outputs/nfl_sweep_status.json",
+    "outputs/prospective_settlements.json",
+    "outputs/provider_status.json",
+    "outputs/reliability_manifest.json",
+    "outputs/reliability_status.json",
+    "outputs/validated_edges.json",
+    "outputs/week_ahead_game_probabilities.json",
+    "reports/DAILY_BETTING_DECISIONS.md",
+    "reports/MODEL_PERFORMANCE_SCOREBOARD.md",
+    "reports/NFL_FULL_SLATE_SWEEP.md",
+    "scripts/__init__.py",
+    "scripts/nfl_sweep_acceptance.py",
+    "src/ap_evsims/challenger_delivery.py",
+    "src/ap_evsims/nfl_game_model.py",
+    "src/ap_evsims/nfl_schedule.py",
+    "src/ap_evsims/nfl_sweep.py",
+    "src/ap_evsims/p0_refresh.py",
+    "src/ap_evsims/prop_availability.py",
+    "src/ap_evsims/prop_prices.py",
+    "src/ap_evsims/prop_prospective.py",
+    "tests/test_nfl_sweep.py",
+    "tests/test_nfl_sweep_acceptance.py"
+  ],
+  "generated_at": "2026-10-18T04:06:30.944641+00:00",
+  "historical_evaluation": {
+    "elo": {
+      "accuracy": 0.6152263374485597,
+      "brier": 0.22992437841693703,
+      "log_loss": 0.6517580761524118,
+      "mae": 10.411192573780964,
+      "n": 1951,
+      "non_tie_n": 1944,
+      "rmse": 13.421394741305544
+    },
+    "home_field": {
+      "accuracy": 0.5318930041152263,
+      "brier": 0.2496056460493145,
+      "log_loss": 0.6923734957328519,
+      "mae": 11.078975668817904,
+      "n": 1951,
+      "non_tie_n": 1944,
+      "rmse": 14.277557553337942
+    },
+    "ridge": {
+      "accuracy": 0.625,
+      "brier": 0.23066938637024242,
+      "log_loss": 0.6533710251771425,
+      "mae": 10.419089086269958,
+      "n": 1951,
+      "non_tie_n": 1944,
+      "rmse": 13.406240272969235
+    }
+  },
+  "historical_outcome_games": 3231,
+  "historical_provenance": "RECONSTRUCTED_HISTORY_UNVERIFIED_AS_OF",
+  "model_training_n": 803,
+  "original_forecasts_preserved": 389,
+  "phase1_protected_files_preserved": 18,
+  "push_status": "PENDING_FINAL_ATTEMPT",
+  "quote_collection_time": "2026-10-18T04:01:00Z",
+  "quote_collection_time_basis": "Minute containing immutable provider captures; exact times in each quote",
+  "quotes_fresh_at_initial_publication": 1600,
+  "required_outputs": [
+    "nfl_sweep_status.json",
+    "nfl_game_probabilities.json",
+    "nfl_prop_research.json",
+    "nfl_market_comparisons.json"
+  ],
+  "schedule_games": 12,
+  "source_commit_before_delivery": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+  "synthetic_empirical_observations": 0,
+  "tests": {
+    "command": "PYTHONPATH=src;. .venv/Scripts/python.exe -m unittest discover -s tests",
+    "failed": 0,
+    "passed": 401,
+    "skipped": 0,
+    "status": "PASS",
+    "verified_at": "2026-10-18T04:06:30.944641+00:00"
+  },
+  "validated_edges": 0
+}

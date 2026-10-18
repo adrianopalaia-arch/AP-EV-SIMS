@@ -276,7 +276,7 @@
     }
   ],
   "distinct_games": 45,
-  "generated_at": "2026-10-18T03:21:04.998358+00:00",
+  "generated_at": "2026-10-18T03:58:53.303155+00:00",
   "pending": [
     {
       "event_id": "401909088",
@@ -7505,6 +7505,21 @@
     },
     {
       "comparison_hash": "ea786ec3cc034fca05ef5c09d2dec09001a64e429977c616f5a82caa979f7ebb",
+      "reason": "RESULT_NOT_AVAILABLE",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1ac997ffc948324c61b89dbaeb5c1e616f55056278d883b2fa79be33644cd656",
+      "reason": "RESULT_NOT_AVAILABLE",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "1b6bd9b4b00f64d8bfd40519ae8c4dbacc1456d0c9a7d9eaf82fb1f695d93697",
+      "reason": "RESULT_NOT_AVAILABLE",
+      "sport": "NFL"
+    },
+    {
+      "comparison_hash": "4bedc4f03a3287c4d27fdc37aea07a5d8a4d8733ddb2923442f96e5da43c962f",
       "reason": "RESULT_NOT_AVAILABLE",
       "sport": "NFL"
     }

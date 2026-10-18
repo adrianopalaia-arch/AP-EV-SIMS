@@ -1,6 +1,6 @@
 # Model performance scoreboard
 
-Generated UTC: 2026-10-18T03:23:38.015034+00:00. Actual frozen prospective outcomes; no model promoted.
+Generated UTC: 2026-10-18T04:00:40.459660+00:00. Actual frozen prospective outcomes; no model promoted.
 
 | Sport / market / model | Settled forecasts | Distinct games | MAE | Frozen simple baseline MAE | RMSE |
 |---|---:|---:|---:|---:|---:|

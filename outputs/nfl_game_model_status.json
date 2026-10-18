@@ -1,0 +1,339 @@
+{
+  "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+  "available_outcome_games": 3231,
+  "beats_both_baselines": false,
+  "betting_validated": false,
+  "calibrated_probability": null,
+  "evaluation": {
+    "elo": {
+      "accuracy": 0.6152263374485597,
+      "brier": 0.22992437841693703,
+      "log_loss": 0.6517580761524118,
+      "mae": 10.411192573780964,
+      "n": 1951,
+      "non_tie_n": 1944,
+      "rmse": 13.421394741305544
+    },
+    "home_field": {
+      "accuracy": 0.5318930041152263,
+      "brier": 0.2496056460493145,
+      "log_loss": 0.6923734957328519,
+      "mae": 11.078975668817904,
+      "n": 1951,
+      "non_tie_n": 1944,
+      "rmse": 14.277557553337942
+    },
+    "ridge": {
+      "accuracy": 0.625,
+      "brier": 0.23066938637024242,
+      "log_loss": 0.6533710251771425,
+      "mae": 10.419089086269958,
+      "n": 1951,
+      "non_tie_n": 1944,
+      "rmse": 13.406240272969235
+    }
+  },
+  "evaluation_by_season": {
+    "2019": {
+      "elo": {
+        "accuracy": 0.6509803921568628,
+        "brier": 0.229297950391962,
+        "log_loss": 0.6509756260764479,
+        "mae": 10.788209133265948,
+        "n": 256,
+        "non_tie_n": 255,
+        "rmse": 13.992482170541379
+      },
+      "home_field": {
+        "accuracy": 0.5254901960784314,
+        "brier": 0.25121221737068716,
+        "log_loss": 0.6956028808601701,
+        "mae": 11.648268789486789,
+        "n": 256,
+        "non_tie_n": 255,
+        "rmse": 14.969836578567902
+      },
+      "ridge": {
+        "accuracy": 0.6392156862745098,
+        "brier": 0.2276966044657663,
+        "log_loss": 0.6474288818837449,
+        "mae": 10.723826961967955,
+        "n": 256,
+        "non_tie_n": 255,
+        "rmse": 13.75851152849734
+      }
+    },
+    "2020": {
+      "elo": {
+        "accuracy": 0.6470588235294118,
+        "brier": 0.22663566667896776,
+        "log_loss": 0.6449928276947919,
+        "mae": 10.288703645068715,
+        "n": 256,
+        "non_tie_n": 255,
+        "rmse": 13.301568412333566
+      },
+      "home_field": {
+        "accuracy": 0.5019607843137255,
+        "brier": 0.25119900081201973,
+        "log_loss": 0.6955543884959506,
+        "mae": 11.0946982700535,
+        "n": 256,
+        "non_tie_n": 255,
+        "rmse": 14.259149069969236
+      },
+      "ridge": {
+        "accuracy": 0.6392156862745098,
+        "brier": 0.2294102314510381,
+        "log_loss": 0.650808670259982,
+        "mae": 10.346895590098306,
+        "n": 256,
+        "non_tie_n": 255,
+        "rmse": 13.343608048216788
+      }
+    },
+    "2021": {
+      "elo": {
+        "accuracy": 0.5756457564575646,
+        "brier": 0.2338513905682587,
+        "log_loss": 0.6595320147040293,
+        "mae": 11.499266459394608,
+        "n": 272,
+        "non_tie_n": 271,
+        "rmse": 14.49199144953288
+      },
+      "home_field": {
+        "accuracy": 0.5166051660516605,
+        "brier": 0.2502187429756872,
+        "log_loss": 0.6935850903639218,
+        "mae": 12.179486240687435,
+        "n": 272,
+        "non_tie_n": 271,
+        "rmse": 15.482843197572793
+      },
+      "ridge": {
+        "accuracy": 0.6642066420664207,
+        "brier": 0.2296495780686918,
+        "log_loss": 0.6516968325997741,
+        "mae": 11.32050642571843,
+        "n": 272,
+        "non_tie_n": 271,
+        "rmse": 14.366987954990183
+      }
+    },
+    "2022": {
+      "elo": {
+        "accuracy": 0.587360594795539,
+        "brier": 0.23246599231122086,
+        "log_loss": 0.6572248128557104,
+        "mae": 9.167183606631072,
+        "n": 271,
+        "non_tie_n": 269,
+        "rmse": 11.947970743076299
+      },
+      "home_field": {
+        "accuracy": 0.5650557620817844,
+        "brier": 0.24706178148905353,
+        "log_loss": 0.6872647768451903,
+        "mae": 9.585015967299926,
+        "n": 271,
+        "non_tie_n": 269,
+        "rmse": 12.356082326629
+      },
+      "ridge": {
+        "accuracy": 0.6245353159851301,
+        "brier": 0.23302691836677225,
+        "log_loss": 0.6583350072026339,
+        "mae": 9.18186257574724,
+        "n": 271,
+        "non_tie_n": 269,
+        "rmse": 11.958882537070476
+      }
+    },
+    "2023": {
+      "elo": {
+        "accuracy": 0.5992647058823529,
+        "brier": 0.23556217563444926,
+        "log_loss": 0.664077026346766,
+        "mae": 10.578757030638215,
+        "n": 272,
+        "non_tie_n": 272,
+        "rmse": 13.732565993909562
+      },
+      "home_field": {
+        "accuracy": 0.5588235294117647,
+        "brier": 0.24678941142919014,
+        "log_loss": 0.6867147042135257,
+        "mae": 11.100830541085449,
+        "n": 272,
+        "non_tie_n": 272,
+        "rmse": 14.434637228214518
+      },
+      "ridge": {
+        "accuracy": 0.5882352941176471,
+        "brier": 0.23242719488332447,
+        "log_loss": 0.6569678474913611,
+        "mae": 10.541380342558174,
+        "n": 272,
+        "non_tie_n": 272,
+        "rmse": 13.594260752216034
+      }
+    },
+    "2024": {
+      "elo": {
+        "accuracy": 0.6433823529411765,
+        "brier": 0.22240045449652143,
+        "log_loss": 0.6354951905286167,
+        "mae": 10.354422129865569,
+        "n": 272,
+        "non_tie_n": 272,
+        "rmse": 13.453733280199366
+      },
+      "home_field": {
+        "accuracy": 0.5220588235294118,
+        "brier": 0.25138959746119616,
+        "log_loss": 0.6959737406598658,
+        "mae": 11.163838737084166,
+        "n": 272,
+        "non_tie_n": 272,
+        "rmse": 14.475202553378363
+      },
+      "ridge": {
+        "accuracy": 0.625,
+        "brier": 0.22982825731093814,
+        "log_loss": 0.6512059557210121,
+        "mae": 10.549023915749608,
+        "n": 272,
+        "non_tie_n": 272,
+        "rmse": 13.65293680333616
+      }
+    },
+    "2025": {
+      "elo": {
+        "accuracy": 0.6162361623616236,
+        "brier": 0.22888233708702083,
+        "log_loss": 0.6492538705021077,
+        "mae": 10.401493855960087,
+        "n": 272,
+        "non_tie_n": 271,
+        "rmse": 13.15069665662818
+      },
+      "home_field": {
+        "accuracy": 0.5350553505535055,
+        "brier": 0.24983681101584881,
+        "log_loss": 0.692855506286311,
+        "mae": 11.074512834720505,
+        "n": 272,
+        "non_tie_n": 271,
+        "rmse": 14.155531798705889
+      },
+      "ridge": {
+        "accuracy": 0.5830258302583026,
+        "brier": 0.2334097966245159,
+        "log_loss": 0.6587523513467527,
+        "mae": 10.517702934155412,
+        "n": 272,
+        "non_tie_n": 271,
+        "rmse": 13.3327581830184
+      }
+    },
+    "2026": {
+      "elo": {
+        "accuracy": 0.5822784810126582,
+        "brier": 0.23050495908247146,
+        "log_loss": 0.6530082504996065,
+        "mae": 9.767609317030784,
+        "n": 80,
+        "non_tie_n": 79,
+        "rmse": 12.572741956587352
+      },
+      "home_field": {
+        "accuracy": 0.5189873417721519,
+        "brier": 0.24859684193456266,
+        "log_loss": 0.6903555487306541,
+        "mae": 10.178310541375552,
+        "n": 80,
+        "non_tie_n": 79,
+        "rmse": 13.0107525451449
+      },
+      "ridge": {
+        "accuracy": 0.6708860759493671,
+        "brier": 0.22724340969121157,
+        "log_loss": 0.6462731251510361,
+        "mae": 9.60837714763529,
+        "n": 80,
+        "non_tie_n": 79,
+        "rmse": 12.443108060600347
+      }
+    }
+  },
+  "evaluation_fingerprint": "bc22b94163bae12e31d285bce216e7cfa051eeda9625be78d146d589945efe12",
+  "evaluation_path": "evaluations/nfl-game/bc22b94163bae12e31d285bce216e7cfa051eeda9625be78d146d589945efe12.jsonl",
+  "excluded_features": [
+    "QB availability",
+    "injuries",
+    "weather",
+    "travel distance",
+    "sportsbook lines"
+  ],
+  "features": [
+    "regular-season opponent-adjusted ridge team strengths",
+    "neutral-aware home field",
+    "prior-game rest differential"
+  ],
+  "generated_at": "2026-10-18T04:05:11.619955+00:00",
+  "historical_provenance": "RECONSTRUCTED_HISTORY_UNVERIFIED_AS_OF",
+  "limitations": [
+    "Current source revisions are not historical publication proof",
+    "Gaussian integer margin misses football key-number structure",
+    "No QB or injury adjustment; roster news retained separately",
+    "No prospective or price-relative validation"
+  ],
+  "model_version": "nfl-team-strength-ridge-v1",
+  "p_low": null,
+  "policy": {
+    "alpha": 20.0,
+    "elo_home_points": 55.0,
+    "elo_k": 20.0,
+    "elo_points_per_margin": 25.0,
+    "evaluation_first_season": 2019,
+    "half_life_days": 365.0,
+    "history_days": 1096,
+    "minimum_training_games": 400,
+    "result_embargo_hours": 48,
+    "season_retention": 0.6666666666666666,
+    "warmup_first_season": 2017
+  },
+  "seasons": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "source_manifest": {
+    "available_at": "2026-10-18T04:03:14.183132+00:00",
+    "bytes": 2185209,
+    "captured_at": "2026-10-18T04:03:14.183132+00:00",
+    "format": "csv",
+    "hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+    "historical_provenance": "RECONSTRUCTED_HISTORY_UNVERIFIED_AS_OF",
+    "manifest_id": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+    "path": "raw\\nfl\\public\\d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa.csv",
+    "redistribution_permission": "NOT_ASSUMED",
+    "sport": "NFL",
+    "status": 200,
+    "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+  },
+  "status": "RESEARCH_ONLY",
+  "training_cutoff": "2026-10-16T00:15:00+00:00",
+  "training_n": 803
+}

@@ -52,7 +52,9 @@ def normalize_props(store,manifest,sport,at):
     return out,dict(rejected)
 
 
-def collect(root,*,daily_credit_cap=24):
+def collect(root,*,daily_credit_cap=24,canonical_events=None,reserve_credits=50):
+    if canonical_events is not None:
+        return collect_nfl_slate(root,canonical_events,daily_credit_cap=daily_credit_cap,reserve_credits=reserve_credits)
     root=Path(root);s=ResearchStore(root/'data');load_credentials(root/'.env');v=ProviderValidator(s,max_odds_credits=16)
     records=[];at=datetime.now(timezone.utc).isoformat()
     with v.ledger.connect() as db:
@@ -91,12 +93,15 @@ def collection_interval(seconds_to_start):
 
 
 def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_seconds=300, transport=None,
-                     cadence_aware=False, minimum_lead_seconds=1800, canonical_deadlines=None, priority_markets=None):
+                     cadence_aware=False, minimum_lead_seconds=1800, canonical_deadlines=None, priority_markets=None,canonical_events=None):
     """Refresh a bounded priority cohort without erasing last-known observations.
 
     An incomplete/blocked refresh never makes a cached quote fresh. Each attempt
     records its requested market subset; successful empty responses supersede it.
     """
+    if canonical_events is not None:
+        return collect_nfl_slate(root,canonical_events,daily_credit_cap=daily_credit_cap,reserve_credits=reserve_credits,
+                                 cooldown_seconds=cooldown_seconds,transport=transport)
     if daily_credit_cap<0 or reserve_credits<0 or cooldown_seconds<60:
         raise ValueError('INVALID_QUOTA_POLICY')
     root=Path(root);s=ResearchStore(root/'data');load_credentials(root/'.env')
@@ -160,6 +165,95 @@ def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_
                 cadence_aware=cadence_aware,priority_markets=priority,sports=records)
     atomic_json(path,report);atomic_json(s.root/'evaluations/prop-priority-refresh.json',dict(generated_at=at,attempts=attempts,daily_credits_used=used))
     return report
+
+
+def event_price_records(root,sport,event):
+    """Select only explicit event snapshots; keep legacy single-event readers working."""
+    root=Path(root);p=root/'data/evaluations/nfl-slate-price-access.json'
+    if sport=='NFL' and p.exists():
+        row=json.loads(p.read_text()).get('events',{}).get(event['event_id'])
+        if row is not None:
+            return list({r['snapshot_id']:r for r in row.get('records',{}).values() if r.get('status')==200}.values())
+    p=root/'data/evaluations/prop-price-access.json'
+    if not p.exists():return []
+    rows=[r for r in json.loads(p.read_text()).get('sports',[]) if r['sport']==sport
+          and r.get('event',{}).get('id')==event.get('odds_event_id')]
+    return [r['record'] for r in rows if r.get('record',{}).get('status')==200]
+
+
+def collect_nfl_slate(root,games,*,daily_credit_cap=24,reserve_credits=50,cooldown_seconds=300,transport=None):
+    """Featured slate first, then one prop market per event in round-robin waves.
+
+    Cost is reserved pessimistically before each request, then reconciled to actual
+    headers. Missing/empty books and budget deferrals stay on their canonical game.
+    Caller holds the shared research-runner lock for the whole operation.
+    """
+    from .nfl_schedule import match_odds
+    if daily_credit_cap<0 or reserve_credits<0 or cooldown_seconds<60:raise ValueError('INVALID_QUOTA_POLICY')
+    root=Path(root);s=ResearchStore(root/'data');load_credentials(root/'.env')
+    v=ProviderValidator(s,max_odds_credits=daily_credit_cap,**({} if transport is None else {'transport':transport}))
+    at=datetime.now(timezone.utc).isoformat();path=s.root/'evaluations/nfl-slate-price-access.json'
+    prior=json.loads(path.read_text()) if path.exists() else {}
+    def used():
+        with v.ledger.connect() as db:
+            return db.execute('SELECT coalesce(sum(cost),0) FROM requests WHERE provider=? AND substr(requested_at,1,10)=?',('odds',at[:10])).fetchone()[0]
+    initial=used();unaccounted=0;quota_known=True;report=dict(generated_at=at,events={},requests=[],featured=None,
+        quota=dict(credits_used=initial,daily_cap=daily_credit_cap,remaining=v.remaining,reserved_balance=reserve_credits),
+        policy='Featured slate then receptions, receiving yards, passing yards, rush attempts, rush yards; every game per wave')
+    def save():
+        report['quota'].update(credits_used=used()+unaccounted,credits_used_this_sweep=used()+unaccounted-initial,remaining=v.remaining,
+                               quota_headers_verified=quota_known)
+        atomic_json(path,report)
+    er,events=v.request('odds','sports/'+SPORTS['NFL']+'/events',{'dateFormat':'iso'});report['requests'].append(er)
+    quota_known=er.get('quota',{}).get('x-requests-remaining') is not None
+    events=events if isinstance(events,list) else []
+    for g in games:
+        e,reason=match_odds(g,events);old=prior.get('events',{}).get(g['event_id'],{})
+        report['events'][g['event_id']]=dict(event=e,canonical_event_id=g['event_id'],identity_reason=reason,
+            records=old.get('records',{}) if e and (old.get('event') or {}).get('id')==e['id'] else {},attempts={},
+            main_market_status='NOT_REQUESTED',prop_market_status='NOT_REQUESTED')
+    def request(endpoint,params,cost,previous=None):
+        nonlocal unaccounted,quota_known
+        now=datetime.now(timezone.utc).isoformat()
+        if previous and previous.get('checked_at') and (utc(now)-utc(previous['checked_at'])).total_seconds()<cooldown_seconds:
+            return dict(previous,cached=True),s.payload(s.manifest(previous['snapshot_id'])) if previous.get('status')==200 else None
+        if not quota_known or used()+unaccounted+cost>daily_credit_cap or v.remaining is None or v.remaining-cost<reserve_credits:
+            return dict(status='BUDGET_DEFERRED',checked_at=now,requested_markets=params.get('markets')),None
+        r,p=v.request('odds',endpoint,params,credit_cost=cost);report['requests'].append(r)
+        if r.get('quota',{}).get('x-requests-last') is None:unaccounted+=cost;quota_known=False
+        if r.get('quota',{}).get('x-requests-remaining') is None:quota_known=False
+        save();return r,p
+    params=dict(markets='h2h,spreads,totals',bookmakers='draftkings,fanduel,betmgm,betrivers,caesars',oddsFormat='american')
+    r,p=request('sports/'+SPORTS['NFL']+'/odds',params,3,prior.get('featured'))
+    report['featured']=r
+    for g in games:
+        row=report['events'][g['event_id']];match,reason=match_odds(g,p if isinstance(p,list) else [])
+        row['main_market_status']=('FETCHED' if match and match.get('bookmakers') else 'NO_MARKET') if r['status']==200 else ('BUDGET_DEFERRED' if r['status']=='BUDGET_DEFERRED' else 'FAILED')
+        row['main_identity_reason']=reason
+    keys=['player_receptions','player_reception_yds','player_pass_yds','player_rush_attempts','player_rush_yds']
+    for key in keys:
+        for g in games:
+            row=report['events'][g['event_id']];e=row['event']
+            if not e:row['attempts'][key]=dict(status='NO_MARKET',reason=row['identity_reason']);continue
+            if utc(g['kickoff'])<=datetime.now(timezone.utc):row['attempts'][key]=dict(status='EVENT_STARTED');continue
+            params=dict(markets=key,bookmakers='draftkings,fanduel,betmgm,betrivers,caesars',oddsFormat='american')
+            r,p=request('sports/'+SPORTS['NFL']+'/events/'+e['id']+'/odds',params,1,row['records'].get(key))
+            if r['status']==200:
+                matched,_=match_odds(g,[p] if isinstance(p,dict) and all(k in p for k in ('home_team','away_team','commence_time')) else [])
+                if matched is None or p.get('id')!=e['id'] or p.get('sport_key')!=SPORTS['NFL']:
+                    r=dict(r,status='EVENT_RESPONSE_IDENTITY_MISMATCH');p=None
+            returned=sorted({m['key'] for b in (p or {}).get('bookmakers',[]) for m in b.get('markets',[])}) if isinstance(p,dict) else []
+            row['attempts'][key]=dict(status=r['status'],checked_at=r.get('checked_at'),returned_markets=returned,
+                books=sorted({b['key'] for b in (p or {}).get('bookmakers',[])}) if isinstance(p,dict) else [],cached=r.get('cached',False))
+            if r['status']==200:row['records'][key]=r
+            save()
+    for row in report['events'].values():
+        states=[a['status'] for a in row['attempts'].values()]
+        nonempty=any(a.get('returned_markets') for a in row['attempts'].values())
+        row['prop_market_status']='SCANNED' if nonempty else ('BUDGET_DEFERRED' if 'BUDGET_DEFERRED' in states else ('NO_MARKET' if all(s in (200,'NO_MARKET') for s in states) else 'FAILED'))
+        row['deferred_markets']=[k for k,a in row['attempts'].items() if a['status']=='BUDGET_DEFERRED']
+        row['unavailable_markets']=[k for k,a in row['attempts'].items() if a['status'] in (200,'NO_MARKET') and not a.get('returned_markets')]
+    save();return report
 
 
 if __name__=='__main__':

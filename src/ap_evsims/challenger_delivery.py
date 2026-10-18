@@ -14,7 +14,7 @@ from .identity import normalized_name
 from .prop_challenger import VERSION, POLICY, features, distribution, metrics
 from .prop_research import PlayerOutcome
 from .prop_availability import capture
-from .prop_prices import normalize_props
+from .prop_prices import normalize_props,event_price_records
 from .prop_prospective import freeze_prop
 from .prop_market_research import comparison, freeze_comparison, benchmark_gate
 from .providers.public_stats import PublicStatsArchive
@@ -73,22 +73,32 @@ def simulate(forecast,draws):
         scope='Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability')
 
 
-def run(root,sport,draws=20000,*,simulate_forecasts=True):
+def run(root,sport,draws=20000,*,simulate_forecasts=True,canonical_event=None,availability_record=None,model_cache=None):
     root=Path(root);store=ResearchStore(root/'data');status_path=root/'outputs'/(sport.lower()+'_challenger_status.json');status=json.loads(status_path.read_text())
     verified_completion=datetime.fromtimestamp(status_path.stat().st_mtime,timezone.utc).isoformat()
-    availability=capture(root,sport);event=availability['event'];at=datetime.now(timezone.utc).isoformat()
+    availability=availability_record or capture(root,sport,canonical_event);event=availability['event'];at=datetime.now(timezone.utc).isoformat()
     if utc(at)>=utc(event['event_start']):raise ValueError('EVENT_STARTED')
-    access=json.loads((store.root/'evaluations/prop-price-access.json').read_text());qrecord=next(r for r in access['sports'] if r['sport']==sport).get('record',{})
-    qs,_=normalize_props(store,store.manifest(qrecord['snapshot_id']),sport,at) if qrecord.get('status')==200 else ([],{})
+    qs=[]
+    for qrecord in event_price_records(root,sport,event):
+        paired,_=normalize_props(store,store.manifest(qrecord['snapshot_id']),sport,at);qs.extend(paired)
     aliases=defaultdict(set)
     for person in availability['identities']:
         for name in person['aliases']:aliases[normalized_name(name)].add(person['player_id'])
     archive=PublicStatsArchive(store.root);manifests={}
-    for p in archive.folder.glob('*.json'):
-        m=json.loads(p.read_text());manifests[m['manifest_id']]=m
-    verified=set();records=[];comparisons=[];rejected=[];simulations=[];new_count=0;benchmarks={}
+    if model_cache is not None and '_manifests' in model_cache:manifests=model_cache['_manifests']
+    else:
+        for p in archive.folder.glob('*.json'):
+            m=json.loads(p.read_text());manifests[m['manifest_id']]=m
+        if model_cache is not None:model_cache['_manifests']=manifests
+    verified=model_cache.setdefault('_verified_sources',set()) if model_cache is not None else set()
+    records=[];comparisons=[];rejected=[];simulations=[];new_count=0;benchmarks={}
     for market,entry in status['markets'].items():
-        artifact,benchmark=verified_model(root,sport,market,entry,at);benchmarks[market]=benchmark
+        key=(sport,market,entry['artifact_hash'])
+        if model_cache is not None and key in model_cache:artifact,benchmark=model_cache[key]
+        else:
+            artifact,benchmark=verified_model(root,sport,market,entry,at)
+            if model_cache is not None:model_cache[key]=(artifact,benchmark)
+        benchmarks[market]=benchmark
         for sid in artifact['source_ids']:
             if sid not in verified:archive.read(manifests[sid]);verified.add(sid)
         for person in availability['records']:
@@ -135,6 +145,10 @@ def run(root,sport,draws=20000,*,simulate_forecasts=True):
         convergence_failures=sum(not s['convergence_passed'] for s in simulations),
         qualified_market_comparisons=0,prospective_settled=0,validated_edges=0,recommendations_enabled=False,
         event=event,availability_snapshot=availability['snapshot_hash'])
+    if canonical_event is not None:
+        folder=store.root/'evaluations/nfl-delivery';folder.mkdir(exist_ok=True)
+        store._immutable(folder/(digest(report)+'.json'),json.dumps(report,sort_keys=True).encode())
+        return report
     atomic_json(root/'outputs'/(sport.lower()+'_challenger_prospective.json'),report)
     return {k:v for k,v in report.items() if k not in ('predictions','comparisons','rejections','simulations','benchmarks')}
 

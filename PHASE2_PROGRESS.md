@@ -198,3 +198,11 @@ Git delivery 2026-10-17T02:32:37.057376+00:00: local source 5d357c6dfabba8392b3e
 378 tests passed, 0 failed. All 389 original forecasts and 18 Phase 1 files verified. Real prospective scoring: 161 forecast records across 45 games. Eight fixed-Over FanDuel comparisons scored in one game; independent consensus, qualified CLV and ROI remain unavailable. Current NHL SOG loses its simple MAE/RMSE baseline. No model promoted, no new training or Monte Carlo draws. Native scheduler install failed at CIM; two standalone Codex fallback executions verified with exit 0, but their provider network access was blocked. See reports/P0_RELIABLE_DELIVERY.md and outputs/reliable_delivery.json.
 
 Code/results commit 23be499b9adeb83b80f63badd958b4aa494bd23d saved. Git push blocked (credentials unavailable); GitHub connector blob write returned 403. Verified remote remains 2b448643c128b14e49c0ae7acaf6cacb990e598b. No force-push or reset.
+
+## NFL full-slate repair — 2026-10-18
+
+Completed the 12-game schedule-first sweep. Coverage increased from one NFL game to 12; 12 independent game forecasts, 1,494 prop forecasts, 1,600 price comparisons. Initial collection spent 63 credits; 280 remain. All quotes expire after 180 seconds. Latest archived recalculation has 0 fresh comparisons. All candidates PASS.
+
+401 tests passed; both supplied 12-game acceptance modes passed. Original 389 forecasts and 18 Phase 1 files verified unchanged. Current game model trains on 803 prior outcomes; chronological evaluation has 1,951 games. Ridge MAE 10.4191 beats home-field 11.0790 but does not beat Elo MAE 10.4112. No betting validation.
+
+See reports/NFL_FULL_SLATE_SWEEP.md and outputs/nfl_sweep_delivery.json for all games, role evidence, rejections, quota, and remaining blockers. The default multi-sport interface remains compatible; complete NFL refresh: `python -m ap_evsims.p0_refresh --nfl-date 2026-10-18 --collect --daily-cap 96`.

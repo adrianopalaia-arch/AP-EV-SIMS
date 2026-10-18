@@ -22,7 +22,11 @@ from .research_store import ResearchStore
 from .publication import atomic_json
 
 
-def run(root,collect=False,daily_cap=24):
+def run(root,collect=False,daily_cap=24,*,nfl_date=None,reserve_credits=50):
+    # Explicit NFL refresh uses the schedule inventory, never the singleton sport record.
+    if nfl_date is not None:
+        from .nfl_sweep import run as sweep
+        return sweep(root,nfl_date,collect=collect,daily_cap=daily_cap,reserve=reserve_credits)
     root=Path(root);store=ResearchStore(root/'data');out=root/'outputs'
     if not 0<=daily_cap<=36:raise ValueError('RESEARCH_REFRESH_BUDGET_EXCEEDED')
     if collect:collect_priority(root,daily_credit_cap=daily_cap,reserve_credits=350)
@@ -114,5 +118,7 @@ def run(root,collect=False,daily_cap=24):
 
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--root',default='.');p.add_argument('--collect',action='store_true');p.add_argument('--daily-cap',type=int,default=24);a=p.parse_args()
-    print(json.dumps(run(a.root,a.collect,a.daily_cap),indent=2))
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--root',default='.');p.add_argument('--collect',action='store_true');p.add_argument('--daily-cap',type=int,default=24)
+    p.add_argument('--nfl-date');p.add_argument('--reserve',type=int,default=50);a=p.parse_args()
+    result=run(a.root,a.collect,a.daily_cap,nfl_date=a.nfl_date,reserve_credits=a.reserve)
+    print(json.dumps({k:v for k,v in result.items() if k not in ('games','schedule')},indent=2))

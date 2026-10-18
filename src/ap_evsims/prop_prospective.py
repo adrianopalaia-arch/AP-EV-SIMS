@@ -18,8 +18,11 @@ from .identity import normalized_name
 from .display_pricing import outcome_ev
 
 
-def current_inputs(root,sport):
+def current_inputs(root,sport,canonical_event=None):
     """Bounded first-event cohort; roster IDs, not guessed name matches."""
+    if canonical_event is not None and sport=='NFL':
+        from .nfl_schedule import current_rosters
+        return current_rosters(root,canonical_event)
     root=Path(root);a=PublicStatsArchive(root/'data');sources=[]
     report=json.loads((root/'data/evaluations/prop-price-access.json').read_text())
     priced=next(r for r in report['sports'] if r['sport']==sport)
@@ -142,10 +145,10 @@ def freeze_prop(store,body):
     record=dict(body,forecast_hash=digest(body));store._immutable(path,json.dumps(record,sort_keys=True,indent=2).encode());return record,True
 
 
-def run(root,sport):
+def run(root,sport,*,canonical_event=None):
     root=Path(root);store=ResearchStore(root/'data');a=PublicStatsArchive(store.root)
     status=json.loads((root/'outputs'/(sport.lower()+'_prop_research_status.json')).read_text())
-    event,players,sources,identity_reasons=current_inputs(root,sport);at=datetime.now(timezone.utc).isoformat()
+    event,players,sources,identity_reasons=current_inputs(root,sport,canonical_event);at=datetime.now(timezone.utc).isoformat()
     if event is None:return dict(sport=sport,status='BLOCKED_IDENTITY',reasons=identity_reasons,new_frozen=0)
     if utc(at)>=utc(event['event_start']):return dict(sport=sport,status='EVENT_STARTED',new_frozen=0)
     # Recheck every model source's immutable bytes before issuing forecasts.
@@ -158,10 +161,11 @@ def run(root,sport):
         for sid in body['source_ids']:
             if sid not in verified:a.read(manifests[sid]);verified.add(sid)
         models[market]=(model,body)
+    from .prop_prices import event_price_records
     access=json.loads((store.root/'evaluations/prop-price-access.json').read_text());r=next(r for r in access['sports'] if r['sport']==sport)
     quotes=[]
-    if r.get('record',{}).get('status')==200:
-        quotes,_=normalize_props(store,store.manifest(r['record']['snapshot_id']),sport,at)
+    for qr in event_price_records(root,sport,event):
+        qs,_=normalize_props(store,store.manifest(qr['snapshot_id']),sport,at);quotes.extend(qs)
     aliases=defaultdict(set)
     for player in players:
         for name in player['aliases']:
@@ -210,7 +214,8 @@ def run(root,sport):
         matched_prices=sum(bool(f['priced_markets']) for f in forecasts),qualified_market_comparisons=0,
         market_identity_rejections=identity_reasons,rejections=rejects,recommendations_enabled=False,
         snapshot_count=len(sources),predictions=forecasts)
-    (root/'outputs'/(sport.lower()+'_prop_prospective.json')).write_text(json.dumps(report,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+    target=root/'outputs'/(sport.lower()+'_prop_prospective.json') if canonical_event is None else root/'data/evaluations'/('prop-event-'+digest(event['event_id'])+'.json')
+    target.write_text(json.dumps(report,indent=2,allow_nan=False)+'\n',encoding='utf-8')
     return {k:v for k,v in report.items() if k not in ('predictions','rejections')}
 
 

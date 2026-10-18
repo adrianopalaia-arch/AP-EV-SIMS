@@ -1,134 +1,102 @@
 {
   "activity": {
     "MLB": {
-      "availability_snapshot": "fbf5cff433ca984cc97b75296a62d4b082b66526784c50433eaa98a68baa5e9d",
-      "convergence_failures": 0,
-      "event": {
-        "away_team": "Tampa Bay Rays",
-        "competition_type": "L",
-        "event_id": "849817",
-        "event_start": "2026-10-18T21:08:00+00:00",
-        "home_team": "Cleveland Guardians",
-        "market_identity_verified": false,
-        "odds_event_id": "f4ca2d8a09898a94722dde0633e0a7e1",
-        "odds_event_start": "2026-10-18T21:10:00Z",
-        "rescheduled_from": "2026-10-17T00:00:00Z",
-        "schedule_revision": "ALCS Game 5, Makeup of 10/16",
-        "schedule_status": {
-          "abstractGameCode": "P",
-          "abstractGameState": "Preview",
-          "codedGameState": "S",
-          "detailedState": "Scheduled",
-          "startTimeTBD": false,
-          "statusCode": "S"
-        }
-      },
-      "frozen_forecasts": 38,
-      "generated_at": "2026-10-18T03:23:00.141763+00:00",
-      "model_version": "causal-opportunity-ridge-v2",
-      "new_frozen": 0,
-      "prospective_settled": 0,
-      "qualified_market_comparisons": 0,
-      "recommendations_enabled": false,
-      "simulation_draws": 0,
-      "sport": "MLB",
-      "validated_edges": 0
+      "category": "ValueError",
+      "reason": "BLOCKED_SOURCE_ACCESS",
+      "status": "BLOCKED"
     },
     "NBA": {
-      "availability_snapshot": "f07609a45e61a49996d7a92f259de20f0de8999d6b0540ae61038dca875b6474",
-      "convergence_failures": 0,
-      "event": {
-        "availability_event_id": "401909088",
-        "away_team": "Boston Celtics",
-        "event_id": "401909088",
-        "event_start": "2026-10-20T19:00:00+00:00",
-        "home_team": "Detroit Pistons",
-        "market_identity_verified": true,
-        "odds_event_id": "26b036ff107f3c658258eaf4a6f26228",
-        "odds_event_start": "2026-10-20T19:00:00Z"
-      },
-      "frozen_forecasts": 124,
-      "generated_at": "2026-10-18T03:22:50.996333+00:00",
-      "model_version": "causal-opportunity-ridge-v2",
-      "new_frozen": 0,
-      "prospective_settled": 0,
-      "qualified_market_comparisons": 0,
-      "recommendations_enabled": false,
-      "simulation_draws": 0,
-      "sport": "NBA",
-      "validated_edges": 0
+      "category": "ValueError",
+      "reason": "BLOCKED_SOURCE_ACCESS",
+      "status": "BLOCKED"
     },
     "NFL": {
-      "availability_snapshot": "2a01e630746ad320c9f6e8e9c89a464c60a18a869cfdd647406733ce5ae9cfe2",
-      "convergence_failures": 0,
-      "event": {
-        "availability_event_id": "401872996",
-        "away_team": "Houston Texans",
-        "event_id": "2026_06_HOU_JAX",
-        "event_start": "2026-10-18T13:30:00+00:00",
-        "home_team": "Jacksonville Jaguars",
-        "market_identity_verified": true,
-        "odds_event_id": "57418b2cf5aca558b3c98eafac1e264a",
-        "odds_event_start": "2026-10-18T13:30:00Z"
-      },
-      "frozen_forecasts": 124,
-      "generated_at": "2026-10-18T03:22:57.716494+00:00",
-      "model_version": "causal-opportunity-ridge-v2",
-      "new_frozen": 0,
-      "prospective_settled": 0,
-      "qualified_market_comparisons": 0,
-      "recommendations_enabled": false,
-      "simulation_draws": 0,
-      "sport": "NFL",
-      "validated_edges": 0
+      "category": "ValueError",
+      "reason": "BLOCKED_SOURCE_ACCESS",
+      "status": "BLOCKED"
     },
     "NHL": {
-      "availability_snapshot": "a84655cc2eb350542afec3c7a408543e1a9ebeb03f1ecb33486309ac6ba5caca",
-      "convergence_failures": 0,
-      "event": {
-        "away_team": "Columbus Blue Jackets",
-        "event_id": "2026020135",
-        "event_start": "2026-10-18T22:00:00+00:00",
-        "home_team": "Minnesota Wild",
-        "market_identity_verified": false,
-        "odds_event_id": "3af4496cf626dc3538fb93001aa2fba0",
-        "odds_event_start": "2026-10-18T22:10:00Z"
-      },
-      "frozen_forecasts": 49,
-      "generated_at": "2026-10-18T03:22:46.530894+00:00",
-      "model_version": "causal-opportunity-ridge-v2",
-      "new_frozen": 0,
-      "prospective_settled": 0,
-      "qualified_market_comparisons": 0,
-      "recommendations_enabled": false,
-      "simulation_draws": 0,
-      "sport": "NHL",
-      "validated_edges": 0
+      "category": "ValueError",
+      "reason": "BLOCKED_SOURCE_ACCESS",
+      "status": "BLOCKED"
+    },
+    "book_rules": {
+      "generated_at": "2026-10-18T03:58:52.432731+00:00",
+      "scope": "Source documents only; no pre-entry applicability or completed terms parser is claimed.",
+      "settlement_authority": false,
+      "sources": [
+        {
+          "applicability": "NOT_VERIFIED_FOR_ENTRY",
+          "available_at": "2026-10-18T02:26:20.474196+00:00",
+          "book": "fanduel",
+          "captured_at": "2026-10-18T02:26:20.474196+00:00",
+          "historical_backdating_allowed": false,
+          "jurisdiction_scope": "IL",
+          "manifest_id": "92415c860d9855443be9ac80d2dc957f0971a1d7f2cbcced4ef674a6e7c5d0b1",
+          "path": "raw\\results\\book-rules-0c157d7555d518533b4c6598d82f3dd356f7f6cdf314cd69a6f7dda004972780.html",
+          "payload_hash": "0c157d7555d518533b4c6598d82f3dd356f7f6cdf314cd69a6f7dda004972780",
+          "reason": "JURISDICTION_AND_MARKET_TERMS_REVIEW_REQUIRED",
+          "settlement_authority": false,
+          "status": 200,
+          "url": "https://d38ayms4az88sz.cloudfront.net/SB/IL/2026-07-30T12-42-48.html"
+        },
+        {
+          "applicability": "NOT_VERIFIED_FOR_ENTRY",
+          "available_at": "2026-10-18T02:26:20.817771+00:00",
+          "book": "draftkings",
+          "captured_at": "2026-10-18T02:26:20.817771+00:00",
+          "historical_backdating_allowed": false,
+          "jurisdiction_scope": null,
+          "manifest_id": "7e3e02ca42cdb69f33db52e90204788de05b348080eb203fcf6f4f7c6d06aeac",
+          "path": "raw\\results\\book-rules-93127422017da4027107986835fb34f122a16d6fbd4653cbada4bdb27b59b727.html",
+          "payload_hash": "93127422017da4027107986835fb34f122a16d6fbd4653cbada4bdb27b59b727",
+          "reason": "JURISDICTION_AND_MARKET_TERMS_REVIEW_REQUIRED",
+          "settlement_authority": false,
+          "status": 200,
+          "url": "https://sportsbook.draftkings.com/help/sport-rules/hockey"
+        }
+      ]
     },
     "cfb_collection": {
-      "collected_at": "2026-10-18T03:18:35.301733+00:00",
+      "collected_at": "2026-10-18T03:58:52.444750+00:00",
       "quota": {
         "cached_historical_snapshots": 0,
-        "credits_consumed_recorded": 137,
+        "credits_consumed_recorded": 142,
         "duplicate_requests_prevented": 0,
-        "provider_requests_used": 152,
-        "requests_recorded": 90,
-        "requests_remaining": 348
+        "provider_requests_used": 157,
+        "requests_recorded": 99,
+        "requests_remaining": 343
       },
       "results": [
         {
-          "next_refresh_seconds": 18466.268024,
+          "next_refresh_seconds": 16049.125006999999,
           "sport": "CFB",
           "status": "CACHED_CADENCE"
         }
       ]
     },
+    "cfbd_results": {
+      "checked_at": "2026-10-18T03:58:53.004914+00:00",
+      "credential_present": true,
+      "endpoint": "games",
+      "historical": false,
+      "parameters": {
+        "classification": "fbs",
+        "seasonType": "regular",
+        "year": 2026
+      },
+      "provider": "cfbd",
+      "quota": {},
+      "rows": 0,
+      "snapshot_id": null,
+      "status": "NETWORK_ERROR"
+    },
     "new_cfb_forecasts": 0,
     "prop_collection": {
-      "cadence_aware": false,
+      "cadence_aware": true,
       "daily_cap": 24,
       "daily_credits_used": 19,
-      "generated_at": "2026-10-18T03:20:53.464684+00:00",
+      "generated_at": "2026-10-18T03:58:52.441241+00:00",
       "priority_markets": {
         "MLB": [
           "batter_hits",
@@ -163,19 +131,9 @@
           },
           "last_request_at": "2026-10-18T03:20:52.490754+00:00",
           "latest_attempt": {
-            "checked_at": "2026-10-18T03:20:52.490754+00:00",
-            "deferred_markets": [],
-            "quota": {
-              "x-requests-last": 1,
-              "x-requests-remaining": 347,
-              "x-requests-used": 153
-            },
-            "requested_markets": [
-              "player_shots_on_goal",
-              "player_total_saves"
-            ],
+            "checked_at": "2026-10-18T03:58:52.440242+00:00",
             "sport": "NHL",
-            "status": 200
+            "status": "REFRESH_COOLDOWN"
           },
           "paired_offers": 11,
           "record": {
@@ -219,19 +177,9 @@
           },
           "last_request_at": "2026-10-18T03:20:52.848093+00:00",
           "latest_attempt": {
-            "checked_at": "2026-10-18T03:20:52.848093+00:00",
-            "deferred_markets": [],
-            "quota": {
-              "x-requests-last": 2,
-              "x-requests-remaining": 345,
-              "x-requests-used": 155
-            },
-            "requested_markets": [
-              "player_rebounds",
-              "player_assists"
-            ],
+            "checked_at": "2026-10-18T03:58:52.440242+00:00",
             "sport": "NBA",
-            "status": 200
+            "status": "REFRESH_COOLDOWN"
           },
           "paired_offers": 47,
           "record": {
@@ -271,19 +219,9 @@
           },
           "last_request_at": "2026-10-18T03:20:53.162734+00:00",
           "latest_attempt": {
-            "checked_at": "2026-10-18T03:20:53.162734+00:00",
-            "deferred_markets": [],
-            "quota": {
-              "x-requests-last": 0,
-              "x-requests-remaining": 345,
-              "x-requests-used": 155
-            },
-            "requested_markets": [
-              "batter_hits",
-              "batter_total_bases"
-            ],
+            "checked_at": "2026-10-18T03:58:52.440242+00:00",
             "sport": "MLB",
-            "status": 200
+            "status": "REFRESH_COOLDOWN"
           },
           "paired_offers": 0,
           "record": {
@@ -328,19 +266,9 @@
           },
           "last_request_at": "2026-10-18T03:20:53.455671+00:00",
           "latest_attempt": {
-            "checked_at": "2026-10-18T03:20:53.455671+00:00",
-            "deferred_markets": [],
-            "quota": {
-              "x-requests-last": 2,
-              "x-requests-remaining": 343,
-              "x-requests-used": 157
-            },
-            "requested_markets": [
-              "player_receptions",
-              "player_reception_yds"
-            ],
+            "checked_at": "2026-10-18T03:58:52.440242+00:00",
             "sport": "NFL",
-            "status": 200
+            "status": "REFRESH_COOLDOWN"
           },
           "paired_offers": 99,
           "record": {
@@ -396,7 +324,7 @@
     "untouched_holdout_start": "2026-12-13T02:20:21.787866+00:00",
     "version": "prospective-separated-phases-v1"
   },
-  "generated_at": "2026-10-18T03:23:38.015034+00:00",
+  "generated_at": "2026-10-18T04:00:40.459660+00:00",
   "model_training_runs": 0,
   "monte_carlo_draws": 0,
   "quota": {
@@ -404,7 +332,7 @@
     "credits_consumed_recorded": 142,
     "duplicate_requests_prevented": 0,
     "provider_requests_used": 157,
-    "requests_recorded": 98,
+    "requests_recorded": 99,
     "requests_remaining": 343
   },
   "sports": {
@@ -639,7 +567,7 @@
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
-      "current_collection_status": 200,
+      "current_collection_status": "REFRESH_COOLDOWN",
       "exact_line_comparisons": 0,
       "failed_forecast_count": 91,
       "failed_forecast_reasons": {
@@ -677,7 +605,7 @@
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
-      "current_collection_status": 200,
+      "current_collection_status": "REFRESH_COOLDOWN",
       "exact_line_comparisons": 64,
       "failed_forecast_count": 16,
       "failed_forecast_reasons": {
@@ -721,13 +649,13 @@
         "PLAYER_REPORTED_OUT",
         "ROLE_NOT_CONFIRMED"
       ],
-      "current_collection_status": 200,
+      "current_collection_status": "REFRESH_COOLDOWN",
       "exact_line_comparisons": 96,
       "failed_forecast_count": 481,
       "failed_forecast_reasons": {
         "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 481
       },
-      "fresh_comparisons": 48,
+      "fresh_comparisons": 0,
       "future_forecasts": 124,
       "historical_evaluation_n": {
         "passing_yards": 768,
@@ -750,7 +678,7 @@
         "PARTICIPATION_NOT_CONFIRMED": 96,
         "PROSPECTIVE_CALIBRATION_PENDING": 96,
         "ROLE_NOT_CONFIRMED": 96,
-        "STALE_PRICE": 48,
+        "STALE_PRICE": 96,
         "TEAM_CHANGE_ROLE_UNVERIFIED": 8
       },
       "rejected_candidates": 96,
@@ -764,7 +692,7 @@
         "ROLE_NOT_CONFIRMED",
         "STARTING_GOALIE_NOT_CONFIRMED"
       ],
-      "current_collection_status": 200,
+      "current_collection_status": "REFRESH_COOLDOWN",
       "exact_line_comparisons": 22,
       "failed_forecast_count": 1,
       "failed_forecast_reasons": {
