@@ -282,6 +282,7 @@
   ],
   "core_enabled": false,
   "generated_at": "2026-10-18T03:24:07.788450+00:00",
+  "github_push_status": "BLOCKED_GIT_CREDENTIALS_UNAVAILABLE_CONNECTOR_403",
   "historical_evaluation_changed": false,
   "historical_training_changed": false,
   "historical_usable_bookmaker_prices": 0,
@@ -399,7 +400,9 @@
       "sport": "NHL"
     }
   ],
-  "push_status": "PENDING_FINAL_ATTEMPT",
+  "push_status": "BLOCKED_GIT_CREDENTIALS_UNAVAILABLE_CONNECTOR_403",
+  "remote_verified_at": "2026-10-18T03:25:20.527967+00:00",
+  "remote_verified_sha": "2b448643c128b14e49c0ae7acaf6cacb990e598b",
   "scheduler": {
     "automatic_wagers": false,
     "checked_at": "2026-10-18T03:24:07.788450+00:00",
@@ -419,6 +422,7 @@
       "2026-10-18T03:04:07.237713+00:00"
     ]
   },
+  "source_commit": "23be499b9adeb83b80f63badd958b4aa494bd23d",
   "sports": {
     "CFB": {
       "availability_blockers": [],

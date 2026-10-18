@@ -1431,6 +1431,14 @@
     "tests_passed": 316,
     "validated_edges": 0
   },
+  "github_checkpoint": {
+    "blocker": "GIT_CREDENTIALS_UNAVAILABLE; GITHUB_CONNECTOR_HTTP_403",
+    "next_action": "Run the exact manual push command in reports/P0_RELIABLE_DELIVERY.md",
+    "remote_sha": "2b448643c128b14e49c0ae7acaf6cacb990e598b",
+    "source_commit": "23be499b9adeb83b80f63badd958b4aa494bd23d",
+    "status": "BLOCKED",
+    "verified_at": "2026-10-18T03:25:20.527967+00:00"
+  },
   "github_delivery": {
     "branch": "ap-evisims-live",
     "checked_at": "2026-10-17T02:32:37.057376+00:00",
@@ -3776,5 +3784,5 @@
     "status": "PASS",
     "verified_at": "2026-10-18T03:24:07.788450+00:00"
   },
-  "updated_at": "2026-10-18T03:24:07.788450+00:00"
+  "updated_at": "2026-10-18T03:25:20.527967+00:00"
 }

@@ -36,6 +36,8 @@
   ],
   "cfb_schedule_games": 4245,
   "checkpoint_at": "2026-10-18T03:23:38.015034+00:00",
+  "current_commit": "23be499b9adeb83b80f63badd958b4aa494bd23d",
+  "current_commit_scope": "Tested code commit; following status-only checkpoint records push failure",
   "current_price_age_checked_at": "2026-10-17T02:32:09.172684+00:00",
   "current_task": "P0_VERIFIED_PROSPECTIVE_SETTLEMENT",
   "data_quality_failures": [
@@ -88,7 +90,7 @@
   "git_commit": "5d357c6dfabba8392b3ec2954049bebdd014ecb5",
   "git_commit_semantics": "Last completed source commit; latest market-refresh and push receipt follow in checkpoint",
   "github_delivery": "github_delivery.json",
-  "github_push_status": "PENDING_FINAL_ATTEMPT",
+  "github_push_status": "BLOCKED_GIT_CREDENTIALS_UNAVAILABLE_CONNECTOR_403",
   "github_remote_verified_commit": "bd4a8e5862e038c7ae77c71e50873f08dc234547",
   "local_comparison_hash": "729d1e6e9f4658a60a09e245203cc3428d0ba3ef4e6bb29e451ea4e88f3b9943",
   "market_calculation_version": 1,
@@ -424,6 +426,8 @@
   ],
   "reliable_checkpoint_at": "2026-10-18T03:23:38.015034+00:00",
   "reliable_outputs_manifest": "reliability_manifest.json",
+  "remote_verified_at": "2026-10-18T03:25:20.527967+00:00",
+  "remote_verified_sha": "2b448643c128b14e49c0ae7acaf6cacb990e598b",
   "research_model_display": {
     "issues": [
       "NO_TRAINED_RESEARCH_MODEL"
@@ -440,7 +444,7 @@
   "simulation_draws": 15720000,
   "simulation_scope": "Current P0 marginal runs: challenger prop forecasts plus preserved CFB forecasts; not joint game/parlay simulations",
   "simulations_completed": 393,
-  "source_commit": "5d357c6dfabba8392b3ec2954049bebdd014ecb5",
+  "source_commit": "23be499b9adeb83b80f63badd958b4aa494bd23d",
   "source_commit_semantics": "Source code for this execution; no source changed in the delivery receipt",
   "sports_updated": [
     "CFB",

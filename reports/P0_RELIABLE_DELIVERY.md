@@ -138,3 +138,13 @@ The collector never writes Git or places bets. Concurrent runs are locked. Quota
 - src/ap_evsims/reliable_handoff.py
 - src/ap_evsims/reliable_results.py
 - tests/test_reliable_engine.py
+
+## Git evidence
+
+Tested code/results commit: 23be499b9adeb83b80f63badd958b4aa494bd23d. All staged files passed the secret scan; .env and raw data were excluded. Git push failed because this session cannot access Git credentials. GitHub connector also returned HTTP 403 (resource not accessible by integration). Verified origin/ap-evisims-live: 2b448643c128b14e49c0ae7acaf6cacb990e598b at 2026-10-18T03:25:20.527967+00:00. No force-push or reset. The following local status checkpoint records this result.
+
+Manual PowerShell push:
+
+```powershell
+& 'C:\\Program Files\\Git\\cmd\\git.EXE' -C 'C:\\Users\\adria\\Documents\\Codex\\2026-10-13\\files-mentioned-by-the-user-ap\\outputs\\AP-EV-SIMS' push -u origin ap-evisims-live
+```

@@ -196,3 +196,5 @@ Git delivery 2026-10-17T02:32:37.057376+00:00: local source 5d357c6dfabba8392b3e
 ### P0 reliable engine — 2026-10-18T03:24:07.788450+00:00
 
 378 tests passed, 0 failed. All 389 original forecasts and 18 Phase 1 files verified. Real prospective scoring: 161 forecast records across 45 games. Eight fixed-Over FanDuel comparisons scored in one game; independent consensus, qualified CLV and ROI remain unavailable. Current NHL SOG loses its simple MAE/RMSE baseline. No model promoted, no new training or Monte Carlo draws. Native scheduler install failed at CIM; two standalone Codex fallback executions verified with exit 0, but their provider network access was blocked. See reports/P0_RELIABLE_DELIVERY.md and outputs/reliable_delivery.json.
+
+Code/results commit 23be499b9adeb83b80f63badd958b4aa494bd23d saved. Git push blocked (credentials unavailable); GitHub connector blob write returned 403. Verified remote remains 2b448643c128b14e49c0ae7acaf6cacb990e598b. No force-push or reset.
