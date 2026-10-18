@@ -54,26 +54,37 @@
     "Historical outcome revisions are reconstructed; historical book prices remain unverified",
     "NFL TD and total outcome models unavailable; totals shown as price evidence only",
     "Book settlement rules unverified; conditional EV cannot authorize cash",
-    "New NFL game forecasts have not settled; their settlement/CLV integration is not implemented in this sweep",
-    "Default multi-sport refresh retains its compatibility interface; use the explicit NFL slate command to refresh all games"
+    "New NFL game forecasts have not settled; their settlement/CLV integration is not implemented in this sweep"
   ],
   "core_enabled": false,
   "current_roster_players": 1440,
   "current_snapshot_at": "2026-10-18T04:05:30.538307+00:00",
   "current_snapshot_fresh_comparisons": 0,
+  "default_nfl_path": {
+    "additional_sportsbook_credits": 0,
+    "new_forecasts": 0,
+    "prop_comparisons": 1312,
+    "prop_forecasts": 1494,
+    "scheduled_games": 12
+  },
   "files_changed": [
+    "PHASE2_PROGRESS.md",
     "TASK_STATE.json",
+    "TEST_RESULTS.txt",
     "outputs/book_rule_source_status.json",
     "outputs/last_update.json",
     "outputs/latest_passes.json",
     "outputs/live_research_candidates.json",
     "outputs/model_status.json",
+    "outputs/nfl_availability.json",
+    "outputs/nfl_challenger_prospective.json",
     "outputs/nfl_game_model_status.json",
     "outputs/nfl_game_probabilities.json",
     "outputs/nfl_market_comparisons.json",
     "outputs/nfl_prop_research.json",
     "outputs/nfl_sweep_delivery.json",
     "outputs/nfl_sweep_status.json",
+    "outputs/p0_preservation_audit.json",
     "outputs/prospective_settlements.json",
     "outputs/provider_status.json",
     "outputs/reliability_manifest.json",
@@ -91,12 +102,13 @@
     "src/ap_evsims/nfl_sweep.py",
     "src/ap_evsims/p0_refresh.py",
     "src/ap_evsims/prop_availability.py",
+    "src/ap_evsims/prop_market_research.py",
     "src/ap_evsims/prop_prices.py",
     "src/ap_evsims/prop_prospective.py",
     "tests/test_nfl_sweep.py",
     "tests/test_nfl_sweep_acceptance.py"
   ],
-  "generated_at": "2026-10-18T04:06:30.944641+00:00",
+  "generated_at": "2026-10-18T04:12:53.096151+00:00",
   "historical_evaluation": {
     "elo": {
       "accuracy": 0.6152263374485597,
@@ -142,15 +154,15 @@
     "nfl_market_comparisons.json"
   ],
   "schedule_games": 12,
-  "source_commit_before_delivery": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+  "source_commit_before_delivery": "b607d97fc124c43ce7b145bcb473bb2bed390864",
   "synthetic_empirical_observations": 0,
   "tests": {
     "command": "PYTHONPATH=src;. .venv/Scripts/python.exe -m unittest discover -s tests",
     "failed": 0,
-    "passed": 401,
+    "passed": 404,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-18T04:06:30.944641+00:00"
+    "verified_at": "2026-10-18T04:12:53.096151+00:00"
   },
   "validated_edges": 0
 }

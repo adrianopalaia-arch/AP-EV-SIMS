@@ -19,6 +19,20 @@ def schedule_fixture():
     return row,e
 
 class ScheduleIntegrity(unittest.TestCase):
+    def test_implicit_nfl_input_cannot_fall_back_to_one_event(self):
+        from ap_evsims.prop_prospective import current_inputs
+        with tempfile.TemporaryDirectory() as d:
+            event,players,sources,reasons=current_inputs(d,'NFL')
+            self.assertIsNone(event);self.assertEqual(reasons,['EXPLICIT_NFL_CANONICAL_EVENT_REQUIRED'])
+    def test_default_challenger_dispatches_full_slate(self):
+        from ap_evsims.challenger_delivery import run
+        with patch('ap_evsims.challenger_delivery.run_nfl_slate',return_value={'scheduled_games':12}) as sweep:
+            self.assertEqual(run('.','NFL')['scheduled_games'],12);sweep.assert_called_once_with('.')
+    def test_default_availability_preserves_failed_games(self):
+        from ap_evsims.prop_availability import capture
+        games=[dict(event_id='a'),dict(event_id='b')]
+        with tempfile.TemporaryDirectory() as d,patch('ap_evsims.nfl_schedule.next_slate',return_value=games),patch('ap_evsims.prop_availability.current_inputs',side_effect=ValueError('fixture')):
+            r=capture(d,'NFL');self.assertEqual(len(r['events']),2);self.assertEqual(len(r['failures']),2)
     def test_international_eastern_to_utc(self):
         r,e=schedule_fixture();g=reconcile([r],{'events':[e]},'2026-10-18')[0]
         self.assertTrue(g['identity_verified']);self.assertTrue(g['neutral_site']);self.assertEqual(kickoff(r).hour,13)

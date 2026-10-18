@@ -74,6 +74,8 @@ def simulate(forecast,draws):
 
 
 def run(root,sport,draws=20000,*,simulate_forecasts=True,canonical_event=None,availability_record=None,model_cache=None):
+    if sport=='NFL' and canonical_event is None:
+        return run_nfl_slate(root)
     root=Path(root);store=ResearchStore(root/'data');status_path=root/'outputs'/(sport.lower()+'_challenger_status.json');status=json.loads(status_path.read_text())
     verified_completion=datetime.fromtimestamp(status_path.stat().st_mtime,timezone.utc).isoformat()
     availability=availability_record or capture(root,sport,canonical_event);event=availability['event'];at=datetime.now(timezone.utc).isoformat()
@@ -151,6 +153,41 @@ def run(root,sport,draws=20000,*,simulate_forecasts=True,canonical_event=None,av
         return report
     atomic_json(root/'outputs'/(sport.lower()+'_challenger_prospective.json'),report)
     return {k:v for k,v in report.items() if k not in ('predictions','comparisons','rejections','simulations','benchmarks')}
+
+
+def run_nfl_slate(root):
+    """Default NFL delivery merges every canonical event with isolated failures."""
+    from .nfl_schedule import next_slate
+    from .nfl_sweep import compact_prop,compact_comparison
+    from .publication import atomic_text
+    from collections import Counter
+    root=Path(root);games=next_slate(root);cache={};reports=[];coverage=[];news=[]
+    for game in games:
+        try:
+            a=capture(root,'NFL',game);news.append(a)
+            r=run(root,'NFL',simulate_forecasts=False,canonical_event=game,availability_record=a,model_cache=cache)
+            reports.append(r);coverage.append(dict(event_id=game['event_id'],status='FORECASTED',forecasts=len(r['predictions'])))
+        except (ValueError,KeyError,OSError,TypeError) as e:
+            coverage.append(dict(event_id=game['event_id'],status='UNAVAILABLE',error_category=type(e).__name__,forecasts=0))
+    at=datetime.now(timezone.utc).isoformat()
+    report=dict(sport='NFL',generated_at=at,model_version=VERSION,events=games,coverage=coverage,
+        predictions=[compact_prop(f) for r in reports for f in r['predictions']],
+        comparisons=[compact_comparison(c) for r in reports for c in r['comparisons']],
+        rejections=[dict(reason=k,count=n) for k,n in Counter(x['reason'] for r in reports for x in r['rejections']).items()],
+        benchmarks=reports[0]['benchmarks'] if reports else {},new_frozen=sum(r['new_frozen'] for r in reports),
+        frozen_forecasts=sum(r['frozen_forecasts'] for r in reports),simulations=[],simulation_draws=0,validated_edges=0,
+        recommendations_enabled=False)
+    # Detailed immutable per-event reports remain local; summary avoids duplicating
+    # the full benchmark table inside every quote in the legacy handoff feed.
+    for f in report['predictions']:f.pop('forecast_hash_semantics',None)
+    for c in report['comparisons']:c.pop('comparison_hash_semantics',None)
+    report['hash_semantics']='Forecast/comparison hashes identify full immutable local records; public rows are compact summaries.'
+    atomic_text(root/'outputs/nfl_challenger_prospective.json',json.dumps(report,sort_keys=True,separators=(',',':'),allow_nan=False)+'\n')
+    atomic_json(root/'outputs/nfl_availability.json',dict(sport='NFL',generated_at=at,events=games,
+        records=[p for a in news for p in a['records']],event_identity_reasons=sorted({x for a in news for x in a['event_identity_reasons']}),
+        snapshots=[a['snapshot_hash'] for a in news],failures=[g for g in coverage if g['status']=='UNAVAILABLE'],recommendations_enabled=False))
+    return dict(sport='NFL',generated_at=at,scheduled_games=len(games),coverage=coverage,new_frozen=report['new_frozen'],
+        frozen_forecasts=report['frozen_forecasts'],comparisons=len(report['comparisons']),simulation_draws=0,recommendations_enabled=False)
 
 
 def main():

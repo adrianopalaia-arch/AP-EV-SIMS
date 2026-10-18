@@ -35,8 +35,8 @@
     }
   ],
   "cfb_schedule_games": 4245,
-  "checkpoint_at": "2026-10-18T04:06:30.944641+00:00",
-  "current_commit": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+  "checkpoint_at": "2026-10-18T04:12:53.096151+00:00",
+  "current_commit": "b607d97fc124c43ce7b145bcb473bb2bed390864",
   "current_commit_scope": "Parent HEAD before NFL delivery commit",
   "current_price_age_checked_at": "2026-10-17T02:32:09.172684+00:00",
   "current_task": "NFL_FULL_SLATE_SWEEP_DELIVERED",
@@ -76,7 +76,7 @@
     "p0_market_refresh.json": "7cd0dccf6a4ca4a691af3a5a7d6b43f248d12afab6850ef4c09a5ee6cc10d287",
     "p0_measured_results.json": "d737d45f30266fe80adc44b8561009f05db11ed49e0939955669b1e0b95eb406",
     "p0_passes.json": "f09c80f0440b5c7f402d0699b88c1a2bd19d3706aff1645e42940c9fe4157fb5",
-    "p0_preservation_audit.json": "01437fa0095c46eeec7d9d0d596ce8b6c46ebe728bcc39e5e2028974971e1a73",
+    "p0_preservation_audit.json": "e80e58a327998d389a645ab21f76a375d7f59ca4d786bb7716410bd17db0c3e7",
     "p0_research_card.json": "ae0433540eab6fbcbf1ecf95a0f16bc105612d29481481493a9ca43d614ca8d2",
     "paper_tracking_status.json": "6f1bd170c08d9f9079e75ad5c55b6f6f919da74d1aab5e867180841c5d0c145f",
     "prospective_market_evidence.json": "1e94666504556c27cac5db884a4ad2180b022f8599e33fb571949e693442e981",
@@ -86,7 +86,7 @@
   "fresh_priced_research_comparisons": 48,
   "fresh_ranked_candidates": 0,
   "games_scanned": 146,
-  "generated_at": "2026-10-18T04:06:30.944641+00:00",
+  "generated_at": "2026-10-18T04:12:53.096151+00:00",
   "git_commit": "5d357c6dfabba8392b3ec2954049bebdd014ecb5",
   "git_commit_semantics": "Last completed source commit; latest market-refresh and push receipt follow in checkpoint",
   "github_delivery": "github_delivery.json",
@@ -160,26 +160,37 @@
       "Historical outcome revisions are reconstructed; historical book prices remain unverified",
       "NFL TD and total outcome models unavailable; totals shown as price evidence only",
       "Book settlement rules unverified; conditional EV cannot authorize cash",
-      "New NFL game forecasts have not settled; their settlement/CLV integration is not implemented in this sweep",
-      "Default multi-sport refresh retains its compatibility interface; use the explicit NFL slate command to refresh all games"
+      "New NFL game forecasts have not settled; their settlement/CLV integration is not implemented in this sweep"
     ],
     "core_enabled": false,
     "current_roster_players": 1440,
     "current_snapshot_at": "2026-10-18T04:05:30.538307+00:00",
     "current_snapshot_fresh_comparisons": 0,
+    "default_nfl_path": {
+      "additional_sportsbook_credits": 0,
+      "new_forecasts": 0,
+      "prop_comparisons": 1312,
+      "prop_forecasts": 1494,
+      "scheduled_games": 12
+    },
     "files_changed": [
+      "PHASE2_PROGRESS.md",
       "TASK_STATE.json",
+      "TEST_RESULTS.txt",
       "outputs/book_rule_source_status.json",
       "outputs/last_update.json",
       "outputs/latest_passes.json",
       "outputs/live_research_candidates.json",
       "outputs/model_status.json",
+      "outputs/nfl_availability.json",
+      "outputs/nfl_challenger_prospective.json",
       "outputs/nfl_game_model_status.json",
       "outputs/nfl_game_probabilities.json",
       "outputs/nfl_market_comparisons.json",
       "outputs/nfl_prop_research.json",
       "outputs/nfl_sweep_delivery.json",
       "outputs/nfl_sweep_status.json",
+      "outputs/p0_preservation_audit.json",
       "outputs/prospective_settlements.json",
       "outputs/provider_status.json",
       "outputs/reliability_manifest.json",
@@ -197,12 +208,13 @@
       "src/ap_evsims/nfl_sweep.py",
       "src/ap_evsims/p0_refresh.py",
       "src/ap_evsims/prop_availability.py",
+      "src/ap_evsims/prop_market_research.py",
       "src/ap_evsims/prop_prices.py",
       "src/ap_evsims/prop_prospective.py",
       "tests/test_nfl_sweep.py",
       "tests/test_nfl_sweep_acceptance.py"
     ],
-    "generated_at": "2026-10-18T04:06:30.944641+00:00",
+    "generated_at": "2026-10-18T04:12:53.096151+00:00",
     "historical_evaluation": {
       "elo": {
         "accuracy": 0.6152263374485597,
@@ -248,15 +260,15 @@
       "nfl_market_comparisons.json"
     ],
     "schedule_games": 12,
-    "source_commit_before_delivery": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+    "source_commit_before_delivery": "b607d97fc124c43ce7b145bcb473bb2bed390864",
     "synthetic_empirical_observations": 0,
     "tests": {
       "command": "PYTHONPATH=src;. .venv/Scripts/python.exe -m unittest discover -s tests",
       "failed": 0,
-      "passed": 401,
+      "passed": 404,
       "skipped": 0,
       "status": "PASS",
-      "verified_at": "2026-10-18T04:06:30.944641+00:00"
+      "verified_at": "2026-10-18T04:12:53.096151+00:00"
     },
     "validated_edges": 0
   },
@@ -565,7 +577,7 @@
   "prospective_scored_forecasts": 161,
   "provider_check_basis": "BOUNDED_CURRENT_REFRESH_PLUS_RECORDED_CFBD_AUTH",
   "providers_ok": false,
-  "publication_generation": "4f08b2cd1089fecd883d8874436e0c8a941f8d7a6b4e22399aeaa2603c87697b",
+  "publication_generation": "f67fa46d0031c748caf458f09974ea8735e50827bf6168651439276a6958c12f",
   "qualified_edges": 0,
   "ranked_research_candidates": 8,
   "reader_contract": "Verify canonical JSON SHA256; retry if any file differs from this generation.",
@@ -615,13 +627,13 @@
   "tests": {
     "command": "PYTHONPATH=src;. .venv/Scripts/python.exe -m unittest discover -s tests",
     "failed": 0,
-    "passed": 401,
+    "passed": 404,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-18T04:06:30.944641+00:00"
+    "verified_at": "2026-10-18T04:12:53.096151+00:00"
   },
   "tests_failed": 0,
-  "tests_passed": 401,
+  "tests_passed": 404,
   "tests_semantics": "Full regression suite executed after final source changes",
-  "tests_verified_at": "2026-10-18T04:06:30.944641+00:00"
+  "tests_verified_at": "2026-10-18T04:12:53.096151+00:00"
 }

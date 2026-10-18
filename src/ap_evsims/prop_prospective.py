@@ -19,8 +19,9 @@ from .display_pricing import outcome_ev
 
 
 def current_inputs(root,sport,canonical_event=None):
-    """Bounded first-event cohort; roster IDs, not guessed name matches."""
-    if canonical_event is not None and sport=='NFL':
+    """NFL requires an explicit event; NFL orchestration supplies every fixture."""
+    if sport=='NFL':
+        if canonical_event is None:return None,[],[],['EXPLICIT_NFL_CANONICAL_EVENT_REQUIRED']
         from .nfl_schedule import current_rosters
         return current_rosters(root,canonical_event)
     root=Path(root);a=PublicStatsArchive(root/'data');sources=[]
@@ -146,6 +147,9 @@ def freeze_prop(store,body):
 
 
 def run(root,sport,*,canonical_event=None):
+    if sport=='NFL' and canonical_event is None:
+        from .challenger_delivery import run as run_challenger
+        return run_challenger(root,sport,simulate_forecasts=False)
     root=Path(root);store=ResearchStore(root/'data');a=PublicStatsArchive(store.root)
     status=json.loads((root/'outputs'/(sport.lower()+'_prop_research_status.json')).read_text())
     event,players,sources,identity_reasons=current_inputs(root,sport,canonical_event);at=datetime.now(timezone.utc).isoformat()

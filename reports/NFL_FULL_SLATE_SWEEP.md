@@ -68,8 +68,8 @@ Reproduce: `python -m ap_evsims.nfl_sweep --date 2026-10-18 --collect --daily-ca
 
 ## Delivery verification
 
-401 full-suite tests passed; both supplied acceptance commands passed on actual outputs. The supplied verifier was copied unchanged. All original 389 forecasts and 18 protected Phase 1 files remain intact. No additional Monte Carlo draws.
+404 full-suite tests passed; both supplied acceptance commands passed on actual outputs. The supplied verifier was copied unchanged. All original 389 forecasts and 18 protected Phase 1 files remain intact. No additional Monte Carlo draws.
 
 The first publication had 1,600 fresh comparisons; the final archived recalculation correctly rejects expired prices. It spends no new odds credits and does not relabel archived prices as fresh.
 
-NFL game settlement integration, prospective calibration, verified participation/workload, authentic closing captures, and sportsbook settlement-rule verification remain unfinished. The default multi-sport pipeline retains compatibility; the explicit NFL command is the complete-slate entry point.
+NFL game settlement integration, prospective calibration, verified participation/workload, authentic closing captures, and sportsbook settlement-rule verification remain unfinished. The default NFL challenger and refresh paths now process the entire canonical slate; an unscoped single-event NFL input is rejected. The default command was executed on all 12 games with 1,494 forecasts, 1,312 prop comparisons, zero new forecasts, zero simulation draws and no new sportsbook requests.

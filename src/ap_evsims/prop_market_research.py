@@ -253,6 +253,15 @@ def run(root,refresh_prices=False):
         if key(v) not in prior or utc(v['decision_timestamp'])>utc(prior[key(v)]['decision_timestamp']):prior[key(v)]=v
     for sport in PRIORITY:
         try:
+            if sport=='NFL':
+                from .challenger_delivery import run as full_nfl_delivery
+                result=full_nfl_delivery(root,'NFL',simulate_forecasts=False)
+                nfl=json.loads((root/'outputs/nfl_challenger_prospective.json').read_text())
+                records.extend(nfl['comparisons']);benchmark_reports[sport]=nfl['benchmarks']
+                sports[sport]=dict(status='FULL_SLATE_RESEARCH_CAPTURED',scheduled_games=result['scheduled_games'],
+                    coverage=result['coverage'],comparisons=len(nfl['comparisons']),confirmed_roles=0,
+                    benchmark_admissions={k:v['admission'] for k,v in nfl['benchmarks'].items()})
+                continue
             benchmarks=verified_evaluations(root,sport);benchmark_reports[sport]=benchmarks;availability=capture(root,sport)
             forecasts=json.loads((root/'outputs'/(sport.lower()+'_prop_prospective.json')).read_text())['predictions']
             for f in forecasts:

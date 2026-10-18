@@ -106,3 +106,22 @@ def current_rosters(root, game):
         m=json.loads((a.folder/(sid+'.json')).read_text());a.read(m);sources.append(m)
     reasons=[] if game.get('market_identity_verified') else ['NO_VERIFIED_BOOK_EVENT']
     return game,players,sources,reasons
+
+def next_slate(root):
+    """Default NFL paths choose a complete schedule date, never an odds event."""
+    import json
+    root=Path(root);a=PublicStatsArchive(root/'data');_,rows=source(a,GAMES_URL,'csv',True)
+    at=datetime.now(timezone.utc)
+    dates=sorted({r['gameday'] for r in rows if r['game_type']=='REG' and r['gametime'] and kickoff(r)>at})
+    if not dates:raise ValueError('NO_UPCOMING_CANONICAL_NFL_SCHEDULE')
+    schedule,_=discover(root,dates[0]);games=schedule['games']
+    path=root/'data/evaluations/nfl-slate-price-access.json'
+    events=[v['event'] for v in json.loads(path.read_text()).get('events',{}).values() if v.get('event')] if path.exists() else []
+    # Legacy capture can help bind one game's ID, but never defines the inventory.
+    old=root/'data/evaluations/prop-price-access.json'
+    if old.exists():
+        events += [v['event'] for v in json.loads(old.read_text()).get('sports',[]) if v['sport']=='NFL' and v.get('event') and v['event']['id'] not in {e['id'] for e in events}]
+    for game in games:
+        e,_=match_odds(game,events)
+        if e:game.update(odds_event_id=e['id'],odds_event_start=e['commence_time'],market_identity_verified=True)
+    return games

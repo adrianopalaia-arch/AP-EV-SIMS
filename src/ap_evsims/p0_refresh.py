@@ -37,6 +37,19 @@ def run(root,collect=False,daily_cap=24,*,nfl_date=None,reserve_credits=50):
         forecasts[f['forecast_hash']]=f
     access=json.loads((store.root/'evaluations/prop-price-access.json').read_text());sports={}
     for sport in ('NHL','NBA','MLB','NFL'):
+        if sport=='NFL':
+            from .challenger_delivery import run as full_nfl_delivery
+            try:
+                result=full_nfl_delivery(root,'NFL',simulate_forecasts=False)
+                report_nfl=json.loads((out/'nfl_challenger_prospective.json').read_text());cs=report_nfl['comparisons']
+                news=json.loads((out/'nfl_availability.json').read_text());at=datetime.now(timezone.utc).isoformat()
+                sports['NFL']=dict(generated_at=at,status='FULL_SLATE_REPRICED',scheduled_games=result['scheduled_games'],coverage=result['coverage'],
+                    exact_comparisons=len(cs),identity_matched=sum(c['price_identity_verified'] for c in cs),
+                    fresh_identity_matched=sum(c['price_identity_verified'] and c['price_fresh'] for c in cs),
+                    reported_injuries=sum(bool(p['injury_evidence']) for p in news['records']),confirmed_roles=sum(p['role_confirmed'] for p in news['records']),
+                    pass_reasons=dict(Counter(reason for c in cs for reason in c['pass_reasons'])),rejections=report_nfl['rejections'])
+            except (ValueError,KeyError,OSError,TypeError) as e:sports['NFL']=dict(status='REFRESH_BLOCKED',error_category=type(e).__name__)
+            continue
         path=out/(sport.lower()+'_challenger_prospective.json');existing=json.loads(path.read_text());old_hashes=[f['forecast_hash'] for f in existing['predictions']]
         try:
             news=capture(root,sport);at=datetime.now(timezone.utc).isoformat();people={p['player_id']:p for p in news['records']}

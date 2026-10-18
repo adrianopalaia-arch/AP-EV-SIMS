@@ -74,6 +74,16 @@ def interpret(sport,event,players,payload,manifest):
 
 
 def capture(root,sport,canonical_event=None):
+    if sport=='NFL' and canonical_event is None:
+        from .nfl_schedule import next_slate
+        reports=[];failures=[];games=next_slate(root)
+        for event in games:
+            try:reports.append(capture(root,sport,event))
+            except (ValueError,KeyError,OSError,TypeError) as e:failures.append(dict(event_id=event['event_id'],status='AVAILABILITY_UNAVAILABLE',error_category=type(e).__name__))
+        body=dict(sport=sport,generated_at=datetime.now(timezone.utc).isoformat(),events=games,
+            records=[p for r in reports for p in r['records']],event_identity_reasons=sorted({x for r in reports for x in r['event_identity_reasons']}),
+            snapshots=[r['snapshot_hash'] for r in reports],failures=failures,recommendations_enabled=False)
+        atomic_json(Path(root)/'outputs/nfl_availability.json',body);return body
     root=Path(root);a=PublicStatsArchive(root/'data');event,players,sources,reasons=current_inputs(root,sport,canonical_event)
     if event is None:raise ValueError('CURRENT_EVENT_IDENTITY_UNVERIFIED')
     if sport in ('NBA','NFL'):

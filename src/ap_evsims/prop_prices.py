@@ -55,28 +55,8 @@ def normalize_props(store,manifest,sport,at):
 def collect(root,*,daily_credit_cap=24,canonical_events=None,reserve_credits=50):
     if canonical_events is not None:
         return collect_nfl_slate(root,canonical_events,daily_credit_cap=daily_credit_cap,reserve_credits=reserve_credits)
-    root=Path(root);s=ResearchStore(root/'data');load_credentials(root/'.env');v=ProviderValidator(s,max_odds_credits=16)
-    records=[];at=datetime.now(timezone.utc).isoformat()
-    with v.ledger.connect() as db:
-        used=db.execute('SELECT coalesce(sum(cost),0) FROM requests WHERE provider=? AND requested_at>=?',('odds',utc(at).date().isoformat())).fetchone()[0]
-    for sport,keys in PROP_KEYS.items():
-        event_record,events=v.request('odds','sports/'+SPORTS[sport]+'/events',dict(dateFormat='iso'))
-        upcoming=sorted([e for e in events if utc(e['commence_time'])>utc(at)],key=lambda e:(utc(e['commence_time']),e['id'])) if isinstance(events,list) else []
-        if not upcoming:records.append(dict(sport=sport,status='NO_UPCOMING_PROVIDER_EVENT',event_status=event_record['status']));continue
-        cost=len(keys)
-        if used+cost>daily_credit_cap:records.append(dict(sport=sport,status='DAILY_QUOTA_BUDGET_LIMIT'));continue
-        event=upcoming[0];params=dict(markets=','.join(keys),bookmakers='draftkings,fanduel,betmgm,betrivers,caesars',oddsFormat='american')
-        r,p=v.request('odds','sports/'+SPORTS[sport]+'/events/'+event['id']+'/odds',params,credit_cost=cost)
-        used+=r.get('quota',{}).get('x-requests-last',cost if r['status']==200 else 0)
-        if r['status']==200:
-            m=s.manifest(r['snapshot_id']);qs,rejected=normalize_props(s,m,sport,r['checked_at'])
-        else:qs=[];rejected={}
-        records.append(dict(sport=sport,record=r,status=r['status'],event=event,paired_offers=len(qs),
-            books=dict(Counter(q['book'] for q in qs)),unique_players=len({q['player_name'] for q in qs}),rejections=rejected))
-    report=dict(generated_at=datetime.now(timezone.utc).isoformat(),daily_credits_used=used,daily_cap=daily_credit_cap,
-        selection_policy='earliest future event per sport; fixed markets; no favorable-price search',sports=records)
-    (s.root/'evaluations/prop-price-access.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
-    return report
+    return collect_priority(root,daily_credit_cap=daily_credit_cap,reserve_credits=reserve_credits,
+                            priority_markets={sport:list(keys) for sport,keys in PROP_KEYS.items()})
 
 
 def future_research_events(events,at,minimum_lead_seconds=1800):
@@ -134,6 +114,18 @@ def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_
             allowance=min(cap-used,max(0,(v.remaining or 0)-reserve_credits))
             chosen=keys[:max(0,allowance)]
             if not chosen:attempt=dict(sport=sport,status='DAILY_QUOTA_BUDGET_LIMIT',checked_at=at)
+            elif sport=='NFL':
+                from .nfl_schedule import next_slate
+                try:
+                    games=next_slate(root)
+                    slate=collect_nfl_slate(root,games,daily_credit_cap=daily_credit_cap,reserve_credits=reserve_credits,
+                        cooldown_seconds=cooldown_seconds,transport=transport)
+                    used=slate['quota']['credits_used']
+                    record=dict(sport='NFL',events=slate['events'],schedule_games=len(games),quota=slate['quota'],
+                        latest_attempt=dict(sport='NFL',status='SLATE_PROCESSED',checked_at=slate['generated_at']),last_request_at=slate['generated_at'])
+                    records.append(record);attempts.append(record['latest_attempt']);continue
+                except (ValueError,KeyError,OSError,TypeError) as e:
+                    attempt=dict(sport='NFL',status='SLATE_SOURCE_BLOCKED',checked_at=at,error_category=type(e).__name__)
             else:
                 requested=True
                 event_record,events=v.request('odds','sports/'+SPORTS[sport]+'/events',{'dateFormat':'iso'})
@@ -141,6 +133,7 @@ def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_
                 upcoming=[e for e in upcoming if utc((canonical_deadlines or {}).get(e['id'],e['commence_time']))>utc(at)]
                 if not upcoming:attempt=dict(sport=sport,status='NO_UPCOMING_PROVIDER_EVENT',endpoint_status=event_record['status'],checked_at=at)
                 else:
+                    # NFL is handled by the canonical full-slate branch above.
                     event=upcoming[0]
                     new_lead=(utc((canonical_deadlines or {}).get(event['id'],event['commence_time']))-utc(at)).total_seconds()
                     new_cap=max(0,daily_credit_cap-6) if cadence_aware and new_lead>900 else daily_credit_cap
@@ -161,7 +154,7 @@ def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_
         record['last_request_at']=attempt.get('checked_at',at) if requested else last
         record['latest_attempt']=attempt;records.append(record);attempts.append(attempt)
     report=dict(generated_at=datetime.now(timezone.utc).isoformat(),daily_credits_used=used,daily_cap=daily_credit_cap,
-                selection_policy=f'Earliest event with {minimum_lead_seconds}s minimum lead, bounded fixed markets, never price-selected',
+                selection_policy=f'NFL: complete canonical schedule date; other sports: earliest event with {minimum_lead_seconds}s lead; never price-selected',
                 cadence_aware=cadence_aware,priority_markets=priority,sports=records)
     atomic_json(path,report);atomic_json(s.root/'evaluations/prop-priority-refresh.json',dict(generated_at=at,attempts=attempts,daily_credits_used=used))
     return report

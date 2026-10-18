@@ -132,14 +132,14 @@ def price_props(root,game,delivery,availability,lookup,at):
     return comparisons,evidence,rejects
 
 def compact_prop(f):
-    keys=('event_id','event_start','player_id','player_name','team_id','market','generated_at','forecast_hash','artifact_hash','model_version',
+    keys=('sport','event_id','event_start','player_id','player_name','team_id','market','generated_at','forecast_hash','artifact_hash','model_version',
           'role_confirmed','availability_snapshot','pass_reasons','model_status','calibrated_probability','p_low')
     return dict({k:f[k] for k in keys},projection=f['projection'],decision='PASS',recommendations_enabled=False,
                 distribution_hash=f['distribution_hash'],distribution_location=f['distribution_location'],
                 forecast_hash_semantics='Hash of full immutable local forecast, not this compact public summary')
 
 def compact_comparison(c):
-    keys=('event_id','event_start','player_id','player_name','market','selection','line','book','odds','break_even_probability','market_no_vig',
+    keys=('sport','model_version','event_id','event_start','player_id','player_name','market','selection','line','book','odds','break_even_probability','market_no_vig',
           'raw_model_outcome_mass','conditional_model_ev','raw_probability_conditional_on_non_push','projected_opportunity','simulation_interval_10_50_90',
           'forecast_hash','forecast_generated_at','comparison_hash','quote_timestamp','quote_captured_at','quote_age_seconds','quote_snapshot','quote_payload_hash',
           'decision_timestamp','price_identity_verified','price_fresh','pass_reasons','research_rank_eligible','independent_consensus')
