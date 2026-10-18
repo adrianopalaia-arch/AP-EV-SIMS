@@ -1242,6 +1242,14 @@
       "reported_injuries": 0
     }
   },
+  "current_quota": {
+    "cached_historical_snapshots": 0,
+    "credits_consumed_recorded": 142,
+    "duplicate_requests_prevented": 0,
+    "provider_requests_used": 157,
+    "requests_recorded": 98,
+    "requests_remaining": 343
+  },
   "moneypuck": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,
@@ -1793,6 +1801,275 @@
       "time_semantics": "research execution time, not source capture time; exact source hashes/captures retained in artifacts"
     }
   },
+  "reliable_collection": {
+    "cfb_collection": {
+      "collected_at": "2026-10-18T03:18:35.301733+00:00",
+      "quota": {
+        "cached_historical_snapshots": 0,
+        "credits_consumed_recorded": 137,
+        "duplicate_requests_prevented": 0,
+        "provider_requests_used": 152,
+        "requests_recorded": 90,
+        "requests_remaining": 348
+      },
+      "results": [
+        {
+          "next_refresh_seconds": 18466.268024,
+          "sport": "CFB",
+          "status": "CACHED_CADENCE"
+        }
+      ]
+    },
+    "prop_collection": {
+      "cadence_aware": false,
+      "daily_cap": 24,
+      "daily_credits_used": 19,
+      "generated_at": "2026-10-18T03:20:53.464684+00:00",
+      "priority_markets": {
+        "MLB": [
+          "batter_hits",
+          "batter_total_bases"
+        ],
+        "NBA": [
+          "player_rebounds",
+          "player_assists"
+        ],
+        "NFL": [
+          "player_receptions",
+          "player_reception_yds"
+        ],
+        "NHL": [
+          "player_shots_on_goal",
+          "player_total_saves"
+        ]
+      },
+      "selection_policy": "Earliest event with 0s minimum lead, bounded fixed markets, never price-selected",
+      "sports": [
+        {
+          "books": {
+            "fanduel": 11
+          },
+          "event": {
+            "away_team": "Columbus Blue Jackets",
+            "commence_time": "2026-10-18T22:10:00Z",
+            "home_team": "Minnesota Wild",
+            "id": "3af4496cf626dc3538fb93001aa2fba0",
+            "sport_key": "icehockey_nhl",
+            "sport_title": "NHL"
+          },
+          "last_request_at": "2026-10-18T03:20:52.490754+00:00",
+          "latest_attempt": {
+            "checked_at": "2026-10-18T03:20:52.490754+00:00",
+            "deferred_markets": [],
+            "quota": {
+              "x-requests-last": 1,
+              "x-requests-remaining": 347,
+              "x-requests-used": 153
+            },
+            "requested_markets": [
+              "player_shots_on_goal",
+              "player_total_saves"
+            ],
+            "sport": "NHL",
+            "status": 200
+          },
+          "paired_offers": 11,
+          "record": {
+            "checked_at": "2026-10-18T03:20:52.490754+00:00",
+            "credential_present": true,
+            "endpoint": "sports/icehockey_nhl/events/3af4496cf626dc3538fb93001aa2fba0/odds",
+            "historical": false,
+            "parameters": {
+              "bookmakers": "draftkings,fanduel,betmgm,betrivers,caesars",
+              "markets": "player_shots_on_goal,player_total_saves",
+              "oddsFormat": "american"
+            },
+            "provider": "odds",
+            "quota": {
+              "x-requests-last": 1,
+              "x-requests-remaining": 347,
+              "x-requests-used": 153
+            },
+            "rows": 0,
+            "snapshot_id": "d5272ad6c09a716585ab867324e967baa2a5658b5f6d0cfd9d6eae15308cafea",
+            "status": 200
+          },
+          "rejections": {},
+          "sport": "NHL",
+          "status": 200,
+          "unique_players": 11
+        },
+        {
+          "books": {
+            "betrivers": 14,
+            "draftkings": 16,
+            "fanduel": 17
+          },
+          "event": {
+            "away_team": "Boston Celtics",
+            "commence_time": "2026-10-20T19:00:00Z",
+            "home_team": "Detroit Pistons",
+            "id": "26b036ff107f3c658258eaf4a6f26228",
+            "sport_key": "basketball_nba",
+            "sport_title": "NBA"
+          },
+          "last_request_at": "2026-10-18T03:20:52.848093+00:00",
+          "latest_attempt": {
+            "checked_at": "2026-10-18T03:20:52.848093+00:00",
+            "deferred_markets": [],
+            "quota": {
+              "x-requests-last": 2,
+              "x-requests-remaining": 345,
+              "x-requests-used": 155
+            },
+            "requested_markets": [
+              "player_rebounds",
+              "player_assists"
+            ],
+            "sport": "NBA",
+            "status": 200
+          },
+          "paired_offers": 47,
+          "record": {
+            "checked_at": "2026-10-18T03:20:52.848093+00:00",
+            "credential_present": true,
+            "endpoint": "sports/basketball_nba/events/26b036ff107f3c658258eaf4a6f26228/odds",
+            "historical": false,
+            "parameters": {
+              "bookmakers": "draftkings,fanduel,betmgm,betrivers,caesars",
+              "markets": "player_rebounds,player_assists",
+              "oddsFormat": "american"
+            },
+            "provider": "odds",
+            "quota": {
+              "x-requests-last": 2,
+              "x-requests-remaining": 345,
+              "x-requests-used": 155
+            },
+            "rows": 0,
+            "snapshot_id": "7e506731a980f97e799b974959d9f2cddb7244cdfbdaf8dbfd4323e34e553906",
+            "status": 200
+          },
+          "rejections": {},
+          "sport": "NBA",
+          "status": 200,
+          "unique_players": 10
+        },
+        {
+          "books": {},
+          "event": {
+            "away_team": "Tampa Bay Rays",
+            "commence_time": "2026-10-18T21:10:00Z",
+            "home_team": "Cleveland Guardians",
+            "id": "f4ca2d8a09898a94722dde0633e0a7e1",
+            "sport_key": "baseball_mlb",
+            "sport_title": "MLB"
+          },
+          "last_request_at": "2026-10-18T03:20:53.162734+00:00",
+          "latest_attempt": {
+            "checked_at": "2026-10-18T03:20:53.162734+00:00",
+            "deferred_markets": [],
+            "quota": {
+              "x-requests-last": 0,
+              "x-requests-remaining": 345,
+              "x-requests-used": 155
+            },
+            "requested_markets": [
+              "batter_hits",
+              "batter_total_bases"
+            ],
+            "sport": "MLB",
+            "status": 200
+          },
+          "paired_offers": 0,
+          "record": {
+            "checked_at": "2026-10-18T03:20:53.162734+00:00",
+            "credential_present": true,
+            "endpoint": "sports/baseball_mlb/events/f4ca2d8a09898a94722dde0633e0a7e1/odds",
+            "historical": false,
+            "parameters": {
+              "bookmakers": "draftkings,fanduel,betmgm,betrivers,caesars",
+              "markets": "batter_hits,batter_total_bases",
+              "oddsFormat": "american"
+            },
+            "provider": "odds",
+            "quota": {
+              "x-requests-last": 0,
+              "x-requests-remaining": 345,
+              "x-requests-used": 155
+            },
+            "rows": 0,
+            "snapshot_id": "e31d0eb4447b08d7ab0a87eeb9b9af14120b50fd8240fdeefd60a68148a2dfff",
+            "status": 200
+          },
+          "rejections": {},
+          "sport": "MLB",
+          "status": 200,
+          "unique_players": 0
+        },
+        {
+          "books": {
+            "betmgm": 28,
+            "betrivers": 13,
+            "draftkings": 28,
+            "fanduel": 30
+          },
+          "event": {
+            "away_team": "Houston Texans",
+            "commence_time": "2026-10-18T13:30:00Z",
+            "home_team": "Jacksonville Jaguars",
+            "id": "57418b2cf5aca558b3c98eafac1e264a",
+            "sport_key": "americanfootball_nfl",
+            "sport_title": "NFL"
+          },
+          "last_request_at": "2026-10-18T03:20:53.455671+00:00",
+          "latest_attempt": {
+            "checked_at": "2026-10-18T03:20:53.455671+00:00",
+            "deferred_markets": [],
+            "quota": {
+              "x-requests-last": 2,
+              "x-requests-remaining": 343,
+              "x-requests-used": 157
+            },
+            "requested_markets": [
+              "player_receptions",
+              "player_reception_yds"
+            ],
+            "sport": "NFL",
+            "status": 200
+          },
+          "paired_offers": 99,
+          "record": {
+            "checked_at": "2026-10-18T03:20:53.455671+00:00",
+            "credential_present": true,
+            "endpoint": "sports/americanfootball_nfl/events/57418b2cf5aca558b3c98eafac1e264a/odds",
+            "historical": false,
+            "parameters": {
+              "bookmakers": "draftkings,fanduel,betmgm,betrivers,caesars",
+              "markets": "player_receptions,player_reception_yds",
+              "oddsFormat": "american"
+            },
+            "provider": "odds",
+            "quota": {
+              "x-requests-last": 2,
+              "x-requests-remaining": 343,
+              "x-requests-used": 157
+            },
+            "rows": 0,
+            "snapshot_id": "8eb99d4a1772411bd5366b278e8785f389aa13297e0290723d54f6311dac8c07",
+            "status": 200
+          },
+          "rejections": {
+            "MISSING_PROP_COUNTERPART": 13
+          },
+          "sport": "NFL",
+          "status": 200,
+          "unique_players": 15
+        }
+      ]
+    }
+  },
+  "reliable_collection_checked_at": "2026-10-18T03:23:38.015034+00:00",
   "statcast": {
     "authentication_status": "NOT_PROBED",
     "coverage": null,

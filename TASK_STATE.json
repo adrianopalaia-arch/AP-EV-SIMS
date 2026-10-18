@@ -4,6 +4,7 @@
   "categories": {
     "CFB": {
       "moneyline": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "HISTORICAL_ODDS_ACCESS; HISTORICAL_REVISION_TIMING_UNVERIFIED; PROSPECTIVE_CALIBRATION_PENDING; CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -18,7 +19,9 @@
           "reports/EXECUTION_RESULTS.md"
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 43,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 1086,
         "real_sample_size": 1442,
         "status": "IN_PROGRESS",
@@ -31,6 +34,7 @@
         "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "spread": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "HISTORICAL_ODDS_ACCESS; HISTORICAL_REVISION_TIMING_UNVERIFIED; PROSPECTIVE_CALIBRATION_PENDING; CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -63,7 +67,9 @@
           "source_recipe_recomputation": "COMPLETE",
           "training_eligibility_audit": "COMPLETE"
         },
-        "next_action": "Preserve frozen forecasts; verify role and settle actual outcomes; no CORE promotion",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 43,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 1086,
         "real_sample_size": 1442,
         "status": "IN_PROGRESS",
@@ -79,6 +85,7 @@
         "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "total": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "No timestamp-authentic joined historical odds/features dataset; zero empirical model observations",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -89,7 +96,9 @@
           "src/ap_evsims/models/artifacts.py",
           "src/ap_evsims/backtest.py"
         ],
-        "next_action": "Keep CFBTotalModel research implementation; collect future provenance and evaluate when eligible data exists. No real model fitted.",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 43,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 90,
@@ -387,11 +396,14 @@
     },
     "MLB": {
       "game_total": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "No fitted predictor or qualifying evaluation",
         "files": [
           "src/ap_evsims/product.py"
         ],
-        "next_action": "Implement only after required role/price evidence exists.",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_sample_size": 0,
         "status": "NOT_STARTED",
         "synthetic_sample_size": 0,
@@ -401,6 +413,7 @@
         "updated_at": "2026-10-14T23:31:13.069248+00:00"
       },
       "hits_allowed": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -416,7 +429,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 540,
         "real_sample_size": 1515,
         "status": "IN_PROGRESS",
@@ -428,6 +443,7 @@
         "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "hitter_hits": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -446,7 +462,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 5410,
         "real_sample_size": 12183,
         "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
@@ -459,6 +477,7 @@
         "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "pitcher_K": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -474,7 +493,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 540,
         "real_sample_size": 1515,
         "status": "IN_PROGRESS",
@@ -486,6 +507,7 @@
         "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "pitcher_outs": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -501,7 +523,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 540,
         "real_sample_size": 1515,
         "status": "IN_PROGRESS",
@@ -513,6 +537,7 @@
         "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "total_bases": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -531,7 +556,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 5410,
         "real_sample_size": 12183,
         "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
@@ -546,6 +573,7 @@
     },
     "NBA": {
       "assists": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -564,7 +592,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 51938,
         "real_sample_size": 52029,
         "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
@@ -577,6 +607,7 @@
         "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "points": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -592,7 +623,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 51938,
         "real_sample_size": 52029,
         "status": "IN_PROGRESS",
@@ -604,6 +637,7 @@
         "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "rebounds": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -622,7 +656,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 51938,
         "real_sample_size": 52029,
         "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
@@ -635,6 +671,7 @@
         "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "spread": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -643,7 +680,9 @@
         "files": [
           "src/ap_evsims/models/contracts.py"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
@@ -653,6 +692,7 @@
         "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "threes": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -668,7 +708,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 51938,
         "real_sample_size": 52029,
         "status": "IN_PROGRESS",
@@ -680,6 +722,7 @@
         "updated_at": "2026-10-16T05:42:35.450239+00:00"
       },
       "total": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -688,7 +731,9 @@
         "files": [
           "src/ap_evsims/models/contracts.py"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
@@ -700,6 +745,7 @@
     },
     "NFL": {
       "passing": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -718,7 +764,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 733,
         "real_sample_size": 768,
         "research_admission": "FAILED_SIMPLE_BASELINE",
@@ -731,6 +779,7 @@
         "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "receiving": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -749,7 +798,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 6152,
         "real_sample_size": 6307,
         "research_admission": "FAILED_SIMPLE_BASELINE",
@@ -762,6 +813,7 @@
         "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "receptions": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -780,7 +832,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 6152,
         "real_sample_size": 6307,
         "research_admission": "FAILED_SIMPLE_BASELINE",
@@ -793,6 +847,7 @@
         "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "rushing": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -811,7 +866,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 6152,
         "real_sample_size": 6307,
         "research_admission": "FAILED_SIMPLE_BASELINE",
@@ -824,6 +881,7 @@
         "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "rushing_attempts": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "files": [
           "outputs/early_watchlist.json",
@@ -838,7 +896,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 6152,
         "real_sample_size": 6307,
         "research_admission": "FAILED_SIMPLE_BASELINE",
@@ -851,6 +911,7 @@
         "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "spread": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -859,7 +920,9 @@
         "files": [
           "src/ap_evsims/models/contracts.py"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
@@ -869,6 +932,7 @@
         "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "total": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -877,7 +941,9 @@
         "files": [
           "src/ap_evsims/models/contracts.py"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
@@ -889,6 +955,7 @@
     },
     "NHL": {
       "ML": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -897,7 +964,9 @@
         "files": [
           "src/ap_evsims/models/contracts.py"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 2,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
@@ -907,6 +976,7 @@
         "updated_at": "2026-10-14T07:35:37.601494+00:00"
       },
       "SOG": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -925,7 +995,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 2,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 96525,
         "real_sample_size": 96796,
         "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
@@ -938,6 +1010,7 @@
         "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "goalie_saves": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -956,7 +1029,9 @@
         ],
         "forecasting_status": "REAL_MODEL_EXECUTED",
         "model_version": "causal-opportunity-ridge-v2",
-        "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 2,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_evaluation_sample": 5597,
         "real_sample_size": 5622,
         "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
@@ -969,6 +1044,7 @@
         "updated_at": "2026-10-16T15:04:43.655221+00:00"
       },
       "totals": {
+        "betting_validation_status": "NOT_QUALIFIED",
         "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
         "dependencies": [
           "FOUNDATION.historical_replay",
@@ -977,7 +1053,9 @@
         "files": [
           "src/ap_evsims/models/contracts.py"
         ],
-        "next_action": "Implement and fit the specified opportunity/distribution model only after source and timestamp audits; then chronological calibration and priced evaluation.",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 2,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
         "real_sample_size": 0,
         "status": "BLOCKED",
         "synthetic_sample_size": 0,
@@ -1288,7 +1366,7 @@
     "odds_present": true,
     "secrets_printed": false
   },
-  "current_task": "P0_FRESH_PRICE_IDENTITY_AND_SETTLEMENT",
+  "current_task": "P0_VERIFIED_PROSPECTIVE_SETTLEMENT",
   "delivery_verification": {
     "ancestor_verified": true,
     "at": "2026-10-15T00:41:53.605137+00:00",
@@ -1543,7 +1621,7 @@
       "tests/test_prop_research.py"
     ]
   },
-  "next_task": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+  "next_task": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
   "p0_freshness_checkpoint": {
     "blocker": "Betting validation remains blocked; engineering completion is not model validation",
     "files": [
@@ -2843,6 +2921,50 @@
       "verified_at": "2026-10-17T02:32:11.360605+00:00"
     }
   },
+  "p0_reliability_delivery": {
+    "blocker": "Native scheduler CIM unavailable; role and book applicability incomplete; no adequately powered preregistered prospective holdout; no authentic close for settled entries; historical odds access blocked",
+    "completed": [
+      "NHL official-final result vertical slice",
+      "CFB frozen model scoring and seven-day forecasts",
+      "independent non-entry-book consensus",
+      "price/capture/closing safeguards",
+      "separate research and approved outputs"
+    ],
+    "distinct_games": 45,
+    "files": [
+      "src/ap_evsims/reliable_engine.py",
+      "src/ap_evsims/reliable_results.py",
+      "outputs/reliable_delivery.json",
+      "reports/P0_RELIABLE_DELIVERY.md"
+    ],
+    "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+    "real_sample_size": 161,
+    "scheduler": {
+      "automatic_wagers": false,
+      "checked_at": "2026-10-18T03:24:07.788450+00:00",
+      "closing_capture_guaranteed": false,
+      "execution_script_test": "PASS_EXIT_0",
+      "fallback_automation_id": "ap-ev-sims-verified-research-cycle",
+      "fallback_interval_seconds": 1200,
+      "fallback_status": "EXECUTION_VERIFIED_PROVIDER_NETWORK_BLOCKED",
+      "git_writes_from_runner": false,
+      "native_installed": false,
+      "native_interval_seconds": 120,
+      "native_status": "BLOCKED_CIM_RESOURCE_UNAVAILABLE",
+      "native_task_name": "AP-EV-SIMS-Verified-Research",
+      "requires": "Local computer awake; native task needs signed-in user. Codex fallback also needs desktop app running.",
+      "verified_scheduled_completions": [
+        "2026-10-18T02:43:11.321041+00:00",
+        "2026-10-18T03:04:07.237713+00:00"
+      ]
+    },
+    "status": "IN_PROGRESS",
+    "synthetic_sample_size": 0,
+    "tests": [
+      "tests/test_reliable_engine.py",
+      "tests/test_event_price_evidence.py"
+    ]
+  },
   "paper_tracking_delivery": {
     "cash_committed": 0,
     "cohort_candidates": 8,
@@ -3649,10 +3771,10 @@
     "failed": 0,
     "frozen_phase1_files": 18,
     "frozen_phase1_mismatches": 0,
-    "passed": 351,
+    "passed": 378,
     "skipped": 0,
     "status": "PASS",
-    "verified_at": "2026-10-17T02:32:11.360605+00:00"
+    "verified_at": "2026-10-18T03:24:07.788450+00:00"
   },
-  "updated_at": "2026-10-17T02:32:37.057376+00:00"
+  "updated_at": "2026-10-18T03:24:07.788450+00:00"
 }

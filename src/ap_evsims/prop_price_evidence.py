@@ -29,9 +29,12 @@ def first_comparisons(records,*,eligible_only=False):
     return list(selected.values())
 
 
-def close_for(c,quotes,at):
+def close_for(c,quotes,at,*,captures=()):
     if utc(at)<utc(c['event_start']):return None
     matches=[q for q in quotes if q['odds_event_id']==c['availability'].get('odds_event_id',c.get('odds_event_id'))]
+    series=[q for q in matches if q['book']==c['book'] and q['market']==c['market'] and q['player_name']==c['player_name']
+            and q['period']=='full_game' and utc(q['captured_at'])<utc(c['event_start'])]
+    latest=max((utc(q['captured_at']) for q in series),default=None)
     # The archived opening quote supplies exact provider event identity; callers
     # pass it explicitly, never guess from display names or date proximity.
     valid=[q for q in matches if q['book']==c['book'] and q['market']==c['market'] and q['line']==c['line']
@@ -40,10 +43,16 @@ def close_for(c,quotes,at):
         and utc(q['quote_timestamp'])<=utc(q['captured_at'])<utc(c['event_start'])
         and 0<=(utc(c['event_start'])-utc(q['quote_timestamp'])).total_seconds()<=300
         and (utc(q['captured_at'])-utc(q['quote_timestamp'])).total_seconds()<=180]
-    return max(valid,key=lambda q:(utc(q['quote_timestamp']),utc(q['captured_at']))) if valid else None
+    chosen=max(valid,key=lambda q:(utc(q['quote_timestamp']),utc(q['captured_at']))) if valid else None
+    if chosen is None or utc(chosen['captured_at'])!=latest:return None
+    for snapshot in captures:
+        if snapshot['odds_event_id']!=chosen['odds_event_id'] or chosen.get('provider_market') not in snapshot['markets']:continue
+        if snapshot['books'] and chosen['book'] not in snapshot['books']:continue
+        if utc(chosen['captured_at'])<utc(snapshot['captured_at'])<utc(c['event_start']):return None
+    return chosen
 
 
-def grade(c,f,row,quotes,at):
+def grade(c,f,row,quotes,at,*,captures=()):
     if digest({k:v for k,v in c.items() if k!='comparison_hash'})!=c['comparison_hash']:raise ValueError('COMPARISON_HASH_MISMATCH')
     if c['forecast_hash']!=f['forecast_hash'] or not c['price_identity_verified']:raise ValueError('PRICE_FORECAST_IDENTITY_UNVERIFIED')
     checked=settlement(f,row)
@@ -54,7 +63,7 @@ def grade(c,f,row,quotes,at):
     result='PUSH' if value==0 else 'WIN' if win else 'LOSS';mass=c['raw_model_outcome_mass']
     if mass!=prop_mass(f['projection']['distribution'],c['line'],c['selection']):raise ValueError('FROZEN_PROBABILITY_MISMATCH')
     p=mass['p_win']/(1-mass['p_push']) if result!='PUSH' and mass['p_push']<1 else None
-    close=close_for(dict(c,odds_event_id=f['event_mapping']['odds_event_id']),quotes,at)
+    close=close_for(dict(c,odds_event_id=f['event_mapping']['odds_event_id']),quotes,at,captures=captures)
     cp=(close['over_no_vig'] if c['selection']=='Over' else 1-close['over_no_vig']) if close else None
     market=c['market_no_vig'] if p is not None else None
     return dict(comparison_hash=c['comparison_hash'],forecast_hash=f['forecast_hash'],sport=c['sport'],market=c['market'],
@@ -81,18 +90,21 @@ def run(root):
         if c['model_version']==VERSION:all_comparisons.append(c)
     first_all=first_comparisons(all_comparisons);first=first_comparisons(all_comparisons,eligible_only=True);records=[];pending=[]
     for sport in ('NFL','NBA','NHL','MLB'):
-        rows,_=normalize(root,sport);outcomes={(r.event_id,r.player_id,r.market):r for r in rows};quotes=[]
+        rows,_=normalize(root,sport);outcomes={(r.event_id,r.player_id,r.market):r for r in rows};quotes=[];captures=[]
         for p in s.root.joinpath('manifests').glob('*.json'):
             m=json.loads(p.read_text())
             if m.get('provider')!='odds' or '/events/' not in m.get('endpoint','') or not m['endpoint'].endswith('/odds') or m['parameters'].get('endpoint_status')!=200:continue
-            try:qs,_=normalize_props(s,m,sport,at);quotes.extend(qs)
+            try:
+                qs,_=normalize_props(s,m,sport,at);quotes.extend(qs);payload=s.payload(s.manifest(m['snapshot_id']))
+                captures.append(dict(odds_event_id=payload['id'],captured_at=m['fetched_at'],markets=m['parameters'].get('markets','').split(','),
+                    books=list(filter(None,m['parameters'].get('bookmakers','').split(',')))))
             except ValueError:continue
         for c in [c for c in first if c['sport']==sport]:
             f=forecasts[c['forecast_hash']];row=outcomes.get((c['event_id'],c['player_id'],c['market']))
             reason='EVENT_NOT_STARTED' if utc(at)<utc(c['event_start']) else 'OUTCOME_OR_DNP_UNVERIFIED' if row is None else None
             if not c['price_identity_verified']:reason='PRICE_FORECAST_IDENTITY_UNVERIFIED'
             if reason:pending.append(dict(comparison_hash=c['comparison_hash'],sport=sport,reason=reason));continue
-            try:r=grade(c,f,row,quotes,at)
+            try:r=grade(c,f,row,quotes,at,captures=captures)
             except ValueError as e:pending.append(dict(comparison_hash=c['comparison_hash'],sport=sport,reason=str(e)));continue
             folder=s.root/'settlements/prop-comparisons';folder.mkdir(exist_ok=True)
             s._immutable(folder/(digest(r)+'.json'),json.dumps(r,sort_keys=True).encode());records.append(r)

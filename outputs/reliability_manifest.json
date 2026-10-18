@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-10-18T03:23:38.015034+00:00",
+  "hashes": {
+    "live_research_candidates.json": "80980a22a43daaf3019b56669a9069628752807c0b659f727423874c5d35bf79",
+    "prospective_settlements.json": "6d1dd7bd296ecc3d4e82bff046aae465025237eaa74ebe85fcbe9a5282a6b90d",
+    "reliability_status.json": "dd4037c040e44c1d6bee744ef1873e85cf35c60e7d4e99a856cd8f2cfdde43cc",
+    "validated_edges.json": "8e86746ab3b21c4469e9e36bdf612e29036a7411ea1da7260c4819cc521fbff0",
+    "week_ahead_game_probabilities.json": "134932b7ca30d48de33de748f5afdd24c56f27f46d36c6645ad4a60ce8eab0a0"
+  }
+}

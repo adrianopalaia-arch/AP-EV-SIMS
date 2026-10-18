@@ -25,6 +25,24 @@ PRIORITY={'NFL':{'receptions','rushing_attempts','receiving_yards','passing_yard
           'NBA':{'rebounds','assists'},'NHL':{'shots_on_goal','goalie_saves'},'MLB':{'hitter_hits','total_bases'}}
 
 
+def independent_prop_consensus(anchor,peers,at,side):
+    books={}
+    for p in peers:
+        if p['book']==anchor['book'] or any(p[k]!=anchor[k] for k in ('sport','market','line','period','odds_event_id','event_start')):continue
+        if normalized_name(p['player_name'])!=normalized_name(anchor['player_name']):continue
+        if not utc(p['quote_timestamp'])<=utc(p['captured_at'])<=utc(at)<utc(p['event_start']):continue
+        if (utc(at)-utc(p['quote_timestamp'])).total_seconds()>180 or abs((utc(p['quote_timestamp'])-utc(anchor['quote_timestamp'])).total_seconds())>60:continue
+        old=books.get(p['book'])
+        if old and utc(old['quote_timestamp'])==utc(p['quote_timestamp']) and old['over_no_vig']!=p['over_no_vig']:
+            return dict(probability=None,book_count=len(books),reason='CONFLICTING_BOOK_QUOTES',quotes=[])
+        if old is None or utc(p['quote_timestamp'])>utc(old['quote_timestamp']):books[p['book']]=p
+    values=[p['over_no_vig'] if side=='Over' else 1-p['over_no_vig'] for p in books.values()]
+    return dict(probability=statistics.median(values) if len(values)>=2 else None,book_count=len(values),
+        reason=None if len(values)>=2 else 'INSUFFICIENT_INDEPENDENT_BOOKS',method='equal_book_median_excluding_entry_sportsbook',
+        qualification='DESCRIPTIVE_CONDITIONAL_ON_NON_PUSH_BOOK_RULES_UNVERIFIED',
+        quotes=[dict(book=p['book'],quote_id=p['quote_id'],snapshot_id=p['snapshot_id'],probability=p['over_no_vig'] if side=='Over' else 1-p['over_no_vig']) for p in books.values()])
+
+
 def benchmark_gate(e):
     if e.get('n',0)<100:return 'INSUFFICIENT_BENCHMARK_SAMPLE'
     keys=('mae','rmse','baseline_mae','baseline_rmse')
@@ -139,6 +157,11 @@ def comparison(f,q,a,e,at,peers=(),*,identity_store=None):
                  and normalized_name(p['player_name'])==normalized_name(q['player_name']) and abs((utc(p['quote_timestamp'])-utc(q['quote_timestamp'])).total_seconds())<=60]
         peer_books={p['book']:p for p in matches}
         ev=outcome_ev(mass['p_win'],mass['p_loss'],mass['p_push'],odds) if mass else None
+        outside=independent_prop_consensus(q,peers,at,side)
+        raw=mass['p_win']/(1-mass['p_push']) if mass and mass['p_push']<1 else None
+        discrepancy=abs(raw-outside['probability']) if raw is not None and outside['probability'] is not None else None
+        side_reasons=list(reasons)
+        if discrepancy is not None and discrepancy>=.15:side_reasons.append('MODEL_MARKET_DISAGREEMENT')
         candidate=dict(sport=f['sport'],event_id=f['event_id'],event_start=f['event_start'],game=mapping['away_team']+' @ '+mapping['home_team'],
             market=f['market'],player_id=f['player_id'],player_name=f['player_name'],team_id=f['team_id'],selection=side,line=q['line'],book=q['book'],odds=odds,
             break_even_probability=american_to_implied(odds),market_no_vig=fair,market_probability_basis=q['probability_basis'],
@@ -153,10 +176,12 @@ def comparison(f,q,a,e,at,peers=(),*,identity_store=None):
             quote_captured_at=q['captured_at'],quote_age_seconds=age,quote_snapshot=q['snapshot_id'],quote_payload_hash=q['payload_hash'],
             availability=a,decision_timestamp=at,price_identity_verified=identity,price_fresh=age<=180,
             event_identity_resolution=resolution,provider_event_start=q['event_start'],
-            research_status='RESEARCH_ESTIMATE',decision='PASS',pass_reasons=sorted(set(reasons)),recommendations_enabled=False,
+            independent_consensus=outside,model_consensus_gap=discrepancy,disagreement_review_threshold=.15,
+            line_sensitivity=[dict(line=q['line']+shift,raw_mass=prop_mass(pmf,q['line']+shift,side)) for shift in (-1,0,1)] if identity else [],
+            research_status='RESEARCH_ESTIMATE',decision='PASS',pass_reasons=sorted(set(side_reasons)),recommendations_enabled=False,
             reference_unit=22,stake=None)
         candidate['research_rank_eligible']=bool(identity and ev is not None and ev>0 and e['admission']=='RESEARCH_BENCHMARK_ADVANTAGE'
-            and a['availability_state']!='REPORTED_UNAVAILABLE' and not set(reasons)&{'INJURY_TIMESTAMP_INVALID','MODEL_COMPETITION_DOMAIN_MISMATCH','TEAM_CHANGE_ROLE_UNVERIFIED'})
+            and a['availability_state']!='REPORTED_UNAVAILABLE' and not set(side_reasons)&{'INJURY_TIMESTAMP_INVALID','MODEL_COMPETITION_DOMAIN_MISMATCH','TEAM_CHANGE_ROLE_UNVERIFIED','MODEL_MARKET_DISAGREEMENT'})
         out.append(candidate)
     return out
 

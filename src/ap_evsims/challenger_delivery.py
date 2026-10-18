@@ -73,7 +73,7 @@ def simulate(forecast,draws):
         scope='Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability')
 
 
-def run(root,sport,draws=20000):
+def run(root,sport,draws=20000,*,simulate_forecasts=True):
     root=Path(root);store=ResearchStore(root/'data');status_path=root/'outputs'/(sport.lower()+'_challenger_status.json');status=json.loads(status_path.read_text())
     verified_completion=datetime.fromtimestamp(status_path.stat().st_mtime,timezone.utc).isoformat()
     availability=capture(root,sport);event=availability['event'];at=datetime.now(timezone.utc).isoformat()
@@ -109,8 +109,9 @@ def run(root,sport,draws=20000):
                 model_status='UNVALIDATED',recommendations_enabled=False,calibrated_probability=None,p_low=None,priced_markets=[],
                 mode='RESEARCH_ONLY',reference_unit=22,cash_committed=0,pass_reasons=sorted(set(reasons)))
             f,new=freeze_prop(store,body);new_count+=new
-            simulation=simulate(f,draws);simulations.append(simulation)
-            store._immutable(store.root/'evaluations'/('simulation-'+digest(simulation)+'.json'),json.dumps(simulation,sort_keys=True).encode())
+            if simulate_forecasts:
+                simulation=simulate(f,draws);simulations.append(simulation)
+                store._immutable(store.root/'evaluations'/('simulation-'+digest(simulation)+'.json'),json.dumps(simulation,sort_keys=True).encode())
             compact={k:v for k,v in f.items() if k not in ('projection','training_source_hashes')}
             compact['projection']={k:v for k,v in f['projection'].items() if k!='distribution'}
             compact['distribution_hash']=digest(f['projection']['distribution']);compact['distribution_location']='immutable local forecast referenced by forecast_hash'
@@ -119,7 +120,7 @@ def run(root,sport,draws=20000):
             for q in qs:
                 if q['book'] not in ('draftkings','fanduel') or q['market']!=market or aliases.get(normalized_name(q['player_name']))!={person['player_id']}:continue
                 try:
-                    for c in comparison(f,q,person,benchmark,at,qs):
+                    for c in comparison(f,q,person,benchmark,at,qs,identity_store=store):
                         mass=c['raw_model_outcome_mass'];fair=None
                         if mass and mass['p_win']>0:fair=1+mass['p_loss']/mass['p_win']
                         c.update(raw_fair_decimal_odds=fair,zero_ev_decimal_threshold=fair,

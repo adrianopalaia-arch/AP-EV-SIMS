@@ -82,7 +82,16 @@ def future_research_events(events,at,minimum_lead_seconds=1800):
     return sorted([e for e in events if utc(e['commence_time'])>utc(at)+timedelta(seconds=minimum_lead_seconds)],key=lambda e:(utc(e['commence_time']),e['id']))
 
 
-def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_seconds=300, transport=None):
+def collection_interval(seconds_to_start):
+    if seconds_to_start<=0:return 900
+    if seconds_to_start<=300:return 60
+    if seconds_to_start<=3600:return 900
+    if seconds_to_start<=86400:return 3600
+    return 21600
+
+
+def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_seconds=300, transport=None,
+                     cadence_aware=False, minimum_lead_seconds=1800, canonical_deadlines=None, priority_markets=None):
     """Refresh a bounded priority cohort without erasing last-known observations.
 
     An incomplete/blocked refresh never makes a cached quote fresh. Each attempt
@@ -101,24 +110,41 @@ def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_
         used=db.execute('SELECT coalesce(sum(cost),0) FROM requests WHERE provider=? AND substr(requested_at,1,10)=?',('odds',at[:10])).fetchone()[0]
     priority={'NHL':['player_shots_on_goal','player_total_saves'], 'NBA':['player_rebounds','player_assists'],
               'MLB':['batter_hits','batter_total_bases'], 'NFL':['player_receptions','player_rush_attempts','player_reception_yds','player_pass_yds','player_rush_yds']}
+    if priority_markets is not None:
+        if set(priority_markets)!=set(priority) or any(not keys or len(keys)!=len(set(keys)) or any(k not in PROP_KEYS[s] for k in keys) for s,keys in priority_markets.items()):
+            raise ValueError('INVALID_PRIORITY_MARKETS')
+        priority=priority_markets
     for sport,keys in priority.items():
         old=previous.get(sport,{});record=dict(old) if old else {'sport':sport}
+        old_event=old.get('event',{});deadline=(canonical_deadlines or {}).get(old_event.get('id'),old_event.get('commence_time'))
+        lead=(utc(deadline)-utc(at)).total_seconds() if deadline else 86401
+        interval=collection_interval(lead) if cadence_aware else cooldown_seconds
         previous_attempt=old.get('latest_attempt',{})
         last=old.get('last_request_at') or (previous_attempt.get('checked_at') if previous_attempt.get('status') not in ('REFRESH_COOLDOWN','DAILY_QUOTA_BUDGET_LIMIT') else None) or old.get('record',{}).get('checked_at')
         requested=False
-        if last and (utc(at)-utc(last)).total_seconds()<cooldown_seconds:
+        if last and (utc(at)-utc(last)).total_seconds()<interval:
             attempt=dict(sport=sport,status='REFRESH_COOLDOWN',checked_at=at)
         else:
-            allowance=min(daily_credit_cap-used,max(0,(v.remaining or 0)-reserve_credits))
+            cap=max(0,daily_credit_cap-6) if cadence_aware and lead>900 else daily_credit_cap
+            allowance=min(cap-used,max(0,(v.remaining or 0)-reserve_credits))
             chosen=keys[:max(0,allowance)]
             if not chosen:attempt=dict(sport=sport,status='DAILY_QUOTA_BUDGET_LIMIT',checked_at=at)
             else:
                 requested=True
                 event_record,events=v.request('odds','sports/'+SPORTS[sport]+'/events',{'dateFormat':'iso'})
-                upcoming=future_research_events(events,at) if isinstance(events,list) else []
+                upcoming=future_research_events(events,at,minimum_lead_seconds=minimum_lead_seconds) if isinstance(events,list) else []
+                upcoming=[e for e in upcoming if utc((canonical_deadlines or {}).get(e['id'],e['commence_time']))>utc(at)]
                 if not upcoming:attempt=dict(sport=sport,status='NO_UPCOMING_PROVIDER_EVENT',endpoint_status=event_record['status'],checked_at=at)
                 else:
-                    event=upcoming[0];r,_=v.request('odds','sports/'+SPORTS[sport]+'/events/'+event['id']+'/odds',
+                    event=upcoming[0]
+                    new_lead=(utc((canonical_deadlines or {}).get(event['id'],event['commence_time']))-utc(at)).total_seconds()
+                    new_cap=max(0,daily_credit_cap-6) if cadence_aware and new_lead>900 else daily_credit_cap
+                    chosen=keys[:max(0,min(new_cap-used,max(0,(v.remaining or 0)-reserve_credits)))]
+                    if not chosen:
+                        record['last_request_at']=at
+                        attempt=dict(sport=sport,status='DAILY_QUOTA_BUDGET_LIMIT',checked_at=at)
+                        record['latest_attempt']=attempt;records.append(record);attempts.append(attempt);continue
+                    r,_=v.request('odds','sports/'+SPORTS[sport]+'/events/'+event['id']+'/odds',
                         dict(markets=','.join(chosen),bookmakers='draftkings,fanduel,betmgm,betrivers,caesars',oddsFormat='american'),credit_cost=len(chosen))
                     used+=r.get('quota',{}).get('x-requests-last',len(chosen) if r['status']==200 else 0)
                     attempt=dict(sport=sport,status=r['status'],checked_at=r.get('checked_at',at),requested_markets=chosen,
@@ -130,7 +156,8 @@ def collect_priority(root, *, daily_credit_cap=24, reserve_credits=50, cooldown_
         record['last_request_at']=attempt.get('checked_at',at) if requested else last
         record['latest_attempt']=attempt;records.append(record);attempts.append(attempt)
     report=dict(generated_at=datetime.now(timezone.utc).isoformat(),daily_credits_used=used,daily_cap=daily_credit_cap,
-                selection_policy='Earliest event at least 30 minutes away for pregame research; fixed NHL shots, NBA rebounds/assists, MLB hits/TB, NFL priorities; never price-selected',sports=records)
+                selection_policy=f'Earliest event with {minimum_lead_seconds}s minimum lead, bounded fixed markets, never price-selected',
+                cadence_aware=cadence_aware,priority_markets=priority,sports=records)
     atomic_json(path,report);atomic_json(s.root/'evaluations/prop-priority-refresh.json',dict(generated_at=at,attempts=attempts,daily_credits_used=used))
     return report
 

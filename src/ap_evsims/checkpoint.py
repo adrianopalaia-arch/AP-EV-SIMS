@@ -5,8 +5,8 @@ from urllib.parse import quote,quote_plus
 from .providers.security import CREDENTIAL_NAMES,load_credentials
 
 SAFE_ROOT_FILES={'.gitignore','.gitattributes','.env.example','pyproject.toml','TASK_STATE.json'}
-SAFE_DIRS={'src','tests','examples','reports','outputs'}
-SUFFIXES={'.py','.md','.json','.jsonl','.txt','.toml','.csv','.yml','.yaml'}
+SAFE_DIRS={'src','tests','examples','reports','outputs','scripts'}
+SUFFIXES={'.py','.md','.json','.jsonl','.txt','.toml','.csv','.yml','.yaml','.ps1'}
 
 def scan_bytes(name,body,secrets):
     path=Path(name)

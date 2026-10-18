@@ -1,0 +1,7 @@
+{
+  "core_enabled": false,
+  "decision": "PASS",
+  "edges": [],
+  "generated_at": "2026-10-18T03:23:38.015034+00:00",
+  "reason": "NO_PROSPECTIVELY_VALIDATED_PRICE_MATCHED_MODEL"
+}

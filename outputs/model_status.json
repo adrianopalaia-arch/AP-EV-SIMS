@@ -1,6 +1,7 @@
 [
   {
     "artifact_hash": "465ca33a6dad0ecff5523dc1a24a3ddbce8f241e5f29ebbdfc52f8c15486a5b9",
+    "betting_validated": false,
     "blocker": "HISTORICAL_ODDS_ACCESS; HISTORICAL_REVISION_TIMING_UNVERIFIED; PROSPECTIVE_CALIBRATION_PENDING; CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED",
     "blockers": [
       "HISTORICAL_ODDS_ACCESS",
@@ -42,7 +43,109 @@
     "observed_market_sides": 1006,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [
+      {
+        "baseline_mae": 12.435704514363884,
+        "baseline_rmse": 14.712159399069616,
+        "brier": 0.24126736321531772,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.48554847894545566,
+            "n": 4,
+            "observed_frequency": 0.25,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.5662135142383536,
+            "n": 10,
+            "observed_frequency": 0.5,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.6432214310630343,
+            "n": 14,
+            "observed_frequency": 0.7142857142857143,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "mean_probability": 0.7362577976380611,
+            "n": 13,
+            "observed_frequency": 0.46153846153846156,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.8204519599054682,
+            "n": 2,
+            "observed_frequency": 1,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper": 1.0
+          }
+        ],
+        "distinct_games": 43,
+        "log_loss": 0.675525823443978,
+        "mae": 11.707255679275006,
+        "market": "game_margin",
+        "model_version": "cfb-score-ridge-v1.1",
+        "n": 43,
+        "paired_mae_difference": {
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 731,
+          "event_clusters": 43,
+          "interval_95": [
+            -1.9323069063467975,
+            0.43677842132360056
+          ],
+          "mean_event_weighted_difference": -0.728448835088879,
+          "reason": "EXPLORATORY_EVENT_BOOTSTRAP_NOT_MULTIPLICITY_ADJUSTED; cross-game dependence may remain"
+        },
+        "rmse": 13.495267665074856,
+        "sport": "CFB",
+        "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+      }
+    ],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 59,
+    "prospective_metric_scope": "Game margins and win probabilities; no qualified price-specific spread or moneyline settlement",
+    "prospective_scored_n": 43,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 1086,
@@ -54,6 +157,7 @@
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "NO_APPROVED_EMPIRICAL_MODEL",
     "brier_score": null,
     "champion_model": null,
@@ -64,8 +168,13 @@
     "model_version": null,
     "observed_market_sides": 1000,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_metric_scope": "Game margins and win probabilities; no qualified price-specific spread or moneyline settlement",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
+    "recommendations_enabled": false,
     "roi": null,
     "sport": "CFB",
     "status": "UNVALIDATED",
@@ -73,6 +182,7 @@
   },
   {
     "artifact_hash": "465ca33a6dad0ecff5523dc1a24a3ddbce8f241e5f29ebbdfc52f8c15486a5b9",
+    "betting_validated": false,
     "blocker": "HISTORICAL_ODDS_ACCESS; HISTORICAL_REVISION_TIMING_UNVERIFIED; PROSPECTIVE_CALIBRATION_PENDING; CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED",
     "blockers": [
       "HISTORICAL_ODDS_ACCESS",
@@ -114,7 +224,109 @@
     "observed_market_sides": 974,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [
+      {
+        "baseline_mae": 12.435704514363884,
+        "baseline_rmse": 14.712159399069616,
+        "brier": 0.24126736321531772,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper": 0.1
+          },
+          {
+            "lower": 0.1,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper": 0.2
+          },
+          {
+            "lower": 0.2,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper": 0.3
+          },
+          {
+            "lower": 0.3,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper": 0.4
+          },
+          {
+            "lower": 0.4,
+            "mean_probability": 0.48554847894545566,
+            "n": 4,
+            "observed_frequency": 0.25,
+            "upper": 0.5
+          },
+          {
+            "lower": 0.5,
+            "mean_probability": 0.5662135142383536,
+            "n": 10,
+            "observed_frequency": 0.5,
+            "upper": 0.6
+          },
+          {
+            "lower": 0.6,
+            "mean_probability": 0.6432214310630343,
+            "n": 14,
+            "observed_frequency": 0.7142857142857143,
+            "upper": 0.7
+          },
+          {
+            "lower": 0.7,
+            "mean_probability": 0.7362577976380611,
+            "n": 13,
+            "observed_frequency": 0.46153846153846156,
+            "upper": 0.8
+          },
+          {
+            "lower": 0.8,
+            "mean_probability": 0.8204519599054682,
+            "n": 2,
+            "observed_frequency": 1,
+            "upper": 0.9
+          },
+          {
+            "lower": 0.9,
+            "mean_probability": null,
+            "n": 0,
+            "observed_frequency": null,
+            "upper": 1.0
+          }
+        ],
+        "distinct_games": 43,
+        "log_loss": 0.675525823443978,
+        "mae": 11.707255679275006,
+        "market": "game_margin",
+        "model_version": "cfb-score-ridge-v1.1",
+        "n": 43,
+        "paired_mae_difference": {
+          "bootstrap_replicates": 2000,
+          "bootstrap_seed": 731,
+          "event_clusters": 43,
+          "interval_95": [
+            -1.9323069063467975,
+            0.43677842132360056
+          ],
+          "mean_event_weighted_difference": -0.728448835088879,
+          "reason": "EXPLORATORY_EVENT_BOOTSTRAP_NOT_MULTIPLICITY_ADJUSTED; cross-game dependence may remain"
+        },
+        "rmse": 13.495267665074856,
+        "sport": "CFB",
+        "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+      }
+    ],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 59,
+    "prospective_metric_scope": "Game margins and win probabilities; no qualified price-specific spread or moneyline settlement",
+    "prospective_scored_n": 43,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 1086,
@@ -127,6 +339,7 @@
   },
   {
     "artifact_hash": "b8eeb687974c85700e638211e1e4b7661573e4d30b84b21b9b1d335d2bcad310",
+    "betting_validated": false,
     "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -167,7 +380,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 44,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 96525,
@@ -181,6 +397,7 @@
   },
   {
     "artifact_hash": "24e668c69b9a1e2cb3d7e1a5644d6d36172f415f1a530841de54de4faa71d54e",
+    "betting_validated": false,
     "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -221,7 +438,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 4,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 5597,
@@ -234,6 +454,7 @@
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "NO_APPROVED_EMPIRICAL_MODEL",
     "brier_score": null,
     "champion_model": null,
@@ -244,14 +465,19 @@
     "model_version": null,
     "observed_market_sides": 0,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
+    "recommendations_enabled": false,
     "roi": null,
     "sport": "NHL",
     "status": "UNVALIDATED",
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "NO_APPROVED_EMPIRICAL_MODEL",
     "brier_score": null,
     "champion_model": null,
@@ -262,14 +488,19 @@
     "model_version": null,
     "observed_market_sides": 0,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
+    "recommendations_enabled": false,
     "roi": null,
     "sport": "NHL",
     "status": "UNVALIDATED",
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "NO_APPROVED_EMPIRICAL_MODEL",
     "brier_score": null,
     "champion_model": null,
@@ -280,14 +511,19 @@
     "model_version": null,
     "observed_market_sides": 402,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
+    "recommendations_enabled": false,
     "roi": null,
     "sport": "NFL",
     "status": "UNVALIDATED",
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "NO_APPROVED_EMPIRICAL_MODEL",
     "brier_score": null,
     "champion_model": null,
@@ -298,8 +534,12 @@
     "model_version": null,
     "observed_market_sides": 402,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
+    "recommendations_enabled": false,
     "roi": null,
     "sport": "NFL",
     "status": "UNVALIDATED",
@@ -307,6 +547,7 @@
   },
   {
     "artifact_hash": "1753938bf05fd8799fa3376118f9dc18e901acac6f4eee9ac7085f47be9ace2d",
+    "betting_validated": false,
     "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -344,7 +585,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 29,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 6152,
@@ -358,6 +602,7 @@
   },
   {
     "artifact_hash": "cda27b843f7d590a99c1d1ea178af8b95ce49d9f2108cdd9d1f233519876e717",
+    "betting_validated": false,
     "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -395,7 +640,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 29,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 6152,
@@ -409,6 +657,7 @@
   },
   {
     "artifact_hash": "7430baa50e6a72d160c012f68f9d9534514d4d2e99c352568b8cdbfa8d7097ef",
+    "betting_validated": false,
     "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -446,7 +695,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 29,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 6152,
@@ -460,6 +712,7 @@
   },
   {
     "artifact_hash": "be1bd8568222f610670679d2b9343fff92afa65af939e1b686493293dead8746",
+    "betting_validated": false,
     "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -497,7 +750,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 4,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 733,
@@ -511,6 +767,7 @@
   },
   {
     "artifact_hash": "aeb27a30cbf24f00e591090b3c239e3b7e8ecd21063d43381d166d09d4a2d6a9",
+    "betting_validated": false,
     "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -548,7 +805,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 29,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 6152,
@@ -562,6 +822,7 @@
   },
   {
     "artifact_hash": "31d9d594877bf70f6777c4fad63e454ef59fab5d9d0d6875f5bf493453ee884b",
+    "betting_validated": false,
     "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -602,7 +863,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 0,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 540,
@@ -616,6 +880,7 @@
   },
   {
     "artifact_hash": "3e390128db7266f5cc0ab178bade16c30c3780d2444d7b55997135e9fb00ca4b",
+    "betting_validated": false,
     "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -656,7 +921,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 0,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 540,
@@ -670,6 +938,7 @@
   },
   {
     "artifact_hash": "65d9cc5e976af68f43023b344eb6998521faf219a66099cee0574f779d169b2f",
+    "betting_validated": false,
     "blocker": "BENCHMARK_ADVANTAGE_INCONCLUSIVE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -710,7 +979,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 0,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 540,
@@ -724,6 +996,7 @@
   },
   {
     "artifact_hash": "3604d982893c4084c8d842d91dcf9c639507a94a53cc3b25938acf16968e8657",
+    "betting_validated": false,
     "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -764,7 +1037,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 1,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 5410,
@@ -778,6 +1054,7 @@
   },
   {
     "artifact_hash": "ed924a418675b323f658af5a5f45bc2bca3fdad2643fd8cd96df5b9ba0bef527",
+    "betting_validated": false,
     "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -818,7 +1095,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 1,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 5410,
@@ -831,6 +1111,7 @@
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "NO_APPROVED_EMPIRICAL_MODEL",
     "brier_score": null,
     "champion_model": null,
@@ -841,14 +1122,19 @@
     "model_version": null,
     "observed_market_sides": 0,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
+    "recommendations_enabled": false,
     "roi": null,
     "sport": "MLB",
     "status": "UNVALIDATED",
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "NO_APPROVED_EMPIRICAL_MODEL",
     "brier_score": null,
     "champion_model": null,
@@ -859,14 +1145,19 @@
     "model_version": null,
     "observed_market_sides": 348,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
+    "recommendations_enabled": false,
     "roi": null,
     "sport": "NBA",
     "status": "UNVALIDATED",
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "NO_APPROVED_EMPIRICAL_MODEL",
     "brier_score": null,
     "champion_model": null,
@@ -877,8 +1168,12 @@
     "model_version": null,
     "observed_market_sides": 348,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
+    "recommendations_enabled": false,
     "roi": null,
     "sport": "NBA",
     "status": "UNVALIDATED",
@@ -886,6 +1181,7 @@
   },
   {
     "artifact_hash": "137d72117ff5968fdc37376711268c5d3d20908479efc61c251dba0a39e35cdd",
+    "betting_validated": false,
     "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -923,7 +1219,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 31,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 51938,
@@ -937,6 +1236,7 @@
   },
   {
     "artifact_hash": "c5a95e4592724fe9deaa8ef8d0bb778d655c634e2ecb2d0fead40eef2cd0dcc6",
+    "betting_validated": false,
     "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -974,7 +1274,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 31,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 51938,
@@ -988,6 +1291,7 @@
   },
   {
     "artifact_hash": "0f11e1d5daa3f81a28b2bab7f1ef72433ec091213961f564876e3deec9c23865",
+    "betting_validated": false,
     "blocker": "PROSPECTIVE_CALIBRATION_AND_EXECUTABLE_PRICE_PENDING",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -1025,7 +1329,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 31,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 51938,
@@ -1039,6 +1346,7 @@
   },
   {
     "artifact_hash": "5f5dfa77d9408953d22f9acf2ad9f255aa3c20de11c536507fd7305e9ce39e31",
+    "betting_validated": false,
     "blocker": "FAILED_SIMPLE_BASELINE",
     "blockers": [
       "PROSPECTIVE_CALIBRATION_PENDING",
@@ -1076,7 +1384,10 @@
     "observed_market_sides": 0,
     "p_low": null,
     "probability": null,
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
     "prospective_frozen": 31,
+    "prospective_scored_n": 0,
     "prospective_settled": 0,
     "qualified_market_comparison_n": 0,
     "real_evaluation_sample": 51938,
@@ -1089,8 +1400,12 @@
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "TD props: no trained touchdown model",
     "market": "TD props",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
     "recommendations_enabled": false,
@@ -1099,8 +1414,12 @@
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "PRA: no fitted joint points/rebounds/assists distribution",
     "market": "PRA",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
     "recommendations_enabled": false,
@@ -1109,8 +1428,12 @@
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "player points: no trained points model",
     "market": "player points",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
     "recommendations_enabled": false,
@@ -1119,8 +1442,12 @@
     "synthetic_performance_sample": 0
   },
   {
+    "betting_validated": false,
     "blocker": "HR props: no trained home-run model",
     "market": "HR props",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 0,
     "real_training_sample": 0,
     "recommendations_enabled": false,
@@ -1165,6 +1492,9 @@
     },
     "market": "passing_yards",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 768,
     "real_training_sample": 2237,
     "recommendations_enabled": false,
@@ -1209,6 +1539,9 @@
     },
     "market": "receiving_yards",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 6307,
     "real_training_sample": 18684,
     "recommendations_enabled": false,
@@ -1253,6 +1586,9 @@
     },
     "market": "receptions",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 6307,
     "real_training_sample": 18684,
     "recommendations_enabled": false,
@@ -1297,6 +1633,9 @@
     },
     "market": "rushing_attempts",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 6307,
     "real_training_sample": 18684,
     "recommendations_enabled": false,
@@ -1341,6 +1680,9 @@
     },
     "market": "rushing_yards",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 6307,
     "real_training_sample": 18684,
     "recommendations_enabled": false,
@@ -1385,6 +1727,9 @@
     },
     "market": "assists",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 52029,
     "real_training_sample": 126582,
     "recommendations_enabled": false,
@@ -1429,6 +1774,9 @@
     },
     "market": "points",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 52029,
     "real_training_sample": 126582,
     "recommendations_enabled": false,
@@ -1473,6 +1821,9 @@
     },
     "market": "rebounds",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 52029,
     "real_training_sample": 126582,
     "recommendations_enabled": false,
@@ -1517,6 +1868,9 @@
     },
     "market": "threes",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 52029,
     "real_training_sample": 126582,
     "recommendations_enabled": false,
@@ -1561,6 +1915,30 @@
     },
     "market": "goalie_saves",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [
+      {
+        "baseline_mae": 4.1,
+        "baseline_rmse": 4.110960958218893,
+        "brier": null,
+        "calibration_bins": [],
+        "distinct_games": 1,
+        "log_loss": null,
+        "mae": 3.554262912260036,
+        "market": "goalie_saves",
+        "model_version": "causal-opportunity-ridge-v2",
+        "n": 2,
+        "paired_mae_difference": {
+          "event_clusters": 1,
+          "interval_95": null,
+          "reason": "TOO_FEW_EVENT_CLUSTERS"
+        },
+        "rmse": 3.5580170939019538,
+        "sport": "NHL",
+        "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+      }
+    ],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 2,
     "real_evaluation_sample": 5622,
     "real_training_sample": 13380,
     "recommendations_enabled": false,
@@ -1605,6 +1983,30 @@
     },
     "market": "shots_on_goal",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [
+      {
+        "baseline_mae": 0.9171428571428571,
+        "baseline_rmse": 1.1818871108769833,
+        "brier": null,
+        "calibration_bins": [],
+        "distinct_games": 1,
+        "log_loss": null,
+        "mae": 0.9855106324704017,
+        "market": "shots_on_goal",
+        "model_version": "causal-opportunity-ridge-v2",
+        "n": 35,
+        "paired_mae_difference": {
+          "event_clusters": 1,
+          "interval_95": null,
+          "reason": "TOO_FEW_EVENT_CLUSTERS"
+        },
+        "rmse": 1.2448960457643714,
+        "sport": "NHL",
+        "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+      }
+    ],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 35,
     "real_evaluation_sample": 96796,
     "real_training_sample": 232366,
     "recommendations_enabled": false,
@@ -1649,6 +2051,9 @@
     },
     "market": "hits_allowed",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 1515,
     "real_training_sample": 3169,
     "recommendations_enabled": false,
@@ -1693,6 +2098,9 @@
     },
     "market": "hitter_hits",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 12183,
     "real_training_sample": 23206,
     "recommendations_enabled": false,
@@ -1737,6 +2145,9 @@
     },
     "market": "pitcher_outs",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 1515,
     "real_training_sample": 3169,
     "recommendations_enabled": false,
@@ -1781,6 +2192,9 @@
     },
     "market": "pitcher_strikeouts",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 1515,
     "real_training_sample": 3169,
     "recommendations_enabled": false,
@@ -1825,6 +2239,9 @@
     },
     "market": "total_bases",
     "model_version": "causal-opportunity-ridge-v2",
+    "prospective_cohorts": [],
+    "prospective_evidence_as_of": "2026-10-18T03:23:38.015034+00:00",
+    "prospective_scored_n": 0,
     "real_evaluation_sample": 12183,
     "real_training_sample": 23206,
     "recommendations_enabled": false,

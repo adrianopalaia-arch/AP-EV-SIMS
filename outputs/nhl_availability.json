@@ -1,900 +1,962 @@
 {
   "authority": "LEAGUE_API",
   "event": {
-    "away_team": "New Jersey Devils",
-    "event_id": "2026020121",
-    "event_start": "2026-10-17T17:00:00+00:00",
-    "home_team": "Washington Capitals",
+    "away_team": "Columbus Blue Jackets",
+    "event_id": "2026020135",
+    "event_start": "2026-10-18T22:00:00+00:00",
+    "home_team": "Minnesota Wild",
     "market_identity_verified": false,
-    "odds_event_id": "841c71c033cf05ad1313e3d5ecd2d9ab",
-    "odds_event_start": "2026-10-17T17:10:00Z"
+    "odds_event_id": "3af4496cf626dc3538fb93001aa2fba0",
+    "odds_event_start": "2026-10-18T22:10:00Z"
   },
   "event_identity_reasons": [
     "BOOK_CANONICAL_START_MISMATCH"
   ],
-  "generated_at": "2026-10-17T02:31:50.360078+00:00",
+  "generated_at": "2026-10-18T03:22:46.524698+00:00",
   "identities": [
     {
       "aliases": [
-        "Anthony Beauvillier"
+        "Matt Boldy"
       ],
-      "player_id": "8478463",
-      "team_id": "WSH"
+      "player_id": "8481557",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Pierre-Luc Dubois"
+        "Bobby Brink"
       ],
-      "player_id": "8479400",
-      "team_id": "WSH"
+      "player_id": "8481553",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Ethen Frank"
+        "Blake Coleman"
       ],
-      "player_id": "8483573",
-      "team_id": "WSH"
+      "player_id": "8476399",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Boone Jenner"
+        "Joel Eriksson Ek"
       ],
-      "player_id": "8476432",
-      "team_id": "WSH"
+      "player_id": "8478493",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Jordan Kyrou"
+        "Marcus Foligno"
       ],
-      "player_id": "8479385",
-      "team_id": "WSH"
+      "player_id": "8475220",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Ryan Leonard"
+        "Nick Foligno"
       ],
-      "player_id": "8484186",
-      "team_id": "WSH"
+      "player_id": "8473422",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Ivan Miroshnichenko"
+        "Ryan Hartman"
       ],
-      "player_id": "8483491",
-      "team_id": "WSH"
+      "player_id": "8477451",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Alex Ovechkin"
+        "Kirill Kaprizov"
       ],
-      "player_id": "8471214",
-      "team_id": "WSH"
+      "player_id": "8478864",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Aliaksei Protas"
+        "Rieger Lorenz"
       ],
-      "player_id": "8481656",
-      "team_id": "WSH"
+      "player_id": "8483478",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Ilya Protas"
+        "Michael McCarron"
       ],
-      "player_id": "8484999",
-      "team_id": "WSH"
+      "player_id": "8477446",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Justin Sourdif"
+        "Tyler Pitlick"
       ],
-      "player_id": "8482088",
-      "team_id": "WSH"
+      "player_id": "8475752",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Dylan Strome"
+        "Maxim Shabanov"
       ],
-      "player_id": "8478440",
-      "team_id": "WSH"
+      "player_id": "8485702",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Alex Tuch"
+        "Nico Sturm"
       ],
-      "player_id": "8477949",
-      "team_id": "WSH"
+      "player_id": "8481477",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Tom Wilson"
+        "Yakov Trenin"
       ],
-      "player_id": "8476880",
-      "team_id": "WSH"
+      "player_id": "8478508",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Jakob Chychrun"
+        "Danila Yurov"
       ],
-      "player_id": "8479345",
-      "team_id": "WSH"
+      "player_id": "8483525",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Vincent Desharnais"
+        "Zach Bogosian"
       ],
-      "player_id": "8479576",
-      "team_id": "WSH"
+      "player_id": "8474567",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Martin Feh\u00e9rv\u00e1ry"
+        "Jonas Brodin"
       ],
-      "player_id": "8480796",
-      "team_id": "WSH"
+      "player_id": "8476463",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Justin Holl"
+        "Brock Faber"
       ],
-      "player_id": "8475718",
-      "team_id": "WSH"
+      "player_id": "8482122",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Cole Hutson"
+        "Quinn Hughes"
       ],
-      "player_id": "8484873",
-      "team_id": "WSH"
+      "player_id": "8480800",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Timothy Liljegren"
+        "Daemon Hunt"
       ],
-      "player_id": "8480043",
-      "team_id": "WSH"
+      "player_id": "8482094",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Dylan McIlrath"
+        "Matt Kiersted"
       ],
-      "player_id": "8475795",
-      "team_id": "WSH"
+      "player_id": "8482641",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Matt Roy"
+        "Olli Maatta"
       ],
-      "player_id": "8478911",
-      "team_id": "WSH"
+      "player_id": "8476874",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Charlie Lindgren"
+        "David Spacek"
       ],
-      "player_id": "8479292",
-      "team_id": "WSH"
+      "player_id": "8483766",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Logan Thompson"
+        "Jared Spurgeon"
       ],
-      "player_id": "8480313",
-      "team_id": "WSH"
+      "player_id": "8474716",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Jesper Boqvist"
+        "Filip Gustavsson"
       ],
-      "player_id": "8480003",
-      "team_id": "NJD"
+      "player_id": "8479406",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Jesper Bratt"
+        "Calvin Pickard"
       ],
-      "player_id": "8479407",
-      "team_id": "NJD"
+      "player_id": "8475717",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Connor Brown"
+        "Jesper Wallstedt"
       ],
-      "player_id": "8477015",
-      "team_id": "NJD"
+      "player_id": "8482661",
+      "team_id": "MIN"
     },
     {
       "aliases": [
-        "Luke Evangelista"
+        "Charlie Coyle"
       ],
-      "player_id": "8482146",
-      "team_id": "NJD"
+      "player_id": "8475745",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Cody Glass"
+        "Luca Del Bel Belluz"
       ],
-      "player_id": "8479996",
-      "team_id": "NJD"
+      "player_id": "8483432",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Arseny Gritsyuk"
+        "Adam Fantilli"
       ],
-      "player_id": "8481721",
-      "team_id": "NJD"
+      "player_id": "8484166",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Nico Hischier"
+        "Conor Garland"
       ],
-      "player_id": "8480002",
-      "team_id": "NJD"
+      "player_id": "8478856",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Jack Hughes"
+        "Danton Heinen"
       ],
-      "player_id": "8481559",
-      "team_id": "NJD"
+      "player_id": "8478046",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Amadeus Lombardi"
+        "Kent Johnson"
       ],
-      "player_id": "8483695",
-      "team_id": "NJD"
+      "player_id": "8482660",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Anthony Mantha"
+        "Matthew Knies"
       ],
-      "player_id": "8477511",
-      "team_id": "NJD"
+      "player_id": "8482720",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Timo Meier"
+        "Ryan Lomberg"
       ],
-      "player_id": "8478414",
-      "team_id": "NJD"
+      "player_id": "8479066",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Dawson Mercer"
+        "Sean Monahan"
       ],
-      "player_id": "8482110",
-      "team_id": "NJD"
+      "player_id": "8477497",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Stefan Noesen"
+        "Valeri Nichushkin"
       ],
-      "player_id": "8476474",
-      "team_id": "NJD"
+      "player_id": "8477501",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Evan Rodrigues"
+        "Mathieu Olivier"
       ],
-      "player_id": "8478542",
-      "team_id": "NJD"
+      "player_id": "8479671",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Declan Chisholm"
+        "Cole Sillinger"
       ],
-      "player_id": "8480990",
-      "team_id": "NJD"
+      "player_id": "8482705",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Brenden Dillon"
+        "Dmitri Voronkov"
       ],
-      "player_id": "8475455",
-      "team_id": "NJD"
+      "player_id": "8481716",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Dougie Hamilton"
+        "Emil Andrae"
       ],
-      "player_id": "8476462",
-      "team_id": "NJD"
+      "player_id": "8482126",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Luke Hughes"
+        "Jake Christiansen"
       ],
-      "player_id": "8482684",
-      "team_id": "NJD"
+      "player_id": "8481161",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Johnathan Kovacevic"
+        "Dante Fabbro"
       ],
-      "player_id": "8480192",
-      "team_id": "NJD"
+      "player_id": "8479371",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Brett Pesce"
+        "Erik Gudbranson"
       ],
-      "player_id": "8477488",
-      "team_id": "NJD"
+      "player_id": "8475790",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Jonas Siegenthaler"
+        "Denton Mateychuk"
       ],
-      "player_id": "8478399",
-      "team_id": "NJD"
+      "player_id": "8483485",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Jake Allen"
+        "Ivan Provorov"
       ],
-      "player_id": "8474596",
-      "team_id": "NJD"
+      "player_id": "8478500",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "Nico Daws"
+        "Carson Soucy"
       ],
-      "player_id": "8482076",
-      "team_id": "NJD"
+      "player_id": "8477369",
+      "team_id": "CBJ"
     },
     {
       "aliases": [
-        "R\u00e9mi Poirier"
+        "Zach Werenski"
       ],
-      "player_id": "8482465",
-      "team_id": "NJD"
+      "player_id": "8478460",
+      "team_id": "CBJ"
+    },
+    {
+      "aliases": [
+        "Jet Greaves"
+      ],
+      "player_id": "8482982",
+      "team_id": "CBJ"
+    },
+    {
+      "aliases": [
+        "Cam Talbot"
+      ],
+      "player_id": "8475660",
+      "team_id": "CBJ"
     }
   ],
-  "latest_source_capture": "2026-10-17T02:31:50.358079+00:00",
+  "latest_source_capture": "2026-10-18T03:22:46.448299+00:00",
   "recommendations_enabled": false,
   "records": [
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8478463",
-      "player_name": "Anthony Beauvillier",
-      "position": "R",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8479400",
-      "player_name": "Pierre-Luc Dubois",
-      "position": "C",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8483573",
-      "player_name": "Ethen Frank",
-      "position": "R",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8476432",
-      "player_name": "Boone Jenner",
-      "position": "C",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8479385",
-      "player_name": "Jordan Kyrou",
-      "position": "R",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8484186",
-      "player_name": "Ryan Leonard",
-      "position": "R",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8483491",
-      "player_name": "Ivan Miroshnichenko",
+      "player_id": "8481557",
+      "player_name": "Matt Boldy",
       "position": "L",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8471214",
-      "player_name": "Alex Ovechkin",
-      "position": "L",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8481656",
-      "player_name": "Aliaksei Protas",
-      "position": "L",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8484999",
-      "player_name": "Ilya Protas",
-      "position": "L",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8482088",
-      "player_name": "Justin Sourdif",
-      "position": "C",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8478440",
-      "player_name": "Dylan Strome",
-      "position": "C",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "WSH"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8477949",
-      "player_name": "Alex Tuch",
+      "player_id": "8481553",
+      "player_name": "Bobby Brink",
       "position": "R",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8476880",
-      "player_name": "Tom Wilson",
+      "player_id": "8476399",
+      "player_name": "Blake Coleman",
+      "position": "L",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8478493",
+      "player_name": "Joel Eriksson Ek",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8475220",
+      "player_name": "Marcus Foligno",
+      "position": "L",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8473422",
+      "player_name": "Nick Foligno",
+      "position": "L",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8477451",
+      "player_name": "Ryan Hartman",
       "position": "R",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8479345",
-      "player_name": "Jakob Chychrun",
+      "player_id": "8478864",
+      "player_name": "Kirill Kaprizov",
+      "position": "L",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8483478",
+      "player_name": "Rieger Lorenz",
+      "position": "L",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8477446",
+      "player_name": "Michael McCarron",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8475752",
+      "player_name": "Tyler Pitlick",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8485702",
+      "player_name": "Maxim Shabanov",
+      "position": "R",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8481477",
+      "player_name": "Nico Sturm",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8478508",
+      "player_name": "Yakov Trenin",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8483525",
+      "player_name": "Danila Yurov",
+      "position": "R",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8474567",
+      "player_name": "Zach Bogosian",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8479576",
-      "player_name": "Vincent Desharnais",
+      "player_id": "8476463",
+      "player_name": "Jonas Brodin",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8480796",
-      "player_name": "Martin Feh\u00e9rv\u00e1ry",
+      "player_id": "8482122",
+      "player_name": "Brock Faber",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8475718",
-      "player_name": "Justin Holl",
+      "player_id": "8480800",
+      "player_name": "Quinn Hughes",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8484873",
-      "player_name": "Cole Hutson",
+      "player_id": "8482094",
+      "player_name": "Daemon Hunt",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8480043",
-      "player_name": "Timothy Liljegren",
+      "player_id": "8482641",
+      "player_name": "Matt Kiersted",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8475795",
-      "player_name": "Dylan McIlrath",
+      "player_id": "8476874",
+      "player_name": "Olli Maatta",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8478911",
-      "player_name": "Matt Roy",
+      "player_id": "8483766",
+      "player_name": "David Spacek",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8479292",
-      "player_name": "Charlie Lindgren",
+      "player_id": "8474716",
+      "player_name": "Jared Spurgeon",
+      "position": "D",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8479406",
+      "player_name": "Filip Gustavsson",
       "position": "G",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
@@ -902,24 +964,24 @@
         "STARTING_GOALIE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8480313",
-      "player_name": "Logan Thompson",
+      "player_id": "8475717",
+      "player_name": "Calvin Pickard",
       "position": "G",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
@@ -927,528 +989,553 @@
         "STARTING_GOALIE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "WSH"
+      "team_id": "MIN"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8480003",
-      "player_name": "Jesper Boqvist",
+      "player_id": "8482661",
+      "player_name": "Jesper Wallstedt",
+      "position": "G",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "STARTING_GOALIE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "MIN"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8475745",
+      "player_name": "Charlie Coyle",
       "position": "C",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8479407",
-      "player_name": "Jesper Bratt",
+      "player_id": "8483432",
+      "player_name": "Luca Del Bel Belluz",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "CBJ"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8484166",
+      "player_name": "Adam Fantilli",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "CBJ"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8478856",
+      "player_name": "Conor Garland",
+      "position": "R",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "CBJ"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8478046",
+      "player_name": "Danton Heinen",
       "position": "L",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8477015",
-      "player_name": "Connor Brown",
-      "position": "R",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "NJD"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8482146",
-      "player_name": "Luke Evangelista",
-      "position": "R",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "NJD"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8479996",
-      "player_name": "Cody Glass",
+      "player_id": "8482660",
+      "player_name": "Kent Johnson",
       "position": "C",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8481721",
-      "player_name": "Arseny Gritsyuk",
+      "player_id": "8482720",
+      "player_name": "Matthew Knies",
+      "position": "L",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "CBJ"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8479066",
+      "player_name": "Ryan Lomberg",
+      "position": "L",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "CBJ"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8477497",
+      "player_name": "Sean Monahan",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "CBJ"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8477501",
+      "player_name": "Valeri Nichushkin",
       "position": "R",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8480002",
-      "player_name": "Nico Hischier",
-      "position": "C",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "NJD"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8481559",
-      "player_name": "Jack Hughes",
-      "position": "C",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "NJD"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8483695",
-      "player_name": "Amadeus Lombardi",
-      "position": "C",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "NJD"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8477511",
-      "player_name": "Anthony Mantha",
+      "player_id": "8479671",
+      "player_name": "Mathieu Olivier",
       "position": "R",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8478414",
-      "player_name": "Timo Meier",
-      "position": "R",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "NJD"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8482110",
-      "player_name": "Dawson Mercer",
+      "player_id": "8482705",
+      "player_name": "Cole Sillinger",
       "position": "C",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8476474",
-      "player_name": "Stefan Noesen",
-      "position": "R",
+      "player_id": "8481716",
+      "player_name": "Dmitri Voronkov",
+      "position": "L",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8478542",
-      "player_name": "Evan Rodrigues",
-      "position": "C",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "NJD"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8480990",
-      "player_name": "Declan Chisholm",
+      "player_id": "8482126",
+      "player_name": "Emil Andrae",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8475455",
-      "player_name": "Brenden Dillon",
+      "player_id": "8481161",
+      "player_name": "Jake Christiansen",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8476462",
-      "player_name": "Dougie Hamilton",
+      "player_id": "8479371",
+      "player_name": "Dante Fabbro",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8482684",
-      "player_name": "Luke Hughes",
+      "player_id": "8475790",
+      "player_name": "Erik Gudbranson",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8480192",
-      "player_name": "Johnathan Kovacevic",
+      "player_id": "8483485",
+      "player_name": "Denton Mateychuk",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8477488",
-      "player_name": "Brett Pesce",
+      "player_id": "8478500",
+      "player_name": "Ivan Provorov",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8478399",
-      "player_name": "Jonas Siegenthaler",
+      "player_id": "8477369",
+      "player_name": "Carson Soucy",
       "position": "D",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
         "ROLE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8474596",
-      "player_name": "Jake Allen",
+      "player_id": "8478460",
+      "player_name": "Zach Werenski",
+      "position": "D",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "role_confirmed": false,
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "sport": "NHL",
+      "team_id": "CBJ"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "8482982",
+      "player_name": "Jet Greaves",
       "position": "G",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
@@ -1456,24 +1543,24 @@
         "STARTING_GOALIE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     },
     {
       "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
+      "available_at": "2026-10-18T03:20:17.857954+00:00",
       "batting_order": null,
       "confirmed_ice_time": null,
       "confirmed_minutes": null,
       "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
+      "event_id": "2026020135",
+      "event_start": "2026-10-18T22:00:00+00:00",
       "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
       "injury_evidence": [],
-      "player_id": "8482076",
-      "player_name": "Nico Daws",
+      "player_id": "8475660",
+      "player_name": "Cam Talbot",
       "position": "G",
       "reasons": [
         "PARTICIPATION_NOT_CONFIRMED",
@@ -1481,62 +1568,37 @@
         "STARTING_GOALIE_NOT_CONFIRMED"
       ],
       "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
+      "source_hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "source_manifest": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
       "sport": "NHL",
-      "team_id": "NJD"
-    },
-    {
-      "availability_state": "UNKNOWN",
-      "available_at": "2026-10-17T02:31:50.358079+00:00",
-      "batting_order": null,
-      "confirmed_ice_time": null,
-      "confirmed_minutes": null,
-      "confirmed_starter": null,
-      "event_id": "2026020121",
-      "event_start": "2026-10-17T17:00:00+00:00",
-      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
-      "injury_evidence": [],
-      "player_id": "8482465",
-      "player_name": "R\u00e9mi Poirier",
-      "position": "G",
-      "reasons": [
-        "PARTICIPATION_NOT_CONFIRMED",
-        "ROLE_NOT_CONFIRMED",
-        "STARTING_GOALIE_NOT_CONFIRMED"
-      ],
-      "role_confirmed": false,
-      "source_hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "source_manifest": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "sport": "NHL",
-      "team_id": "NJD"
+      "team_id": "CBJ"
     }
   ],
-  "snapshot_hash": "1211eaea0037c99f7c2b8c4b3fd4ca1a3c974dd2fd3679872d87315c7f5bfcff",
+  "snapshot_hash": "a84655cc2eb350542afec3c7a408543e1a9ebeb03f1ecb33486309ac6ba5caca",
   "sources": [
     {
-      "captured_at": "2026-10-17T02:05:20.868472+00:00",
-      "hash": "5aca8dc89e1d822d7b3b19a8ba97c0ccff9151d93148f7e576167e8524cb8c5e",
-      "manifest_id": "81eef5587e75b7ddcd933106939faf6a8f9b3f52225253c470c6d38909af587a",
-      "url": "https://api-web.nhle.com/v1/schedule/2026-10-16"
+      "captured_at": "2026-10-18T03:22:45.655868+00:00",
+      "hash": "da4f3ab1cbca1f702afe9e0cedd75b057f35a19eb9fa56f19ed204b934886a94",
+      "manifest_id": "01619271ce7d2f9f494e54fb933e6b0f90d8f11b4290bcd6123ee6f40fbb2d8f",
+      "url": "https://api-web.nhle.com/v1/schedule/2026-10-17"
     },
     {
-      "captured_at": "2026-10-17T02:08:14.793015+00:00",
-      "hash": "fd5099c0f17198c1e0f8279b2ac151afa12cd7ed04055496ca707ff253e7ec2c",
-      "manifest_id": "6d0df464ba2c6672ef0e34174901b29ed5d73a7a2836ea395c52ebe5b1d82468",
-      "url": "https://api-web.nhle.com/v1/roster/WSH/current"
+      "captured_at": "2026-10-18T03:22:46.122729+00:00",
+      "hash": "dd58c164a70c283c1e74fb7e231fb1b1e0e2a33dde3afcadf3f195be645b9a05",
+      "manifest_id": "5619201e586707e1f220fc636694caaad61e571c6fe9bb9bbba9527851694cdd",
+      "url": "https://api-web.nhle.com/v1/roster/MIN/current"
     },
     {
-      "captured_at": "2026-10-17T02:08:15.061569+00:00",
-      "hash": "55cc8ba7decd2dcd1e6215fac09c9d6617a400531f94d39c586f143750b28429",
-      "manifest_id": "d0463199c29a1c6dd5f2f640611ec0ad189d447eeb096fc006217435820f621a",
-      "url": "https://api-web.nhle.com/v1/roster/NJD/current"
+      "captured_at": "2026-10-18T03:22:46.448299+00:00",
+      "hash": "0b4060c11f055afa34cd13d7f4669c77997d43ebc62deb64338751dbab417970",
+      "manifest_id": "31ac19f4c4e97c16dff433c6861c92d791dca5f3c7c2a11fa903a3a3874d0811",
+      "url": "https://api-web.nhle.com/v1/roster/CBJ/current"
     },
     {
-      "captured_at": "2026-10-17T02:31:50.358079+00:00",
-      "hash": "309fb266642f542171ee9fbecc36eb59c9bef766178fb562bfb529a987c1d18b",
-      "manifest_id": "ec1c9b124df511ccbbbe9ea64a47a39722e8e27b842905c0efa436cf92718d5a",
-      "url": "https://api-web.nhle.com/v1/gamecenter/2026020121/landing"
+      "captured_at": "2026-10-18T03:20:17.857954+00:00",
+      "hash": "e13b16f09c726cd4dab06f75177abc5cc771b4b2bc4fdb2524e9a397eba62274",
+      "manifest_id": "97715f65078053f735d996ccd3697571a13bc36cf3232fe0b29505f503d63b76",
+      "url": "https://api-web.nhle.com/v1/gamecenter/2026020135/landing"
     }
   ],
   "sport": "NHL"
