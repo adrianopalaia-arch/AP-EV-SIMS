@@ -1,0 +1,698 @@
+{
+  "additional_forecasts_this_refresh": 0,
+  "additional_simulation_draws_this_refresh": 0,
+  "branch": "ap-evisims-live",
+  "card_builders": [
+    {
+      "name": "CORE singles",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "name": "LEAN research",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "name": "2\u20133 leg parlay",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "name": "4\u20136 leg prop builder",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "name": "Moneyline hammer",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "name": "Tiny lotto",
+      "reason": "NO_VALIDATED_ELIGIBLE_LEGS",
+      "status": "UNAVAILABLE"
+    }
+  ],
+  "cfb_schedule_games": 4245,
+  "checkpoint_at": "2026-10-18T04:13:27.845469+00:00",
+  "current_commit": "144405405150ee3254e260610369cea6b0532e36",
+  "current_commit_scope": "Implementation checkpoint before the following Git-delivery metadata commit",
+  "current_price_age_checked_at": "2026-10-17T02:32:09.172684+00:00",
+  "current_task": "NFL_FULL_SLATE_COMPLETE_LOCAL_GITHUB_BLOCKED",
+  "data_quality_failures": [
+    {
+      "reason": "SCHEMA_DRIFT",
+      "snapshot_id": "31f087bc56db72ef98e83760f01ecdb450df165ba4905ffff411023224c53ee7"
+    },
+    {
+      "reason": "SCHEMA_DRIFT",
+      "snapshot_id": "5514f6cabf45acef2528706844f2daf08f00ee34bd7fcb6b7eca68a1e95a51b8"
+    },
+    {
+      "reason": "SCHEMA_DRIFT",
+      "snapshot_id": "720e9caf12fd4b96f1873e72eff6fb3d0907a96b7c4db97a092290c57602b744"
+    },
+    {
+      "reason": "SCHEMA_DRIFT",
+      "snapshot_id": "b77c647afa1f993fffde14381e1d79ec647f698a96b1c2f47c3d231a88a7be1f"
+    },
+    {
+      "reason": "SCHEMA_DRIFT",
+      "snapshot_id": "f7b3d4dae7b043feca94bfdacb8af422b74a35af070b069404f688ab3a051e89"
+    }
+  ],
+  "evaluation_count_semantics": "market-outcome rows, not unique games; historical revision timing unverified",
+  "execution_report": "execution_status.json",
+  "feed_hashes": {
+    "cfb_universe.json": "515b8eebd79f5dd857ceb9e402111973228a8b56b333d751e2216d48d025e4dc",
+    "early_watchlist.json": "ee17637eaa86269966e7c0bf172a6f036e9b9e2cd4fb716efdbace09111b9625",
+    "latest_edges.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "latest_passes.json": "89ebfdf632f8e9d7caaffcfa12afff01ec93748198d3c602e94a63cc7889778f",
+    "latest_predictions.json": "5d6da9206cd37a83750cb19996f5b94c6168980615bcde118b3a7bcc049af74d",
+    "market_research_passes.json": "31643dcaae82d409609991e10924487e03b972ec93bc883cd8f28bf03e6edd72",
+    "market_research_status.json": "510e5355f7f1898f7dccf667f7b946527eabc263e7308c3d7dbba53be9cb71dd",
+    "model_status.json": "0290bd5c2be2d385e6106d7c616647b4803ccf78373d867e353e2b2d19c0b1bf",
+    "p0_market_refresh.json": "7cd0dccf6a4ca4a691af3a5a7d6b43f248d12afab6850ef4c09a5ee6cc10d287",
+    "p0_measured_results.json": "d737d45f30266fe80adc44b8561009f05db11ed49e0939955669b1e0b95eb406",
+    "p0_passes.json": "f09c80f0440b5c7f402d0699b88c1a2bd19d3706aff1645e42940c9fe4157fb5",
+    "p0_preservation_audit.json": "e80e58a327998d389a645ab21f76a375d7f59ca4d786bb7716410bd17db0c3e7",
+    "p0_research_card.json": "ae0433540eab6fbcbf1ecf95a0f16bc105612d29481481493a9ca43d614ca8d2",
+    "paper_tracking_status.json": "6f1bd170c08d9f9079e75ad5c55b6f6f919da74d1aab5e867180841c5d0c145f",
+    "prospective_market_evidence.json": "1e94666504556c27cac5db884a4ad2180b022f8599e33fb571949e693442e981",
+    "prospective_price_comparisons.json": "d4078e0fa898d62440aa8e81078c1d0215a943ac476d319178be06de9696d4b1",
+    "provider_status.json": "13f14b12fd44ae4e27296bc705197e8b6a865d1142675af858509bb5a35b9bcd"
+  },
+  "fresh_priced_research_comparisons": 48,
+  "fresh_ranked_candidates": 0,
+  "games_scanned": 146,
+  "generated_at": "2026-10-18T04:12:53.096151+00:00",
+  "git_commit": "144405405150ee3254e260610369cea6b0532e36",
+  "git_commit_semantics": "Implementation checkpoint, not self-referential metadata commit",
+  "github_delivery": {
+    "configured_helper_error": "GitHub CLI helper MSYS named-object creation denied: 0xC0000022",
+    "credential_manager_error": "Windows credential enumeration denied: 0x5 Access is denied",
+    "credential_manager_version": "2.7.3",
+    "diagnosis": "This Codex session cannot access the existing Windows credential store or launch the configured shell helper. Existing user authentication has not been invalidated.",
+    "implementation_commit": "144405405150ee3254e260610369cea6b0532e36",
+    "manual_push_command": "& 'C:\\Program Files\\Git\\cmd\\git.exe' -C 'C:\\Users\\adria\\Documents\\Codex\\2026-10-13\\files-mentioned-by-the-user-ap\\outputs\\AP-EV-SIMS' push -u origin ap-evisims-live",
+    "no_additional_sportsbook_collection": true,
+    "no_force_push": true,
+    "no_history_reset": true,
+    "push_success": false,
+    "remote_matches_local": false,
+    "remote_sha": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+    "required_files_committed": {
+      "outputs/nfl_game_probabilities.json": true,
+      "outputs/nfl_market_comparisons.json": true,
+      "outputs/nfl_prop_research.json": true,
+      "outputs/nfl_sweep_status.json": true,
+      "reports/NFL_FULL_SLATE_SWEEP.md": true
+    },
+    "required_files_on_remote": {
+      "outputs/nfl_game_probabilities.json": false,
+      "outputs/nfl_market_comparisons.json": false,
+      "outputs/nfl_prop_research.json": false,
+      "outputs/nfl_sweep_status.json": false,
+      "reports/NFL_FULL_SLATE_SWEEP.md": false
+    },
+    "status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
+    "verified_at": "2026-10-18T04:13:27.845469+00:00"
+  },
+  "github_push_status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
+  "github_remote_verified_commit": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+  "local_comparison_hash": "729d1e6e9f4658a60a09e245203cc3428d0ba3ef4e6bb29e451ea4e88f3b9943",
+  "market_calculation_version": 1,
+  "market_research_report": "market_research_status.json",
+  "market_sides_scanned": 5060,
+  "mode": "PREGAME",
+  "models_validated": 0,
+  "new_challenger_predictions": 333,
+  "new_frozen_predictions": 0,
+  "new_primary_forecasts": 36,
+  "new_reference_forecasts": 120,
+  "next_task": "Verify pregame participation, obtain closing snapshots within quota, then settle the frozen Sunday cohort; no cash approval",
+  "nfl_reference_predictions": 120,
+  "nfl_sweep": {
+    "acceptance": {
+      "False": {
+        "covered_games": 12,
+        "game_probabilities": 12,
+        "model_status_counts": {
+          "FORECASTED": 12
+        },
+        "ok": true,
+        "problems": [],
+        "prop_scanned_games": 12,
+        "scheduled_games": 12,
+        "target_date": "2026-10-18"
+      },
+      "True": {
+        "covered_games": 12,
+        "game_probabilities": 12,
+        "model_status_counts": {
+          "FORECASTED": 12
+        },
+        "ok": true,
+        "problems": [],
+        "prop_scanned_games": 12,
+        "scheduled_games": 12,
+        "target_date": "2026-10-18"
+      }
+    },
+    "account_remaining": 280,
+    "actual_credits_spent": 63,
+    "additional_monte_carlo_draws": 0,
+    "after": {
+      "all_frozen_prop_records": 2202,
+      "fresh_comparisons": 0,
+      "game_forecasts": 12,
+      "main_market_games": 12,
+      "new_prop_records": 1370,
+      "new_prop_records_this_execution": 0,
+      "price_comparisons": 1600,
+      "prop_forecasts": 1494,
+      "prop_scanned_games": 12
+    },
+    "availability_counts": {
+      "REPORTED_UNAVAILABLE": 221,
+      "UNKNOWN": 1219
+    },
+    "before": {
+      "frozen_prop_records": 832,
+      "nfl_scheduled_games_with_forecasts": 1
+    },
+    "blockers": [
+      "No prospective NFL game-model calibration or price-relative validation",
+      "Game ridge does not beat Elo on every metric",
+      "Roster membership and reported injuries do not confirm participation or workload",
+      "Historical outcome revisions are reconstructed; historical book prices remain unverified",
+      "NFL TD and total outcome models unavailable; totals shown as price evidence only",
+      "Book settlement rules unverified; conditional EV cannot authorize cash",
+      "New NFL game forecasts have not settled; their settlement/CLV integration is not implemented in this sweep"
+    ],
+    "core_enabled": false,
+    "current_roster_players": 1440,
+    "current_snapshot_at": "2026-10-18T04:05:30.538307+00:00",
+    "current_snapshot_fresh_comparisons": 0,
+    "default_nfl_path": {
+      "additional_sportsbook_credits": 0,
+      "new_forecasts": 0,
+      "prop_comparisons": 1312,
+      "prop_forecasts": 1494,
+      "scheduled_games": 12
+    },
+    "files_changed": [
+      "PHASE2_PROGRESS.md",
+      "TASK_STATE.json",
+      "TEST_RESULTS.txt",
+      "outputs/book_rule_source_status.json",
+      "outputs/last_update.json",
+      "outputs/latest_passes.json",
+      "outputs/live_research_candidates.json",
+      "outputs/model_status.json",
+      "outputs/nfl_availability.json",
+      "outputs/nfl_challenger_prospective.json",
+      "outputs/nfl_game_model_status.json",
+      "outputs/nfl_game_probabilities.json",
+      "outputs/nfl_market_comparisons.json",
+      "outputs/nfl_prop_research.json",
+      "outputs/nfl_sweep_delivery.json",
+      "outputs/nfl_sweep_status.json",
+      "outputs/p0_preservation_audit.json",
+      "outputs/prospective_settlements.json",
+      "outputs/provider_status.json",
+      "outputs/reliability_manifest.json",
+      "outputs/reliability_status.json",
+      "outputs/validated_edges.json",
+      "outputs/week_ahead_game_probabilities.json",
+      "reports/DAILY_BETTING_DECISIONS.md",
+      "reports/MODEL_PERFORMANCE_SCOREBOARD.md",
+      "reports/NFL_FULL_SLATE_SWEEP.md",
+      "scripts/__init__.py",
+      "scripts/nfl_sweep_acceptance.py",
+      "src/ap_evsims/challenger_delivery.py",
+      "src/ap_evsims/nfl_game_model.py",
+      "src/ap_evsims/nfl_schedule.py",
+      "src/ap_evsims/nfl_sweep.py",
+      "src/ap_evsims/p0_refresh.py",
+      "src/ap_evsims/prop_availability.py",
+      "src/ap_evsims/prop_market_research.py",
+      "src/ap_evsims/prop_prices.py",
+      "src/ap_evsims/prop_prospective.py",
+      "tests/test_nfl_sweep.py",
+      "tests/test_nfl_sweep_acceptance.py"
+    ],
+    "generated_at": "2026-10-18T04:12:53.096151+00:00",
+    "github": {
+      "configured_helper_error": "GitHub CLI helper MSYS named-object creation denied: 0xC0000022",
+      "credential_manager_error": "Windows credential enumeration denied: 0x5 Access is denied",
+      "credential_manager_version": "2.7.3",
+      "diagnosis": "This Codex session cannot access the existing Windows credential store or launch the configured shell helper. Existing user authentication has not been invalidated.",
+      "implementation_commit": "144405405150ee3254e260610369cea6b0532e36",
+      "manual_push_command": "& 'C:\\Program Files\\Git\\cmd\\git.exe' -C 'C:\\Users\\adria\\Documents\\Codex\\2026-10-13\\files-mentioned-by-the-user-ap\\outputs\\AP-EV-SIMS' push -u origin ap-evisims-live",
+      "no_additional_sportsbook_collection": true,
+      "no_force_push": true,
+      "no_history_reset": true,
+      "push_success": false,
+      "remote_matches_local": false,
+      "remote_sha": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+      "required_files_committed": {
+        "outputs/nfl_game_probabilities.json": true,
+        "outputs/nfl_market_comparisons.json": true,
+        "outputs/nfl_prop_research.json": true,
+        "outputs/nfl_sweep_status.json": true,
+        "reports/NFL_FULL_SLATE_SWEEP.md": true
+      },
+      "required_files_on_remote": {
+        "outputs/nfl_game_probabilities.json": false,
+        "outputs/nfl_market_comparisons.json": false,
+        "outputs/nfl_prop_research.json": false,
+        "outputs/nfl_sweep_status.json": false,
+        "reports/NFL_FULL_SLATE_SWEEP.md": false
+      },
+      "status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
+      "verified_at": "2026-10-18T04:13:27.845469+00:00"
+    },
+    "historical_evaluation": {
+      "elo": {
+        "accuracy": 0.6152263374485597,
+        "brier": 0.22992437841693703,
+        "log_loss": 0.6517580761524118,
+        "mae": 10.411192573780964,
+        "n": 1951,
+        "non_tie_n": 1944,
+        "rmse": 13.421394741305544
+      },
+      "home_field": {
+        "accuracy": 0.5318930041152263,
+        "brier": 0.2496056460493145,
+        "log_loss": 0.6923734957328519,
+        "mae": 11.078975668817904,
+        "n": 1951,
+        "non_tie_n": 1944,
+        "rmse": 14.277557553337942
+      },
+      "ridge": {
+        "accuracy": 0.625,
+        "brier": 0.23066938637024242,
+        "log_loss": 0.6533710251771425,
+        "mae": 10.419089086269958,
+        "n": 1951,
+        "non_tie_n": 1944,
+        "rmse": 13.406240272969235
+      }
+    },
+    "historical_outcome_games": 3231,
+    "historical_provenance": "RECONSTRUCTED_HISTORY_UNVERIFIED_AS_OF",
+    "model_training_n": 803,
+    "original_forecasts_preserved": 389,
+    "phase1_protected_files_preserved": 18,
+    "push_status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
+    "quote_collection_time": "2026-10-18T04:01:00Z",
+    "quote_collection_time_basis": "Minute containing immutable provider captures; exact times in each quote",
+    "quotes_fresh_at_initial_publication": 1600,
+    "required_outputs": [
+      "nfl_sweep_status.json",
+      "nfl_game_probabilities.json",
+      "nfl_prop_research.json",
+      "nfl_market_comparisons.json"
+    ],
+    "schedule_games": 12,
+    "source_commit_before_delivery": "b607d97fc124c43ce7b145bcb473bb2bed390864",
+    "synthetic_empirical_observations": 0,
+    "tests": {
+      "command": "PYTHONPATH=src;. .venv/Scripts/python.exe -m unittest discover -s tests",
+      "failed": 0,
+      "passed": 404,
+      "skipped": 0,
+      "status": "PASS",
+      "verified_at": "2026-10-18T04:12:53.096151+00:00"
+    },
+    "validated_edges": 0
+  },
+  "p0_measured_report": "p0_measured_results.json",
+  "paper_tracking": {
+    "actual_cash_roi": null,
+    "baseline_probability_score": {
+      "brier": null,
+      "calibration": [],
+      "logloss": null,
+      "n": 0
+    },
+    "calibrated_predictions": 0,
+    "cash_committed": 0,
+    "cohort_candidates": 8,
+    "cohort_rejections": {
+      "COHORT_MARKET_ALREADY_FROZEN": 8,
+      "COMPLEMENTARY_SIDE_NOT_COHORT": 612,
+      "EVENT_MAPPING_UNVERIFIED": 126,
+      "INSUFFICIENT_CONTEMPORANEOUS_BOOKS": 626,
+      "OUTSIDE_24H_COHORT_WINDOW": 1170,
+      "STALE_OR_IMPOSSIBLE_PRICE": 408
+    },
+    "core_enabled": false,
+    "generated_at": "2026-10-16T05:37:59.093064+00:00",
+    "hypothetical_fixed_direction_cohort": {
+      "cost_scenarios": [
+        {
+          "cost_per_unit": 0,
+          "roi": null
+        },
+        {
+          "cost_per_unit": 0.005,
+          "roi": null
+        },
+        {
+          "cost_per_unit": 0.01,
+          "roi": null
+        }
+      ],
+      "max_drawdown_at_22": null,
+      "n": 0,
+      "not_a_model_strategy": true,
+      "profit_at_22": null,
+      "roi": null,
+      "roi_denominator": 0,
+      "sportsbook_rules_and_execution_unverified": true
+    },
+    "limitations": [
+      "100 candidates are an initial diagnostic, not model validation; candidates share games and are not independent.",
+      "Paired scores use identical settled observations; pushes/voids are excluded from binary scoring.",
+      "Missing models, costs, book-rule proof, true openers and near-start closes remain missing.",
+      "Market movement is evidence to investigate, not proof of profitability; fixed-direction ROI is counterfactual.",
+      "NHL goalie/line changes, NFL injury usage, MLB lineups and CFB depth surprises remain unproven research hypotheses."
+    ],
+    "model_predictions": 0,
+    "model_selected_roi": null,
+    "models_validated": 0,
+    "observations_logged": 1224,
+    "paired_model_comparison": {
+      "calibrated": {
+        "brier": null,
+        "calibration": [],
+        "logloss": null,
+        "market_brier": null,
+        "market_logloss": null,
+        "n": 0
+      },
+      "raw": {
+        "brier": null,
+        "calibration": [],
+        "logloss": null,
+        "market_brier": null,
+        "market_logloss": null,
+        "n": 0
+      }
+    },
+    "pass_reasons": {
+      "MISSING_FEATURES": 1224,
+      "MODEL_NOT_CALIBRATED": 1224,
+      "PAPER_ONLY_CORE_DISABLED": 1224,
+      "PRICE_MOVED": 182,
+      "PUSH_PROBABILITY_UNKNOWN": 98,
+      "QUOTE_EXECUTION_UNVERIFIED": 1224,
+      "STALE_PRICE": 408,
+      "UNKNOWN_SETTLEMENT_RULE": 1224,
+      "UNVERIFIED_LINEUP": 1224
+    },
+    "performance_by_model": {},
+    "performance_groups": {
+      "calibrated_probability_band": {
+        "UNAVAILABLE": {
+          "binary_n": 0,
+          "candidates": 8,
+          "market_brier": null,
+          "market_logloss": null,
+          "paired_calibrated": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "paired_raw": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "unique_games": 3
+        }
+      },
+      "market": {
+        "h2h": {
+          "binary_n": 0,
+          "candidates": 3,
+          "market_brier": null,
+          "market_logloss": null,
+          "paired_calibrated": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "paired_raw": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "unique_games": 3
+        },
+        "spreads": {
+          "binary_n": 0,
+          "candidates": 2,
+          "market_brier": null,
+          "market_logloss": null,
+          "paired_calibrated": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "paired_raw": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "unique_games": 2
+        },
+        "totals": {
+          "binary_n": 0,
+          "candidates": 3,
+          "market_brier": null,
+          "market_logloss": null,
+          "paired_calibrated": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "paired_raw": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "unique_games": 3
+        }
+      },
+      "odds_range": {
+        "-150_through_+150": {
+          "binary_n": 0,
+          "candidates": 6,
+          "market_brier": null,
+          "market_logloss": null,
+          "paired_calibrated": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "paired_raw": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "unique_games": 3
+        },
+        "above_+150": {
+          "binary_n": 0,
+          "candidates": 1,
+          "market_brier": null,
+          "market_logloss": null,
+          "paired_calibrated": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "paired_raw": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "unique_games": 1
+        },
+        "below_-150": {
+          "binary_n": 0,
+          "candidates": 1,
+          "market_brier": null,
+          "market_logloss": null,
+          "paired_calibrated": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "paired_raw": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "unique_games": 1
+        }
+      },
+      "sport": {
+        "CFB": {
+          "binary_n": 0,
+          "candidates": 8,
+          "market_brier": null,
+          "market_logloss": null,
+          "paired_calibrated": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "paired_raw": {
+            "brier": null,
+            "calibration": [],
+            "logloss": null,
+            "market_brier": null,
+            "market_logloss": null,
+            "n": 0
+          },
+          "unique_games": 3
+        }
+      }
+    },
+    "phase_id": "cfb-market-benchmark-100-v1",
+    "point_clv": {
+      "mean": null,
+      "n": 0
+    },
+    "price_clv": {
+      "mean": null,
+      "n": 0
+    },
+    "profitability_demonstrated": false,
+    "reference_unit": 22,
+    "rejected_observations": 1216,
+    "results": {},
+    "settled_candidates": 0,
+    "status": "COLLECTING",
+    "synthetic_performance_sample": 0,
+    "target": 100,
+    "unique_games": 3
+  },
+  "preferred_market_sides": 1466,
+  "prospective_distinct_games": 45,
+  "prospective_priced_settled": 8,
+  "prospective_scored_forecasts": 161,
+  "provider_check_basis": "BOUNDED_CURRENT_REFRESH_PLUS_RECORDED_CFBD_AUTH",
+  "providers_ok": false,
+  "publication_generation": "f67fa46d0031c748caf458f09974ea8735e50827bf6168651439276a6958c12f",
+  "qualified_edges": 0,
+  "ranked_research_candidates": 8,
+  "reader_contract": "Verify canonical JSON SHA256; retry if any file differs from this generation.",
+  "real_model_evaluation_sample": 340741,
+  "real_predictions_published": 380,
+  "reference_unit": 22,
+  "reference_unit_semantics": "DISPLAY_REFERENCE_ONLY_NOT_A_STAKE",
+  "refresh_failures": [
+    {
+      "checked_at": "2026-10-17T02:31:48.859885+00:00",
+      "sport": "NFL",
+      "status": "DAILY_QUOTA_BUDGET_LIMIT"
+    }
+  ],
+  "reliable_checkpoint_at": "2026-10-18T03:43:44.661612+00:00",
+  "reliable_outputs_manifest": "reliability_manifest.json",
+  "remote_verified_at": "2026-10-18T04:13:27.845469+00:00",
+  "remote_verified_sha": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+  "research_model_display": {
+    "issues": [
+      "NO_TRAINED_RESEARCH_MODEL"
+    ],
+    "real_evaluation_sample": 0,
+    "research_predictions": 0,
+    "scope": "Legacy CFB market-model display only; independent score/prop models are in model_status.json",
+    "status": "NO_TRAINED_RESEARCH_MODEL",
+    "trained_research_models": {},
+    "validated_models": 0
+  },
+  "research_status": "EARLY_WATCHLIST_WITH_SEPARATE_PASS_DECISIONS",
+  "scheduler_status": "EXECUTION_VERIFIED_PROVIDER_NETWORK_BLOCKED",
+  "simulation_draws": 15720000,
+  "simulation_scope": "Current P0 marginal runs: challenger prop forecasts plus preserved CFB forecasts; not joint game/parlay simulations",
+  "simulations_completed": 393,
+  "source_commit": "23be499b9adeb83b80f63badd958b4aa494bd23d",
+  "source_commit_semantics": "Source code for this execution; no source changed in the delivery receipt",
+  "sports_updated": [
+    "CFB",
+    "NHL",
+    "NBA",
+    "NFL",
+    "MLB"
+  ],
+  "status": "NO QUALIFYING BETS",
+  "suspended_or_superseded_quotes": 8,
+  "synthetic_performance_sample": 0,
+  "tests": {
+    "command": "PYTHONPATH=src;. .venv/Scripts/python.exe -m unittest discover -s tests",
+    "failed": 0,
+    "passed": 404,
+    "skipped": 0,
+    "status": "PASS",
+    "verified_at": "2026-10-18T04:12:53.096151+00:00"
+  },
+  "tests_failed": 0,
+  "tests_passed": 404,
+  "tests_semantics": "Full regression suite executed after final source changes",
+  "tests_verified_at": "2026-10-18T04:12:53.096151+00:00"
+}

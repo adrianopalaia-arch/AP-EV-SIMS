@@ -1,0 +1,673 @@
+{
+  "sport": "MLB",
+  "generated_at": "2026-10-17T02:11:06.921116+00:00",
+  "settled_n": 0,
+  "pending_n": 76,
+  "pending": [
+    {
+      "forecast_hash": "b11ad1480383fc9dab5887ed0fa6aa61fd9bfad13674fa0be963708f9dcf9781",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "680700",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "85238603e3bfe264fe0f8dbc3596feeae155eb20977ab91b60df5bc0be3a5fe8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "802415",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "daa713af8a47addbedf8bb20dcfc9270d5e39569491b5491a7ecf413b03f3851",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "680757",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "50e1338877143e1e9ec87ea5bd511a9eb7e66358d5162a5dc17549f1cd5a7124",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "800050",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f84c8b30e0f680862f57271c58a33c3f7565d459ef30ec2f92e36161619724f4",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "663993",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "110b677dd20e1bd408bebf28ef2205e43b3e1ed246f3e5bb7cdb49cc655b6fec",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "650490",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "eeeaab782c147884d4ae11df5a1192e92b4b7216b74a33ab3dcb7e0989c45165",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "689414",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "f38c9d1063b24e408af5c2f98dd9086430988a994640f4fb189a4004312b5871",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "683953",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "2f68bde4e1dddefd86268ee9ae20e201cc507688defae43cddbce4afb5f7ee63",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "800050",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "497420f6ad80da960a02423b5cb45c876fe9d4158e8edfadfaa72c976cb11806",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "670764",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "553a3f987f1c4ffdb7c60fb060655f4e90a309c394f556209e61b2824a5a3109",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "689414",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "722bb2d0777fe6ad046c7346012cbc98341e0b3cde476b9717dd14af39d57aa9",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "689414",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3c1279bdb34c057573b22a29f9627a19c7da5488cc25248a5b809d89a6901f88",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "666176",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "d9a5c243d391218d0b7d7f8cc667d6ecdfc8228c0960bab4ade52f4aff5bac17",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "690984",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "94e859a3c63600536e236e386367edbbb5332b93d5d44a218590a6a6e9fcb1c6",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "683953",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8c59c617d56fb82af3f14e1bec71cbed720ce8c6859310dd36009a4929ff7e57",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "683748",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "536de12d6216cc1a95e6e3dfad6af27ff2b4a07f7cbb7a20882f70cbd15802fc",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "676356",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "656870c5bafc0352aa1aa03cd807b91bdcdaa3d1048c11ae9799d6e2f397ecb1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "668723",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "bf4cba211e007b811b7749cabac0a1f0ce903dfcd5251276e08144e7c74d55c1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "680757",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "21177b2424232128989c5a52576cea7733e8b47781b31466d0c49138e9cd3667",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "668723",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d8a13685c448b2f05e434355101c91e4bd5a8f7146c510a97cf582a92d2a9524",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "650490",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c5830a0988dacbff91382573727dceb483735b7167c4d9d3e7504a20b488b4c4",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "683953",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "094ddbe6bb6ef00e7439624ff0e029b2834cb7e7b7c2790df498eeb9fa501d23",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "800050",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "861d319d6dc904c4e536d736dff2acdb66faab02660448823d8f57f9d5e01b9c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "680757",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "2e4da8990054a63cae51ddc46e616d7284f43c6ff487718a2e1cb1654af96184",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "683748",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "ef531ce2d7e406651065e0ce9b91cacd614fb3c8dfbc7a97de9c5ee2db487980",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "663993",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "5e4f3ca214dce63d058f363633ac6783b492b639aba44ad5d7632caae9b8d8db",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "608070",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "49c61dba21524ed24e7997f7a5850eb0cbcbda14385c0c9ffcc1bfe1a87a8749",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "802415",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0fd46f9c8e3a622a72670abbe02689f98fc59a535c7221a497269252ae0924dc",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "802415",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "cdd0f569cd9300277fe49b4d9a28983e58ed7e6a4cad8cc602b8fbcc8e458d46",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "676356",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "befd570855c794966d0819bd23e0fda45864c83804383a5b6062b0202d069aa0",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "666018",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "07a87fa90e8b2eabf648bb5d02a6e78b40c0e118891fa7fa982d82f468a5c4aa",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "683748",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cf889e92dafacb5a8720a2df60bbaf75499b98ee980c6d59fb56d2df15b326f8",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "672275",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "a607c084f86f8b668b8163881c8bdbd59e1ff962e2debfdaf8b074a06327c198",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "677587",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2bfdda20d07f351460a33d269eeac60609579ae683307a07c9388e5dcbbc9fed",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "666018",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c701e131cd9b23ff1dfbd1a64a80b485f86fdc4bf37482db43411cfc0e18e973",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "663993",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c4f0c483a4bfa38c1f407623d87534a1a7d9355442c463c88352b5ad8e8346a1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "683748",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "4f027e642f5e5bba019d9363d523ae538dbeeccd9649920d4275dab58004b3de",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "672275",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "8ba423c6f614ef2d2cde5a527b0a268286279cbabb01a6fc5d959439b9b6c71e",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "663993",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ead009f76c5d5970275780bcd77368a244939398dc0d34f25900808350231642",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "677587",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d4af46529c588ee2fc33d80190530dabdeec6f102a277d21eaa7e39195d8d093",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "680700",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "81539dbc6e30e717ae18e2e48c6d630dec0e3d324f0fe3f82d9bda1f302c7314",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "691406",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8da706c0d3c85da419e09797b8b530d328d528858c73fce36a0ef0f51714c91c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "690984",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "3d92ee7ff620d2b61503e4e0f0225265e77d291f16048d52a06152a7394f80d4",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "680700",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5d15a7601e7b79886e52f52514c738872abaea18ff5ad69406a8570bdca18422",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "666176",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "2fcaedc6fc7620a04aabde2a3824fcf99bb6708cf526495872451e9e943d10e0",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "672275",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0961b7b7bb839275d646ec2eb4d0b3c1fb74d6f4fd128279603ba7fcfa7bd567",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "691406",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "97ebd0c76d1e12703eeee3e4f0e6c0911c76f4ac399d94b0db287ad8b6f824e1",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "608070",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e610bcece82296050a58a5bc6158f290ab65f433f6cf445cd3795349fc957cc8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "608070",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "e03e6a4b870cee1c9d2187fb6ab00ba453efec7ee207c7891bfe93dc2e00bbc5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "800050",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "3165b56f033acb26ef555c5f113d0a71af726c92cb862acf03f57d9547394b93",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "683953",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "adb792f173ab6718d6006f48deb9cb2a04819bbf5a050da6a059d16b9bc13fa0",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "668723",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "57cb4a19a51a775732175346c34ae657a9879db08fcad852361d9635a75b0e0c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "676356",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "6b3b0ceea005d8a51a68b0205ad02b67d342316432f662796fb20c0a2f961182",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "650490",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "450b3658815941bef07b985f4e2433e618016fdcf0bda522315c9adebea14332",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "670764",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "948f5facf20d594838046c09e187da239858d58571d54599d2b6e984176573a9",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "650490",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8c73d83c2013999f1a30692424d39b20dd7598446ce1826c31749ea415eb84c3",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "666018",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "48febaa376c3224b599cc2a8c0a0510522511a28fb37fb5a34768be3cb998ea7",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "691406",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "dd9e32ebbaf82060298535adb6d0be4e96a7ca7e5af4175e1870896417977941",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "670764",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "994c3d9fad6a73c040eaafd53fef0bda7348ac13c602f8398808dd8063ea91e0",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "608070",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0c901795ff97b963f642a6fc8a4f35a6bb1b56918cbc4785222a8a1e0bd64476",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "677587",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "14e9a659570a2d7e38b44638e43f0bdd9bc78f7fa4b6ec4623b5e17520c7f794",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "670764",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "7cd520ee2e13d5d4fad4f5fb9b3c877a5fe8da70dbac67cae58fd8925a93836a",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "802415",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d739b0c310f591fe5343c95c96f041e37c72986d13e2268259f2846b7d548d70",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "666018",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "b7557e96115299abcea5a4b865e1b12e272773b867500ed6ae9f135933e8550a",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "666176",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "09e76c56fc1b65b21c23da7daab4e783647b00a13f40c769b530601b49fcd201",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "672275",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "8171ae5d1c53ff1db2a1c067958027460e603a1c449f65a7a1bb574e2f2d7f92",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "680700",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "d3a9269e177dac1f844fc3fc7fc23aa39f4763a36615754b84ac4399294a50e4",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "677587",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "82a846082e3b8fa2b095c580c22acf3d61d8897b6c148ddbfd71d45ac8dcc5ac",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "676356",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f10bb3fc4117e2ea994b9982fa2eef94ef4296db00992269218d8c248703c75e",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "666176",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "86ec9a2c21ed50e97e004b0bfaf7a34b7832ddc28e4a87d926d217b2a38b0f31",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "690984",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6927983c3dcf4ddd6adefb42456702a0c4dcaeac7936cdc6a83cd41339849929",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "680757",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c14d6592e9ed36b4f38572b39e86b752fb300d0f39ad9e36007a4250a3aeceec",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "689414",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "b73a96ace158a9f18bc4b8ee086573b50a43b45f7ee9f8ef0c8470df8796aacf",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "event_id": "849817",
+      "player_id": "668723",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d792d751691fb851d639d34e93042d5b6bfef64182f129432bb77d5504df81ca",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "690984",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c344ef10d5b9ee7cdf4af30b3f7c6d7d18b0348abfe123065ced7aca14216a5e",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "event_id": "849817",
+      "player_id": "691406",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    }
+  ],
+  "cohorts": [
+    {
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "hitter_hits",
+      "settled_n": 0,
+      "pending_n": 19,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "total_bases",
+      "settled_n": 0,
+      "pending_n": 19,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "hitter_hits",
+      "settled_n": 0,
+      "pending_n": 19,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "total_bases",
+      "settled_n": 0,
+      "pending_n": 19,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    }
+  ],
+  "mae": null,
+  "rmse": null,
+  "baseline_mae": null,
+  "crps": null,
+  "aggregate_metric_scope": "No pooled accuracy across markets/model versions; inspect cohorts",
+  "qualified_market_comparison_n": 0,
+  "real_cash_roi": null,
+  "hypothetical_roi": null,
+  "clv": null,
+  "recommendations_enabled": false,
+  "records": []
+}

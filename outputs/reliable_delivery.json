@@ -1,0 +1,582 @@
+{
+  "after_distinct_games": 45,
+  "after_priced_settled": 8,
+  "after_settled_forecast_observations": 161,
+  "before_commit": "2b448643c128b14e49c0ae7acaf6cacb990e598b",
+  "before_prospective_settled": 0,
+  "cohorts": [
+    {
+      "baseline_mae": 12.435704514363884,
+      "baseline_rmse": 14.712159399069616,
+      "brier": 0.23872968553121268,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.1
+        },
+        {
+          "lower": 0.1,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.2
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.3
+        },
+        {
+          "lower": 0.3,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.478334271243669,
+          "n": 5,
+          "observed_frequency": 0.2,
+          "upper": 0.5
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5653552974881055,
+          "n": 11,
+          "observed_frequency": 0.5454545454545454,
+          "upper": 0.6
+        },
+        {
+          "lower": 0.6,
+          "mean_probability": 0.6459576064528229,
+          "n": 15,
+          "observed_frequency": 0.6666666666666666,
+          "upper": 0.7
+        },
+        {
+          "lower": 0.7,
+          "mean_probability": 0.7369417301887757,
+          "n": 11,
+          "observed_frequency": 0.5454545454545454,
+          "upper": 0.8
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.8221722003376476,
+          "n": 1,
+          "observed_frequency": 1,
+          "upper": 0.9
+        },
+        {
+          "lower": 0.9,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 1.0
+        }
+      ],
+      "distinct_games": 43,
+      "log_loss": 0.6697276637509655,
+      "mae": 11.707255679275006,
+      "market": "game_margin",
+      "model_version": "cfb-score-ridge-v1",
+      "n": 43,
+      "paired_mae_difference": {
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 731,
+        "event_clusters": 43,
+        "interval_95": [
+          -1.9323069063467975,
+          0.43677842132360056
+        ],
+        "mean_event_weighted_difference": -0.728448835088879,
+        "reason": "EXPLORATORY_EVENT_BOOTSTRAP_NOT_MULTIPLICITY_ADJUSTED; cross-game dependence may remain"
+      },
+      "rmse": 13.495267665074856,
+      "sport": "CFB",
+      "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+    },
+    {
+      "baseline_mae": 12.435704514363884,
+      "baseline_rmse": 14.712159399069616,
+      "brier": 0.24126736321531772,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.1
+        },
+        {
+          "lower": 0.1,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.2
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.3
+        },
+        {
+          "lower": 0.3,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.48554847894545566,
+          "n": 4,
+          "observed_frequency": 0.25,
+          "upper": 0.5
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5662135142383536,
+          "n": 10,
+          "observed_frequency": 0.5,
+          "upper": 0.6
+        },
+        {
+          "lower": 0.6,
+          "mean_probability": 0.6432214310630343,
+          "n": 14,
+          "observed_frequency": 0.7142857142857143,
+          "upper": 0.7
+        },
+        {
+          "lower": 0.7,
+          "mean_probability": 0.7362577976380611,
+          "n": 13,
+          "observed_frequency": 0.46153846153846156,
+          "upper": 0.8
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": 0.8204519599054682,
+          "n": 2,
+          "observed_frequency": 1,
+          "upper": 0.9
+        },
+        {
+          "lower": 0.9,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 1.0
+        }
+      ],
+      "distinct_games": 43,
+      "log_loss": 0.675525823443978,
+      "mae": 11.707255679275006,
+      "market": "game_margin",
+      "model_version": "cfb-score-ridge-v1.1",
+      "n": 43,
+      "paired_mae_difference": {
+        "bootstrap_replicates": 2000,
+        "bootstrap_seed": 731,
+        "event_clusters": 43,
+        "interval_95": [
+          -1.9323069063467975,
+          0.43677842132360056
+        ],
+        "mean_event_weighted_difference": -0.728448835088879,
+        "reason": "EXPLORATORY_EVENT_BOOTSTRAP_NOT_MULTIPLICITY_ADJUSTED; cross-game dependence may remain"
+      },
+      "rmse": 13.495267665074856,
+      "sport": "CFB",
+      "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+    },
+    {
+      "baseline_mae": 4.1,
+      "baseline_rmse": 4.110960958218893,
+      "brier": null,
+      "calibration_bins": [],
+      "distinct_games": 1,
+      "log_loss": null,
+      "mae": 3.554262912260036,
+      "market": "goalie_saves",
+      "model_version": "causal-opportunity-ridge-v2",
+      "n": 2,
+      "paired_mae_difference": {
+        "event_clusters": 1,
+        "interval_95": null,
+        "reason": "TOO_FEW_EVENT_CLUSTERS"
+      },
+      "rmse": 3.5580170939019538,
+      "sport": "NHL",
+      "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+    },
+    {
+      "baseline_mae": 6.800000000000001,
+      "baseline_rmse": 6.8731361109758335,
+      "brier": null,
+      "calibration_bins": [],
+      "distinct_games": 1,
+      "log_loss": null,
+      "mae": 6.19984753401665,
+      "market": "goalie_saves",
+      "model_version": "opportunity-partial-pool-v1",
+      "n": 2,
+      "paired_mae_difference": {
+        "event_clusters": 1,
+        "interval_95": null,
+        "reason": "TOO_FEW_EVENT_CLUSTERS"
+      },
+      "rmse": 6.35175994147515,
+      "sport": "NHL",
+      "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+    },
+    {
+      "baseline_mae": 0.9171428571428571,
+      "baseline_rmse": 1.1818871108769833,
+      "brier": null,
+      "calibration_bins": [],
+      "distinct_games": 1,
+      "log_loss": null,
+      "mae": 0.9855106324704017,
+      "market": "shots_on_goal",
+      "model_version": "causal-opportunity-ridge-v2",
+      "n": 35,
+      "paired_mae_difference": {
+        "event_clusters": 1,
+        "interval_95": null,
+        "reason": "TOO_FEW_EVENT_CLUSTERS"
+      },
+      "rmse": 1.2448960457643714,
+      "sport": "NHL",
+      "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+    },
+    {
+      "baseline_mae": 0.9490740740740741,
+      "baseline_rmse": 1.324216516554619,
+      "brier": null,
+      "calibration_bins": [],
+      "distinct_games": 1,
+      "log_loss": null,
+      "mae": 0.9304642157434341,
+      "market": "shots_on_goal",
+      "model_version": "opportunity-partial-pool-v1",
+      "n": 36,
+      "paired_mae_difference": {
+        "event_clusters": 1,
+        "interval_95": null,
+        "reason": "TOO_FEW_EVENT_CLUSTERS"
+      },
+      "rmse": 1.391239050817535,
+      "sport": "NHL",
+      "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+    }
+  ],
+  "core_enabled": false,
+  "generated_at": "2026-10-18T03:24:07.788450+00:00",
+  "github_push_status": "BLOCKED_GIT_CREDENTIALS_UNAVAILABLE_CONNECTOR_403",
+  "historical_evaluation_changed": false,
+  "historical_training_changed": false,
+  "historical_usable_bookmaker_prices": 0,
+  "monte_carlo_draws_added": 0,
+  "new_forecasts_this_delivery": {
+    "CFB": 34,
+    "NHL": 49
+  },
+  "preservation": {
+    "all_local_forecast_hashes_verified": 988,
+    "baseline_commit": "bd4a8e5862e038c7ae77c71e50873f08dc234547",
+    "failures": [],
+    "original_forecasts_by_sport": {
+      "CFB": 59,
+      "MLB": 38,
+      "NBA": 124,
+      "NFL": 120,
+      "NHL": 48
+    },
+    "original_forecasts_verified": 389,
+    "protected_phase1_files": 18,
+    "verified_at": "2026-10-18T03:24:07.788450+00:00"
+  },
+  "priced_cohorts": [
+    {
+      "book": "fanduel",
+      "book_rules_status": "NOT_FROZEN_BEFORE_ENTRY",
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.1
+        },
+        {
+          "lower": 0.1,
+          "mean_probability": 0.19909920705731024,
+          "n": 1,
+          "observed_frequency": 0,
+          "upper": 0.2
+        },
+        {
+          "lower": 0.2,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.3
+        },
+        {
+          "lower": 0.3,
+          "mean_probability": 0.3652325843983231,
+          "n": 4,
+          "observed_frequency": 0,
+          "upper": 0.4
+        },
+        {
+          "lower": 0.4,
+          "mean_probability": 0.4652118673495651,
+          "n": 2,
+          "observed_frequency": 1,
+          "upper": 0.5
+        },
+        {
+          "lower": 0.5,
+          "mean_probability": 0.5222059187890786,
+          "n": 1,
+          "observed_frequency": 1,
+          "upper": 0.6
+        },
+        {
+          "lower": 0.6,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.7
+        },
+        {
+          "lower": 0.7,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.8
+        },
+        {
+          "lower": 0.8,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 0.9
+        },
+        {
+          "lower": 0.9,
+          "mean_probability": null,
+          "n": 0,
+          "observed_frequency": null,
+          "upper": 1.0
+        }
+      ],
+      "distinct_games": 1,
+      "distinct_player_games": 8,
+      "drawdown": null,
+      "entry_book_brier": 0.2157954532703401,
+      "entry_book_log_loss": 0.623705090096807,
+      "evaluation_policy_preregistered": false,
+      "hypothetical_roi": null,
+      "independent_consensus_n": 0,
+      "market": "shots_on_goal",
+      "model_version": "causal-opportunity-ridge-v2",
+      "n": 8,
+      "qualified_clv": null,
+      "raw_brier": 0.1721602973547163,
+      "raw_log_loss": 0.5283436354026684,
+      "return_interval": null,
+      "sport": "NHL"
+    }
+  ],
+  "push_status": "BLOCKED_GIT_CREDENTIALS_UNAVAILABLE_CONNECTOR_403",
+  "remote_verified_at": "2026-10-18T03:25:20.527967+00:00",
+  "remote_verified_sha": "2b448643c128b14e49c0ae7acaf6cacb990e598b",
+  "scheduler": {
+    "automatic_wagers": false,
+    "checked_at": "2026-10-18T03:24:07.788450+00:00",
+    "closing_capture_guaranteed": false,
+    "execution_script_test": "PASS_EXIT_0",
+    "fallback_automation_id": "ap-ev-sims-verified-research-cycle",
+    "fallback_interval_seconds": 1200,
+    "fallback_status": "EXECUTION_VERIFIED_PROVIDER_NETWORK_BLOCKED",
+    "git_writes_from_runner": false,
+    "native_installed": false,
+    "native_interval_seconds": 120,
+    "native_status": "BLOCKED_CIM_RESOURCE_UNAVAILABLE",
+    "native_task_name": "AP-EV-SIMS-Verified-Research",
+    "requires": "Local computer awake; native task needs signed-in user. Codex fallback also needs desktop app running.",
+    "verified_scheduled_completions": [
+      "2026-10-18T02:43:11.321041+00:00",
+      "2026-10-18T03:04:07.237713+00:00"
+    ]
+  },
+  "source_commit": "23be499b9adeb83b80f63badd958b4aa494bd23d",
+  "sports": {
+    "CFB": {
+      "availability_blockers": [],
+      "current_collection_status": null,
+      "exact_line_comparisons": 16,
+      "failed_forecast_count": 0,
+      "failed_forecast_reasons": {},
+      "fresh_comparisons": 0,
+      "future_forecasts": 45,
+      "historical_evaluation_n": 1086,
+      "priced_settled": 0,
+      "reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 16,
+        "MODEL_NOT_CALIBRATED": 16,
+        "PROSPECTIVE_EVIDENCE_INSUFFICIENT": 16,
+        "STALE_PRICE": 16,
+        "UNVERIFIED_LINEUP": 16
+      },
+      "source_identity_warnings": []
+    },
+    "MLB": {
+      "availability_blockers": [
+        "MODEL_COMPETITION_DOMAIN_MISMATCH",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "current_collection_status": 200,
+      "exact_line_comparisons": 0,
+      "failed_forecast_count": 91,
+      "failed_forecast_reasons": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 91
+      },
+      "fresh_comparisons": 0,
+      "future_forecasts": 38,
+      "historical_evaluation_n": {
+        "hits_allowed": 1515,
+        "hitter_hits": 12183,
+        "pitcher_outs": 1515,
+        "pitcher_strikeouts": 1515,
+        "total_bases": 12183
+      },
+      "priced_settled": 0,
+      "reasons": {},
+      "source_identity_warnings": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "POSTPONED_SCHEDULE_REVISION"
+      ]
+    },
+    "NBA": {
+      "availability_blockers": [
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "current_collection_status": 200,
+      "exact_line_comparisons": 64,
+      "failed_forecast_count": 16,
+      "failed_forecast_reasons": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 16
+      },
+      "fresh_comparisons": 0,
+      "future_forecasts": 124,
+      "historical_evaluation_n": {
+        "assists": 52029,
+        "points": 52029,
+        "rebounds": 52029,
+        "threes": 52029
+      },
+      "priced_settled": 0,
+      "reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 64,
+        "LONG_LAYOFF_ROLE_UNVERIFIED": 64,
+        "MODEL_MARKET_DISAGREEMENT": 2,
+        "PARTICIPATION_NOT_CONFIRMED": 64,
+        "PROSPECTIVE_CALIBRATION_PENDING": 64,
+        "ROLE_NOT_CONFIRMED": 64,
+        "STALE_PRICE": 64,
+        "TEAM_CHANGE_ROLE_UNVERIFIED": 10
+      },
+      "source_identity_warnings": []
+    },
+    "NFL": {
+      "availability_blockers": [
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PLAYER_REPORTED_OUT",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "current_collection_status": 200,
+      "exact_line_comparisons": 96,
+      "failed_forecast_count": 481,
+      "failed_forecast_reasons": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 481
+      },
+      "fresh_comparisons": 48,
+      "future_forecasts": 124,
+      "historical_evaluation_n": {
+        "passing_yards": 768,
+        "receiving_yards": 6307,
+        "receptions": 6307,
+        "rushing_attempts": 6307,
+        "rushing_yards": 6307
+      },
+      "priced_settled": 0,
+      "reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 96,
+        "MODEL_MARKET_DISAGREEMENT": 26,
+        "PARTICIPATION_NOT_CONFIRMED": 96,
+        "PROSPECTIVE_CALIBRATION_PENDING": 96,
+        "ROLE_NOT_CONFIRMED": 96,
+        "STALE_PRICE": 48,
+        "TEAM_CHANGE_ROLE_UNVERIFIED": 8
+      },
+      "source_identity_warnings": []
+    },
+    "NHL": {
+      "availability_blockers": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "STARTING_GOALIE_NOT_CONFIRMED"
+      ],
+      "current_collection_status": 200,
+      "exact_line_comparisons": 22,
+      "failed_forecast_count": 1,
+      "failed_forecast_reasons": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 1
+      },
+      "fresh_comparisons": 0,
+      "future_forecasts": 49,
+      "historical_evaluation_n": {
+        "goalie_saves": 5622,
+        "shots_on_goal": 96796
+      },
+      "priced_settled": 8,
+      "reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 22,
+        "PARTICIPATION_NOT_CONFIRMED": 22,
+        "PROSPECTIVE_CALIBRATION_PENDING": 22,
+        "ROLE_NOT_CONFIRMED": 22,
+        "STALE_PRICE": 22
+      },
+      "source_identity_warnings": [
+        "BOOK_CANONICAL_START_MISMATCH"
+      ]
+    }
+  },
+  "synthetic_performance_observations": 0,
+  "tests": {
+    "command": "PYTHONPATH=src .venv/Scripts/python.exe -m unittest discover -s tests (workspace TEMP)",
+    "failed": 0,
+    "passed": 378,
+    "skipped": 0,
+    "status": "PASS",
+    "verified_at": "2026-10-18T03:24:07.788450+00:00"
+  },
+  "validated_edges": 0
+}

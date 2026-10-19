@@ -1,0 +1,810 @@
+{
+  "activity": {
+    "MLB": {
+      "category": "ValueError",
+      "reason": "BLOCKED_SOURCE_ACCESS",
+      "status": "BLOCKED"
+    },
+    "NBA": {
+      "category": "ValueError",
+      "reason": "BLOCKED_SOURCE_ACCESS",
+      "status": "BLOCKED"
+    },
+    "NFL": {
+      "category": "ValueError",
+      "reason": "BLOCKED_SOURCE_ACCESS",
+      "status": "BLOCKED"
+    },
+    "NHL": {
+      "category": "ValueError",
+      "reason": "BLOCKED_SOURCE_ACCESS",
+      "status": "BLOCKED"
+    },
+    "book_rules": {
+      "generated_at": "2026-10-18T03:58:52.432731+00:00",
+      "scope": "Source documents only; no pre-entry applicability or completed terms parser is claimed.",
+      "settlement_authority": false,
+      "sources": [
+        {
+          "applicability": "NOT_VERIFIED_FOR_ENTRY",
+          "available_at": "2026-10-18T02:26:20.474196+00:00",
+          "book": "fanduel",
+          "captured_at": "2026-10-18T02:26:20.474196+00:00",
+          "historical_backdating_allowed": false,
+          "jurisdiction_scope": "IL",
+          "manifest_id": "92415c860d9855443be9ac80d2dc957f0971a1d7f2cbcced4ef674a6e7c5d0b1",
+          "path": "raw\\results\\book-rules-0c157d7555d518533b4c6598d82f3dd356f7f6cdf314cd69a6f7dda004972780.html",
+          "payload_hash": "0c157d7555d518533b4c6598d82f3dd356f7f6cdf314cd69a6f7dda004972780",
+          "reason": "JURISDICTION_AND_MARKET_TERMS_REVIEW_REQUIRED",
+          "settlement_authority": false,
+          "status": 200,
+          "url": "https://d38ayms4az88sz.cloudfront.net/SB/IL/2026-07-30T12-42-48.html"
+        },
+        {
+          "applicability": "NOT_VERIFIED_FOR_ENTRY",
+          "available_at": "2026-10-18T02:26:20.817771+00:00",
+          "book": "draftkings",
+          "captured_at": "2026-10-18T02:26:20.817771+00:00",
+          "historical_backdating_allowed": false,
+          "jurisdiction_scope": null,
+          "manifest_id": "7e3e02ca42cdb69f33db52e90204788de05b348080eb203fcf6f4f7c6d06aeac",
+          "path": "raw\\results\\book-rules-93127422017da4027107986835fb34f122a16d6fbd4653cbada4bdb27b59b727.html",
+          "payload_hash": "93127422017da4027107986835fb34f122a16d6fbd4653cbada4bdb27b59b727",
+          "reason": "JURISDICTION_AND_MARKET_TERMS_REVIEW_REQUIRED",
+          "settlement_authority": false,
+          "status": 200,
+          "url": "https://sportsbook.draftkings.com/help/sport-rules/hockey"
+        }
+      ]
+    },
+    "cfb_collection": {
+      "collected_at": "2026-10-18T03:58:52.444750+00:00",
+      "quota": {
+        "cached_historical_snapshots": 0,
+        "credits_consumed_recorded": 142,
+        "duplicate_requests_prevented": 0,
+        "provider_requests_used": 157,
+        "requests_recorded": 99,
+        "requests_remaining": 343
+      },
+      "results": [
+        {
+          "next_refresh_seconds": 16049.125006999999,
+          "sport": "CFB",
+          "status": "CACHED_CADENCE"
+        }
+      ]
+    },
+    "cfbd_results": {
+      "checked_at": "2026-10-18T03:58:53.004914+00:00",
+      "credential_present": true,
+      "endpoint": "games",
+      "historical": false,
+      "parameters": {
+        "classification": "fbs",
+        "seasonType": "regular",
+        "year": 2026
+      },
+      "provider": "cfbd",
+      "quota": {},
+      "rows": 0,
+      "snapshot_id": null,
+      "status": "NETWORK_ERROR"
+    },
+    "new_cfb_forecasts": 0,
+    "prop_collection": {
+      "cadence_aware": true,
+      "daily_cap": 24,
+      "daily_credits_used": 19,
+      "generated_at": "2026-10-18T03:58:52.441241+00:00",
+      "priority_markets": {
+        "MLB": [
+          "batter_hits",
+          "batter_total_bases"
+        ],
+        "NBA": [
+          "player_rebounds",
+          "player_assists"
+        ],
+        "NFL": [
+          "player_receptions",
+          "player_reception_yds"
+        ],
+        "NHL": [
+          "player_shots_on_goal",
+          "player_total_saves"
+        ]
+      },
+      "selection_policy": "Earliest event with 0s minimum lead, bounded fixed markets, never price-selected",
+      "sports": [
+        {
+          "books": {
+            "fanduel": 11
+          },
+          "event": {
+            "away_team": "Columbus Blue Jackets",
+            "commence_time": "2026-10-18T22:10:00Z",
+            "home_team": "Minnesota Wild",
+            "id": "3af4496cf626dc3538fb93001aa2fba0",
+            "sport_key": "icehockey_nhl",
+            "sport_title": "NHL"
+          },
+          "last_request_at": "2026-10-18T03:20:52.490754+00:00",
+          "latest_attempt": {
+            "checked_at": "2026-10-18T03:58:52.440242+00:00",
+            "sport": "NHL",
+            "status": "REFRESH_COOLDOWN"
+          },
+          "paired_offers": 11,
+          "record": {
+            "checked_at": "2026-10-18T03:20:52.490754+00:00",
+            "credential_present": true,
+            "endpoint": "sports/icehockey_nhl/events/3af4496cf626dc3538fb93001aa2fba0/odds",
+            "historical": false,
+            "parameters": {
+              "bookmakers": "draftkings,fanduel,betmgm,betrivers,caesars",
+              "markets": "player_shots_on_goal,player_total_saves",
+              "oddsFormat": "american"
+            },
+            "provider": "odds",
+            "quota": {
+              "x-requests-last": 1,
+              "x-requests-remaining": 347,
+              "x-requests-used": 153
+            },
+            "rows": 0,
+            "snapshot_id": "d5272ad6c09a716585ab867324e967baa2a5658b5f6d0cfd9d6eae15308cafea",
+            "status": 200
+          },
+          "rejections": {},
+          "sport": "NHL",
+          "status": 200,
+          "unique_players": 11
+        },
+        {
+          "books": {
+            "betrivers": 14,
+            "draftkings": 16,
+            "fanduel": 17
+          },
+          "event": {
+            "away_team": "Boston Celtics",
+            "commence_time": "2026-10-20T19:00:00Z",
+            "home_team": "Detroit Pistons",
+            "id": "26b036ff107f3c658258eaf4a6f26228",
+            "sport_key": "basketball_nba",
+            "sport_title": "NBA"
+          },
+          "last_request_at": "2026-10-18T03:20:52.848093+00:00",
+          "latest_attempt": {
+            "checked_at": "2026-10-18T03:58:52.440242+00:00",
+            "sport": "NBA",
+            "status": "REFRESH_COOLDOWN"
+          },
+          "paired_offers": 47,
+          "record": {
+            "checked_at": "2026-10-18T03:20:52.848093+00:00",
+            "credential_present": true,
+            "endpoint": "sports/basketball_nba/events/26b036ff107f3c658258eaf4a6f26228/odds",
+            "historical": false,
+            "parameters": {
+              "bookmakers": "draftkings,fanduel,betmgm,betrivers,caesars",
+              "markets": "player_rebounds,player_assists",
+              "oddsFormat": "american"
+            },
+            "provider": "odds",
+            "quota": {
+              "x-requests-last": 2,
+              "x-requests-remaining": 345,
+              "x-requests-used": 155
+            },
+            "rows": 0,
+            "snapshot_id": "7e506731a980f97e799b974959d9f2cddb7244cdfbdaf8dbfd4323e34e553906",
+            "status": 200
+          },
+          "rejections": {},
+          "sport": "NBA",
+          "status": 200,
+          "unique_players": 10
+        },
+        {
+          "books": {},
+          "event": {
+            "away_team": "Tampa Bay Rays",
+            "commence_time": "2026-10-18T21:10:00Z",
+            "home_team": "Cleveland Guardians",
+            "id": "f4ca2d8a09898a94722dde0633e0a7e1",
+            "sport_key": "baseball_mlb",
+            "sport_title": "MLB"
+          },
+          "last_request_at": "2026-10-18T03:20:53.162734+00:00",
+          "latest_attempt": {
+            "checked_at": "2026-10-18T03:58:52.440242+00:00",
+            "sport": "MLB",
+            "status": "REFRESH_COOLDOWN"
+          },
+          "paired_offers": 0,
+          "record": {
+            "checked_at": "2026-10-18T03:20:53.162734+00:00",
+            "credential_present": true,
+            "endpoint": "sports/baseball_mlb/events/f4ca2d8a09898a94722dde0633e0a7e1/odds",
+            "historical": false,
+            "parameters": {
+              "bookmakers": "draftkings,fanduel,betmgm,betrivers,caesars",
+              "markets": "batter_hits,batter_total_bases",
+              "oddsFormat": "american"
+            },
+            "provider": "odds",
+            "quota": {
+              "x-requests-last": 0,
+              "x-requests-remaining": 345,
+              "x-requests-used": 155
+            },
+            "rows": 0,
+            "snapshot_id": "e31d0eb4447b08d7ab0a87eeb9b9af14120b50fd8240fdeefd60a68148a2dfff",
+            "status": 200
+          },
+          "rejections": {},
+          "sport": "MLB",
+          "status": 200,
+          "unique_players": 0
+        },
+        {
+          "books": {
+            "betmgm": 28,
+            "betrivers": 13,
+            "draftkings": 28,
+            "fanduel": 30
+          },
+          "event": {
+            "away_team": "Houston Texans",
+            "commence_time": "2026-10-18T13:30:00Z",
+            "home_team": "Jacksonville Jaguars",
+            "id": "57418b2cf5aca558b3c98eafac1e264a",
+            "sport_key": "americanfootball_nfl",
+            "sport_title": "NFL"
+          },
+          "last_request_at": "2026-10-18T03:20:53.455671+00:00",
+          "latest_attempt": {
+            "checked_at": "2026-10-18T03:58:52.440242+00:00",
+            "sport": "NFL",
+            "status": "REFRESH_COOLDOWN"
+          },
+          "paired_offers": 99,
+          "record": {
+            "checked_at": "2026-10-18T03:20:53.455671+00:00",
+            "credential_present": true,
+            "endpoint": "sports/americanfootball_nfl/events/57418b2cf5aca558b3c98eafac1e264a/odds",
+            "historical": false,
+            "parameters": {
+              "bookmakers": "draftkings,fanduel,betmgm,betrivers,caesars",
+              "markets": "player_receptions,player_reception_yds",
+              "oddsFormat": "american"
+            },
+            "provider": "odds",
+            "quota": {
+              "x-requests-last": 2,
+              "x-requests-remaining": 343,
+              "x-requests-used": 157
+            },
+            "rows": 0,
+            "snapshot_id": "8eb99d4a1772411bd5366b278e8785f389aa13297e0290723d54f6311dac8c07",
+            "status": 200
+          },
+          "rejections": {
+            "MISSING_PROP_COUNTERPART": 13
+          },
+          "sport": "NFL",
+          "status": 200,
+          "unique_players": 15
+        }
+      ]
+    }
+  },
+  "automatic_wagers": false,
+  "core_enabled": false,
+  "evidence_policy": {
+    "automatic_promotion": false,
+    "calibration_end": "2026-11-15T02:20:21.787866+00:00",
+    "calibration_start": "2026-10-18T02:20:21.787866+00:00",
+    "cash_authority": false,
+    "inspected_retrospective_period": "EXPLORATORY_NOT_UNTOUCHED",
+    "minimum_distinct_event_clusters": 100,
+    "paper_direction": "Over for props and home for CFB; first fresh identity-matched book/line observation only.",
+    "policy_hash": "d6b260698c1a0fd6aa008cd4aa36642101736cf861af1c8ce73d39e469418b86",
+    "power_requirement": "Clustered paired proper-score confidence interval must exclude zero and have half-width <=0.01; the 100-game floor alone is not sufficient power.",
+    "probability_calibrator": "Fit only on calibration partition; freeze before selection and holdout. No fit exists yet.",
+    "registered_at": "2026-10-18T02:20:21.787866+00:00",
+    "selection_end": "2026-12-13T02:20:21.787866+00:00",
+    "selection_rule": "No promotion unless both Brier and log loss beat baseline and independent consensus on identical holdout observations; multiplicity correction required.",
+    "selection_start": "2026-11-15T02:20:21.787866+00:00",
+    "training_end": "2026-10-18T02:20:21.787866+00:00",
+    "uncertainty": "No p_low until coverage-tested uncertainty on untouched data. No arbitrary shrinkage multiplier.",
+    "untouched_holdout_end": "2027-01-24T02:20:21.787866+00:00",
+    "untouched_holdout_start": "2026-12-13T02:20:21.787866+00:00",
+    "version": "prospective-separated-phases-v1"
+  },
+  "generated_at": "2026-10-18T04:00:40.459660+00:00",
+  "model_training_runs": 0,
+  "monte_carlo_draws": 0,
+  "quota": {
+    "cached_historical_snapshots": 0,
+    "credits_consumed_recorded": 142,
+    "duplicate_requests_prevented": 0,
+    "provider_requests_used": 157,
+    "requests_recorded": 99,
+    "requests_remaining": 343
+  },
+  "sports": {
+    "CFB": {
+      "approved_edges": 0,
+      "availability_blockers": [],
+      "current_collection_status": null,
+      "exact_line_comparisons": 16,
+      "failed_forecast_count": 0,
+      "failed_forecast_reasons": {},
+      "fresh_comparisons": 0,
+      "future_forecasts": 45,
+      "historical_evaluation_n": 1086,
+      "historical_status": "RECONSTRUCTED_PREVIOUSLY_INSPECTED",
+      "independent_consensus_settled": 0,
+      "model_status": "RESEARCH_ONLY_PROSPECTIVE_GATE_PENDING",
+      "priced_settled": 0,
+      "prospective_cohorts": [
+        {
+          "baseline_mae": 12.435704514363884,
+          "baseline_rmse": 14.712159399069616,
+          "brier": 0.23872968553121268,
+          "calibration_bins": [
+            {
+              "lower": 0.0,
+              "mean_probability": null,
+              "n": 0,
+              "observed_frequency": null,
+              "upper": 0.1
+            },
+            {
+              "lower": 0.1,
+              "mean_probability": null,
+              "n": 0,
+              "observed_frequency": null,
+              "upper": 0.2
+            },
+            {
+              "lower": 0.2,
+              "mean_probability": null,
+              "n": 0,
+              "observed_frequency": null,
+              "upper": 0.3
+            },
+            {
+              "lower": 0.3,
+              "mean_probability": null,
+              "n": 0,
+              "observed_frequency": null,
+              "upper": 0.4
+            },
+            {
+              "lower": 0.4,
+              "mean_probability": 0.478334271243669,
+              "n": 5,
+              "observed_frequency": 0.2,
+              "upper": 0.5
+            },
+            {
+              "lower": 0.5,
+              "mean_probability": 0.5653552974881055,
+              "n": 11,
+              "observed_frequency": 0.5454545454545454,
+              "upper": 0.6
+            },
+            {
+              "lower": 0.6,
+              "mean_probability": 0.6459576064528229,
+              "n": 15,
+              "observed_frequency": 0.6666666666666666,
+              "upper": 0.7
+            },
+            {
+              "lower": 0.7,
+              "mean_probability": 0.7369417301887757,
+              "n": 11,
+              "observed_frequency": 0.5454545454545454,
+              "upper": 0.8
+            },
+            {
+              "lower": 0.8,
+              "mean_probability": 0.8221722003376476,
+              "n": 1,
+              "observed_frequency": 1,
+              "upper": 0.9
+            },
+            {
+              "lower": 0.9,
+              "mean_probability": null,
+              "n": 0,
+              "observed_frequency": null,
+              "upper": 1.0
+            }
+          ],
+          "distinct_games": 43,
+          "log_loss": 0.6697276637509655,
+          "mae": 11.707255679275006,
+          "market": "game_margin",
+          "model_version": "cfb-score-ridge-v1",
+          "n": 43,
+          "paired_mae_difference": {
+            "bootstrap_replicates": 2000,
+            "bootstrap_seed": 731,
+            "event_clusters": 43,
+            "interval_95": [
+              -1.9323069063467975,
+              0.43677842132360056
+            ],
+            "mean_event_weighted_difference": -0.728448835088879,
+            "reason": "EXPLORATORY_EVENT_BOOTSTRAP_NOT_MULTIPLICITY_ADJUSTED; cross-game dependence may remain"
+          },
+          "rmse": 13.495267665074856,
+          "sport": "CFB",
+          "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+        },
+        {
+          "baseline_mae": 12.435704514363884,
+          "baseline_rmse": 14.712159399069616,
+          "brier": 0.24126736321531772,
+          "calibration_bins": [
+            {
+              "lower": 0.0,
+              "mean_probability": null,
+              "n": 0,
+              "observed_frequency": null,
+              "upper": 0.1
+            },
+            {
+              "lower": 0.1,
+              "mean_probability": null,
+              "n": 0,
+              "observed_frequency": null,
+              "upper": 0.2
+            },
+            {
+              "lower": 0.2,
+              "mean_probability": null,
+              "n": 0,
+              "observed_frequency": null,
+              "upper": 0.3
+            },
+            {
+              "lower": 0.3,
+              "mean_probability": null,
+              "n": 0,
+              "observed_frequency": null,
+              "upper": 0.4
+            },
+            {
+              "lower": 0.4,
+              "mean_probability": 0.48554847894545566,
+              "n": 4,
+              "observed_frequency": 0.25,
+              "upper": 0.5
+            },
+            {
+              "lower": 0.5,
+              "mean_probability": 0.5662135142383536,
+              "n": 10,
+              "observed_frequency": 0.5,
+              "upper": 0.6
+            },
+            {
+              "lower": 0.6,
+              "mean_probability": 0.6432214310630343,
+              "n": 14,
+              "observed_frequency": 0.7142857142857143,
+              "upper": 0.7
+            },
+            {
+              "lower": 0.7,
+              "mean_probability": 0.7362577976380611,
+              "n": 13,
+              "observed_frequency": 0.46153846153846156,
+              "upper": 0.8
+            },
+            {
+              "lower": 0.8,
+              "mean_probability": 0.8204519599054682,
+              "n": 2,
+              "observed_frequency": 1,
+              "upper": 0.9
+            },
+            {
+              "lower": 0.9,
+              "mean_probability": null,
+              "n": 0,
+              "observed_frequency": null,
+              "upper": 1.0
+            }
+          ],
+          "distinct_games": 43,
+          "log_loss": 0.675525823443978,
+          "mae": 11.707255679275006,
+          "market": "game_margin",
+          "model_version": "cfb-score-ridge-v1.1",
+          "n": 43,
+          "paired_mae_difference": {
+            "bootstrap_replicates": 2000,
+            "bootstrap_seed": 731,
+            "event_clusters": 43,
+            "interval_95": [
+              -1.9323069063467975,
+              0.43677842132360056
+            ],
+            "mean_event_weighted_difference": -0.728448835088879,
+            "reason": "EXPLORATORY_EVENT_BOOTSTRAP_NOT_MULTIPLICITY_ADJUSTED; cross-game dependence may remain"
+          },
+          "rmse": 13.495267665074856,
+          "sport": "CFB",
+          "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+        }
+      ],
+      "prospective_distinct_games": 43,
+      "qualified_clv": null,
+      "qualified_roi": null,
+      "reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 16,
+        "MODEL_NOT_CALIBRATED": 16,
+        "PROSPECTIVE_EVIDENCE_INSUFFICIENT": 16,
+        "STALE_PRICE": 16,
+        "UNVERIFIED_LINEUP": 16
+      },
+      "rejected_candidates": 16,
+      "source_identity_warnings": [],
+      "unverified_price_identity_count": 0
+    },
+    "MLB": {
+      "approved_edges": 0,
+      "availability_blockers": [
+        "MODEL_COMPETITION_DOMAIN_MISMATCH",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "current_collection_status": "REFRESH_COOLDOWN",
+      "exact_line_comparisons": 0,
+      "failed_forecast_count": 91,
+      "failed_forecast_reasons": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 91
+      },
+      "fresh_comparisons": 0,
+      "future_forecasts": 38,
+      "historical_evaluation_n": {
+        "hits_allowed": 1515,
+        "hitter_hits": 12183,
+        "pitcher_outs": 1515,
+        "pitcher_strikeouts": 1515,
+        "total_bases": 12183
+      },
+      "historical_status": "RECONSTRUCTED_PREVIOUSLY_INSPECTED",
+      "independent_consensus_settled": 0,
+      "model_status": "RESEARCH_ONLY_PROSPECTIVE_GATE_PENDING",
+      "priced_settled": 0,
+      "prospective_cohorts": [],
+      "prospective_distinct_games": 0,
+      "qualified_clv": null,
+      "qualified_roi": null,
+      "reasons": {},
+      "rejected_candidates": 0,
+      "source_identity_warnings": [
+        "BOOK_CANONICAL_START_MISMATCH",
+        "POSTPONED_SCHEDULE_REVISION"
+      ],
+      "unverified_price_identity_count": 0
+    },
+    "NBA": {
+      "approved_edges": 0,
+      "availability_blockers": [
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "current_collection_status": "REFRESH_COOLDOWN",
+      "exact_line_comparisons": 64,
+      "failed_forecast_count": 16,
+      "failed_forecast_reasons": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 16
+      },
+      "fresh_comparisons": 0,
+      "future_forecasts": 124,
+      "historical_evaluation_n": {
+        "assists": 52029,
+        "points": 52029,
+        "rebounds": 52029,
+        "threes": 52029
+      },
+      "historical_status": "RECONSTRUCTED_PREVIOUSLY_INSPECTED",
+      "independent_consensus_settled": 0,
+      "model_status": "RESEARCH_ONLY_PROSPECTIVE_GATE_PENDING",
+      "priced_settled": 0,
+      "prospective_cohorts": [],
+      "prospective_distinct_games": 0,
+      "qualified_clv": null,
+      "qualified_roi": null,
+      "reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 64,
+        "LONG_LAYOFF_ROLE_UNVERIFIED": 64,
+        "MODEL_MARKET_DISAGREEMENT": 2,
+        "PARTICIPATION_NOT_CONFIRMED": 64,
+        "PROSPECTIVE_CALIBRATION_PENDING": 64,
+        "ROLE_NOT_CONFIRMED": 64,
+        "STALE_PRICE": 64,
+        "TEAM_CHANGE_ROLE_UNVERIFIED": 10
+      },
+      "rejected_candidates": 64,
+      "source_identity_warnings": [],
+      "unverified_price_identity_count": 0
+    },
+    "NFL": {
+      "approved_edges": 0,
+      "availability_blockers": [
+        "INJURY_OR_RESTRICTION_REPORTED",
+        "PARTICIPATION_NOT_CONFIRMED",
+        "PLAYER_REPORTED_OUT",
+        "ROLE_NOT_CONFIRMED"
+      ],
+      "current_collection_status": "REFRESH_COOLDOWN",
+      "exact_line_comparisons": 96,
+      "failed_forecast_count": 481,
+      "failed_forecast_reasons": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 481
+      },
+      "fresh_comparisons": 0,
+      "future_forecasts": 124,
+      "historical_evaluation_n": {
+        "passing_yards": 768,
+        "receiving_yards": 6307,
+        "receptions": 6307,
+        "rushing_attempts": 6307,
+        "rushing_yards": 6307
+      },
+      "historical_status": "RECONSTRUCTED_PREVIOUSLY_INSPECTED",
+      "independent_consensus_settled": 0,
+      "model_status": "RESEARCH_ONLY_PROSPECTIVE_GATE_PENDING",
+      "priced_settled": 0,
+      "prospective_cohorts": [],
+      "prospective_distinct_games": 0,
+      "qualified_clv": null,
+      "qualified_roi": null,
+      "reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 96,
+        "MODEL_MARKET_DISAGREEMENT": 26,
+        "PARTICIPATION_NOT_CONFIRMED": 96,
+        "PROSPECTIVE_CALIBRATION_PENDING": 96,
+        "ROLE_NOT_CONFIRMED": 96,
+        "STALE_PRICE": 96,
+        "TEAM_CHANGE_ROLE_UNVERIFIED": 8
+      },
+      "rejected_candidates": 96,
+      "source_identity_warnings": [],
+      "unverified_price_identity_count": 0
+    },
+    "NHL": {
+      "approved_edges": 0,
+      "availability_blockers": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "STARTING_GOALIE_NOT_CONFIRMED"
+      ],
+      "current_collection_status": "REFRESH_COOLDOWN",
+      "exact_line_comparisons": 22,
+      "failed_forecast_count": 1,
+      "failed_forecast_reasons": {
+        "INSUFFICIENT_PRIOR_PLAYER_HISTORY": 1
+      },
+      "fresh_comparisons": 0,
+      "future_forecasts": 49,
+      "historical_evaluation_n": {
+        "goalie_saves": 5622,
+        "shots_on_goal": 96796
+      },
+      "historical_status": "RECONSTRUCTED_PREVIOUSLY_INSPECTED",
+      "independent_consensus_settled": 0,
+      "model_status": "RESEARCH_ONLY_PROSPECTIVE_GATE_PENDING",
+      "priced_settled": 8,
+      "prospective_cohorts": [
+        {
+          "baseline_mae": 4.1,
+          "baseline_rmse": 4.110960958218893,
+          "brier": null,
+          "calibration_bins": [],
+          "distinct_games": 1,
+          "log_loss": null,
+          "mae": 3.554262912260036,
+          "market": "goalie_saves",
+          "model_version": "causal-opportunity-ridge-v2",
+          "n": 2,
+          "paired_mae_difference": {
+            "event_clusters": 1,
+            "interval_95": null,
+            "reason": "TOO_FEW_EVENT_CLUSTERS"
+          },
+          "rmse": 3.5580170939019538,
+          "sport": "NHL",
+          "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+        },
+        {
+          "baseline_mae": 6.800000000000001,
+          "baseline_rmse": 6.8731361109758335,
+          "brier": null,
+          "calibration_bins": [],
+          "distinct_games": 1,
+          "log_loss": null,
+          "mae": 6.19984753401665,
+          "market": "goalie_saves",
+          "model_version": "opportunity-partial-pool-v1",
+          "n": 2,
+          "paired_mae_difference": {
+            "event_clusters": 1,
+            "interval_95": null,
+            "reason": "TOO_FEW_EVENT_CLUSTERS"
+          },
+          "rmse": 6.35175994147515,
+          "sport": "NHL",
+          "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+        },
+        {
+          "baseline_mae": 0.9171428571428571,
+          "baseline_rmse": 1.1818871108769833,
+          "brier": null,
+          "calibration_bins": [],
+          "distinct_games": 1,
+          "log_loss": null,
+          "mae": 0.9855106324704017,
+          "market": "shots_on_goal",
+          "model_version": "causal-opportunity-ridge-v2",
+          "n": 35,
+          "paired_mae_difference": {
+            "event_clusters": 1,
+            "interval_95": null,
+            "reason": "TOO_FEW_EVENT_CLUSTERS"
+          },
+          "rmse": 1.2448960457643714,
+          "sport": "NHL",
+          "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+        },
+        {
+          "baseline_mae": 0.9490740740740741,
+          "baseline_rmse": 1.324216516554619,
+          "brier": null,
+          "calibration_bins": [],
+          "distinct_games": 1,
+          "log_loss": null,
+          "mae": 0.9304642157434341,
+          "market": "shots_on_goal",
+          "model_version": "opportunity-partial-pool-v1",
+          "n": 36,
+          "paired_mae_difference": {
+            "event_clusters": 1,
+            "interval_95": null,
+            "reason": "TOO_FEW_EVENT_CLUSTERS"
+          },
+          "rmse": 1.391239050817535,
+          "sport": "NHL",
+          "validation_status": "INSUFFICIENT_INDEPENDENT_PROSPECTIVE_EVIDENCE"
+        }
+      ],
+      "prospective_distinct_games": 2,
+      "qualified_clv": null,
+      "qualified_roi": null,
+      "reasons": {
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED": 22,
+        "PARTICIPATION_NOT_CONFIRMED": 22,
+        "PROSPECTIVE_CALIBRATION_PENDING": 22,
+        "ROLE_NOT_CONFIRMED": 22,
+        "STALE_PRICE": 22
+      },
+      "rejected_candidates": 22,
+      "source_identity_warnings": [
+        "BOOK_CANONICAL_START_MISMATCH"
+      ],
+      "unverified_price_identity_count": 0
+    }
+  }
+}

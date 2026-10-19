@@ -1,0 +1,19 @@
+{
+  "automatic_wagers": false,
+  "checked_at": "2026-10-18T03:24:07.788450+00:00",
+  "closing_capture_guaranteed": false,
+  "execution_script_test": "PASS_EXIT_0",
+  "fallback_automation_id": "ap-ev-sims-verified-research-cycle",
+  "fallback_interval_seconds": 1200,
+  "fallback_status": "EXECUTION_VERIFIED_PROVIDER_NETWORK_BLOCKED",
+  "git_writes_from_runner": false,
+  "native_installed": false,
+  "native_interval_seconds": 120,
+  "native_status": "BLOCKED_CIM_RESOURCE_UNAVAILABLE",
+  "native_task_name": "AP-EV-SIMS-Verified-Research",
+  "requires": "Local computer awake; native task needs signed-in user. Codex fallback also needs desktop app running.",
+  "verified_scheduled_completions": [
+    "2026-10-18T02:43:11.321041+00:00",
+    "2026-10-18T03:04:07.237713+00:00"
+  ]
+}

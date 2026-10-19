@@ -1,0 +1,790 @@
+{
+  "generated_at": "2026-10-18T04:05:30.538307+00:00",
+  "model_status": {
+    "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+    "available_outcome_games": 3231,
+    "beats_both_baselines": false,
+    "betting_validated": false,
+    "calibrated_probability": null,
+    "evaluation": {
+      "elo": {
+        "accuracy": 0.6152263374485597,
+        "brier": 0.22992437841693703,
+        "log_loss": 0.6517580761524118,
+        "mae": 10.411192573780964,
+        "n": 1951,
+        "non_tie_n": 1944,
+        "rmse": 13.421394741305544
+      },
+      "home_field": {
+        "accuracy": 0.5318930041152263,
+        "brier": 0.2496056460493145,
+        "log_loss": 0.6923734957328519,
+        "mae": 11.078975668817904,
+        "n": 1951,
+        "non_tie_n": 1944,
+        "rmse": 14.277557553337942
+      },
+      "ridge": {
+        "accuracy": 0.625,
+        "brier": 0.23066938637024242,
+        "log_loss": 0.6533710251771425,
+        "mae": 10.419089086269958,
+        "n": 1951,
+        "non_tie_n": 1944,
+        "rmse": 13.406240272969235
+      }
+    },
+    "evaluation_by_season": {
+      "2019": {
+        "elo": {
+          "accuracy": 0.6509803921568628,
+          "brier": 0.229297950391962,
+          "log_loss": 0.6509756260764479,
+          "mae": 10.788209133265948,
+          "n": 256,
+          "non_tie_n": 255,
+          "rmse": 13.992482170541379
+        },
+        "home_field": {
+          "accuracy": 0.5254901960784314,
+          "brier": 0.25121221737068716,
+          "log_loss": 0.6956028808601701,
+          "mae": 11.648268789486789,
+          "n": 256,
+          "non_tie_n": 255,
+          "rmse": 14.969836578567902
+        },
+        "ridge": {
+          "accuracy": 0.6392156862745098,
+          "brier": 0.2276966044657663,
+          "log_loss": 0.6474288818837449,
+          "mae": 10.723826961967955,
+          "n": 256,
+          "non_tie_n": 255,
+          "rmse": 13.75851152849734
+        }
+      },
+      "2020": {
+        "elo": {
+          "accuracy": 0.6470588235294118,
+          "brier": 0.22663566667896776,
+          "log_loss": 0.6449928276947919,
+          "mae": 10.288703645068715,
+          "n": 256,
+          "non_tie_n": 255,
+          "rmse": 13.301568412333566
+        },
+        "home_field": {
+          "accuracy": 0.5019607843137255,
+          "brier": 0.25119900081201973,
+          "log_loss": 0.6955543884959506,
+          "mae": 11.0946982700535,
+          "n": 256,
+          "non_tie_n": 255,
+          "rmse": 14.259149069969236
+        },
+        "ridge": {
+          "accuracy": 0.6392156862745098,
+          "brier": 0.2294102314510381,
+          "log_loss": 0.650808670259982,
+          "mae": 10.346895590098306,
+          "n": 256,
+          "non_tie_n": 255,
+          "rmse": 13.343608048216788
+        }
+      },
+      "2021": {
+        "elo": {
+          "accuracy": 0.5756457564575646,
+          "brier": 0.2338513905682587,
+          "log_loss": 0.6595320147040293,
+          "mae": 11.499266459394608,
+          "n": 272,
+          "non_tie_n": 271,
+          "rmse": 14.49199144953288
+        },
+        "home_field": {
+          "accuracy": 0.5166051660516605,
+          "brier": 0.2502187429756872,
+          "log_loss": 0.6935850903639218,
+          "mae": 12.179486240687435,
+          "n": 272,
+          "non_tie_n": 271,
+          "rmse": 15.482843197572793
+        },
+        "ridge": {
+          "accuracy": 0.6642066420664207,
+          "brier": 0.2296495780686918,
+          "log_loss": 0.6516968325997741,
+          "mae": 11.32050642571843,
+          "n": 272,
+          "non_tie_n": 271,
+          "rmse": 14.366987954990183
+        }
+      },
+      "2022": {
+        "elo": {
+          "accuracy": 0.587360594795539,
+          "brier": 0.23246599231122086,
+          "log_loss": 0.6572248128557104,
+          "mae": 9.167183606631072,
+          "n": 271,
+          "non_tie_n": 269,
+          "rmse": 11.947970743076299
+        },
+        "home_field": {
+          "accuracy": 0.5650557620817844,
+          "brier": 0.24706178148905353,
+          "log_loss": 0.6872647768451903,
+          "mae": 9.585015967299926,
+          "n": 271,
+          "non_tie_n": 269,
+          "rmse": 12.356082326629
+        },
+        "ridge": {
+          "accuracy": 0.6245353159851301,
+          "brier": 0.23302691836677225,
+          "log_loss": 0.6583350072026339,
+          "mae": 9.18186257574724,
+          "n": 271,
+          "non_tie_n": 269,
+          "rmse": 11.958882537070476
+        }
+      },
+      "2023": {
+        "elo": {
+          "accuracy": 0.5992647058823529,
+          "brier": 0.23556217563444926,
+          "log_loss": 0.664077026346766,
+          "mae": 10.578757030638215,
+          "n": 272,
+          "non_tie_n": 272,
+          "rmse": 13.732565993909562
+        },
+        "home_field": {
+          "accuracy": 0.5588235294117647,
+          "brier": 0.24678941142919014,
+          "log_loss": 0.6867147042135257,
+          "mae": 11.100830541085449,
+          "n": 272,
+          "non_tie_n": 272,
+          "rmse": 14.434637228214518
+        },
+        "ridge": {
+          "accuracy": 0.5882352941176471,
+          "brier": 0.23242719488332447,
+          "log_loss": 0.6569678474913611,
+          "mae": 10.541380342558174,
+          "n": 272,
+          "non_tie_n": 272,
+          "rmse": 13.594260752216034
+        }
+      },
+      "2024": {
+        "elo": {
+          "accuracy": 0.6433823529411765,
+          "brier": 0.22240045449652143,
+          "log_loss": 0.6354951905286167,
+          "mae": 10.354422129865569,
+          "n": 272,
+          "non_tie_n": 272,
+          "rmse": 13.453733280199366
+        },
+        "home_field": {
+          "accuracy": 0.5220588235294118,
+          "brier": 0.25138959746119616,
+          "log_loss": 0.6959737406598658,
+          "mae": 11.163838737084166,
+          "n": 272,
+          "non_tie_n": 272,
+          "rmse": 14.475202553378363
+        },
+        "ridge": {
+          "accuracy": 0.625,
+          "brier": 0.22982825731093814,
+          "log_loss": 0.6512059557210121,
+          "mae": 10.549023915749608,
+          "n": 272,
+          "non_tie_n": 272,
+          "rmse": 13.65293680333616
+        }
+      },
+      "2025": {
+        "elo": {
+          "accuracy": 0.6162361623616236,
+          "brier": 0.22888233708702083,
+          "log_loss": 0.6492538705021077,
+          "mae": 10.401493855960087,
+          "n": 272,
+          "non_tie_n": 271,
+          "rmse": 13.15069665662818
+        },
+        "home_field": {
+          "accuracy": 0.5350553505535055,
+          "brier": 0.24983681101584881,
+          "log_loss": 0.692855506286311,
+          "mae": 11.074512834720505,
+          "n": 272,
+          "non_tie_n": 271,
+          "rmse": 14.155531798705889
+        },
+        "ridge": {
+          "accuracy": 0.5830258302583026,
+          "brier": 0.2334097966245159,
+          "log_loss": 0.6587523513467527,
+          "mae": 10.517702934155412,
+          "n": 272,
+          "non_tie_n": 271,
+          "rmse": 13.3327581830184
+        }
+      },
+      "2026": {
+        "elo": {
+          "accuracy": 0.5822784810126582,
+          "brier": 0.23050495908247146,
+          "log_loss": 0.6530082504996065,
+          "mae": 9.767609317030784,
+          "n": 80,
+          "non_tie_n": 79,
+          "rmse": 12.572741956587352
+        },
+        "home_field": {
+          "accuracy": 0.5189873417721519,
+          "brier": 0.24859684193456266,
+          "log_loss": 0.6903555487306541,
+          "mae": 10.178310541375552,
+          "n": 80,
+          "non_tie_n": 79,
+          "rmse": 13.0107525451449
+        },
+        "ridge": {
+          "accuracy": 0.6708860759493671,
+          "brier": 0.22724340969121157,
+          "log_loss": 0.6462731251510361,
+          "mae": 9.60837714763529,
+          "n": 80,
+          "non_tie_n": 79,
+          "rmse": 12.443108060600347
+        }
+      }
+    },
+    "evaluation_fingerprint": "bc22b94163bae12e31d285bce216e7cfa051eeda9625be78d146d589945efe12",
+    "evaluation_path": "evaluations/nfl-game/bc22b94163bae12e31d285bce216e7cfa051eeda9625be78d146d589945efe12.jsonl",
+    "excluded_features": [
+      "QB availability",
+      "injuries",
+      "weather",
+      "travel distance",
+      "sportsbook lines"
+    ],
+    "features": [
+      "regular-season opponent-adjusted ridge team strengths",
+      "neutral-aware home field",
+      "prior-game rest differential"
+    ],
+    "generated_at": "2026-10-18T04:05:11.619955+00:00",
+    "historical_provenance": "RECONSTRUCTED_HISTORY_UNVERIFIED_AS_OF",
+    "limitations": [
+      "Current source revisions are not historical publication proof",
+      "Gaussian integer margin misses football key-number structure",
+      "No QB or injury adjustment; roster news retained separately",
+      "No prospective or price-relative validation"
+    ],
+    "model_version": "nfl-team-strength-ridge-v1",
+    "p_low": null,
+    "policy": {
+      "alpha": 20.0,
+      "elo_home_points": 55.0,
+      "elo_k": 20.0,
+      "elo_points_per_margin": 25.0,
+      "evaluation_first_season": 2019,
+      "half_life_days": 365.0,
+      "history_days": 1096,
+      "minimum_training_games": 400,
+      "result_embargo_hours": 48,
+      "season_retention": 0.6666666666666666,
+      "warmup_first_season": 2017
+    },
+    "seasons": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "source_manifest": {
+      "available_at": "2026-10-18T04:03:14.183132+00:00",
+      "bytes": 2185209,
+      "captured_at": "2026-10-18T04:03:14.183132+00:00",
+      "format": "csv",
+      "hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "historical_provenance": "RECONSTRUCTED_HISTORY_UNVERIFIED_AS_OF",
+      "manifest_id": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "path": "raw\\nfl\\public\\d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa.csv",
+      "redistribution_permission": "NOT_ASSUMED",
+      "sport": "NFL",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+    },
+    "status": "RESEARCH_ONLY",
+    "training_cutoff": "2026-10-16T00:15:00+00:00",
+    "training_n": 803
+  },
+  "predictions": [
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "Houston Texans",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_HOU_JAX",
+      "event_start": "2026-10-18T13:30:00+00:00",
+      "forecast_hash": "90d225379ca7e76146e01ee995b42a2802e83242756e93d0961aaaf60eae5fbd",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:14.382457+00:00",
+      "home_team": "Jacksonville Jaguars",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.46957823757615885,
+      "p_away_win_unconditional": 0.455630626681947,
+      "p_home_win": 0.5304217624238411,
+      "p_home_win_unconditional": 0.5146669514890393,
+      "p_low": null,
+      "p_tie": 0.029702421829013725,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -16.169299752064212,
+        18.15417873229898
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": 0.9924394901173856,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "a8bb0720319ed30f7847c37251998830f9a533fb512644cf7b9b10e1f79c0a0b",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "Baltimore Ravens",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_BAL_CLE",
+      "event_start": "2026-10-18T17:00:00+00:00",
+      "forecast_hash": "ed86af3bc364cb9bb88de084e8be0b0a817314c61a9c828cb0b09e193df1258d",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:17.053175+00:00",
+      "home_team": "Cleveland Browns",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.600418019872503,
+      "p_away_win_unconditional": 0.5830725759383247,
+      "p_home_win": 0.399581980127497,
+      "p_home_win_unconditional": 0.3880384777607939,
+      "p_low": null,
+      "p_tie": 0.028888946300881346,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -20.47071683092454,
+        13.852761653438652
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": -3.308977588742945,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "290e736186e7cd0f07cdcc5e2bd52e616639b887325c9db05e17fefee78d8fba",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "Carolina Panthers",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_CAR_PHI",
+      "event_start": "2026-10-18T17:00:00+00:00",
+      "forecast_hash": "72035a13aa7c1de3d0441d0a09b9a4c10587a4ee85868cdab8798d8ce1279173",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:17.980543+00:00",
+      "home_team": "Philadelphia Eagles",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.4043814294101374,
+      "p_away_win_unconditional": 0.3926652900183812,
+      "p_home_win": 0.5956185705898627,
+      "p_home_win_unconditional": 0.5783617192860613,
+      "p_low": null,
+      "p_tie": 0.028972990695557532,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -14.01420890010716,
+        20.309269584256032
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": 3.147530342074437,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "7d4e95bfcb5f90f0d63581a07ee850e19472918c7ede3e9c1eaa049d709b43e0",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "Chicago Bears",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_CHI_ATL",
+      "event_start": "2026-10-18T17:00:00+00:00",
+      "forecast_hash": "cec45270290e337fb56a2c9f5247b1a2cede4a4225519c08517104377fdf077c",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:18.899754+00:00",
+      "home_team": "Atlanta Falcons",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.5043571189733205,
+      "p_away_win_unconditional": 0.489336158471247,
+      "p_home_win": 0.4956428810266795,
+      "p_home_win_unconditional": 0.4808814513591636,
+      "p_low": null,
+      "p_tie": 0.02978239016958939,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -17.303741277354202,
+        17.01973720700899
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": -0.142002035172607,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "dbeb60fe6327a3c98ade81c60cd2efdc28efd334d72c10d7cd57ca0669454446",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "New Orleans Saints",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_NO_NYG",
+      "event_start": "2026-10-18T17:00:00+00:00",
+      "forecast_hash": "df66d4c409f283837545286ab3af6d61e8ad93e8eebd66025a37fdf6fc1cd97e",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:19.843633+00:00",
+      "home_team": "New York Giants",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.4421026640928991,
+      "p_away_win_unconditional": 0.4290659979560503,
+      "p_home_win": 0.5578973359071009,
+      "p_home_win_unconditional": 0.5414461314752499,
+      "p_low": null,
+      "p_tie": 0.029487870568699892,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -15.267996434317368,
+        19.055482050045825
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": 1.8937428078642287,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "b7c0f2b750799b2dae4449a1e5e17886a697251967eb1f04251665593df38ca1",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "New York Jets",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_NYJ_NE",
+      "event_start": "2026-10-18T17:00:00+00:00",
+      "forecast_hash": "8ae3e3dc60db15fe9519c65c4020bfdc82184cb76e81d9afa2ca8df20db5505c",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:20.792781+00:00",
+      "home_team": "New England Patriots",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.300403815848312,
+      "p_away_win_unconditional": 0.2925417443413072,
+      "p_home_win": 0.699596184151688,
+      "p_home_win_unconditional": 0.6812865790945885,
+      "p_low": null,
+      "p_tie": 0.02617167656410435,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -10.350389718389373,
+        23.97308876597382
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": 6.811349523792224,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "64afee8b4a799d4024430f4d90337161246bfe4ca96bd892e1b8f6bdb0ae8a64",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "Pittsburgh Steelers",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_PIT_TB",
+      "event_start": "2026-10-18T17:00:00+00:00",
+      "forecast_hash": "4d5a78e5212fefb9943641b9945df5a1cf87186117784e42ef30ae4c4e5413f7",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:21.719643+00:00",
+      "home_team": "Tampa Bay Buccaneers",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.42813510144281614,
+      "p_away_win_unconditional": 0.415579115702968,
+      "p_home_win": 0.5718648985571839,
+      "p_home_win_unconditional": 0.5550937263566192,
+      "p_low": null,
+      "p_tie": 0.02932715794041274,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -14.80647913454817,
+        19.516999349815023
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": 2.3552601076334265,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "652e253d2172e066c38817c5d177168ccd2d9b1d01eee7e383d74e3ed4290847",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "Tennessee Titans",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_TEN_IND",
+      "event_start": "2026-10-18T17:00:00+00:00",
+      "forecast_hash": "727e29ffaa036cc7c4d3824a6ea33dce6583ca3310521c0e9442001b9be4d827",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:22.612693+00:00",
+      "home_team": "Indianapolis Colts",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.30689227615277204,
+      "p_away_win_unconditional": 0.298787532208558,
+      "p_home_win": 0.693107723847228,
+      "p_home_win_unconditional": 0.6748033836469474,
+      "p_low": null,
+      "p_tie": 0.02640908414449461,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -10.592553629721387,
+        23.730924854641806
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": 6.569185612460211,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "f5a60fbdfc06da3bd34e3d1a9996e37588a5109c0b928140e131ad0b6cc42734",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "Arizona Cardinals",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_ARI_LA",
+      "event_start": "2026-10-18T20:05:00+00:00",
+      "forecast_hash": "9763c412875462ca3b9e4d85b53fe6cd809c5201ba6720d6e00ea05020de447e",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:23.534496+00:00",
+      "home_team": "Los Angeles Rams",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.3047298345430586,
+      "p_away_win_unconditional": 0.2967060127963983,
+      "p_home_win": 0.6952701654569414,
+      "p_home_win_unconditional": 0.6769630512823062,
+      "p_low": null,
+      "p_tie": 0.026330935921295484,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -10.512108675398604,
+        23.81136980896459
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": 6.649630566782993,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "437776424eb1d6957c5ad281f0b07dd6585fc9150def9b44d14245f74bf28f0a",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "Buffalo Bills",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_BUF_LV",
+      "event_start": "2026-10-18T20:25:00+00:00",
+      "forecast_hash": "e3b6c69b28ec09d8b2610952fd5e09e92166b31e7deb1a177ee3e055584455b6",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:24.473192+00:00",
+      "home_team": "Las Vegas Raiders",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.6257168568197976,
+      "p_away_win_unconditional": 0.6079618093776785,
+      "p_home_win": 0.3742831431802024,
+      "p_home_win_unconditional": 0.36366266062244423,
+      "p_low": null,
+      "p_tie": 0.028375529999877247,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -21.331119937164754,
+        12.992358547198439
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": -4.169380694983158,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "6d44ce8189b37c2b5977ebcf70451ca633b1978c9e5e56088a95c9c6008f7c2c",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "Los Angeles Chargers",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_LAC_KC",
+      "event_start": "2026-10-18T20:25:00+00:00",
+      "forecast_hash": "1cde18ca59df8e62da050485e55a152c3a93c0f33ce8357e4e8eec93363e6141",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:25.346429+00:00",
+      "home_team": "Kansas City Chiefs",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.3209255699625636,
+      "p_away_win_unconditional": 0.31229496440107296,
+      "p_home_win": 0.6790744300374364,
+      "p_home_win_unconditional": 0.6608121782846986,
+      "p_low": null,
+      "p_tie": 0.026892857314228413,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -11.108593598596972,
+        23.21488488576622
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": 6.053145643584625,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "d078933180e4cc711e84335acc2779531d275730f161d8132798ca936b92407e",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    },
+    {
+      "artifact_hash": "dc3fab7452104149803782c1257614f661e261bdb5733ba8ee156d3cb5f76742",
+      "away_team": "Dallas Cowboys",
+      "calibrated_probability": null,
+      "decision": "PASS",
+      "event_id": "2026_06_DAL_GB",
+      "event_start": "2026-10-19T00:20:00+00:00",
+      "forecast_hash": "bea5fcac0c6d08471d98caa37a537b21616deede30feb85ef4acad8714d45dd6",
+      "forecast_status": "FORECASTED",
+      "generated_at": "2026-10-18T04:05:26.275935+00:00",
+      "home_team": "Green Bay Packers",
+      "margin_sd": 13.39137627972872,
+      "model_data_cutoff": "2026-10-16T00:15:00+00:00",
+      "model_version": "nfl-team-strength-ridge-v1",
+      "p_away_win": 0.40485798169304565,
+      "p_away_win_unconditional": 0.3931247498835722,
+      "p_home_win": 0.5951420183069543,
+      "p_home_win_unconditional": 0.5778941447905377,
+      "p_low": null,
+      "p_tie": 0.02898110532589021,
+      "pass_reasons": [
+        "MODEL_NOT_CALIBRATED",
+        "PROSPECTIVE_VALIDATION_PENDING",
+        "QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE"
+      ],
+      "predictive_interval_10_90": [
+        -14.03021193593062,
+        20.293266548432573
+      ],
+      "probability_basis": "conditional_on_non_tie; unconditional win/tie/loss retained separately",
+      "projected_home_margin": 3.1315273062509776,
+      "recommendations_enabled": false,
+      "schedule_fingerprint": "05da17b4a6bc9e09ed0f4bb2ec33a366d2e2f5747064fdd091c4c311a262f935",
+      "source_hash": "d66def65990ab3cff51e5512c1fe87ef4eac6ce1a497b82c0a79d9b022e274fa",
+      "source_manifest": "8b72b15d89e9cd2d26ff348146784a7a51f4a04e1e7d34268886cf116c4818e7",
+      "status": "RESEARCH_ONLY"
+    }
+  ],
+  "target_date": "2026-10-18",
+  "validated_edges": 0
+}

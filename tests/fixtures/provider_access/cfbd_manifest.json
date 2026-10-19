@@ -1,0 +1,17 @@
+{
+  "availability_basis": "recorded_response",
+  "available_at": "2026-10-14T05:46:57.427976+00:00",
+  "endpoint": "games",
+  "fetched_at": "2026-10-14T05:46:57.427976+00:00",
+  "observed_at": "2026-10-14T05:46:57.427976+00:00",
+  "parameters": {
+    "endpoint_status": 401,
+    "seasonType": "regular",
+    "year": 2025
+  },
+  "payload_hash": "2f8665157fe2938c518a31677325e44153d004c8bb58386ecac2cf51778a0b7e",
+  "provider": "cfbd",
+  "qualification_reason": null,
+  "raw_path": "raw\\cfbd\\2f8665157fe2938c518a31677325e44153d004c8bb58386ecac2cf51778a0b7e.json",
+  "snapshot_id": "724afb0253a30838f8b23d706ebe11ddaf774de40b622f8239f1ab09b9722328"
+}

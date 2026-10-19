@@ -1,0 +1,4011 @@
+{
+  "branch": "ap-evisims-live",
+  "build_active": true,
+  "categories": {
+    "CFB": {
+      "moneyline": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "HISTORICAL_ODDS_ACCESS; HISTORICAL_REVISION_TIMING_UNVERIFIED; PROSPECTIVE_CALIBRATION_PENDING; CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.historical_provider_access"
+        ],
+        "files": [
+          "src/ap_evsims/models/cfb.py",
+          "src/ap_evsims/models/artifacts.py",
+          "src/ap_evsims/backtest.py",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 43,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 1086,
+        "real_sample_size": 1442,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 90,
+        "tests": [
+          "tests/test_phase2_cfb.py",
+          "tests/test_phase2_backtest.py"
+        ],
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+      },
+      "spread": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "HISTORICAL_ODDS_ACCESS; HISTORICAL_REVISION_TIMING_UNVERIFIED; PROSPECTIVE_CALIBRATION_PENDING; CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.historical_provider_access"
+        ],
+        "files": [
+          "src/ap_evsims/models/cfb.py",
+          "src/ap_evsims/models/artifacts.py",
+          "src/ap_evsims/backtest.py",
+          "src/ap_evsims/cfb_universe.py",
+          "src/ap_evsims/canonical.py",
+          "src/ap_evsims/cfb_history.py",
+          "src/ap_evsims/cfb_training.py",
+          "reports/CFB_TRAINING_VALIDATION.md",
+          "outputs/execution_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "implemented_substeps": {
+          "complete_real_feature_sets": 0,
+          "complete_season_independent_coverage_audit": "NOT_STARTED",
+          "completion_availability_timestamp": "COMPLETE",
+          "multi_query_play_assembly": "COMPLETE",
+          "normalized_prior_play_rows": 57978,
+          "prospective_baseline_feature_sets": 211,
+          "real_walk_forward_fit": "BLOCKED_ZERO_ELIGIBLE_ROWS",
+          "schedule_first_universe": "COMPLETE_FOR_CAPTURED_QUERIES",
+          "single_query_rolling_integration": "COMPLETE",
+          "source_recipe_recomputation": "COMPLETE",
+          "training_eligibility_audit": "COMPLETE"
+        },
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 43,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 1086,
+        "real_sample_size": 1442,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 90,
+        "tests": [
+          "tests/test_phase2_cfb.py",
+          "tests/test_phase2_backtest.py",
+          "tests/test_cfb_universe.py",
+          "tests/test_cfb_history.py",
+          "tests/test_cfb_training.py"
+        ],
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+      },
+      "total": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "No timestamp-authentic joined historical odds/features dataset; zero empirical model observations",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.historical_provider_access"
+        ],
+        "files": [
+          "src/ap_evsims/models/cfb.py",
+          "src/ap_evsims/models/artifacts.py",
+          "src/ap_evsims/backtest.py"
+        ],
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 43,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 90,
+        "tests": [
+          "tests/test_phase2_cfb.py",
+          "tests/test_phase2_backtest.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      }
+    },
+    "FOUNDATION": {
+      "GitHub_handoff": {
+        "blocker": "Local push authentication unavailable; connector code write and existing PR update both HTTP 403",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/handoff.py",
+          "src/ap_evsims/checkpoint.py",
+          "src/ap_evsims/publication.py",
+          "src/ap_evsims/__main__.py"
+        ],
+        "next_action": "Run the exact manual push command in reports/PREDICTIVE_EDGE_DELIVERY.md; existing PR #1 will receive the branch update",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_handoff_cycle.py",
+          "tests/test_checkpoint.py"
+        ],
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
+      },
+      "calibration": {
+        "blocker": null,
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/models/probability_calibration.py"
+        ],
+        "next_action": "Keep fit/selection/evaluation chronologically separate; attach only to exact fitted artifact.",
+        "real_sample_size": 0,
+        "status": "COMPLETE",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_phase2_calibration.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "canonical_identity": {
+        "blocker": "Current CFB identity: 61/62 matched; 1 unmatched. Other-sport player identity and historical mapping proof remain absent.",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/identity.py",
+          "src/ap_evsims/execution.py"
+        ],
+        "next_action": "Collect timestamp-safe roster and schedule revision archives; preserve uniquely mapped source team IDs.",
+        "real_sample_size": 61,
+        "sample_unit": "current uniquely matched CFB events; not evaluation observations",
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_identity.py",
+          "tests/test_governance_execution.py"
+        ],
+        "updated_at": "2026-10-14T22:13:39.467379+00:00"
+      },
+      "champion_challenger": {
+        "blocker": "No real champion, challenger or prospective holdout observations.",
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [
+          "src/ap_evsims/governance.py"
+        ],
+        "next_action": "Register the first real experiment before fitting; preserve one-use final holdout and manual promotion.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_governance_execution.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "feature_source_audits": {
+        "blocker": "Inventory is complete; historical coverage, full-universe missingness and incremental value remain unmeasured.",
+        "dependencies": [],
+        "files": [
+          "outputs/feature_source_audit.json",
+          "reports/FEATURE_SOURCE_AUDIT.md",
+          "src/ap_evsims/diagnostics.py"
+        ],
+        "next_action": "Enable only provenance-proven features; run pre-registered matched source/feature ablations on unseen samples.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_phase2_canonical.py",
+          "tests/test_diagnostics_redteam.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "historical_provider_access": {
+        "blocker": "Fresh historical NCAAF odds probe returned HTTP 401; earliest usable historical date is unestablished",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/providers/live.py",
+          "src/ap_evsims/providers/validation.py"
+        ],
+        "next_action": "Do not retry until entitlement changes; accumulate owned current snapshots.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_provider_validation.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "historical_replay": {
+        "blocker": "CFB replay now freezes decisions before verified result reveals; no qualifying historical dataset; other fitted sport models not implemented.",
+        "dependencies": [
+          "FOUNDATION.local_warehouse"
+        ],
+        "files": [
+          "src/ap_evsims/replay.py",
+          "src/ap_evsims/backtest.py",
+          "src/ap_evsims/cycle.py",
+          "src/ap_evsims/paper_market.py",
+          "src/ap_evsims/paper_tracking.py",
+          "outputs/paper_tracking_status.json",
+          "reports/PERFORMANCE_AUDIT.md"
+        ],
+        "implemented_substeps": {
+          "prospective_price_result_ledger": "COMPLETE; empirical results pending"
+        },
+        "next_action": "Resume real CFB spread replay when historical odds and timestamp-authentic joined features exist; then extend the same ledger to calibrated sport models.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 90,
+        "tests": [
+          "tests/test_replay_settlement.py",
+          "tests/test_phase2_backtest.py",
+          "tests/test_handoff_cycle.py",
+          "tests/test_paper_tracking.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "local_warehouse": {
+        "blocker": null,
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/warehouse.py",
+          "src/ap_evsims/research_store.py"
+        ],
+        "next_action": "Use local DuckDB/Parquet for remaining work. Preserve immutable versions.",
+        "real_sample_size": 9390,
+        "sample_unit": "captured source rows, including revisions",
+        "status": "COMPLETE",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_warehouse.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "odds_archive": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.local_warehouse"
+        ],
+        "files": [
+          "src/ap_evsims/operations.py",
+          "src/ap_evsims/warehouse.py",
+          "src/ap_evsims/providers/quota.py"
+        ],
+        "next_action": "Continue bounded prospective collection; cached history is immutable. No paid historical entitlement.",
+        "real_sample_size": 16990,
+        "sample_unit": "timestamped market-side quote observations",
+        "status": "COMPLETE",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_operations.py",
+          "tests/test_warehouse.py"
+        ],
+        "updated_at": "2026-10-14T07:10:20.832197+00:00"
+      },
+      "p_low": {
+        "blocker": "Empirical coverage and independently authenticated approval are absent. The bridge now enforces P_LOW_COVERAGE_UNVERIFIED even if a caller asserts coverage_validated=true.",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/models/probability_calibration.py",
+          "src/ap_evsims/diagnostics.py",
+          "src/ap_evsims/model_bridge.py"
+        ],
+        "implementation_steps": {
+          "authenticated_coverage_approval": "NOT_STARTED",
+          "diagnostic_bound": "COMPLETE",
+          "empirical_coverage": "BLOCKED",
+          "fail_closed_decision_gate": "COMPLETE"
+        },
+        "next_action": "Evaluate aggregate conservatism and clustered coverage diagnostics on untouched real predictions before approval.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_phase2_calibration.py",
+          "tests/test_diagnostics_redteam.py",
+          "tests/test_model_bridge_integrity.py"
+        ],
+        "updated_at": "2026-10-14T22:13:39.467379+00:00"
+      },
+      "prospective_paper_tracking": {
+        "blocker": "No settled prospective observations or verified model forecasts yet",
+        "files": [
+          "src/ap_evsims/paper_market.py",
+          "src/ap_evsims/paper_tracking.py",
+          "outputs/paper_tracking_status.json",
+          "reports/PERFORMANCE_AUDIT.md"
+        ],
+        "next_action": "Collect fresh quotes and official outcomes; keep all recommendations PASS",
+        "real_sample_size": 8,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_paper_tracking.py"
+        ],
+        "updated_at": "2026-10-16T04:38:13.911840+00:00"
+      },
+      "provider_authentication": {
+        "blocker": null,
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/providers/validation.py",
+          "src/ap_evsims/providers/security.py"
+        ],
+        "next_action": "Reuse verified current access; monitor quota. Historical access remains a separate blocker.",
+        "real_sample_size": 0,
+        "status": "COMPLETE",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_provider_validation.py"
+        ],
+        "updated_at": "2026-10-14T06:54:38.496450+00:00"
+      },
+      "red_team_tests": {
+        "blocker": "All 50 categories audited; unresolved data/execution/model evidence keeps every market RESEARCH_ONLY.",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/redteam.py",
+          "reports/RED_TEAM_REPORT.md"
+        ],
+        "next_action": "Clear each unresolved critical/high category with actual evidence and targeted tests; never equate unit-test count with readiness.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_diagnostics_redteam.py",
+          "tests/test_checkpoint.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "settlement_accounting": {
+        "blocker": "Actual book rules and reconciled account/open-position inputs are absent. Automatic result polling and cash/exposure correction integration remain incomplete.",
+        "dependencies": [],
+        "files": [
+          "src/ap_evsims/settlement.py",
+          "src/ap_evsims/accounting.py",
+          "src/ap_evsims/operations.py",
+          "src/ap_evsims/results.py",
+          "src/ap_evsims/__main__.py",
+          "src/ap_evsims/paper_market.py",
+          "src/ap_evsims/paper_tracking.py",
+          "outputs/paper_tracking_status.json",
+          "reports/PERFORMANCE_AUDIT.md"
+        ],
+        "implementation_steps": {
+          "account_exposure_reconciliation": "NOT_STARTED",
+          "as_of_result_revisions": "COMPLETE",
+          "automatic_polling": "NOT_STARTED",
+          "book_rule_integration": "BLOCKED",
+          "bounded_cfbd_refresh": "COMPLETE",
+          "frozen_replay_reconciliation": "COMPLETE"
+        },
+        "implemented_substeps": {
+          "prospective_price_result_ledger": "COMPLETE; empirical results pending"
+        },
+        "next_action": "Complete verified book-rule and external account/exposure reconciliation; explicit CFBD refresh and local replay result revisions are implemented.",
+        "real_sample_size": 0,
+        "result_archive_games": 896,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_replay_settlement.py",
+          "tests/test_accounting_promotions.py",
+          "tests/test_result_refresh.py",
+          "tests/test_paper_tracking.py"
+        ],
+        "updated_at": "2026-10-14T22:13:39.467379+00:00"
+      }
+    },
+    "MLB": {
+      "game_total": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "No fitted predictor or qualifying evaluation",
+        "files": [
+          "src/ap_evsims/product.py"
+        ],
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_sample_size": 0,
+        "status": "NOT_STARTED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_product.py"
+        ],
+        "updated_at": "2026-10-14T23:31:13.069248+00:00"
+      },
+      "hits_allowed": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/execution_status.json",
+          "outputs/mlb_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 540,
+        "real_sample_size": 1515,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+      },
+      "hitter_hits": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/mlb_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 5410,
+        "real_sample_size": 12183,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      },
+      "pitcher_K": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/execution_status.json",
+          "outputs/mlb_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 540,
+        "real_sample_size": 1515,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+      },
+      "pitcher_outs": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/execution_status.json",
+          "outputs/mlb_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 540,
+        "real_sample_size": 1515,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+      },
+      "total_bases": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/mlb_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 5410,
+        "real_sample_size": 12183,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      }
+    },
+    "NBA": {
+      "assists": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/nba_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 51938,
+        "real_sample_size": 52029,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      },
+      "points": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/execution_status.json",
+          "outputs/nba_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 51938,
+        "real_sample_size": 52029,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+      },
+      "rebounds": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/nba_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 51938,
+        "real_sample_size": 52029,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      },
+      "spread": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "threes": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/execution_status.json",
+          "outputs/nba_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 51938,
+        "real_sample_size": 52029,
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T05:42:35.450239+00:00"
+      },
+      "total": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      }
+    },
+    "NFL": {
+      "passing": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/nfl_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Verify pregame participation, obtain closing snapshots within quota, then settle the frozen Sunday cohort; no cash approval",
+        "prospective_distinct_games": 0,
+        "prospective_report": "outputs/nfl_prop_research.json",
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "prospective_slate_games": 12,
+        "real_evaluation_sample": 733,
+        "real_sample_size": 768,
+        "research_admission": "FAILED_SIMPLE_BASELINE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      },
+      "receiving": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/nfl_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Verify pregame participation, obtain closing snapshots within quota, then settle the frozen Sunday cohort; no cash approval",
+        "prospective_distinct_games": 0,
+        "prospective_report": "outputs/nfl_prop_research.json",
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "prospective_slate_games": 12,
+        "real_evaluation_sample": 6152,
+        "real_sample_size": 6307,
+        "research_admission": "FAILED_SIMPLE_BASELINE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      },
+      "receptions": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/nfl_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Verify pregame participation, obtain closing snapshots within quota, then settle the frozen Sunday cohort; no cash approval",
+        "prospective_distinct_games": 0,
+        "prospective_report": "outputs/nfl_prop_research.json",
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "prospective_slate_games": 12,
+        "real_evaluation_sample": 6152,
+        "real_sample_size": 6307,
+        "research_admission": "FAILED_SIMPLE_BASELINE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      },
+      "rushing": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/nfl_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Verify pregame participation, obtain closing snapshots within quota, then settle the frozen Sunday cohort; no cash approval",
+        "prospective_distinct_games": 0,
+        "prospective_report": "outputs/nfl_prop_research.json",
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "prospective_slate_games": 12,
+        "real_evaluation_sample": 6152,
+        "real_sample_size": 6307,
+        "research_admission": "FAILED_SIMPLE_BASELINE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      },
+      "rushing_attempts": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/nfl_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/product.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 6152,
+        "real_sample_size": 6307,
+        "research_admission": "FAILED_SIMPLE_BASELINE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_product.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      },
+      "spread": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "FAILED_ELO_BENCHMARK; PROSPECTIVE_CALIBRATION_PENDING; QB_AVAILABILITY_UNVERIFIED",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/nfl_game_probabilities.json",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/nfl_game_model.py"
+        ],
+        "forecasting_status": "REAL_12_GAME_RIDGE_RESEARCH",
+        "next_action": "Verify pregame participation, obtain closing snapshots within quota, then settle the frozen Sunday cohort; no cash approval",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 1951,
+        "real_sample_size": 803,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "total": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 0,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      }
+    },
+    "NHL": {
+      "ML": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 2,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "SOG": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/nhl_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 2,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 96525,
+        "real_sample_size": 96796,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      },
+      "goalie_saves": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "PROSPECTIVE_BETTING_VALIDATION_PENDING",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "outputs/early_watchlist.json",
+          "outputs/execution_status.json",
+          "outputs/market_research_status.json",
+          "outputs/nhl_challenger_status.json",
+          "outputs/simulation_execution.json",
+          "reports/EXECUTION_RESULTS.md",
+          "src/ap_evsims/models/contracts.py",
+          "src/ap_evsims/prop_challenger.py",
+          "tests/test_prop_market_research.py"
+        ],
+        "forecasting_status": "REAL_MODEL_EXECUTED",
+        "model_version": "causal-opportunity-ridge-v2",
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 2,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_evaluation_sample": 5597,
+        "real_sample_size": 5622,
+        "research_admission": "RESEARCH_BENCHMARK_ADVANTAGE",
+        "status": "IN_PROGRESS",
+        "synthetic_performance_sample": 0,
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-16T15:04:43.655221+00:00"
+      },
+      "totals": {
+        "betting_validation_status": "NOT_QUALIFIED",
+        "blocker": "Feature/role/unit contract implemented; fitted predictor, timestamp-safe sport data, historical exact prices and empirical calibration are absent.",
+        "dependencies": [
+          "FOUNDATION.historical_replay",
+          "FOUNDATION.settlement_accounting"
+        ],
+        "files": [
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+        "prospective_distinct_games": 2,
+        "prospective_scoring_report": "outputs/prospective_settlements.json",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_sport_contracts.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      }
+    },
+    "OTHER": {
+      "diagnostics": {
+        "blocker": "No calibrated real forecasts or settled strategy observations; all performance remains null.",
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [
+          "src/ap_evsims/diagnostics.py",
+          "src/ap_evsims/handoff.py",
+          "src/ap_evsims/paper_market.py",
+          "src/ap_evsims/paper_tracking.py",
+          "outputs/paper_tracking_status.json",
+          "reports/PERFORMANCE_AUDIT.md"
+        ],
+        "implemented_substeps": {
+          "prospective_price_result_ledger": "COMPLETE; empirical results pending"
+        },
+        "next_action": "Populate proper-score, inclusion-bias, latency, regime, source-ablation and p_low reports from frozen real predictions.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_diagnostics_redteam.py",
+          "tests/test_paper_tracking.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "live_models": {
+        "blocker": "No live model or synchronized live feed; CFBD live endpoint probe returned 401.",
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [
+          "src/ap_evsims/decision.py",
+          "src/ap_evsims/models/contracts.py"
+        ],
+        "next_action": "Require separately calibrated live probability, synchronized state/price and latency evidence; retain pregame/live separation.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_engine.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "local_first_data_storage": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.local_warehouse"
+        ],
+        "files": [
+          "src/ap_evsims/warehouse.py",
+          "src/ap_evsims/offline.py",
+          "src/ap_evsims/operations.py",
+          "src/ap_evsims/__main__.py"
+        ],
+        "next_action": "Keep historical research offline and import source archives before feature computation.",
+        "real_sample_size": 8484,
+        "status": "COMPLETE",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_warehouse.py",
+          "tests/test_operations.py",
+          "tests/test_handoff_cycle.py"
+        ],
+        "updated_at": "2026-10-14T07:10:20.832197+00:00"
+      },
+      "parlays": {
+        "blocker": "No approved single-market models or empirical joint distribution; legacy parlay arithmetic is research only.",
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [
+          "src/ap_evsims/parlay.py",
+          "src/ap_evsims/exposure.py"
+        ],
+        "next_action": "Do not build candidate slips until validated singles, fitted joint distributions and actual offered payouts exist.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_engine.py",
+          "tests/test_phase1.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "promotions": {
+        "blocker": null,
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [
+          "src/ap_evsims/promotions.py",
+          "src/ap_evsims/accounting.py"
+        ],
+        "next_action": "Keep promotion payoff separate; real terms/bonus conversion still required and no recommendation authority is granted.",
+        "real_sample_size": 0,
+        "status": "COMPLETE",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_accounting_promotions.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      },
+      "tail_event_stress": {
+        "blocker": "Hypothetical stress mechanics pass; real tail cases lack qualifying historical snapshots.",
+        "dependencies": [
+          "FOUNDATION.historical_replay"
+        ],
+        "files": [
+          "src/ap_evsims/diagnostics.py",
+          "reports/TAIL_EVENT_STRESS_REPORT.md"
+        ],
+        "next_action": "Run registered extreme-game and clustered bankroll stress on real out-of-sample decisions.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_diagnostics_redteam.py",
+          "tests/test_phase2_cfb.py"
+        ],
+        "updated_at": "2026-10-14T07:35:37.601494+00:00"
+      }
+    },
+    "PRODUCT": {
+      "M1_local_application": {
+        "blocker": "Loopback HTTP and browser access timed out in this Codex session. Server starts and real-data Streamlit AppTest passes.",
+        "files": [
+          "src/ap_evsims/product.py",
+          "src/ap_evsims/dashboard.py",
+          "src/ap_evsims/cfb_universe.py",
+          "src/ap_evsims/providers/access.py",
+          "src/ap_evsims/cycle.py",
+          "reports/PRODUCT_DELIVERY.md"
+        ],
+        "next_action": "Launch from normal PowerShell and complete browser visual acceptance. No model approval is implied.",
+        "real_sample_size": 0,
+        "status": "TESTING",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_product.py",
+          "tests/test_cfb_universe.py",
+          "tests/test_application_access.py"
+        ],
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
+      },
+      "M2_first_real_model_output": {
+        "blocker": "Zero qualifying timestamp-authentic training/evaluation rows and zero complete real feature sets.",
+        "files": [
+          "src/ap_evsims/product.py",
+          "src/ap_evsims/dashboard.py",
+          "src/ap_evsims/cfb_universe.py",
+          "src/ap_evsims/providers/access.py",
+          "src/ap_evsims/cycle.py",
+          "reports/PRODUCT_DELIVERY.md"
+        ],
+        "next_action": "Accumulate verified prior-game plays and join eligible prices before fitting the first real CFB model. Never train on fixture observations.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_product.py",
+          "tests/test_cfb_universe.py",
+          "tests/test_application_access.py"
+        ],
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
+      },
+      "M3_daily_card": {
+        "blocker": null,
+        "files": [
+          "src/ap_evsims/product.py",
+          "src/ap_evsims/dashboard.py",
+          "src/ap_evsims/cfb_universe.py",
+          "src/ap_evsims/providers/access.py",
+          "src/ap_evsims/cycle.py",
+          "reports/PRODUCT_DELIVERY.md"
+        ],
+        "next_action": "Preserve PASS-first daily publication; integrate an approved model only through existing Phase 1 controls after M2.",
+        "real_sample_size": 0,
+        "status": "COMPLETE",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_product.py",
+          "tests/test_cfb_universe.py",
+          "tests/test_application_access.py"
+        ],
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
+      },
+      "M4_historical_validation": {
+        "blocker": "Historical Odds API access returned HTTP 401; historical feature publication times are also unverified.",
+        "files": [
+          "src/ap_evsims/product.py",
+          "src/ap_evsims/dashboard.py",
+          "src/ap_evsims/cfb_universe.py",
+          "src/ap_evsims/providers/access.py",
+          "src/ap_evsims/cycle.py",
+          "reports/PRODUCT_DELIVERY.md"
+        ],
+        "next_action": "Use owned prospective snapshots; enable historical evaluations only when real entitled timestamp-safe data exists.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_product.py",
+          "tests/test_cfb_universe.py",
+          "tests/test_application_access.py"
+        ],
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
+      },
+      "M5_remaining_sports": {
+        "blocker": "Featured prices are available; sport predictors, prop prices, role features and empirical calibration are incomplete.",
+        "files": [
+          "src/ap_evsims/product.py",
+          "src/ap_evsims/dashboard.py",
+          "src/ap_evsims/cfb_universe.py",
+          "src/ap_evsims/providers/access.py",
+          "src/ap_evsims/cycle.py",
+          "reports/PRODUCT_DELIVERY.md"
+        ],
+        "next_action": "Continue NHL SOG/saves first, then NFL, MLB and NBA in dependency order. Do not promote the 26 display entries as implemented models.",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_product.py",
+          "tests/test_cfb_universe.py",
+          "tests/test_application_access.py"
+        ],
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
+      },
+      "M6_research_cycle_and_delivery": {
+        "blocker": "Real prediction/settlement evaluation samples are zero; local Git authentication/permission fails and GitHub connector returns HTTP 403.",
+        "files": [
+          "src/ap_evsims/product.py",
+          "src/ap_evsims/dashboard.py",
+          "src/ap_evsims/cfb_universe.py",
+          "src/ap_evsims/providers/access.py",
+          "src/ap_evsims/cycle.py",
+          "reports/PRODUCT_DELIVERY.md"
+        ],
+        "next_action": "Keep verified local result reconciliation and KEEP_CHAMPION behavior. Add data-backed diagnostics/challengers only after samples qualify.",
+        "real_sample_size": 0,
+        "status": "IN_PROGRESS",
+        "synthetic_sample_size": 0,
+        "tests": [
+          "tests/test_product.py",
+          "tests/test_cfb_universe.py",
+          "tests/test_application_access.py"
+        ],
+        "updated_at": "2026-10-15T00:37:33.605528+00:00"
+      },
+      "scheduled_data_refresh": {
+        "blocker": "No private durable execution/storage connection for GitHub Actions; local-only archive and credentials are not available to hosted runners",
+        "files": [
+          "reports/PREDICTIVE_EDGE_DELIVERY.md"
+        ],
+        "next_action": "Establish a private durable data runner/storage connection before deploying a quota-bounded schedule; do not upload raw data to public Actions artifacts",
+        "real_sample_size": 0,
+        "status": "BLOCKED",
+        "synthetic_sample_size": 0,
+        "tests": [],
+        "updated_at": "2026-10-16T04:38:13.911840+00:00"
+      }
+    }
+  },
+  "cfb_score_research": {
+    "blocker": "Prospective calibration and authentic market comparison pending",
+    "files": [
+      "src/ap_evsims/cfb_scores.py",
+      "src/ap_evsims/cfb_score_research.py"
+    ],
+    "next_action": "Settle frozen forecasts and attach verified contemporaneous prices",
+    "real_sample_size": 1086,
+    "status": "IN_PROGRESS",
+    "synthetic_sample_size": 0,
+    "tests": [
+      "tests/test_cfb_scores.py"
+    ]
+  },
+  "cfb_training_delivery": {
+    "at": "2026-10-16T01:59:33.344672+00:00",
+    "eligible_prior_plays": 57978,
+    "eligible_training_rows": 0,
+    "implementation_commit": "7d991e6523bfaf429bd3eb0f968fe0c29ea5417f",
+    "prior_games": 448,
+    "prospective_baseline_feature_sets": 211,
+    "raw_2026_plays": 142879,
+    "real_dashboard_apptest": "PASS",
+    "real_model_predictions": 0,
+    "report": "reports/CFB_TRAINING_VALIDATION.md",
+    "status": "BLOCKED_INSUFFICIENT_VERIFIED_HISTORY",
+    "synthetic_performance_sample": 0
+  },
+  "checkpoint_activity": "STATUS_VERIFICATION_ONLY_NO_NEW_IMPLEMENTATION",
+  "completion": "PARTIAL",
+  "credential_check": {
+    "cfbd_present": true,
+    "checked_at": "2026-10-16T04:38:13.911840+00:00",
+    "odds_present": true,
+    "secrets_printed": false
+  },
+  "current_task": "NFL_FULL_SLATE_COMPLETE_LOCAL_GITHUB_BLOCKED",
+  "delivery_verification": {
+    "ancestor_verified": true,
+    "at": "2026-10-15T00:41:53.605137+00:00",
+    "current_events": 159,
+    "current_market_sides": 5780,
+    "current_odds_access": "YES",
+    "draftkings_fanduel_sides": 1622,
+    "feature_code_changed": false,
+    "frozen_phase1_unchanged": 18,
+    "historical_endpoint_status": 401,
+    "historical_odds_access": "NO",
+    "loopback_browser_acceptance": "BLOCKED_IN_CODEX_SESSION",
+    "preserved_commit": "6b20b15",
+    "source_commit": "7197152feae091358239c1dbe1f0940844ba6dda",
+    "tests_failed": 0,
+    "tests_passed": 195
+  },
+  "earliest_blocked_dependency": "Fresh exact-market prices, role confirmation and prospective calibration",
+  "empirical_note": "Reconstructed chronological forecasting metrics exist; prospective calibrated betting evidence remains zero",
+  "empirical_performance_available": true,
+  "focused_october14_audit": {
+    "blocker": "Original recommendation/placement times and receipts absent; Sam Houston canonical result not final at last audit capture.",
+    "dated_research_cases": 4,
+    "existing_phase1_files_preserved": 18,
+    "files": [
+      "reports/OCTOBER_14_FAILURE_AUDIT.md"
+    ],
+    "graded_event_outcomes": 3,
+    "model_performance_sample": 0,
+    "next_action": "Reconcile missing original evidence and canonical final result; never infer private settlement or tune from four selected outcomes.",
+    "private_wager_evidence": "LOCAL_IGNORED_ONLY",
+    "real_sample_size": 0,
+    "status": "BLOCKED",
+    "synthetic_sample_size": 0,
+    "tests": [
+      "tests/test_product.py"
+    ],
+    "ungraded_event_outcomes": 1,
+    "updated_at": "2026-10-15T03:44:43.053319+00:00"
+  },
+  "git_delivery": {
+    "branch": "ap-evisims-live",
+    "checked_at": "2026-10-16T15:09:08.948370+00:00",
+    "commit": "bb0f5d98dc44bd0c1b5c721985ad188de7d8595e",
+    "commit_semantics": "Completed research checkpoint; subsequent receipt commit records this attempt.",
+    "env_staged": false,
+    "error_category": "GITHUB_AUTHENTICATION_UNAVAILABLE",
+    "frozen_phase1_files_unchanged": 18,
+    "primary_forecasts": 389,
+    "push_success": false,
+    "ranked_research_candidates": 8,
+    "raw_data_committed": false,
+    "remote_sha": "6db215e00b5d42b8d7f94b556985a97f44104d75",
+    "remote_status": 0,
+    "remote_verified": false,
+    "results_commit": "bb0f5d98dc44bd0c1b5c721985ad188de7d8595e",
+    "safe_source_and_tests_included": true,
+    "secret_scan": "PASS",
+    "separate_nfl_reference_forecasts": 120,
+    "status": "LOCAL_COMMITTED_REMOTE_PUBLICATION_BLOCKED",
+    "tests_failed": 0,
+    "tests_passed": 316,
+    "validated_edges": 0
+  },
+  "github_checkpoint": {
+    "blocker": "GIT_CREDENTIALS_UNAVAILABLE; GITHUB_CONNECTOR_HTTP_403",
+    "next_action": "Run the exact manual push command in reports/P0_RELIABLE_DELIVERY.md",
+    "remote_sha": "2b448643c128b14e49c0ae7acaf6cacb990e598b",
+    "source_commit": "23be499b9adeb83b80f63badd958b4aa494bd23d",
+    "status": "BLOCKED",
+    "verified_at": "2026-10-18T03:25:20.527967+00:00"
+  },
+  "github_delivery": {
+    "configured_helper_error": "GitHub CLI helper MSYS named-object creation denied: 0xC0000022",
+    "credential_manager_error": "Windows credential enumeration denied: 0x5 Access is denied",
+    "credential_manager_version": "2.7.3",
+    "diagnosis": "This Codex session cannot access the existing Windows credential store or launch the configured shell helper. Existing user authentication has not been invalidated.",
+    "implementation_commit": "144405405150ee3254e260610369cea6b0532e36",
+    "manual_push_command": "& 'C:\\Program Files\\Git\\cmd\\git.exe' -C 'C:\\Users\\adria\\Documents\\Codex\\2026-10-13\\files-mentioned-by-the-user-ap\\outputs\\AP-EV-SIMS' push -u origin ap-evisims-live",
+    "no_additional_sportsbook_collection": true,
+    "no_force_push": true,
+    "no_history_reset": true,
+    "push_success": false,
+    "remote_matches_local": false,
+    "remote_sha": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+    "required_files_committed": {
+      "outputs/nfl_game_probabilities.json": true,
+      "outputs/nfl_market_comparisons.json": true,
+      "outputs/nfl_prop_research.json": true,
+      "outputs/nfl_sweep_status.json": true,
+      "reports/NFL_FULL_SLATE_SWEEP.md": true
+    },
+    "required_files_on_remote": {
+      "outputs/nfl_game_probabilities.json": false,
+      "outputs/nfl_market_comparisons.json": false,
+      "outputs/nfl_prop_research.json": false,
+      "outputs/nfl_sweep_status.json": false,
+      "reports/NFL_FULL_SLATE_SWEEP.md": false
+    },
+    "status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
+    "verified_at": "2026-10-18T04:13:27.845469+00:00"
+  },
+  "github_push": "BLOCKED",
+  "ingestion_summary": {
+    "cfb_matched_events": 61,
+    "cfb_unmatched_events": 1,
+    "completed_cfbd_games": 295,
+    "current_quote_observations": 16990,
+    "earliest_current_capture": "2026-10-14 06:19:23.928987+00:00",
+    "earliest_usable_historical_date": null,
+    "generated_at": "2026-10-14T22:13:39.467379+00:00",
+    "historical_2025_games": 292,
+    "historical_sportsbook_snapshots": 0,
+    "latest_current_capture": "2026-10-14 22:06:00.998437+00:00",
+    "latest_usable_historical_date": null,
+    "missingness": {
+      "book_settlement_rule": 1.0,
+      "calibrated_model": 1.0,
+      "current_cfb_identity_fraction": 0.016129032258064516,
+      "historical_feature_universe": null,
+      "quote_execution_proof": 1.0
+    },
+    "note": "Source records include multiple captures. Snapshot, quote, event and evaluation counts are distinct units.",
+    "qualifying_real_evaluation_sample": 0,
+    "sampled_game_queries": [
+      {
+        "week": 6,
+        "year": 2025
+      },
+      {
+        "week": 7,
+        "year": 2026
+      },
+      {
+        "week": 8,
+        "year": 2026
+      }
+    ],
+    "seasons_covered": [
+      2025,
+      2026
+    ],
+    "sportsbook_response_snapshots": 12,
+    "synthetic_observations_in_real_metrics": 0,
+    "unique_cfbd_games": 896,
+    "unmatched_reasons": [
+      {
+        "event_id": "6dab7d3b6ae25bd042a24a6e550a4f23",
+        "reason": "EVENT_START_UNCONFIRMED"
+      }
+    ]
+  },
+  "last_checkpoint_at": "2026-10-18T04:13:27.845469+00:00",
+  "last_push_attempt": "2026-10-16T15:09:08.948370+00:00",
+  "last_remote_verified_at": "2026-10-16T05:48:09.412725+00:00",
+  "last_verified_remote_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
+  "multi_sport_execution": {
+    "convergence": {
+      "all_pass": true,
+      "familywise_alpha": 0.01,
+      "maximum_allowed_error": 0.0172176744974759,
+      "maximum_observed_error": 0.012407993099482373,
+      "test": "DKW empirical CDF versus exact saved PMF",
+      "union_bound_forecasts": 353
+    },
+    "core_enabled": false,
+    "generated_at": "2026-10-16T05:42:35.450239+00:00",
+    "github_publication": {
+      "branch": "ap-evisims-live",
+      "checked_at": "2026-10-16T05:46:25.098574+00:00",
+      "commit": "921e1f0586c860eb403d8936b294aa28b916d3fa",
+      "connector_error_category": "RESOURCE_NOT_ACCESSIBLE_BY_INTEGRATION",
+      "connector_write_status": 403,
+      "env_staged": false,
+      "error_category": "GITHUB_AUTHENTICATION_UNAVAILABLE",
+      "frozen_phase1_files_unchanged": 18,
+      "push_success": false,
+      "remote_sha": "6db215e00b5d42b8d7f94b556985a97f44104d75",
+      "remote_verified": false,
+      "results_commit": "921e1f0586c860eb403d8936b294aa28b916d3fa",
+      "secret_scan": "PASS",
+      "source_test_edits_preserved_unstaged": true,
+      "status": "LOCAL_COMMITTED_REMOTE_PUBLICATION_BLOCKED"
+    },
+    "monte_carlo_replicates": 706,
+    "new_frozen_predictions": 0,
+    "predictions_are": "first frozen research forecasts, republished without changing their timestamp",
+    "predictions_published": 353,
+    "price_refresh": {
+      "collected_at": "2026-10-16T05:37:58.193900+00:00",
+      "quota": {
+        "cached_historical_snapshots": 0,
+        "credits_consumed_recorded": 86,
+        "duplicate_requests_prevented": 0,
+        "provider_requests_used": 101,
+        "requests_recorded": 46,
+        "requests_remaining": 399
+      },
+      "results": [
+        {
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 2980,
+          "snapshot_id": "54b449d7a1fb4eb49a473ae08d4aa6c579ca006e909fb5392276cb1bc249d5fd",
+          "sport": "CFB",
+          "status": "ARCHIVED"
+        },
+        {
+          "sport": "NFL",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "NBA",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "NHL",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "MLB",
+          "status": "QUOTA_BUDGET_LIMIT"
+        }
+      ]
+    },
+    "prospective_settled": 0,
+    "publication_scope": "OUTPUTS_AND_REPORTS_ONLY; existing local source/test edits preserved unstaged",
+    "qualified_market_comparisons": 0,
+    "quota": {
+      "cached_historical_snapshots": 0,
+      "credits_consumed_recorded": 86,
+      "duplicate_requests_prevented": 0,
+      "provider_requests_used": 101,
+      "requests_recorded": 46,
+      "requests_remaining": 399
+    },
+    "reference_unit": 22,
+    "reference_unit_semantics": "REFERENCE_ONLY_NOT_A_STAKE",
+    "remaining_simulation_work": [
+      "joint game-state and cross-player dependency models",
+      "held-out validation of joint outcomes and tail behavior"
+    ],
+    "simulation_draws": 14120000,
+    "simulations_completed": 353,
+    "source_commit": "6db215e00b5d42b8d7f94b556985a97f44104d75",
+    "source_worktree_changed": true,
+    "source_worktree_fingerprint": "ca6b39447a4cd2fe0d730aa32fbfe19e6622880b1c2b47aee566b6e315e20910",
+    "tests": {
+      "failed": 0,
+      "frozen_phase1_files": 18,
+      "frozen_phase1_mismatches": 0,
+      "passed": 295,
+      "skipped": 0,
+      "verified_at": "2026-10-16T05:45:43.020204+00:00"
+    },
+    "validated_edges": 0
+  },
+  "multi_sport_research": {
+    "blocker": "Prospective identities/roles/calibration/settlement still required",
+    "files": [
+      "src/ap_evsims/prop_research.py",
+      "src/ap_evsims/prop_ingestion.py",
+      "src/ap_evsims/prop_prices.py"
+    ],
+    "next_action": "Prospective player identity, role and frozen prop forecast integration; then settlement/CLV tests",
+    "real_sample_size": {
+      "MLB": 3401,
+      "NBA": 79632,
+      "NFL": 13842,
+      "NHL": 153778
+    },
+    "status": "IN_PROGRESS",
+    "synthetic_sample_size": 0,
+    "tests": [
+      "tests/test_prop_research.py"
+    ]
+  },
+  "next_task": "Run the manual push in normal PowerShell; future pregame role and price refresh remains subject to quota and validation gates",
+  "nfl_full_slate_delivery": {
+    "acceptance": {
+      "False": {
+        "covered_games": 12,
+        "game_probabilities": 12,
+        "model_status_counts": {
+          "FORECASTED": 12
+        },
+        "ok": true,
+        "problems": [],
+        "prop_scanned_games": 12,
+        "scheduled_games": 12,
+        "target_date": "2026-10-18"
+      },
+      "True": {
+        "covered_games": 12,
+        "game_probabilities": 12,
+        "model_status_counts": {
+          "FORECASTED": 12
+        },
+        "ok": true,
+        "problems": [],
+        "prop_scanned_games": 12,
+        "scheduled_games": 12,
+        "target_date": "2026-10-18"
+      }
+    },
+    "account_remaining": 280,
+    "actual_credits_spent": 63,
+    "additional_monte_carlo_draws": 0,
+    "after": {
+      "all_frozen_prop_records": 2202,
+      "fresh_comparisons": 0,
+      "game_forecasts": 12,
+      "main_market_games": 12,
+      "new_prop_records": 1370,
+      "new_prop_records_this_execution": 0,
+      "price_comparisons": 1600,
+      "prop_forecasts": 1494,
+      "prop_scanned_games": 12
+    },
+    "availability_counts": {
+      "REPORTED_UNAVAILABLE": 221,
+      "UNKNOWN": 1219
+    },
+    "before": {
+      "frozen_prop_records": 832,
+      "nfl_scheduled_games_with_forecasts": 1
+    },
+    "blockers": [
+      "No prospective NFL game-model calibration or price-relative validation",
+      "Game ridge does not beat Elo on every metric",
+      "Roster membership and reported injuries do not confirm participation or workload",
+      "Historical outcome revisions are reconstructed; historical book prices remain unverified",
+      "NFL TD and total outcome models unavailable; totals shown as price evidence only",
+      "Book settlement rules unverified; conditional EV cannot authorize cash",
+      "New NFL game forecasts have not settled; their settlement/CLV integration is not implemented in this sweep"
+    ],
+    "core_enabled": false,
+    "current_roster_players": 1440,
+    "current_snapshot_at": "2026-10-18T04:05:30.538307+00:00",
+    "current_snapshot_fresh_comparisons": 0,
+    "default_nfl_path": {
+      "additional_sportsbook_credits": 0,
+      "new_forecasts": 0,
+      "prop_comparisons": 1312,
+      "prop_forecasts": 1494,
+      "scheduled_games": 12
+    },
+    "files_changed": [
+      "PHASE2_PROGRESS.md",
+      "TASK_STATE.json",
+      "TEST_RESULTS.txt",
+      "outputs/book_rule_source_status.json",
+      "outputs/last_update.json",
+      "outputs/latest_passes.json",
+      "outputs/live_research_candidates.json",
+      "outputs/model_status.json",
+      "outputs/nfl_availability.json",
+      "outputs/nfl_challenger_prospective.json",
+      "outputs/nfl_game_model_status.json",
+      "outputs/nfl_game_probabilities.json",
+      "outputs/nfl_market_comparisons.json",
+      "outputs/nfl_prop_research.json",
+      "outputs/nfl_sweep_delivery.json",
+      "outputs/nfl_sweep_status.json",
+      "outputs/p0_preservation_audit.json",
+      "outputs/prospective_settlements.json",
+      "outputs/provider_status.json",
+      "outputs/reliability_manifest.json",
+      "outputs/reliability_status.json",
+      "outputs/validated_edges.json",
+      "outputs/week_ahead_game_probabilities.json",
+      "reports/DAILY_BETTING_DECISIONS.md",
+      "reports/MODEL_PERFORMANCE_SCOREBOARD.md",
+      "reports/NFL_FULL_SLATE_SWEEP.md",
+      "scripts/__init__.py",
+      "scripts/nfl_sweep_acceptance.py",
+      "src/ap_evsims/challenger_delivery.py",
+      "src/ap_evsims/nfl_game_model.py",
+      "src/ap_evsims/nfl_schedule.py",
+      "src/ap_evsims/nfl_sweep.py",
+      "src/ap_evsims/p0_refresh.py",
+      "src/ap_evsims/prop_availability.py",
+      "src/ap_evsims/prop_market_research.py",
+      "src/ap_evsims/prop_prices.py",
+      "src/ap_evsims/prop_prospective.py",
+      "tests/test_nfl_sweep.py",
+      "tests/test_nfl_sweep_acceptance.py"
+    ],
+    "generated_at": "2026-10-18T04:12:53.096151+00:00",
+    "github": {
+      "configured_helper_error": "GitHub CLI helper MSYS named-object creation denied: 0xC0000022",
+      "credential_manager_error": "Windows credential enumeration denied: 0x5 Access is denied",
+      "credential_manager_version": "2.7.3",
+      "diagnosis": "This Codex session cannot access the existing Windows credential store or launch the configured shell helper. Existing user authentication has not been invalidated.",
+      "implementation_commit": "144405405150ee3254e260610369cea6b0532e36",
+      "manual_push_command": "& 'C:\\Program Files\\Git\\cmd\\git.exe' -C 'C:\\Users\\adria\\Documents\\Codex\\2026-10-13\\files-mentioned-by-the-user-ap\\outputs\\AP-EV-SIMS' push -u origin ap-evisims-live",
+      "no_additional_sportsbook_collection": true,
+      "no_force_push": true,
+      "no_history_reset": true,
+      "push_success": false,
+      "remote_matches_local": false,
+      "remote_sha": "c1f06b6611ad85badc02b3ab0672bae852045a56",
+      "required_files_committed": {
+        "outputs/nfl_game_probabilities.json": true,
+        "outputs/nfl_market_comparisons.json": true,
+        "outputs/nfl_prop_research.json": true,
+        "outputs/nfl_sweep_status.json": true,
+        "reports/NFL_FULL_SLATE_SWEEP.md": true
+      },
+      "required_files_on_remote": {
+        "outputs/nfl_game_probabilities.json": false,
+        "outputs/nfl_market_comparisons.json": false,
+        "outputs/nfl_prop_research.json": false,
+        "outputs/nfl_sweep_status.json": false,
+        "reports/NFL_FULL_SLATE_SWEEP.md": false
+      },
+      "status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
+      "verified_at": "2026-10-18T04:13:27.845469+00:00"
+    },
+    "historical_evaluation": {
+      "elo": {
+        "accuracy": 0.6152263374485597,
+        "brier": 0.22992437841693703,
+        "log_loss": 0.6517580761524118,
+        "mae": 10.411192573780964,
+        "n": 1951,
+        "non_tie_n": 1944,
+        "rmse": 13.421394741305544
+      },
+      "home_field": {
+        "accuracy": 0.5318930041152263,
+        "brier": 0.2496056460493145,
+        "log_loss": 0.6923734957328519,
+        "mae": 11.078975668817904,
+        "n": 1951,
+        "non_tie_n": 1944,
+        "rmse": 14.277557553337942
+      },
+      "ridge": {
+        "accuracy": 0.625,
+        "brier": 0.23066938637024242,
+        "log_loss": 0.6533710251771425,
+        "mae": 10.419089086269958,
+        "n": 1951,
+        "non_tie_n": 1944,
+        "rmse": 13.406240272969235
+      }
+    },
+    "historical_outcome_games": 3231,
+    "historical_provenance": "RECONSTRUCTED_HISTORY_UNVERIFIED_AS_OF",
+    "model_training_n": 803,
+    "original_forecasts_preserved": 389,
+    "phase1_protected_files_preserved": 18,
+    "push_status": "BLOCKED_SESSION_CREDENTIAL_ACCESS",
+    "quote_collection_time": "2026-10-18T04:01:00Z",
+    "quote_collection_time_basis": "Minute containing immutable provider captures; exact times in each quote",
+    "quotes_fresh_at_initial_publication": 1600,
+    "required_outputs": [
+      "nfl_sweep_status.json",
+      "nfl_game_probabilities.json",
+      "nfl_prop_research.json",
+      "nfl_market_comparisons.json"
+    ],
+    "schedule_games": 12,
+    "source_commit_before_delivery": "b607d97fc124c43ce7b145bcb473bb2bed390864",
+    "synthetic_empirical_observations": 0,
+    "tests": {
+      "command": "PYTHONPATH=src;. .venv/Scripts/python.exe -m unittest discover -s tests",
+      "failed": 0,
+      "passed": 404,
+      "skipped": 0,
+      "status": "PASS",
+      "verified_at": "2026-10-18T04:12:53.096151+00:00"
+    },
+    "validated_edges": 0
+  },
+  "p0_freshness_checkpoint": {
+    "blocker": "Betting validation remains blocked; engineering completion is not model validation",
+    "files": [
+      "src/ap_evsims/p0_refresh.py",
+      "src/ap_evsims/event_resolution.py",
+      "src/ap_evsims/prop_price_evidence.py",
+      "outputs/p0_market_refresh.json"
+    ],
+    "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+    "real_sample_size": 0,
+    "status": "COMPLETE",
+    "synthetic_sample_size": 0,
+    "tests": {
+      "command": "PYTHONPATH=src .venv/Scripts/python.exe -m unittest discover -s tests (workspace TEMP)",
+      "failed": 0,
+      "frozen_phase1_files": 18,
+      "frozen_phase1_mismatches": 0,
+      "passed": 351,
+      "skipped": 0,
+      "status": "PASS",
+      "verified_at": "2026-10-17T02:32:11.360605+00:00"
+    }
+  },
+  "p0_measured_delivery": {
+    "blocker": [
+      "Historical sportsbook endpoint HTTP 401; zero qualifying historical price backtest observations.",
+      "Zero settled prospective priced comparisons; calibration, qualified market-relative scores, CLV and hypothetical ROI are not established.",
+      "No confirmed player roles in this cohort. NBA/NFL reported injuries are secondary-aggregator evidence; NHL/MLB injury coverage is incomplete.",
+      "MLB ALCS game 849817 is postponed/rescheduled: official Oct 18 21:00 UTC versus sportsbook Oct 18 00:00 UTC; regular-season model does not establish postseason validity.",
+      "NHL target game has FanDuel SOG only; DraftKings and goalie-saves quotes were not returned.",
+      "CFB score forecasts preserved; this prop-priority refresh does not refresh or qualify CFB prices.",
+      "Exact bookmaker void, participation and postponement settlement terms remain unverified; no assumed cash returns.",
+      "NFL rushing probability diagnostics and NBA threes fail their respective baselines; MLB pitcher-outs advantage is inconclusive.",
+      "Historical outcome data are currently captured revisions, not proven historical availability. Inspected evaluation seasons are exploratory, not untouched holdouts.",
+      "MLB player coverage is a documented limited cohort. No verified complete historical injury/role histories or shared-game joint simulations."
+    ],
+    "completed_engineering": [
+      "history expansion",
+      "fixed causal ridge challenger",
+      "chronological evaluation",
+      "frozen new-version forecasts",
+      "marginal simulation verification",
+      "same-sample comparisons",
+      "NFL model/history ablation",
+      "evidence-bound NHL event crosswalk",
+      "fresh quote repricing without forecast changes",
+      "first-eligible prospective settlement and closing-evidence gates",
+      "original 389 forecast preservation audit"
+    ],
+    "current_market_status": {
+      "CFB": {
+        "blocker": "NO_NEW_FRESH_CFB_PRICE_COMPARISON_IN_PROP_PRIORITY_REFRESH",
+        "chronological_evaluation_n": 1086,
+        "exact_comparisons": 0,
+        "forecast_records": 60,
+        "fresh_identity_matched": 0,
+        "generated_at": "2026-10-17T02:31:59.296708+00:00",
+        "quote_age_seconds_max": 75277.296708,
+        "quote_age_seconds_min": 75251.296708,
+        "recommendations_enabled": false,
+        "status": "PRESERVED_SCORE_MODEL"
+      },
+      "MLB": {
+        "books": {
+          "draftkings": 24
+        },
+        "canonical_event": {
+          "away_team": "Tampa Bay Rays",
+          "competition_type": "L",
+          "event_id": "849817",
+          "event_start": "2026-10-18T21:00:00+00:00",
+          "home_team": "Cleveland Guardians",
+          "market_identity_verified": false,
+          "odds_event_id": "bf41baaebfa23a202d2f3a6811425ff9",
+          "odds_event_start": "2026-10-18T00:00:00Z",
+          "rescheduled_from": "2026-10-17T00:00:00Z",
+          "schedule_revision": "ALCS Game 5, Makeup of 10/16",
+          "schedule_status": {
+            "abstractGameCode": "P",
+            "abstractGameState": "Preview",
+            "codedGameState": "S",
+            "detailedState": "Scheduled",
+            "startTimeTBD": false,
+            "statusCode": "S"
+          }
+        },
+        "confirmed_roles": 0,
+        "evidence_resolved_start_offsets": 0,
+        "exact_comparisons": 48,
+        "fresh_identity_matched": 0,
+        "generated_at": "2026-10-17T02:31:56.673362+00:00",
+        "identity_matched": 0,
+        "markets": {
+          "hitter_hits": 18,
+          "total_bases": 6
+        },
+        "paired_offers": 24,
+        "pass_reasons": {
+          "BOOK_CANONICAL_START_MISMATCH": 48,
+          "BOOK_SETTLEMENT_RULE_UNVERIFIED": 48,
+          "MODEL_COMPETITION_DOMAIN_MISMATCH": 48,
+          "PARTICIPATION_NOT_CONFIRMED": 48,
+          "POSTPONED_SCHEDULE_REVISION": 48,
+          "PROSPECTIVE_CALIBRATION_PENDING": 48,
+          "ROLE_NOT_CONFIRMED": 48
+        },
+        "quote_age_seconds_max": 34.673362,
+        "quote_age_seconds_min": 34.673362,
+        "rejections": [
+          {
+            "forecast_hash": "b73a96ace158a9f18bc4b8ee086573b50a43b45f7ee9f8ef0c8470df8796aacf",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "a607c084f86f8b668b8163881c8bdbd59e1ff962e2debfdaf8b074a06327c198",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c701e131cd9b23ff1dfbd1a64a80b485f86fdc4bf37482db43411cfc0e18e973",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "cf889e92dafacb5a8720a2df60bbaf75499b98ee980c6d59fb56d2df15b326f8",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "d792d751691fb851d639d34e93042d5b6bfef64182f129432bb77d5504df81ca",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "3165b56f033acb26ef555c5f113d0a71af726c92cb862acf03f57d9547394b93",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "8c73d83c2013999f1a30692424d39b20dd7598446ce1826c31749ea415eb84c3",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "536de12d6216cc1a95e6e3dfad6af27ff2b4a07f7cbb7a20882f70cbd15802fc",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "0961b7b7bb839275d646ec2eb4d0b3c1fb74d6f4fd128279603ba7fcfa7bd567",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "722bb2d0777fe6ad046c7346012cbc98341e0b3cde476b9717dd14af39d57aa9",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "3d92ee7ff620d2b61503e4e0f0225265e77d291f16048d52a06152a7394f80d4",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "21177b2424232128989c5a52576cea7733e8b47781b31466d0c49138e9cd3667",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "497420f6ad80da960a02423b5cb45c876fe9d4158e8edfadfaa72c976cb11806",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "8c59c617d56fb82af3f14e1bec71cbed720ce8c6859310dd36009a4929ff7e57",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          }
+        ],
+        "reported_injuries": 0
+      },
+      "NBA": {
+        "books": {
+          "betrivers": 12,
+          "draftkings": 12,
+          "fanduel": 4
+        },
+        "canonical_event": {
+          "availability_event_id": "401909088",
+          "away_team": "Boston Celtics",
+          "event_id": "401909088",
+          "event_start": "2026-10-20T19:00:00+00:00",
+          "home_team": "Detroit Pistons",
+          "market_identity_verified": true,
+          "odds_event_id": "26b036ff107f3c658258eaf4a6f26228",
+          "odds_event_start": "2026-10-20T19:00:00Z"
+        },
+        "confirmed_roles": 0,
+        "evidence_resolved_start_offsets": 0,
+        "exact_comparisons": 32,
+        "fresh_identity_matched": 32,
+        "generated_at": "2026-10-17T02:31:53.113221+00:00",
+        "identity_matched": 32,
+        "markets": {
+          "assists": 14,
+          "rebounds": 14
+        },
+        "paired_offers": 28,
+        "pass_reasons": {
+          "BOOK_SETTLEMENT_RULE_UNVERIFIED": 32,
+          "INJURY_OR_RESTRICTION_REPORTED": 16,
+          "LONG_LAYOFF_ROLE_UNVERIFIED": 32,
+          "PARTICIPATION_NOT_CONFIRMED": 32,
+          "PROSPECTIVE_CALIBRATION_PENDING": 32,
+          "ROLE_NOT_CONFIRMED": 32,
+          "TEAM_CHANGE_ROLE_UNVERIFIED": 4
+        },
+        "quote_age_seconds_max": 58.113221,
+        "quote_age_seconds_min": 33.113221,
+        "rejections": [
+          {
+            "forecast_hash": "e9dd5935b2ebaa0b767bfcbd1a4aa24425f3dd748b3b547dac92ab8b7f2d103f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "90cd7f484542915850c5cff1ebace1f1402e28ade009627a25af1bf14c3a5e6c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "84da1d23cd16d16c4c27429ccc220168a4e99b3adca11ca25616de8d2fe2189f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "285d6d9bc5bf758a679bc8538f1935dd0f72d3e9ad6fcc757122736f91ad70bf",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c39d574e620ad6da0ca47f3def35def7060ae65d4c22ef9c752f3c18c7abf729",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "2efda1b87f2db67898057429e7c00582eb9147c0701ba838f983731198bacc1f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "49d30469c95e669b2fe1493ed07c7ed2d467c333416e66a7ae7c6933777b93d2",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "f0f1cf5b75283dc5fa706f10496c1b201bb6dce104c8177c222fef2145707a1c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "b0a845a1e517b80f12d2554020e1e461778793a30859c98c2c8b5d9acdda5bc3",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "bd45c0bd011e898867b16f20297b37c288f6d349ef043ecd61e7c697e9e957d2",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "5f67e9be7ba2496ed9537cd3483e63126c73f9a93193ca435e0d1e34ba3324bd",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "4a726933a338ceb3df654857e33e5ac6f111d4cf94cdba8c7e41a16233a69d54",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "9d4af674d8f3ea604c9f16e679fe6102cbd9709fa9b3a1756305b14459215bde",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "868197c182ae8d7af36a332a8123bb100d1c12fb1d385c679e6d56b1c1eb4424",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "751b2bb65ec980d89306974c6326a50078fc62d24d7b0da85aaa21a8ca1258c2",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "288d57fbb21dc4420593f4fce78bf7f82d18ad45feca706b10b3bc0ea6ecae1c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "6fd92d8b9213abbe4aab04cd3a967b4208995e1c89ae2ee52a57764b2e72b7b4",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "8225a4f267aba16abd007c8b1b96873762deec0cd9936f826f5cc09fe8070db3",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "3e95897485a0feffa44bc324e0931153458a693461b15e29446def2b514f9ab0",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "20a8f29265a4c7c5c55f4ecab181cf32cae052e106d9615c5a78e47681a05b0a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "25abfed11ca942c2932366ef825d57fb63b456a29be1f0cf697c7f048313cf92",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "ccb5a5c158ee95ed65cc8710e870ff9649fb3333ef86bba05c37d0e0d245437c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "8bc985629fb76098cc8bd343a4438f7d236c6531f34c6f028b94433c953ef8d1",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "ae716592395718e3ddca23b32eeeb2258f03873f0603e28c4d9e46dc11e9e35d",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "d653bbf52b0043e9384a2a6ea9a1309d0a7c185fac6168bff060657b0c719f04",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "366b30c6a1f15f9813b9e9f6bb8b4f14a5f6c66faefb50215039440c6ef92070",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "4d8ab742b31bcf283a7e6efdd7411ceec5ae160bfe6c4fe7f96bfb0db5113b51",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "ea11593537f9a3b047077ffba537a9fd53182cccdbb595e7e48bb6493be6a897",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "38132eb2c7615d1779e9bc7d232dc867adf147ff4fe00f0179d0cd5a753df1a3",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "61b99b893e14f3711aa22f0883a4789d1b1b2e2a13ba1ba07a30840a30bd17e4",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "25e1cca246cc7d7305c680b7520f12f141336e412f39cd84311ee4f79620e6d2",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "7eda97b376f92c87d153abf93dd924086c80f7193d38d866e259a6d42b650e78",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "e5a2feb24d3ec36857085100b715a8daea8439aa51ce19ff30c426ddd6dc4e2e",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "b0eb30ba4b779585ac202ae03dd0eb6034eb73e989a83f4b35e5203f25068f37",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "f03642b9367e4773f2f98f581692696e79b8539e81d93b760bfc57fc547aa85b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "f7081db4e8a973b18edf57d445600c9152b120a816bbccb7b7aa8a4bd189de6a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "e5adc7e31a7d00574758facbdf4e62e8561961c03be6ceda87f5a9991ac835db",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c576c03061e979a2dfea91b6d1de8f1ca98aa0110b1f94786bf9f3cdd887d862",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "58b22c53cf436985642268dd3a22082b7e27599ac39251d508d72d80a70efae1",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "69ff8534ff39a890f0f4634da6e7b03d64e6c0a302b703b918bc6b74867fa954",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "242614691077bafbe79a85160e6ca8bde68654139f81ebfd56d35ee9467012ee",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "1cbec1a6291082276cd5cfb6838d200d37c8ddcbc3136e023bb98ded531e6e02",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "738cec20e958e03f2c718e14ded40dfa7c02028ba2769fb0e16e3f07d0e70107",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "4be8e66c379340e9d7341329df342c5c5c496ebe9777a5ffbd3d1d30f4801edf",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "93ac0c6b5ddaebb109517708ea2e11a5f57b89bca0c91be2d178836d55c76657",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "9ed9971964104a740c36cf7920ecaf22523bc7fa268fe2f8478172a0ba7df24b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "29105131a5275804e19107a1f3f6c0e2bb840f3f333149b60fb6d34a4f08f05f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "521cf139f40e200dac82dbb7372a68d3aa9ae0f96e074e1b3e4aab93c43e7aa3",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "53e583c1be061db44ca1fcbfbfa5407c6ec2b85288444cfcdbf2d26b794d4144",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "58dfbaf8db02f2fbeb2cc8bc05bc7ae2b127b84b38ffe72f38742c21f0d6b934",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "1bd0e2a33f8ba8bca32abed515150924aa3fbdfa16e70b9290282e34f47140a6",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "cf4642490cc9d01a26a6c4202393a94cf3692c1f74d77e3899c1a7cc3cd033d2",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "110a468c9b09e6ad8fb5577eeec817f597cf56452f6f6f703fea6f28cd3294e8",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "40d232caaf9af191ca272f4e7a0d7b16a8f78c001537c41fec64ec05ab14502a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "e36f775a7690214bbba0498f81421a9813b811abfd6b858276aeadaadbbe7555",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "edc241bacf502699f07fa8820813f5eda3950d2f4e3f9379f54ffafbc84d955e",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "1948ef04aa80e5012278ea4d2c06d0d3a38cb0ec5461985dcda7e0bfae9fcbc3",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "d691e8f9de4c6c7c83624db3843a7de1f4499534aa72040c7d84834600bef1ba",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "af49b916e495752df1d4fca3d4ce773754b7beb5552c0209bfa1e4b669d75a59",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "b1f6aa29eb085e892cdbc5dae07fb4ddc6df9e2f50a52cbdde1f2665e4d6f1aa",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "012d1e1a543c148a3b8b0dacf91c412642ffd584b81576425e4326120ebd71c8",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "74f25ff7acd006029852e7c4e8903a753620d070496f206e9119df20a6d3a396",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "331a0989763941b70dbfd6c18e8db4af67fb40950f09f4bb1141026883ce645d",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c912aa3df679898b56f7ec73922a8d1c76accee5b52f99aa168e0d99d94d0647",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "0480b4c4b11c52db0117fa7bdb4472523032e965fee3862bde761df0480de6b6",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "511c660adb457c6dbdf0a72e41279a4382d3d9ffbbfe27c2190b2ee4a923b6e8",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "8085ab3bbfa506a397416d63fcf782cbfbe90529123b4129e6670f7098a0b196",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "0dfd6ba63b454cf24487732e09d29c113001ace8f53942849e12721740dd1b4f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "f651fb6c9dca936520f2d2eae522a771d60ac2077fd8acac3e8f54399a3a1002",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "6f1d3503c5d06291350217ce76f04f6c2b556b172eb6375a2cb874594eff40a8",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "1308ece0de5c39791c5f4c9086043a403cee191309a2a2873fe61754ef71da81",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "b19476895678175e5318cc801e2a98799d40bc72dc428690f56724cb436d4df8",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "7610b4dcc76414079cb34462df9447026799b516362ad823bb3f70bed5c9d320",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "de190ed3bec5d9a77363a1388c055d62aa9c050a33f7474fb9d68f7129edf41f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "0099bbfb8defb55b5799ab84ee77509d7774065ef2e61cce2618739522172bf7",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "fdd419f4e22442aabc9e9e78734f74d091852f97138643ff393e853206ccaec7",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "cedd51a2800c854c8b54a1035750ac638ead4132375c7301f851653d056b1516",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "825ee142423f8ffa8489da8474b2790e7b44a19d6dcae425d65270dc71131666",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c9079d2d52daecae52fc2707988c48fd29ed99416749383f939f5241ce1d841a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c23bc73aea07e8ee2167c0cef35ce9276df927f54b79565db02b775ae914fa61",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "331cd354793f6f81ababbea7e9e5e7489e68c4af26067a4137a792b24a7263bb",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c2c6fdc68ebe31f2eeb658bc231d3036fe50c7ed53c1f395fc9b588a668b2c52",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "7cc9a09550353682a40333c26ada8be4332f09146d8543526c9c1e33c9d65bd3",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "5813e5f56206cc9f43daa5e4a29f50006576b1d1f099348659f161c179111960",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "90b60528a57cd73980212e72f8216054ec3cd9176b39f1e0da477ea910b55846",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "aefbd08249b171f694af37a4f55bfaffde69a33669a491cfb7aabbae4a95f38c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "723f02ab994c604f583212d1a7704aac6c7cee22d5723eed1404423af3c385de",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "778a75eb678af3d50001da0649a1d09d937fc17ea7976fe348cebaf2daea4a74",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "825b75f362869a137954f49d67857865d4d9fe87d223cd67ad87804fc4c0e368",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "7d04ca6be22e6a0ca10370911d0cd9a10b588ae94ce8002ff924400c17ac8259",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "37b781121751ec2347b56b3912c035d726628c13f9b17554cc936beb42f5280a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "f679c4e45fbb688b3a35898b3d6a940507c853ff24cca4e0687b9ab43bc097f9",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "e53dca12d4a7c0f276f2e552c32aa8d455f54e1545050b017c2c79eda4fc4afa",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "512b513019d9a6eda78e9158743c712fa2947f2007c5b2620bd4251f7524a52d",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "5221c2183a49379071632d16cab9d17a22c1928245f9ec27dc175c059177a9eb",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "cdc45e73d8dc2b7953523ed0750f6aacdd395d41a05b6b0bd451ef3e311daf9a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "050c547bdd260585e811f43952a39fb72dd41d24d46a46b3b27cd14b497268fa",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "ac197654a289e0383396e69d2d12457bba495b35aeb93b20fe75612fc97c4f22",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "606eaf2941de893b20eb578d2a25883da15112b58d9a035665d7dd210364555c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "4256101947f629c2fd46db8d9ba4e60ca341026f7a9dcafc592d8fc0ecf5b34f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "36878a0ffd9a18fd94de78ef1004df16bff6738f325b377b0be0dd7853bad268",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "2b45b64bff9b0c072b6b46e6837d8842de2a59365bd7b75bf0638da150b94833",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "365d5af86561775fb0d380cd55a9cc7a5cf799b8981e44f0ebe1ba837d987788",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "b7d9201a325ac0554340b4aaf79544b722b500b454e98355e559410f795f0a48",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "9f36bce54a663da7e39351370403325b958466587947e276c80712b9d0bd6a6a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "140fd523f86b2746c2095ab3c3316896c6c54719d4fff913cd36cf0676fef739",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "6e57a78b0b667b9b92b07a8ea2e8348ad454d81bb5265e6e1674f0ba50f5f794",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "a893353869ed9fbe935b4535297790ad8a49b8b1d144d203db2e203a550da3d3",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "646ba85be520977aa7cf3626b5a406fb11e543f22fc3e9d84f2c3cfffb0158fc",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "9b2c3596e2cc3ad4abd76095c8288fc9d10867665da54fe7b06ef943f16a0c1c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "53457fdc19d1bea7a5c53176ee5ee194e9fb600e4f2304a10f6c431e25bea74d",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "30dd50a549e1a297ae1b3681eb26de60ca07bffc3cfe6c0236f1dc9d71dba4af",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          }
+        ],
+        "reported_injuries": 9
+      },
+      "NFL": {
+        "books": {
+          "betmgm": 35,
+          "betrivers": 20,
+          "draftkings": 37,
+          "fanduel": 33
+        },
+        "canonical_event": {
+          "availability_event_id": "401872996",
+          "away_team": "Houston Texans",
+          "event_id": "2026_06_HOU_JAX",
+          "event_start": "2026-10-18T13:30:00+00:00",
+          "home_team": "Jacksonville Jaguars",
+          "market_identity_verified": true,
+          "odds_event_id": "57418b2cf5aca558b3c98eafac1e264a",
+          "odds_event_start": "2026-10-18T13:30:00Z"
+        },
+        "confirmed_roles": 0,
+        "evidence_resolved_start_offsets": 0,
+        "exact_comparisons": 112,
+        "fresh_identity_matched": 0,
+        "generated_at": "2026-10-17T02:31:58.593257+00:00",
+        "identity_matched": 112,
+        "markets": {
+          "passing_yards": 8,
+          "receiving_yards": 52,
+          "receptions": 39,
+          "rushing_attempts": 6,
+          "rushing_yards": 20
+        },
+        "paired_offers": 125,
+        "pass_reasons": {
+          "BOOK_SETTLEMENT_RULE_UNVERIFIED": 112,
+          "FAILED_DISTRIBUTION_BASELINE": 16,
+          "PARTICIPATION_NOT_CONFIRMED": 112,
+          "PROSPECTIVE_CALIBRATION_PENDING": 112,
+          "ROLE_NOT_CONFIRMED": 112,
+          "STALE_PRICE": 112,
+          "TEAM_CHANGE_ROLE_UNVERIFIED": 8
+        },
+        "quote_age_seconds_max": 454.593257,
+        "quote_age_seconds_min": 424.593257,
+        "rejections": [
+          {
+            "forecast_hash": "af4080faae79820baf5323899f6b1420e5d37f7ebfebc98f2982e4c980dea35f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "e2bf33448bc9529579fd0c39e2ced9ef64cf72df5f5a6a6b89ac66abe80fa873",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "6412e4e7018f9120ae80c420dc48713328327a8042848b31249042f89e0487fe",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "74134bf405b9d54794c8fa7747cd9272cf9c94df31255e9ab91d39c22b9f5281",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "60975152f184c479e49a9cb2225a186bd5cd757d34130eb40e8bf89ea8d01376",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "592f9d0a36db4268f385d31ad31f39ce36680d29e0e4ba5fe2491de731db9ec6",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "a9b649203f3bc4752cbce45569b5d7e29b63c0c2652bc7931344cc782f907d59",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "4d1b8b5527dd14a98ddc7b515629f8a95322067fb368be0c315735b5cf63a5ef",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "ed40f01a506d51b320090c045f6fe5aaadbc1e8d9d8986f88ea918e580c0f0ca",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "6e8a0d0571ac00d6638296fc73c9fb21778eed088b2fa12d66bb4306d65c57d2",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "29ac19814669cb415765a56ea27fae6744d89c09c2cbaf73b337fd4005622a13",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "143770fc7fc96c97ddf0ae6082c2396ad21d075942c727f2a20d7a9e36b59787",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "367d582759aca47fe1e15e691a8427873c6837b0f6b2aabd8ad8f21bf3696fb6",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "fedf7a6437c9142b7519581ca9b305bd54906e04576ee6e3c0a7f19893e0ab5e",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "5943de1fda91cee4ecd165151d09c6cac3d0c96809483bb084a393544d749e48",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "d025f10096c0011cf8aa4fa6c3c4a9e2980c23eed9884db9281234447eee538e",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "883391b1cbbe649ba2bcc501e4c7628960d8ff6538dbc50fbba6ced3e7fe917c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "f2a9fd14dc215d164ed4575703758dd8ad179a03eb01ff881bbe1a5ea403eb4e",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c04c18f75c62eb907930b81136935aec788caaeef7fadcb6f5a8762cc9ccfe07",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "dd1f4a639296e1fa58d631fa5635bed50824031e8de81acee6b78a491afa089b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "df2027e9d0028a555318a4dd94d0c91707812cebda5d5f20efbdcef77a11a9b1",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "b27e90bd66dc8d783952c459db90f613952f7a862e6f828440e0012b918d3ad7",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "162851011506ab29e1fa738726cd414b789f3a7cf98dcb0f7704a27ec6d002a5",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "02cc049f9e7c9ad671a37b2bb7e1873a215fe1eebbadf45686c712e387e2d037",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "7116610756ab2853947650c1e84bd847543983a7720e9bb803a7ad3abfedd27c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "f5e4f315cc65a55df21d1d45ceb6ecfd8a53e823f642e586cddb6e7d59912af9",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "1ebfd21f16c62379ef5b4a733a8bc3cb00d2e995703888aecd2e6a0c433ce507",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "82d1d0e53c3279c62b4b9ec29e0040d45c81363977704b7647d995ae50fc57c6",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "a6ab6133acf9068a2dbd6e5f2ad4b7df1e71d7fbf8ba4c76354834d2d9746f56",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "8f1070b1f3e519496a05d2d46561104c25ceacd52fd5d10df1bf4a7c39fb435c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "28ea82526516f94da005272de80cf1d30289c061ab6e4745238ac334ebd2ecef",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "3e9e0408d202fd0827ccf66150e6c77b77872880dee0300530ef8e0069b1e003",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "cb3880dc180a43094415faa75a97e0f4c97353be636ca4764144acca1980c9ce",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c53ec512e9677dfd5b48507d7cc43be83d6376128868c73145a227c35405e0ee",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "204abe5425f26c20777f242e2c79742ea2d590661fc93db2e370cf6e64df329f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "31e3ff80ec574b45d9a4fc11ced92bbfbd5c71c28ab1bf8899a67326f80e0a72",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "9e7e20e01b5f57a4345fbc7cfd956bfd8a285f12d8ff230b9d1a10c0d7b57e18",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "d4b0111e4a78a1763d3ba7438894692dbc4360c35e2596c0469405c3bc57c88b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "d0e867fec8090652fc634023f9addb971abb972d6580296ace2296c094b425e4",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "7b76b66291083c0d60cca12a980f418c41938455951c3edf29d7b55f53958a9f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "390c24c5f1e796215999e76f8c7c2d9fafb893ae2cdc45f38fd83afdbcfe419d",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "3144e063b57d8ff28c78f3edd7712843159b76a0ce9adfa5bd35d3ab780023f4",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "2090315bee7ee11ccd32e1eb42c7ffbbf69a57b3debf06dcb85f0c6ccad58604",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "7cc8c6a61a0ff463eba874f7bd386940b650a387f30afa740b6623e545d33b53",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "bbbc533358c6d4ddbfd049ed1d4bf20df15941ded28d1e07bde4605bb827eb08",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "60afc06d157dea9a163c9e586efe49a35fd3f82fdb1aa72c58afafc61cab8330",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "732be142de320e455a24b6df0101f9118ec50f3836fe31b1e763f0d50ce21338",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "2abb3b3719842933f8f9eed417958f8e09a65bf836a43401150024b1ee7b8c69",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "e7fec82f07a2572c937378d403d8f9422fd378a6b8da9ac5a3b26a89a18a9570",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "80c540f3dd612cbfa74be7b6a691dbc0e28e5f675a8bccfb423db7e735691416",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "a1350e2424b0c849401965db62ad303608c7069652c97aaffeb4cf5f5cb19c25",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "a0a129d7716b2a77d95eb5211adb2d474aff266f660fcee904643ce122c22eaf",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "73c11b4799aedf9e927db3f72f36f48bbd14be4f94e480acb85b98693b68b372",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "e69cd44b5df0512549c7acbaffb65e06af970eaae894516ddaca0a1b9098d5aa",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "00955626d561e2f023e39f9b6cd6a0bd4f683df5ab00ae406482051ea7eefa92",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "df410ae89557cba2f23563235dd71b19db00121fc0c946c71a33eecafa99969a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "9e6963d74ba03251aae004d36252c12730fa42eca66dfddf9c2ea14d928c8736",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "150f80ac977b69b30e91b5cf0613c989b44e9230d61e452f27ce58121c09dc27",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "1b5fbf0c2f14b9b9d29b85c4526a275b9a6ba6c51f8944b8142363de7692f6a4",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "db9939ad46659db5bebe32aef4b6fb9d00654d11ce58ff1b9ec79ec9cfadce09",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "cb13352506fec369cccab4ec5f3d18d57acd777c9f2cffd5ffcc6279d81e7c72",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "b6a8730fb2c1a4aece6acfab21f2a4a7583cd4bce24b9534e3b905cd33909179",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "02a22721a486ec169ab7def08cb0d02d3da4c2fc20883ae86d0677214738de42",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "e572d60aa0e4d9068ac0b2ef8e0dc8e7269cb928642cdf8beb8ddd0ca1cef5c2",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "79650ee35ea26473a1b6b210f2b2e6727250172dc10118dacbadd7809f5cf741",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c7f9e8431eb8f48b4f6d44d551285a9c398af702707b88f3f0f5e9876c348fe8",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "badb5718aa0d43718e62ac5f2146f2b36b20086cacaa734c34919fe14dcd3bf4",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "5e388ccad384897152c8bd7acd61119d05ea24298688612096b2f3c02f5b294e",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "2dbbda0193118f5a407fc694a5d9d620150f3c8943cf66ceb69267d3968b8f9b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "7ae4364c21a78e5afafe20a662fa15949b077ce6462f298424ca2812f7e8dc65",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "73887ae167b09395b3a2cc74aaf2fb3d885f552ae4cac8c5ca2043dfa6f2aa74",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "f8258ace7ec310d5b462255ae46cf76bc856691cd0d7244ee58811c04cba5b2a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "01bd08a2e0bdda8a6070d57832f51611387a02170c6a3dba4c27fef70bf24ae4",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "32fee4ccfc88b81dbed6d58a6e67e12f0caa52d630b49da2b4b939b955622786",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "e77381523895cd2298c01e345dd9513971d4e4248523c3a4420abac5ab30d66a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "7cb05651a602aeb6214a5143ba84d0755dd1c7909528446a785973590fd73c38",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "0a8a9801c883a8c1194151a3f390a426af160d6cdb825109cf401327a5c0d4de",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "147181376e6a5b14610d06382eb85c71fb3f9ceaf433315237603c920a91522b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "a958249f29a131a179af4068d793c56af31085c00c75f7c0fa6d57704dfd80f3",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "511fa05a7914f47cd1d6f967542255b01e656096013ab85d3ccf5e92e96f733b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "07010a1321b1cc2c62f7b2cf334847641d5397d88c046a180f563e55925bb0c0",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "5e8bfc427aff2c3858bcfdfa6471574b763d1452915e5d180a840bddc6382b76",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "d4f1243f1b82aa747dd28e2be7d705e16109bbdf2482ab3cea42be945c058ead",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "a28fe13c6d42455262364168e97216d8b092808a2cc0984470591c399e65cc7d",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "a64b5230d6e786605f1734eac2909a0929b099feb71fbadca55b2c1abaa31dfa",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "ae289ae23767e854791463295cfe38a5aa2cc1fb0d1603b43ee0320e86f36fa0",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "75eb770b75463c3ce649d572487a35638a21382a03ee211d999a3752777b23d0",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "549880bb7701204f39ab597256ee515fbf6c6f41b790373ddf85212569d8b21a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c8ae12b88ae546a6656bdf8e81d4e4f26055b0c6dc06b081989ae0256a5f1904",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "fa5710be4d1f98b694ff86e87cf9ad88cf430333a7cd85769894e7261fd112f4",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "07816ae6c6ce7ef1a870862b8c342f3e8681538e18a77c9717da5ffcd6e5b1d0",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "d2e5dadc4326d24a0eead5d51075fc27c213ee1c5b686ec4c7dfb1e9a3609121",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "022a607999e0f2c588bbe07f612a66f5f9bf9dc075573282e02a2138bf86e76c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "6bb98396f249a74e65a78791a737223d71c7b6eaa14b231df01804a70ff04894",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "9735d2acba4de44550f9f29d7874bbbb311fb3534228f8f2d33d3c9f2da87a9c",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          }
+        ],
+        "reported_injuries": 21
+      },
+      "NHL": {
+        "books": {
+          "fanduel": 8
+        },
+        "canonical_event": {
+          "away_team": "New Jersey Devils",
+          "event_id": "2026020121",
+          "event_start": "2026-10-17T17:00:00+00:00",
+          "home_team": "Washington Capitals",
+          "market_identity_verified": false,
+          "odds_event_id": "841c71c033cf05ad1313e3d5ecd2d9ab",
+          "odds_event_start": "2026-10-17T17:10:00Z"
+        },
+        "confirmed_roles": 0,
+        "evidence_resolved_start_offsets": 16,
+        "exact_comparisons": 16,
+        "fresh_identity_matched": 16,
+        "generated_at": "2026-10-17T02:31:50.364093+00:00",
+        "identity_matched": 16,
+        "markets": {
+          "shots_on_goal": 8
+        },
+        "paired_offers": 8,
+        "pass_reasons": {
+          "BOOK_SETTLEMENT_RULE_UNVERIFIED": 16,
+          "PARTICIPATION_NOT_CONFIRMED": 16,
+          "PROSPECTIVE_CALIBRATION_PENDING": 16,
+          "ROLE_NOT_CONFIRMED": 16
+        },
+        "quote_age_seconds_max": 53.364093,
+        "quote_age_seconds_min": 53.364093,
+        "rejections": [
+          {
+            "forecast_hash": "65a08d7c6cbe1d72552520229110247446f328bb114bf7ab30688931ca0c4d94",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "95b87cdba5df570c49400fe208b8b17f3b57ec89603f5cf8aba35db102dc17dc",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "31b8bb7f1b29eb0fa6ca488054f54839def25b22d3398013b9f9422b4de66e54",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "af66975bdc6af002e8062cff7c0de91efb2665880daa73986c4e428e1dab9c06",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "03adf51cf3970d1fe8f33671573f3778cd390d08559f1b56855bae5df32e0a13",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "d10168a469f070c1e6ba70d1a318c1dc4a4ea5ed872de7eaa147317c120d937b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "fe1b0f41c5128085495ed464bee716fb84c54814918b4659b5036bcf17c92a80",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "f14ae3bd4c337bcc4c4e9ccff437f5585965235ca659a588e3676f59b0cd94f7",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "0671568ad7dc9b6c58978dff3156d0edceb092ff63588453464d95f70f154179",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "5377b9b2b51b8b92d71d421ddc013694d8b5af056034ec53474d2ac6a87da3b7",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "cde698fc0c8e86a835b838df0699199cf62a07e74f6909fab4fbb8bbd2955ae5",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "2b19509962b5907231c3ce0f196d7fb2231ff806860f3011bd3926b0040758b7",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "4e8cb12d7befbef85369edf5da9c477ca728a8b5c42ab15c8264214aa54ecf09",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "2d88ede04b0648b27cddb71b646d8faa0d4aefcbc2846b90913aa1992b1bda5d",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "dd35f205967edb443be05ca45bae35a9fba4b339aae8f96474280b3e367bd24b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "d9f33c10cbcea26fdafde002e88fcca8ae78e33c7a175686a81bd8bb42a8a5aa",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "0c56c6e05f9f5842dd30520a3f894649210121f57ddd90066ed441e1f8a8902b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "5749484e454461342de87e7e445312fd0cb298fc1c31f57270ee0c6d5d00cc34",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "19d7b4852119853782b2b76e107aad824c7108924f5790188bfab2e71f78c42b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "4ab1eaa57f0bbbe1bba273d081039ad91b379447d8fab8269627f0b34c2f3d4e",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "5239a72f6f2d7a0c74dbe8e3ebab99fe5af7f11b0365bf123f701fbe5a3dad7e",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "132729916b70c5b044aeb55ad08d100dd497343aff2a53941e17b84a4f22cb5f",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "f63226b3c2cf95875d48250a8c833fbad9b72e2742b214d9d8084e9f5dc7c7ae",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "3996648afd52fdea543cb61e99a5939690e2ce6dba7ea9f811354b431b9be73d",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "b5940fd5fed94f6e8c1319ecd1de606e0d4fba7cb0ac9a44ba23447c988b50a9",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "ccc1489b1f6bad2ad0f2ba664f065f28d5197810a4feb868291877065485a60b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "3cadde37a45e9bc794aa6ae49a55a2427df14c53ad0c64355e66dbb80346538b",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "be55e480127a4a62b480f9ecd0e5e49ad9325613ec0e6500349284e6e0052c74",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "c60e0b9f9ccd6ee83059470db638d9668ed2ca39650729cebb6d73651d642e75",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "ea59b96e099324999c74d4e5747a0b6802bcbf18293723a6bfd3e00c6334009e",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "09634bd13602311dd3888f8045c0bd4a978b4b8c8bcff4bb874c0e98ed5b236a",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "2292005946302c7e87baf8270ad5a54a2c6468da3194cb4f3a8c451869e7d618",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "e739cef267a28ee1a41511005c171c2611cf257e06691a0e57f3bbfb4ae44415",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "4179a3893f289cd0867b959acbd7e9274b4f6f6d373a5d093e38448cd06494e7",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "4f29037dd3d6e31b8d79b489b0f0147ff29b3913cf1f4b39bd8068e50c7ba849",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "7e807057e20b2b9f9d52cde47dbe549bb5619ef2dcd6648aa8398a6290331170",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "6e57cb53886a17940872264d9fbd1d90dc89c5cf6c2fba137985f61b47e6b0c0",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "ce223a1df6995e0e27feb71ae22ad69c345db73d7d29870e5c3e7079b14cd117",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          },
+          {
+            "forecast_hash": "1f78c4e9c8f3d1358185c587543e546001f5bc7134b425d04718e429feb256a6",
+            "reason": "NO_CURRENT_EXACT_PLAYER_MARKET"
+          }
+        ],
+        "reported_injuries": 0
+      }
+    },
+    "new_version_frozen_predictions": 333,
+    "next_action": "Resolve MLB postponed schedule and book rules; collect confirmed roles and pre-start closing snapshots, settle frozen cohorts; no additional simulations",
+    "real_sample_size": {
+      "CFB": 3334,
+      "MLB": 27090,
+      "NBA": 131618,
+      "NFL": 25657,
+      "NHL": 253759
+    },
+    "report": "reports/P0_MEASURED_RESULTS.md",
+    "status": "IN_PROGRESS",
+    "synthetic_sample_size": 0,
+    "tests": {
+      "command": "PYTHONPATH=src .venv/Scripts/python.exe -m unittest discover -s tests (workspace TEMP)",
+      "failed": 0,
+      "frozen_phase1_files": 18,
+      "frozen_phase1_mismatches": 0,
+      "passed": 351,
+      "skipped": 0,
+      "status": "PASS",
+      "verified_at": "2026-10-17T02:32:11.360605+00:00"
+    }
+  },
+  "p0_reliability_delivery": {
+    "blocker": "Native scheduler CIM unavailable; role and book applicability incomplete; no adequately powered preregistered prospective holdout; no authentic close for settled entries; historical odds access blocked",
+    "completed": [
+      "NHL official-final result vertical slice",
+      "CFB frozen model scoring and seven-day forecasts",
+      "independent non-entry-book consensus",
+      "price/capture/closing safeguards",
+      "separate research and approved outputs"
+    ],
+    "distinct_games": 45,
+    "files": [
+      "src/ap_evsims/reliable_engine.py",
+      "src/ap_evsims/reliable_results.py",
+      "outputs/reliable_delivery.json",
+      "reports/P0_RELIABLE_DELIVERY.md"
+    ],
+    "next_action": "Establish pre-entry participation/book rules and authentic closing captures; settle upcoming NBA/NFL games using verified result adapters; expand prospective independent samples",
+    "real_sample_size": 161,
+    "scheduler": {
+      "automatic_wagers": false,
+      "checked_at": "2026-10-18T03:24:07.788450+00:00",
+      "closing_capture_guaranteed": false,
+      "execution_script_test": "PASS_EXIT_0",
+      "fallback_automation_id": "ap-ev-sims-verified-research-cycle",
+      "fallback_interval_seconds": 1200,
+      "fallback_status": "EXECUTION_VERIFIED_PROVIDER_NETWORK_BLOCKED",
+      "git_writes_from_runner": false,
+      "native_installed": false,
+      "native_interval_seconds": 120,
+      "native_status": "BLOCKED_CIM_RESOURCE_UNAVAILABLE",
+      "native_task_name": "AP-EV-SIMS-Verified-Research",
+      "requires": "Local computer awake; native task needs signed-in user. Codex fallback also needs desktop app running.",
+      "verified_scheduled_completions": [
+        "2026-10-18T02:43:11.321041+00:00",
+        "2026-10-18T03:04:07.237713+00:00"
+      ]
+    },
+    "status": "IN_PROGRESS",
+    "synthetic_sample_size": 0,
+    "tests": [
+      "tests/test_reliable_engine.py",
+      "tests/test_event_price_evidence.py"
+    ]
+  },
+  "paper_tracking_delivery": {
+    "cash_committed": 0,
+    "cohort_candidates": 8,
+    "core_enabled": false,
+    "implementation": "COMPLETE",
+    "observations_logged": 816,
+    "real_model_predictions": 0,
+    "reference_unit": 22,
+    "report": "reports/PREDICTIVE_EDGE_DELIVERY.md",
+    "settled": 0,
+    "status": "IN_PROGRESS",
+    "synthetic_performance_sample": 0,
+    "target": 100,
+    "unique_games": 3,
+    "updated_at": "2026-10-16T04:38:13.911840+00:00"
+  },
+  "phase1_integrity": {
+    "changed": [],
+    "files_verified": 18,
+    "verified_at": "2026-10-16T01:59:33.344672+00:00"
+  },
+  "predictive_edge_milestones": {
+    "demonstrated_value": "BLOCKED",
+    "prospective_verification": "IN_PROGRESS",
+    "reliable_data": "IN_PROGRESS",
+    "working_predictions": "BLOCKED"
+  },
+  "pregame_refresh_delivery": {
+    "advanced_stat_refresh": "BLOCKED_FEEDS_NOT_CONNECTED",
+    "automatic_prices": "OPT_IN_WHILE_DASHBOARD_SESSION_ACTIVE",
+    "blocker": null,
+    "files": [
+      "src/ap_evsims/dashboard.py",
+      "reports/PREGAME_REFRESH.md"
+    ],
+    "lineup_refresh": "BLOCKED_FEEDS_NOT_CONNECTED",
+    "next_action": "Enable optional price refresh in the dashboard; verified advanced-stat and availability integration remains unfinished.",
+    "provider_collection": {
+      "collected_at": "2026-10-15T03:43:08.673043+00:00",
+      "quota": {
+        "cached_historical_snapshots": 0,
+        "credits_consumed_recorded": 63,
+        "duplicate_requests_prevented": 0,
+        "provider_requests_used": 78,
+        "requests_recorded": 29,
+        "requests_remaining": 422
+      },
+      "results": [
+        {
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 3070,
+          "snapshot_id": "612c5b17a42f0826b5cb7b0f10fab5f4b2d598a93260c9b00bc543e3c6c6460b",
+          "sport": "CFB",
+          "status": "ARCHIVED"
+        },
+        {
+          "duplicates_prevented": 0,
+          "failures": [],
+          "quotes_inserted": 594,
+          "snapshot_id": "d27e2a4a21e1242ba6a4a7674b763fb09a00e6dcdbee43e580cee73606559949",
+          "sport": "NHL",
+          "status": "ARCHIVED"
+        },
+        {
+          "sport": "NFL",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "sport": "MLB",
+          "status": "QUOTA_BUDGET_LIMIT"
+        },
+        {
+          "next_refresh_seconds": 10670.848755,
+          "sport": "NBA",
+          "status": "CACHED_CADENCE"
+        }
+      ]
+    },
+    "real_sample_size": 0,
+    "scope": "PRICE_REFRESH_AND_EVIDENCE_AVAILABILITY_DISPLAY_ONLY",
+    "status": "COMPLETE",
+    "synthetic_sample_size": 0,
+    "tests": [
+      "tests/test_product.py"
+    ],
+    "updated_at": "2026-10-15T03:44:43.053319+00:00"
+  },
+  "previous_run_end_reason": "Available local implementation and audit checkpoint saved; remaining model validation depends on qualifying data and unresolved controls.",
+  "probability_ev_delivery": {
+    "api_calls_for_demo": 0,
+    "blocker": null,
+    "files": [
+      "src/ap_evsims/display_pricing.py",
+      "src/ap_evsims/research_display.py",
+      "src/ap_evsims/product.py",
+      "src/ap_evsims/warehouse.py",
+      "src/ap_evsims/dashboard.py",
+      "tests/test_display_pricing.py",
+      "reports/PROBABILITY_EV_DELIVERY.md",
+      "reports/MORNING_CARD.md",
+      "TASK_STATE.json",
+      "PHASE2_PROGRESS.md",
+      "outputs/last_update.json",
+      "outputs/cfb_universe.json",
+      "outputs/latest_passes.json",
+      "outputs/provider_status.json",
+      "outputs/probability_ev_demo.json"
+    ],
+    "integer_push_policy": "UNKNOWN_PUSH_MASS_MEANS_NULL_UNCONDITIONAL_EV",
+    "model_evaluation_sample": 0,
+    "model_probabilities_displayed": 0,
+    "next_action": "Reload dashboard; Recalculate uses archived prices without provider requests.",
+    "phase1_files_preserved": 18,
+    "raw_provider_snapshots_committed": false,
+    "real_market_quote_sides": 5852,
+    "real_sample_size": 0,
+    "research_baseline_training_status": "BLOCKED",
+    "research_training_blocker": "No real joined training tables, trained artifacts or complete verified current CFB feature sets.",
+    "scope": "MARKET_CALCULATIONS_AND_VERIFIED_RESEARCH_ARTIFACT_DISPLAY",
+    "status": "COMPLETE",
+    "synthetic_sample_size": 0,
+    "tests": [
+      "tests/test_display_pricing.py",
+      "full 208-test regression suite"
+    ],
+    "updated_at": "2026-10-15T05:04:30.209901+00:00"
+  },
+  "product_delivery": {
+    "approved_models": 0,
+    "automatic_wager_placement": false,
+    "clean_installed_package_tests": {
+      "failed": 0,
+      "passed": 195,
+      "skipped": 0
+    },
+    "clean_venv_install": "PASS",
+    "frozen_phase1_files_unchanged": 18,
+    "full_suite": {
+      "failed": 0,
+      "passed": 195
+    },
+    "launch_command": ".\\.venv\\Scripts\\python.exe -m ap_evsims dashboard",
+    "loopback_http_and_browser": "TIMEOUT_IN_CODEX_SESSION",
+    "original_171_preserved": true,
+    "real_data": {
+      "cfb_schedule_games": 1666,
+      "current_market_events": 160,
+      "current_market_sides": 5840,
+      "matched_cfb_events": 66,
+      "preferred_market_sides": 1634,
+      "real_model_evaluation_sample": 0,
+      "unmatched_odds_cfb_events": 7,
+      "upcoming_fbs_matchups": 428
+    },
+    "real_data_apptest": "PASS",
+    "server_start": "PASS",
+    "url": "http://127.0.0.1:8501"
+  },
+  "prospective_market_delivery": {
+    "cfb_hashes_preserved": {
+      "src/ap_evsims/cfb_score_research.py": "da9543f821f412e1d0d7bdab8aa3f8454df62be9c3379585041ffaab53bb5780",
+      "src/ap_evsims/cfb_scores.py": "2c15a2a7021ba9be824d163bb8f6d70cb1a621590112fd55e75d080ff9e6fa5e"
+    },
+    "comparison_records": 244,
+    "files": [
+      "src/ap_evsims/prop_market_research.py",
+      "src/ap_evsims/prop_availability.py",
+      "outputs/early_watchlist.json",
+      "outputs/prospective_price_comparisons.json",
+      "reports/PROSPECTIVE_MARKET_RESEARCH.md"
+    ],
+    "fresh_watchlist": 0,
+    "new_primary_forecasts_since_7d5c880": 36,
+    "new_reference_forecasts_since_7d5c880": 120,
+    "nfl_reference_forecasts": 120,
+    "primary_forecasts": 389,
+    "research_watchlist": 8,
+    "status": "IN_PROGRESS",
+    "validated_edges": 0
+  },
+  "real_data_counts": {
+    "CFB": {
+      "blockers": [
+        "HISTORICAL_ODDS_ACCESS",
+        "HISTORICAL_REVISION_TIMING_UNVERIFIED",
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "CRITICAL_ROLE_AND_AVAILABILITY_UNVERIFIED"
+      ],
+      "coverage": {
+        "completed_scores": 2600,
+        "earliest_kickoff": "2023-08-26T18:30:00+00:00",
+        "exclusions": {
+          "EVENT_START_UNCONFIRMED": 214,
+          "NOT_FINAL": 212,
+          "OUTSIDE_FBS_VS_FBS_SCOPE": 1219
+        },
+        "latest_kickoff": "2026-10-16T00:00:00+00:00",
+        "raw_rows": 6826,
+        "revised_game_ids": 29,
+        "seasons": {
+          "2023": 750,
+          "2024": 752,
+          "2025": 762,
+          "2026": 336
+        },
+        "unique_game_ids": 4245
+      },
+      "evaluation_scope": "CHRONOLOGICAL_RECONSTRUCTION_NOT_TIMESTAMP_AUTHENTIC_BETTING_BACKTEST",
+      "forecast_records": 59,
+      "models": {
+        "game_margin": {
+          "evaluation": {
+            "baseline_brier": 0.23912697505843025,
+            "baseline_crps": 11.611557915887822,
+            "baseline_crps_n": 1086,
+            "baseline_logloss": 0.671293460126948,
+            "baseline_mae": 16.20734585923272,
+            "baseline_rmse": 20.57832723087376,
+            "brier": 0.20609104262778835,
+            "crps": 10.406835097443572,
+            "crps_n": 1086,
+            "home_win_probability_n": 1086,
+            "logloss": 0.5993558332405463,
+            "mae": 14.526886822556035,
+            "n": 1086,
+            "paired_mae_difference_95_week_bootstrap": [
+              -1.9616750733258392,
+              -1.4188128105778446
+            ],
+            "rmse": 18.47547822116664,
+            "week_blocks": 25
+          },
+          "training_n": 1442
+        }
+      },
+      "newly_frozen_this_run": 0,
+      "prospective_settled": 0,
+      "simulation_draws": 2360000,
+      "simulations": 59,
+      "trained_markets": [
+        "game_margin"
+      ],
+      "unsupported_priorities": [],
+      "validated_edges": 0,
+      "validated_models": 0
+    },
+    "MLB": {
+      "blockers": [
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "UNVERIFIED_PARTICIPATION_AND_ROLE",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED",
+        "PROP_PRICE_REFRESH_DAILY_CAP",
+        "BOOK_CANONICAL_START_MISMATCH",
+        "LIMITED_24_PLAYER_TRAINING_COHORT",
+        "POSTSEASON_SETTLEMENT_SOURCE_NOT_IMPLEMENTED"
+      ],
+      "coverage": {
+        "earliest_date": "2024-03-28",
+        "events": 1370,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-09-27",
+        "outcome_rows": 7752,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 3312,
+          "2025": 2457,
+          "2026": 1983
+        },
+        "source_failures": [],
+        "source_selection": "Detroit 2024 fullSeason roster; first 12 sorted pitcher IDs and 12 nonpitcher IDs",
+        "unique_athletes": 24,
+        "unique_player_games": 3401
+      },
+      "evaluation_scope": "CHRONOLOGICAL_RECONSTRUCTION_NOT_TIMESTAMP_AUTHENTIC_BETTING_BACKTEST",
+      "forecast_records": 2,
+      "models": {
+        "hits_allowed": {
+          "evaluation": {
+            "baseline_mae": 1.1855555555555557,
+            "baseline_rmse": 1.5919589609450782,
+            "beats_baseline_mae": true,
+            "crps": 0.8277846706096126,
+            "crps_n": 540,
+            "mae": 1.1716652981552704,
+            "n": 540,
+            "opportunity_mae": 2.560454279258018,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.04368507480472318,
+              0.013539694456359752
+            ],
+            "rmse": 1.5752736640577183,
+            "week_blocks": 54
+          },
+          "training_n": 950
+        },
+        "hitter_hits": {
+          "evaluation": {
+            "baseline_mae": 0.6712056737588652,
+            "baseline_rmse": 0.8292609715073104,
+            "beats_baseline_mae": true,
+            "crps": 0.4028260664312772,
+            "crps_n": 1410,
+            "mae": 0.663497862853553,
+            "n": 1410,
+            "opportunity_mae": 1.0263450987530838,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.015998344393923416,
+              0.0012649216125056428
+            ],
+            "rmse": 0.8086235950081682,
+            "week_blocks": 55
+          },
+          "training_n": 2451
+        },
+        "pitcher_outs": {
+          "evaluation": {
+            "baseline_mae": 1.874074074074074,
+            "baseline_rmse": 2.754403881194757,
+            "beats_baseline_mae": false,
+            "crps": 1.5436104387743559,
+            "crps_n": 540,
+            "mae": 2.1339736168269896,
+            "n": 540,
+            "opportunity_mae": 2.560454279258018,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.17639575784192246,
+              0.34338640616630617
+            ],
+            "rmse": 2.909325661265547,
+            "week_blocks": 54
+          },
+          "training_n": 950
+        },
+        "pitcher_strikeouts": {
+          "evaluation": {
+            "baseline_mae": 1.2938888888888889,
+            "baseline_rmse": 1.7413649393082002,
+            "beats_baseline_mae": true,
+            "crps": 0.9227701437723459,
+            "crps_n": 540,
+            "mae": 1.291301764391329,
+            "n": 540,
+            "opportunity_mae": 2.560454279258018,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.046964651482712824,
+              0.04236624413445891
+            ],
+            "rmse": 1.7630808507549358,
+            "week_blocks": 54
+          },
+          "training_n": 950
+        },
+        "total_bases": {
+          "evaluation": {
+            "baseline_mae": 1.137304964539007,
+            "baseline_rmse": 1.5440574714618964,
+            "beats_baseline_mae": true,
+            "crps": 0.7210807118376074,
+            "crps_n": 1410,
+            "mae": 1.1187145672408696,
+            "n": 1410,
+            "opportunity_mae": 1.0263450987530838,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.036073853365407624,
+              -0.00012348260483130232
+            ],
+            "rmse": 1.5107625886722973,
+            "week_blocks": 55
+          },
+          "training_n": 2451
+        }
+      },
+      "newly_frozen_this_run": 0,
+      "prospective_settled": 0,
+      "simulation_draws": 80000,
+      "simulations": 2,
+      "trained_markets": [
+        "pitcher_strikeouts",
+        "pitcher_outs",
+        "hits_allowed",
+        "hitter_hits",
+        "total_bases"
+      ],
+      "unsupported_priorities": [
+        "HR props: no trained home-run model"
+      ],
+      "validated_edges": 0,
+      "validated_models": 0
+    },
+    "NBA": {
+      "blockers": [
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "UNVERIFIED_PARTICIPATION_AND_ROLE",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED",
+        "PROP_PRICE_REFRESH_DAILY_CAP"
+      ],
+      "coverage": {
+        "earliest_date": "2023-10-24",
+        "events": 3701,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-04-12",
+        "outcome_rows": 318528,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "DNP_NOT_ZERO": 17773,
+          "MISSING_STAT_OR_OPPORTUNITY": 412,
+          "NON_REGULAR_SEASON": 7653
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 106192,
+          "2025": 105504,
+          "2026": 106832
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 807,
+        "unique_player_games": 79632
+      },
+      "evaluation_scope": "CHRONOLOGICAL_RECONSTRUCTION_NOT_TIMESTAMP_AUTHENTIC_BETTING_BACKTEST",
+      "forecast_records": 124,
+      "models": {
+        "assists": {
+          "evaluation": {
+            "baseline_mae": 1.3861022253639412,
+            "baseline_rmse": 1.8918089143896761,
+            "beats_baseline_mae": true,
+            "crps": 0.9637182292348568,
+            "crps_n": 51938,
+            "mae": 1.3797318585923095,
+            "n": 51938,
+            "opportunity_mae": 5.406887079035111,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.01209718866270047,
+              -0.0010644605757448992
+            ],
+            "rmse": 1.8636824825399236,
+            "week_blocks": 50
+          },
+          "training_n": 79632
+        },
+        "points": {
+          "evaluation": {
+            "baseline_mae": 4.759028087212654,
+            "baseline_rmse": 6.260670218017508,
+            "beats_baseline_mae": false,
+            "crps": 3.367747756228579,
+            "crps_n": 51938,
+            "mae": 4.7637491122705,
+            "n": 51938,
+            "opportunity_mae": 5.406887079035111,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.01201945578163589,
+              0.022117047846397155
+            ],
+            "rmse": 6.196105002903086,
+            "week_blocks": 50
+          },
+          "training_n": 79632
+        },
+        "rebounds": {
+          "evaluation": {
+            "baseline_mae": 1.966158192582487,
+            "baseline_rmse": 2.5976393482786793,
+            "beats_baseline_mae": true,
+            "crps": 1.374680497670299,
+            "crps_n": 51938,
+            "mae": 1.9530995824898012,
+            "n": 51938,
+            "opportunity_mae": 5.406887079035111,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.01802558628578086,
+              -0.00818806268282577
+            ],
+            "rmse": 2.558543785344633,
+            "week_blocks": 50
+          },
+          "training_n": 79632
+        },
+        "threes": {
+          "evaluation": {
+            "baseline_mae": 0.9102062089292057,
+            "baseline_rmse": 1.2832211151427262,
+            "beats_baseline_mae": false,
+            "crps": 0.6253598342061689,
+            "crps_n": 51938,
+            "mae": 0.9158801898479991,
+            "n": 51938,
+            "opportunity_mae": 5.406887079035111,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.0033932604601741184,
+              0.008089324649827293
+            ],
+            "rmse": 1.2608755232604,
+            "week_blocks": 50
+          },
+          "training_n": 79632
+        }
+      },
+      "newly_frozen_this_run": 0,
+      "prospective_settled": 0,
+      "simulation_draws": 4960000,
+      "simulations": 124,
+      "trained_markets": [
+        "points",
+        "rebounds",
+        "assists",
+        "threes"
+      ],
+      "unsupported_priorities": [
+        "PRA: no fitted joint points/rebounds/assists distribution"
+      ],
+      "validated_edges": 0,
+      "validated_models": 0
+    },
+    "NFL": {
+      "blockers": [
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "UNVERIFIED_PARTICIPATION_AND_ROLE",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED",
+        "PROP_PRICE_REFRESH_DAILY_CAP"
+      ],
+      "coverage": {
+        "earliest_date": "2024-09-05",
+        "events": 623,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-10-12",
+        "outcome_rows": 50838,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "NON_REGULAR_SEASON": 1735,
+          "RECENT_FINAL_STATUS_UNCONFIRMED": 69
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 21748,
+          "2025": 22440,
+          "2026": 6650
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 835,
+        "unique_player_games": 13842
+      },
+      "evaluation_scope": "CHRONOLOGICAL_RECONSTRUCTION_NOT_TIMESTAMP_AUTHENTIC_BETTING_BACKTEST",
+      "forecast_records": 120,
+      "models": {
+        "passing_yards": {
+          "evaluation": {
+            "baseline_mae": 68.01112518677321,
+            "baseline_rmse": 87.54762813156049,
+            "beats_baseline_mae": false,
+            "crps": 48.77677598340132,
+            "crps_n": 733,
+            "mae": 68.2563700786687,
+            "n": 733,
+            "opportunity_mae": 8.247122391799724,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.7530364837217282,
+              1.2759178162475022
+            ],
+            "rmse": 86.51405290074479,
+            "week_blocks": 24
+          },
+          "training_n": 1510
+        },
+        "receiving_yards": {
+          "evaluation": {
+            "baseline_mae": 16.541436131236196,
+            "baseline_rmse": 23.890315694323174,
+            "beats_baseline_mae": false,
+            "crps": 12.053294036248367,
+            "crps_n": 6152,
+            "mae": 16.749601608822278,
+            "n": 6152,
+            "opportunity_mae": 1.6609472106547813,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.07370431738559739,
+              0.3501402175774978
+            ],
+            "rmse": 23.594218591312423,
+            "week_blocks": 24
+          },
+          "training_n": 12332
+        },
+        "receptions": {
+          "evaluation": {
+            "baseline_mae": 1.2719188623650588,
+            "baseline_rmse": 1.7400273689903099,
+            "beats_baseline_mae": false,
+            "crps": 0.8784537491872563,
+            "crps_n": 6152,
+            "mae": 1.2836083261113365,
+            "n": 6152,
+            "opportunity_mae": 1.6609472106547813,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.004435374833187758,
+              0.018637732586032164
+            ],
+            "rmse": 1.716279704497684,
+            "week_blocks": 24
+          },
+          "training_n": 12332
+        },
+        "rushing_attempts": {
+          "evaluation": {
+            "baseline_mae": 1.1432188138584432,
+            "baseline_rmse": 2.611126912763616,
+            "beats_baseline_mae": false,
+            "crps": 0.9767837426853057,
+            "crps_n": 6152,
+            "mae": 1.3719717364383883,
+            "n": 6152,
+            "opportunity_mae": 1.3719717364383883,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.21141536080594397,
+              0.24708941257255007
+            ],
+            "rmse": 2.661982252138696,
+            "week_blocks": 24
+          },
+          "training_n": 12332
+        },
+        "rushing_yards": {
+          "evaluation": {
+            "baseline_mae": 6.59888583142403,
+            "baseline_rmse": 16.01996697408477,
+            "beats_baseline_mae": false,
+            "crps": 5.768115130364109,
+            "crps_n": 6152,
+            "mae": 7.48742871447756,
+            "n": 6152,
+            "opportunity_mae": 1.3719717364383883,
+            "paired_mae_difference_95_week_bootstrap": [
+              0.7966635032979305,
+              0.9797674545622908
+            ],
+            "rmse": 16.05602805361764,
+            "week_blocks": 24
+          },
+          "training_n": 12332
+        }
+      },
+      "newly_frozen_this_run": 0,
+      "prospective_settled": 0,
+      "simulation_draws": 4800000,
+      "simulations": 120,
+      "trained_markets": [
+        "receptions",
+        "receiving_yards",
+        "rushing_attempts",
+        "rushing_yards",
+        "passing_yards"
+      ],
+      "unsupported_priorities": [
+        "TD props: no trained touchdown model"
+      ],
+      "validated_edges": 0,
+      "validated_models": 0
+    },
+    "NHL": {
+      "blockers": [
+        "PROSPECTIVE_CALIBRATION_PENDING",
+        "UNVERIFIED_PARTICIPATION_AND_ROLE",
+        "BOOK_SETTLEMENT_RULE_UNVERIFIED",
+        "HISTORICAL_SOURCE_REVISION_TIMING_UNVERIFIED",
+        "PROP_PRICE_REFRESH_DAILY_CAP",
+        "BOOK_CANONICAL_START_MISMATCH",
+        "NO_PROP_OFFERS_RETURNED",
+        "UNCONFIRMED_GOALIE"
+      ],
+      "coverage": {
+        "earliest_date": "2023-10-10",
+        "events": 4035,
+        "historical_as_of_eligible": 0,
+        "latest_date": "2026-10-14",
+        "outcome_rows": 153778,
+        "rejections": {
+          "CONFLICTING_DUPLICATE": 0,
+          "RECENT_FINAL_STATUS_UNCONFIRMED": 39
+        },
+        "role_confirmed_opportunities": 0,
+        "seasons": {
+          "2024": 50018,
+          "2025": 49988,
+          "2026": 49998,
+          "2027": 3774
+        },
+        "source_failures": [],
+        "source_selection": "all returned rows in explicit season/regular-game queries",
+        "unique_athletes": 1353,
+        "unique_player_games": 153778
+      },
+      "evaluation_scope": "CHRONOLOGICAL_RECONSTRUCTION_NOT_TIMESTAMP_AUTHENTIC_BETTING_BACKTEST",
+      "forecast_records": 48,
+      "models": {
+        "goalie_saves": {
+          "evaluation": {
+            "baseline_mae": 6.086586138832877,
+            "baseline_rmse": 7.834115774967838,
+            "beats_baseline_mae": true,
+            "crps": 4.297634085760226,
+            "crps_n": 5597,
+            "mae": 5.988501878416693,
+            "n": 5597,
+            "opportunity_mae": 6.082147242085768,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.1152066828729984,
+              -0.07816931318472806
+            ],
+            "rmse": 7.7202212992923895,
+            "week_blocks": 57
+          },
+          "training_n": 8540
+        },
+        "shots_on_goal": {
+          "evaluation": {
+            "baseline_mae": 1.0591225934559267,
+            "baseline_rmse": 1.372204090710564,
+            "beats_baseline_mae": true,
+            "crps": 0.7053642101631702,
+            "crps_n": 96525,
+            "mae": 1.0374640585000883,
+            "n": 96525,
+            "opportunity_mae": 1.9526839359475912,
+            "paired_mae_difference_95_week_bootstrap": [
+              -0.023790094117241797,
+              -0.01960283444290839
+            ],
+            "rmse": 1.3398035149512226,
+            "week_blocks": 57
+          },
+          "training_n": 145238
+        }
+      },
+      "newly_frozen_this_run": 0,
+      "prospective_settled": 0,
+      "simulation_draws": 1920000,
+      "simulations": 48,
+      "trained_markets": [
+        "shots_on_goal",
+        "goalie_saves"
+      ],
+      "unsupported_priorities": [
+        "player points: no trained points model"
+      ],
+      "validated_edges": 0,
+      "validated_models": 0
+    }
+  },
+  "resume_provider_check": {
+    "canonical_final_games": 295,
+    "canonical_games": 594,
+    "cfbd_endpoint_status": [
+      200
+    ],
+    "cfbd_refresh_status": "REFRESHED",
+    "credential_present": {
+      "cfbd": true,
+      "odds": true
+    },
+    "current_odds_status": [
+      "ARCHIVED"
+    ],
+    "generated_at": "2026-10-14T22:09:00.293506+00:00",
+    "historical_entitlement": "NOT_RETESTED_PREVIOUS_HTTP_401",
+    "odds_sports_status": 200,
+    "quota": {
+      "cached_historical_snapshots": 0,
+      "credits_consumed_recorded": 21,
+      "duplicate_requests_prevented": 0,
+      "provider_requests_used": 36,
+      "requests_recorded": 11,
+      "requests_remaining": 464
+    },
+    "real_model_evaluation_sample": 0,
+    "synthetic_observations_in_real_metrics": 0
+  },
+  "resumed_at": "2026-10-14T21:56:21.619243+00:00",
+  "rules": [
+    "Phase 1 source and original tests remain frozen",
+    "No automatic wager placement",
+    "No automatic promotion",
+    "No purchases or new accounts",
+    "No synthetic observations in empirical metrics",
+    "Historical research is local only",
+    "Unknown historical availability excludes rows",
+    "Unknown settlement/execution rules force PASS",
+    "Prefer simple models; complexity requires unseen incremental evidence",
+    "No new scope; earliest incomplete dependency first"
+  ],
+  "schema_version": 1,
+  "scope_authority": "AP_EV_SIMS_MULTISPORT_PROP_FIRST_CODEX_SPEC.md supersedes CFB-only scope",
+  "scope_frozen": true,
+  "tests": {
+    "command": "PYTHONPATH=src;. .venv/Scripts/python.exe -m unittest discover -s tests",
+    "failed": 0,
+    "passed": 404,
+    "skipped": 0,
+    "status": "PASS",
+    "verified_at": "2026-10-18T04:12:53.096151+00:00"
+  },
+  "updated_at": "2026-10-18T04:13:27.845469+00:00"
+}

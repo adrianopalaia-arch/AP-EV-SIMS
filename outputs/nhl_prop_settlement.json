@@ -1,0 +1,825 @@
+{
+  "sport": "NHL",
+  "generated_at": "2026-10-17T02:11:04.131007+00:00",
+  "settled_n": 0,
+  "pending_n": 95,
+  "pending": [
+    {
+      "forecast_hash": "12a0c1d6fbb03865b493266743919cb52dbc54c220635b7f7ad98395ee69e88c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8482768",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "c96257bd63efe7c4cc0f56fd28caa75c5845894699facbbea324f517e2799649",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8478038",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "4ab1eaa57f0bbbe1bba273d081039ad91b379447d8fab8269627f0b34c2f3d4e",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8480043",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "be55e480127a4a62b480f9ecd0e5e49ad9325613ec0e6500349284e6e0052c74",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8481721",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c60e0b9f9ccd6ee83059470db638d9668ed2ca39650729cebb6d73651d642e75",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8483695",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "75bd894b7124bb3df98fa02ded484feacd70654e24eba3d01ced8d2a4f0a116b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8478462",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "f63226b3c2cf95875d48250a8c833fbad9b72e2742b214d9d8084e9f5dc7c7ae",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8480003",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ab59020d5a7e045caba101c3e47c466d1a37cba6728f2390f320e0b00457a792",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8482475",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "66f373955fb285a472e44e462b6b0268cdaa2ae5365f78951cd8541d3806bba1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8484258",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "a679f59e562522b9fc8ed45d08a76683a8d6486a7feda6a61116287cea30c2ff",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8484186",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ccdbad251c6d712d9fc32850a77b5666ecea568950a1c63625b778796963b07f",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8484149",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "860504348faac56db6523ad083cd32f28ac7b055f1b9b8dda0eef9a60d616af5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8475810",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "18464145172b7a3c8f5e8cd91334ef40a85d67a716aa3ae1dfe00c19a7acfebc",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8483808",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "9c3c9543b5216f908313148e95b3f2799d52921d3c26875554f3b42dcdb1be18",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8474578",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "2b19509962b5907231c3ce0f196d7fb2231ff806860f3011bd3926b0040758b7",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8484999",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "1f78c4e9c8f3d1358185c587543e546001f5bc7134b425d04718e429feb256a6",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8478399",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "fe1b0f41c5128085495ed464bee716fb84c54814918b4659b5036bcf17c92a80",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8483573",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4f29037dd3d6e31b8d79b489b0f0147ff29b3913cf1f4b39bd8068e50c7ba849",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8475455",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f14ae3bd4c337bcc4c4e9ccff437f5585965235ca659a588e3676f59b0cd94f7",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8476432",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "3996648afd52fdea543cb61e99a5939690e2ce6dba7ea9f811354b431b9be73d",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8479407",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d41a6820201fc5f86aaa63bef8016e2b46d0148218edaa8794143210f510e9fc",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8471675",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "3a90ae1a70f9b62c04dc6799060c66cb82f744195d023d27d21f95cadab100b3",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8480069",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "c8bc29a117835aaadcb25195517f595db927d33cabb7b02a9f0fae04a66b0825",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8481564",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "6f55f8d934f59375a21f1108628213f2ad36a711725d48cb669b4f4c21c655f1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8481582",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "5e23d3ab4b67b97a2f63b0347dffc48d9e78b80d4c24c9613cc8f6d4bbece285",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8481725",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "cde698fc0c8e86a835b838df0699199cf62a07e74f6909fab4fbb8bbd2955ae5",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8481656",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "849337d64b50db0ec464d64aa7263df37acc5f62eea3d0d883ebe16e85f1fe53",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8476455",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "09634bd13602311dd3888f8045c0bd4a978b4b8c8bcff4bb874c0e98ed5b236a",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8482110",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "bd9c7f9135179f52b8f768a1a7d75b319c3a78fdf8a707a26c78a8f1ddb7a4ae",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8483398",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "f5f887fb848c5093e90131a86ea0453ff2b917e8fec9cb163468c0511dd02cd5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8482742",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "e739cef267a28ee1a41511005c171c2611cf257e06691a0e57f3bbfb4ae44415",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8478542",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "19c099c4196b818d39d17920dcae5083158fc5b31d4c3b39c9ce99ccbadebe94",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8471724",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "75f6187643faa951a66e81bda59bdb32bf2c360f03e750e7e94c89d9282d480c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8481527",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "4e5c82eae90a76d3606ebba2f2bc7d6daf6d066f14432bab10f01704b1559c5b",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8480980",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "0c56c6e05f9f5842dd30520a3f894649210121f57ddd90066ed441e1f8a8902b",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8480796",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f729f7a31a67da004d0f1c6dfd9567fe2be3156a874803c90bdb8cf499bb348e",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8476312",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "3cadde37a45e9bc794aa6ae49a55a2427df14c53ad0c64355e66dbb80346538b",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8479996",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "6e57cb53886a17940872264d9fbd1d90dc89c5cf6c2fba137985f61b47e6b0c0",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8480192",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "296603d0c2717399329dfaf91328babd87116bb80a0321b5002641de1a4a1782",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8475172",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "31b8bb7f1b29eb0fa6ca488054f54839def25b22d3398013b9f9422b4de66e54",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "goalie_saves",
+      "event_id": "2026020121",
+      "player_id": "8474596",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d42f4c28874e3fc016a87c98bacbadae90052be4f246399e8d88f7c99d2ac7ff",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8482684",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "0671568ad7dc9b6c58978dff3156d0edceb092ff63588453464d95f70f154179",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8483491",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "7e807057e20b2b9f9d52cde47dbe549bb5619ef2dcd6648aa8398a6290331170",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8476462",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f7af5dd17acc7dd98b7c25994972206c91551c546f9fb9d13e90410c5dff9d6a",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8480002",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "65a08d7c6cbe1d72552520229110247446f328bb114bf7ab30688931ca0c4d94",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "goalie_saves",
+      "event_id": "2026020121",
+      "player_id": "8479292",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "109cc37eaaaf6f6ee7a198e5084e4a58ac93f54df9b6ff9b39590e4ce0448072",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8478414",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "19d7b4852119853782b2b76e107aad824c7108924f5790188bfab2e71f78c42b",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8484873",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "ccc1489b1f6bad2ad0f2ba664f065f28d5197810a4feb868291877065485a60b",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8482146",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4179a3893f289cd0867b959acbd7e9274b4f6f6d373a5d093e38448cd06494e7",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8480990",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "04881b383327fc1b250e08a6ccb9e862fff712f08d345169d5707c20491834d5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8476483",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "9659cfc8ce45b0b864995ff8597c9a3c881c8b12265c99bafb7395819ba6a67c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "goalie_saves",
+      "event_id": "2026020119",
+      "player_id": "8478406",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "ea59b96e099324999c74d4e5747a0b6802bcbf18293723a6bfd3e00c6334009e",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8477511",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "af66975bdc6af002e8062cff7c0de91efb2665880daa73986c4e428e1dab9c06",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "goalie_saves",
+      "event_id": "2026020121",
+      "player_id": "8482076",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b99e2f6aa5efb7bd045b3dcc6e693017311c82dba11a906c05b861802d0a819a",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8485414",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "578087c7131fa54391a004555cfe1b81d1abd281d247bf96581d8d58fbf998ba",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8470613",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "5749484e454461342de87e7e445312fd0cb298fc1c31f57270ee0c6d5d00cc34",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8475718",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "9c85b600e142e11a4f055078c109aabf69ee8e1c6c100a63880751ff19b8bb6c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8477476",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "d81631e7e92f3835638248f1e02fa0d995a5e5064473f20703b56eddbf199422",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "goalie_saves",
+      "event_id": "2026020119",
+      "player_id": "8481668",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "d981a5b14d356c441476c3bea9f6eb891de2be132a7dd2d27531edb589598881",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8479638",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "1cdc0da42470c5513b728182714b436ca882d5735e31ec6e61cb08177db4efca",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8481559",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4e8cb12d7befbef85369edf5da9c477ca728a8b5c42ab15c8264214aa54ecf09",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8482088",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "83f0890e07a83ef5750e1f4a7d9f9c3670dc4c0295e4ab770086a9290b80aff5",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8479385",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "64882c6506ac8d455c49b7a87d445823d2b967c420c35443b65036044b97fbf5",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8482758",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "3ee74f40bfb40fe96fb458cf3fcec001e26e87fc1948f1b1172d34e360e0e570",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8480448",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "2d88ede04b0648b27cddb71b646d8faa0d4aefcbc2846b90913aa1992b1bda5d",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8478440",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "b5940fd5fed94f6e8c1319ecd1de606e0d4fba7cb0ac9a44ba23447c988b50a9",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8477015",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "5377b9b2b51b8b92d71d421ddc013694d8b5af056034ec53474d2ac6a87da3b7",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8471214",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "29733968b283eeba092966f27008e2de7dce33a12301ea58e0daf89eeb560f31",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8478454",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "a84b1fefdceaeadd0c1a92cdd4e7037675d6808be110127b577d773da83a38d1",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8486171",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "b34e261853ed7c32f8f5c844c0db380953bed98086a20a8e626bc83f6c530516",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8471215",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "852d557f88cf40e6aa47879a20d51000c096ad06b0af51b6822cf89bbd953f71",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8482148",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "7fea57d12322983b9d7520c370a354dd581a0511fced68ad0e4333542e5607fb",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8481186",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "ce223a1df6995e0e27feb71ae22ad69c345db73d7d29870e5c3e7079b14cd117",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8477488",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "41485cd6d5a872a2c3b93825225deb5c41dedf0be9473e23cca7aaaeb6bc165d",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8481056",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "98f88adcf62bd8b95ab6be14aa45f0eeb628b6e9ce49dc3bde8d50263ee6f205",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8478438",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "5239a72f6f2d7a0c74dbe8e3ebab99fe5af7f11b0365bf123f701fbe5a3dad7e",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8475795",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "8d05ebe1f775bc863508accd9f84cfaaaf6be540134a8bc79aa977d994ec2251",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8479398",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "4bd62ef6445d82eb811f9223a963be65e3c8a58261242b5067c4946d793f2165",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8479345",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "03adf51cf3970d1fe8f33671573f3778cd390d08559f1b56855bae5df32e0a13",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8478463",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "4e0eca66d96511d2405948464c541bb5d83be3eb98a232af0b6e1816fd8e96ae",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8480039",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "95b87cdba5df570c49400fe208b8b17f3b57ec89603f5cf8aba35db102dc17dc",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "goalie_saves",
+      "event_id": "2026020121",
+      "player_id": "8480313",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d983138a48a4d1526c641788910eaf91f95d610eed708776a98fb5ba59d1c23c",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "goalie_saves",
+      "event_id": "2026020119",
+      "player_id": "8483703",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "e7551e0655715272ea05cb565c7985afd0904bdad4f641b76ec8de03c2ed42cb",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8475754",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "9a22b2b0919e67e6b3272f88b2b3af7c7e8b8fb19254fb55d09f1441ed186a17",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8481481",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "132729916b70c5b044aeb55ad08d100dd497343aff2a53941e17b84a4f22cb5f",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8478911",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "d10168a469f070c1e6ba70d1a318c1dc4a4ea5ed872de7eaa147317c120d937b",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8479400",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "c9ee59a50143c7092c4ae6d73877aef13ab50ccd1e6b20d2867642025f686dd8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8477845",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "d9f33c10cbcea26fdafde002e88fcca8ae78e33c7a175686a81bd8bb42a8a5aa",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8479576",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "f584266e4c9acd48618d06c0b15852ef462d1083d539aee37c4c060ee2527e6e",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "goalie_saves",
+      "event_id": "2026020119",
+      "player_id": "8475809",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "1c0eaf62f9c73af30aae3ed6e894c5f029ff7a119cd5c8e9fd6c5f9275bf1e98",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8476967",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "dd35f205967edb443be05ca45bae35a9fba4b339aae8f96474280b3e367bd24b",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8476880",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "cb758cd3cca06b551dc4aac85ab5985b18f9f8e51282ef1fed9b18dd016d8ee8",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8475768",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    },
+    {
+      "forecast_hash": "2292005946302c7e87baf8270ad5a54a2c6468da3194cb4f3a8c451869e7d618",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8476474",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "09a04b1828408049de6f5c364bd87198a3c2ca270199f29f32e1ccb5f2af0200",
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "event_id": "2026020121",
+      "player_id": "8477949",
+      "reason": "EVENT_NOT_STARTED"
+    },
+    {
+      "forecast_hash": "e43fa18fde9169d77f21844923feab8a4a1d06272523b5405d80d8b2da929f28",
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "event_id": "2026020119",
+      "player_id": "8477492",
+      "reason": "OUTCOME_OR_DNP_UNVERIFIED"
+    }
+  ],
+  "cohorts": [
+    {
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "goalie_saves",
+      "settled_n": 0,
+      "pending_n": 4,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "causal-opportunity-ridge-v2",
+      "market": "shots_on_goal",
+      "settled_n": 0,
+      "pending_n": 43,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "goalie_saves",
+      "settled_n": 0,
+      "pending_n": 4,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    },
+    {
+      "model_version": "opportunity-partial-pool-v1",
+      "market": "shots_on_goal",
+      "settled_n": 0,
+      "pending_n": 44,
+      "mae": null,
+      "rmse": null,
+      "baseline_mae": null,
+      "crps": null,
+      "artifact_hashes": []
+    }
+  ],
+  "mae": null,
+  "rmse": null,
+  "baseline_mae": null,
+  "crps": null,
+  "aggregate_metric_scope": "No pooled accuracy across markets/model versions; inspect cohorts",
+  "qualified_market_comparison_n": 0,
+  "real_cash_roi": null,
+  "hypothetical_roi": null,
+  "clv": null,
+  "recommendations_enabled": false,
+  "records": []
+}

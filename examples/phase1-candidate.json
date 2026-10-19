@@ -1,0 +1,123 @@
+{
+  "candidate": {
+    "candidate_id": "c1",
+    "event_id": "g1",
+    "sport": "CFB",
+    "market": "spread",
+    "selection": "A +3.5",
+    "model_version": "cfb-v1",
+    "mode": "pregame",
+    "dataset_fingerprint": "bf32dea11c3c91ef72bd4bde7e1690faa8e2ac4abddd1fd38023cd22a0ece76a",
+    "training_cutoff": "2026-09-30T00:00:00+00:00",
+    "event_start": "2026-10-14T01:30:00Z",
+    "quote_time": "2026-10-14T00:59:00Z",
+    "opposite_quote_time": "2026-10-14T00:59:00Z",
+    "availability_time": "2026-10-14T00:57:00Z",
+    "feature_time": "2026-10-14T00:58:00Z",
+    "prediction_time": "2026-10-14T00:58:30Z",
+    "p_model": 0.63,
+    "p_low": 0.58,
+    "american_odds": 110,
+    "opposite_odds": -140,
+    "book": "fixture",
+    "market_line": 3.5,
+    "opposite_market_line": 3.5,
+    "lineup_verified": true,
+    "live_state_verified": false,
+    "binary_settlement_verified": true,
+    "exposure_groups": [
+      "GAME:g1",
+      "TEAM:a"
+    ],
+    "features": {
+      "opponent_adjusted_epa": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "offensive_success_rate": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "defensive_success_rate": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "explosiveness": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "line_yards": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "havoc_pressure": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "qb_efficiency": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "scoring_opportunities": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "pace_plays": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "red_zone_efficiency": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "injury_depth_impact": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "weather": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "home_field": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "rest_travel": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "market_line": {
+        "value": 3.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "american_odds": {
+        "value": 110,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      },
+      "market_movement": {
+        "value": 0.5,
+        "source": "fixture",
+        "available_at": "2026-10-14T00:58:00Z"
+      }
+    },
+    "model_disagreement": 0,
+    "account": "cash"
+  },
+  "report_id": "7b759df8609ee62399d5efaf3ded066ecc82cf79c1cf3ac4eac0c3168976fbda"
+}

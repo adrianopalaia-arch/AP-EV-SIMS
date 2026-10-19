@@ -1,0 +1,1112 @@
+{
+  "categories": [
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Stale/suspended/unverified execution rejects; slippage arithmetic",
+      "id": 1,
+      "name": "EXECUTION REALITY",
+      "real_sample_size": 0,
+      "remaining_risk": "No historical execution proof or realistic empirical backtest.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_governance_execution.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Exact alias/start matching and market/rule identity",
+      "id": 2,
+      "name": "DRAFTKINGS / FANDUEL MARKET IDENTITY",
+      "real_sample_size": 0,
+      "remaining_risk": "Player mappings and actual book rule versions absent.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_identity.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Eligible/included strata and selection-bias diagnostic",
+      "id": 3,
+      "name": "MARKET AVAILABILITY BIAS",
+      "real_sample_size": 0,
+      "remaining_risk": "Complete historical eligible universe not ingested.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_diagnostics_redteam.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Immutable experiment specifications and variant count",
+      "id": 4,
+      "name": "MULTIPLE TESTING / DATA SNOOPING",
+      "real_sample_size": 0,
+      "remaining_risk": "Retrospective registration cannot prove an analyst never saw a holdout.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_governance_execution.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "One-use holdout consumption and overlap rejection",
+      "id": 5,
+      "name": "FINAL HOLDOUT LOCK",
+      "real_sample_size": 0,
+      "remaining_risk": "No genuine prospective holdout has elapsed.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_governance_execution.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Missing rows are retained as PASS where evaluable",
+      "id": 6,
+      "name": "SURVIVORSHIP BIAS",
+      "real_sample_size": 0,
+      "remaining_risk": "Retired/traded/minor-league population coverage not audited.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": false,
+      "tests": []
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Player markets require player and team IDs",
+      "id": 7,
+      "name": "ROSTER IDENTITY / NAME COLLISIONS",
+      "real_sample_size": 0,
+      "remaining_risk": "Real cross-provider player roster mappings absent.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_governance_execution.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Append-only corrected results and account corrections",
+      "id": 8,
+      "name": "STAT CORRECTIONS",
+      "real_sample_size": 0,
+      "remaining_risk": "Book-specific correction timing not integrated.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_replay_settlement.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "UTC normalization, DST offset, naive-time rejection",
+      "id": 9,
+      "name": "TIMEZONE / DST / DATE BOUNDARY",
+      "real_sample_size": 0,
+      "remaining_risk": "Host/provider clock offsets are not measured.",
+      "result": "PASS",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_governance_execution.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Exact start changes force remapping; cancellations void",
+      "id": 10,
+      "name": "GAME POSTPONEMENTS / CANCELLATIONS",
+      "real_sample_size": 0,
+      "remaining_risk": "Schedule revision histories need live observation.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_identity.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Unknown, regulation-only, pitcher and participation rules reject",
+      "id": 11,
+      "name": "SETTLEMENT RULES",
+      "real_sample_size": 0,
+      "remaining_risk": "Actual book rule documents and identities unavailable.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_replay_settlement.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "CFB line monotonicity and discrete push mass",
+      "id": 12,
+      "name": "ALT LINES",
+      "real_sample_size": 0,
+      "remaining_risk": "Prop alternate-line distributions not fitted.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_phase2_cfb.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Line/rule/start changes require new probability",
+      "id": 13,
+      "name": "PRICE / LINE JOINT CONSISTENCY",
+      "real_sample_size": 0,
+      "remaining_risk": "No empirical execution observations.",
+      "result": "PASS",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_governance_execution.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Latency ordering and P50/P90/P99 diagnostic",
+      "id": 14,
+      "name": "LATENCY",
+      "real_sample_size": 0,
+      "remaining_risk": "No real candidate latency or edge half-life sample.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_diagnostics_redteam.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Event-specific confirmation age and restrictions",
+      "id": 15,
+      "name": "STALE LINEUP / ROLE INFORMATION",
+      "real_sample_size": 0,
+      "remaining_risk": "No historical availability/role archive.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_sport_contracts.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Current weather cannot be backdated",
+      "id": 16,
+      "name": "WEATHER REVISION RISK",
+      "real_sample_size": 0,
+      "remaining_risk": "Historical forecast revision proof and sensitivity analysis absent.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_phase2_history.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "No automatic contrarian movement signal enabled",
+      "id": 17,
+      "name": "MARKET-MAKER INFORMATION",
+      "real_sample_size": 0,
+      "remaining_risk": "Market-disagreement penalty must be estimated from untouched data.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": false,
+      "tests": []
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Point CLV and same-line price CLV remain separate",
+      "id": 18,
+      "name": "CLOSING LINE VALUE CAVEAT",
+      "real_sample_size": 0,
+      "remaining_risk": "No qualifying outcome/close evaluation sample.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_phase2_backtest.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Paired-price timing tolerance and exact same line",
+      "id": 19,
+      "name": "BOOKMAKER HOLD / VIG CHANGES",
+      "real_sample_size": 0,
+      "remaining_risk": "Snapshot presence is not execution proof.",
+      "result": "PASS",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_governance_execution.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Feature/source ablation comparison requires matched rows",
+      "id": 20,
+      "name": "CORRELATED FEATURE DUPLICATION",
+      "real_sample_size": 0,
+      "remaining_risk": "Real feature correlation and incremental contribution unmeasured.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": false,
+      "tests": []
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Correlated prediction errors reject ensemble weight",
+      "id": 21,
+      "name": "ENSEMBLE FALSE CONFIDENCE",
+      "real_sample_size": 0,
+      "remaining_risk": "No real ensemble independence evidence.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_phase2_backtest.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Group diagnostics preserve season/regime distinctions",
+      "id": 22,
+      "name": "REGIME SHIFT",
+      "real_sample_size": 0,
+      "remaining_risk": "Regime drift thresholds and empirical regime samples absent.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": false,
+      "tests": []
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Model minimum training sample; props remain disabled",
+      "id": 23,
+      "name": "SMALL SAMPLE STARS",
+      "real_sample_size": 0,
+      "remaining_risk": "Sport-specific prior estimates and role shrinkage not fitted.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_phase2_cfb.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Unknown or limited roles fail contract validation",
+      "id": 24,
+      "name": "ROLE CHANGE DETECTION",
+      "real_sample_size": 0,
+      "remaining_risk": "Structural-break detection not fitted.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": false,
+      "tests": []
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Unverified limitations cannot use normal opportunity",
+      "id": 25,
+      "name": "INJURY RETURN / LIMITATION",
+      "real_sample_size": 0,
+      "remaining_risk": "Actual restriction/injury return data absent.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_sport_contracts.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Scenario probabilities cannot bypass calibration",
+      "id": 26,
+      "name": "BLOWOUT / GAME-STATE RISK",
+      "real_sample_size": 0,
+      "remaining_risk": "Empirical blowout/script mixtures unmeasured.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_phase2_calibration.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "No coach/system effect enabled",
+      "id": 27,
+      "name": "COACHING / SYSTEM CHANGES",
+      "real_sample_size": 0,
+      "remaining_risk": "Timestamp-safe coaching/system regimes absent.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": false,
+      "tests": []
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Odds schema and pair validation; feature units explicit",
+      "id": 28,
+      "name": "PROVIDER SCHEMA DRIFT",
+      "real_sample_size": 0,
+      "remaining_risk": "CFBD generic records need per-endpoint semantic schema versions.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_warehouse.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "401/403, invalid/error payloads, quota limits fail closed",
+      "id": 29,
+      "name": "PROVIDER OUTAGE / PARTIAL RESPONSE",
+      "real_sample_size": 0,
+      "remaining_risk": "Long-run outage recovery remains unobserved.",
+      "result": "PASS",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_provider_validation.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Explicit units, fractions, ranges and discrete roles",
+      "id": 30,
+      "name": "UNIT / SCALE ERRORS",
+      "real_sample_size": 0,
+      "remaining_risk": "Provider-to-feature mappings still require verified conversions.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_sport_contracts.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Finite bounded probabilities; finite JSON; stable sigmoid",
+      "id": 31,
+      "name": "NUMERIC INSTABILITY",
+      "real_sample_size": 0,
+      "remaining_risk": "Extreme empirical tails unvalidated.",
+      "result": "PASS",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_phase1.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Proper scores and single-class calibration rejection",
+      "id": 32,
+      "name": "CLASS IMBALANCE",
+      "real_sample_size": 0,
+      "remaining_risk": "Rare-event calibration requires real tails.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_phase2_calibration.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Cash/bonus journals and push/void denominators",
+      "id": 33,
+      "name": "PUSH / VOID IMPACT ON ROI",
+      "real_sample_size": 0,
+      "remaining_risk": "External account/exposure reconciliation not connected.",
+      "result": "PASS",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_accounting_promotions.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Boost/free-bet/no-sweat payoff separate from probability",
+      "id": 34,
+      "name": "PROMOTIONS",
+      "real_sample_size": 0,
+      "remaining_risk": "Real terms and conversion assumptions unverified; research only.",
+      "result": "PASS",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_accounting_promotions.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Pregame cannot qualify as live",
+      "id": 35,
+      "name": "LIVE BETTING DANGER",
+      "real_sample_size": 0,
+      "remaining_risk": "No synchronized live model/state/quote feed; live disabled.",
+      "result": "PASS",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_engine.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Postmortem hypotheses never auto-modify models",
+      "id": 36,
+      "name": "DATA-SNOOPING FROM MISSES",
+      "real_sample_size": 0,
+      "remaining_risk": "Independent hypothesis evaluation awaits data.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_governance_execution.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Slippage and execution gates available",
+      "id": 37,
+      "name": "BACKTEST REALISM",
+      "real_sample_size": 0,
+      "remaining_risk": "Ideal versus realistic end-to-end empirical comparison absent.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_governance_execution.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Proper-score intervals resample weeks",
+      "id": 38,
+      "name": "BOOTSTRAP UNCERTAINTY",
+      "real_sample_size": 0,
+      "remaining_risk": "ROI cluster intervals require actual qualified selections.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_phase2_backtest.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Hypothetical bankroll path, drawdown and ruin stress",
+      "id": 39,
+      "name": "MONTE CARLO BANKROLL STRESS",
+      "real_sample_size": 0,
+      "remaining_risk": "No empirical joint-outcome distribution; scenario assumptions explicit.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_diagnostics_redteam.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Quarter-Kelly ceiling and extra-error sensitivity",
+      "id": 40,
+      "name": "KELLY ESTIMATION RISK",
+      "real_sample_size": 0,
+      "remaining_risk": "No empirically approved probabilities or stakes.",
+      "result": "PASS",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_diagnostics_redteam.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Atomic persistent team/player/game/correlation exposure",
+      "id": 41,
+      "name": "SAME-DAY EXPOSURE",
+      "real_sample_size": 0,
+      "remaining_risk": "All external open slips must be imported; no actual account provided.",
+      "result": "PASS",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_phase1.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Registry requires proper-score advantage versus market",
+      "id": 42,
+      "name": "BETTER-THAN-MARKET REQUIREMENT",
+      "real_sample_size": 0,
+      "remaining_risk": "No empirically qualifying model.",
+      "result": "FAIL",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_phase1.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Noise features fail unseen advantage on mechanics fixture",
+      "id": 43,
+      "name": "NEGATIVE CONTROL TESTS",
+      "real_sample_size": 0,
+      "remaining_risk": "Full provider-history negative-control reruns blocked.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_diagnostics_redteam.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Shuffled-label training loses unseen fixture signal",
+      "id": 44,
+      "name": "LABEL SHUFFLE TEST",
+      "real_sample_size": 0,
+      "remaining_risk": "Full sport-specific shuffled-label backtests blocked.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_diagnostics_redteam.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Future features, revisions and forbidden postgame fields reject",
+      "id": 45,
+      "name": "TIME-SHIFT LEAKAGE TEST",
+      "real_sample_size": 0,
+      "remaining_risk": "Provider availability proof still required; caller labels alone insufficient.",
+      "result": "PASS",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_diagnostics_redteam.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Adverse exact-line changes demand recalculation",
+      "id": 46,
+      "name": "ADVERSARIAL MARKET TEST",
+      "real_sample_size": 0,
+      "remaining_risk": "No current eligible model can issue a recommendation.",
+      "result": "PASS",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_governance_execution.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Finite nonzero CFB tails; no outcome-triggered retraining",
+      "id": 47,
+      "name": "MIRACLE GAME TEST",
+      "real_sample_size": 0,
+      "remaining_risk": "Requested real extreme-game reconstructions lack historical snapshots.",
+      "result": "FAIL",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_phase2_cfb.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "PASS-only unvalidated feed; no guaranteed outcome classifications",
+      "id": 48,
+      "name": "FALSE CONFIDENCE AUDIT",
+      "real_sample_size": 0,
+      "remaining_risk": "Legacy documentation may quote prohibited terms as warnings, not classifications.",
+      "result": "PASS",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_handoff_cycle.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "All 50 requested categories enumerated",
+      "id": 49,
+      "name": "RED TEAM REPORT",
+      "real_sample_size": 0,
+      "remaining_risk": "A complete inventory is not a successful readiness audit.",
+      "result": "PASS",
+      "severity": "HIGH",
+      "tested": true,
+      "tests": [
+        "tests/test_diagnostics_redteam.py"
+      ]
+    },
+    {
+      "affected_markets": "ALL",
+      "affected_sports": [
+        "CFB",
+        "NHL",
+        "NFL",
+        "MLB",
+        "NBA"
+      ],
+      "evidence_scope": "MECHANICS_ONLY",
+      "fix": "Untested critical failures prohibit readiness",
+      "id": 50,
+      "name": "READINESS GATE",
+      "real_sample_size": 0,
+      "remaining_risk": "No real/prospective evidence; all markets RESEARCH_ONLY.",
+      "result": "PASS",
+      "severity": "CRITICAL",
+      "tested": true,
+      "tests": [
+        "tests/test_diagnostics_redteam.py"
+      ]
+    }
+  ],
+  "critical_failures": 13,
+  "high_failures": 22,
+  "medium_failures": 0,
+  "readiness": {
+    "automatic_promotion": false,
+    "reasons": [
+      "CRITICAL_RED_TEAM_UNRESOLVED",
+      "INSUFFICIENT_EMPIRICAL_SAMPLE",
+      "INSUFFICIENT_PROSPECTIVE_SAMPLE",
+      "NO_MARKET_INCREMENTAL_EVIDENCE",
+      "UNCERTAINTY_COVERAGE_UNVERIFIED",
+      "HIGH_RED_TEAM_UNRESOLVED"
+    ],
+    "status": "RESEARCH_ONLY"
+  },
+  "test_count_scope": "whole suite; original Phase 1 baseline = 36",
+  "tests_added": 119,
+  "tests_failed": 0,
+  "tests_passed": 155,
+  "timestamp": "2026-10-14T07:35:38.361255+00:00"
+}

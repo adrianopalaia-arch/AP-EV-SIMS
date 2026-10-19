@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-10-18T03:58:52.432731+00:00",
+  "scope": "Source documents only; no pre-entry applicability or completed terms parser is claimed.",
+  "settlement_authority": false,
+  "sources": [
+    {
+      "applicability": "NOT_VERIFIED_FOR_ENTRY",
+      "available_at": "2026-10-18T02:26:20.474196+00:00",
+      "book": "fanduel",
+      "captured_at": "2026-10-18T02:26:20.474196+00:00",
+      "historical_backdating_allowed": false,
+      "jurisdiction_scope": "IL",
+      "manifest_id": "92415c860d9855443be9ac80d2dc957f0971a1d7f2cbcced4ef674a6e7c5d0b1",
+      "path": "raw\\results\\book-rules-0c157d7555d518533b4c6598d82f3dd356f7f6cdf314cd69a6f7dda004972780.html",
+      "payload_hash": "0c157d7555d518533b4c6598d82f3dd356f7f6cdf314cd69a6f7dda004972780",
+      "reason": "JURISDICTION_AND_MARKET_TERMS_REVIEW_REQUIRED",
+      "settlement_authority": false,
+      "status": 200,
+      "url": "https://d38ayms4az88sz.cloudfront.net/SB/IL/2026-07-30T12-42-48.html"
+    },
+    {
+      "applicability": "NOT_VERIFIED_FOR_ENTRY",
+      "available_at": "2026-10-18T02:26:20.817771+00:00",
+      "book": "draftkings",
+      "captured_at": "2026-10-18T02:26:20.817771+00:00",
+      "historical_backdating_allowed": false,
+      "jurisdiction_scope": null,
+      "manifest_id": "7e3e02ca42cdb69f33db52e90204788de05b348080eb203fcf6f4f7c6d06aeac",
+      "path": "raw\\results\\book-rules-93127422017da4027107986835fb34f122a16d6fbd4653cbada4bdb27b59b727.html",
+      "payload_hash": "93127422017da4027107986835fb34f122a16d6fbd4653cbada4bdb27b59b727",
+      "reason": "JURISDICTION_AND_MARKET_TERMS_REVIEW_REQUIRED",
+      "settlement_authority": false,
+      "status": 200,
+      "url": "https://sportsbook.draftkings.com/help/sport-rules/hockey"
+    }
+  ]
+}

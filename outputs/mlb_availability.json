@@ -1,0 +1,1726 @@
+{
+  "authority": "LEAGUE_API",
+  "event": {
+    "away_team": "Tampa Bay Rays",
+    "competition_type": "L",
+    "event_id": "849817",
+    "event_start": "2026-10-18T21:08:00+00:00",
+    "home_team": "Cleveland Guardians",
+    "market_identity_verified": false,
+    "odds_event_id": "f4ca2d8a09898a94722dde0633e0a7e1",
+    "odds_event_start": "2026-10-18T21:10:00Z",
+    "rescheduled_from": "2026-10-17T00:00:00Z",
+    "schedule_revision": "ALCS Game 5, Makeup of 10/16",
+    "schedule_status": {
+      "abstractGameCode": "P",
+      "abstractGameState": "Preview",
+      "codedGameState": "S",
+      "detailedState": "Scheduled",
+      "startTimeTBD": false,
+      "statusCode": "S"
+    }
+  },
+  "event_identity_reasons": [
+    "BOOK_CANONICAL_START_MISMATCH",
+    "POSTPONED_SCHEDULE_REVISION"
+  ],
+  "generated_at": "2026-10-18T03:23:00.136357+00:00",
+  "identities": [
+    {
+      "aliases": [
+        "Angel Genao"
+      ],
+      "player_id": "694197",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Angel Mart\u00ednez"
+      ],
+      "player_id": "682657",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Austin Hedges"
+      ],
+      "player_id": "595978",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Brayan Rocchio"
+      ],
+      "player_id": "677587",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Cade Smith"
+      ],
+      "player_id": "671922",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Chase DeLauter"
+      ],
+      "player_id": "800050",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Daniel Espino"
+      ],
+      "player_id": "682982",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "David Fry"
+      ],
+      "player_id": "681807",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Erik Sabrowski"
+      ],
+      "player_id": "681870",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Foster Griffin"
+      ],
+      "player_id": "656492",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Gavin Williams"
+      ],
+      "player_id": "668909",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Hunter Gaddis"
+      ],
+      "player_id": "683769",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Jo Adell"
+      ],
+      "player_id": "666176",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Joey Cantillo"
+      ],
+      "player_id": "676282",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Jos\u00e9 Ram\u00edrez"
+      ],
+      "player_id": "608070",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Matt Festa"
+      ],
+      "player_id": "670036",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Nathaniel Lowe"
+      ],
+      "player_id": "663993",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Parker Messick"
+      ],
+      "player_id": "800048",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Patrick Bailey"
+      ],
+      "player_id": "672275",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Petey Halpin"
+      ],
+      "player_id": "690984",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Shawn Armstrong"
+      ],
+      "player_id": "542888",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Slade Cecconi"
+      ],
+      "player_id": "677944",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Steven Kwan"
+      ],
+      "player_id": "680757",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Tanner Bibee"
+      ],
+      "player_id": "676440",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Tim Herrin"
+      ],
+      "player_id": "682120",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Travis Bazzana"
+      ],
+      "player_id": "683953",
+      "team_id": "114"
+    },
+    {
+      "aliases": [
+        "Ben Williamson"
+      ],
+      "player_id": "810938",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Brody Hopkins"
+      ],
+      "player_id": "811315",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Bryan Baker"
+      ],
+      "player_id": "641329",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Cam Booser"
+      ],
+      "player_id": "592155",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Cedric Mullins"
+      ],
+      "player_id": "656775",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Chandler Simpson"
+      ],
+      "player_id": "802415",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Cole Sulser"
+      ],
+      "player_id": "642121",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Drew Rasmussen"
+      ],
+      "player_id": "656876",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Freddy Peralta"
+      ],
+      "player_id": "642547",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Griffin Jax"
+      ],
+      "player_id": "643377",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Ian Seymour"
+      ],
+      "player_id": "693855",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Jonathan Aranda"
+      ],
+      "player_id": "666018",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Jonny DeLuca"
+      ],
+      "player_id": "676356",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Jorge Mateo"
+      ],
+      "player_id": "622761",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Junior Caminero"
+      ],
+      "player_id": "691406",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Kevin Kelly"
+      ],
+      "player_id": "687330",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Liam Hicks"
+      ],
+      "player_id": "689414",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Nick Fortes"
+      ],
+      "player_id": "663743",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Nick Martinez"
+      ],
+      "player_id": "607259",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Richie Palacios"
+      ],
+      "player_id": "680700",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Ryan Vilade"
+      ],
+      "player_id": "668723",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Steven Matz"
+      ],
+      "player_id": "571927",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Taylor Walls"
+      ],
+      "player_id": "670764",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Tyler Wells"
+      ],
+      "player_id": "669330",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Victor Mesa Jr."
+      ],
+      "player_id": "683748",
+      "team_id": "139"
+    },
+    {
+      "aliases": [
+        "Yandy D\u00edaz"
+      ],
+      "player_id": "650490",
+      "team_id": "139"
+    }
+  ],
+  "latest_source_capture": "2026-10-18T03:23:00.058630+00:00",
+  "recommendations_enabled": false,
+  "records": [
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "694197",
+      "player_name": "Angel Genao",
+      "position": "2B",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "682657",
+      "player_name": "Angel Mart\u00ednez",
+      "position": "LF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "595978",
+      "player_name": "Austin Hedges",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "677587",
+      "player_name": "Brayan Rocchio",
+      "position": "SS",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "671922",
+      "player_name": "Cade Smith",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "800050",
+      "player_name": "Chase DeLauter",
+      "position": "RF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "682982",
+      "player_name": "Daniel Espino",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "681807",
+      "player_name": "David Fry",
+      "position": "RF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "681870",
+      "player_name": "Erik Sabrowski",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "656492",
+      "player_name": "Foster Griffin",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "668909",
+      "player_name": "Gavin Williams",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "683769",
+      "player_name": "Hunter Gaddis",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "666176",
+      "player_name": "Jo Adell",
+      "position": "RF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "676282",
+      "player_name": "Joey Cantillo",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "608070",
+      "player_name": "Jos\u00e9 Ram\u00edrez",
+      "position": "3B",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "670036",
+      "player_name": "Matt Festa",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "663993",
+      "player_name": "Nathaniel Lowe",
+      "position": "1B",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "800048",
+      "player_name": "Parker Messick",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "672275",
+      "player_name": "Patrick Bailey",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "690984",
+      "player_name": "Petey Halpin",
+      "position": "CF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "542888",
+      "player_name": "Shawn Armstrong",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "677944",
+      "player_name": "Slade Cecconi",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "680757",
+      "player_name": "Steven Kwan",
+      "position": "LF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "676440",
+      "player_name": "Tanner Bibee",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "682120",
+      "player_name": "Tim Herrin",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "683953",
+      "player_name": "Travis Bazzana",
+      "position": "2B",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "114"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "810938",
+      "player_name": "Ben Williamson",
+      "position": "2B",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "811315",
+      "player_name": "Brody Hopkins",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "641329",
+      "player_name": "Bryan Baker",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "592155",
+      "player_name": "Cam Booser",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "656775",
+      "player_name": "Cedric Mullins",
+      "position": "CF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "802415",
+      "player_name": "Chandler Simpson",
+      "position": "LF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "642121",
+      "player_name": "Cole Sulser",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "656876",
+      "player_name": "Drew Rasmussen",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "642547",
+      "player_name": "Freddy Peralta",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "643377",
+      "player_name": "Griffin Jax",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "693855",
+      "player_name": "Ian Seymour",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "666018",
+      "player_name": "Jonathan Aranda",
+      "position": "1B",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "676356",
+      "player_name": "Jonny DeLuca",
+      "position": "RF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "622761",
+      "player_name": "Jorge Mateo",
+      "position": "SS",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "691406",
+      "player_name": "Junior Caminero",
+      "position": "3B",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "687330",
+      "player_name": "Kevin Kelly",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "689414",
+      "player_name": "Liam Hicks",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "663743",
+      "player_name": "Nick Fortes",
+      "position": "C",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "607259",
+      "player_name": "Nick Martinez",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "680700",
+      "player_name": "Richie Palacios",
+      "position": "2B",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "668723",
+      "player_name": "Ryan Vilade",
+      "position": "RF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "571927",
+      "player_name": "Steven Matz",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "670764",
+      "player_name": "Taylor Walls",
+      "position": "SS",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "669330",
+      "player_name": "Tyler Wells",
+      "position": "P",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "683748",
+      "player_name": "Victor Mesa Jr.",
+      "position": "RF",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    },
+    {
+      "availability_state": "UNKNOWN",
+      "available_at": "2026-10-18T03:20:29.284479+00:00",
+      "batting_order": null,
+      "confirmed_ice_time": null,
+      "confirmed_minutes": null,
+      "confirmed_starter": null,
+      "event_id": "849817",
+      "event_start": "2026-10-18T21:08:00+00:00",
+      "injury_coverage": "REPORTED_ITEMS_ONLY_NOT_COMPLETE_MEDICAL_CLEARANCE",
+      "injury_evidence": [],
+      "player_id": "650490",
+      "player_name": "Yandy D\u00edaz",
+      "position": "DH",
+      "reasons": [
+        "PARTICIPATION_NOT_CONFIRMED",
+        "ROLE_NOT_CONFIRMED",
+        "MODEL_COMPETITION_DOMAIN_MISMATCH"
+      ],
+      "role_confirmed": false,
+      "source_hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "source_manifest": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "sport": "MLB",
+      "team_id": "139"
+    }
+  ],
+  "snapshot_hash": "fbf5cff433ca984cc97b75296a62d4b082b66526784c50433eaa98a68baa5e9d",
+  "sources": [
+    {
+      "captured_at": "2026-10-18T03:22:59.494457+00:00",
+      "hash": "3f3649a1c2fc7c2e7de41c4964bade604e5222a2ee5029728c9567af8e0145be",
+      "manifest_id": "7d390d9b83923d346dd830886c6cd0f612b726cc3daa9a1a7fc8add0859cb4b5",
+      "url": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&startDate=2026-10-18&endDate=2026-10-20&hydrate=probablePitcher"
+    },
+    {
+      "captured_at": "2026-10-18T03:22:59.773466+00:00",
+      "hash": "0dc00b151caba1ea4586a3723f5327f412253a41e7551c4a48fd3bad0b2a8bc6",
+      "manifest_id": "f052b9ee1b0838078cba9ae4ee5bd5107411b6ae47adb2bad4f45da47329dbd2",
+      "url": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=active"
+    },
+    {
+      "captured_at": "2026-10-18T03:23:00.058630+00:00",
+      "hash": "d469950cbf7f9abdce695ce81cb5a66e4092755851ef87706412e22eba9d5e8e",
+      "manifest_id": "a854ee36763b86270c0d1123f758475ff96869b09a82d06ba27ee12fdaa2ca4a",
+      "url": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=active"
+    },
+    {
+      "captured_at": "2026-10-18T03:20:29.284479+00:00",
+      "hash": "2d8b4582b2561c4ca461a48855921ff92237c3dad665dddd2f7770a76bff6473",
+      "manifest_id": "8b4076acf92965acc1148c239db14baa9596be2198c5e156574fa8cf8ee71844",
+      "url": "https://statsapi.mlb.com/api/v1/game/849817/boxscore"
+    }
+  ],
+  "sport": "MLB"
+}

@@ -1,0 +1,15 @@
+{
+  "branch": "ap-evisims-live",
+  "checked_at": "2026-10-17T02:32:37.057376+00:00",
+  "connector_reason": "HTTP_403_RESOURCE_NOT_ACCESSIBLE_BY_INTEGRATION",
+  "env_staged": false,
+  "latest_checked_push": "BLOCKED",
+  "local_code_commit": "5d357c6dfabba8392b3ec2954049bebdd014ecb5",
+  "local_git_reason": "AUTHENTICATION_REQUIRED",
+  "manual_powershell_command": "& 'C:\\Program Files\\Git\\cmd\\git.EXE' -C 'C:\\Users\\adria\\Documents\\Codex\\2026-10-13\\files-mentioned-by-the-user-ap\\outputs\\AP-EV-SIMS' push -u origin ap-evisims-live",
+  "original_forecasts_preserved": 389,
+  "remote_commit": "bd4a8e5862e038c7ae77c71e50873f08dc234547",
+  "secret_scan": "PASS",
+  "tests_failed": 0,
+  "tests_passed": 351
+}

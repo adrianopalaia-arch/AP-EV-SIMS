@@ -1,0 +1,12 @@
+{
+  "bonus_balance": null,
+  "cash_bankroll": null,
+  "exposure_reconciliation": "UNKNOWN; no external sportsbook positions imported",
+  "last_reconciled_at": null,
+  "open_bonus_exposure": null,
+  "open_cash_exposure": null,
+  "reserved_exposure": null,
+  "status": "BANKROLL_NOT_RECONCILED",
+  "transaction_count": 0,
+  "unit_size": null
+}
