@@ -144,12 +144,19 @@ def comparison(f,q,a,e,at,peers=(),*,identity_store=None):
     if f['projection'].get('last_team_id')!=a['team_id']:reasons.append('TEAM_CHANGE_ROLE_UNVERIFIED')
     last=f['projection'].get('last_observed_date')
     if last and (utc(at).date()-date.fromisoformat(last)).days>60:reasons.append('LONG_LAYOFF_ROLE_UNVERIFIED')
+    news_context=None;unsupported_participation=False
+    if f['sport']=='NFL':
+        from .nfl_forecast_news import player_context,OUT_STATES
+        news_context=player_context(f,a,at);reasons+=news_context['reasons']
+        unsupported_participation=news_context['availability_state'] in OUT_STATES or bool(set(news_context['reasons']) & {
+            'STALE_AVAILABILITY_SNAPSHOT','STALE_INJURY_REPORT','INJURY_IDENTITY_UNVERIFIED',
+            'ROSTER_NOT_ACTIVE_GAME_ELIGIBLE','ROSTER_MEMBERSHIP_UNVERIFIED','STALE_ROSTER_SNAPSHOT','TEAM_CHANGE_ROLE_UNVERIFIED'})
     pmf=f['projection']['distribution'];keys=np.array([int(k) for k in pmf]);prob=np.array(list(pmf.values()))
     ix=np.argsort(keys);keys=keys[ix];prob=prob[ix]
     interval=[int(keys[min(np.searchsorted(np.cumsum(prob),p),len(keys)-1)]) for p in (.1,.5,.9)]
     out=[]
     for side in ('Over','Under'):
-        mass=prop_mass(pmf,q['line'],side) if identity else None
+        mass=prop_mass(pmf,q['line'],side) if identity and not unsupported_participation else None
         odds=q['over_odds' if side=='Over' else 'under_odds'];fair=q['over_no_vig'] if side=='Over' else 1-q['over_no_vig']
         # Cross-book numbers are descriptive only until common payout terms are proved.
         matches=[p for p in peers if p['book']!=q['book'] and p['market']==q['market'] and p['line']==q['line'] and p['period']==q['period']
@@ -172,16 +179,26 @@ def comparison(f,q,a,e,at,peers=(),*,identity_store=None):
             projected_opportunity=f['projection']['projected_opportunity'],model_mean=f['projection']['projection'],simulation_interval_10_50_90=interval,
             simulation_basis='exact quantiles of frozen empirical residual distribution; not confidence bounds',
             model_version=f['model_version'],artifact_hash=f['artifact_hash'],benchmark=e,
-            forecast_hash=f['forecast_hash'],forecast_generated_at=f['generated_at'],quote_id=q['quote_id'],quote_timestamp=q['quote_timestamp'],
+            forecast_hash=f.get('original_forecast_hash',f['forecast_hash']),
+            forecast_generated_at=f.get('baseline_generated_at',f['generated_at']),quote_id=q['quote_id'],quote_timestamp=q['quote_timestamp'],
             quote_captured_at=q['captured_at'],quote_age_seconds=age,quote_snapshot=q['snapshot_id'],quote_payload_hash=q['payload_hash'],
             availability=a,decision_timestamp=at,price_identity_verified=identity,price_fresh=age<=180,
             event_identity_resolution=resolution,provider_event_start=q['event_start'],
             independent_consensus=outside,model_consensus_gap=discrepancy,disagreement_review_threshold=.15,
-            line_sensitivity=[dict(line=q['line']+shift,raw_mass=prop_mass(pmf,q['line']+shift,side)) for shift in (-1,0,1)] if identity else [],
+            line_sensitivity=[dict(line=q['line']+shift,raw_mass=prop_mass(pmf,q['line']+shift,side)) for shift in (-1,0,1)] if identity and not unsupported_participation else [],
             research_status='RESEARCH_ESTIMATE',decision='PASS',pass_reasons=sorted(set(side_reasons)),recommendations_enabled=False,
             reference_unit=22,stake=None)
         candidate['research_rank_eligible']=bool(identity and ev is not None and ev>0 and e['admission']=='RESEARCH_BENCHMARK_ADVANTAGE'
             and a['availability_state']!='REPORTED_UNAVAILABLE' and not set(side_reasons)&{'INJURY_TIMESTAMP_INVALID','MODEL_COMPETITION_DOMAIN_MISMATCH','TEAM_CHANGE_ROLE_UNVERIFIED','MODEL_MARKET_DISAGREEMENT'})
+        if news_context is not None:
+            candidate['availability_context']=news_context
+            # Policy-only revisions keep the original numerical cohort identity.
+            # Settlement/CLV cannot count each news refresh as another forecast.
+            if f.get('original_forecast_hash'):
+                candidate['availability_revision_hash']=f['forecast_hash']
+                candidate['availability_revision_generated_at']=f['generated_at']
+            candidate['research_rank_eligible']=candidate['research_rank_eligible'] and news_context['scoring_recommendation_eligible']
+            candidate['ev_assumptions']='Unadjusted historical-appearance baseline; NEWS_ADJUSTMENT_UNAVAILABLE; no betting approval'
         out.append(candidate)
     return out
 
@@ -190,6 +207,8 @@ def freeze_comparison(store,body,parent=None):
     if body['decision']!='PASS' or body['recommendations_enabled'] or body.get('p_low') is not None or body.get('calibrated_probability') is not None:
         raise ValueError('RESEARCH_AUTHORITY_ESCALATION')
     at=utc(body['decision_timestamp'])
+    if body.get('availability_revision_generated_at') and utc(body['availability_revision_generated_at'])>at:
+        raise ValueError('AVAILABILITY_REVISION_LOOKAHEAD')
     if max(utc(body['forecast_generated_at']),utc(body['quote_captured_at']),utc(body['availability']['available_at']))>at or at>=utc(body['event_start']):
         raise ValueError('PREGAME_FREEZE_REQUIRED')
     record=dict(body,comparison_version=VERSION,parent_comparison_hash=parent);record['comparison_hash']=digest(record)

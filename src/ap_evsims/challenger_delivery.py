@@ -73,6 +73,15 @@ def simulate(forecast,draws):
         scope='Independent marginal statistic simulation; shared game-state dependence not modeled; never a joint parlay probability')
 
 
+def forecast_summary(f):
+    compact={k:v for k,v in f.items() if k not in ('projection','training_source_hashes')}
+    compact['projection']={k:v for k,v in f['projection'].items() if k!='distribution'}
+    compact['distribution_hash']=digest(f['projection']['distribution'])
+    compact['distribution_location']='immutable local forecast referenced by forecast_hash'
+    compact['forecast_hash_semantics']='Hash of full immutable record including local PMF; this published record is a summary'
+    return compact
+
+
 def run(root,sport,draws=20000,*,simulate_forecasts=True,canonical_event=None,availability_record=None,model_cache=None):
     if sport=='NFL' and canonical_event is None:
         return run_nfl_slate(root)
@@ -121,14 +130,13 @@ def run(root,sport,draws=20000,*,simulate_forecasts=True,canonical_event=None,av
                 model_status='UNVALIDATED',recommendations_enabled=False,calibrated_probability=None,p_low=None,priced_markets=[],
                 mode='RESEARCH_ONLY',reference_unit=22,cash_committed=0,pass_reasons=sorted(set(reasons)))
             f,new=freeze_prop(store,body);new_count+=new
+            if sport=='NFL':
+                from .nfl_forecast_news import revise_prop
+                f=revise_prop(store,f,person,availability,at)
             if simulate_forecasts:
                 simulation=simulate(f,draws);simulations.append(simulation)
                 store._immutable(store.root/'evaluations'/('simulation-'+digest(simulation)+'.json'),json.dumps(simulation,sort_keys=True).encode())
-            compact={k:v for k,v in f.items() if k not in ('projection','training_source_hashes')}
-            compact['projection']={k:v for k,v in f['projection'].items() if k!='distribution'}
-            compact['distribution_hash']=digest(f['projection']['distribution']);compact['distribution_location']='immutable local forecast referenced by forecast_hash'
-            compact['forecast_hash_semantics']='Hash of full immutable record including local PMF; this published record is a summary'
-            records.append(compact)
+            records.append(forecast_summary(f))
             for q in qs:
                 if q['book'] not in ('draftkings','fanduel') or q['market']!=market or aliases.get(normalized_name(q['player_name']))!={person['player_id']}:continue
                 try:
@@ -141,6 +149,17 @@ def run(root,sport,draws=20000,*,simulate_forecasts=True,canonical_event=None,av
                             simulation_basis='Frozen ridge prior-OOF residual mixture; exact quantiles, separately verified by Monte Carlo')
                         saved=freeze_comparison(store,c);comparisons.append(saved)
                 except ValueError as e:rejected.append(dict(quote_id=q['quote_id'],reason=str(e)))
+    if sport=='NFL':
+        # A traded/removed player must receive an explicit withdrawal, not disappear
+        # while an earlier freeze remains visible. The baseline stays immutable.
+        from .nfl_forecast_news import revise_prop
+        present={p['player_id'] for p in availability['records']}
+        for path in (store.root/'predictions/props').glob('*.json'):
+            old=json.loads(path.read_text())
+            if old['sport']!='NFL' or old['model_version']!=VERSION or old['event_id']!=event['event_id'] or old['player_id'] in present:continue
+            revised=revise_prop(store,old,None,availability,at)
+            records.append(forecast_summary(revised))
+            rejected.append(dict(player_id=old['player_id'],market=old['market'],reason='PLAYER_NOT_ON_VERIFIED_CURRENT_ROSTER'))
     report=dict(sport=sport,generated_at=at,model_version=VERSION,new_frozen=new_count,frozen_forecasts=len(records),
         predictions=records,comparisons=comparisons,rejections=rejected,benchmarks=benchmarks,
         simulations=simulations,simulation_draws=sum(sum(r['draws'] for r in s['runs']) for s in simulations),

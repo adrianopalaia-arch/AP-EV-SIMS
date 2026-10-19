@@ -100,7 +100,8 @@ def current_rosters(root, game):
             players.append(dict(player_id=next(iter(ids)),provider_player_id=str(person['id']),name=person['displayName'],
                 aliases=list({person.get('fullName',''),person['displayName']}),team_id=game[side+'_code'],team_name=t['displayName'],
                 position=person.get('position',{}).get('abbreviation'),injuries=person.get('injuries',[]),
-                status=person.get('status',{}).get('type'),role_confirmed=False))
+                status=person.get('status',{}).get('type'),role_confirmed=False,
+                roster_source=dict(manifest_id=m['manifest_id'],hash=m['hash'],captured_at=m['captured_at'])))
     for sid in game['schedule_source_ids']:
         import json
         m=json.loads((a.folder/(sid+'.json')).read_text());a.read(m);sources.append(m)

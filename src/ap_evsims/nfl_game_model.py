@@ -150,7 +150,7 @@ def train(root,rows,manifest,at):
     atomic_json(Path(root)/'outputs/nfl_game_model_status.json',report)
     return artifact,h,history,report
 
-def freeze(root,game,artifact,artifact_hash,history,at):
+def freeze(root,game,artifact,artifact_hash,history,at,availability=None):
     if not game['identity_verified']:raise ValueError('BLOCKED_IDENTITY')
     if not utc(artifact['latest_source_capture'])<=utc(artifact['generated_at'])<=utc(at)<utc(game['kickoff']):raise ValueError('PREGAME_FREEZE_REQUIRED')
     if utc(game['schedule_available_at'])>utc(at):raise ValueError('SCHEDULE_SOURCE_LOOKAHEAD')
@@ -161,6 +161,20 @@ def freeze(root,game,artifact,artifact_hash,history,at):
         **game_probs(mu,sd),calibrated_probability=None,p_low=None,status='RESEARCH_ONLY',decision='PASS',recommendations_enabled=False,
         source_manifest=artifact['source_manifest'],source_hash=artifact['source_hash'],schedule_fingerprint=digest(game),
         pass_reasons=['MODEL_NOT_CALIBRATED','PROSPECTIVE_VALIDATION_PENDING','QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE'])
-    body['forecast_hash']=digest(body);folder=Path(root)/'data/predictions/nfl-games';folder.mkdir(exist_ok=True)
+    from .nfl_forecast_news import game_context,VERSION as NEWS_VERSION
+    context=game_context(game,availability,at)
+    body.update(availability_context=context,forecast_policy_version=NEWS_VERSION,
+        scoring_recommendation_eligible=False,revision_kind='BASELINE_WITH_AVAILABILITY_ASSUMPTIONS',
+        pass_reasons=sorted(set(body['pass_reasons']+context['reasons'])))
+    folder=Path(root)/'data/predictions/nfl-games';folder.mkdir(exist_ok=True)
+    previous=[]
+    for path in folder.glob('*.json'):
+        old=json.loads(path.read_text())
+        if digest({k:v for k,v in old.items() if k!='forecast_hash'})!=old['forecast_hash']:raise ValueError('FROZEN_FORECAST_HASH_MISMATCH')
+        if old['event_id']==game['event_id'] and utc(old['generated_at'])<=utc(at):previous.append(old)
+    if previous:
+        parent=max(previous,key=lambda f:(utc(f['generated_at']),f['forecast_hash']))
+        body.update(parent_forecast_hash=parent['forecast_hash'],revision_reasons=context['reasons'])
+    body['forecast_hash']=digest(body)
     ResearchStore._immutable(folder/(body['forecast_hash']+'.json'),json.dumps(body,sort_keys=True).encode())
     return body

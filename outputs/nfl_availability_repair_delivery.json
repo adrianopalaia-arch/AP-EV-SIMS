@@ -1,0 +1,205 @@
+{
+  "acceptance": {
+    "False": {
+      "covered_games": 12,
+      "game_probabilities": 12,
+      "model_status_counts": {
+        "FORECASTED": 12
+      },
+      "ok": true,
+      "problems": [],
+      "prop_scanned_games": 12,
+      "scheduled_games": 12,
+      "target_date": "2026-10-18"
+    },
+    "True": {
+      "covered_games": 12,
+      "game_probabilities": 12,
+      "model_status_counts": {
+        "FORECASTED": 12
+      },
+      "ok": true,
+      "problems": [],
+      "prop_scanned_games": 12,
+      "scheduled_games": 12,
+      "target_date": "2026-10-18"
+    }
+  },
+  "all_local_original_forecast_hashes_verified": 2394,
+  "base_local_sha": "f80ef8ddc2bf53b476d2b317403b46bd48fa8c30",
+  "base_remote_sha_verified": "f80ef8ddc2bf53b476d2b317403b46bd48fa8c30",
+  "blockers": [
+    "No new injury-adjusted numerical model; original means and distributions remain conditional historical baselines",
+    "ESPN reports are secondary; no official active/starter or workload feed is implemented",
+    "No replacement-QB model or supported scenario probabilities; NEWS_ADJUSTMENT_UNAVAILABLE",
+    "Old/stale reports and roster active status cannot prove current gameday participation",
+    "All October 18 games have begun; this replay cannot be counted as newly frozen prospective evidence",
+    "No untouched injury-adjusted evaluation cohort or authenticated historical execution-price cohort"
+  ],
+  "commands": [
+    "python -m unittest discover -s tests",
+    "python -m ap_evsims.nfl_news_replay --root .",
+    "python scripts/nfl_sweep_acceptance.py outputs/nfl_sweep_status.json --expected 12",
+    "python scripts/nfl_sweep_acceptance.py outputs/nfl_sweep_status.json --expected 12 --require-probabilities"
+  ],
+  "core_enabled": false,
+  "files_in_focused_checkpoint": [
+    "src/ap_evsims/nfl_forecast_news.py",
+    "src/ap_evsims/nfl_news_replay.py",
+    "src/ap_evsims/nfl_game_model.py",
+    "src/ap_evsims/nfl_schedule.py",
+    "src/ap_evsims/nfl_sweep.py",
+    "src/ap_evsims/prop_availability.py",
+    "src/ap_evsims/challenger_delivery.py",
+    "src/ap_evsims/prop_market_research.py",
+    "tests/test_nfl_forecast_news.py",
+    "outputs/nfl_availability_repair.json",
+    "reports/NFL_AVAILABILITY_REPAIR.md",
+    "outputs/nfl_availability_repair_delivery.json",
+    "reports/NFL_AVAILABILITY_REPAIR_DELIVERY.md"
+  ],
+  "generated_at": "2026-10-19T04:38:24.647775+00:00",
+  "git_observation": "Initial live ls-remote matched local HEAD; old push failure was stale. No retry of that old push.",
+  "original_forecasts_by_sport": {
+    "CFB": 59,
+    "MLB": 38,
+    "NBA": 124,
+    "NFL": 120,
+    "NHL": 48
+  },
+  "original_forecasts_verified": 389,
+  "preexisting_modified_files": [
+    {
+      "classification": "New source/status refresh; unrelated to this repair; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "f309daa53c4a4ecb0d317c308e0c67b5c649c61149596f8fa7a38bbf8749895b",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/book_rule_source_status.json"
+    },
+    {
+      "classification": "Mixed: newer results/publication hashes plus stale c1f06b6 push-failure metadata. Fresh remote verification supersedes that old failure. Preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "9adc52718448c5b05f218dededd001faec7d9385a782bf793b932de3c68e5c44",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/last_update.json"
+    },
+    {
+      "classification": "New expired-price/started-event PASS rows (198 to 1414 at inspection); preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "d4cdab2b0941953419e8a8b657c084aa7e4b49a4e604c2047a8df8bd547f7d0f",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/latest_passes.json"
+    },
+    {
+      "classification": "Active future subset shrank from 380 to 169 at inspection as events started; original archives retained; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "cfd0c6b7e60b4b62c5d0340dcef4f45fda0eb8a4d017fdfe8d4a3b2028fa84ae",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/latest_predictions.json"
+    },
+    {
+      "classification": "New candidate/status refresh; unrelated to pregame repair; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "20cc3c2653d589131eddf80b4b3c6ce921748c9f92bf0d87fe41796787cf1797",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/live_research_candidates.json"
+    },
+    {
+      "classification": "Same 47 market rows with refreshed evidence/status fields; not new validated models; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "f1294d4bd5894fcb21ea08706a4f189985928078918c7444d0b866cd086eb517",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/model_status.json"
+    },
+    {
+      "classification": "New settlement/reporting run with changed cohorts and source failures; needs separate reconciliation; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "aa89d3601bc7be7d2a4ae03de27bd4997352680f68815a36515bb918a3db440a",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/prospective_settlements.json"
+    },
+    {
+      "classification": "New quota/collection status; no provider collection requested by this repair; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "8637f8f9b13a3052c600d90e84bc016993d91f8d4b096c4bd6242cde3705e531",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/provider_status.json"
+    },
+    {
+      "classification": "New hashes/timestamp for existing recurring pipeline; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "3ca6f0baebd7e9c290037c96a644977eae8eb26955190d144224c526147e39ce",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/reliability_manifest.json"
+    },
+    {
+      "classification": "New recurring collection/activity status; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "f76fe74b89db3b05c7860957f69498c932b9083928241be7aac652952655c84f",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/reliability_status.json"
+    },
+    {
+      "classification": "Timestamp-only refresh, still no validated edges; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "cc05b96e81c53c20e9228822456f2fd2834043a884b12c86fe06f8d83ecf743b",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/validated_edges.json"
+    },
+    {
+      "classification": "Refreshed timing/sport status; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "793f95aa4c251a51b48aaaa53b0916f2ca14c31d71ebec2560aef0ac9c15c5f9",
+      "original_bytes_backed_up_locally": true,
+      "path": "outputs/week_ahead_game_probabilities.json"
+    },
+    {
+      "classification": "New event-expiry and source-failure status; preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "e3e34a89b1f4de118cedec98a071c33d0447ac2128920cdfab4384fb2d7e1f35",
+      "original_bytes_backed_up_locally": true,
+      "path": "reports/DAILY_BETTING_DECISIONS.md"
+    },
+    {
+      "classification": "Refreshed scoreboard omits previously shown NHL cohorts; not evidence those original settlements disappeared; separate reconciliation needed. Preserved unstaged.",
+      "current_matches_inspection": true,
+      "inspection_sha256": "7683d790bcdb606106cf43af923f5f1d38b63a1ebdeea7615857321776a2bf19",
+      "original_bytes_backed_up_locally": true,
+      "path": "reports/MODEL_PERFORMANCE_SCOREBOARD.md"
+    }
+  ],
+  "preexisting_untracked_work_preserved_and_excluded": [
+    "src/ap_evsims/nfl_live.py",
+    "src/ap_evsims/nfl_remaining.py",
+    "tests/test_nfl_live.py",
+    "outputs/nfl_live_research.json",
+    "outputs/reliability_failure.json",
+    "reports/NFL_LIVE_ENGINE.md",
+    "reports/NFL_LIVE_RESEARCH.md",
+    "work/"
+  ],
+  "protected_phase1_files_unchanged": 18,
+  "publication_scope": "Only the listed source/tests/new repair reports. Existing 14 generated changes and uncommitted live engine are deliberately excluded.",
+  "real_replay_counts": {
+    "availability_counts": {
+      "QUESTIONABLE": 65,
+      "REPORTED_OUT": 75,
+      "UNKNOWN": 1354
+    },
+    "conditional_ev_suppressed": 8,
+    "games_reviewed": 12,
+    "new_prospective_forecasts": 0,
+    "price_comparisons_reviewed": 1312,
+    "prop_forecasts_reviewed": 1494,
+    "sportsbook_api_requests": 0
+  },
+  "tests": {
+    "baseline_passed": 428,
+    "failed": 0,
+    "includes_uncommitted_live_engine_tests": true,
+    "new_tests": 28,
+    "passed": 456,
+    "seconds": 35.021
+  },
+  "tests_are_not_predictive_validation": true
+}

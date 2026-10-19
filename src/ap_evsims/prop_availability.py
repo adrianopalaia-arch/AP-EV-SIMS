@@ -29,6 +29,9 @@ def interpret(sport,event,players,payload,manifest):
     probable pitchers do not establish a confirmed starter. Expected workload
     remains a separate model projection rather than sourced participation proof.
     """
+    if sport=='NFL':
+        from .nfl_forecast_news import interpret_nfl
+        return interpret_nfl(event,players,payload,manifest)
     at=manifest['captured_at']
     if utc(at)>=utc(event['event_start']):raise ValueError('AVAILABILITY_NOT_PREGAME')
     if sport in ('NBA','NFL'):

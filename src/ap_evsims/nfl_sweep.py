@@ -53,6 +53,7 @@ def featured_quotes(store,access,game,forecast,at,model_status):
                     opposite=next((o for o in sides if o is not s),None) if paired else None
                     fair=devig_two_way(s['price'],opposite['price'])[0] if opposite else None
                     reasons=['MODEL_NOT_CALIBRATED','PROSPECTIVE_VALIDATION_PENDING','BOOK_SETTLEMENT_RULE_UNVERIFIED','QB_AND_INJURY_ADJUSTMENTS_UNAVAILABLE']
+                    reasons+=forecast.get('availability_context',{}).get('reasons',[]) if forecast else ['NEWS_ADJUSTMENT_UNAVAILABLE']
                     if not fresh:reasons.append('STALE_PRICE')
                     if not paired:reasons.append('MISSING_EXACT_OPPOSITE_SIDE')
                     if not model_status['beats_both_baselines']:reasons.append('FAILED_ELO_BENCHMARK')
@@ -70,6 +71,7 @@ def featured_quotes(store,access,game,forecast,at,model_status):
                         raw_probability_conditional_on_non_push=mass['p_win']/(1-mass['p_push']) if mass else None,
                         conditional_model_ev=ev,ev_assumptions='Research margin distribution, settled standard payout; ties/pushes retained, void rules unverified',
                         forecast_hash=forecast['forecast_hash'] if forecast else None,
+                        availability_context=forecast.get('availability_context') if forecast else None,
                         predictive_margin_interval=forecast['predictive_interval_10_90'] if forecast else None,
                         calibrated_probability=None,p_low=None,conservative_ev=None,decision='PASS',pass_reasons=reasons,recommendations_enabled=False)
                     row['quote_id']=digest(row);out.append(row)
@@ -85,7 +87,8 @@ def featured_quotes(store,access,game,forecast,at,model_status):
 
 def frozen_lookup(store):
     result={}
-    for p in (store.root/'predictions/props').glob('*.json'):
+    paths=list((store.root/'predictions/props').glob('*.json'))+list((store.root/'predictions/news').rglob('*.json'))
+    for p in paths:
         body=json.loads(p.read_text())
         if digest({k:v for k,v in body.items() if k!='forecast_hash'})!=body['forecast_hash']:raise ValueError('FROZEN_FORECAST_HASH_MISMATCH')
         result[body['forecast_hash']]=body
@@ -100,7 +103,9 @@ def price_props(root,game,delivery,availability,lookup,at):
         for n in person['aliases']:aliases[normalized_name(n)].add(person['player_id'])
     people={p['player_id']:p for p in availability['records']};matched=set()
     for fsummary in delivery['predictions']:
-        f=lookup[fsummary['forecast_hash']];person=people[f['player_id']]
+        f=lookup[fsummary['forecast_hash']];person=people.get(f['player_id'])
+        if person is None:
+            rejects.append(dict(event_id=game['event_id'],forecast_hash=f['forecast_hash'],reason='PLAYER_NOT_ON_VERIFIED_CURRENT_ROSTER'));continue
         for q in quotes:
             if q['market']!=f['market'] or q['book'] not in ('draftkings','fanduel') or aliases.get(normalized_name(q['player_name']))!={f['player_id']}:continue
             # An older freeze may legitimately have no price mapping. Never rewrite it.
@@ -111,7 +116,7 @@ def price_props(root,game,delivery,availability,lookup,at):
                     c['research_rank_eligible']=c['research_rank_eligible'] and c['price_fresh']
                     # Large raw discrepancies with even the paired entry book need
                     # review, especially when cross-book consensus is unavailable.
-                    if abs(c['raw_probability_conditional_on_non_push']-c['market_no_vig'])>=.15:
+                    if c['raw_probability_conditional_on_non_push'] is not None and abs(c['raw_probability_conditional_on_non_push']-c['market_no_vig'])>=.15:
                         c['pass_reasons']=sorted(set(c['pass_reasons']+['MODEL_BOOK_DISAGREEMENT']))
                         c['research_rank_eligible']=False
                     if 'LONG_LAYOFF_ROLE_UNVERIFIED' in c['pass_reasons']:c['research_rank_eligible']=False
@@ -134,7 +139,8 @@ def price_props(root,game,delivery,availability,lookup,at):
 def compact_prop(f):
     keys=('sport','event_id','event_start','player_id','player_name','team_id','market','generated_at','forecast_hash','artifact_hash','model_version',
           'role_confirmed','availability_snapshot','pass_reasons','model_status','calibrated_probability','p_low')
-    return dict({k:f[k] for k in keys},projection=f['projection'],decision='PASS',recommendations_enabled=False,
+    extra={k:f[k] for k in ('availability_context','forecast_policy_version','original_forecast_hash','parent_forecast_hash','baseline_generated_at','revision_kind','revision_reasons','evaluation_cohort','scoring_recommendation_eligible','eligible_projected_opportunity') if k in f}
+    return dict({k:f[k] for k in keys},**extra,projection=f['projection'],decision='PASS',recommendations_enabled=False,
                 distribution_hash=f['distribution_hash'],distribution_location=f['distribution_location'],
                 forecast_hash_semantics='Hash of full immutable local forecast, not this compact public summary')
 
@@ -147,12 +153,18 @@ def compact_comparison(c):
         comparison_hash_semantics='Hash of full immutable local comparison, not this compact public summary',
         availability_state=c['availability']['availability_state'],role_confirmed=c['availability']['role_confirmed'],
         benchmark_admission=c['benchmark']['admission'],ev_assumptions=c['ev_assumptions'])
+    if 'availability_context' in c:
+        result['availability_context']=c['availability_context']
+        result['availability_state']=c['availability_context']['availability_state']
+    for key in ('availability_revision_hash','availability_revision_generated_at'):
+        if key in c:result[key]=c[key]
     return result
 
 def run(root,target_date,*,collect=False,daily_cap=24,reserve=50,refresh_sources=True):
     root=Path(root);store=ResearchStore(root/'data');out=root/'outputs';started=now()
     with card_lock(store.root/'reliable-runner'):
         before=frozen_lookup(store);before_hashes=set(before)
+        baseline_hashes={h for h,f in before.items() if f.get('revision_kind')!='ASSUMPTIONS_AND_ELIGIBILITY_ONLY'}
         baseline_path=store.root/'evaluations'/('nfl-sweep-baseline-'+target_date+'.json')
         if baseline_path.exists():baseline=json.loads(baseline_path.read_text())
         else:
@@ -181,10 +193,14 @@ def run(root,target_date,*,collect=False,daily_cap=24,reserve=50,refresh_sources
         for g in games:
             e,reason=match_odds(g,book_events if isinstance(book_events,list) else [])
             if e:g.update(odds_event_id=e['id'],odds_event_start=e['commence_time'],market_identity_verified=True)
-            try:forecasts[g['event_id']]=freeze(root,g,artifact,h,history,now())
-            except (ValueError,KeyError) as error:errors.setdefault(g['event_id'],[]).append(dict(component='game_model',reason=str(error)))
+            news=None
             try:
                 news=capture(root,'NFL',g);availability[g['event_id']]=news
+            except (ValueError,KeyError,OSError,TypeError) as error:errors.setdefault(g['event_id'],[]).append(dict(component='availability',reason=type(error).__name__))
+            try:forecasts[g['event_id']]=freeze(root,g,artifact,h,history,now(),availability=news)
+            except (ValueError,KeyError) as error:errors.setdefault(g['event_id'],[]).append(dict(component='game_model',reason=str(error)))
+            try:
+                if news is None:raise ValueError('AVAILABILITY_UNAVAILABLE')
                 deliveries[g['event_id']]=prop_run(root,'NFL',simulate_forecasts=False,canonical_event=g,availability_record=news,model_cache=cache)
             except (ValueError,KeyError,OSError,TypeError) as error:errors.setdefault(g['event_id'],[]).append(dict(component='player_forecasts',reason=type(error).__name__+':'+str(error)))
             print(json.dumps(dict(event_id=g['event_id'],game_forecast=g['event_id'] in forecasts,props=len(deliveries.get(g['event_id'],{}).get('predictions',[])),errors=errors.get(g['event_id'],[]))),flush=True)
@@ -208,6 +224,7 @@ def run(root,target_date,*,collect=False,daily_cap=24,reserve=50,refresh_sources
                 p_tie=f['p_tie'] if f else None,probability_basis=f['probability_basis'] if f else None,
                 projected_home_margin=f['projected_home_margin'] if f else None,model_version=f['model_version'] if f else None,
                 model_data_cutoff=f['model_data_cutoff'] if f else None,
+                availability_context=f.get('availability_context') if f else None,
                 main_market_status=access_row.get('main_market_status','NOT_REQUESTED'),prop_market_status=access_row.get('prop_market_status','NOT_REQUESTED'),
                 quotes=quotes,prop_forecasts=len(d['predictions']) if d else 0,availability_counts=dict(counts),
                 current_roster_players=len(news['records']) if news else 0,confirmed_roles=sum(p['role_confirmed'] for p in news['records']) if news else 0,
@@ -230,8 +247,10 @@ def run(root,target_date,*,collect=False,daily_cap=24,reserve=50,refresh_sources
             model_evaluation=model_status['evaluation'],game_model_status='RESEARCH_ONLY_FAILED_ELO_BENCHMARK' if not model_status['beats_both_baselines'] else 'RESEARCH_ONLY',
             before=baseline['before'],baseline_provenance=baseline,after=dict(game_forecasts=len(forecasts),prop_forecasts=len(props),
                 main_market_games=sum(g['main_market_status']=='FETCHED' for g in covered),prop_scanned_games=sum(g['prop_market_status']=='SCANNED' for g in covered),
-                all_frozen_prop_records=len(lookup),new_prop_records=len(lookup)-baseline['before']['frozen_prop_records'],
-                new_prop_records_this_execution=len(set(lookup)-before_hashes),price_comparisons=len(comparisons),
+                all_frozen_prop_records=sum(f.get('revision_kind')!='ASSUMPTIONS_AND_ELIGIBILITY_ONLY' for f in lookup.values()),
+                availability_revisions=sum(f.get('revision_kind')=='ASSUMPTIONS_AND_ELIGIBILITY_ONLY' for f in lookup.values()),
+                new_prop_records=sum(f.get('revision_kind')!='ASSUMPTIONS_AND_ELIGIBILITY_ONLY' for f in lookup.values())-baseline['before']['frozen_prop_records'],
+                new_prop_records_this_execution=len({h for h,f in lookup.items() if f.get('revision_kind')!='ASSUMPTIONS_AND_ELIGIBILITY_ONLY'}-baseline_hashes),price_comparisons=len(comparisons),
                 fresh_comparisons=sum(c['price_fresh'] for c in comparisons)),preserved_original_frozen_records=len(before_hashes),
             rejection_counts=dict(Counter(r['reason'] for r in rejects)),validated_edges=0,auto_bets_placed=0,core_enabled=False,
             blockers=['No prospective NFL game-model calibration or price-relative validation','Game ridge does not beat Elo on every metric',
